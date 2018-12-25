@@ -24,7 +24,7 @@ BlackthornPokecenter1FCooltrainerMScript:
 BlackthornPokecenter1FGentlemanText:
 	text "멀리 떨어진 석영고원"
 	line "에 있는 포켓몬 리그"
-
+	
 	para "전국에서 실력이 있는"
 	line "트레이너가 모여든다고 한다"
 	done

@@ -159,6 +159,7 @@ BugsyText_INeverLose:
 	para "그런 이유로 나의"
 	line "연구 성과를 보여주겠어"
 	done
+	
 
 BugsyText_ResearchIncomplete:
 	text "우와 대단해!"
@@ -170,7 +171,7 @@ BugsyText_ResearchIncomplete:
 	para "음! 알았다"
 	line "이 배지를 가지고 가!"
 	done
-
+	
 Text_ReceivedHiveBadge:
 	text "<PLAYER>는(은) 호일로부터"
 	line "인섹트배지를 받았다!"
@@ -235,18 +236,18 @@ BugCatcherAlSeenText:
 	line "벌레포켓몬의 매력을"
 	cont "가르쳐주마!"
 	done
-
+	
 BugCatcherAlBeatenText:
 	text "너의 강함을 배웠어!"
 	done
-
+	
 BugCatcherAlAfterBattleText:
 	text "이렇게 멋있는데"
 	line "벌레포켓몬을 싫어한다고 말하는"
 	cont "여자애들이 꽤 있단다"
 	cont "어째서인지 모르겠단말이야"
 	done
-
+	
 BugCatcherJoshSeenText:
 	text "야돈을 구해줬다고?"
 	line "제법이군"

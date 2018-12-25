@@ -135,7 +135,7 @@ CeladonCityTeacher2Text:
 	done
 
 CeladonCityLassText_Mobile:
-; unused/미번역
+; unused
 	text "I love being"
 	line "surrounded by tall"
 	cont "buildings!"

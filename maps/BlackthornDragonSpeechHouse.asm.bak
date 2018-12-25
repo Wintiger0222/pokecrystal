@@ -42,7 +42,7 @@ BlackthornDragonSpeechHouseGrannyText:
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
-	text "미뇽『미뇽-"
+	text "DRATINI: Draa!"
 	done
 
 BlackthornDragonSpeechHouse_MapEvents:

@@ -207,7 +207,7 @@ BlackBeltText_WeirdRadio:
 BlackBeltText_VoicesInMyHead:
 	text "우왁"
 	line "전파가 찌릿찌릿하다-!"
-
+	
 	para "응?"
 	line "라디오 듣고 있어"
 	done
@@ -224,7 +224,7 @@ BlackthornYoungsterText:
 
 MeetSantosText:
 	text "토영『…… …… ……"
-
+	
 	para "나는 토요일의 토영……"
 	done
 
@@ -234,19 +234,19 @@ SantosGivesGiftText:
 
 SantosGaveGiftText:
 	text "토영『…… …… ……"
-
+	
 	para "저주의 부적……"
-
+	
 	para "고스트타입의 기술이 강해진다"
 	line "네가 놀랄 정도로……"
 	done
 
 SantosSaturdayText:
 	text "토영『…… …… ……"
-
+	
 	para "다음 토요일에"
 	line "또 만나……"
-
+	
 	para "더 줄 물건은 없지만……"
 	done
 
@@ -259,7 +259,7 @@ SantosNotSaturdayText:
 BlackthornCooltrainerF2Text:
 	text "뭐!"
 	line "얼음샛길을 지나서 왔다고!"
-
+	
 	para "너 포켓몬 트레이너로서"
 	line "제법 뛰어난 솜씨를 지녔구나!!"
 	done
@@ -285,7 +285,7 @@ DragonDensSignText:
 
 BlackthornCityTrainerTipsText:
 	text "득이 되는 게시판!"
-
+	
 	para "기적의 열매를 지니게 하고있으면"
 	line "어떠한 특수 상태라도"
 	cont "회복합니다!"

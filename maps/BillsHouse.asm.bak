@@ -213,7 +213,7 @@ BillsGrandpaIntroText:
 	text "응? 너"
 	line "이수재에대해 알고있느냐?"
 	cont "이수재는 내 손자란다!"
-
+	
 	para "성도에서 컴퓨터…… 뭔가의"
 	line "일을 하고있어서"
 	cont "내가 집을 지키고 있단다!"
@@ -235,18 +235,17 @@ BillsGrandpaYouDontHaveItTextText:
 	done
 
 BillsGrandpaShownPokemonText:
-	text "그것이 "
-	line "@"
-	text_ram wStringBuffer3
+	text "그것이 @"
+	text_from_ram wStringBuffer3
 	text "인가!"
 	line "귀여운 포켓몬이로구나!"
-
+	
 	para "좋은 것 구경 잘 했다"
 	done
 
 BillsGrandpaTokenOfAppreciationText:
 	text "고맙구나!"
-
+	
 	para "답례로 이것을 주마!"
 	done
 
@@ -258,14 +257,14 @@ BillsGrandpaShownAllThePokemonText:
 	text "귀여운 포켓몬을"
 	line "많이 구경 잘 했다"
 	cont "고맙구나!"
-
+	
 	para "매우 즐거웠단다!"
 	line "이야아 역시 오래살고 볼 일이야!"
 	done
 
 BillsGrandpaWrongPokemonText:
 	text "우-움……"
-
+	
 	para "소문으로 들은 포켓몬은"
 	line "그렇게 생기지 않은 것 같은데……"
 	done
@@ -287,7 +286,7 @@ BillsGrandpaStaryuText:
 	text "몸에 빨간 구슬이 있는"
 	line "바다의 포켓몬이 있지?"
 	cont "별 모양을 하고있는 녀석"
-
+	
 	para "밤이되면 나타난다고 하던데"
 	line "내가 꼭 보고싶단다!"
 	done
@@ -301,7 +300,7 @@ BillsGrandpaGrowlitheText:
 BillsGrandpaVulpixText:
 	text "6개의 꼬리를 가진"
 	line "귀여운 포켓몬이 있다는데"
-
+	
 	para "나도 한번 그 포켓몬을"
 	line "안아보고 싶구나"
 	done
@@ -309,10 +308,10 @@ BillsGrandpaVulpixText:
 BillsGrandpaPichuText:
 	text "인기 최고의 포켓몬이"
 	line "있다는데!"
-
+	
 	para "이렇게! 노란색 몸에"
 	line "빨간 볼을 한 포켓몬이지"
-
+	
 	para "그것이 진화하기 전의 모습을"
 	line "한번 보고싶단다!"
 	done

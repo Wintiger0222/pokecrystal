@@ -11,9 +11,9 @@ ChrisNameMenuHeader:
 	db "스스로 결정하다@"
 MalePlayerNameArray:
 	db "크리스@"
-	db "MAT@"
-	db "ALLAN@"
-	db "JON@"
+	db "윤호@"
+	db "민혁@"
+	db "태윤@"
 	db 3 ; displacement
 	db "이름 후보@" ; title
 
@@ -30,9 +30,9 @@ KrisNameMenuHeader:
 	db "스스로 결정하다@"
 FemalePlayerNameArray:
 	db "크리스@"
-	db "AMANDA@"
-	db "JUANA@"
-	db "JODI@"
+	db "지혜@"
+	db "하영@"
+	db "소연@"
 	db 3 ; displacement
 	db "이름 후보@" ; title
 

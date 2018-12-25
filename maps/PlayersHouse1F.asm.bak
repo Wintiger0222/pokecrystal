@@ -229,8 +229,15 @@ IsItDSTText:
 	done
 
 ComeHomeForDSTText:
-	text "그래 그래"
-	line "전화의 사용방법 기억하고 있니?"
+	text "Come home to"
+	line "adjust your clock"
+
+	para "for Daylight"
+	line "Saving Time."
+
+	para "By the way, do you"
+	line "know how to use"
+	cont "the PHONE?"
 	done
 
 KnowTheInstructionsText:

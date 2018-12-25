@@ -66,7 +66,7 @@ DaisyScript:
 DaisyHelloText:
 	text "남나리『내 남동생"
 	line "상록시티 체육관의 관장이란다"
-
+	
 	para "종일 체육관을 비우고"
 	line "모두를 곤란하게 만드는 것 같아"
 	done
@@ -75,7 +75,7 @@ DaisyOfferGroomingText:
 	text "남나리『어서와"
 	line "마침 잘 되었어!"
 	cont "지금부터 녹차를 마실 시간이란다"
-
+	
 	para "응? 너의 포켓몬"
 	line "엄청 더러워진 것 같구나!"
 	cont "내가 깨끗하게 해줄까"
@@ -92,14 +92,14 @@ DaisyAlrightText:
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3
-	text "는(은)"
+	text"는(은)"
 	line "매우 기분이 좋아보인다!"
 	done
 
 DaisyAllDoneText:
 	text "남나리『자!"
 	line "엄청 깨끗해졌단다!"
-
+	
 	para "우후후"
 	line "귀여운 포켓몬이네!"
 	done

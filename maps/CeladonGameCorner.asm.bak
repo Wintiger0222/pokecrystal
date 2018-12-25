@@ -149,18 +149,18 @@ CeladonGameCornerUnusedMovementData:
 
 CeladonGameCornerReceptionistText:
 	text "어서오세요!"
-
+	
 	para "게임을 해서 모은 동전은"
 	line "옆의 교환장에서"
 	cont "마음에 드는 경품으로 골라주세요!"
 	done
-
+	
 CeladonGameCornerPokefanMText:
 	text "이곳의 슬롯머신은 전부"
 	line "최신형이란다!"
 	cont "진짜 재미있어서 참을 수 없단다!"
 	done
-
+	
 CeladonGameCornerTeacherText:
 	text "이거야 이 기계"
 	
@@ -172,26 +172,26 @@ CeladonGameCornerTeacherText:
 CeladonGameCornerFishingGuruText:
 	text "이 기계는 나올 것 같은"
 	line "기분이 들기는 하는데……"
-
+	
 	para "잘 터지는 슬롯머신과"
 	line "잘 되지 않는 슬롯머신이 있단다"
 	done
-
+	
 CeladonGameCornerFisherText1:
 	text "캬하핫!"
 	line "동전이 점점 나오고 있다!"
 	cont "웃음이 멈추지 않는다-!"
-
+	
 	para "…… 오? 꼬마야!"
 	line "게임을 하며 놀고싶은가?"
-
+	
 	para "좋아 나의 행운을"
 	line "나누어주마!"
 	done
 
 CeladonGameCornerFisherText2:
 	text "캬하핫!"
-
+	
 	para "다른사람에게 친절을 베풀면"
 	line "기분이 좋단다-!"
 	done
@@ -212,7 +212,7 @@ CeladonGymGuyText:
 	text "오오!"
 	line "미래의 챔피언!"
 	cont "슬롯머신을 할꺼니?"
-
+	
 	para "나도 경품의 포켓몬을"
 	line "노리고 있지만……"
 	cont "어찌 잘 동전이 모이질 않아서"
@@ -226,17 +226,17 @@ CeladonGameCornerGrampsText:
 
 CeladonGameCornerPoster1Text:
 	text "아!"
-
+	
 	para "포스터 뒤에……"
-
+	
 	para "아무것도 없었다!"
 	done
 
 CeladonGameCornerPoster2Text:
 	text "아!"
-
+	
 	para "포스터 뒤에……"
-
+	
 	para "아무것도 없었다!"
 	done
 

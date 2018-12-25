@@ -1268,160 +1268,158 @@ UnknownText_0x1c1a22::
 	done
 
 UnknownText_0x1c1a5b::
-	text " 잘먹을께!"
+	text " , yeah!"
 	done
 
 UnknownText_0x1c1a65::
-	text "안됐다……"
+	text "Darn…"
 	done
 
 UnknownText_0x1c1a6c::
-	text "대회를"
-	line "끝내겠습니까?"
+	text "Would you like to"
+	line "end the Contest?"
 	done
 
 UnknownText_0x1c1a90::
-	text "@"
+	text "Toss out how many"
+	line "@"
 	text_ram wStringBuffer2
-	text "를(을)"
-	line "몇 개 버리겠습니까?"
+	text "(S)?"
 	done
 
 UnknownText_0x1c1aad::
-	text "@"
-	text_ram wStringBuffer2
-	text "를(을)"
-	line "@"
+	text "Throw away @"
 	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text "개"
-	cont "버려도 되겠습니까?"
+	text_start
+	line "@"
+	text_ram wStringBuffer2
+	text "(S)?"
 	done
 
 UnknownText_0x1c1aca::
-	text "@"
+	text "Discarded"
+	line "@"
 	text_ram wStringBuffer1
-	text "를(을)"
-	line "버렸습니다!"
+	text "(S)."
 	prompt
 
 UnknownText_0x1c1adf::
-	text "그것은 매우 중요한 것 입니다!"
-	line "버리는 것은 할 수 없습니다!"
+	text "That's too impor-"
+	line "tant to toss out!"
 	prompt
 
 UnknownText_0x1c1b03::
-	text "오박사의 말씀……"
-	line "<PLAYER>야(아)! 그런 것은"
-	cont "사용할 때가 따로 있단다!"
+	text "OAK: <PLAYER>!"
+	line "This isn't the"
+	cont "time to use that!"
 	done
 
 UnknownText_0x1c1b2c::
-	text "@"
+	text "Took @"
 	text_ram wMonOrItemNameBuffer
-	text "(이)가"
-	line "가지고 있던"
-	cont "@"
+	text "'s"
+	line "@"
 	text_ram wStringBuffer1
-	text "를(을) 맡아서"
-	para "@"
+	text " and"
+
+	para "made it hold"
+	line "@"
 	text_ram wStringBuffer2
-	text "를(을)"
-	line "지니게 했다!"
+	text "."
 	prompt
 
 UnknownText_0x1c1b57::
-	text "@"
+	text "Made @"
 	text_ram wMonOrItemNameBuffer
-	text "에게"
-	line "@"
+	text_start
+	line "hold @"
 	text_ram wStringBuffer2
-	text "를(을)"
-	cont "지니게 했다!"
+	text "."
 	prompt
 
 UnknownText_0x1c1b6f::
-	text "메일을 풀지않으면"
-	line "도구는 지닐 수 없습니다!"
+	text "Please remove the"
+	line "MAIL first."
 	prompt
 
 UnknownText_0x1c1b8e::
 	text_ram wMonOrItemNameBuffer
-	text "는(은)"
-	line "아무것도 지니고 있지 않습니다!"
+	text " isn't"
+	line "holding anything."
 	prompt
 
 UnknownText_0x1c1baa::
-	text "도구가 잔뜩 있어서"
-	line "지닌 물건을 맡을 수 없습니다!"
+	text "Item storage space"
+	line "full."
 	prompt
 
 UnknownText_0x1c1bc4::
-	text "@"
-	text_ram wMonOrItemNameBuffer
-	text "(으)로부터"
-	line "@"
+	text "Took @"
 	text_ram wStringBuffer1
-	text "를(을)"
-	cont "맡았습니다!"
+	text_start
+	line "from @"
+	text_ram wMonOrItemNameBuffer
+	text "."
 	prompt
 
 UnknownText_0x1c1bdc::
-	text "@"
 	text_ram wMonOrItemNameBuffer
-	text "는(은)"
-	line "@"
-	text_ram wStringBuffer1
-	text "를(을)"
-	cont "이미 지니고 있습니다"
+	text " is"
+	line "already holding"
 
-	para "들고 있는 도구를"
-	line "바꾸겠습니까?"
+	para "@"
+	text_ram wStringBuffer1
+	text "."
+	line "Switch items?"
 	done
 
 UnknownText_0x1c1c09::
-	text "이 도구는"
-	line "지닐 수가 없습니다!"
+	text "This item can't be"
+	line "held."
 	prompt
 
 UnknownText_0x1c1c22::
-	text "메일을 읽으면 메세지가"
-	line "사라져버립니다만 괜찮습니까?"
+	text "The MAIL will lose"
+	line "its message. OK?"
 	done
 
 UnknownText_0x1c1c47::
-	text "@"
+	text "MAIL detached from"
+	line "@"
 	text_ram wStringBuffer1
-	text "에게서 메일을"
-	line "받았습니다!"
+	text "."
 	prompt
 
 UnknownText_0x1c1c62::
-	text "도구가 잔뜩 있어서"
-	line "메일을 받을 수 없습니다"
+	text "There's no space"
+	line "for removing MAIL."
 	prompt
 
 UnknownText_0x1c1c86::
-	text "받은 메일을 컴퓨터에"
-	line "전송하겠습니까?"
+	text "Send the removed"
+	line "MAIL to your PC?"
 	done
 
 UnknownText_0x1c1ca9::
-	text "컴퓨터의 메일박스가"
-	line "가득 찼습니다!"
+	text "Your PC's MAILBOX"
+	line "is full."
 	prompt
 
 UnknownText_0x1c1cc4::
-	text "메일을 컴퓨터에"
-	line "전송했습니다"
+	text "The MAIL was sent"
+	line "to your PC."
 	prompt
 
 UnknownText_0x1c1ce3::
-	text "체력이 부족합니다!"
+	text "Not enough HP!"
 	prompt
 
 UnknownText_0x1c1cf3::
-	text "가방에 넣어둔 도구를"
-	line "편리버튼에 등록할 수 있습니다"
+	text "An item in your"
+	line "PACK may be"
+
+	para "registered for use"
+	line "on SELECT Button."
 	done
 
 _OakText1::

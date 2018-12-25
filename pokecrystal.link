@@ -8,8 +8,6 @@ ROM0
 	"rst10"
 	org $0018
 	"rst18"
-	org $0020
-	"rst20"
 	org $0028
 	"rst28"
 	org $0038
@@ -294,12 +292,22 @@ ROMX $73
 	"Pokedex Entries 129-192"
 ROMX $74
 	"Pokedex Entries 193-251"
+ROMX $75
+	"Move Descriptions"
+ROMX $76
+	"Korean"
 ROMX $77
 	"bank77"
 	"Tileset Data 7"
 	"bank77_2"
 ROMX $78
 	"Tileset Data 8"
+	org $5000
+	"Korean Font 1"
+ROMX $79
+	"Korean Font 2"
+ROMX $7A
+	"Korean Font 3"
 ROMX $7b
 	"Battle Tower Text"
 ROMX $7c
@@ -330,6 +338,8 @@ WRAMX 2
 	"Pic Animations"
 WRAMX 3
 	"Battle Tower RAM"
+WRAMX 4
+	"Korean WRAM"
 WRAMX 5
 	"GBC Video"
 	org $d300

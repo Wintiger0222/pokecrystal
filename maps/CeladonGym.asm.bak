@@ -115,16 +115,16 @@ ErikaBeforeBattleText:
 	line "좋은 날씨로군요"
 	cont "……자기도 모르게 꾸벅꾸벅"
 	cont "잠들어버릴 것 같네요……"
-
+	
 	para "나는 무지개시티 체육관의"
 	line "민화라고 합니다"
-
+	
 	para "…… ……아아!"
 	line "성도로부터 멀리서도"
-
+	
 	para "…… 엣"
 	line "시합을 하시려구요?"
-
+	
 	para "저런……"
 	line "난 지지 않아요"
 	done
@@ -132,9 +132,9 @@ ErikaBeforeBattleText:
 ErikaBeatenText:
 	text "민화『……!"
 	line "졌습니다"
-
+	
 	para "아주 강하군요……"
-
+	
 	para "이 무지개배지를"
 	line "드리겠습니다"
 	done
@@ -148,12 +148,12 @@ ErikaExplainTMText:
 	text "민화『멋있는 시합이었어요"
 	line "저는 아주 감동했어요"
 	cont "이 기술머신을 드리겠습니다"
-
+	
 	para "기가 드레인이라고 하는"
 	line "받은 데미지의 반이"
 	cont "포켓몬의 영양이 되는"
 	cont "대단한 기술입니다"
-
+	
 	para "괜찮다면"
 	line "사용해보세요"
 	done
@@ -161,7 +161,7 @@ ErikaExplainTMText:
 ErikaAfterBattleText:
 	text "민화『진다고 하는 것은"
 	line "분한 것이군요……"
-
+	
 	para "그러나 강한 분이 계시다는"
 	line "것은 격려가 되기도 하는군요"
 	done
@@ -221,7 +221,6 @@ TwinsJoAndZoe1AfterBattleText:
 	text "민화 언니가"
 	line "복수를 할꺼예요!"
 	done
-
 TwinsJoAndZoe2SeenText:
 	text "민화 언니는"
 	line "우리들이 지킬꺼예요!"

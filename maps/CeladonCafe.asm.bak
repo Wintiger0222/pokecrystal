@@ -118,7 +118,7 @@ CeladonCafeTrashcan:
 
 ChefText_Eatathon:
 	text "어서와요!"
-
+	
 	para "많이먹기 대회가"
 	line "한창이다!"
 	cont "미안하구나!"
@@ -155,7 +155,6 @@ Fisher3Text_GoldenrodIsBest:
 TeacherText_CrunchCrunch:
 	text "열심열심……!"
 	done
-
 TeacherText_NoCoinCase:
 	text "이 가게에 동전 케이스를"
 	line "주는 사람은 없어"
@@ -164,7 +163,7 @@ TeacherText_NoCoinCase:
 
 TeacherText_KeepEating:
 	text "으작으작……!"
-
+	
 	para "아직도 먹을 수 있어!"
 	done
 
@@ -178,7 +177,7 @@ EatathonContestPosterText:
 	cont "끝이 없는 배틀!"
 	cont "1등은 공짜가 되겠습니다!"
 	done
-
+	
 FoundLeftoversText:
 	text "<PLAYER>는(은)"
 	line "@"

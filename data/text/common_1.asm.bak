@@ -1259,348 +1259,383 @@ UnknownText_0x1bd266::
 	done
 
 UnknownText_0x1bd286::
+	text "Trading @"
 	text_ram wStringBuffer2
-	text "(과)와 @"
+	text_start
+	line "for @"
 	text_ram wStringBuffer1
-	text "를(을)"
-	line "교환합니다"
+	text "…"
 	done
 
 UnknownText_0x1bd2a0::
-	text "찌리리공배지 넌 내꺼야!!"
+	text "Obtained the"
+	line "VOLTORBBADGE!"
 	done
 
 UnknownText_0x1bd2bc::
-	text "몇층에 가십니까?"
+	text "Which floor?"
 	done
 
 UnknownText_0x1bd2ca::
-	text "아나운서『딩동댕!"
+	text "ANNOUNCER: BEEEP!"
 
-	para "시간이 되었습니다!"
+	para "Time's up!"
 	done
 
 UnknownText_0x1bd2e7::
-	text "아나운서『곤충채집 대회"
-	line "끝났습니다!"
+	text "ANNOUNCER: The"
+	line "Contest is over!"
 	done
 
 UnknownText_0x1bd308::
-	text "스프레이의 효과가 떨어졌다"
+	text "REPEL's effect"
+	line "wore off."
 	done
 
 UnknownText_0x1bd321::
-	text "<PLAYER>는(은)"
+	text "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3
-	text "를(을)"
-	cont "발견했다!"
+	text "!"
 	done
 
 UnknownText_0x1bd331::
-	text "그러나 <PLAYER>는(은)"
-	line "도구를 더 이상 지닐 수 없다!"
+	text "But <PLAYER> has"
+	line "no space left…"
 	done
 
 UnknownText_0x1bd34b::
-	text "지금 @"
-	text_ram wStringBuffer2
-	text "에서"
-	line "희귀한 @"
+	text "I just saw some"
+	line "rare @"
 	text_ram wStringBuffer1
-	text ""
-	cont "를(을) 봤어!"
+	text " in"
+	cont "@"
+	text_ram wStringBuffer2
+	text "."
 
-	para "또 희귀한 포켓몬을"
-	line "발견하면 전화할께!"
+	para "I'll call you if I"
+	line "see another rare"
+	cont "#MON, OK?"
 	prompt
 
 UnknownText_0x1bd39e::
-	text "전당등록 데이터를 쓰고 있는 중"
-	line "전원을 끊지 말아주세요"
+	text "SAVING RECORD…"
+	line "DON'T TURN OFF!"
 	done
 
 UnknownText_0x1bd3be::
-	text "@"
 	text_ram wPlayerName
-	text "는(은)"
-	line "배달원으로부터"
-	cont "@"
+	text " received"
+	line "@"
 	text_ram wStringBuffer1
-	text "를(을) 받았다@"
+	text "!@"
 	sound_item
 	text_waitbutton
-	db "@@"
+	text_end
+
+	text_end ; unused
 
 UnknownText_0x1bd3d7::
-	text "동전을 가지고 있지 않습니다!"
+	text "You have no coins."
 	prompt
 
 UnknownText_0x1bd3eb::
-	text "동전 케이스가 없습니다!!"
+	text "You don't have a"
+	line "COIN CASE."
 	prompt
 
 UnknownText_0x1bd407::
-	text "자-"
-	line "케이블을 연결해서……그리고"
+	text "OK, connect the"
+	line "Game Link Cable."
 	prompt
 
 UnknownText_0x1bd429::
-	text "<PLAYER>는(은)"
+	text "<PLAYER> traded"
 	line "@"
 	text_ram wMonOrItemNameBuffer
-	text "와(과)"
+	text " for"
 	cont "@"
 	text_ram wStringBuffer2
-	text "를(을)"
-	cont "교환했다!@@"
+	text ".@"
+	text_end
 
 UnknownText_0x1bd445::
 	sound_dex_fanfare_80_109
-	interpret_data
-	db "@@"
+	text_pause
+	text_end
+
+	text_end ; unused
 
 UnknownText_0x1bd449::
-	text "나, 포켓몬 모으고 있어!"
-	line "너는 @"
+	text "I collect #MON."
+	line "Do you have"
+	cont "@"
 	text_ram wStringBuffer1
-	text "를(을)"
-	cont "가지고 있니?"
+	text "?"
 
-	para "내 @"
+	para "Want to trade it"
+	line "for my @"
 	text_ram wStringBuffer2
-	text "(이)랑"
-	line "교환할래?"
+	text "?"
 	done
 
 UnknownText_0x1bd48c::
-	text "바꿔주지 않을꺼니?"
-	line "쳇, 실망이다……"
+	text "You don't want to"
+	line "trade? Aww…"
 	done
 
 UnknownText_0x1bd4aa::
-	text "얼라리……?"
+	text "Huh? That's not"
 	line "@"
 	text_ram wStringBuffer1
-	text "(이)가 아니야"
-	cont "쳇, 유감이로군……"
+	text ". "
+	cont "What a letdown…"
 	done
 
 UnknownText_0x1bd4d2::
-	text "신난다!"
+	text "Yay! I got myself"
 	line "@"
 	text_ram wStringBuffer1
-	text "(이)가"
-	cont "손에 들어왔다"
-	cont "고마워!"
+	text "!"
+	cont "Thanks!"
 	done
 
 UnknownText_0x1bd4f4::
-	text "야아!"
-	line "나랑 바꿨던 @"
+	text "Hi, how's my old"
+	line "@"
 	text_ram wStringBuffer2
-	text ""
-	cont "잘 지내니?"
+	text " doing?"
 	done
 
 UnknownText_0x1bd512::
-	text "이봐 너……"
-	line "찾는 포켓몬이 있는데"
+	text "Hi, I'm looking"
+	line "for this #MON."
 
-	para "만일 @"
+	para "If you have"
+	line "@"
 	text_ram wStringBuffer1
-	text "를(을)"
-	line "가지고 있다면"
-	cont "내 @"
+	text ", would"
+
+	para "you trade it for"
+	line "my @"
 	text_ram wStringBuffer2
-	text "(이)랑"
-	cont "교환하지 않을래?"
+	text "?"
 	done
 
 UnknownText_0x1bd565::
-	text "너도 가지고 있지 않다고?……"
-	line "유감이군……"
+	text "You don't have"
+	line "one either?"
+
+	para "Gee, that's really"
+	line "disappointing…"
 	done
 
 UnknownText_0x1bd5a1::
-	text "@"
+	text "You don't have"
+	line "@"
 	text_ram wStringBuffer1
-	text "을(를)"
-	line "가지고 있지 않니?"
-	cont "그럼 할 수 없군……"
+	text "? That's"
+	cont "too bad, then."
 	done
 
 UnknownText_0x1bd5cc::
-	text "오오!"
-	line "고맙다!"
+	text "Great! Thank you!"
 
-	para "드디어 @"
+	para "I finally got"
+	line "@"
 	text_ram wStringBuffer1
-	text "(이)가"
-	line "손에 들어왔어!"
+	text "."
 	done
 
 UnknownText_0x1bd5f4::
-	text "오오!"
-
-	para "네게 받은 @"
+	text "Hi! The @"
 	text_ram wMonOrItemNameBuffer
-	text ""
-	line "는(은) 매우 건강하단다!"
+	text_start
+	line "you traded me is"
+	cont "doing great!"
 	done
 
 UnknownText_0x1bd621::
-	text "@"
 	text_ram wMonOrItemNameBuffer
-	text " 귀엽지!"
-	line "하지만 나는 가지고 있지 않아……"
-	cont "너 @"
-	text_ram wStringBuffer1
-	text ""
-	cont "가지고 있니?"
+	text "'s cute,"
+	line "but I don't have"
 
-	para "내 @"
+	para "it. Do you have"
+	line "@"
+	text_ram wStringBuffer1
+	text "?"
+
+	para "Want to trade it"
+	line "for my @"
 	text_ram wStringBuffer2
-	text "(이)랑"
-	line "교환하자!"
+	text "?"
 	done
 
 UnknownText_0x1bd673::
-	text "교환하지 않는다구?"
-	line "에이…… 실망……"
+	text "You don't want to"
+	line "trade? Oh, darn…"
 	done
 
 UnknownText_0x1bd696::
-	text "@"
+	text "That's not"
+	line "@"
 	text_ram wStringBuffer1
-	text "(이)가"
-	line "아니잖아"
-	cont "그거 잡으면 바꿔줘!"
+	text "."
+
+	para "Please trade with"
+	line "me if you get one."
 	done
 
 UnknownText_0x1bd6cd::
-	text "와아! 고마워!"
-	line "@"
+	text "Wow! Thank you!"
+	line "I always wanted"
+	cont "@"
 	text_ram wMonOrItemNameBuffer
-	text " 갖고싶었어!"
+	text "!"
 	done
 
 UnknownText_0x1bd6f5::
-	text "교환했던 @"
+	text "How is that"
+	line "@"
 	text_ram wStringBuffer2
-	text ""
-	line "잘 있니?"
-	cont "@"
+	text " I"
+	cont "traded you doing?"
+
+	para "Your @"
 	text_ram wMonOrItemNameBuffer
-	text "는(은)"
-	cont "엄청 귀여워!"
+	text "'s"
+	line "so cute!"
 	done
 
-UnknownText_0x1bd731::	
-	text "어라? 왜지?"
+UnknownText_0x1bd731::
+	text "Uh? What happened?"
 	done
-	
-UnknownText_0x1bd745::	
-	text "교환이란 건 신기하구나…"
-	
-	para "아저씨는 아직도"
-	line "모르는 게 많단다"
+
+UnknownText_0x1bd745::
+	text "Trading is so odd…"
+
+	para "I still have a lot"
+	line "to learn about it."
 	done
 
 UnknownText_0x1bd77f::
-	text "와아 귀여운 포켓몬이네"
-	line "어쩐 일이니?"
+	text "Wow, that's a cute"
+	line "#MON."
 
-	para "…………………………"
-	line "……그래…… 모험을 떠나는구나"
+	para "Where did you get"
+	line "it?"
 
-	para "좋아!"
-	line "엄마도 협력해 줄게"
-	cont "뭘 할 수 있을까……?"
+	para "…"
 
-	para "맞아!"
-	line "돈을 맡아줄게"
+	para "So, you're leaving"
+	line "on an adventure…"
 
-	para "긴 여행이 될 것 같으니까"
-	line "돈을 소중히 해야지!"
+	para "OK!"
+	line "I'll help too."
 
-	para "어때, 저금할래?"
+	para "But what can I do"
+	line "for you?"
+
+	para "I know! I'll save"
+	line "money for you."
+
+	para "On a long journey,"
+	line "money's important."
+
+	para "Do you want me to"
+	line "save your money?"
 	done
 
 UnknownText_0x1bd868::
-	text "저금한다고?"
-	line "맡겨줘!"
+	text "OK, I'll take care"
+	line "of your money."
 
-	para "…………………………"
+	para "<……><……><……>"
 	prompt
 
 UnknownText_0x1bd88e::
-	text "……몸조심하거라"
+	text "Be careful."
 
-	para "포켓몬은 소중한 친구"
-	line "힘을 합쳐 분발하는거야"
+	para "#MON are your"
+	line "friends. You need"
+	cont "to work as a team."
 
-	para "잘 다녀와라!"
+	para "Now, go on!"
 	done
 
 UnknownText_0x1bd8da::
-	text "어서오너라!"
-	line "열심히하고 있는 것 같네"
+	text "Hi! Welcome home!"
+	line "You're trying very"
+	cont "hard, I see."
 
-	para "2층은 잘 정리되어있단다"
-	line "그게 아니면 저금때문이니?"
+	para "I've kept your"
+	line "room tidy."
+
+	para "Or is this about"
+	line "your money?"
 	done
 
 UnknownText_0x1bd942::
-	text "뭘 하겠니?"
+	text "What do you want"
+	line "to do?"
 	done
 
 UnknownText_0x1bd95b::
-	text "얼마 맡길꺼니?"
+	text "How much do you"
+	line "want to save?"
 	done
 
 UnknownText_0x1bd97a::
-	text "얼마 찾아갈꺼야?"
+	text "How much do you"
+	line "want to take?"
 	done
 
 UnknownText_0x1bd999::
-	text "저금할래?"
+	text "Do you want to"
+	line "save some money?"
 	done
 
 UnknownText_0x1bd9ba::
-	text "그렇게 많이 맡아두지 않았어"
+	text "You haven't saved"
+	line "that much."
 	prompt
 
 UnknownText_0x1bd9d7::
-	text "그렇게 많이 가지고 갈 수 없어"
+	text "You can't take"
+	line "that much."
 	prompt
 
 UnknownText_0x1bd9f1::
-	text "그렇게 많이 지니고 있지 않잖아"
+	text "You don't have"
+	line "that much."
 	prompt
 
 UnknownText_0x1bda0b::
-	text "그렇게 맡아둘 수 없어"
+	text "You can't save"
+	line "that much."
 	prompt
 
 UnknownText_0x1bda25::
-	text "저금한다고?"
-	line "맡겨둬!"
+	text "OK, I'll save your"
+	line "money. Trust me!"
 
-	para "<PLAYER>! 힘내라!"
+	para "<PLAYER>, stick"
+	line "with it!"
 	done
 
 UnknownText_0x1bda5b::
-	text "소중히 맡아둘께"
-	line "힘내!"
+	text "Your money's safe"
+	line "here! Get going!"
 	done
 
 UnknownText_0x1bda7e::
-	text "<PLAYER>! 힘내거라!"
+	text "<PLAYER>, don't"
+	line "give up!"
 	done
 
 UnknownText_0x1bda90::
-	text "무리하지 말거라"
+	text "Just do what"
+	line "you can."
 	done
 
 UnknownText_0x1bdaa7::
@@ -1608,195 +1643,220 @@ UnknownText_0x1bdaa7::
 	done
 
 UnknownText_0x1bdaa9::
-	text "나는 보모 할아버지다"
-	line "뭔가 양육시키고싶은가?"
+	text "I'm the DAY-CARE"
+	line "MAN. Want me to"
+	cont "raise a #MON?"
 	done
 
 UnknownText_0x1bdad8::
-	text "나는 보모 할아버지다"
-	line "알에 대한 이야기 해줄까?"
+	text "I'm the DAY-CARE"
+	line "MAN. Do you know"
+	cont "about EGGS?"
 
-	para "할멈과 포켓몬을 양육하고 있는데"
-	line "………깜짝 놀랬단다!"
+	para "I was raising"
+	line "#MON with my"
+	cont "wife, you see."
 
-	para "어쩐지! 알이 있더군!"
-	line "이상한 일도 있지"
+	para "We were shocked to"
+	line "find an EGG!"
 
-	para "어떤가?"
-	line "네 포켓몬의 양육을 맡겨보겠니?"
+	para "How incredible is"
+	line "that?"
+
+	para "So, want me to"
+	line "raise a #MON?"
 	done
 
 UnknownText_0x1bdb85::
-	text "나는 보모 할머니다"
-	line "뭔가 양육시키고싶은가?"
+	text "I'm the DAY-CARE"
+	line "LADY."
+
+	para "Should I raise a"
+	line "#MON for you?"
 	done
 
 UnknownText_0x1bdbbb::
-	text "나는 보모 할머니다"
-	line "알에 대한 이야기 해줄까?"
+	text "I'm the DAY-CARE"
+	line "LADY. Do you know"
+	cont "about EGGS?"
 
-	para "할아범과 포켓몬을 양육하고 있는데"
-	line "………깜짝 놀랬단다!"
+	para "My husband and I"
+	line "were raising some"
+	cont "#MON, you see."
 
-	para "어쩐지! 알이 있더군!"
-	line "이상한 일도 있지"
+	para "We were shocked to"
+	line "find an EGG!"
 
-	para "어떤가?"
-	line "네 포켓몬의 양육을 맡겨보겠니?"
+	para "How incredible"
+	line "could that be?"
+
+	para "Should I raise a"
+	line "#MON for you?"
 	done
 
 UnknownText_0x1bdc79::
-	text "그럼"
-	line "어느 것을 양육해보겠니?"
+	text "What should I"
+	line "raise for you?"
 	prompt
 
 UnknownText_0x1bdc97::
-	text "으응? 포켓몬이"
-	line "1마리밖에 없는 것 같구만"
+	text "Oh? But you have"
+	line "just one #MON."
 	prompt
 
 UnknownText_0x1bdcb8::
-	text "미안하지만"
-	line "알은 맡아줄 수 없단다"
+	text "Sorry, but I can't"
+	line "accept an EGG."
 	prompt
 
 UnknownText_0x1bdcda::
-	text "그전에"
-	line "메일을 빼놓고 오거라"
+	text "Remove MAIL before"
+	line "you come see me."
 	prompt
 
 UnknownText_0x1bdcff::
-	text "그것을 맡긴다면"
-	line "싸울 수 없게 되어버릴껄"
+	text "If you give me"
+	line "that, what will"
+	cont "you battle with?"
 	prompt
 
 UnknownText_0x1bdd30::
-	text "알겠다"
-	line "잠시 @"
+	text "OK. I'll raise"
+	line "your @"
 	text_ram wStringBuffer1
-	text "를(을)"
-	cont "맡아두마"
+	text "."
 	prompt
 
 UnknownText_0x1bdd4b::
-	text "적당히 시간이 지나면"
-	line "또 오너라"
+	text "Come back for it"
+	line "later."
 	done
 
 UnknownText_0x1bdd64::
-	text "역시 우리들은 천재인가봐!"
-	line "너의 @"
+	text "Are we geniuses or"
+	line "what? Want to see"
+	cont "your @"
 	text_ram wStringBuffer1
-	text " 봐 볼까"
+	text "?"
 	done
 
 UnknownText_0x1bdd96::
-	text "자네의 @"
+	text "Your @"
 	text_ram wStringBuffer1
-	text ""
-	line "꽤 성장했단다"
+	text_start
+	line "has grown a lot."
 
-	para "그렇지, 레벨로 말하자면"
-	line "@"
+	para "By level, it's"
+	line "grown by @"
 	text_decimal wStringBuffer2 + 1, 1, 3
-	text "정도로 키웠단다"
+	text "."
 
-	para "……음, 포켓몬을 찾아간다면"
-	line "요금은 @"
+	para "If you want your"
+	line "#MON back, it"
+	cont "will cost ¥@"
 	text_decimal wStringBuffer2 + 2, 3, 4
-	text "원일세!"
+	text "."
 	done
 
 UnknownText_0x1bde04::
-	text "자 여기!"
-	line "그럼 포켓몬 데리고가거라"
+	text "Perfect! Here's"
+	line "your #MON."
 	prompt
 
 UnknownText_0x1bde1f::
-	text "<PLAYER>는(은) 보모로부터"
+	text "<PLAYER> got back"
 	line "@"
 	text_ram wStringBuffer1
-	text "를(을)"
-	cont "찾았다!"
+	text "."
 	prompt
 
 UnknownText_0x1bde32::
-	text "뭐야, 벌써 왔는가?"
-	line "너의 @"
+	text "Huh? Back already?"
+	line "Your @"
 	text_ram wStringBuffer1
-	text "는(은)…"
+	text_start
+	para "needs a little"
+	line "more time with us."
 
-	para "아직 약간"
-	line "시간이 걸릴 것 같다"
-
-	para "……그래도 포켓몬을 찾아간다면"
-	line "요금은 100원이다"
+	para "If you want your"
+	line "#MON back, it"
+	cont "will cost ¥100."
 	done
 
 UnknownText_0x1bdea2::
-	text "그 이상은 지닐 수 없단다"
+	text "You have no room"
+	line "for it."
 	prompt
 
 UnknownText_0x1bdebc::
-	text "돈이 부족한 것 같구만"
+	text "You don't have"
+	line "enough money."
 	prompt
 
 UnknownText_0x1bded9::
-	text "그래, 그렇다면"
+	text "Oh, fine then."
 	prompt
 
 UnknownText_0x1bdee9::
-	text "또 오너라"
+	text "Come again."
 	done
 
 UnknownText_0x1bdef6::
-	text "아직이란다"
+	text "Not yet…"
 	done
 
 UnknownText_0x1bdf00::
-	text "오오! 자넨가"
+	text "Ah, it's you!"
 
-	para "맡고있던 포켓몬을"
-	line "양육하고 있으니까……이런일이!"
+	para "We were raising"
+	line "your #MON, and"
 
-	para "포켓몬이 알을"
-	line "가지고 있더군!"
+	para "my goodness, were"
+	line "we surprised!"
 
-	para "어디서 가지고 왔는지 모르겠지만"
-	line "너의 포켓몬이 가지고 왔겠지!"
-	cont "역시 가지고싶겠지?"
+	para "Your #MON had"
+	line "an EGG!"
+
+	para "We don't know how"
+	line "it got there, but"
+
+	para "your #MON had"
+	line "it. You want it?"
 	done
 
 UnknownText_0x1bdfa5::
-	text "<PLAYER>는(은) 보모로부터"
-	line "알을 건네어 받았다!"
+	text "<PLAYER> received"
+	line "the EGG!"
 	done
 
 UnknownText_0x1bdfba::
-	text "소중히 키우거라"
+	text "Take good care of"
+	line "it."
 	done
 
 UnknownText_0x1bdfd1::
-	text "그렇다면 내가 받지"
-	line "고맙구나"
+	text "Well then, I'll"
+	line "keep it. Thanks!"
 	done
 
 UnknownText_0x1bdff2::
-	text "그 이상은 지니고 갈 수 없단다"
-	line "다음 번에 가지고가거라"
+	text "You have no room"
+	line "in your party."
+	cont "Come back later."
 	done
 
 UnknownText_0x1be024::
-	text "어느 포켓몬을"
-	line "촬영할껀가?"
+	text "Which #MON"
+	line "should I photo-"
+	cont "graph?"
 	prompt
 
 UnknownText_0x1be047::
-	text "좋아!"
-	line "잠시 가만 있거라"
+	text "All righty. Hold"
+	line "still for a bit."
 	prompt
 
 UnknownText_0x1be06a::
-	text "자! 다 끝났다!"
-	line "또 오너라"
+	text "Presto! All done."
+	line "Come again, OK?"
 	done

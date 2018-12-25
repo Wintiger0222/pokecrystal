@@ -119,7 +119,8 @@ CooltrainerfFranAfterBattleText:
 	done
 
 BlackthornGym2FBoulderFellText:
-	text "바위는 아래에 떨어졌다!"
+	text "The boulder fell"
+	line "through!"
 	done
 
 BlackthornGym2F_MapEvents:

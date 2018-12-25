@@ -39,8 +39,9 @@ _TitleScreen:
 ; line 0 (copyright)
 	hlbgcoord 0, 0, vBGMap1
 	ld bc, BG_MAP_WIDTH
-	ld a, 7 ; palette
+	ld a, 5 ; palette
 	call ByteFill
+
 
 ; BG Map 0:
 
@@ -48,28 +49,18 @@ _TitleScreen:
 
 ; lines 3-4
 	hlbgcoord 0, 3
-	ld bc, 2 * BG_MAP_WIDTH
-	ld a, 2
+	ld bc, 1 * BG_MAP_WIDTH
+	ld a, 1
 	call ByteFill
-; line 5
-	hlbgcoord 0, 5
-	ld bc, BG_MAP_WIDTH
+; line 4-6
+	hlbgcoord 0, 4
+	ld bc, 3 * BG_MAP_WIDTH
 	ld a, 3
 	call ByteFill
-; line 6
-	hlbgcoord 0, 6
-	ld bc, BG_MAP_WIDTH
-	ld a, 4
-	call ByteFill
-; line 7
+; line 7-9
 	hlbgcoord 0, 7
-	ld bc, BG_MAP_WIDTH
-	ld a, 5
-	call ByteFill
-; lines 8-9
-	hlbgcoord 0, 8
-	ld bc, 2 * BG_MAP_WIDTH
-	ld a, 6
+	ld bc, 3 * BG_MAP_WIDTH
+	ld a, 4
 	call ByteFill
 
 ; 'CRYSTAL VERSION'
@@ -77,7 +68,11 @@ _TitleScreen:
 	ld bc, NAME_LENGTH ; length of version text
 	ld a, 1
 	call ByteFill
-
+	hlbgcoord 5, 10
+	ld bc, NAME_LENGTH ; length of version text
+	ld a, 1
+	call ByteFill
+	
 ; Suicune gfx
 	hlbgcoord 0, 12
 	ld bc, 6 * BG_MAP_WIDTH ; the rest of the screen
@@ -106,7 +101,7 @@ _TitleScreen:
 
 ; Draw Pokemon logo
 	hlcoord 0, 3
-	lb bc, 7, 20
+	lb bc, 8, 20
 	ld d, $80
 	ld e, $14
 	call DrawTitleGraphic
@@ -114,7 +109,7 @@ _TitleScreen:
 ; Draw copyright text
 	hlbgcoord 3, 0, vBGMap1
 	lb bc, 1, 13
-	ld d, $c
+	ld d, $20
 	ld e, $10
 	call DrawTitleGraphic
 
