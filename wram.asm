@@ -2662,7 +2662,7 @@ wCurBox:: db ; db72
 	ds 2
 
 ; 8 chars + $50
-wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES ; db75
+;wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES ; db75
 
 wCelebiEvent:: ; dbf3
 ; bit 2: forest is restless
@@ -3083,6 +3083,17 @@ NEXTU ; d422
 wSurfWaveBGEffect:: ds $40
 wSurfWaveBGEffectEnd::
 ENDU ; d462
+
+
+SECTION "Korean WRAM", WRAMX
+wKoreanFontDataBuffer:: ds $80
+wKoreanTextTableBuffer:: ds $80
+wKoreanTextTableBufferEnd::
+wKoreanFontProperty:: db
+
+wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES
+wBoxNamesEnd::
+wBoxNameBuffer:: db
 
 
 SECTION "Mobile RAM", WRAMX

@@ -7,8 +7,10 @@ PrintMoveDesc:
 	ld b, 0
 	add hl, bc
 	add hl, bc
-	ld a, [hli]
-	ld e, a
-	ld d, [hl]
+	ld a, BANK(MoveDescriptions)
+	call GetFarHalfword
+	ld d, h
+	ld e, l
 	pop hl
-	jp PlaceString
+	ld a, BANK(MoveDescriptions)
+	jp FarString

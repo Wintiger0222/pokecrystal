@@ -146,7 +146,7 @@ INCLUDE "engine/events/move_deleter.asm"
 INCLUDE "engine/link/mystery_gift_2.asm"
 INCLUDE "engine/items/tmhm.asm"
 INCLUDE "engine/pokemon/print_move_description.asm"
-INCLUDE "data/moves/descriptions.asm"
+;INCLUDE "data/moves/descriptions.asm"
 INCLUDE "engine/events/pokerus/pokerus.asm"
 INCLUDE "engine/battle/start_battle.asm"
 INCLUDE "engine/gfx/place_graphic.asm"
@@ -568,6 +568,18 @@ INCLUDE "data/items/names.asm"
 INCLUDE "engine/items/print_item_description.asm"
 INCLUDE "data/moves/names.asm"
 INCLUDE "engine/overworld/landmarks.asm"
+
+
+SECTION "Move Descriptions", ROMX
+
+INCLUDE "data/moves/descriptions.asm"
+
+
+SECTION "Korean", ROMX
+
+INCLUDE "engine/korean/naming_screen_korean.asm"
+INCLUDE "engine/korean/text_korean.asm"
+INCLUDE "data/korean/korean.asm"
 
 
 SECTION "bank77", ROMX

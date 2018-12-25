@@ -28,16 +28,16 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "일@"
+	db "월@"
+	db "화@"
+	db "수@"
+	db "목@"
+	db "금@"
+	db "토@"
 
 .Day:
-	db "DAY@"
+	db "요일@"
 
 NewGame_ClearTileMapEtc:
 	xor a
@@ -226,6 +226,16 @@ endc
 	ret
 
 SetDefaultBoxNames:
+	ldh a, [rSVBK]
+	push af
+	ld a, BANK(wBoxNames)
+	ldh [rSVBK], a
+
+	ld bc, wBoxNamesEnd - wBoxNames
+	ld hl, wBoxNames
+	xor a
+	call ByteFill
+
 	ld hl, wBoxNames
 	ld c, 0
 .loop
@@ -246,16 +256,19 @@ SetDefaultBoxNames:
 	ld [hli], a
 	ld [hl], "@"
 	pop hl
-	ld de, 9
+	ld de, 17
 	add hl, de
 	inc c
 	ld a, c
 	cp NUM_BOXES
 	jr c, .loop
+
+	pop af
+	ldh [rSVBK], a
 	ret
 
 .Box:
-	db "BOX@"
+	db "박스@"
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
@@ -268,7 +281,7 @@ InitializeMagikarpHouse:
 	ret
 
 .Ralph:
-	db "RALPH@"
+	db "태명@"
 
 InitializeNPCNames:
 	ld hl, .Rival
@@ -292,9 +305,9 @@ InitializeNPCNames:
 	ret
 
 .Rival:  db "???@"
-.Red:    db "RED@"
-.Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Red:    db "레드@"
+.Green:  db "그린@"
+.Mom:    db "어머니@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -476,17 +489,17 @@ DisplaySaveInfoOnContinue:
 	call CheckRTCStatus
 	and %10000000
 	jr z, .clock_ok
-	lb de, 4, 8
+	lb de, 5, 8
 	call DisplayContinueDataWithRTCError
 	ret
 
 .clock_ok
-	lb de, 4, 8
+	lb de, 5, 8
 	call DisplayNormalContinueData
 	ret
 
 DisplaySaveInfoOnSave:
-	lb de, 4, 0
+	lb de, 5, 0
 	jr DisplayNormalContinueData
 
 DisplayNormalContinueData:
@@ -522,46 +535,46 @@ Continue_LoadMenuHeader:
 
 .MenuHeader_Dex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 14, 9
 	dw .MenuData_Dex
 	db 1 ; default option
 
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER@"
-	db "BADGES@"
-	db "#DEX@"
-	db "TIME@"
+	db "주인공@"
+	db "가지고있는 배지@"
+	db "포켓몬 도감@"
+	db "플레이 시간@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 14, 9
 	dw .MenuData_NoDex
 	db 1 ; default option
 
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "주인공@"
+	db "가지고있는 배지@"
 	db " @"
-	db "TIME@"
+	db "플레이 시간@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
 	push hl
-	decoord 13, 4, 0
+	decoord 10, 4, 0
 	add hl, de
 	call Continue_DisplayBadgeCount
 	pop hl
 	push hl
-	decoord 12, 6, 0
+	decoord 9, 6, 0
 	add hl, de
 	call Continue_DisplayPokedexNumCaught
 	pop hl
 	push hl
-	decoord 8, 2, 0
+	decoord 6, 2, 0
 	add hl, de
 	ld de, .Player
 	call PlaceString
@@ -572,16 +585,16 @@ Continue_DisplayBadgesDexPlayerName:
 	db "<PLAYER>@"
 
 Continue_PrintGameTime:
-	decoord 9, 8, 0
+	decoord 8, 8, 0
 	add hl, de
 	call Continue_DisplayGameTime
 	ret
 
 Continue_UnknownGameTime:
-	decoord 9, 8, 0
-	add hl, de
-	ld de, .three_question_marks
-	call PlaceString
+;	decoord 9, 8, 0
+;	add hl, de
+;	ld de, .three_question_marks
+;	call PlaceString
 	ret
 
 .three_question_marks
@@ -595,7 +608,13 @@ Continue_DisplayBadgeCount:
 	pop hl
 	ld de, wNumSetBits
 	lb bc, 1, 2
-	jp PrintNum
+	call PrintNum
+	inc hl
+	ld de, .Badges
+	jp PlaceString
+
+.Badges
+	db "개@"
 
 Continue_DisplayPokedexNumCaught:
 	ld a, [wStatusFlags]
@@ -612,7 +631,12 @@ endc
 	pop hl
 	ld de, wNumSetBits
 	lb bc, 1, 3
-	jp PrintNum
+	call PrintNum
+	ld de, .Pokedex
+	jp PlaceString
+
+.Pokedex
+	db "마리@"
 
 Continue_DisplayGameTime:
 	ld de, wGameTimeHours
@@ -776,9 +800,9 @@ NamePlayer:
 	ret
 
 .Chris:
-	db "CHRIS@@@@@@"
+	db "크리스@@@@@"
 .Kris:
-	db "KRIS@@@@@@@"
+	db "크리스@@@@@"
 
 Unreferenced_Function60e9:
 	call LoadMenuHeader
@@ -1080,17 +1104,12 @@ TitleScreenEntrance:
 
 ; Reversed signage for every other line's position.
 ; This is responsible for the interlaced effect.
+	ld hl, wLYOverrides + 24
+	ld bc, 4 * 10 ; logo height
 	ld a, e
 	xor $ff
 	inc a
-
-	ld b, 8 * 10 / 2 ; logo height / 2
-	ld hl, wLYOverrides + 1
-.loop
-	ld [hli], a
-	inc hl
-	dec b
-	jr nz, .loop
+	call ByteFill
 
 	farcall AnimateTitleCrystal
 	ret

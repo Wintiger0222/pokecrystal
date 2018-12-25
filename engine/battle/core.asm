@@ -1649,9 +1649,9 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Your@"
+	db "같은편@"
 .Enemy:
-	db "Enemy@"
+	db "상대편@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -4635,8 +4635,8 @@ CheckDanger:
 
 PrintPlayerHUD:
 	ld de, wBattleMonNick
-	hlcoord 10, 7
-	call ret_3e138
+	hlcoord 10, 8
+	call GetNamePosition
 	call PlaceString
 
 	push bc
@@ -4665,19 +4665,25 @@ PrintPlayerHUD:
 	pop hl
 	dec hl
 
+	ld a, [hli]
+	cp "♂"
+	jr z, .placed
+	cp "♀"
+	jr z, .placed
+
 	ld a, TEMPMON
 	ld [wMonType], a
+	push hl
 	callfar GetGender
+	pop hl
 	ld a, " "
 	jr c, .got_gender_char
 	ld a, "♂"
 	jr nz, .got_gender_char
 	ld a, "♀"
-
 .got_gender_char
-	hlcoord 17, 8
-	ld [hl], a
-	hlcoord 14, 8
+	ld [hli], a
+.placed
 	push af ; back up gender
 	push hl
 	ld de, wBattleMonStatus
@@ -4721,13 +4727,20 @@ DrawEnemyHUD:
 	ld [wCurPartySpecies], a
 	call GetBaseData
 	ld de, wEnemyMonNick
-	hlcoord 1, 0
-	call ret_3e138
+	hlcoord 2, 1
+	call GetNamePosition
 	call PlaceString
 	ld h, b
 	ld l, c
 	dec hl
 
+	ld a, [hli]
+	cp "♂"
+	jr z, .placed
+	cp "♀"
+	jr z, .placed
+	push hl
+	
 	ld hl, wEnemyMonDVs
 	ld de, wTempMonDVs
 	ld a, [wEnemySubStatus5]
@@ -4744,6 +4757,7 @@ DrawEnemyHUD:
 	ld a, TEMPMON
 	ld [wMonType], a
 	callfar GetGender
+	pop hl
 	ld a, " "
 	jr c, .got_gender
 	ld a, "♂"
@@ -4751,10 +4765,8 @@ DrawEnemyHUD:
 	ld a, "♀"
 
 .got_gender
-	hlcoord 9, 1
-	ld [hl], a
-
-	hlcoord 6, 1
+	ld [hli], a
+.placed
 	push af
 	push hl
 	ld de, wEnemyMonStatus
@@ -4851,7 +4863,31 @@ UpdateHPPal:
 	ret z
 	jp FinishBattleAnim
 
-ret_3e138:
+GetNamePosition:
+	push de
+	inc hl
+	inc hl
+	ld b, $0
+.loop
+	ld a, [de]
+	cp $c
+	inc de
+	jr nc, .no_korean
+	inc de
+	jr .korean
+.no_korean
+	cp a, "@"
+	jr z, .end
+.korean
+	inc b
+	ld a, b
+	cp $4
+	jr c, .loop
+	dec hl
+	cp $5
+	jr c, .loop
+.end
+	pop de
 	ret
 
 BattleMenu:
@@ -4893,9 +4929,9 @@ BattleMenu:
 	ld a, [wBattleMenuCursorBuffer]
 	cp $1
 	jp z, BattleMenu_Fight
-	cp $3
-	jp z, BattleMenu_Pack
 	cp $2
+	jp z, BattleMenu_Pack
+	cp $3
 	jp z, BattleMenu_PKMN
 	cp $4
 	jp z, BattleMenu_Run
@@ -5334,37 +5370,36 @@ MoveSelectionScreen:
 	xor a
 	ldh [hBGMapMode], a
 
-	hlcoord 4, 17 - NUM_MOVES - 1
-	ld b, 4
-	ld c, 14
+	hlcoord 0, 8
+	ld b, 8
+	ld c, 8
 	ld a, [wMoveSelectionMenuType]
 	cp $2
 	jr nz, .got_dims
-	hlcoord 4, 17 - NUM_MOVES - 1 - 4
-	ld b, 4
-	ld c, 14
+	hlcoord 10, 8
+	ld b, 8
+	ld c, 8
 .got_dims
 	call TextBox
 
-	hlcoord 6, 17 - NUM_MOVES
+	hlcoord 2, 10
 	ld a, [wMoveSelectionMenuType]
 	cp $2
 	jr nz, .got_start_coord
-	hlcoord 6, 17 - NUM_MOVES - 4
+	hlcoord 12, 10
 .got_start_coord
-	ld a, SCREEN_WIDTH
+	ld a, SCREEN_WIDTH * 2
 	ld [wBuffer1], a
 	predef ListMoves
 
-	ld b, 5
+	ld b, 1
 	ld a, [wMoveSelectionMenuType]
 	cp $2
-	ld a, 17 - NUM_MOVES
 	jr nz, .got_default_coord
-	ld b, 5
-	ld a, 17 - NUM_MOVES - 4
+	ld b, 11
 
 .got_default_coord
+	ld a, 10
 	ld [w2DMenuCursorInitY], a
 	ld a, b
 	ld [w2DMenuCursorInitX], a
@@ -5403,7 +5438,7 @@ MoveSelectionScreen:
 	ld [w2DMenuFlags1], a
 	xor a
 	ld [w2DMenuFlags2], a
-	ld a, $10
+	ld a, $20
 	ld [w2DMenuCursorOffsets], a
 .menu_loop
 	ld a, [wMoveSelectionMenuType]
@@ -5421,8 +5456,8 @@ MoveSelectionScreen:
 	ld a, [wMoveSwapBuffer]
 	and a
 	jr z, .interpret_joypad
-	hlcoord 5, 13
-	ld bc, SCREEN_WIDTH
+	hlcoord 1, 10
+	ld bc, SCREEN_WIDTH * 2
 	dec a
 	call AddNTimes
 	ld [hl], "▷"
@@ -5620,8 +5655,8 @@ MoveInfoBox:
 	xor a
 	ldh [hBGMapMode], a
 
-	hlcoord 0, 8
-	ld b, 3
+	hlcoord 9, 12
+	ld b, 4
 	ld c, 9
 	call TextBox
 	call MobileTextBorder
@@ -5637,7 +5672,7 @@ MoveInfoBox:
 	cp b
 	jr nz, .not_disabled
 
-	hlcoord 1, 10
+	hlcoord 10, 15
 	ld de, .Disabled
 	call PlaceString
 	jr .done
@@ -5671,33 +5706,33 @@ MoveInfoBox:
 	ld [wStringBuffer1], a
 	call .PrintPP
 
-	hlcoord 1, 9
+	hlcoord 10, 15
 	ld de, .Type
 	call PlaceString
 
-	hlcoord 7, 11
+	hlcoord 14, 16
 	ld [hl], "/"
 
 	callfar UpdateMoveData
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
 	ld b, a
-	hlcoord 2, 10
+	hlcoord 15, 16
 	predef PrintMoveType
 
 .done
 	ret
 
 .Disabled:
-	db "Disabled!@"
+	db "봉쇄되어 있다!@"
 .Type:
-	db "TYPE/@"
+	db "기술타입@"
 
 .PrintPP:
-	hlcoord 5, 11
+	hlcoord 14, 13
 	ld a, [wLinkMode] ; What's the point of this check?
 	cp LINK_MOBILE
 	jr c, .ok
-	hlcoord 5, 11
+	hlcoord 10, 13
 .ok
 	push hl
 	ld de, wStringBuffer1
@@ -7291,7 +7326,7 @@ GiveExperiencePoints:
 	ld b, 10
 	ld c, 9
 	call TextBox
-	hlcoord 11, 1
+	hlcoord 11, 2
 	ld bc, 4
 	predef PrintTempMonStats
 	ld c, 30

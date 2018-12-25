@@ -217,26 +217,26 @@ _CGB_StatsScreenHPPals:
 	call WipeAttrMap
 
 	hlcoord 0, 0, wAttrMap
-	lb bc, 8, SCREEN_WIDTH
+	lb bc, 18, 7
 	ld a, $1 ; mon palette
 	call FillBoxCGB
 
-	hlcoord 10, 16, wAttrMap
+	hlcoord 9, 16, wAttrMap
 	ld bc, 10
 	ld a, $2 ; exp palette
 	call ByteFill
 
-	hlcoord 13, 5, wAttrMap
+	hlcoord 1, 14, wAttrMap
 	lb bc, 2, 2
 	ld a, $3 ; pink page palette
 	call FillBoxCGB
 
-	hlcoord 15, 5, wAttrMap
+	hlcoord 3, 14, wAttrMap
 	lb bc, 2, 2
 	ld a, $4 ; green page palette
 	call FillBoxCGB
 
-	hlcoord 17, 5, wAttrMap
+	hlcoord 5, 14, wAttrMap
 	lb bc, 2, 2
 	ld a, $5 ; blue page palette
 	call FillBoxCGB
@@ -798,23 +798,23 @@ _CGB_PackPals:
 	call FarCopyWRAM
 	call WipeAttrMap
 	hlcoord 0, 0, wAttrMap
-	lb bc, 1, 10
+	lb bc, 2, 10
 	ld a, $1
 	call FillBoxCGB
 	hlcoord 10, 0, wAttrMap
-	lb bc, 1, 10
+	lb bc, 2, 10
 	ld a, $2
 	call FillBoxCGB
-	hlcoord 7, 2, wAttrMap
+	hlcoord 8, 3, wAttrMap
 	lb bc, 9, 1
 	ld a, $3
 	call FillBoxCGB
 	hlcoord 0, 7, wAttrMap
-	lb bc, 3, 5
+	lb bc, 2, 6
 	ld a, $4
 	call FillBoxCGB
-	hlcoord 0, 3, wAttrMap
-	lb bc, 3, 5
+	hlcoord 1, 3, wAttrMap
+	lb bc, 3, 4
 	ld a, $5
 	call FillBoxCGB
 	call ApplyAttrMap

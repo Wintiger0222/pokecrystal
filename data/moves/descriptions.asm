@@ -265,1005 +265,1005 @@ Move00Description:
 	db "?@"
 
 PoundDescription:
-	db   "Pounds with fore-"
-	next "legs or tail.@"
+	db   "손과 꼬리 등을 사용해서"
+	next "적을 때리는 공격@"
 
 KarateChopDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "당수로 적을 공격"
+	next "급소를 맞추기 쉽다@"
 
 DoubleslapDescription:
-	db   "Repeatedly slaps"
-	next "2-5 times.@"
+	db   "적을 연속 뺨때리기로"
+	next "2-5회 연속으로 공격@"
 
 CometPunchDescription:
-	db   "Repeatedly punches"
-	next "2-5 times.@"
+	db   "적을 연속으로 두들겨 패서"
+	next "2-5회 연속으로 공격@"
 
 MegaPunchDescription:
-	db   "A powerful punch"
-	next "thrown very hard.@"
+	db   "엄청난 힘이 실린 펀치로"
+	next "적을 때려서 공격@"
 
 PayDayDescription:
-	db   "Throws coins. Gets"
-	next "them back later.@"
+	db   "금화를 던져서 적을 공격"
+	next "전투 후에 돈이 손에 들어온다@"
 
 FirePunchDescription:
-	db   "A fiery punch. May"
-	next "cause a burn.@"
+	db   "화염이 이글거리는 펀치로 공격"
+	next "적에게 화상을 입히기도 한다@"
 
 IcePunchDescription:
-	db   "An icy punch. May"
-	next "cause freezing.@"
+	db   "냉기를 실은 펀치로 공격"
+	next "적을 얼리기도 한다@"
 
 ThunderpunchDescription:
-	db   "An electric punch."
-	next "It may paralyze.@"
+	db   "전기를 실은 펀치로 공격"
+	next "적을 감전시키기도 한다@"
 
 ScratchDescription:
-	db   "Scratches with"
-	next "sharp claws.@"
+	db   "날카로운 손톱을 사용해서"
+	next "적을 할퀴며 공격@"
 
 VicegripDescription:
-	db   "Grips with power-"
-	next "ful pincers.@"
+	db   "커다란 집게가위를 사용"
+	next "적을 찝어서 공격@"
 
 GuillotineDescription:
-	db   "A one-hit KO,"
-	next "pincer attack.@"
+	db   "커다란 집게가위를 사용하여"
+	next "집어올려 전투불능으로 만든다@"
 
 RazorWindDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "1턴째에서 바람의 칼날을 만들어"
+	next "다음 턴에서 적을 공격@"
 
 SwordsDanceDescription:
-	db   "A dance that in-"
-	next "creases ATTACK.@"
+	db   "싸움의 춤을 춰서"
+	next "공격력을 팍 올린다@"
 
 CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
+	db   "날카로운 낫과 손톱을 사용하여"
+	next "적을 가르고 베며 공격@"
 
 GustDescription:
-	db   "Whips up a strong"
-	next "gust of wind.@"
+	db   "날개로 강한 바람을 일으켜"
+	next "적에게 타격을 주는 공격@"
 
 WingAttackDescription:
-	db   "Strikes the target"
-	next "with wings.@"
+	db   "날개를 크게 펼쳐서"
+	next "그대로 적에게 몸통박치기를 한다@"
 
 WhirlwindDescription:
-	db   "Blows away the foe"
-	next "& ends battle.@"
+	db   "강한 바람으로 적을 날려버림"
+	next "날려버리면 전투는 끝난다@"
 
 FlyDescription:
-	db   "1st turn: Fly"
-	next "2nd turn: Attack@"
+	db   "1턴째 하늘로 날아올라"
+	next "다음 턴에 적을 공격@"
 
 BindDescription:
-	db   "Binds the target"
-	next "for 2-5 turns.@"
+	db   "2-5턴 동안에 긴 몸이나"
+	next "넝쿨을 사용하여 적을 힘껏 조른다@"
 
 SlamDescription:
-	db   "Slams the foe with"
-	next "a tail, vine, etc.@"
+	db   "긴 꼬리랑 넝쿨 등을"
+	next "적에게 휘둘러 공격@"
 
 VineWhipDescription:
-	db   "Whips the foe with"
-	next "slender vines.@"
+	db   "채찍 같은 가늘고 긴 덩쿨을"
+	next "적에게 휘둘러 공격@"
 
 StompDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "커다란 다리로 밟아서 공격"
+	next "적의 기세가 꺾이는 일도 있다@"
 
 DoubleKickDescription:
-	db   "A double kicking"
-	next "attack.@"
+	db   "2개의 다리를 이용하여 적을"
+	next "2회 연속으로 공격@"
 
 MegaKickDescription:
-	db   "A powerful kicking"
-	next "attack.@"
+	db   "엄청낭 힘이 담긴 킥으로"
+	next "적을 걷어차서 공격@"
 
 JumpKickDescription:
-	db   "May miss, damaging"
-	next "the user.@"
+	db   "힘차게 점프해서 연속 킥 공격"
+	next "실패하면 데미지를 입는다@"
 
 RollingKickDescription:
-	db   "A fast, spinning"
-	next "kick.@"
+	db   "몸을 재빠르게 한번 회전시켜서"
+	next "그 힘으로 연속킥 공격을 한다@"
 
 SandAttackDescription:
-	db   "Reduces accuracy"
-	next "by throwing sand.@"
+	db   "적의 얼굴 등에 모래를 뿌려서"
+	next "명중률을 낮게 만든다@"
 
 HeadbuttDescription:
-	db   "An attack that may"
-	next "make foe flinch.@"
+	db   "머리로 들이박는 공격으로"
+	next "적의 기세를 꺾기도 한다@"
 
 HornAttackDescription:
-	db   "An attack using a"
-	next "horn to jab.@"
+	db   "끝이 뾰족한 뿔을 사용해서"
+	next "적을 찔러 공격한다@"
 
 FuryAttackDescription:
-	db   "Jabs the target"
-	next "2-5 times.@"
+	db   "끝이 뾰족한 뿔을 사용해서"
+	next "2-5회 연속으로 공격@"
 
 HornDrillDescription:
-	db   "A one-hit KO,"
-	next "drill attack.@"
+	db   "뿔을 드릴처럼 회전시켜서"
+	next "적을 찔러 전투불능으로 만든다@"
 
 TackleDescription:
-	db   "A full-body charge"
-	next "attack.@"
+	db   "몸 전체를 사용해"
+	next "적에게 부딪쳐서 공격한다@"
 
 BodySlamDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "몸 전체로 쓰러지며 공격"
+	next "적을 마비시키기도 한다@"
 
 WrapDescription:
-	db   "Squeezes the foe"
-	next "for 2-5 turns.@"
+	db   "2-5턴 동안에 긴 몸이랑 덩쿨을"
+	next "사용하여 적을 꼼짝 못하게 만든다@"
 
 TakeDownDescription:
-	db   "A tackle that also"
-	next "hurts the user.@"
+	db   "탄력을 이용하여 적에게 부딪친다"
+	next "자신도 약간은 데미지를 입는다@"
 
 ThrashDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "2-3턴 동안에 난동을 부린다"
+	next "난동부린 뒤에는 혼란상태가 된다@"
 
 DoubleEdgeDescription:
-	db   "A tackle that also"
-	next "hurts the user.@"
+	db   "목숨을 걸고 적에게 몸통박치기"
+	next "자신도 약간은 데미지를 입는다@"
 
 TailWhipDescription:
-	db   "Lowers the foe's"
-	next "DEFENSE.@"
+	db   "적에게 꼬리를 흔들어 방심하게"
+	next "만들어서 방어력을 낮춘다@"
 
 PoisonStingDescription:
-	db   "An attack that may"
-	next "poison the target.@"
+	db   "독이 있는 바늘과 뿔로 공격"
+	next "적을 독에 중독시키기도 한다@"
 
 TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
+	db   "양손의 바늘을 사용해서"
+	next "적을 두번 연속으로 공격@"
 
 PinMissileDescription:
-	db   "Fires pins that"
-	next "strike 2-5 times.@"
+	db   "날카로운 바늘을 적에게 발사해서"
+	next "2-5회 연속으로 공격@"
 
 LeerDescription:
-	db   "Reduces the foe's"
-	next "DEFENSE.@"
+	db   "적을 노려봐서 겁을 내게 만들어"
+	next "방어력을 떨어뜨리게 한다@"
 
 BiteDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "날카로운 이빨로 물어뜯어 공격"
+	next "적의 기세를 꺾기도 한다@"
 
 GrowlDescription:
-	db   "Reduces the foe's"
-	next "ATTACK.@"
+	db   "귀여운 울음소리로 적을 방심시켜"
+	next "공격력을 떨어뜨린다@"
 
 RoarDescription:
-	db   "Scares wild foes"
-	next "to end battle.@"
+	db   "짖어서 적을 도망치게 만든다"
+	next "적이 도망치면 전투는 끝난다@"
 
 SingDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "기분 좋은 노랫소리로"
+	next "적을 깊은 잠에 빠뜨린다@"
 
 SupersonicDescription:
-	db   "Sound waves that"
-	next "cause confusion.@"
+	db   "몸에서 괴음파를 발생시켜"
+	next "적을 혼란하게 만들기도 한다@"
 
 SonicboomDescription:
-	db   "Always inflicts"
-	next "20HP damage.@"
+	db   "충격파로 적을 공격"
+	next "20으로 정해진 데미지를 준다@"
 
 DisableDescription:
-	db   "Disables the foe's"
-	next "most recent move.@"
+	db   "초능력으로 적의 움직임을 봉쇄해서"
+	next "기술1개를 사용하지 못하게 만든다@"
 
 AcidDescription:
-	db   "An attack that may"
-	next "lower DEFENSE.@"
+	db   "강한 산으로 적의 피부를 녹인다"
+	next "방어력을 떨어뜨린다@"
 
 EmberDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "작은 화염으로 공격"
+	next "적에게 화상을 입히기도 한다@"
 
 FlamethrowerDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "엄청난 화염으로 공격"
+	next "적에게 화상을 입히기도 한다@"
 
 MistDescription:
-	db   "Prevents stat"
-	next "reduction.@"
+	db   "하얀 안개로 몸을 감싸서"
+	next "능력이 낮아지지 않도록 만든다@"
 
 WaterGunDescription:
-	db   "Squirts water to"
-	next "attack.@"
+	db   "물을 발사해서"
+	next "적을 공격한다@"
 
 HydroPumpDescription:
-	db   "A powerful water-"
-	next "type attack.@"
+	db   "물을 굉장한 기세로"
+	next "발사해서 적을 공격한다@"
 
 SurfDescription:
-	db   "A strong water-"
-	next "type attack.@"
+	db   "물에 파도를 일으켜 그것을"
+	next "엄청난 힘으로 때려서 공격한다@"
 
 IceBeamDescription:
-	db   "An attack that may"
-	next "freeze the foe.@"
+	db   "냉기를 발산해서 공격"
+	next "적을 얼게 만들기도 한다@"
 
 BlizzardDescription:
-	db   "An attack that may"
-	next "freeze the foe.@"
+	db   "눈을 강한 바람에 실어서 공격"
+	next "적을 얼게 만들기도 한다@"
 
 PsybeamDescription:
-	db   "An attack that may"
-	next "confuse the foe.@"
+	db   "이상한 빛을 발사한다"
+	next "적을 혼란하게 만들기도 한다@"
 
 BubblebeamDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
+	db   "거품을 단숨에 발사한다"
+	next "적의 빠르기를 낮추게 하기도 한다@"
 
 AuroraBeamDescription:
-	db   "An attack that may"
-	next "lower ATTACK.@"
+	db   "무지개 빛을 발사한다"
+	next "공격력을 저하시키기도 한다@"
 
 HyperBeamDescription:
-	db   "1st turn: Attack"
-	next "2nd turn: Rest@"
+	db   "데미지는 크지만 사용하면"
+	next "다음 턴에서 움직이지 못하게 된다@"
 
 PeckDescription:
-	db   "Jabs the foe with"
-	next "a beak, etc.@"
+	db   "부리 등을 사용하여"
+	next "적을 쪼아서 공격한다@"
 
 DrillPeckDescription:
-	db   "A strong, spin-"
-	next "ning-peck attack.@"
+	db   "부리를 중심으로 몸을"
+	next "회전시켜서 적에게 돌진한다@"
 
 SubmissionDescription:
-	db   "An attack that al-"
-	next "so hurts the user.@"
+	db   "자신 역시 상대방과 함께 뒹군다"
+	next "자신도 약간의 데미지를 입는다@"
 
 LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "타이밍 좋게 다리를 걸어서"
+	next "적을 넘어뜨린다@"
 
 CounterDescription:
-	db   "Returns a physical"
-	next "blow double.@"
+	db   "적에게 받은 물리적인 공격의"
+	next "데미지를 배로해서 되돌려준다@"
 
 SeismicTossDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
+	db   "인력을 이용해서 던진다"
+	next "레벨 분의 데미지를 준다@"
 
 StrengthDescription:
-	db   "A powerful physi-"
-	next "cal attack.@"
+	db   "전신에 엄청난 힘을 모아서"
+	next "적을 공격한다@"
 
 AbsorbDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "적에게 입힌 데미지의"
+	next "반정도를 체력으로 회복한다@"
 
 MegaDrainDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "적에게 입힌 데미지의"
+	next "반정도를 체력으로 회복한다@"
 
 LeechSeedDescription:
-	db   "Steals HP from the"
-	next "foe on every turn.@"
+	db   "적의 몸에 싹을 틔워서"
+	next "매 턴마다 체력을 흡수한다@"
 
 GrowthDescription:
-	db   "Raises the SPCL."
-	next "ATK rating.@"
+	db   "단숨에 몸을 성장시켜서"
+	next "특수공격력을 높인다@"
 
 RazorLeafDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "잎사귀로 적을 벤다"
+	next "급소에 명중시키기 쉽다@"
 
 SolarbeamDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "1턴째에서 빛을 흡수해서"
+	next "다음턴에서 적을 공격한다@"
 
 PoisonpowderDescription:
-	db   "A move that may"
-	next "poison the foe.@"
+	db   "독소를 지닌 가루를 뿌려서"
+	next "적을 중독시킨다@"
 
 StunSporeDescription:
-	db   "A move that may"
-	next "paralyze the foe.@"
+	db   "저리가루를 뿌러서"
+	next "적을 마비시켜 버린다@"
 
 SleepPowderDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "잠이 오는 가루를 뿌려서"
+	next "적을 잠들게 만들어 버린다@"
 
 PetalDanceDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "2-3턴 동안에 난동을 부린다"
+	next "난동을 부린 뒤에는 혼란에 빠진다@"
 
 StringShotDescription:
-	db   "A move that lowers"
-	next "the foe's SPEED.@"
+	db   "실을 적의 몸에 칭칭 감아서"
+	next "움직임의 스피드를 떨어뜨린다@"
 
 DragonRageDescription:
-	db   "Always inflicts"
-	next "40HP damage.@"
+	db   "충격파로 적을 공격"
+	next "40으로 정해진 데미지를 입힌다@"
 
 FireSpinDescription:
-	db   "Traps foe in fire"
-	next "for 2-5 turns.@"
+	db   "2-5턴 동안에 적을"
+	next "화염 중심에 가두어 버린다@"
 
 ThundershockDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "전기를 발산해서 공격"
+	next "적을 마비시키기도 한다@"
 
 ThunderboltDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "강력한 전기를 발산해서 공격"
+	next "적을 마비시키기도 한다@"
 
 ThunderWaveDescription:
-	db   "A move that may"
-	next "cause paralysis.@"
+	db   "약한 전기를 발산해서 적에게"
+	next "부딛쳐 마비를 시킨다@"
 
 ThunderDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "적을 향해 번개를 떨어뜨린다"
+	next "마비를 시키기도 한다@"
 
 RockThrowDescription:
-	db   "Drops rocks on the"
-	next "enemy.@"
+	db   "작은 바위를 던져서"
+	next "적을 공격한다@"
 
 EarthquakeDescription:
-	db   "Tough but useless"
-	next "vs. flying foes.@"
+	db   "지면을 흔들어서 공격"
+	next "비행타입 이외에는 엄청난 데미지@"
 
 FissureDescription:
-	db   "A ground-type,"
-	next "one-hit KO attack.@"
+	db   "땅가르기를 일으켜 적을 빠뜨린다"
+	next "빠지면 전투불능이 되어 버린다@"
 
 DigDescription:
-	db   "1st turn: Burrow"
-	next "2nd turn: Attack@"
+	db   "1턴째에서 땅속에 파고들어"
+	next "다음 턴에서 적을 공격한다@"
 
 ToxicDescription:
-	db   "A poison move with"
-	next "increasing damage.@"
+	db   "점점 데미지가 늘어가는 독을"
+	next "적에게 중독시킨다@"
 
 ConfusionDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
+	db   "초능력으로 공격"
+	next "적을 혼란에 빠뜨리기도 한다@"
 
 PsychicMDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "강한 염동력으로"
+	next "특수방어를 떨어뜨리게 하기도 한다@"
 
 HypnosisDescription:
-	db   "May put the foe to"
-	next "sleep.@"
+	db   "적에게 암시를 줘서"
+	next "깊은 잠에 빠뜨린다@"
 
 MeditateDescription:
-	db   "Raises the user's"
-	next "ATTACK.@"
+	db   "요가 포즈로 잠재된 힘을"
+	next "끌어내서 공격력을 높인다@"
 
 AgilityDescription:
-	db   "Sharply increases"
-	next "the user's SPEED.@"
+	db   "힘을 빼서 몸을 가볍게하고"
+	next "스피드를 많이 높인다@"
 
 QuickAttackDescription:
-	db   "Lets the user get"
-	next "in the first hit.@"
+	db   "엄청나게 빠른 속도로 움직여서"
+	next "선제공격을 한다@"
 
 RageDescription:
-	db   "Raises ATTACK if"
-	next "the user is hit.@"
+	db   "공격받을 때마다 분노로"
+	next "공격력이 높아져간다@"
 
 TeleportDescription:
-	db   "A move for fleeing"
-	next "from battle.@"
+	db   "초능력을 사용하여"
+	next "전투에서 탈출한다@"
 
 NightShadeDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
+	db   "적에게 무서운 환상을 보여주어서"
+	next "레벨분의 데미지를 입힌다@"
 
 MimicDescription:
-	db   "Copies a move used"
-	next "by the foe.@"
+	db   "적이 사용한 기술이"
+	next "그때만큼만 자신의 기술이 된다@"
 
 ScreechDescription:
-	db   "Sharply reduces"
-	next "the foe's DEFENSE.@"
+	db   "듣기싫은 소리를 내서 적의"
+	next "방어를 많이 낮추게 만든다@"
 
 DoubleTeamDescription:
-	db   "Heightens evasive-"
-	next "ness.@"
+	db   "분신으로 적을 혼란에 빠트려서"
+	next "회피율을 높인다@"
 
 RecoverDescription:
-	db   "Restores HP by 1/2"
-	next "the max HP.@"
+	db   "상처입은 몸을 체력의"
+	next "반정도 회복한다@"
 
 HardenDescription:
-	db   "Raises the user's"
-	next "DEFENSE.@"
+	db   "전신에 힘을 모아 몸을 딱딱하게"
+	next "만들어서 방어력을 높인다@"
 
 MinimizeDescription:
-	db   "Heightens evasive-"
-	next "ness.@"
+	db   "몸을 줄여서 작게 되어"
+	next "회피율을 높인다@"
 
 SmokescreenDescription:
-	db   "Lowers the foe's"
-	next "accuracy.@"
+	db   "연기나 먹 등으로 적의"
+	next "명중률을 떨어뜨리게 한다@"
 
 ConfuseRayDescription:
-	db   "A move that causes"
-	next "confusion.@"
+	db   "이상한 빛으로 적을"
+	next "홀려서 곤란상태로 만든다@"
 
 WithdrawDescription:
-	db   "Heightens the"
-	next "user's DEFENSE.@"
+	db   "단단한 껍질에 숨어서"
+	next "방어력을 높인다@"
 
 DefenseCurlDescription:
-	db   "Heightens the"
-	next "user's DEFENSE.@"
+	db   "몸을 웅크려서 급소를"
+	next "감추고 방어력을 높인다@"
 
 BarrierDescription:
-	db   "Sharply increases"
-	next "user's DEFENSE.@"
+	db   "눈 앞에 벽을 만들어서"
+	next "방어력을 팍 올린다@"
 
 LightScreenDescription:
-	db   "Ups SPCL.DEF with"
-	next "a wall of light.@"
+	db   "빛의 장막을 만들어 특수"
+	next "공격의 데미지를 약하게 만든다@"
 
 HazeDescription:
-	db   "Eliminates all"
-	next "stat changes.@"
+	db   "검은 안개에 싸여서 능력의"
+	next "이상을 원상태로 회복한다@"
 
 ReflectDescription:
-	db   "Raises DEFENSE"
-	next "with a barrier.@"
+	db   "빛의 장막을 만들어 물리적"
+	next "공격의 데미지를 약하게 만든다@"
 
 FocusEnergyDescription:
-	db   "Raises the criti-"
-	next "cal hit ratio.@"
+	db   "공격에 기합을 실어서"
+	next "급소에 잘 명중하도록 만든다@"
 
 BideDescription:
-	db   "Waits 2-3 turns &"
-	next "hits back double.@"
+	db   "2-3턴 공격을 참고 견뎌서"
+	next "받은 데미지를 배로해서 돌려준다@"
 
 MetronomeDescription:
-	db   "Randomly uses any"
-	next "#MON move.@"
+	db   "손가락을 흔들어서 뇌를 자극시켜"
+	next "여러 기술을 랜덤으로 끌어낸다@"
 
 MirrorMoveDescription:
-	db   "Counters with the"
-	next "same move.@"
+	db   "적의 기술을 흉내내서"
+	next "같은 기술로 적을 공격한다@"
 
 SelfdestructDescription:
-	db   "Powerful but makes"
-	next "the user faint.@"
+	db   "적에게 많은 데미지를 주지만"
+	next "사용하면 전투불능이 되어 버린다@"
 
 EggBombDescription:
-	db   "Eggs are hurled at"
-	next "the foe.@"
+	db   "알을 힘껏 던져서"
+	next "적을 공격한다@"
 
 LickDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "긴 혀로 핥아서 공격한다"
+	next "적을 마비시키기도 한다@"
 
 SmogDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "배기가스를 뿜어서 공격"
+	next "적에게 중독을 시키기도 한다@"
 
 SludgeDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "오물을 던져서 공격한다"
+	next "적을 중독시키기도 한다@"
 
 BoneClubDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "손에 쥔 뼈다귀로 적을 공격"
+	next "적의 기세를 꺾기도 한다@"
 
 FireBlastDescription:
-	db   "An attack that"
-	next "may cause a burn.@"
+	db   "큰 대자가 모든 것을 태워버린다"
+	next "적에게 화상을 입히기도 한다@"
 
 WaterfallDescription:
-	db   "An aquatic charge"
-	next "attack.@"
+	db   "폭포를 거슬러 오르는 듯한"
+	next "기백으로 적에게 돌진한다@"
 
 ClampDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
+	db   "2-5턴 동안에 적을"
+	next "껍질로 찝어 버린다@"
 
 SwiftDescription:
-	db   "An attack that"
-	next "never misses.@"
+	db   "절대 피할 수 없는 별 모양의"
+	next "광선을 무수히 발사한다@"
 
 SkullBashDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "1턴째에서 머리를 집어넣고"
+	next "다음 턴에서 적을 공격한다@"
 
 SpikeCannonDescription:
-	db   "Fires spikes to"
-	next "hit 2-5 times.@"
+	db   "날카로운 바늘을 적에게 발사해서"
+	next "2-5회 연속으로 공격@"
 
 ConstrictDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
+	db   "적에게 휘감겨서 공격한다"
+	next "적의 스피드를 둔화시키기도 한다@"
 
 AmnesiaDescription:
-	db   "Sharply raises the"
-	next "user's SPCL.DEF.@"
+	db   "일순 무엇인가를 잊어먹는 것으로"
+	next "특수방어를 높이 올린다@"
 
 KinesisDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
+	db   "적의 눈을 스푼에 주시하도록 해서"
+	next "명중률을 떨어뜨리게 한다@"
 
 SoftboiledDescription:
-	db   "Restores HP by 1/2"
-	next "the user's max HP.@"
+	db   "상처 입은 몸을 체력의"
+	next "반정도 회복시킨다@"
 
 HiJumpKickDescription:
-	db   "May miss and hurt"
-	next "the user.@"
+	db   "점프한 힘으로 연속 무릎차기 공격"
+	next "실패하면 데미지를 입는다@"
 
 GlareDescription:
-	db   "A move that may"
-	next "cause paralysis.@"
+	db   "배의 모양으로 적을 위협해서"
+	next "겁을 먹게하여 마비시켜 버린다@"
 
 DreamEaterDescription:
-	db   "Steals HP from a"
-	next "sleeping victim.@"
+	db   "자고있는 적에게 준 데미지의"
+	next "반을 체력으로 회복한다@"
 
 PoisonGasDescription:
-	db   "A move that may"
-	next "poison the foe.@"
+	db   "독가스를 적에게 뿌려서"
+	next "중독되게 만든다@"
 
 BarrageDescription:
-	db   "Throws orbs to hit"
-	next "2-5 times.@"
+	db   "둥근 물건을 적에게 던져서"
+	next "2-5회 연속으로 공격@"
 
 LeechLifeDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "적에게 준 데미지의"
+	next "반을 체력으로 회복한다@"
 
 LovelyKissDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "무서운 얼굴로 키스를 한다"
+	next "키스를 당하면 잠들어 버린다@"
 
 SkyAttackDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "1턴째에서 약점을 찾아서"
+	next "다음 턴에 적을 공격한다@"
 
 TransformDescription:
-	db   "The user assumes"
-	next "the foe's guise.@"
+	db   "적의 포켓몬과 같은 모습으로"
+	next "세포를 변화시켜 변신한다@"
 
 BubbleDescription:
-	db   "An attack that may"
-	next "reduce SPEED.@"
+	db   "거품을 뿜어서 공격한다"
+	next "적의 스피드를 둔화시키기도 한다@"
 
 DizzyPunchDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
+	db   "어미와 새끼가 동시에 펀치로 공격"
+	next "적을 곤란상태로 만들기도 한다@"
 
 SporeDescription:
-	db   "A move that"
-	next "induces sleep.@"
+	db   "최면효과가 있는 포자를"
+	next "뿌려서 적을 잠들게 만든다@"
 
 FlashDescription:
-	db   "Blinds the foe to"
-	next "reduce accuracy.@"
+	db   "강한 빛으로 눈을 멀게해서"
+	next "적의 명중률을 떨어뜨린다@"
 
 PsywaveDescription:
-	db   "An attack with"
-	next "variable power.@"
+	db   "이상한 염동파로 적을 공격"
+	next "사용할 때마다 위력이 변한다@"
 
 SplashDescription:
-	db   "Has no effect"
-	next "whatsoever.@"
+	db   "팔딱 튀기만 하고 아무 일도"
+	next "일어나지 않는다…@"
 
 AcidArmorDescription:
-	db   "Sharply raises the"
-	next "user's DEFENSE.@"
+	db   "몸을 액상으로 변화시켜서"
+	next "방어력을 팍 높인다@"
 
 CrabhammerDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "집게가위로 적을 때린다"
+	next "급소에 명중하기 쉽다@"
 
 ExplosionDescription:
-	db   "Very powerful but"
-	next "makes user faint.@"
+	db   "적에게 데미지를 입히지만"
+	next "사용하면 전투불능이 되어버린다@"
 
 FurySwipesDescription:
-	db   "Quickly scratches"
-	next "2-5 times.@"
+	db   "날카로운 손톱과 낫으로 할퀴어"
+	next "2-5회 연속으로 공격한다@"
 
 BonemerangDescription:
-	db   "An attack that"
-	next "strikes twice.@"
+	db   "뼈다귀를 던져 갔다가 돌아오면서"
+	next "2회 연속으로 공격한다@"
 
 RestDescription:
-	db   "Sleep for 2 turns"
-	next "to fully recover.@"
+	db   "2턴 잠을 자서 체력과"
+	next "몸의 이상상태를 회복시킨다@"
 
 RockSlideDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "커다란 바위를 던진다"
+	next "적의 기세를 꺾기도 한다@"
 
 HyperFangDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "날카로운 앞니로 적을 공격"
+	next "적을 물러서게 만들 때도 있다@"
 
 SharpenDescription:
-	db   "A move that raises"
-	next "the user's ATTACK.@"
+	db   "폴리곤을 줄여서 각진 형상이 되어"
+	next "공격력을 높인다@"
 
 ConversionDescription:
-	db   "Change user's type"
-	next "to a move's type.@"
+	db   "기억하고 있는 기술 타입의"
+	next "어느것인지에 자신의 타입을 바꾼다@"
 
 TriAttackDescription:
-	db   "Fires three kinds"
-	next "of beams at once.@"
+	db   "3종류의 광선을"
+	next "한 개로 모아서 적에게 발사한다@"
 
 SuperFangDescription:
-	db   "Cuts the foe's HP"
-	next "by 1/2.@"
+	db   "날카로운 앞니로 공격해서"
+	next "적의 체력을 반으로 만든다@"
 
 SlashDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "날카로운 낫과 손톱 등으로 공격"
+	next "급소에 맞추기 쉽다@"
 
 SubstituteDescription:
-	db   "Makes a decoy with"
-	next "1/4 user's max HP.@"
+	db   "체력의 4분의1을 사용하여"
+	next "자신의 분신을 만들어낸다@"
 
 StruggleDescription:
-	db   "Used only if all"
-	next "PP are exhausted.@"
+	db   "기술포인트가 떨어지면 나오는 기술"
+	next "자신도 약간의 데미지를 입는다@"
 
 SketchDescription:
-	db   "Copies the foe's"
-	next "move permanently.@"
+	db   "적이 사용한 기술을 스케치해서"
+	next "그 기술을 자신의 것으로 만든다@"
 
 TripleKickDescription:
-	db   "Hits three times"
-	next "with rising power.@"
+	db   "적을 3회 연속으로 공격"
+	next "맞을 때마다 데미지가 올라간다@"
 
 ThiefDescription:
-	db   "An attack that may"
-	next "steal a held item.@"
+	db   "공격 절정일 때 틈을 노려서"
+	next "적이 들고있는 도구를 훔친다@"
 
 SpiderWebDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+	db   "끈적끈적한 실을 휘감아서"
+	next "적을 도망치지 못하게 한다@"
 
 MindReaderDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
+	db   "적의 움직임을 마음으로 느껴서"
+	next "다음의 공격을 반드시 맞춘다@"
 
 NightmareDescription:
-	db   "A sleeper loses"
-	next "1/4 HP every turn.@"
+	db   "적이 자고있는 동안에 체력을"
+	next "매 턴마다 4분의1씩 줄여나간다@"
 
 FlameWheelDescription:
-	db   "An attack that may"
-	next "cause a burn.@"
+	db   "화염을 휘감아서 돌진한다"
+	next "적에게 화상을 입히기도 한다@"
 
 SnoreDescription:
-	db   "An attack useable"
-	next "only while asleep.@"
+	db   "자고있을 때만 쓸 수 있는 기술"
+	next "엄청난 코골기로 적을 공격한다@"
 
 CurseDescription:
-	db   "Works differently"
-	next "for ghost-types.@"
+	db   "고스트타입이랑 그 이외의 타입은"
+	next "기술의 효과가 다르다@"
 
 FlailDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
+	db   "자신의 체력이 적을수록"
+	next "적에게 큰 데미지를 입힌다@"
 
 Conversion2Description:
-	db   "The user's type is"
-	next "made resistant.@"
+	db   "당한 기술의 타입을 자신의"
+	next "저항력으로 바꾼다@"
 
 AeroblastDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "진공파를 발사해서 공격"
+	next "급소를 맞추기 쉽다@"
 
 CottonSporeDescription:
-	db   "Sharply reduces"
-	next "the foe's SPEED.@"
+	db   "포자를 흩뿌려서 적의"
+	next "움직임을 더욱 둔화시킨다@"
 
 ReversalDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
+	db   "자신의 체력이 적을수록"
+	next "적에게 큰 데미지를 입힌다@"
 
 SpiteDescription:
-	db   "Cuts the PP of the"
-	next "foe's last move.@"
+	db   "상대가 발휘한 기술에 앙심을 품고"
+	next "그 기술포인트를 떨어뜨린다@"
 
 PowderSnowDescription:
-	db   "An attack that may"
-	next "cause freezing.@"
+	db   "눈을 바람에 실어서 공격한다"
+	next "적을 얼려버리기도 한다@"
 
 ProtectDescription:
-	db   "Foils attack that"
-	next "turn. It may fail.@"
+	db   "그 턴의 공격을 받지 않는다"
+	next "연속으로 사용하면 실패하기 쉽다@"
 
 MachPunchDescription:
-	db   "A fast punch that"
-	next "lands first.@"
+	db   "엄청나게 빠른 펀치를 날려서"
+	next "반드시 선제공격이 되도록 한다@"
 
 ScaryFaceDescription:
-	db   "Sharply reduces"
-	next "the foe's SPEED.@"
+	db   "무서운 얼굴로 적에게 겁을 줘서"
+	next "움직임을 더욱 둔화시킨다@"
 
 FaintAttackDescription:
-	db   "An attack that"
-	next "never misses.@"
+	db   "적을 방심하게 만들어 접근하여"
+	next "피할 수 없는 공격을 펼친다@"
 
 SweetKissDescription:
-	db   "A move that causes"
-	next "confusion.@"
+	db   "귀여운 얼굴로 키스를 한다"
+	next "키스를 당하면 혼란에 빠진다@"
 
 BellyDrumDescription:
-	db   "Reduces own HP to"
-	next "maximize ATTACK.@"
+	db   "자신의 체력을 떨어뜨려서"
+	next "공격력을 최대로 끌어올린다@"
 
 SludgeBombDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "오물을 던져서 공격"
+	next "적을 독에 중독시키기도 한다@"
 
 MudSlapDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
+	db   "적의 얼굴 등에 진흙을 발라"
+	next "명중률이 떨어지게 만든다@"
 
 OctazookaDescription:
-	db   "An attack that may"
-	next "reduce accuracy.@"
+	db   "먹물 덩어리를 발사해서"
+	next "명중력이 떨어지게 만든다@"
 
 SpikesDescription:
-	db   "Hurts foes when"
-	next "they switch out.@"
+	db   "적의 주변에 함정을 만들어"
+	next "교대한 적을 공격한다@"
 
 ZapCannonDescription:
-	db   "An attack that"
-	next "always paralyzes.@"
+	db   "명중률이 낮지만 데미지는 크다"
+	next "명중하면 반드시 마비되어 버린다@"
 
 ForesightDescription:
-	db   "Negates accuracy"
-	next "reduction moves.@"
+	db   "기술이 명중하기 어렵게된 적에게"
+	next "공격이 잘 먹히도록 만든다@"
 
 DestinyBondDescription:
-	db   "The foe faints if"
-	next "the user does.@"
+	db   "이 기술 뒤에 쓰러지게되면"
+	next "적도 전투불능이 되어버린다@"
 
 PerishSongDescription:
-	db   "Both user and foe"
-	next "faint in 3 turns.@"
+	db   "들은 포켓몬은 3턴 후에"
+	next "전투불능이 되어버린다@"
 
 IcyWindDescription:
-	db   "An icy attack that"
-	next "lowers SPEED.@"
+	db   "엄청난 냉기로 적을 공격"
+	next "스피드를 낮게 떨어뜨린다@"
 
 DetectDescription:
-	db   "Evades attack that"
-	next "turn. It may fail.@"
+	db   "적의 공격을 반드시 피한다"
+	next "연속으로 사용하면 실패하기 쉽다@"
 
 BoneRushDescription:
-	db   "An attack that"
-	next "hits 2-5 times.@"
+	db   "손에 들은 뼈다귀로 2-5회"
+	next "연속으로 적을 공격한다@"
 
 LockOnDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
+	db   "적에게 조준을 맞춰서"
+	next "다음 공격을 반드시 맞게 한다@"
 
 OutrageDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "2-3턴 동안에 난동을 부린다"
+	next "난동을 부린 후에는 혼란에 빠진다@"
 
 SandstormDescription:
-	db   "Inflicts damage"
-	next "every turn.@"
+	db   "모래바람을 발생시켜서"
+	next "매 턴마다 데미지를 입힌다@"
 
 GigaDrainDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "적에게 입힌 데미지의"
+	next "반을 체력으로 회복한다@"
 
 EndureDescription:
-	db   "Always leaves at"
-	next "least 1HP.@"
+	db   "그 턴에서 공격을 받아도"
+	next "반드시 체력이 1 남는다@"
 
 CharmDescription:
-	db   "Sharply lowers the"
-	next "foe's ATTACK.@"
+	db   "귀여운 애교로 적을 방심시켜서"
+	next "공격력을 떨어뜨린다@"
 
 RolloutDescription:
-	db   "Attacks 5 turns"
-	next "with rising power.@"
+	db   "5턴 동안에 적을 공격한다"
+	next "맞출 때마다 데미지가 올라간다@"
 
 FalseSwipeDescription:
-	db   "Leaves the foe"
-	next "with at least 1HP.@"
+	db   "반드시 체력이 1이 남도록"
+	next "적당히 공격한다@"
 
 SwaggerDescription:
-	db   "Causes confusion"
-	next "and raises ATTACK.@"
+	db   "적을 화나게 만들어서 혼란에"
+	next "빠뜨리지만 적의 공격력도 올려준다@"
 
 MilkDrinkDescription:
-	db   "Restores HP by 1/2"
-	next "the max HP.@"
+	db   "상처 입은 몸을 체력의"
+	next "반정도 회복시켜준다@"
 
 SparkDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "전기를 일으켜서 돌진한다"
+	next "적을 마비시키기도 한다@"
 
 FuryCutterDescription:
-	db   "Successive hits"
-	next "raise power.@"
+	db   "연속으로 맞추면"
+	next "위력이 증가해져 간다@"
 
 SteelWingDescription:
-	db   "Stiff wings strike"
-	next "the foe.@"
+	db   "단단한 날개를 크게 펼쳐서"
+	next "그대로 적에게 몸통박치기를 한다@"
 
 MeanLookDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+	db   "적을 뚫어지게 바라보면 어쩐지"
+	next "적은 도망치지 못하게된다@"
 
 AttractDescription:
-	db   "Makes the opposite"
-	next "gender infatuated.@"
+	db   "숫놈이라면 암놈에게 암놈이라면"
+	next "숫놈에게 발휘하기 힘들게 된다@"
 
 SleepTalkDescription:
-	db   "Randomly attacks"
-	next "while asleep.@"
+	db   "자고있을 때만 쓸 수 있는 기술"
+	next "랜덤으로 자신의 기술을 발휘한다@"
 
 HealBellDescription:
-	db   "Eliminates all"
-	next "status problems.@"
+	db   "기분 좋은 방울소리를 들려줘서"
+	next "모든 상태를 회복시킨다@"
 
 ReturnDescription:
-	db   "An attack that is"
-	next "based on loyalty.@"
+	db   "잘 대해주는 트레이너를 위해서"
+	next "전력으로 적을 공격한다@"
 
 PresentDescription:
-	db   "A bomb that may"
-	next "restore HP.@"
+	db   "적에게 폭탄을 선물한다"
+	next "가끔 회복해버리는 경우가 있다@"
 
 FrustrationDescription:
-	db   "An attack based on"
-	next "lack of loyalty.@"
+	db   "잔혹한 처사에 기분전환으로"
+	next "적을 전력으로 공격한다@"
 
 SafeguardDescription:
-	db   "Prevents all"
-	next "status problems.@"
+	db   "신비한 힘으로 보호되어"
+	next "특수상태에 빠지지 않도록 된다@"
 
 PainSplitDescription:
-	db   "Adds user & foe's"
-	next "HPs. Shares total.@"
+	db   "적과 자신의 체력을"
+	next "보충해서 그것을 사이좋게 나눈다@"
 
 SacredFireDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "신비한 불꽃으로 공격"
+	next "적에게 화상을 입히기도 한다@"
 
 MagnitudeDescription:
-	db   "A ground attack"
-	next "with random power.@"
+	db   "지면을 흔들어서 적을 공격한다"
+	next "데미지는 랜덤으로 바뀐다@"
 
 DynamicpunchDescription:
-	db   "An attack that"
-	next "always confuses.@"
+	db   "명중하기 힘들지만 데미지는 크다"
+	next "명중하면 반드시 곤란상태로 만든다@"
 
 MegahornDescription:
-	db   "A powerful charge"
-	next "attack.@"
+	db   "단단한 뿔을 엄청난 기세를 몰아"
+	next "들이받아 공격한다@"
 
 DragonbreathDescription:
-	db   "A strong breath"
-	next "attack.@"
+	db   "입에서 굉장한 숨결을 뿜어서"
+	next "적을 공격한다@"
 
 BatonPassDescription:
-	db   "Switches while"
-	next "keeping effects.@"
+	db   "추가효과를 남겨놓은 채로"
+	next "다른 포켓몬으로 교체한다@"
 
 EncoreDescription:
-	db   "Makes the foe re-"
-	next "peat 2-6 times.@"
+	db   "적이 마지막으로 사용한 기술을"
+	next "2-6회 연속으로 쓰도록 시킨다@"
 
 PursuitDescription:
-	db   "Heavily strikes"
-	next "switching #MON.@"
+	db   "상대방이 교환되어질 때에"
+	next "사용하면 큰 데미지를 줄 수 있다@"
 
 RapidSpinDescription:
-	db   "A high-speed"
-	next "spinning attack.@"
+	db   "몸을 빠르게 회전시켜서"
+	next "적을 공격한다@"
 
 SweetScentDescription:
-	db   "Reduces the foe's"
-	next "evasiveness.@"
+	db   "달콤한 향기로 홀려서"
+	next "적의 회피율을 떨어뜨린다@"
 
 IronTailDescription:
-	db   "An attack that may"
-	next "reduce DEFENSE.@"
+	db   "단단한 꼬리로 적을 공격"
+	next "적의 방어력을 떨어뜨리기도 한다@"
 
 MetalClawDescription:
-	db   "An attack that may"
-	next "up user's ATTACK.@"
+	db   "단단한 손톱으로 적을 공격"
+	next "공격력이 높아지기도 한다@"
 
 VitalThrowDescription:
-	db   "A 2nd-strike move"
-	next "that never misses.@"
+	db   "후에 공격을 하게되지만 반드시"
+	next "공격이 명중된다@"
 
 MorningSunDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "체력을 회복하는"
+	next "시각에서 회복율이 변한다@"
 
 SynthesisDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "체력을 회복하는"
+	next "시각에서 회복율이 변한다@"
 
 MoonlightDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "체력이 회복하는"
+	next "시각에서 회복율이 변한다@"
 
 HiddenPowerDescription:
-	db   "The power varies"
-	next "with the #MON.@"
+	db   "포켓몬에 따라서 적에게 주는"
+	next "데미지의 양이 변화한다@"
 
 CrossChopDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "양손 당수로 적을 공격한다"
+	next "급소에 맞추기 쉽다@"
 
 TwisterDescription:
-	db   "Whips up a tornado"
-	next "to attack.@"
+	db   "엄청난 바람을 일으켜서"
+	next "적을 공격한다@"
 
 RainDanceDescription:
-	db   "Boosts water-type"
-	next "moves for 5 turns.@"
+	db   "5턴 동안에 물타입의"
+	next "기술의 위력이 높아진다@"
 
 SunnyDayDescription:
-	db   "Boosts fire-type"
-	next "moves for 5 turns.@"
+	db   "5턴 동안에 화염타입의"
+	next "기술의 위력이 높아진다@"
 
 CrunchDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "날카로운 이빨로 적을 물어뜯는다"
+	next "특수방어를 뚫는 경우가 있다@"
 
 MirrorCoatDescription:
-	db   "Counters a SPCL."
-	next "ATK move double.@"
+	db   "적에게 받은 특수공격의"
+	next "데미지를 배로 되돌려준다@"
 
 PsychUpDescription:
-	db   "Copies the foe's"
-	next "stat changes.@"
+	db   "적에게 걸려있는 보조효과를"
+	next "자신에게도 건다@"
 
 ExtremespeedDescription:
-	db   "A powerful first-"
-	next "strike move.@"
+	db   "매우 빠른 속도로 움직여서"
+	next "기운 센 공격을 한다@"
 
 AncientpowerDescription:
-	db   "An attack that may"
-	next "raise all stats.@"
+	db   "원시의 힘을 불러들여"
+	next "능력이 높아진다@"
 
 ShadowBallDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "검은 덩어리를 던져서 공격"
+	next "특수방어를 뚫는 경우가 있다@"
 
 FutureSightDescription:
-	db   "An attack that"
-	next "hits on 3rd turn.@"
+	db   "정신력을 높여서"
+	next "2턴 뒤에 적을 공격한다@"
 
 RockSmashDescription:
-	db   "An attack that may"
-	next "lower DEFENSE.@"
+	db   "바위를 깨는 기세를 몰아 공격"
+	next "적의 방어를 뚫기도 한다@"
 
 WhirlpoolDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
+	db   "2-5턴 동안에 적을"
+	next "소용돌이 중심에 가두어버린다@"
 
 BeatUpDescription:
-	db   "Party #MON join"
-	next "in the attack.@"
+	db   "동료 포켓몬이"
+	next "공격에 참가해준다@"
