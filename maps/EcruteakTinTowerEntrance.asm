@@ -150,28 +150,24 @@ MovementData_0x980cc:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
-	line "limits to anyone"
-
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
-
-	para "Sorry, but you'll"
-	line "have to leave."
+	text "방울탑은 인주시티의"
+	line "체육관 배지를 가진 사람만이"
+	cont "올라갈 수 있는 신성한 탑"
+	
+	para "죄송합니다만"
+	line "물러나 주십시오"
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
-	line "limits to anyone"
-
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
-
-	para "Ah!"
-
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	text "방울탑은 인주시티의"
+	line "체육관 배지를 가진 사람만이"
+	cont "오를 수 있는 신성한 탑"
+	
+	para "오오!"
+	
+	para "그것은 인주시티의 체육관 배지!"
+	
+	para "어서 지나가십시오"
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
@@ -257,22 +253,18 @@ EcruteakTinTowerEntranceWanderingSageText:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The TIN TOWER"
-	line "shook! A #MON"
-
-	para "must have returned"
-	line "to the top!"
+	text "방울탑이 흔들렸습니다!"
+	
+	para "틀림없이 제일 꼭대기에"
+	line "포켓몬이 돌아왔을 것 입니다"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #MON…"
-
-	para "But when one"
-	line "burned down, both"
-
-	para "#MON flew away,"
-	line "never to return."
+	text "2개의 탑에"
+	line "2마리의 포켓몬……"
+	
+	para "그러나 탑 하나가 불에 탄 뒤에"
+	line "포켓몬도 날아간 채 돌아오지않아."
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

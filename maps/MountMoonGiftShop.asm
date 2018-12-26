@@ -20,9 +20,8 @@ MountMoonGiftShopLassScript:
 	jumptextfaceplayer MountMoonGiftShopLassText
 
 MountMoonGiftShopLassText:
-	text "When the sun goes"
-	line "down, CLEFAIRY"
-	cont "come out to play."
+	text "햇님이 지면"
+	line "삐삐가 놀러온다고 한다!"
 	done
 
 MountMoonGiftShop_MapEvents:

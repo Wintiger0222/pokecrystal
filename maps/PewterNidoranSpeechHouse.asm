@@ -19,11 +19,11 @@ PewterNidoran:
 	end
 
 PewterNidoranSpeechHouseSuperNerdText:
-	text "NIDORAN, shake!"
+	text "니드런 손!"
 	done
-
+	
 PewterNidoranText:
-	text "NIDORAN: Gau gau!"
+	text "니드런『캬오 캬오오!"
 	done
 
 PewterNidoranSpeechHouse_MapEvents:

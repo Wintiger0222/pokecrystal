@@ -208,28 +208,28 @@ CeladonGameCornerPrizeRoomGentlemanText:
 
 CeladonGameCornerPrizeRoomPharmacistText:
 	text "후우우우우……"
-	
+
 	para "그렇게 중독이 되지 않도록"
 	line "주의를 하지 않으면……"
-	
+
 	para "돈을 전부 써버린다면"
 	line "어쩔 수 없을테니까……"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:
 	text "어서오세요!"
-	
+
 	para "게임을 해서 모은 동전은"
 	line "여기서 좋아하는"
 	cont "경품으로 교환할 수 있습니다!"
 	done
-	
+
 CeladonPrizeRoom_AskWhichPrizeText:
 	text "어느 것이 좋습니까?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "@"
+	text  "@"
 	text_ram wStringBuffer3
 	text "(으)로"
 	line "하겠습니까?"

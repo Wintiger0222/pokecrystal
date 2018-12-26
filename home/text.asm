@@ -569,7 +569,7 @@ DoneText::
 	text_end
 
 NullChar::
-	ld a, "?"
+	ld a, "<?>"
 	ld [hli], a
 	call PrintLetterDelay
 	jp NextChar

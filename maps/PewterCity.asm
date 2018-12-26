@@ -67,87 +67,66 @@ PewterCityFruitTree2:
 	fruittree FRUITTREE_PEWTER_CITY_2
 
 PewterCityCooltrainerFText:
-	text "Have you visited"
-	line "PEWTER GYM?"
-
-	para "The LEADER uses"
-	line "rock-type #MON."
+	text "회색시티의 체육관에는 갔었니?"
+	
+	para "바위타입의 포켓몬을 사용하는"
+	line "체육관 관장이 있단다!"
 	done
 
 PewterCityBugCatcherText:
-	text "At night, CLEFAIRY"
-	line "come out to play"
-	cont "at MT.MOON."
-
-	para "But not every"
-	line "night."
+	text "밤이 되면"
+	line "달맞이 산에 삐삐가"
+	cont "나타난다고 한다"
+	
+	para "매일 매일은 아닌것 같아도"
 	done
 
 PewterCityGrampsText:
-	text "Ah, you came all"
-	line "the way out here"
-	cont "from JOHTO?"
-
-	para "That brings back"
-	line "memories. When I"
-
-	para "was young, I went"
-	line "to JOHTO to train."
-
-	para "You remind me so"
-	line "much of what I was"
-
-	para "like as a young"
-	line "man."
-
-	para "Here. I want you"
-	line "to have this item"
-	cont "I found in JOHTO."
+	text "호오!"
+	line "성도로부터 멀리서 왔는가!"
+	
+	para "움 그립구나"
+	line "나도 젊었을 때 성도에서"
+	cont "트레이너 수행을 했었단다"
+	
+	para "너에게는 친숙함이 생기는구나"
+	line "성도에서 발견한 이 날개"
+	cont "너에게 주겠다!"
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Going to new, un-"
-	line "known places and"
-	cont "seeing new people…"
-
-	para "Those are the joys"
-	line "of travel."
+	text "여러 장소에 가서"
+	line "많은 발견을 한다"
+	cont "그것이 여행의 묘미란다"
 	done
 
 PewterCitySignText:
-	text "PEWTER CITY"
-	line "A Stone Gray City"
+	text "이곳은 회색시티"
+	line "회색은 재와 돌의 색깔"
 	done
-
+	
 PewterGymSignText:
-	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
-
-	para "The Rock Solid"
-	line "#MON Trainer"
+	text "회색시티의 포켓몬 체육관"
+	line "관장인 웅"
+	cont "강하고 단단한 의지의 사나이"
 	done
 
 PewterMuseumSignText:
-	text "There's a notice"
-	line "here…"
-
-	para "PEWTER MUSEUM OF"
-	line "SCIENCE is closed"
-	cont "for renovations…"
+	text "…… 전단지가 붙어 있다!"
+	
+	para "회색시티 과학 박물관은"
+	line "개장 공사를 위해 폐쇄중"
 	done
 
 PewterCityMtMoonGiftShopSignText:
-	text "There's a notice"
-	line "here…"
-
-	para "MT.MOON GIFT SHOP"
-	line "NOW OPEN!"
+	text "…… 전단지가 붙어 있다"
+	
+	para "달맞이 산 선물의 집이"
+	line "문을 열었습니다!"
 	done
-
+	
 PewterCityWelcomeSignText:
-	text "WELCOME TO"
-	line "PEWTER CITY!"
+	text "어서오세요 회색시티에 오세요"
 	done
 
 PewterCity_MapEvents:

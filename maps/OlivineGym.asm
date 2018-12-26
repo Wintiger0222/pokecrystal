@@ -93,106 +93,88 @@ OlivineGymStatue:
 	jumpstd gymstatue2
 
 Jasmine_SteelTypeIntro:
-	text "…Thank you for"
-	line "your help at the"
-	cont "LIGHTHOUSE…"
-
-	para "But this is dif-"
-	line "ferent. Please"
-
-	para "allow me to intro-"
-	line "duce myself."
-
-	para "I am JASMINE, a"
-	line "GYM LEADER. I use"
-	cont "the steel-type."
-
-	para "…Do you know about"
-	line "the steel-type?"
-
-	para "It's a type that"
-	line "was only recently"
-	cont "discovered."
-
-	para "…Um… May I begin?"
+	text "…… 등대에서는"
+	line "고마웠어요"
+	
+	para "…… 하지만 승부는 별도니까"
+	line "다시 한번 자기소개를 하겠어요"
+	
+	para "나는 체육관 관장인 규리"
+	line "사용하는 포켓몬은"
+	cont "강철타입입니다"
+	
+	para "…… 강철타입에 대해서"
+	line "알고 있습니까?"
+	
+	para "최근에 발견한지 얼마 되지 않은"
+	line "포켓몬의 타입입니다"
+	
+	para "…… 저 저기"
+	line "그럼 시작하겠습니다"
 	done
 
 Jasmine_BetterTrainer:
-	text "…You are a better"
-	line "trainer than me,"
-
-	para "in both skill and"
-	line "kindness."
-
-	para "In accordance with"
-	line "LEAGUE rules, I"
-
-	para "confer upon you"
-	line "this BADGE."
+	text "…… 포켓몬 트레이너로서"
+	line "당신 쪽이 더 뛰어난 것 같군요"
+	cont "강함과 부드러움도"
+	
+	para "…… 그럼 리그의 규칙대로"
+	line "배지를 드리겠습니다"
 	done
-
+	
 Text_ReceivedMineralBadge:
-	text "<PLAYER> received"
-	line "MINERALBADGE."
+	text "<PLAYER>는(은) 규리로부터"
+	line "스틸배지를 받았다!"
 	done
 
 Jasmine_BadgeSpeech:
-	text "MINERALBADGE"
-	line "raises #MON's"
-	cont "DEFENSE."
-
-	para "…Um… Please take"
-	line "this too…"
+	text "…… 스틸배지에는"
+	line "포켓몬의 방어력을"
+	cont "올려주는 효과가 있어"
+	
+	para "…… 저어 그리고 이것도 받아요"
 	done
 
 Text_ReceivedTM09:
-	text "<PLAYER> received"
-	line "TM09."
+	text "<PLAYER>는(은) 규리로부터"
+	line "기술머신09를 받았다!"
 	done
 
 Jasmine_IronTailSpeech:
-	text "…You could use"
-	line "that TM to teach"
-	cont "IRON TAIL."
+	text "…… 그 기술머신을 사용하면"
+	line "아이언테일을 가르칠 수 있습니다"
 	done
 
 Jasmine_GoodLuck:
-	text "Um… I don't know"
-	line "how to say this,"
-	cont "but good luck…"
+	text "저 저기……"
+	line "그다지 말은 잘 못하겠지만"
+	
+	para "…… 힘내세요"
 	done
 
 OlivineGymGuyText:
-	text "JASMINE uses the"
-	line "newly discovered"
-	cont "steel-type."
-
-	para "I don't know very"
-	line "much about it."
+	text "규리가 사용하는 포켓몬은"
+	line "발견된지 얼마 되지 않은"
+	cont "강철타입을 지니고 있다"
+	
+	para "어떤 특징일까"
+	line "나도 잘 모르고 있단다"
 	done
 
 OlivineGymGuyWinText:
-	text "That was awesome."
-
-	para "The steel-type,"
-	line "huh?"
-
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	text "이야아 멋있었어"
+	line "강철타입……"
+	cont "바로 미지의 도구였어!"
 	done
 
 OlivineGymGuyPreText:
-	text "JASMINE, the GYM"
-	line "LEADER, is at the"
-	cont "LIGHTHOUSE."
-
-	para "She's been tending"
-	line "to a sick #MON."
-
-	para "A strong trainer"
-	line "has to be compas-"
-	cont "sionate."
+	text "체육관 관장인 규리"
+	line "등대의 포켓몬"
+	cont "상태가 나뻐서"
+	cont "계속 간병하고 있단다"
+	
+	para "강한 트레이너라고 하는 것은"
+	line "온화함을 지니고 있구나"
 	done
 
 OlivineGym_MapEvents:

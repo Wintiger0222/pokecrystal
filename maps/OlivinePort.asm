@@ -284,104 +284,89 @@ MovementData_0x74a49:
 	step_end
 
 UnknownText_0x74a55:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "이제 곧 출발합니다!"
+	line "승선해주십시오"
 	done
 
 UnknownText_0x74a80:
-	text "Sorry. You can't"
-	line "board now."
+	text "배에는 탈 수 없습니다!"
 	done
 
 UnknownText_0x74a9c:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
-
-	para "Will you be board-"
-	line "ing today?"
+	text "어서오세요!"
+	line "쾌속선 아쿠아호에!"
+	cont "승선하겠습니까?"
 	done
 
 UnknownText_0x74ada:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "그럼 티켓을 보여주십시오"
 	done
 
 UnknownText_0x74af6:
-	text "We hope to see you"
-	line "again!"
+	text "그럼 다음에도 이용을"
+	line "부탁드리겠습니다"
 	done
 
 UnknownText_0x74b11:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
-
-	para "That's it."
-	line "Thank you!"
+	text "<PLAYER>는(은) 선원에게"
+	line "승선티켓을 보였다!"
+	
+	para "예! 확인했습니다!"
 	done
 
 UnknownText_0x74b41:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
-
-	para "…But no TICKET!"
-
-	para "Sorry!"
-	line "You may board only"
-
-	para "if you have an"
-	line "S.S.TICKET."
+	text "<PLAYER>는(은) 선원에게"
+	line "티켓을 보이려했다……"
+	cont "티켓이…… 없어……!"
+	
+	para "……대단히 죄송합니다!"
+	
+	para "들어가는 것은"
+	line "티켓이 있는 분만 가능합니다"
 	done
 
 UnknownText_0x74ba8:
-	text "The FAST SHIP will"
-	line "sail next Monday."
+	text "쾌속선의 출항은"
+	line "다음 월요일입니다"
 	done
 
 UnknownText_0x74bce:
-	text "The FAST SHIP will"
-	line "sail next Friday."
+	text "쾌속선의 출항은"
+	line "다음 금요일입니다"
 	done
 
 OlivinePortFishingGuru1Text:
-	text "SHELLDER are easy"
-	line "to catch here."
-
-	para "They're kind of"
-	line "rare elsewhere."
+	text "다른 곳에서는 잘 잡히지 않는"
+	line "셀러가 잘 낚인단다!"
 	done
 
 OlivinePortFishingGuru2Text:
-	text "How many RODS do"
-	line "you have?"
-
-	para "Different RODS"
-	line "catch different"
-	cont "#MON."
+	text "너 낚싯대를"
+	line "몇자루 가지고 있니?"
+	
+	para "낚싯대의 종류에의해"
+	line "잡히기 쉬운 포켓몬이 바뀐단다!"
 	done
+	
 
 OlivinePortYoungsterText:
-	text "S.S.AQUA uses jets"
-	line "to skim over the"
-	cont "waves!"
+	text "쾌속선 아쿠아호는"
+	line "제트의 힘으로 약간 물에 떠서"
+	cont "바다 위를 달린다!"
 	done
-
+	
 OlivinePortCooltrainerFText:
-	text "There are lots of"
-	line "#MON in KANTO."
-
-	para "I wish I could go…"
+	text "관동지방에도 많은"
+	line "포켓몬이 있지!"
+	cont "나도 가고싶어!"
 	done
 
 OlivinePortSailorBeforeHOFText:
-	text "We don't want you"
-	line "to fall into the"
-
-	para "sea, so you're not"
-	line "allowed in."
+	text "바다에 떨어질까봐"
+	line "위험해서 그래"
+	cont "더 이상 가면 안 된다"
 	done
-
+	
 OlivinePort_MapEvents:
 	db 0, 0 ; filler
 

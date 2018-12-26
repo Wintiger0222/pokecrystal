@@ -44,37 +44,32 @@ MrFujisHouseBookshelf:
 	jumpstd difficultbookshelf
 
 MrFujisHouseSuperNerdText:
-	text "MR.FUJI does live"
-	line "here, but he's not"
-
-	para "home now."
-
-	para "He should be at"
-	line "the SOUL HOUSE."
+	text "등나무노인의 집은 여기입니다만"
+	line "할아버지는 이곳에 안계세요!"
+	
+	para "영혼의 집에"
+	line "가 보세요"
 	done
 
 MrFujisHouseLassText:
-	text "Some cold-hearted"
-	line "people stop caring"
-	cont "for their #MON."
-
-	para "Grandpa takes in"
-	line "the poor homeless"
-
-	para "#MON and takes"
-	line "care of them."
+	text "포켓몬을 돌보지"
+	line "않는 사람들이 늘어간다"
+	
+	para "불쌍한 포켓몬을"
+	line "할아버지가 맡아서"
+	cont "키우고 있단다"
 	done
 
 MrFujisPsyduckText:
-	text "PSYDUCK: Gu-guwa?"
+	text "고라파덕『파덕 파-덕?"
 	done
 
 MrFujisNidorinoText:
-	text "NIDORINO: Gyun!"
+	text "니드리노『리노!!"
 	done
 
 MrFujisPidgeyText:
-	text "PIDGEY: Pijji!"
+	text "구구『구-구-!"
 	done
 
 MrFujisHouse_MapEvents:

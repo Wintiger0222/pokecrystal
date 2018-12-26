@@ -35,29 +35,22 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2:
 	jumpstd magazinebookshelf
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
-
-	para "That's odd, since"
-	line "even ordinary"
-
-	para "GYARADOS are rare"
-	line "in that lake…"
+	text "빨간 갸라도스가"
+	line "분노의 호수에 나타난 것 같아!"
+	
+	para "저 호수에 갸라도스가"
+	line "있다는것 만으로도 희한한 일인데."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
-	text "My favorite radio"
-	line "program? I'd say"
-	cont "#MON MUSIC."
+	text "내가 좋아하는 라디오 방송?"
+	line "음- 포켓몬 뮤직이야"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "I've been hearing"
-	line "laughter on the"
-
-	para "radio…"
-	line "It's creepy."
+	text "최근 라디오에서"
+	line "웃음소리가 들려오고 있어……"
+	cont "어쩐지 기분나빠"
 	done
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:

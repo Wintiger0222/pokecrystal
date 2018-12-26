@@ -73,63 +73,54 @@ MountMortarB1FHiddenMaxRevive:
 	hiddenitem MAX_REVIVE, EVENT_MOUNT_MORTAR_B1F_HIDDEN_MAX_REVIVE
 
 UnknownText_0x7e24d:
-	text "Hey!"
-
-	para "I am the KARATE"
-	line "KING!"
-
-	para "I train alone here"
-	line "in the dark!"
-
-	para "You!"
-	line "Battle with me!"
-
-	para "Hwaaarggh!"
+	text "안녕하신가!"
+	line "내가 태권왕이다!"
+	
+	para "어두운 동굴에서 혼자"
+	line "수행을 하는 사나이다!"
+	
+	para "어이!"
+	line "자네!"
+	cont "나와 겨루자!"
+	cont "이얍-!"
 	done
 
 UnknownText_0x7e2a9:
-	text "Waaaarggh!"
-	line "I'm beaten!"
+	text "이얏-!"
+	line "탓-! 다 당했다!"
 	done
 
 UnknownText_0x7e2c0:
-	text "I… I'm crushed…"
-
-	para "My training is"
-	line "still not enough…"
-
-	para "But a loss is a"
-	line "loss. I admit it."
-
-	para "As proof that you"
-	line "defeated me, I'll"
-
-	para "give you a rare"
-	line "fighting #MON."
+	text "우우…… 분하다!"
+	line "아직도 수행이 부족한 건가……!"
+	
+	para "분하지만 패배는 패배!"
+	line "떳떳하게 받아들이겠다!"
+	
+	para "자네! 이겼다는 징표로"
+	line "나의 소중한"
+	cont "격투 포켓몬을 주겠다!"
 	done
 
 UnknownText_0x7e355:
-	text "<PLAYER> received"
-	line "TYROGUE."
+	text "<PLAYER>는(은) 태권대왕에게"
+	line "배루키를 얻었다!"
 	done
 
 UnknownText_0x7e36a:
-	text "TYROGUE is a"
-	line "fighting-type."
-
-	para "It evolves into a"
-	line "tougher #MON."
-
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
-
-	para "Farewell!"
+	text "배루키는 격투타입!"
+	
+	para "잘 키우면 강한 포켓몬으로"
+	line "진화한다고 한다!"
+	
+	para "자네도 힘내게!"
+	line "나도 수행을 계속할 것이다"
+	cont "이야압!"
 	done
 
 UnknownText_0x7e3df:
-	text "You have no room"
-	line "in your party!"
+	text "웃!"
+	line "가득이라서 지닐 수가 없다!"
 	done
 
 MountMortarB1F_MapEvents:

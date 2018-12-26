@@ -128,9 +128,8 @@ UnknownText_0x5550d:
 	done
 
 UnknownText_0x5552e:
-	text "Lalala lalalala."
-	line "Have plenty of"
-	cont "water, my lovely!"
+	text "라라라 라라라라"
+	line "듬뿍 물을 줄께"
 	done
 
 UnknownText_0x55561:

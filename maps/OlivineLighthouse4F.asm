@@ -30,53 +30,39 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMINE must be"
-	line "worried sick about"
-	cont "the #MON here."
-
-	para "She won't even"
-	line "smile these days."
+	text "규리씨……"
+	line "포켓몬이 걱정 될꺼야"
+	cont "약도 효과가 없고말야"
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "나도 모르겠어……"
 	done
 
 SailorKentAfterBattleText:
-	text "Speaking of sick,"
-	line "I've heard there's"
-
-	para "a good PHARMACY in"
-	line "CIANWOOD."
+	text "약이라……"
+	line "맞아! 진청시티에는 솜씨 좋은"
+	cont "약국이 있다는 이야기가 있어!"
 	done
 
 LassConnie1SeenText:
-	text "JASMINE is this"
-	line "city's GYM LEADER."
-
-	para "I mean to bring"
-	line "her back with me."
-
-	para "Nobody had better"
-	line "get in my way!"
+	text "규리는"
+	line "이 마을의 체육관 관장이면서도……"
+	
+	para "나 함께 돌아갈 작정이야"
+	line "누구에게도 방해받지 않을꺼야!"
 	done
-
+	
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "아아 내 포켓몬!"
 	done
 
 LassConnie1AfterBattleText:
-	text "Right. Anybody"
-	line "would be worried"
-	cont "if his or her own"
-	cont "#MON were hurt."
-
-	para "I'll pray for the"
-	line "#MON here, so"
-
-	para "JASMINE can come"
-	line "back to the GYM."
+	text "그렇군! 누구든지 포켓몬이"
+	line "상처를 입으면 걱정을 하겠군"
+	
+	para "규리가 체육관에 돌아갈 수 있도록"
+	line "내가 기도해 줄께"
 	done
 
 OlivineLighthouse4F_MapEvents:

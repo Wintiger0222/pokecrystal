@@ -21,28 +21,20 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "REPEL is a neces-"
-	line "sity if you are"
-
-	para "going to explore a"
-	line "cave."
-
-	para "Even though I like"
-	line "exploring, I still"
-
-	para "haven't made it to"
-	line "all the caves."
+	text "동굴을 탐험할 때에는"
+	line "벌레회피 스프레이가 유용하다!"
+	
+	para "탐험을 좋아하는 나도"
+	line "동굴의 모든 장소에는"
+	cont "아직 가본 적이 없단다!"
 	done
 
 LavenderMartRockerText:
-	text "I heard about a"
-	line "craftsman who"
-
-	para "makes custom BALLS"
-	line "in the JOHTO town"
-
-	para "of AZALEA. I wish"
-	line "I had some."
+	text "성도의 고동마을이라는 곳에"
+	line "특수한 볼을 만드는"
+	cont "전문가가 있다고 하는데!"
+	
+	para "나도 가지고싶다!"
 	done
 
 LavenderMart_MapEvents:

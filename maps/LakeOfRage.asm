@@ -243,252 +243,196 @@ MovementData_0x70155:
 	step_end
 
 UnknownText_0x70157:
-	text "This lake is full"
-	line "of GYARADOS but"
-	cont "nothing else…"
-
-	para "So the MAGIKARP"
-	line "are being forced"
-	cont "to evolve…"
+	text "이 호수에는"
+	line "갸라도스만 있구나……"
+	
+	para "역시 잉어킹은"
+	line "누군가가 한 짓에 의해 강제로"
+	cont "진화하게 된 것인가……"
 	done
 
 UnknownText_0x701b4:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
-
-	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
-	cont "trainer like you."
-
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate…"
-
-	para "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAY_G>."
-
-	para "I can tell that"
-	line "you're a trainer"
-
-	para "with considerable"
-	line "skill."
-
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	text "너도 소문을 듣고"
+	line "찾아왔는가?"
+	
+	para "그래 <PLAYER>(이)라고 하는가"
+	line "내 이름은 목호"
+	cont "너와 같은 트레이너란다"
+	
+	para "이곳의 소문을 듣고"
+	line "진상을 조사하고 있었는데……"
+	
+	para "<PLAY_G>!"
+	line "좀 전의 싸움을 보니까"
+	cont "네가 상당한 실력의"
+	cont "트레이너라는 것을 알 수 있었다"
+	
+	para "괜찮다면 나와함께"
+	line "조사를 해주겠는가?"
 	done
 
 UnknownText_0x702c6:
-	text "LANCE: Excellent!"
-
-	para "It seems that the"
-	line "LAKE's MAGIKARP"
-
-	para "are being forced"
-	line "to evolve."
-
-	para "A mysterious radio"
-	line "broadcast coming"
-
-	para "from MAHOGANY is"
-	line "the cause."
-
-	para "I'll be waiting"
-	line "for you, <PLAY_G>."
+	text "목호『그럼 한시름 놓았다!"
+	
+	para "호수의 잉어킹은"
+	line "황토마을에서 흘러나오는"
+	cont "수수께끼의 전파에 의해 강제로"
+	cont "진화 되어지는 것 같단다"
+	
+	para "<PLAY_G>!"
+	line "먼저 가서 기다리겠다!"
 	done
 
 UnknownText_0x70371:
-	text "Oh… Well, if you"
-	line "change your mind,"
-	cont "please help me."
+	text "그런가……"
+	line "마음이 변하면 언제든지 오너라"
 	done
 
 UnknownText_0x703a5:
-	text "LANCE: Hm? Are you"
-	line "going to help me?"
+	text "목호『응?"
+	line "도와주겠니?"
 	done
 
 UnknownText_0x703cb:
-	text "GYARADOS: Gyashaa!"
+	text "갸라도스『카- 갸오-!!"
 	done
 
 UnknownText_0x703df:
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER>"
+	db "는(은)"
+	line "빨간 비늘을 손에 넣었다!"
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
-	line "angry!"
-
-	para "It's a bad omen!"
+	text "갸라도스가 화가 났구나"
+	line "뭔가 좋지 않은 일이 일어날지도"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "허허!"
+	line "좋은 잉어킹이 잘 낚인단다"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging GYARADOS."
-
-	para "I wonder if there"
-	line "is any connection"
-
-	para "to their mass out-"
-	line "break now?"
+	text "이곳은 예전에 갸라도스가"
+	line "폭주해서 돌아다닐때 만들어졌데"
+	
+	para "이번의 대량 발생이랑"
+	line "뭔가 관계가 있을까?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
-
-	para "red GYARADOS in"
-	line "the LAKE…"
-
-	para "But I thought"
-	line "GYARADOS were"
-	cont "usually blue?"
+	text "내가 잘못 보았을까"
+	line "호수 한가운데"
+	cont "빨간 갸라도스가 있었어……"
+	
+	para "하지만 갸라도스는"
+	line "보통은 파란색이지?"
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #MON I just"
-	cont "caught!"
+	text "아까 낚아 올린"
+	line "자랑할만한 포켓몬으로 승부를!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
-
-	para "I stink as a #-"
-	line "MON trainer…"
+	text "낚시는 프로급이라도"
+	line "포켓몬은 아직 아마츄어인가……"
 	done
-
+	
 FisherAndreAfterBattleText:
-	text "I won't lose as an"
-	line "angler! I catch"
-	cont "#MON all day."
+	text "낚시 실력이라면 지지 않는다!"
+	line "어찌되었든 하루종일"
+	cont "포켓몬을 낚고 있으니까!"
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
-
-	para "are the same #-"
-	line "MON…"
+	text "전력을 다하여도"
+	line "똑같은 포켓몬밖에 낚이지 않는다!"
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "…… 낚싯줄 엉켜버렸다"
 	done
-
+	
 FisherRaymondAfterBattleText:
-	text "Why can't I catch"
-	line "any good #MON?"
+	text "어째서 좋은 포켓몬이"
+	line "낚이지 않는거야!"
 	done
 
 CooltrainermAaronSeenText:
-	text "If a trainer spots"
-	line "another trainer,"
-
-	para "he has to make a"
-	line "challenge."
-
-	para "That is our"
-	line "destiny."
+	text "트레이너를 발견하면"
+	line "반드시 도전한다!"
+	cont "그것은 트레이너의 숙명!"
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "후우……"
+	line "좋은 시합이었다"
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "#MON and their"
-	line "trainer become"
-
-	para "powerful through"
-	line "constant battling."
+	text "포켓몬과 트레이너는"
+	line "싸움으로 싸움을 이겨내어"
+	cont "자신을 단련시킨다!"
 	done
 
 CooltrainerfLoisSeenText:
-	text "What happened to"
-	line "the red GYARADOS?"
-
-	para "It's gone?"
-
-	para "Oh, darn. I came"
-	line "here for nothing?"
-
-	para "I know--let's"
-	line "battle!"
+	text "빨간 갸라도스는 어떻게 되었니?"
+	
+	para "엥 이젠 없어?"
+	line "이런 힘들게 왔더니……"
+	
+	para "좋아 그럼 너 나랑 시합하자!"
 	done
 
 CooltrainerfLoisBeatenText:
-	text "Good going!"
+	text "훌륭하구나"
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	text "그러고보니까 나"
+	line "핑크색 버터플을 본적이 있어!"
 	done
 
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
-
-	para "Seeing as how it's"
-	line "Wednesday today,"
-
-	para "I'm WESLEY of"
-	line "Wednesday."
+	text "수방『이야! 처음뵙겠습니다!"
+	
+	para "나는 수요일의 수방!"
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "힘들게 만났잖아"
+	line "이거 받아줘!"
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "수방『그 검은띠는"
+	line "격투타입 기술의"
+	cont "위력을 높여주는 도구야!"
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
-
-	para "have met my broth-"
-	line "ers and sisters."
-
-	para "Or did you just"
-	line "get lucky?"
+	text "수방『나를 발견할 수 있었다면"
+	line "다른 누나들도"
+	cont "벌써 만나지 않았겠니?"
+	
+	para "그것이 아니라면 운이 좋았던걸까?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "수방『오늘은 수요일이"
+	line "아닌 것 같군!"
+	cont "아깝네"
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GYARADOS LAKE."
+	text "이곳은 분노의 호수"
+	line "다른 이름은 갸라도스호"
 	done
-
+	
 FishingGurusHouseSignText:
-	text "FISHING GURU'S"
-	line "HOUSE"
+	text "낚시명인의 집"
 	done
 
 LakeOfRage_MapEvents:

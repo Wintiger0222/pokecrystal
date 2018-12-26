@@ -116,106 +116,78 @@ NationalParkBugContestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 BugCatchingContestant1AText:
-	text "DON: I'm going to"
-	line "win! Don't bother"
-	cont "me."
+	text "미키『우승은 바로 나!"
+	line "방해하지 말거라!"
 	done
 
 BugCatchingContestant2AText:
-	text "ED: My PARASECT"
-	line "puts #MON to"
-	cont "sleep with SPORE."
+	text "태민『내 파라섹트는 "
+	line "버섯의 포자를 사용해서"
+	cont "싸우러 나온 포켓몬을 잠재워버리지"
 	done
-
 BugCatchingContestant3AText:
-	text "NICK: I'm raising"
-	line "fast #MON for"
-	cont "battles."
+	text "켄『대회를 위하여"
+	line "날쌘 포켓몬을 키우고 있어!"
 	done
-
 BugCatchingContestant4AText:
-	text "WILLIAM: I'm not"
-	line "concerned about"
-	cont "winning."
-
-	para "I'm just looking"
-	line "for rare #MON."
+	text "인명『우승은 어찌되었든"
+	line "진귀한 포켓몬을 찾아 잡을꺼야"
 	done
 
 BugCatchingContestant5AText:
-	text "BENNY: Ssh! You'll"
-	line "scare off SCYTHER."
-
-	para "I'll talk to you"
-	line "later."
+	text "정남『…… 쉿-"
+	line "스라크가 도망치잖아 그럼 다음에"
 	done
 
 BugCatchingContestant6AText:
-	text "BARRY: You should"
-	line "weaken bug #MON"
-
-	para "first, then throw"
-	line "a BALL."
+	text "웅일『곤충 포켓몬을"
+	line "잡을때도 힘을 빼놓고"
+	cont "볼을 던지는 것이 중요해"
 	done
 
 BugCatchingContestant7AText:
-	text "CINDY: I love bug"
-	line "#MON."
-
-	para "I guess you must"
-	line "like them too."
+	text "미지『나는 벌레 포켓몬을"
+	line "좋아해. 너도 좋아하게 될걸!"
 	done
 
 BugCatchingContestant8AText:
-	text "JOSH: I've been"
-	line "collecting bug"
-
-	para "#MON since I"
-	line "was just a baby."
-
-	para "There's no way I'm"
-	line "going to lose!"
+	text "희주『태어나서부터 지금까지"
+	line "곤충 포켓몬만 잡아왔어!"
+	cont "그런 내가 질리 없겠지!"
 	done
 
 BugCatchingContestant9AText:
-	text "SAMUEL: If you've"
-	line "got the time to"
-
-	para "chat, go find some"
-	line "bug #MON."
+	text "동석『수다떨 여유가 있다면"
+	line "포켓몬이나 찾으시지?"
 	done
 
 BugCatchingContestant10AText:
-	text "KIPP: I've studied"
-	line "about bug #MON"
-	cont "a lot."
-
-	para "I'm going to win"
-	line "for sure."
+	text "지선『곤충 포켓몬에 대해"
+	line "많이 공부했으니까"
+	cont "반드시 우승할 꺼야!"
 	done
 
 NationalParkBugContestRelaxationSquareText:
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "안락한 휴식의 장소"
+	line "자연 공원"
 	done
 
 NationalParkBugContestBattleNoticeText:
-	text "What is this"
-	line "notice?"
-
-	para "Please battle only"
-	line "in the grass."
-
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	text "전단지가 붙어있군!"
+	
+	para "포켓몬 승부는"
+	line "풀숲에서만 하시길 부탁드립니다"
+	
+	para "……자연 공원"
+	line "관리소에서 알려드렸습니다……"
 	done
 
 NationalParkBugContestTrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "Print out MAIL by"
-	line "opening it then"
-	cont "pressing START."
+	text "득이 되는 게시판!"
+	
+	para "메일화면에서"
+	line "스타트 버튼을 누르면!"
+	cont "메일을 프린트할 수 있습니다!"
 	done
 
 NationalParkBugContest_MapEvents:

@@ -107,23 +107,17 @@ BillsHouseRadio:
 	jumpstd radio2
 
 BillTakeThisEeveeText:
-	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
-
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
-
-	para "Someone has to"
-	line "take care of it,"
-
-	para "but I don't like"
-	line "being outside."
-
-	para "Can I count on you"
-	line "to play with it,"
-	cont "<PLAYER>?"
+	text "이수재『오오 <PLAYER>(이)냐"
+	line "그래 부탁이 있어"
+	cont "이브이를 맡아줘"
+	
+	para "이녀석 타임캡슐을"
+	line "조정했더니"
+	cont "갑자기 보내져왔단다"
+	
+	para "누군가 돌봐줘야 할텐데"
+	line "나는 외출을 좋아해서 말야"
+	cont "<PLAYER>(이)가 같이 잘 놀아줘"
 	done
 
 BillImCountingOnYouText:
@@ -141,27 +135,22 @@ BillImCountingOnYouText:
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "<PLAYER>는(은)"
+	line "이브이를 얻었다!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
-
-	para "evolve in new and"
-	line "unknown ways."
+	text "이수재『이브이에게는 새로운"
+	line "진화의 가능성이 있다고"
+	cont "공박사님이 발표했단다"
 	done
-
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "으. 이런"
+	line "그 이상 포켓몬을 지닐 수 없잖아"
 	done
 
 BillNoEeveeText:
-	text "Oh… Now what to"
-	line "do?"
+	text "그러냐……"
 	done
 
 BillPopWontWorkText:
@@ -176,9 +165,9 @@ BillPopWontWorkText:
 	done
 
 BillsPopText:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "너 포켓몬 모으고 있니"
+	line "내 아들도"
+	cont "포켓몬에 박식하단다"
 
 	para "He just got called"
 	line "to the #MON"
@@ -205,39 +194,36 @@ BillsMomText:
 	done
 
 BillsSisterUsefulNumberText:
-	text "Are you a trainer?"
-
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	text "너 포켓몬 트레이너니?"
+	
+	para "그렇다면 내가 굉장한"
+	line "전화번호를 가르쳐줄까?"
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER>는(은) 이수재의"
+	line "전화번호를 등록했다!"
 	done
 
 BillsSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
-
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	text "컴퓨터로 포켓몬을 맡길 수 있는"
+	line "시스템을 만든 것은"
+	cont "내 오빠야"
+	
+	para "너에게 이수재 오빠의"
+	line "전화번호를"
+	cont "가르쳐주려고 생각했는데"
 	done
 
 BillsSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "앗!"
+	line "그 이상 등록을 할 수 없구나"
 	done
 
 BillsSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
-
-	para "#MON storage"
-	line "system."
+	text "컴퓨터로 포켓몬을"
+	line "맡길 수 있는 시스템을 만든 것은"
+	cont "이수재 오빠란다"
 	done
 
 BillsFamilysHouse_MapEvents:

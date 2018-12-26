@@ -46,68 +46,57 @@ OlivineLighthouse3FEther:
 	itemball ETHER
 
 BirdKeeperTheoSeenText:
-	text "Why are you here?"
-	line "Are you just going"
-
-	para "to gawk? I suggest"
-	line "that you leave!"
+	text "넌 뭐냐?"
+	line "문병이냐? 아님 놀리러왔냐?"
+	cont "놀리러왔다면 돌아가 줘!"
 	done
 
 BirdKeeperTheoBeatenText:
-	text "You really are"
-	line "concerned…"
+	text "정말이군"
+	line "문병하러 와줬구나"
 	done
 
 BirdKeeperTheoAfterBattleText:
-	text "How the heck do"
-	line "you go up?"
-
-	para "I want to visit"
-	line "the sick #MON,"
-
-	para "but I can't get up"
-	line "there…"
+	text "어떡게 해서 위로 올라가지?"
+	line "문병하러 가고싶은데"
+	cont "갈 수 없어서 곤란해 하고있어"
 	done
 
 SailorTerrellSeenText:
-	text "Sailors are both"
-	line "kind and strong."
-	cont "How about you?"
+	text "바다의 사나이는 강함과 부드러움"
+	line "그 두가지를 겸해 가지고 있다"
+	cont "너는 어떠니?"
 	done
 
 SailorTerrellBeatenText:
-	text "You are both kind"
-	line "and strong…"
+	text "너의 싸우는 방식은"
+	line "강함과 부드러움을 느끼게 한다"
 	done
 
 SailorTerrellAfterBattleText:
-	text "Every time I come"
-	line "back to OLIVINE, I"
-	cont "visit the GYM."
-
-	para "The GYM LEADER's"
-	line "#MON type has"
-
-	para "changed without me"
-	line "noticing."
+	text "담청시티에 되돌아왔을 때"
+	line "포켓몬 체육관에 들려봤는데……"
+	
+	para "체육관 관장이 사용하는 포켓몬의"
+	line "타입이 언제부턴가 바뀌어 있었다"
 	done
 
 GentlemanPrestonSeenText:
-	text "I travel the world"
-	line "to train my #-"
-	cont "MON. I wish to"
-	cont "battle with you."
+	text "나는 이 세상을 여행하며"
+	line "포켓몬을 단련시키고 있다"
+	cont "나와 약간 승부해보겠니?"
 	done
 
 GentlemanPrestonBeatenText:
-	text "…sigh… I must"
-	line "train some more…"
+	text "하아……"
+	line "아직도 수행이 부족하군"
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMINE used to"
-	line "use rock #MON"
-	cont "like ONIX."
+	text "규리는 원래"
+	line "롱스톤 같은 바위타입의"
+	cont "포켓몬을 사용하는"
+	cont "포켓몬 트레이너였다"
 	done
 
 OlivineLighthouse3F_MapEvents:

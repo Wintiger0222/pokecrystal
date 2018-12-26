@@ -14,24 +14,19 @@ OlivineLighthouse1FPokefanFScript:
 	jumptextfaceplayer OlivineLighthouse1FPokefanFText
 
 OlivineLighthouse1FSailorText:
-	text "People train at"
-	line "this LIGHTHOUSE."
-
-	para "It's not easy to"
-	line "climb because of"
-	cont "all the trainers."
+	text "이 등대는"
+	line "수행의 장소이기도하다"
+	
+	para "트레이너가 잔뜩 있으니까"
+	line "간단하게 올라갈 수 없을 꺼야"
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "In the past, #-"
-	line "MON used to light"
-
-	para "the sea around"
-	line "OLIVINE at night."
-
-	para "The LIGHTHOUSE was"
-	line "made in honor of"
-	cont "those #MON."
+	text "담청시티에서는 예전부터 포켓몬이"
+	line "밤의 바다를 밝히고 있었단다"
+	
+	para "그것을 기념해서 만든 것이"
+	line "이 등대라고 한다"
 	done
 
 OlivineLighthouse1F_MapEvents:

@@ -25,16 +25,14 @@ OlivineHouseBetaBookshelf2:
 	jumpstd magazinebookshelf
 
 OlivineHouseBetaTeacherText:
-	text "When my #MON"
-	line "got sick, the"
-
-	para "PHARMACIST in"
-	line "ECRUTEAK made some"
-	cont "medicine for me."
+	text "내 포켓몬이"
+	line "병이 났을 때는"
+	cont "인주시티의 약국에서"
+	cont "약을 조제해서 받았단다"
 	done
 
 OlivineHouseBetaRhydonText:
-	text "RHYDON: Gugooh!"
+	text "코뿌리『쿠오오!"
 	done
 
 OlivineHouseBeta_MapEvents:

@@ -100,102 +100,77 @@ ManiasHouseUnusedBookshelf:
 	jumpstd picturebookshelf
 
 ManiaText_AskLookAfterShuckle:
-	text "I, I'm in shock!"
-
-	para "A guy about your"
-	line "age with piercing"
-
-	para "eyes and long hair"
-	line "came in."
-
-	para "He scared me into"
-	line "giving him my"
-	cont "prized #MON!"
-
-	para "I still have one"
-	line "left, but what if"
-	cont "he comes back?"
-
-	para "You look strong."
-	line "Could you look"
-
-	para "after my #MON"
-	line "for a while?"
+	text "뭐 뭐냐……"
+	
+	para "너랑 같은정도의 나이또래로"
+	line "눈매가 사납고"
+	cont "머리가 길고"
+	cont "어쩐지 겁이나는 소년에게"
+	cont "소중한 포켓몬을 빼앗겼어!"
+	
+	para "손에는 1마리 남아 있지만"
+	line "또 빼앗기면 어떡하지……"
+	
+	para "너는 강한 것 같구나"
+	line "빨리 포켓몬을 맡아줘!"
 	done
-
+	
 ManiaText_TakeCareOfShuckle:
-	text "Oh, thank you!"
-
-	para "Take good care of"
-	line "it, please!"
+	text "자 자 부탁할께!"
+	line "소중하게 키워줘"
 	done
 
 ManiaText_GotShuckle:
-	text "<PLAYER> received a"
-	line "#MON."
+	text "<PLAYER>는(은) 매니아로부터"
+	line "포켓몬을 맡았다!"
 	done
 
 ManiaText_PartyFull:
-	text "Your #MON party"
-	line "is full."
+	text "포켓몬이 잔뜩 있잖아"
 	done
 
 ManiaText_IfHeComesBack:
-	text "Oh, no… What'll"
-	line "I do if he comes"
-	cont "back?"
+	text "그 그런"
+	line "또 빼앗기면 어떡하나"
 	done
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hi! How's my #-"
-	line "MON?"
-
-	para "I think I'm safe"
-	line "now, so may I have"
-	cont "it back?"
+	text "내 포켓몬 잘 있니?"
+	
+	para "더 이상 빼앗길 염려도 없고"
+	line "포켓몬 돌려주면 좋겠어"
 	done
 
 ManiaText_ThankYou:
-	text "Thank you!"
+	text "고마워!"
 	done
 
 ManiaText_ShuckleNotThere:
-	text "Hey, you don't"
-	line "have my #MON"
-	cont "with you."
+	text "내 포켓몬 없잖아"
 	done
 
 ManiaText_ShuckleLikesYou:
-	text "My #MON has"
-	line "come to like you."
-
-	para "All right, you"
-	line "should keep it."
-
-	para "But promise to"
-	line "be good to it!"
+	text "내 포켓몬"
+	line "너에게 정이 들었구나"
+	
+	para "알았어! 포켓몬 양보할께!"
+	line "그 대신 소중히 키워줘"
 	done
 
 ManiaText_SameAsBeingRobbed:
-	text "Oh, no, no… That's"
-	line "the same as being"
-	cont "robbed."
+	text "그 그런"
+	line "그렇다면 빼앗긴거랑 같잖아"
 	done
-
+	
 ManiaText_HappinessSpeech:
-	text "For #MON, hap-"
-	line "piness is being"
-
-	para "with a person who"
-	line "treats them well."
+	text "포켓몬에게 있어서 행복이란"
+	line "소중히 키워주는 사람과"
+	cont "함께 지내는 것이 아닐까"
 	done
 
 ManiaText_ShuckleIsYourLastMon:
-	text "If I take my #-"
-	line "MON back, what are"
-
-	para "you going to use"
-	line "in battle?"
+	text "내가 그 포켓몬을 받으면"
+	line "너는 싸우지 못하게 되는군!"
 	done
 
 ManiasHouse_MapEvents:

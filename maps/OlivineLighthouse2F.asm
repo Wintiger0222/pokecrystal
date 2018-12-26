@@ -152,45 +152,37 @@ TrainerSailorHuey:
 	end
 
 SailorHueySeenText:
-	text "Men of the sea are"
-	line "always spoiling"
-	cont "for a good fight!"
+	text "바다 사나이는"
+	line "언제든지 싸움을 달고 다니지!"
 	done
 
 SailorHueyBeatenText:
-	text "Urf!"
-	line "I lose!"
+	text "오우!"
+	line "내가 졌다!"
 	done
 
 SailorHueyUnusedText:
 ; unused
-	text "What power!"
-	line "How would you like"
-
-	para "to sail the seas"
-	line "with me?"
+	text "그 강함 맘에 들었어!"
+	line "함께 외국에 가볼래?"
 	done
 
 GentlemanAlfredSeenText:
-	text "Hm? This is no"
-	line "place for playing."
+	text "어랏 너는……?"
+	line "이곳은 놀이터가 아니야"
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! I can see that"
-	line "you're serious."
+	text "오오 진심이로군"
 	done
 
 GentlemanAlfredAfterBattleText:
-	text "Up top is a #-"
-	line "MON that keeps the"
-	cont "LIGHTHOUSE lit."
-
-	para "But I hear that"
-	line "it's sick now and"
-
-	para "can't be cured by"
-	line "ordinary medicine."
+	text "제일 꼭대기에는 포켓몬이 있어서"
+	line "항상 빛나고있어"
+	
+	para "하지만 지금은 병이 났다고 한다"
+	line "게다가 보통의 치료약으로는"
+	cont "치료할 수 없다는 이야기란다"
 	done
 
 SailorHueyGiveProteinText:

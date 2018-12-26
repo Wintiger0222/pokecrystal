@@ -13,9 +13,9 @@ PewterSnoozeSpeechHouseBookshelf:
 	jumpstd picturebookshelf
 
 PewterSnoozeSpeechHouseGrampsText:
-	text "I like snoozing"
-	line "with the radio on…"
-	cont "…Zzzz…"
+	text "라디오를 들으면서"
+	line "낮잠 자는 것을 좋아해……"
+	cont "쿨…… 음냐음냐……"
 	done
 
 PewterSnoozeSpeechHouse_MapEvents:

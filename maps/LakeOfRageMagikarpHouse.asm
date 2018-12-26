@@ -91,116 +91,80 @@ MagikarpHouseBookshelf:
 	jumpstd difficultbookshelf
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "LAKE OF RAGE is"
-	line "actually a crater"
-
-	para "made by rampaging"
-	line "GYARADOS."
-
-	para "The crater filled"
-	line "up with rainwater"
-
-	para "and the LAKE was"
-	line "formed."
-
-	para "That's the story"
-	line "passed on from my"
-
-	para "Grandpa's great-"
-	line "great-grandpa."
-
-	para "It used to be that"
-	line "you could catch"
-
-	para "lively MAGIKARP"
-	line "there, but…"
-
-	para "I don't understand"
-	line "what's happening."
+	text "이 분노의 호수는 갸라도스가"
+	line "폭주해서 날뛴 자국의 구덩이에"
+	cont "빗물이 고여서 생겼다고 한다"
+	
+	para "할아버지의 할아버지 그리고"
+	line "그 위의 할아버지의 말씀이었지만"
+	
+	para "전에는 생기 넘치는"
+	line "잉어킹이 낚이던"
+	cont "호수였는데……"
+	
+	para "도대체 어떻게 된걸까?"
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "The LAKE hasn't"
-	line "been normal since"
-
-	para "those men wearing"
-	line "black arrived."
+	text "호수가 이상해진 것은"
+	line "검은 옷의 사내들이"
+	cont "어슬렁거리기 시작하고부터다"
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "LAKE OF RAGE is"
-	line "back to normal."
-
-	para "The MAGIKARP have"
-	line "returned."
-
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest MAGIKARP."
-
-	para "Do you have a ROD?"
-	line "Please help me if"
-	cont "you do."
+	text "우와 분노의 호수"
+	line "예전처럼 생기 넘치는"
+	cont "잉어킹이 잡히게 되었다"
+	
+	para "이것으로 세계제일의"
+	line "커다란 잉어킹을 보려고 하는"
+	cont "꿈이 이루어질 것 같다"
+	
+	para "너는 낚시대를 가지고 있느냐?"
+	line "괜찮다면 좀 도와주거라"
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, you have a"
-	line "MAGIKARP! Let's"
-
-	para "see how big that"
-	line "baby is."
+	text "오 잉어킹을 가지고 있구나"
+	line "그럼 자랑할만한 잉어킹을"
+	cont "보여주거라"
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! This one is"
-	line "outstanding!"
-
-	para "I tip my hat to"
-	line "you!"
-
-	para "Take this as a"
-	line "memento!"
+	text "이녀석은 훌륭하구나!"
+	
+	para "너의 실력에 감탄했다"
+	line "기념으로 이것을 가지고 가거라"
 	done
-
 MagikarpLengthRaterText_Bonus:
-	text "The record is the"
-	line "important thing."
-
-	para "Think of that as"
-	line "a bonus!"
+	text "중요한 것은 기록이니까"
+	line "그건 부록 같은 것이지"
 	done
-
+	
 MagikarpLengthRaterText_TooShort:
-	text "Wow! This one is"
-	line "outstanding!"
-
-	para "…I wish I could"
-	line "say that, but I've"
-
-	para "seen a bigger one"
-	line "before."
+	text "이녀석은 대단해! 라고"
+	
+	para "말하고 싶지만 전에 낚은 것이"
+	line "더 컸었단다"
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "What? That's not a"
-	line "MAGIKARP!"
+	text "뭐라!"
+	line "그건 잉어킹이 아니란다"
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… So you didn't"
-	line "get one good"
-
-	para "enough to show me?"
-	line "Maybe next time."
+	text "그런가……"
+	line "보여줄만한 놈은 낚지 못했는가"
+	cont "뭐 다음에는 굉장한 것을 보여줘라"
 	done
 
 LakeOfRageMagikarpHouseUnusedRecordText:
-	text "CURRENT RECORD"
-
+	text "지금의 기록……"
+	
 	para "@"
 	text_ram wStringBuffer3
-	text " caught by"
+	text " ……"
 	line "@"
 	text_ram wStringBuffer4
 	text_end

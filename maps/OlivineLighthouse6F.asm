@@ -161,99 +161,82 @@ MovementData_0x60c79:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMINE: … This"
-	line "#MON always"
-
-	para "kept the sea lit"
-	line "at night."
-
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
-
-	para "…I understand"
-	line "that there is a"
-
-	para "wonderful PHARMACY"
-	line "in CIANWOOD…"
-
-	para "But that's across"
-	line "the sea…"
-
-	para "And I can't leave"
-	line "AMPHY unattended…"
+	text "규리『…… 이 포켓몬 늘"
+	line "바다를 밝혀주었는데"
+	
+	para "…… 하지만"
+	line "갑자기 힘이 빠져있어"
+	cont "숨도 간신히 쉬고……"
+	
+	para "…… 바다 저편 진청시티에는"
+	line "굉장한 약국이"
+	cont "있다고들 하는데……"
+	
+	para "내 빛나리의 곁을"
+	line "떠날 수는 없구……"
 	done
 
 JasmineGetSomeMedicineText:
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "……저 제발 부탁드려요"
+	line "저를 대신해서 약을"
+	cont "얻어다줄 수 없을까요?"
 	done
 
 JasmineCureAmphyText:
-	text "JASMINE: …Will"
-	line "that medicine cure"
-	cont "AMPHY?"
+	text "규리『…… 그 약으로"
+	line "빛나리를 치료할 수 있어요?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
-	cont "JASMINE."
+	text "<PLAYER>는(은) 규리에게"
+	line "비전의 약을 건네주었다"
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMINE: …Um,"
-	line "please don't be"
-	cont "offended…"
-
-	para "…AMPHY will not"
-	line "take anything from"
-	cont "anyone but me…"
+	text "규리『…… 저 저기"
+	line "기분 나빠하지 말아주세요"
+	
+	para "…… 빛나리는"
+	line "저 이외의 사람으로부터는"
+	cont "먹을 것을 받아먹지 않거든요"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "JASMINE: …"
-
-	para "AMPHY, how are you"
-	line "feeling?"
+	text "규리『…… …… ……"
+	
+	para "빛나리야 기분은 어때?"
 	done
-
+	
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
-	line "so relieved…"
-
-	para "This is just so"
-	line "wonderful…"
-
-	para "Thank you so very,"
-	line "very much."
-
-	para "…I will return to"
-	line "the GYM…"
+	text "규리『…… 아아 다행이야"
+	line "정말 다행이예요"
+	
+	para "고마워요"
+	line "당신 덕분 이예요"
+	
+	para "…… 그럼 저는"
+	line "체육관에 되돌아가겠어요"
 	done
 
 JasmineISeeText:
-	text "JASMINE: …I see…"
+	text "규리『…… 그 그래요?"
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "…… 빛나리 힘내!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
-	line "…Pa… paloo…"
+	text "빛나리『…… …… ……"
+	line "…… 하…… 하아"
 	done
 
 AmphyBreathingLaboredText:
-	text "Its breathing is"
-	line "terribly labored…"
+	text "숨을 쉬는 것도 괴로운 것 같아"
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
-	line "Palulu!"
+	text "빛나리『파룻! 파루룻!"
 	done
 
 OlivineLighthouse6F_MapEvents:

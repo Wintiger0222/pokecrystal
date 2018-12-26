@@ -27,22 +27,24 @@ MrPsychicsHouseBookshelf:
 	jumpstd difficultbookshelf
 
 MrPsychicText1:
-	text "…"
-
-	para "…"
-
-	para "…"
-
-	para "…I got it!"
-
-	para "You wanted this!"
+	text "…… …… ……"
+	
+	para "…… …… ……"
+	
+	para "…… …… ……"
+	
+	para "…… …… 알겠다!"
+	
+	para "이것을 가지고싶은가!"
 	done
 
 MrPsychicText2:
-	text "TM29 is PSYCHIC."
-
-	para "It may lower the"
-	line "target's SPCL.DEF."
+	text "…… 알고 있는가?"
+	line "기술머신29는 사이코키네시스"
+	
+	para "…… 잘 되면"
+	line "상대방의 특수 능력을"
+	cont "피할 수 있을지도 모르지"
 	done
 
 MrPsychicsHouse_MapEvents:

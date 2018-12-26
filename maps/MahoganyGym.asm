@@ -148,226 +148,171 @@ MahoganyGymStatue:
 	jumpstd gymstatue2
 
 PryceText_Intro:
-	text "#MON have many"
-	line "experiences in"
-
-	para "their lives, just "
-	line "like we do. "
-
-	para "I, too, have seen"
-	line "and suffered much"
-	cont "in my life."
-
-	para "Since I am your"
-	line "elder, let me show"
-	cont "you what I mean."
-
-	para "I have been with"
-	line "#MON since"
-
-	para "before you were"
-	line "born."
-
-	para "I do not lose"
-	line "easily."
-
-	para "I, PRYCE--the"
-	line "winter trainer--"
-
-	para "shall demonstrate"
-	line "my power!"
+	text "포켓몬도 사람들도"
+	line "살다보면 여러가지 일이 있지"
+	
+	para "나도 여러가지"
+	line "괴로운 일을 맛보았다"
+	
+	para "인생의 선배로서"
+	line "그것을 가르쳐주겠다"
+	
+	para "네가 태어나기 전부터"
+	line "포켓몬과 함께 지내온 내가"
+	cont "그리 간단히 지는 일은 없을꺼다"
+	
+	para "겨울의 류옹이라고 불려지는"
+	line "그 실력을 보여주겠다"
 	done
 
 PryceText_Impressed:
-	text "Ah, I am impressed"
-	line "by your prowess."
-
-	para "With your strong"
-	line "will, I know you"
-
-	para "will overcome all"
-	line "life's obstacles."
-
-	para "You are worthy of"
-	line "this BADGE!"
+	text "으음"
+	line "훌륭한 시합이었다"
+	
+	para "그 강한 마음이 있다면"
+	line "무슨 일이 일어나도"
+	cont "뛰어넘어 갈 수 있을 것이다"
+	
+	para "움!"
+	line "이 배지를 가지고 가거라"
 	done
 
 Text_ReceivedGlacierBadge:
-	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	text "<PLAYER>는(은) 류옹으로부터"
+	line "아이스배지를 받았다!"
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE will"
-	line "raise the SPECIAL"
-	cont "stats of #MON."
-
-	para "It also lets your"
-	line "#MON use WHIRL-"
-	cont "POOL to get across"
-	cont "real whirlpools."
-
-	para "And this… This is"
-	line "a gift from me!"
+	text "그것을 가지고 있으면"
+	line "특수능력이 높아진다"
+	
+	para "그리고"
+	line "거친 소용돌이 위를 지날 수 있는"
+	cont "바다 회오리라는 기술을 쓸수 있다"
+	
+	para "그리고 이것은"
+	line "내가 주는 선물이다"
 	done
 
 PryceText_IcyWindSpeech:
-	text "That TM contains"
-	line "ICY WIND."
-
-	para "It inflicts damage"
-	line "and lowers speed."
-
-	para "It demonstrates"
-	line "the harshness of"
-	cont "winter."
+	text "그것의 이름은 얼다바람"
+	
+	para "데미지를 주면서"
+	line "스피드를 떨어뜨려준다……"
+	
+	para "바로 겨울의 혹독함을"
+	line "느끼게 하는 기술이지"
 	done
 
 PryceText_CherishYourPokemon:
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
-
-	para "You and your #-"
-	line "MON will be to-"
-
-	para "gether for many"
-	line "years to come."
-
-	para "Cherish your time"
-	line "together!"
+	text "얼음과 눈이 녹으면……"
+	line "봄이 된다"
+	
+	para "너는 이제부터 긴 시간"
+	line "포켓몬과 함께 지낼 수 있다는"
+	cont "그것을 소중히 여기거라"
 	done
 
 BoarderRonaldSeenText:
-	text "I'll freeze your"
-	line "#MON, so you"
-	cont "can't do a thing!"
+	text "너의 포켓몬을 얼려서"
+	line "아무것도 할 수 없게 만들어주마"
 	done
 
 BoarderRonaldBeatenText:
-	text "Darn. I couldn't"
-	line "do a thing."
+	text "내쪽이 아무것도 할 수 없었군"
 	done
 
 BoarderRonaldAfterBattleText:
-	text "I think there's a"
-	line "move a #MON"
-
-	para "can use while it's"
-	line "frozen."
+	text "그러고보니…… 얼게 되어도"
+	line "사용할 수 있는 기술도 있다는데"
 	done
 
 BoarderBradSeenText:
-	text "This GYM has a"
-	line "slippery floor."
-
-	para "It's fun, isn't"
-	line "it?"
-
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	text "이 황토마을 체육관은"
+	line "미끌미끌 미끄러져서 즐겁지?"
+	
+	para "그렇다고 우리들은"
+	line "놀고 있는 것은 아니지!"
 	done
 
 BoarderBradBeatenText:
-	text "Do you see how"
-	line "serious we are?"
+	text "약간은 우리들의 진심을"
+	line "알아주게 되었는가?"
 	done
 
 BoarderBradAfterBattleText:
-	text "This GYM is great."
-	line "I love boarding"
-	cont "with my #MON!"
+	text "이 체육관은 좋아"
+	line "언제든지 포켓몬과 함께"
+	cont "미끄럼을 타며 지낼 수 있으니까!"
 	done
-
+	
 BoarderDouglasSeenText:
-	text "I know PRYCE's"
-	line "secret."
+	text "나는 류옹님의 강함"
+	line "그 비밀을 알고 있단다!"
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	text "할 수 없군"
+	line "비밀을 가르쳐주마"
 	done
 
 BoarderDouglasAfterBattleText:
-	text "The secret behind"
-	line "PRYCE's power…"
-
-	para "He meditates under"
-	line "a waterfall daily"
-
-	para "to strengthen his"
-	line "mind and body."
+	text "류옹님이 강한 이유……"
+	
+	para "그것은 매일"
+	line "차가운 폭포를 맞으며"
+	cont "몸도 마음도 단련시키기 때문이다!"
 	done
 
 SkierRoxanneSeenText:
-	text "To get to PRYCE,"
-	line "our GYM LEADER,"
-
-	para "you need to think"
-	line "before you skate."
+	text "체육관 관장인 류옹님과"
+	line "만나고 싶다면 잘 생각해서"
+	cont "미끄러질 필요가 있다!"
 	done
 
 SkierRoxanneBeatenText:
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "에이-"
+	line "스키였다면 지지 않았을텐데……"
 	done
-
+	
 SkierRoxanneAfterBattleText:
-	text "If you don't skate"
-	line "with precision,"
-
-	para "you won't get far"
-	line "in this GYM."
+	text "잘 미끄럼을 타지 않으면"
+	line "가고 싶은곳에 가지 못하는 것이"
+	cont "이 체육관의 즐거움이다"
 	done
 
 SkierClarissaSeenText:
-	text "Check out my"
-	line "parallel turn!"
+	text "보아라! 이 화려한 슈푸르를!!"
 	done
-
+	
 SkierClarissaBeatenText:
-	text "No! You made me"
-	line "wipe out!"
+	text "으앙!"
+	line "깜짝 놀라서 엉덩방아를 찧었다"
 	done
 
 SkierClarissaAfterBattleText:
-	text "I shouldn't have"
-	line "been bragging"
-	cont "about my skiing…"
+	text "포켓몬 승부인데"
+	line "스키실력을 자랑해버렸다"
 	done
 
 MahoganyGymGuyText:
-	text "PRYCE is a veteran"
-	line "who has trained"
-
-	para "#MON for some"
-	line "50 years."
-
-	para "He's said to be"
-	line "good at freezing"
-
-	para "opponents with"
-	line "ice-type moves."
-
-	para "That means you"
-	line "should melt him"
-
-	para "with your burning"
-	line "ambition!"
+	text "류옹님은 포켓몬과 50년이나"
+	line "지내고 있는 강자다!"
+	
+	para "얼음타입의 기술로"
+	line "상대방의 포켓몬을"
+	cont "얼리는 것이 특기라고 한다!"
+	
+	para "그렇다면 이쪽에서는"
+	line "불타오르는 정열로 녹여주겠다!"
 	done
 
 MahoganyGymGuyWinText:
-	text "PRYCE is some-"
-	line "thing, but you're"
-	cont "something else!"
-
-	para "That was a hot"
-	line "battle that"
-
-	para "bridged the gen-"
-	line "eration gap!"
+	text "류옹님도 대단하지만"
+	line "승리한 너도 대단했단다!"
+	
+	para "연령을 뛰어넘은"
+	line "뜨거운 시합이었다!"
 	done
 
 MahoganyGym_MapEvents:

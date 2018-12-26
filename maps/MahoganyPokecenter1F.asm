@@ -22,33 +22,23 @@ MahoganyPokecenter1FCooltrainerFScript:
 	jumptextfaceplayer MahoganyPokecenter1FCooltrainerFText
 
 MahoganyPokecenter1FPokefanMText:
-	text "What's this? TEAM"
-	line "ROCKET has come"
-	cont "back?"
-
-	para "I saw some men in"
-	line "black at LAKE OF"
-	cont "RAGE…"
+	text "뭐야 뭐야"
+	line "로켓단이 부활 했다고?"
+	
+	para "분노의 호수에서"
+	line "검은복장 투성인 놈들을 봤었는데"
 	done
 
 MahoganyPokecenter1FYoungsterText:
-	text "I stop my #MON"
-	line "from evolving too"
-	cont "early."
-
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	text "나는 진화 캔슬을 사용해서"
+	line "먼저 기술을 가르치고 난 뒤에"
+	cont "포켓몬을 키우고 있어"
 	done
 
 MahoganyPokecenter1FCooltrainerFText:
-	text "#MON do become"
-	line "stronger when they"
-
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	text "포켓몬은 진화하면"
+	line "힘이 강해지지만"
+	cont "기술을 익히는 것이 늦어진단다"
 	done
 
 MahoganyPokecenter1F_MapEvents:

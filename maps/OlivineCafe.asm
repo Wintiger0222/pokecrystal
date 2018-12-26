@@ -30,30 +30,22 @@ OlivineCafeSailorScript:
 	jumptextfaceplayer OlivineCafeSailorText
 
 OlivineCafeStrengthSailorText:
-	text "Hah! Your #MON"
-	line "sure look like"
-	cont "lightweights!"
+	text "뭐야? 꽤나"
+	line "약해보이는 포켓몬이구나"
 
-	para "They don't have"
-	line "the power to move"
-	cont "boulders aside."
+	para "그래가지고는"
+	line "커다란 바위도 밀수 없을껄"
 
-	para "Here, use this"
-	line "and teach them"
-	cont "STRENGTH!"
+	para "이것을 사용해서"
+	line "괴력의 기술을 가르쳐주거라!"
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
-	text "On the sea, the"
-	line "only thing you can"
-
-	para "count on is your"
-	line "own good self!"
-
-	para "I'm so proud of my"
-	line "buff bod!"
+	text "바다 위에서 의지할 수 있는 것은"
+	line "내 자신의 육체뿐"
+	cont "강한 힘이 자랑꺼리란다!"
 	done
-
+	
 OlivineCafeFishingGuruText:
 	text "OLIVINE CAFE's"
 	line "menu is chock full"

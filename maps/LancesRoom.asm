@@ -205,134 +205,94 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
-	line "waiting for you."
-
+	text "목호『기다리고 있었어!"
+	
 	para "<PLAY_G>!"
-
-	para "I knew that you,"
-	line "with your skills,"
-
-	para "would eventually"
-	line "reach me here."
-
-	para "There's no need"
-	line "for words now."
-
-	para "We will battle to"
-	line "determine who is"
-
-	para "the stronger of"
-	line "the two of us."
-
-	para "As the most power-"
-	line "ful trainer and as"
-
-	para "the #MON LEAGUE"
-	line "CHAMPION…"
-
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	
+	para "너의 실력이라면 당연히"
+	line "여기까지 올 것이라고 알고 있었다"
+	
+	para "아무것도 말 할 필요는 없다!"
+	
+	para "단지 어느쪽이 강한가"
+	line "싸워서 결정 할 뿐"
+	
+	para "최강의 트레이너로서"
+	line "리그 챔피언으로서"
+	
+	para "드래곤 조련사 목호에게"
+	line "어서 오너라!"
 	done
 
 LanceBattleWinText:
-	text "…It's over."
-
-	para "But it's an odd"
-	line "feeling."
-
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
-
-	para "Happy that I"
-	line "witnessed the rise"
-
-	para "of a great new"
-	line "CHAMPION!"
+	text "…… 끝났다"
+	
+	para "그렇지만 이상한 기분이 드는구나"
+	
+	para "패배했다는 분한 생각보다"
+	line "새로운 챔피언의 탄생에"
+	cont "증인이 되었다는 기쁨이"
+	cont "크기때문일꺼야"
 	done
 
 LanceBattleAfterText:
-	text "…Whew."
-
-	para "You have become"
-	line "truly powerful,"
-	cont "<PLAY_G>."
-
-	para "Your #MON have"
-	line "responded to your"
-
-	para "strong and up-"
-	line "standing nature."
-
-	para "As a trainer, you"
-	line "will continue to"
-
-	para "grow strong with"
-	line "your #MON."
+	text "…… 후우"
+	
+	para "강해졌구나"
+	line "<PLAY_G>"
+	cont "정말 강해졌어"
+	
+	para "트레이너인 네가"
+	line "올바르고 강한 마음을 가진다면"
+	cont "포켓몬도 거기에 응답 해 줄꺼야"
+	
+	para "그렇게해서 트레이너도 포켓몬도"
+	line "점점 강해져 가는 것이야……"
 	done
 
 UnknownText_0x1811dd:
-	text "MARY: Oh, no!"
-	line "It's all over!"
-
-	para "PROF.OAK, if you"
-	line "weren't so slow…"
+	text "호두『아- 끝났잖아!"
+	line "잉- 박사님이 꾸물대서 늦었어요!"
 	done
 
 UnknownText_0x18121b:
-	text "PROF.OAK: Ah,"
-	line "<PLAY_G>!"
-
-	para "It's been a long"
-	line "while."
-
-	para "You certainly look"
-	line "more impressive."
-
-	para "Your conquest of"
-	line "the LEAGUE is just"
-	cont "fantastic!"
-
-	para "Your dedication,"
-	line "trust and love for"
-
-	para "your #MON made"
-	line "this happen."
-
-	para "Your #MON were"
-	line "outstanding too."
-
-	para "Because they be-"
-	line "lieved in you as a"
-
-	para "trainer, they per-"
-	line "severed."
-
-	para "Congratulations,"
-	line "<PLAY_G>!"
+	text "오박사『오오 <PLAY_G>!"
+	line "오랜만이로구나"
+	cont "아야아 훌륭해졌구나"
+	
+	para "포켓몬 리그는"
+	line "진정으로 대단한 것이지!"
+	
+	para "네가 포켓몬에게의"
+	line "신뢰와 애정을 잊지 않고"
+	cont "쉬지않고 노력해온"
+	cont "결과가 나타난 것이란다"
+	
+	para "이야아 포켓몬들도 훌륭하기도 하지"
+	line "포켓몬 트레이너를"
+	cont "믿고있기에 열심히 했단말이군"
+	
+	para "<PLAY_G>"
+	line "정말 축하한다!"
 	done
 
 UnknownText_0x18134b:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "CHAMPION!"
+	text "호두『자- 새로운"
+	line "챔피언의 인터뷰를 하겠습니다"
 	done
 
 UnknownText_0x18137b:
-	text "LANCE: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
-
-	para "<PLAY_G>, could you"
-	line "come with me?"
+	text "목호『…… 어쩐지"
+	line "소란해진 것 같군……"
+	
+	para "<PLAY_G> 잠깐!"
+	
+	para "나를 따라와 주겠나"
 	done
 
 UnknownText_0x1813c5:
-	text "MARY: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "호두『아- 인터뷰"
+	line "아직이예요-"
 	done
 
 LancesRoom_MapEvents:

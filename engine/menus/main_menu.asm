@@ -64,6 +64,20 @@ MOBILE         EQU 4
 MOBILE_STUDIUM EQU 5
 
 MainMenuItems:
+IF DEF(_CRYSTALMOBILE);모바일 기능 테스트용(추후 삭제 예정)
+NewGameMenu:
+	db 2
+	db NEW_GAME
+	db MOBILE
+	db -1
+
+ContinueMenu:
+	db 3
+	db CONTINUE
+	db NEW_GAME
+	db MOBILE
+	db -1
+ELSE
 
 NewGameMenu:
 	db 2
@@ -77,7 +91,7 @@ ContinueMenu:
 	db NEW_GAME
 	db OPTION
 	db -1
-
+ENDC
 MobileMysteryMenu:
 	db 5
 	db CONTINUE

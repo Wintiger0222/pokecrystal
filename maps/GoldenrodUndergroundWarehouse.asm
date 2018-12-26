@@ -96,116 +96,87 @@ GoldenrodUndergroundWarehouseUltraBall:
 	itemball ULTRA_BALL
 
 GruntM24SeenText:
-	text "How did you get"
-	line "this far?"
-
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	text "설마 이곳까지 올줄은……"
+	
+	para "할 수 없군"
+	line "내가 끝장을 내주지!"
 	done
 
 GruntM24BeatenText:
-	text "I got disposed of…"
+	text "끝장나버렸다!"
 	done
 
 GruntM24AfterBattleText:
-	text "TEAM ROCKET will"
-	line "keep going, wait-"
-	cont "ing for the return"
-	cont "of GIOVANNI."
-
-	para "We'll do whatever"
-	line "it takes."
+	text "우리들은 비주기님이"
+	line "돌아오시게 될 때까지"
+	cont "로켓단을 지켜갈 것이다"
+	
+	para "설령 어떤 짓을 하던 간에"
 	done
 
 GruntM14SeenText:
-	text "You're not going"
-	line "any farther!"
-
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	text "젠장!"
+	line "이 이상 앞으로 보내지 않겠다!"
+	
+	para "나는 상대가 어린아이라도"
+	line "정당히 봐주지 않는 사나이닷!"
 	done
 
 GruntM14BeatenText:
-	text "Blast it!"
+	text "쾅-!!"
 	done
 
 GruntM14AfterBattleText:
-	text "I lost…"
-
-	para "Please forgive me,"
-	line "GIOVANNI!"
+	text "졌다……"
+	line "비주기님 용서를……"
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
-
-	para "You got me good"
-	line "at our hideout!"
+	text "하하핫!"
+	
+	para "너에관해서 기억하고 있다"
+	line "아지트에서는 신세를 졌으니까"
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	text "하하핫!"
+	line "그래, 왔는가"
 	done
 
 GruntM15AfterBattleText:
-	text "Hyuck-hyuck-hyuck!"
-	line "That was a blast!"
-	cont "I'll remember you!"
+	text "하하핫! 재미있었다"
+	line "너에대해 기억해두마"
 	done
 
 DirectorIntroText:
-	text "DIRECTOR: Who?"
-	line "What? You came to"
-	cont "rescue me?"
-
-	para "Thank you!"
-
-	para "The RADIO TOWER!"
-
-	para "What's happening"
-	line "there?"
-
-	para "Taken over by TEAM"
-	line "ROCKET?"
-
-	para "Here. Take this"
-	line "CARD KEY."
+	text "국장『…… 너 너는?"
+	line "그래 나를 구하러 와줬는가"
+	cont "정말 고맙구나"
+	
+	para "그 그렇지!"
+	line "라디오타워는 어떻게 되었는가?"
+	
+	para "뭐야? 로켓단으로 가득이라!"
+	line "알았다!"
+	cont "이 카드 키를 건네주마"
 	done
 
 DirectorCardKeyText:
-	text "DIRECTOR: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "국장『그것만 있으면"
+	line "3층 셔터는 열 수 있다"
 	done
 
 DirectorAfterText:
-	text "I'm begging you to"
-	line "help."
-
-	para "There's no telling"
-	line "what they'll do if"
-
-	para "they control the"
-	line "transmitter."
-
-	para "They may even be"
-	line "able to control"
-
-	para "#MON using a"
-	line "special signal!"
-
-	para "You're the only"
-	line "one I can call on."
-
-	para "Please save the"
-	line "RADIO TOWER…"
-
-	para "And all the #-"
-	line "MON nationwide!"
+	text "부탁해, 라디오를 빼앗긴다면"
+	line "무슨 일을 당할지 알 수 없단다"
+	
+	para "이상한 전파를 흘려서"
+	line "포켓몬을 조종하는 것 까지도"
+	cont "가능하게될지도 모른다"
+	
+	para "부탁할 수 있는 것은 너뿐이다"
+	line "라디오타워를……"
+	cont "전국의 포켓몬을 구해줘"
 	done
 
 GoldenrodUndergroundWarehouse_MapEvents:

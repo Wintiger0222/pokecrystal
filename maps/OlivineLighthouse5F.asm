@@ -45,47 +45,37 @@ OlivineLighthouse5FHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION
 
 SailorErnestSeenText:
-	text "I wanted to battle"
-	line "JASMINE, but she's"
-
-	para "not up to it now."
-	line "So, how about you?"
+	text "규리씨랑 승부하고싶었지만"
+	line "그럴때가 아닌 것 같군"
+	cont "대신 내 상대가 되어 주겠어?"
 	done
-
+	
 SailorErnestBeatenText:
-	text "Whoa, whoa. You're"
-	line "overwhelming!"
+	text "오오옷!"
+	line "뭐냐 이 강력함은!"
 	done
 
 SailorErnestAfterBattleText:
-	text "A GYM LEADER isn't"
-	line "just about being"
-
-	para "strong. A LEADER"
-	line "also needs to be"
-	cont "compassionate."
+	text "강한 것만이 체육관 관장이 아냐"
+	line "부드러움도 필요하다고나 할까"
 	done
 
 BirdKeeperDenisSeenText:
-	text "We're pretty high"
-	line "up here. My bird"
-
-	para "#MON are in"
-	line "prime form."
+	text "하늘이 가까우니까"
+	line "내 새포켓몬 절호조!"
 	done
-
+	
 BirdKeeperDenisBeatenText:
-	text "Oops…They crashed…"
+	text "에구에구"
+	line "갑자기 곤두박질……"
 	done
 
 BirdKeeperDenisAfterBattleText:
-	text "My #MON learned"
-	line "how to use FLY in"
-	cont "CIANWOOD."
-
-	para "Well, since I'm a"
-	line "loser, I'll FLY"
-	cont "across the sea…"
+	text "내 포켓몬 진청시티에서"
+	line "공중날기 기술을 배웠어"
+	
+	para "그건 그렇고 져버렸기도 하고"
+	line "바다너머 어딘가에 가볼까나"
 	done
 
 OlivineLighthouse5F_MapEvents:

@@ -22,29 +22,20 @@ OlivinePokecenter1FTeacherScript:
 	jumptextfaceplayer OlivinePokecenter1FTeacherText
 
 OlivinePokecenter1FFisherText:
-	text "The SAILOR in the"
-	line "OLIVINE CAFE next"
-
-	para "door is really"
-	line "generous."
-
-	para "He taught my"
-	line "#MON STRENGTH."
-
-	para "Now it can move"
-	line "big boulders."
+	text "담청시티의 카페의"
+	line "바다의 사나이는 기질이 좋지"
+	
+	para "커다란 돌을 밀어내는"
+	line "괴력의 기술"
+	cont "공짜로 가르쳐줬단다"
 	done
-
+	
 OlivinePokecenter1FTeacherText:
-	text "There's a person"
-	line "in CIANWOOD CITY"
-	cont "across the sea."
-
-	para "I heard him brag-"
-	line "ging about his"
-	cont "rare #MON."
+	text "바다 저편의 진청시티에는"
+	line "희귀한 포켓몬을 가지고 있다고"
+	cont "자랑하고 있는 사람이 있어"
 	done
-
+	
 OlivinePokecenter1F_MapEvents:
 	db 0, 0 ; filler
 

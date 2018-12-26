@@ -31,38 +31,30 @@ HiddenPowerHouseBookshelf:
 	jumpstd difficultbookshelf
 
 HiddenPowerGuyText1:
-	text "…You have strayed"
-	line "far…"
-
-	para "Here I have medi-"
-	line "tated. Inside me,"
-
-	para "a new power has"
-	line "been awakened."
-
-	para "Let me share my"
-	line "power with your"
-
-	para "#MON."
-	line "Take this, child."
+	text "…… …… ……"
+	line "일부러 이렇게 누추한 곳 까지……"
+	
+	para "나는 이곳에서 명상을 함으로"
+	line "새로운 힘을 익혔다!"
+	
+	para "그 힘을"
+	line "너의 포켓몬에게도 나눠주마"
+	cont "이것을 가지고 가거라"
 	done
-
+	
 HiddenPowerGuyText2:
-	text "Do you see it? It"
-	line "is HIDDEN POWER!"
-
-	para "It draws out the"
-	line "power of #MON"
-	cont "for attacking."
-
-	para "Remember this: its"
-	line "type and power de-"
-	cont "pend on the #-"
-	cont "MON using it."
+	text "…… 알겠느냐"
+	line "그것은 본능을 깨우는 파워"
+	
+	para "포켓몬의 힘을 끌어내서"
+	line "공격을 하는 기술!"
+	
+	para "그러나 가르친 포켓몬에 따라"
+	line "타입과 위력은 달라진다"
 	done
-
+	
 HiddenPowerGuyText3:
-	text "I am meditating…"
+	text "지금은 명상중…… ……"
 	done
 
 LakeOfRageHiddenPowerHouse_MapEvents:

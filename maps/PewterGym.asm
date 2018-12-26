@@ -74,138 +74,92 @@ PewterGymStatue:
 	jumpstd gymstatue2
 
 BrockIntroText:
-	text "BROCK: Wow, it's"
-	line "not often that we"
-
-	para "get a challenger"
-	line "from JOHTO."
-
-	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
-
-	para "I'm an expert on"
-	line "rock-type #MON."
-
-	para "My #MON are im-"
-	line "pervious to most"
-
-	para "physical attacks."
-	line "You'll have a hard"
-
-	para "time inflicting"
-	line "any damage."
-
-	para "Come on!"
+	text "웅『성도에서"
+	line "도전하다니 특이하군"
+	
+	para "나는 회색시티 포켓몬 체육관"
+	line "관장인 웅!"
+	cont "바위 타입의 전문가다!"
+	
+	para "약간 긁히는 정도의 공격은"
+	line "내 포켓몬들에게는 효과가 없다"
+	cont "아프지도 가렵지도 않지!"
+	
+	para "오너라!"
 	done
 
 BrockWinLossText:
-	text "BROCK: Your #-"
-	line "MON's powerful at-"
-	cont "tacks overcame my"
-	cont "rock-hard defense…"
-
-	para "You're stronger"
-	line "than I expected…"
-
-	para "Go ahead--take"
-	line "this BADGE."
+	text "웅『……방어를 웃도는"
+	line "강렬한 공격……"
+	cont "내 예상을 넘어섰다……!"
+	
+	para "자 이 배지를"
+	line "가지고 가라!"
 	done
 
 ReceivedBoulderBadgeText:
-	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	text "<PLAYER>는(은) 웅으로부터"
+	line "회색배지를 받았다!"
 	done
 
 BrockBoulderBadgeText:
-	text "BROCK: <PLAY_G>,"
-	line "thanks. I enjoyed"
-
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
-
-	para "That BOULDERBADGE"
-	line "will make your"
-
-	para "#MON even more"
-	line "powerful."
+	text "웅『고맙다"
+	line "<PLAY_G>!"
+	cont "좋은 시합이었어!"
+	
+	para "내 회색배지로"
+	line "너의 포켓몬은"
+	cont "더욱 강해진단다"
+	cont "조금은 분하지만 말야!"
 	done
 
 BrockFightDoneText:
-	text "BROCK: The world"
-	line "is huge. There are"
-
-	para "still many strong"
-	line "trainers like you."
-
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	text "웅『세상은 참 넓구나……"
+	line "이렇게 강한 트레이너가"
+	cont "아직도 많이 존재한다"
+	
+	para "나도 더욱 더"
+	line "강한 트레이너가 되겠다!"
 	done
 
 CamperJerrySeenText:
-	text "The trainers of"
-	line "this GYM use rock-"
-	cont "type #MON."
-
-	para "The rock-type has"
-	line "high DEFENSE."
-
-	para "Battles could end"
-	line "up going a long"
-
-	para "time. Are you"
-	line "ready for this?"
+	text "이곳은 바위 포켓몬을"
+	line "다루는 트레이너의 체육관!"
+	
+	para "바위타입은 방어력이"
+	line "높으니까!"
+	
+	para "싸움이 장기화될꺼다!"
+	line "각오해랏!"
 	done
 
 CamperJerryBeatenText:
-	text "I have to win"
-	line "these battles…"
+	text "싸움은 마음먹은대로 되지 않는군"
 	done
-
+	
 CamperJerryAfterBattleText:
-	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
-
-	para "is tough. He'll"
-	line "punish you if you"
-
-	para "don't take him"
-	line "seriously."
+	text "웅이님은 강하단다!"
+	line "방심하면 큰 코 다칠꺼야"
+	cont "성도의 트레이너!"
 	done
 
 PewterGymGuyText:
-	text "Yo! CHAMP in"
-	line "making! You're"
-
-	para "really rocking."
-	line "Are you battling"
-
-	para "the GYM LEADERS of"
-	line "KANTO?"
-
-	para "They're strong and"
-	line "dedicated people,"
-
-	para "just like JOHTO's"
-	line "GYM LEADERS."
+	text "오- 미래의 챔피언"
+	line "상태가 좋아보이는군"
+	
+	para "관동의 체육관 관장이랑"
+	line "싸웠는가?"
+	
+	para "성도에 뒤지지 않을 만큼"
+	line "상대하기 벅찬 녀석들이지!"
 	done
-
+	
 PewterGymGuyWinText:
-	text "Yo! CHAMP in"
-	line "making! That GYM"
-
-	para "didn't give you"
-	line "much trouble."
-
-	para "The way you took"
-	line "charge was really"
-
-	para "inspiring. I mean"
-	line "that seriously."
+	text "역시 미래의 챔피언!"
+	line "스릴 있는 싸움이었다!"
+	cont "감동했단다 정말!"
 	done
-
+	
 PewterGym_MapEvents:
 	db 0, 0 ; filler
 

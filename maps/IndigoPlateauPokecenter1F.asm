@@ -202,102 +202,83 @@ PlateauRivalLeavesMovement:
 	step_end
 
 IndigoPlateauPokecenter1FCooltrainerMText:
-	text "At the #MON"
-	line "LEAGUE, you'll get"
-
-	para "tested by the"
-	line "ELITE FOUR."
-
-	para "You have to beat"
-	line "them all. If you"
-
-	para "lose, you have to"
-	line "start all over!"
+	text "포켓몬 리그는"
+	line "사천왕 4명에게 전부"
+	cont "이길 수 있는가를 시험한다"
+	
+	para "진다면 물론"
+	line "처음부터 다시해야지!"
 	done
 
 PlateauRivalText1:
-	text "Hold it."
-
-	para "You're going to"
-	line "take the #MON"
-
-	para "LEAGUE challenge"
-	line "now?"
-
-	para "That's not going"
-	line "to happen."
-
-	para "My super-well-"
-	line "trained #MON"
-
-	para "are going to pound"
-	line "you."
-
+	text "기다려랏!"
+	
+	para "…… 지금부터 포켓몬 리그에"
+	line "도전하려구?"
+	
+	para "그건 무리야"
+	
+	para "애지중지하며 키워 온"
+	line "내 포켓몬이"
+	cont "너를 쓰러뜨릴테니까"
+	
 	para "<PLAYER>!"
-	line "I challenge you!"
+	line "나랑 승부다!"
 	done
 
 PlateauRivalWinText:
-	text "…"
-
-	para "OK--I lost…"
+	text "…… …… ……"
+	
+	para "나의 패배를 인정하겠다……"
 	done
 
 PlateauRivalText2:
-	text "…Darn… I still"
-	line "can't win…"
-
-	para "I… I have to think"
-	line "more about my"
-	cont "#MON…"
-
-	para "Humph! Try not to"
-	line "lose!"
+	text "…… 크웃"
+	line "또 졌단말인가……"
+	
+	para "더욱……"
+	line "더 포켓몬에대해"
+	cont "생각해볼 필요가 있다……"
+	cont "그런말인가"
+	
+	para "…… 흥!"
+	line "전력을 다하는 것이 좋은거니까"
 	done
 
 PlateauRivalLoseText:
-	text "…"
-
-	para "Whew…"
-	line "With my partners,"
-
-	para "I'm going to be"
-	line "the CHAMPION!"
+	text "…… …… ……"
+	
+	para "후우……"
+	line "다음엔 이녀석들과 함께"
+	cont "참피언이 되어 보이겠어!"
 	done
 
 TeleportGuyText1:
-	text "Ah! You're chal-"
-	line "lenging the ELITE"
-
-	para "FOUR? Are you sure"
-	line "you're ready?"
-
-	para "If you need to"
-	line "train some more,"
-
-	para "my ABRA can help"
-	line "you."
-
-	para "It can TELEPORT"
-	line "you home."
-
-	para "Would you like to"
-	line "go home now?"
+	text "호오 사천왕에게 도전하는가!"
+	line "더 많이 수행을 하지 않고서도"
+	cont "괜찮을까?"
+	
+	para "내 캐이시의 순간이동은"
+	line "강력하니까"
+	cont "너를 집까지 날려보내 주겠다"
+	
+	para "어떡게 하겠느냐?"
+	line "보내주길 바라니?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "그랬군 그랬군"
+	line "그렇다면 자신의 집을"
+	cont "마음속에 떠올리고 있거라"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "그랬군 그랬군"
+	line "그렇다면 힘내거라!"
 	done
 
 AbraText:
-	text "ABRA: Aabra…"
+	text "캐이시『캐이시……"
 	done
 
 IndigoPlateauPokecenter1F_MapEvents:

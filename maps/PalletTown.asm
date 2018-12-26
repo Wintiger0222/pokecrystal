@@ -31,42 +31,37 @@ BluesHouseSign:
 	jumptext BluesHouseSignText
 
 PalletTownTeacherText:
-	text "I'm raising #-"
-	line "MON too."
-
-	para "They serve as my"
-	line "private guards."
+	text "나도"
+	line "포켓몬을 키우고 있어"
+	cont "지금은 경비원의 대신이야!"
 	done
 
 PalletTownFisherText:
-	text "Technology is"
-	line "incredible!"
-
-	para "You can now trade"
-	line "#MON across"
-	cont "time like e-mail."
+	text "과학의 힘이란 대단해!"
+	
+	para "지금의 컴퓨터 통신은"
+	line "시대를 넘어서"
+	cont "포켓몬의 교환이 된다는 것"
 	done
 
 PalletTownSignText:
-	text "PALLET TOWN"
-
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	text "이곳은 태초마을"
+	line "태초는 새하얀 근원의 색"
 	done
 
 RedsHouseSignText:
-	text "RED'S HOUSE"
+	text "이곳은 레드의 집"
 	done
 
 OaksLabSignText:
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "이곳은 오박사님의"
+	line "포켓몬 연구소"
 	done
 
 BluesHouseSignText:
-	text "BLUE'S HOUSE"
+	text "이곳은 그린의 집"
 	done
-
+	
 PalletTown_MapEvents:
 	db 0, 0 ; filler
 

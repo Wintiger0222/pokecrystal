@@ -21,28 +21,22 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "Do your #MON"
-	line "already know the"
-
-	para "move for carrying"
-	line "people on water?"
+	text "너의 포켓몬"
+	line "사람을 테우고 바다를 건널 기술은"
+	cont "이미 알고 있을까?"
 	done
 
 OlivineMartLassText:
-	text "My BUTTERFREE came"
-	line "from my boyfriend"
-	cont "overseas."
-
-	para "It carried some"
-	line "MAIL from him."
-
-	para "Want to know what"
-	line "it says?"
-
-	para "Let's see… Nope!"
-	line "It's a secret!"
+	text "외국에 있는"
+	line "애인으로부터 받은 버터플"
+	cont "메일을 가지고왔어!"
+	
+	para "뭐라고 써있는지 알고싶어?"
+	line "음-그러니까……"
+	
+	para "역시 비·밀·이야!"
 	done
-
+	
 OlivineMart_MapEvents:
 	db 0, 0 ; filler
 

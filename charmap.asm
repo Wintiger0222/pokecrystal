@@ -78,7 +78,7 @@
 
 	charmap "<DO>",      $70 ; hiragana small do, unused
 	charmap "◀",         $71
-	charmap "『",         $72 ; Japanese opening quote, unused
+	;charmap "『",         $72 ; Japanese opening quote, unused
 	charmap "<ID>",      $73
 	charmap "№",         $74
 
@@ -125,8 +125,8 @@
 	charmap "Y",         $98
 	charmap "Z",         $99
 
-	charmap "(",         $9a
-	charmap ")",         $9b
+;	charmap "(",         $9a
+;	charmap ")",         $9b
 	charmap ":",         $9c
 	charmap ";",         $9d
 	charmap "[",         $9e
@@ -180,8 +180,10 @@
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
 
-	charmap "?",         $e6
-	charmap "!",         $e7
+	; charmap "?",         $e6
+	charmap "<?>",         $e6
+;	charmap "!",         $e7
+	charmap "<!>",       $e7
 	charmap ".",         $e8
 	charmap "&",         $e9
 
@@ -2814,14 +2816,14 @@
 	charmap "ㅢ", $0B34
 ;
 ; 2바이트 특수 문자 추가 예정
-	charmap "「", $0B60
-	charmap "」", $0B61
+;	charmap "「", $0B60
+;	charmap "」", $0B61
 	charmap "『", $0B62
-	charmap "』", $0B63
-;	charmap "(", $0B64
-;	charmap ")", $0B65
-;	charmap "!", $0B66
-;	charmap "?", $0B67
+;	charmap "』", $0B63
+	charmap "(", $0B64
+	charmap ")", $0B65
+	charmap "!", $0B66
+	charmap "?", $0B67
 ;	charmap "-", $0B68
 ;	charmap "~", $0B69
 ;	charmap "…", $0B6A
@@ -2830,14 +2832,5 @@
 
 ;전각임시문자
 	charmap "　",  $7f
-	charmap "（", $0B64
-	charmap "）", $0B65
-	charmap "！", $0B66
-	charmap "？", $0B67
-	charmap "­", $0B68
-	charmap "∼", $0B69
-	charmap "…", $0B6A
-	charmap "，", $0B6B
-	charmap "．", $0B6C
-
+	
 	charmap "＿", $0BFF

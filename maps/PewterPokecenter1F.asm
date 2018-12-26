@@ -36,33 +36,24 @@ Chris:
 	end
 
 PewterPokecenter1FTeacherText:
-	text "…Yeah, and the"
-	line "GYM in CINNABAR's"
-
-	para "gone. I was really"
-	line "amazed."
-
-	para "…Yes? I'm on the"
-	line "phone. Go away!"
+	text "저기 저기……"
+	line "홍련섬의 체육관이 없어졌데!"
+	cont "나 무척 놀랬다!"
+	
+	para "…… 뭐-야? 전화중이야"
+	line "방해하지마!"
 	done
 
 PewterJigglypuffText:
-	text "JIGGLYPUFF: Puu"
-	line "pupuu."
+	text "푸린『푸린 푸-푸린"
 	done
 
 PewterPokecenter1FBugCatcherText:
-	text "Most #MON get"
-	line "drowsy if they"
-
-	para "hear a JIGGLYPUFF"
-	line "singing."
-
-	para "There are several"
-	line "moves that can be"
-
-	para "used only while a"
-	line "#MON is asleep."
+	text "푸린의 노래를 들으면……"
+	line "거의 모든 포켓몬들은 잠들어버린다"
+	
+	para "잠들어 있을때 사용하는 기술이"
+	line "몇 개정도 있단다!"
 	done
 
 PewterPokecenter1F_MapEvents:

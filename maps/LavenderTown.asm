@@ -45,62 +45,44 @@ LavenderMartSignText:
 	jumpstd martsign
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
-
-	para "It's KANTO's RADIO"
-	line "TOWER."
+	text "커다란 건물이지?"
+	line "관동지방의 라디오타워이다!"
 	done
 
 LavenderTownTeacherText:
-	text "KANTO has many"
-	line "good radio shows."
+	text "관동지방에서도"
+	line "라디오 방송을 하고있단다"
 	done
-
+	
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
-
-	para "their respects to"
-	line "the departed souls"
-	cont "of #MON."
+	text "여러 마을의 사람들이"
+	line "성묘하러 왔단다"
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "FLUTE to wake"
-	cont "sleeping #MON."
-
-	para "Every trainer has"
-	line "to know that!"
+	text "잠자고 있는 포켓몬을 깨우려면"
+	line "포켓몬 피리가 최고!"
+	cont "트레이너의 상식이지!"
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
-
-	para "The Noble Purple"
-	line "Town"
+	text "이곳은 보라타운"
+	line "보라는 잘 익은 포도빛 색깔"
 	done
 
 KantoRadioStationSignText:
-	text "KANTO RADIO"
-	line "STATION"
-
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	text "이곳은 관동 라디오 방송국"
+	line "프로그램 방송중!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "이곳은 사랑의 봉사활동"
+	line "포켓몬 하우스"
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
-
-	para "May the Souls of"
-	line "#MON Rest Easy"
+	text "이곳은 영혼의 집"
+	line "포켓몬 여기에 잠들다"
 	done
 
 LavenderTown_MapEvents:

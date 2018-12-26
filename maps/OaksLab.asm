@@ -78,180 +78,127 @@ OaksLabPC:
 	jumptext OaksLabPCText
 
 OakWelcomeKantoText:
-	text "OAK: Ah, <PLAY_G>!"
-	line "It's good of you"
-
-	para "to come all this"
-	line "way to KANTO."
-
-	para "What do you think"
-	line "of the trainers"
-
-	para "out here?"
-	line "Pretty tough, huh?"
+	text "오박사『오오 <PLAY_G>!"
+	line "잘 와주었다!"
+	
+	para "어떠냐?"
+	line "관동의 트레이너들도"
+	cont "상대하기가 벅차지!"
 	done
 
 OakLabDexCheckText:
-	text "How is your #-"
-	line "DEX coming?"
-
-	para "Let's see…"
+	text "어디 어디 포켓몬 도감은"
+	line "어느정도나 완성했느냐"
+	
+	para "흐음 흠……"
 	done
 
 OakLabGoodbyeText:
-	text "If you're in the"
-	line "area, I hope you"
-	cont "come visit again."
+	text "이 근처까지 온다면"
+	line "또 들리거라"
 	done
 
 OakOpenMtSilverText:
-	text "OAK: Wow! That's"
-	line "excellent!"
-
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO. Well done!"
-
-	para "I was right in my"
-	line "assessment of you."
-
-	para "Tell you what,"
-	line "<PLAY_G>. I'll make"
-
-	para "arrangements so"
-	line "that you can go to"
-	cont "MT.SILVER."
-
-	para "MT.SILVER is a big"
-	line "mountain that is"
-
-	para "home to many wild"
-	line "#MON."
-
-	para "It's too dangerous"
-	line "for your average"
-
-	para "trainer, so it's"
-	line "off limits. But"
-
-	para "we can make an"
-	line "exception in your"
-	cont "case, <PLAY_G>."
-
-	para "Go up to INDIGO"
-	line "PLATEAU. You can"
-
-	para "reach MT.SILVER"
-	line "from there."
+	text "오박사『오오! 굉장하구나!"
+	line "관동의  배지도 전부 모았느냐!"
+	cont "내가 생각한대로구나!"
+	
+	para "그래! <PLAY_G>이"
+	line "은빛 산에 들어갈 수 있도록"
+	cont "연락을 해두마"
+	
+	para "은빛 산에는 야생 포켓몬이"
+	line "많이 살고 있는 커다란 산이란다"
+	
+	para "보통의 트레이너에게는 위험해서"
+	line "들어갈 수 없도록 해 놓았지만"
+	cont "<PLAY_G>이라면 걱정 없겠지!"
+	
+	para "석영고원에 가 보거라"
+	line "그곳에서 은빛 산으로 갈 수 있다"
 	done
 
 OakNoKantoBadgesText:
-	text "OAK: Hmm? You're"
-	line "not collecting"
-	cont "KANTO GYM BADGES?"
-
-	para "The GYM LEADERS in"
-	line "KANTO are as tough"
-
-	para "as any you battled"
-	line "in JOHTO."
-
-	para "I recommend that"
-	line "you challenge"
-	cont "them."
+	text "오박사『오잉?"
+	line "관동의 배지를"
+	cont "모으지 않은 것 같구나"
+	
+	para "관동의 체육관 관장들도"
+	line "성도에 지지 않을 정도로"
+	cont "기본이 잘 갖추어져 있단다"
+	cont "도전해 보는것이 어떻겠느냐?"
 	done
-
+	
 OakYesKantoBadgesText:
-	text "OAK: Ah, you're"
-	line "collecting KANTO"
-	cont "GYM BADGES."
-
-	para "I imagine that"
-	line "it's hard, but the"
-
-	para "experience is sure"
-	line "to help you."
-
-	para "Come see me when"
-	line "you get them all."
-
-	para "I'll have a gift"
-	line "for you."
-
-	para "Keep trying hard,"
-	line "<PLAY_G>!"
+	text "오박사『관동 배지를"
+	line "모은 것 같구나!"
+	
+	para "힘들었겠지만"
+	line "경험은 <PLAY_G>의"
+	cont "힘이 될꺼란다"
+	
+	para "전부 모았다면"
+	line "또 놀러오너라"
+	cont "내가 선물을 주마"
+	
+	para "<PLAY_G>"
+	line "힘내거라!"
 	done
 
 OaksAssistant1Text:
-	text "The PROF's #MON"
-	line "TALK radio program"
-
-	para "isn't aired here"
-	line "in KANTO."
-
-	para "It's a shame--I'd"
-	line "like to hear it."
+	text "박사님의 포켓몬 강좌"
+	line "관동에서는 방송하지 않습니다"
+	cont "듣고싶은데 유감이네요"
 	done
-
+	
 OaksAssistant2Text:
-	text "Thanks to your"
-	line "work on the #-"
-	cont "DEX, the PROF's"
-
-	para "research is coming"
-	line "along great."
+	db "<PLAY_G>이"
+	line "도감을 만들어주어서"
+	cont "박사님의 연구가"
+	cont "잘 진행되고 있어요!"
 	done
-
+	
 OaksAssistant3Text:
-	text "Don't tell anyone,"
-	line "but PROF.OAK'S"
-
-	para "#MON TALK isn't"
-	line "a live broadcast."
+	text "……여기서만의 이야기입니다!"
+	
+	para "오박사님의 포켓몬 강좌는"
+	line "생방송이 아니랍니다!"
 	done
 
 OaksLabPoster1Text:
-	text "Press START to"
-	line "open the MENU."
+	text "스타트 버튼을 누르자!"
+	line "누르면 메뉴가 뜬다"
 	done
 
 OaksLabPoster2Text:
-	text "The SAVE option is"
-	line "on the MENU."
-
-	para "Use it in a timely"
-	line "manner."
+	text "세이브를 함에는 포켓몬 레포트"
+	line "자주 쓰면 좋다"
 	done
 
 OaksLabTrashcanText:
-	text "There's nothing in"
-	line "here…"
+	text "안은 텅 비었다……"
 	done
 
 OaksLabPCText:
-	text "There's an e-mail"
-	line "message on the PC."
-
-	para "…"
-
-	para "PROF.OAK, how is"
-	line "your research"
-	cont "coming along?"
-
-	para "I'm still plugging"
-	line "away."
-
-	para "I heard rumors"
-	line "that <PLAY_G> is"
-
-	para "getting quite a"
-	line "reputation."
-
-	para "I'm delighted to"
-	line "hear that."
-
-	para "ELM in NEW BARK"
-	line "TOWN 8-)"
+	text "컴퓨터를 보면"
+	line "전자메일이 와 있다!"
+	
+	para "…… …… ……"
+	
+	para "오박사님의 연구는"
+	line "잘 진행되고 있습니까"
+	
+	para "내쪽은……"
+	line "한창 힘내고 있는 중입니다"
+	
+	para "그건 그렇고"
+	db "<PLAY_G>"
+	db "이"
+	line "열심히 하고 있다는 소문을 들어서"
+	cont "매우 기쁘답니다!"
+	
+	para "……연두마을의 공박사로부터"
+	line "…… …… ……"
 	done
 
 OaksLab_MapEvents:

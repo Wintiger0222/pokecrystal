@@ -94,23 +94,21 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	text "오박사님의 포켓몬 강좌"
+	line "모두 꼭 들어주세요!"
 	done
 
 PlayersRadioText2:
-	text "#MON CHANNEL!"
+	text "이곳은 포켓몬 채널"
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "상대는"
+	line "DJ 호두였습니다!"
 	done
-
 PlayersRadioText4:
-	text "#MON!"
-	line "#MON CHANNEL…"
+	text "포켓몬"
+	line "포켓몬 채널 ……"
 	done
 
 PlayersHouse2F_MapEvents:

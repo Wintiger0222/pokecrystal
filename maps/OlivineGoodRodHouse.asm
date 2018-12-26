@@ -40,44 +40,34 @@ GoodRodHouseBookshelf:
 	jumpstd picturebookshelf
 
 OfferGoodRodText:
-	text "OLIVINE is on the"
-	line "sea!"
-
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
-
-	para "I've fished here"
-	line "for 30 years."
-
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	text "담청이라고 하면 바다!"
+	line "바다라고 하면 낚시!"
+	
+	para "나는 여기서 30년"
+	line "낚시를 하고 있단다"
+	
+	para "너도 바다를 향해"
+	line "낚시로 도전을 해보면 어떻겠니?"
 	done
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	text "오호!"
+	line "낚시꾼 탄생이구나!"
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
-
-	para "They go wherever"
-	line "there is water."
+	text "바다뿐만 아니라"
+	line "물이 있는 곳이라면"
+	cont "어디든 낚싯대를 사용해도 좋다"
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "뭐라고!"
+	line "낚시가 싫어! 믿을 수 없구만"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "어때? 큰 놈을 낚았느냐?"
 	done
 
 OlivineGoodRodHouse_MapEvents:

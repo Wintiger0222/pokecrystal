@@ -798,226 +798,198 @@ Pokecenter2FMovementData_ReceptionistStepsRightLooksLeft_2:
 	step_end
 
 Text_BattleReceptionistMobile:
-	text "Would you like to"
-	line "battle over a GAME"
-
-	para "LINK cable or by"
-	line "mobile phone?"
+	text "케이블과 모바일 중"
+	line "어떤 것으로 대전하겠습니까?"
 	done
 
 Text_TradeReceptionistMobile:
-	text "Would you like to"
-	line "trade over a GAME"
-
-	para "LINK cable or by"
-	line "mobile phone?"
+	text "케이블과 모바일 중"
+	line "어떤 것으로 교환하겠습니까?"
 	done
 
 Text_ThisWayToMobileRoom:
-	text "This way to the"
-	line "MOBILE ROOM."
+	text "그럼 모바일 방으로"
+	line "들어가십시오"
 	done
 
 Text_BattleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB COLOSSEUM."
-
-	para "You may battle a"
-	line "friend here."
-
-	para "Would you like to"
-	line "battle?"
+	text "통신케이블 클럽"
+	line "콜로세움에 잘 왔습니다!"
+	
+	para "이곳에서는 친구들과"
+	line "포켓몬의 대전을 즐길 수 있습니다"
+	
+	para "대전 하겠습니까?"
 	done
 
 Text_TradeReceptionistIntro:
-	text "Welcome to CABLE"
-	line "TRADE CENTER."
-
-	para "You may trade your"
-	line "#MON here with"
-	cont "a friend."
-
-	para "Would you like to"
-	line "trade?"
+	text "통신케이블 클럽"
+	line "트레이드센터에 잘 오셨습니다!"
+	
+	para "이곳에서는 친구들과"
+	line "포켓몬의 교환을 즐길 수 있습니다"
+	
+	para "교환 하겠습니까?"
 	done
 
 Text_TimeCapsuleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB TIME CAPSULE."
-
-	para "You can travel to"
-	line "the past and trade"
-	cont "your #MON."
-
-	para "Would you like to"
-	line "trade across time?"
+	text "통신케이블 클럽"
+	line "타임캡슐에 잘 오셨습니다!"
+	
+	para "이곳에서는 과거의 세계로 가서"
+	line "포켓몬의 교환을 즐길 수 있습니다"
+	
+	para "타임캡슐을 이용"
+	line "하시겠습니까?"
 	done
 
 Text_FriendNotReady:
-	text "Your friend is not"
-	line "ready."
+	text "친구분의 준비가"
+	line "되어 있지 않은 것 같습니다"
 	prompt
 
 Text_MustSaveGame:
-	text "Before opening the"
-	line "link, you must"
-	cont "save your game."
+	text "통신을 시작하기 전에"
+	line "레포트를 쓰겠습니다"
 	done
 
 Text_PleaseWait:
-	text "Please wait."
+	text "잠시 기다려주십시오"
 	done
 
 Text_LinkTimedOut:
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
-
-	para "Please contact"
-	line "your friend and"
-	cont "come again."
+	text "기다리는 시간이 길기에"
+	line "접수를 중지하겠습니다"
+	
+	para "친구와 연락을 해서"
+	line "다시 한번 와주십시오!"
 	prompt
 
 Text_PleaseComeAgain:
-	text "Please come again."
+	text "그럼 또 오세요"
 	prompt
 
 Text_PleaseComeIn:
-	text "Please come in."
+	text "그럼 이제"
+	line "안내를 해 드리겠습니다"
 	prompt
 
 Text_TemporaryStagingInLinkRoom:
-	text "We'll put you in"
-	line "the link room for"
-	cont "the time being."
+	text "아무튼 통신의 방에"
+	line "간 것으로 하겠습니다"
 	done
 
 Text_CantLinkToThePast:
-	text "You can't link to"
-	line "the past here."
+	text "이곳에서는 과거와의"
+	line "통신은 할 수 없습니다"
 	prompt
-
 Text_IncompatibleRooms:
-	text "Incompatible rooms"
-	line "were chosen."
+	text "친구와 선택하신 방이"
+	line "다른 것 같습니다"
 	prompt
 
 Text_PleaseComeIn2:
-	text "Please come in."
-	done
+	text "그럼 방으로"
+	line "들어가십시오"
+	prompt
 
 Text_PleaseEnter:
-	text "Please enter."
+	text "그럼 안으로 드세요"
 	prompt
 
 Text_RejectNewMon:
-	text "Sorry--@"
+	text "@"
 	text_ram wStringBuffer1
-	text_start
-	line "can't be taken."
+	text "는(은)"
+	line "데리고 갈 수 없습니다"
 	prompt
 
 Text_RejectMonWithNewMove:
-	text "You can't take the"
-	line "@"
+	text "@"
 	text_ram wStringBuffer1
-	text " with a"
-	cont "@"
+	text "를(을)"
+	line "지니고 있는 @"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	cont "는(은) 데리고 못 갑니다!"
 	prompt
 
 Text_RejectMonWithMail:
-	text "You can't take the"
+	text "메일을 지니고 있는"
 	line "@"
 	text_ram wStringBuffer1
-	text " that"
-	cont "has MAIL with you."
+	text "는(은)"
+	cont "데리고 못 갑니다!"
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "I'm sorry--the"
-	line "TIME CAPSULE is"
-	cont "being adjusted."
+	text "대단히 죄송합니다"
+	line "지금 이곳은"
+	cont "조정중입니다"
 	done
-
+	
 Text_TradeRoomClosed:
-	text "I'm sorry--the"
-	line "TRADE MACHINE is"
-	cont "being adjusted."
+	text "대단히 죄송합니다"
+	line "지금 이쪽의 교환머신은"
+	cont "조정중입니다"
 	done
 
 Text_BattleRoomClosed:
-	text "I'm sorry--the"
-	line "BATTLE MACHINE is"
-	cont "being adjusted."
+	text "대단히 죄송합니다"
+	line "지금 이쪽의 대전머신은"
+	cont "조정중입니다"
 	done
 
 Text_MysteryGiftDeliveryGuy_Intro:
-	text "Hello! You're"
-	line "<PLAYER>, right?"
-
-	para "I have some-"
-	line "thing for you."
+	text "<PLAYER>님이군요?"
+	line "전해드릴 물건이 있습니다"
 	done
 
 Text_MysteryGiftDeliveryGuy_HereYouGo:
-	text "Here you go!"
+	text "이것을 받으세요!"
 	done
 
 Text_MysteryGiftDeliveryGuy_Outro:
-	text "We hope to serve"
-	line "you again."
+	text "에- 도장은 괜찮습니다"
+	line "다음에도 이용을 부탁드립니다"
 	done
 
 Text_MysteryGiftDeliveryGuy_NoRoom:
-	text "Oh, you have no"
-	line "space for this."
-
-	para "Stop in at any"
-	line "#MON CENTER"
-
-	para "across the country"
-	line "to pick it up."
+	text "더이상은 지닐 수 없을 것 같군요"
+	
+	para "우리들은 전국의"
+	line "포켓몬센터에 있으니까"
+	cont "언제든지 받으러 와주세요"
 	done
-
+	
 Text_MysteryGiftDeliveryGuy_SaidNo:
-	text "No? That's very"
-	line "strange…"
+	text "엥 이상하네"
 	done
-
+	
 Text_OhPleaseWait:
-	text "Oh, please wait."
+	text "잠깐만요"
 	done
 
 Text_ChangeTheLook:
-	text "We need to change"
-	line "the look here…"
+	text "아무래도 잠시"
+	line "옷을 바꿔입어야 겠습니다…"
 	done
 
 Text_LikeTheLook:
-	text "How does this"
-	line "style look to you?"
+	text "이제 보니 좋네요"
+	line "들어가도 됩니다"
 	done
 
 Text_BrokeStadiumRules:
-	text "Excuse me!"
-
-	para "For STADIUM rules,"
-	line "please bring six"
-
-	para "different #MON,"
-	line "excluding EGGS."
-
-	para "The six #MON"
-	line "must be different."
-
-	para "Also, they must"
-	line "not be holding"
-	cont "identical items."
-
-	para "Please come back"
-	line "when you're ready."
+	text "대단히 죄송합니다만"
+	para "스타디움의 규칙에 따라"
+	line "알을 제외한 6마리의"
+	cont "포켓몬을 데려가야 합니다"
+	
+	para "또한 특별한 도구를 지니면"
+	line "안됩니다"
+	
+	line "다음에 이용을 부탁드립니다"
 	done
 
 Pokecenter2F_MapEvents:

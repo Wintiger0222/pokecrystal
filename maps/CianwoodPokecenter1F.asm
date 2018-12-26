@@ -36,57 +36,45 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "이 마을의 매니아랑 만났니?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "진귀한 포켓몬을 가지고 있어서"
+	line "늘 자랑하고 있으니까"
 	done
 
 CianwoodGymGuyText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
-
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
-
-	para "Here's some ad-"
-	line "vice: the GYM"
-
-	para "LEADER uses the"
-	line "fighting-type."
-
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
-
-	para "Wipe out his #-"
-	line "MON before they"
-
-	para "can use their"
-	line "physical strength."
-
+	text "이 마을의 포켓몬 체육관은"
+	line "난폭한 녀석들 투성이야!"
+	
+	para "근처에 있으면 나까지"
+	line "끝장날 것 같아"
+	
+	para "미안하지만 여기서 어드바이스를"
+	line "체육관 관장이 사용하는 것은"
+	cont "격투포켓몬!"
+	
+	para "그렇다면 이쪽은"
+	line "에스퍼포켓몬으로 상대를!"
+	cont "상대방이 파워를 발휘하기 전에"
+	cont "쓰러뜨려야 한다!"
+	
 	para "And those boulders"
 	line "in the middle of"
 	cont "the GYM?"
-
+	
 	para "If you don't move"
 	line "them correctly,"
-
+	
 	para "you won't reach"
 	line "the GYM LEADER."
-
+	
 	para "If you get stuck,"
 	line "go outside."
 	done
-
+	
 CianwoodGymGuyWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>! 이겼지?"
+	line "그 표정을 보면 알 수 있지!"
 	done
 
 CianwoodPokecenter1FUnusedText1:

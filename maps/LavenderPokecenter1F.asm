@@ -35,49 +35,33 @@ LavenderPokecenter1FYoungsterScript:
 	end
 
 LavenderPokecenter1FGentlemanText:
-	text "To the north of"
-	line "LAVENDER is ROCK"
-
-	para "TUNNEL. Go through"
-	line "it to get to the"
-	cont "POWER PLANT."
+	text "보라타운의 북쪽에 있는"
+	line "돌산 터널을 지나면"
+	cont "발전소가 있단다"
 	done
 
 LavenderPokecenter1FTeacherText:
-	text "There's a radio"
-	line "program that plays"
-	cont "# FLUTE music."
-
-	para "Oh? Ah, your radio"
-	line "needs an EXPN CARD"
-	cont "to tune into it."
+	text "포켓몬 피리의 음색을"
+	line "방송하는 채널이 있단다"
+	
+	para "확장 카드가 없으면"
+	line "수신할 수 없단다"
 	done
 
 LavenderPokecenter1FYoungsterText:
-	text "If the POWER PLANT"
-	line "isn't running, the"
-
-	para "MAGNET TRAIN won't"
-	line "run either…"
-
-	para "It also means the"
-	line "RADIO STATION"
-	cont "can't broadcast…"
+	text "발전소가 움직이지 않으면"
+	line "리니어 기차가 움직일수 없데!"
+	
+	para "게다가 라디오 방송도"
+	line "할 수 없게 된다는 것 같아!"
 	done
-
+	
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
-	text "The DIRECTOR of"
-	line "the RADIO STATION"
-	cont "sure was happy."
-
-	para "He said they're"
-	line "back on the air"
-
-	para "because the POWER"
-	line "PLANT is running"
-	cont "smoothly again."
+	text "발전소가 고쳐졌기 때문에"
+	line "라디오 방송을 할 수 있다고"
+	cont "국장님이 기뻐하셨다"
 	done
-
+	
 LavenderPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 

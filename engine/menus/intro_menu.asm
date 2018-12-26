@@ -1104,6 +1104,20 @@ TitleScreenEntrance:
 
 ; Reversed signage for every other line's position.
 ; This is responsible for the interlaced effect.
+;영어판방식
+	; ld a, e
+	; xor $ff
+	; inc a
+
+	; ld b, 8 * 10 / 2 ; logo height / 2
+	; ld hl, wLYOverrides + 1
+; .loop
+	; ld [hli], a
+	; inc hl
+	; dec b
+	; jr nz, .loop
+
+;일어판 방식
 	ld hl, wLYOverrides + 24
 	ld bc, 4 * 10 ; logo height
 	ld a, e

@@ -755,7 +755,11 @@ Function16cc90:
 	ret
 
 GFX_16cca3:
+IF DEF(_CRYSTALMOBILE)
+INCBIN "gfx/unknown/16cca3_kr.2bpp"
+ELSE
 INCBIN "gfx/unknown/16cca3.2bpp"
+ENDC
 
 Unknown_16cfa3:
 	RGB 31, 31, 31

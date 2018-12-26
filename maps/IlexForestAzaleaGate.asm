@@ -14,18 +14,13 @@ IlexForestAzaleaGateGrannyScript:
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
 
 IlexForestAzaleaGateOfficerText:
-	text "ILEX FOREST is"
-	line "big. Be careful!"
-	cont "Don't get lost."
+	text "너도밤나무 숲은 넓으니까"
+	line "길을 헤매지 않도록 조심해!"
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "The FOREST is"
-	line "watched over by"
-	cont "its protector."
-
-	para "Stay out of"
-	line "mischief!"
+	text "숲에는 신이 있다고 한다……"
+	line "나쁜짓을 한다면 아니되지"
 	done
 
 IlexForestAzaleaGate_MapEvents:

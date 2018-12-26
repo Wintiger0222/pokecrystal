@@ -196,7 +196,7 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "PIKACHU    2222@"
-	db "PORYGON    5555@"
+	db "PORYGON    5555@";미번역
 	db "LARVITAR   8888@"
 	db "CANCEL@"
 

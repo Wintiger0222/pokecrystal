@@ -155,67 +155,52 @@ MovementData_0x6c412:
 	step_end
 
 UnknownText_0x6c414:
-	text "Hello, kiddo!"
-
-	para "How would you like"
-	line "some RAGECANDYBAR?"
-
-	para "It's the thing to"
-	line "eat in MAHOGANY!"
+	text "어서와요 고객님!"
+	line "자자! 어때요?"
+	
+	para "「분노의 호두과자」!"
+	line "황토마을의 명물이지요!"
 	done
 
 MahogayMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "지하 쪽의 계단"
+	line "들켜버렸다……"
 	done
 
 MahogayMart1FBlackBeltText:
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
-
-	para "MAGIKARP are just"
-	line "worthless, but"
-
-	para "GYARADOS are big"
-	line "moneymakers."
+	text "헤헤헤!"
+	line "실험은 대성공!"
+	
+	para "잉어킹은 팔리지 않지만"
+	line "갸라도스라면 잘 팔릴꺼야"
 	done
 
 MahogayMart1FBlackBeltText_LanceEntered:
-	text "Urrgh…"
-
-	para "That guy's dragon"
-	line "#MON are tough…"
+	text "우우……"
+	
+	para "녀석의 드래곤 포켓몬……"
+	line "너무나도 강하다……"
 	done
 
 UnknownText_0x6c52a:
-	text "LANCE: DRAGONITE,"
-	line "HYPER BEAM."
+	text "목호『망나뇽 파괴광선"
 	done
 
 UnknownText_0x6c549:
-	text "What took you,"
-	line "<PLAY_G>?"
-
-	para "Just as I thought,"
-	line "that strange radio"
-
-	para "signal is coming"
-	line "from here."
+	text "늦었구나 <PLAY_G>!"
+	
+	para "역시 여기로부터"
+	line "이상한 전파가 흘러나오고 있었어"
 	done
 
 UnknownText_0x6c59e:
-	text "The stairs are"
-	line "right here."
+	text "계단은 여기다!"
 	done
 
 UnknownText_0x6c5ba:
-	text "LANCE: <PLAY_G>, we"
-	line "should split up to"
-
-	para "check this place."
-	line "I'll go first."
+	text "목호『<PLAY_G>!"
+	line "갈라져서 안으로 잠입하자!"
+	cont "나부터 먼저 가겠어!"
 	done
 
 MahoganyMart1F_MapEvents:

@@ -139,107 +139,81 @@ MovementData_0x1900ad:
 	step_end
 
 RageCandyBarMerchantTryOneText:
-	text "Hiya, kid!"
-
-	para "I see you're new"
-	line "in MAHOGANY TOWN."
-
-	para "Since you're new,"
-	line "you should try a"
-
-	para "yummy RAGECANDY-"
-	line "BAR!"
-
-	para "Right now, it can"
-	line "be yours for just"
-	cont "¥300! Want one?"
+	text "잠깐 잠깐만 꼬마야!"
+	
+	para "황토마을에 처음 왔나보구나!"
+	
+	
+	para "황토마을에 왔다면"
+	line "분노의 호두과자를 사는 것이"
+	cont "여행의 상식이라는 것이다"
+	
+	para "지금이라면 딱 300원"
+	line "어떠냐 살꺼지?"
 	done
 
 RageCandyBarMerchantSavorItText:
-	text "Good! Savor it!"
+	text "그럼 천천히 맛을 보거라!"
 	done
 
 RageCandyBarMerchantNotEnoughMoneyText:
-	text "You don't have"
-	line "enough money."
+	text "돈이 부족하구나"
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Oh, fine then…"
+	text "아 그래……"
 	done
 
 RageCandyBarMerchantNoRoomText:
-	text "You don't have"
-	line "room for this."
+	text "그 이상 지닐 수 없어"
 	done
 
 RageCandyBarMerchantSoldOutText:
-	text "RAGECANDYBAR's"
-	line "sold out."
-
-	para "I'm packing up."
-	line "Don't bother me,"
-	cont "kiddo."
+	text "분노의 호두과자는 품절이다"
+	line "문 닫을 준비를 하고있단다"
+	cont "그럼 방해하지 말고 비키거라"
 	done
 
 MahoganyTownGrampsText:
-	text "Are you off to see"
-	line "the GYARADOS ram-"
-	cont "page at the LAKE?"
+	text "너도 호수에 가서"
+	line "갸라도스의 춤을 보려는거냐"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP have"
-	line "returned to LAKE"
-	cont "OF RAGE."
-
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	text "분노의 호수에"
+	line "잉어킹이 돌아온 것 같다"
+	
+	para "이것으로 분노의 호수 근처의"
+	line "낚시꾼도 기뻐하고 있단다"
 	done
 
 MahoganyTownFisherText:
-	text "Since you came"
-	line "this far, take the"
-
-	para "time to do some"
-	line "sightseeing."
-
-	para "You should head"
-	line "north and check"
-
-	para "out LAKE OF RAGE"
-	line "right now."
+	text "이봐 이봐 애써서 왔잖아"
+	line "천천히 관광이나 하거라"
+	
+	para "지금 북쪽에 있는"
+	line "분노의 호수가 볼 만하단다"
 	done
-
+	
 MahoganyTownLassText:
-	text "Visit Grandma's"
-	line "shop. She sells"
-
-	para "stuff that nobody"
-	line "else has."
+	text "할머니의 가게에 들려봐"
+	line "이곳에서밖에 팔지 않는 것도 있어"
 	done
-
+	
 MahoganyTownSignText:
-	text "MAHOGANY TOWN"
-
-	para "Welcome to the"
-	line "Home of the Ninja"
+	text "이곳은 황토마을"
+	line "닌자의 마을에 잘 왔다"
 	done
 
 MahoganyTownRagecandybarSignText:
-	text "While visiting"
-	line "MAHOGANY TOWN, try"
-	cont "a RAGECANDYBAR!"
+	text "황토마을에 왔다면"
+	line "명물「분노의 호도과자」!!"
 	done
 
 MahoganyGymSignText:
-	text "MAHOGANY TOWN"
-	line "#MON GYM"
-	cont "LEADER: PRYCE"
-
-	para "The Teacher of"
-	line "Winter's Harshness"
+	text "황토마을 포켓몬 체육관"
+	line "관장 류옹이"
+	cont "겨울의 혹독함을 가르쳐주는 자"
 	done
 
 MahoganyTown_MapEvents:

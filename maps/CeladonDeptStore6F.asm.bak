@@ -102,35 +102,35 @@ CeladonVendingText:
 	text "자동판매기다!"
 	line "마시고싶은 음료는…… ……"
 	done
-	
+
 CeladonClangText:
 	text "덜컹!"
-	
+
 	para "@"
-	text_from_ram StringBuffer3
+	text_ram wStringBuffer3
 	text "(이)가 나왔다"
 	done
-	
+
 CeladonVendingNoMoneyText:
 	text "돈이 모자라!"
 	done
-	
+
 CeladonVendingNoSpaceText:
 	text "이 이상 들 수 없어!"
 	done
-	
+
 CeladonDeptStore6FSuperNerdText:
 	text "근처 제비뽑기"
 	line "자동판매기……"
 	cont "최근에는 볼 수가 없네"
 	done
-	
+
 CeladonDeptStore6FYoungsterText:
 	text "저기 형아!"
 	line "여긴 게임이 없어!"
 	cont "난 게임으로 놀고싶은데"
 	done
-	
+
 CeladonDeptStore6FDirectoryText:
 	text "6층 …… 휴식의 공원"
 	line "      …… 자동판매기"

@@ -77,148 +77,102 @@ LavRadioTower1FReferenceLibrary:
 	jumptext LavRadioTower1FReferenceLibraryText
 
 LavRadioTower1FReceptionistText:
-	text "Welcome!"
-	line "Feel free to look"
-
-	para "around anywhere on"
-	line "this floor."
+	text "어서오세요!"
+	
+	para "1층의 플로어는"
+	line "견학중입니다!"
 	done
 
 LavRadioTower1FOfficerText:
-	text "Sorry, but you can"
-	line "only tour the"
-	cont "ground floor."
-
-	para "Ever since JOHTO's"
-	line "RADIO TOWER was"
-
-	para "taken over by a"
-	line "criminal gang, we"
-
-	para "have had to step"
-	line "up our security."
+	text "견학은 1층 플로어뿐입니다"
+	
+	para "성도의 라디오타워가"
+	line "악당들에게 점령되어서"
+	cont "경비를 강화했습니다"
 	done
 
 LavRadioTower1FSuperNerd1Text:
-	text "Many people are"
-	line "hard at work here"
-
-	para "in the RADIO"
-	line "TOWER."
-
-	para "They must be doing"
-	line "their best to put"
-	cont "on good shows."
+	text "많은 사람들이"
+	line "라디오타워에서 일하고 있데!"
+	
+	para "재미있는 방송을 만들기위해"
+	line "모두 힘을내고 있지!"
 	done
 
 LavRadioTower1FGentlemanText:
-	text "Oh, no, no, no!"
-
-	para "We've been off the"
-	line "air ever since the"
-
-	para "POWER PLANT shut"
-	line "down."
-
-	para "All my efforts to"
-	line "start this station"
-
-	para "would be wasted if"
-	line "I can't broadcast."
-
-	para "I'll be ruined!"
+	text "아아 큰일이다!"
+	
+	para "발전소가 움직이지 않으면"
+	line "라디오 방송도 할 수 없게된다!"
+	
+	para "겨우 라디오를 시작했는데"
+	line "방송을 하지 못 하게 되면"
+	cont "나는 파멸이야-!"
 	done
 
 LavRadioTower1FGentlemanText_ReturnedMachinePart:
-	text "Ah! So you're the"
-	line "<PLAY_G> who solved"
-
-	para "the POWER PLANT's"
-	line "problem?"
-
-	para "Thanks to you, I"
-	line "never lost my job."
-
-	para "I tell you, you're"
-	line "a real lifesaver!"
-
-	para "Please take this"
-	line "as my thanks."
+	text "오오!"
+	line "네가 발전소 사건을"
+	cont "해결한 <PLAY_G>인가!"
+	
+	para "네 덕분으로 나는"
+	line "짤리지 않고 살고 있단다"
+	cont "정말 살았단다!"
+	
+	para "내 마음의 선물이다"
+	line "이것을 받아가거라!"
 	done
 
 LavRadioTower1FGentlemanText_GotExpnCard:
-	text "With that thing,"
-	line "you can tune into"
-
-	para "the radio programs"
-	line "here in KANTO."
-
-	para "Gahahahaha!"
+	text "그것이 있으면"
+	line "새로운 라디오 방송이 생긴다"
+	cont "들을 수 있도록 된단다!"
+	cont "카하하하하핫!"
 	done
 
 LavRadioTower1FSuperNerd2Text:
-	text "Hey there!"
-
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
-
-	para "Huh? Your #GEAR"
-	line "can't tune into my"
-
-	para "music programs."
-	line "How unfortunate!"
-
-	para "If you get an EXPN"
-	line "CARD upgrade, you"
-
-	para "can tune in. You'd"
-	line "better get one!"
+	text "하아-이!"
+	line "나는 음악 방송의"
+	cont "최고 감독!"
+	
+	para "……오잉 너의 포켓기어로는"
+	line "유감이지만 내 방송을"
+	cont "수신할 수 없구나!"
+	
+	para "업그레이드를 한 라디오 카드를"
+	line "끼우면 들을 수 있게 된단다!"
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "Hey there!"
-
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
-
-	para "I'm responsible"
-	line "for the gorgeous"
-
-	para "melodies that go"
-	line "out over the air."
-
-	para "Don't be square."
-	line "Grab your music"
-	cont "off the air!"
+	text "하아-이!"
+	line "나는 음악 방송의"
+	cont "최고 감독!"
+	
+	para "아름다운 멜로디를"
+	line "방송하고 있단다!"
+	cont "잘 부탁해!"
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
-
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
-
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	text "1층 …… 안내"
+	line "2층 …… 영업부"
+	cont "3층 …… 총무부"
+	cont "4층 …… 제작실"
+	cont "5층 …… 국장실"
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #MON"
-	line "with Mellow Sounds"
-
-	para "of the # FLUTE"
-	line "on CHANNEL 20"
+	text "맑고 깨끗한 피리의 음색으로"
+	line "포켓몬의 기분도 두둥실!"
+	cont "채널 20!"
 	done
 
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! A full rack"
-	line "of #MON CDs and"
-	cont "videos."
-
-	para "This must be the"
-	line "reference library."
+	text "포켓몬의 CD랑"
+	line "비디오가 많이 진열되어 있다"
+	cont "방송 자료인가?"
 	done
+	
 
 LavRadioTower1F_MapEvents:
 	db 0, 0 ; filler

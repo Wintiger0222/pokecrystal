@@ -306,209 +306,163 @@ NationalParkHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 NationalParkLassText:
-	text "Look! Check out my"
-	line "bag!"
-
-	para "I printed out my"
-	line "favorites from my"
-
-	para "#DEX and stuck"
-	line "them on my bag."
+	text "볼래 볼래!"
+	line "내 가방!"
+	
+	para "최고로 좋아하는 포켓몬 일러스트가"
+	line "붙어있단다!"
 	done
-
+	
 NationalParkPokefanFText:
-	text "This is MAIL I got"
-	line "from my daughter."
-	cont "It cheers me up."
+	text "이 조그마한 종이는"
+	line "딸에게 받은 메일이란다"
+	cont "너무나 기쁘단다"
 	done
 
 NationalParkTeacher1Text:
-	text "Pay attention,"
-	line "please!"
-
-	para "…Oops, I have to"
-	line "quit thinking like"
-
-	para "a teacher all the"
-	line "time."
-
-	para "You must be a"
-	line "#MON trainer."
-
-	para "Since you're work-"
-	line "ing so hard, I"
-
-	para "want you to have"
-	line "this."
+	text "자 여러분 주목!"
+	
+	para "……어머나 이런"
+	line "교사를 했던 버릇이 나와버렸네"
+	
+	para "너 포켓몬 트레이너 맞지?"
+	
+	para "열심히 분발하고있는 것"
+	line "같으니까 이것을 주겠어!"
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #MON hold"
-	line "that QUICK CLAW."
-
-	para "Sometimes it will"
-	line "strike first"
-	cont "during battle."
+	text "그 선제공격의 손톱은"
+	line "포켓몬에게 지니게 하면"
+	cont "가끔씩 먼저 공격을"
+	cont "할 수 있도록 된단다!"
 	done
 
 NationalParkYoungster1Text:
-	text "I'm playing with"
-	line "stickers I printed"
-	cont "from my #DEX."
+	text "내 포켓몬 도감을"
+	line "친구들꺼랑 비교하고 있어!"
 	done
 
 NationalParkYoungster2Text:
-	text "I get the other"
-	line "guy's #DEX"
-	cont "sticker if I win."
+	text "우우! 질 것 같아"
+	line "더욱 더 열심히 해서 모아야지"
 	done
 
 NationalParkTeacher2Text:
-	text "I take walks in"
-	line "the PARK, but I"
-
-	para "never go into the"
-	line "grass."
-
-	para "Trainers always"
-	line "want to battle…"
+	text "늘 공원을 산책하고 있어"
+	line "풀속에는 들어가지 않지만 말야"
+	
+	para "왜냐하면 포켓몬 트레이너가"
+	line "승부를 걸어오기 때문이야!"
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "페르시온『페 페르시온!"
 	done
 
 NationalParkGameboyKidText:
-	text "I'm printing out"
-	line "my #DEX."
-
-	para "You can also print"
-	line "out stuff like"
-
-	para "MAIL and your PC"
-	line "BOXES."
+	text "신난다!"
+	
+	para "내 쪽이 오히려 많이"
+	line "잡았다!"
 	done
 
 SchoolboyJack1SeenText:
-	text "The world of"
-	line "#MON is deep."
-
-	para "There are still"
-	line "lots of things we"
-	cont "don't know."
-
-	para "But I know more"
-	line "than you do!"
+	text "포켓몬의 비밀은 깊다"
+	line "아직도 모르는것이 가득해"
+	
+	para "하지만 말야 나의 지식은"
+	line "너보다 훨씬 많지!"
 	done
 
 SchoolboyJack1BeatenText:
-	text "Wha-wha-what?"
+	text "에구구?"
 	done
 
 UnknownText_0x5c4f3:
-	text "There is a lot"
-	line "to learn."
-
-	para "For example…"
-
-	para "There are 50 kinds"
-	line "of TMs."
-
-	para "Traded #MON"
-	line "level up faster."
+	text "외우고있는 것 엄청 많이 있어"
+	
+	para "예를 든다면……"
+	line "기술머신은 50종류라던가"
+	cont "다른 사람과 교환한"
+	cont "포켓몬은 성장이 빠르다던가"
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #MON are"
-	line "simply darling."
-
-	para "Let me tell you"
-	line "how proud my"
-	cont "darlings make me."
+	text "내 포켓몬 참 귀여워"
+	line "약간 자랑해도 괜찮겠지"
 	done
-
+	
 PokefanfBeverly1BeatenText:
-	text "I can beat you in"
-	line "pride, but…"
+	text "자랑으로는 이길 수 없네"
+	line "그치만…"
 	done
 
 UnknownText_0x5c5bd:
-	text "I must say, your"
-	line "#MON are quite"
-	cont "cute, too."
+	text "나는 네 포켓몬도"
+	line "참 귀엽다고 말하고 싶어!"
 	done
 
 PokefanmWilliamSeenText:
-	text "We adore our #-"
-	line "MON, even if they"
-	cont "dislike us."
-
-	para "That's what being"
-	line "a FAN is about."
+	text "혼신을 다해 포켓몬을 소중히한다!"
+	line "미움을 받아도 소중히 여긴다!"
+	cont "그것이 애호가클럽의 규칙!"
 	done
-
+	
 PokefanmWilliamBeatenText:
-	text "M-my #MON!"
+	text "포 포켓몬님!"
 	done
 
 PokefanmWilliamAfterBattleText:
-	text "I lost the battle,"
-	line "but my #MON win"
-
-	para "the prize for"
-	line "being most lovely."
+	text "승부에서는 졌지만"
+	line "내 포켓몬 쪽이"
+	cont "사랑스럽기 때문에 나의 승리!"
 	done
 
 UnknownText_0x5c68a:
-	text "My friend keeps a"
-	line "MARILL!"
-
-	para "I find them very"
-	line "endearing."
-
-	para "Oh, I wish for a"
-	line "MARILL of my own…"
+	text "친구는 마릴을 가지고 있어"
+	line "굉장히 사랑스러워 보이더라!"
+	cont "나도 마릴을 갖고 싶은데..."
 	done
 
 LassKriseSeenText:
-	text "Hello? Why are you"
-	line "staring at me?"
-
-	para "Oh, a battle?"
+	text "뭐야?"
+	line "사람얼굴 힐끔힐끔 보고"
+	
+	para "엇 승부하는 거니?"
 	done
+	
 
 LassKriseBeatenText:
-	text "…Hmmm…"
+	text "…… 우웅~"
 	done
-
+	
 LassKriseAfterBattleText:
-	text "I thought you were"
-	line "staring at me"
-	cont "because I'm cute!"
+	text "꼼짝않고 보고있어서"
+	line "내가 너무 귀엽나 하고 생각했잖아!"
 	done
-
+	
 NationalParkRelaxationSquareText:
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "안락한 휴식의 장소"
+	line "자연 공원"
 	done
 
 NationalParkBattleNoticeText:
-	text "What is this"
-	line "notice?"
-
-	para "Please battle only"
-	line "in the grass."
-
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	text "전단지가 붙어 있군!"
+	
+	para "포켓몬 승부는"
+	line "풀숲에서만 부탁드립니다"
+	
+	para "……자연 공원"
+	line "관리사무소에서 알렸습니다……"
 	done
 
 NationalParkTrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "Print out MAIL by"
-	line "opening it then"
-	cont "pressing START."
+	text "득이 되는 게시판!"
+	
+	para "메일화면에서"
+	line "스타트 버튼을 누르면!"
+	cont "메일을 프린트할 수 있습니다!"
 	done
 
 NationalPark_MapEvents:

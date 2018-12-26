@@ -84,7 +84,7 @@ CeladonDeptStore6FVendingMachine:
 	db 1 ; default option
 
 .MenuData:
-	db STATICMENU_CURSOR ; flags
+	db STATICMENU_CURSOR ; flags;미번역
 	db 4 ; items
 	db "FRESH WATER  ¥200@"
 	db "SODA POP     ¥300@"

@@ -1089,9 +1089,9 @@ PCMonInfo:
 	ld [wMonType], a
 	farcall GetGender
 	jr c, .skip_gender
-	ld a, "?"
+	ld a, "<?>"
 	jr nz, .printgender
-	ld a, "?"
+	ld a, "<?>"
 .printgender
 	hlcoord 5, 12
 	ld [hl], a
@@ -1805,7 +1805,7 @@ DepositPokemon:
 	ld h, b
 	ld de, wStringBuffer1
 	call PlaceString
-	ld a, "!"
+	ld a, "<!>"
 	ld [bc], a
 	ld c, 50
 	call DelayFrames

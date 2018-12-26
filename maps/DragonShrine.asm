@@ -272,7 +272,7 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Pal@"
+	db "Pal@";미번역
 	db "Underling@"
 	db "Friend@"
 

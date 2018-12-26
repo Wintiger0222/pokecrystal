@@ -98,7 +98,37 @@ Function49f16:
 	hlcoord 5, 1
 	call ClearBox
 	jp .joy_loop
+IF DEF(_CRYSTALMOBILE)
+MobileString1:
+	db   "めいしフォルダー"
+	next "인사말"
+	next "프로필"
+	next "다이얼"
+	next "돌아가다"
+	db   "@"
 
+MobileStrings2:
+
+String_0x49fe9:
+	db   "めいし¯つくったり"
+	next "ほぞんしておける　フォルダーです@"
+
+String_0x4a004:
+	db   "モバイルたいせんや　じぶんのめいしで"
+	next "つかう　あいさつ¯つくります@"
+
+String_0x4a026:
+	db   "あなた<NO>じゅうしょや　ねんれいの"
+	next "せ<TTE>い¯かえられます@"
+
+String_0x4a042:
+	db  "モバイルセンター<NI>せつぞくするとき"
+	next "ひつような　こと¯きめます@"
+
+String_0x4a062:
+	db   "전의 메뉴로 돌아갑니다"
+	next "@"
+ELSE
 MobileString1:
 	db   "めいしフォルダー"
 	next "あいさつ"
@@ -128,6 +158,7 @@ String_0x4a042:
 String_0x4a062:
 	db   "まえ<NO>がめん　<NI>もどります"
 	next "@"
+ENDC
 
 MobileMenu_InitMenuBuffers:
 	ld hl, w2DMenuCursorInitY
@@ -327,11 +358,18 @@ asm_4a19d:
 	hlcoord 2, 3
 	call ClearBox
 	jp Function4a195
-
+	
+IF DEF(_CRYSTALMOBILE)
 String_4a1ef:
 	db   "モバイルセンター¯えらぶ"
 	next "ログインパスワード¯いれる"
 	next "もどる@"
+ELSE
+String_4a1ef:
+	db   "モバイルセンター¯えらぶ"
+	next "ログインパスワード¯いれる"
+	next "もどる@"
+ENDC
 
 Function4a20e:
 	ld a, $1

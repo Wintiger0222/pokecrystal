@@ -449,121 +449,96 @@ MovementData_0x18e46c:
 	step_end
 
 UnknownText_0x18e473:
-	text "Hm? Who are you?"
-
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some BALLS?"
-
-	para "Sorry, but that'll"
-	line "have to wait."
-
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
-
-	para "worry. I'll tell"
-	line "you anyhow."
-
-	para "TEAM ROCKET's an"
-	line "evil gang that"
-
-	para "uses #MON for"
-	line "their dirty work."
-
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
-
-	para "Anyway, they're at"
-	line "the WELL, cutting"
-
-	para "off SLOWPOKETAILS"
-	line "for sale!"
-
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
-
-	para "Hang on, SLOWPOKE!"
-	line "Old KURT is on his"
-	cont "way!"
+	text "엇 넌 누구냐?"
+	
+	para "그런가 <PLAYER>(이)라고 하는가"
+	line "볼을 만들어줬으면 좋겠는가"
+	cont "미안하지만 그럴 때가 아니다"
+	
+	para "로켓단을 알고 있냐?"
+	line "뭐 몰라도 좋아"
+	cont "이야기를 계속하겠다"
+	
+	para "로켓단이라고 하는 것은"
+	line "포켓몬을 강제로 나쁜 짓에 사용한"
+	cont "아무 쓸모 없는 녀석들이지"
+	
+	para "3년전에"
+	line "해산했을 텐데……"
+	
+	para "어쨌든 그녀석들이"
+	line "우물에서 야돈의 꼬리를"
+	cont "잘라서 팔아먹고 있단다"
+	
+	para "그래서 내가 가서"
+	line "확실히 야단치려고 한다!"
+	
+	para "좋아! 기다려라 야돈!"
+	line "사나이 강집이 구하러 간다!"
 	done
 
 UnknownText_0x18e615:
-	text "KURT: Hi, <PLAYER>!"
-
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the WELL."
-
-	para "I like your style!"
-
-	para "I would be honored"
-	line "to make BALLS for"
-
-	para "a trainer like"
-	line "you."
-
-	para "This is all I have"
-	line "now, but take it."
+	text "강집『오오 <PLAYER>"
+	line "우물에서 네가 한 일"
+	cont "그것은 아주 훌륭했단다!"
+	
+	para "나는 네가 마음에 들었다!"
+	line "너 같은 트레이너가 쓰겠다면"
+	cont "볼을 만들어 주고싶구나"
+	
+	para "지금 손에 있는 것은"
+	line "이것뿐이지만 아무튼 가지고 가라!"
 	done
 
 UnknownText_0x18e6c9:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
-
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
-
-	para "I'll make BALLS"
-	line "out of them."
+	text "강집『나는 규토리를 사용해서"
+	line "특수한 볼을 만든단다"
+	
+	para "그 근처의 규토리 나무를 조사해서"
+	line "열매를 모아오면 좋을꺼다"
+	cont "그러면 내가 볼을 만들어주겠다"
 	done
 
 UnknownText_0x18e736:
-	text "KURT: You have an"
-	line "APRICORN for me?"
-
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	text "강집『오옷"
+	line "규토리를 가지고 있구나!"
+	
+	para "좋아 볼을 만들어주겠다!"
 	done
 
 UnknownText_0x18e779:
-	text "KURT: It'll take a"
-	line "day to make you a"
-
-	para "BALL. Come back"
-	line "for it later."
+	text "강집『볼이 완성되려면"
+	line "하루정도는 걸릴테니까"
+	cont "다음에 찾으러 오너라"
 	done
 
 UnknownText_0x18e7bc:
-	text "KURT: Oh…"
-	line "That's a letdown."
+	text "강집『그런가……"
+	line "어쩐지 맥이 빠지는군"
 	done
 
 UnknownText_0x18e7d8:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "강집『지금 만들고 있단다"
+	line "방해하지 말거라!"
 	done
 
 UnknownText_0x18e7fb:
-	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	text "강집『오오 <PLAYER>(인)가"
+	line "지금 막 볼이 완성되었으니까"
+	cont "가지고 가도록 하거라!"
 	done
 
 UnknownText_0x18e82a:
-	text "KURT: That turned"
-	line "out great."
-
-	para "Try catching"
-	line "#MON with it."
+	text "강집『마음에 드느냐!"
+	
+	para "그것으로 잡을 수 있을까 없을까"
+	line "포켓몬과 승부를 해보거라!"
 	done
 
 UnknownText_0x18e863:
 	text "KURT: Now that my"
 	line "granddaughter is"
-
+	
 	para "helping me, I can"
 	line "work much faster."
 	done
@@ -606,34 +581,29 @@ UnknownText_0x18e95c:
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
-	line "gone… Were they"
-
-	para "taken away by bad"
-	line "people?"
+	text "야돈이 사라져버렸어……"
+	line "어떡하지……"
+	cont "나쁜 사람들에게 잡혀갔을까?"
 	done
-
+	
 KurtsGranddaughterLonelyText:
-	text "Grandpa's gone…"
-	line "I'm so lonely…"
+	text "할아버지 어디 가셨지……?"
+	line "나 너무 쓸쓸해……"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The SLOWPOKE my"
-	line "dad gave me came"
-
-	para "back! Its TAIL is"
-	line "growing back too!"
+	text "아빠한테 선물받은"
+	line "내 야돈이 돌아왔어!"
+	cont "꼬리도 다시 날꺼야!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at SILPH"
-	line "where he studies"
-	cont "# BALLS."
-
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	text "아빠는 실프주식회사 라는 회사에서"
+	line "새로운 몬스터볼의"
+	cont "연구를 하고계셔"
+	
+	para "그 기간동안 나는"
+	line "할아버지랑 야돈이랑 집을 지켜"
 	done
 
 KurtsGranddaughterHelpText:
@@ -659,19 +629,15 @@ KurtsGranddaughterGSBallText:
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
-	line "Yawn?"
+	text "야돈『…… …… 야아?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
-	line "OAK?"
+	text "…… 젊었을 때의 오박사님?"
 	done
 
 KurtsHouseCelebiStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "숲의 신령을 받들어 모신다"
 	done
 
 KurtsHouse_MapEvents:
