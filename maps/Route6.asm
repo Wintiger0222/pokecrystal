@@ -37,20 +37,16 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
-
-	para "at the POWER PLANT"
-	line "is solved."
+	text "발전소의 사고가"
+	line "해결될 때까지"
+	cont "통행금지라고 하더군!"
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
-
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	text "여기서부터 지하통로"
+	line "블루시티 …… 갈색시티"
 	done
-
+	
 PokefanmRexSeenText:
 	text "My PHANPY is the"
 	line "cutest in the"

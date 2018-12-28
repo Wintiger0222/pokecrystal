@@ -84,123 +84,98 @@ Route9HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_9_HIDDEN_ETHER
 
 CamperDeanSeenText:
-	text "I came to explore"
-	line "ROCK TUNNEL."
+	text "돌산 터널을"
+	line "탐험하러 왔단다!"
 	done
 
 CamperDeanBeatenText:
-	text "Whoa! Danger, man."
+	text "이 이런!"
 	done
 
 CamperDeanAfterBattleText:
-	text "My #MON were"
-	line "hurt before even"
-
-	para "entering ROCK"
-	line "TUNNEL."
-
-	para "I'd better take"
-	line "them to a #MON"
-	cont "CENTER right away."
+	text "터널에 들어가기 전"
+	line "포켓몬이 상처를 입었다"
+	cont "포켓몬센터에 가야지!"
 	done
 
 PicnickerHeidiSeenText:
-	text "Have you ever been"
-	line "to a picnic?"
-
-	para "They're so much"
-	line "fun!"
+	text "너 피크닉 한 적 있니?"
+	line "굉장히 재미있어!"
 	done
 
 PicnickerHeidiBeatenText:
-	text "Ohhhh!"
+	text "아아앙-!"
 	done
 
 PicnickerHeidiAfterBattleText:
-	text "We bake lots of"
-	line "goodies and share"
-
-	para "them all around."
-	line "They're delicious!"
+	text "많이 과자를 만들어서"
+	line "모두함께 먹는거야!"
+	cont "맛있단다!"
 	done
 
 CamperSidSeenText:
-	text "Hey, you!"
-	line "Don't litter!"
+	text "어이 너!"
+	line "담배 함부로 버리는 것은 금지다!"
 	done
 
 CamperSidBeatenText:
-	text "I was just point-"
-	line "ing out…"
+	text "주의만 준 것 뿐인데……"
 	done
-
+	
 CamperSidAfterBattleText:
-	text "Sorry. You weren't"
-	line "littering. It was"
-	cont "my mistake."
+	text "담배같은건 피지 않는군"
+	line "내가 잘못봤다"
 	done
 
 PicnickerEdnaSeenText:
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "쓰레기는 꼭 자신이"
+	line "가지고 돌아가지 않으면 안 되지"
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ohh… I lost…"
+	text "아아……"
+	line "져버렸다……"
 	done
 
 PicnickerEdnaAfterBattleText:
-	text "Conserving energy"
-	line "is important, but"
-
-	para "the environment is"
-	line "even more vital."
+	text "전기도 소중하지만"
+	line "자연도 소중히 하거라"
 	done
 
 HikerTimSeenText:
-	text "She'll be coming"
-	line "'round MT.SILVER"
-	cont "when she comes…"
-
-	para "MT.SILVER is in"
-	line "JOHTO, right?"
+	text "산-은 은-빛-……"
+	
+	para "은빛이라는 산이"
+	line "성도에 있지?"
 	done
-
+	
 HikerTimBeatenText:
-	text "I was too busy"
-	line "singing…"
+	text "노래에 열중해서"
+	line "포켓몬을 소홀하게……"
 	done
 
 HikerTimAfterBattleText:
-	text "Battles are about"
-	line "concentration."
+	text "싸움은 집중력!"
 	done
 
 HikerSidneySeenText:
-	text "I'll tell you a"
-	line "secret."
-
-	para "But first, we"
-	line "battle!"
+	text "비밀을 가르쳐주겠다!"
+	line "그러나 그전에 포켓몬이다!"
 	done
 
 HikerSidneyBeatenText:
-	text "Oh, dang!"
-	line "I lost that…"
+	text "제기럴!"
+	line "졌단말인가!"
 	done
 
 HikerSidneyAfterBattleText:
-	text "The POWER PLANT is"
-	line "across a small"
-	cont "river."
+	text "폭이 좁은 강을 건너면"
+	line "커다란 발전소가 있단다"
 	done
 
 Route9SignText:
-	text "ROUTE 9"
-
-	para "CERULEAN CITY -"
-	line "ROCK TUNNEL"
+	text "이곳은 9번 도로"
+	line "블루시티 …… 돌산 터널"
 	done
 
 Route9_MapEvents:

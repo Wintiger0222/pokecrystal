@@ -27,23 +27,19 @@ Route30BerryHouseBookshelf:
 	jumpstd magazinebookshelf
 
 Route30BerrySpeechHouseMonEatBerriesText:
-	text "You know, #MON"
-	line "eat BERRIES."
-
-	para "Well, my #MON"
-	line "got healthier by"
-	cont "eating a BERRY."
-
-	para "Here. I'll share"
-	line "one with you!"
+	text "포켓몬이 나무열매를 먹는다는거"
+	line "너 알고있니?"
+	
+	para "우리집의 포켓몬은"
+	line "나무열매를 먹으면 건강해진다"
+	cont "그래! 너에게도 나누어줄께"
 	done
-
+	
 Route30BerrySpeechHouseCheckTreesText:
-	text "Check trees for"
-	line "BERRIES. They just"
-	cont "drop right off."
+	text "나무를 조사하면"
+	line "나무열매가 떨어질꺼야"
 	done
-
+	
 Route30BerryHouse_MapEvents:
 	db 0, 0 ; filler
 

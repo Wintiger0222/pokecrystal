@@ -148,95 +148,76 @@ MovementData_0x580c5:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
-	cont "May I see it?"
-
-	para "There are so many"
-	line "kinds of #MON."
-
-	para "Hm? What's this?"
-
-	para "What is this"
-	line "#MON?"
-
-	para "It looks like the"
-	line "strange writing on"
-
-	para "the walls of the"
-	line "RUINS."
-
-	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
-	cont "be many more."
-
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX. Follow me."
+	text "응?"
+	line "그건 포켓몬 도감이구나!"
+	cont "좀 보여주지 않을래?"
+	
+	para "흐음"
+	line "여러가지 포켓몬이 있군"
+	
+	para "아니!!"
+	
+	para "이 포켓몬은?"
+	
+	para "유적의 벽에 그려져 있는"
+	line "수수께끼의 문양과 닮아있군……"
+	
+	para "그 모양이 포켓몬이라고 한다면"
+	line "더욱더 많이 있을 텐데……"
+	
+	para "좋아! 내가 너의 도감을"
+	line "파워업해서 줄께!"
+	cont "따라와!"
 	done
 
 SuperNerdStanSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "뭐야 너는?"
+	line "연구에 방해되는 일은 곤란하지!"
 	done
-
+	
 SuperNerdStanBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
-
-	para "our lack of real"
-	line "understanding…"
+	text "미안……"
+	
+	para "알 수 없는 것이 많아서"
+	line "화가 치밀어 못 견디겠어서……"
 	done
-
+	
 SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
-
-	para "Nobody knows who"
-	line "built them."
-
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
-
-	para "It's all one big"
-	line "mystery…"
+	text "이 유적이 만들어진 것은"
+	line "지금으로부터 1500년쯤 전이다"
+	
+	para "하지만 누가 만들었나 하는 것과"
+	line "포켓몬 동상에 의미가 있는가 같은"
+	cont "모르는 것만 있어서말야……"
 	done
-
+	
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "…… 움-"
+	line "여기는 이상한곳이구나"
 	done
+	
 
 PsychicNathanBeatenText:
-	text "…"
+	text "…… …… ……"
 	done
 
 PsychicNathanAfterBattleText:
-	text "I like thinking"
-	line "here."
+	text "유적에서 생각에 잠기는 것을"
+	line "아주 좋아해"
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERY STONE"
-	line "PANEL CHAMBER"
+	text "수수께끼 석판의 방"
 	done
-
+	
 RuinsOfAlphSignText:
-	text "RUINS OF ALPH"
-	line "VISITORS WELCOME"
+	text "알프의 유적"
+	line "견학중입니다"
 	done
-
+	
 RuinsOfAlphResearchCenterSignText:
-	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
-
-	para "THE AUTHORITY ON"
-	line "THE RUINS OF ALPH"
+	text "알프의 유적 연구소"
+	line "유적의 질문 접수중!"
 	done
 
 RuinsOfAlphOutsideFisherText1:

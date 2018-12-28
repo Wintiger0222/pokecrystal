@@ -40,57 +40,41 @@ SandstormHouseBookshelf:
 	jumpstd magazinebookshelf
 
 SandstormHouseWomanText1:
-	text "Where are you off"
-	line "to with #MON?"
-
-	para "#MON LEAGUE?"
-
-	para "Are your #MON"
-	line "loyal enough for"
-	cont "you to win?"
-
-	para "Let me see…"
+	text "히히히"
+	line "포켓몬 데리고 어딜 가느냐?"
+	
+	para "포켓몬 리그인가"
+	line "모두 이겨낼 수 있는 강한"
+	cont "인연을 지니고 있는가?"
+	
+	para "어디어디 너의 포켓몬……"
 	done
-
+	
 SandstormHouseWomanLoyalText:
-	text "Ah! Your #MON"
-	line "trusts you very"
-	cont "much."
-
-	para "It's nice to see a"
-	line "good trainer."
-
-	para "Here. A gift for"
-	line "your journey."
+	text "오오 꽤나 잘 따르는구나"
+	line "좋은 트레이너를 보면 기뻐진단다"
+	
+	para "이것은 떠나보내는 선물이다"
+	line "가지고 가거라!"
 	done
 
 SandstormHouseSandstormDescription:
-	text "TM37 happens to be"
-	line "SANDSTORM."
-
-	para "It's a move that"
-	line "inflicts damage on"
-	cont "both battlers."
-
-	para "It's for advanced"
-	line "trainers only."
-
-	para "Use it if you"
-	line "dare. Good luck!"
+	text "기술머신37은 모래바람!"
+	
+	para "사용하면 서로 데미지를 입는"
+	line "상급자 수준의 기술"
+	
+	para "그럼 열심히 하거라"
 	done
 
 SandstormHouseWomanDisloyalText:
-	text "If it doesn't come"
-	line "to trust you some"
-
-	para "more, it could be"
-	line "tough going."
-
-	para "Trust is the tie"
-	line "that binds #MON"
-	cont "and trainers."
+	text "조금더 친해지지 않으면"
+	line "이기는 것은 어려울 것 같구나"
+	
+	para "트레이너와 포켓몬을 이어주는 것은"
+	line "서로의 믿음이니까"
 	done
-
+	
 Route27SandstormHouse_MapEvents:
 	db 0, 0 ; filler
 

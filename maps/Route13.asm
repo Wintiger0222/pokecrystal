@@ -78,115 +78,96 @@ Route13HiddenCalcium:
 	hiddenitem CALCIUM, EVENT_ROUTE_13_HIDDEN_CALCIUM
 
 PokefanmAlexSeenText:
-	text "Bow down before my"
-	line "regal #MON!"
+	text "이 사람의 위엄을 많은"
+	line "포켓몬들에 전하는 것이 좋을꺼야!"
 	done
 
 PokefanmAlexBeatenText:
-	text "How… How dare you"
-	line "mock royalty!"
+	text "부 분하다 ……"
 	done
 
 PokefanmAlexAfterBattleText:
-	text "Doesn't everyone"
-	line "wish to someday be"
-	cont "a king?"
+	text "사나이로 태어난 이상은"
+	line "황제가 되어보고싶지?"
 	done
-
+	
 PokefanmJoshuaSeenText:
-	text "Nihihi! Would you"
-	line "like to battle my"
-	cont "PIKACHU gang?"
+	text "우후후후훗!"
+	line "피카츄들과 승부하지 않을래?"
 	done
-
+	
 PokefanmJoshuaBeatenText:
-	text "PI-PIKACHU!"
+	text "피 피카츄가!"
 	done
 
 PokefanmJoshuaAfterBattleText:
-	text "You look like you"
-	line "have many #MON,"
-
-	para "but PIKACHU is"
-	line "still the best."
+	text "너는 많은 포켓몬을"
+	line "가지고 있어 보이지만"
+	cont "역시 피카츄가 최고!"
 	done
 
 BirdKeeperPerrySeenText:
-	text "Agility is the key"
-	line "attribute of bird"
-	cont "#MON."
+	text "날쌘 움직임이"
+	line "새 포켓몬의 특징이지!"
 	done
 
 BirdKeeperPerryBeatenText:
-	text "You beat me with"
-	line "your speed…"
+	text "빠른 움직임에서 지고있어!?"
+	line "이 내가-!?"
 	done
 
 BirdKeeperPerryAfterBattleText:
-	text "Your #MON are"
-	line "remarkably well-"
-	cont "trained."
+	text "훌륭하게 단련되어져 있구나"
+	line "너의 포켓몬들은!"
 	done
 
 BirdKeeperBretSeenText:
-	text "Check out my #-"
-	line "MON. Just look at"
-
-	para "their coloring and"
-	line "their plumage."
+	text "보아라 내 포켓몬!"
+	line "멋있는 색깔과 윤기가 나지!"
 	done
 
 BirdKeeperBretBeatenText:
-	text "Shoot!"
-	line "Not good enough!"
+	text "제기럴!"
+	line "생각대로 되지 않는걸까!"
 	done
-
+	
 BirdKeeperBretAfterBattleText:
-	text "If you groom them,"
-	line "#MON get happy."
+	text "손질해서 예쁘게 해주면"
+	line "포켓몬도 기뻐할꺼야!"
 	done
 
 HikerKennySeenText:
-	text "I should go to"
-	line "ROCK TUNNEL to get"
-	cont "myself an ONIX."
+	text "돌산 터널에 가볼까"
+	line "롱스톤을 잡으러말야!"
 	done
 
 HikerKennyBeatenText:
-	text "I lost…"
+	text "졌다!"
 	done
 
 HikerKennyAfterBattleText:
-	text "Geological fea-"
-	line "tures don't appear"
-	cont "to change."
-
-	para "But they actually"
-	line "change, little by"
-	cont "little."
+	text "자연의 모습은 언제나"
+	line "똑같아 보이지만"
+	
+	para "사실은 조금씩"
+	line "모양이 바뀌고 있단다"
 	done
 
 Route13TrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "Look! Right there,"
-	line "at the left side"
-	cont "of the post."
+	text "…… 득이 되는 게시판!"
+	
+	para "거기 거기!"
+	line "말뚝을 사이에 두고 왼쪽"
 	done
 
 Route13SignText:
-	text "ROUTE 13"
-
-	para "NORTH TO SILENCE"
-	line "BRIDGE"
+	text "이곳은 13번 도로"
+	line "북쪽 …… 고요한 다리"
 	done
 
 Route13DirectionsSignText:
-	text "NORTH TO LAVENDER"
-	line "TOWN"
-
-	para "WEST TO FUCHSIA"
-	line "CITY"
+	text "북쪽 …… 보라타운"
+	line "서쪽 …… 연분홍시티"
 	done
 
 Route13_MapEvents:

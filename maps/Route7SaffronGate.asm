@@ -23,26 +23,19 @@ Route7SaffronGuardScript:
 	end
 
 Route7SaffronGuardPowerPlantText:
-	text "Did you hear about"
-	line "the accident at"
-	cont "the POWER PLANT?"
-
-	para "It's located in"
-	line "the East, close to"
-	cont "LAVENDER TOWN."
+	text "발전소에서 사고가"
+	line "있었던 것 같다"
+	
+	para "발전소는 반대편"
+	line "보라타운 쪽에 있단다"
 	done
 
 Route7SaffronGuardSeriousText:
-	text "I take my GUARD"
-	line "job seriously."
-
-	para "Hey! You have a"
-	line "#DEX."
-
-	para "OK. You can go"
-	line "through."
+	text "나는 성실한 경비원"
+	line "그건 포켓몬 도감이군"
+	cont "통과해도 좋다!"
 	done
-
+	
 Route7SaffronGate_MapEvents:
 	db 0, 0 ; filler
 

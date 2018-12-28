@@ -7,10 +7,8 @@ VictoryRoadEntranceSign:
 	jumptext VictoryRoadEntranceSignText
 
 VictoryRoadEntranceSignText:
-	text "#MON LEAGUE"
-
-	para "VICTORY ROAD"
-	line "ENTRANCE"
+	text "이곳은 포켓몬 리그"
+	line "챔피언 로드 입구"
 	done
 
 Route22_MapEvents:

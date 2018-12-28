@@ -197,13 +197,9 @@ SailorEugeneBeatenText:
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
-	line "caught and raised"
-	cont "overseas."
-
-	para "They're my compan-"
-	line "ions on those long"
-	cont "voyages."
+	text "내 포켓몬"
+	line "외국에서 잡아서 키웠단다"
+	cont "오랜 선상생활의 소중한 녀석이지!"
 	done
 
 PokefanmDerekSeenText:
@@ -218,36 +214,24 @@ PokefanmDerekBeatenText:
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
-
-	para "We # FANS have"
-	line "a policy of not"
-
-	para "listening to other"
-	line "people brag!"
+	text "사람의 자랑꺼리는 듣지않는다!"
+	line "왜냐면 그것이"
+	cont "애호가 클럽의 규칙!"
 	done
-
+	
 PokefanfRuthSeenText:
-	text "Such darling"
-	line "#MON."
-
-	para "Let's show our"
-	line "#MON together"
-	cont "at the same time."
+	text "너 귀여운 포켓몬을"
+	line "보여주지 않으려고?"
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "졌어도 괜찮아요"
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Do you know about"
-	line "baby #MON?"
-
-	para "I bet they're just"
-	line "adorable!"
+	text "당신은 포켓몬의"
+	line "아기라는 것을 알고 있나요?"
+	cont "틀림없이 매우 귀여울꺼예요"
 	done
 
 PokefanMDerekPikachuIsItText:
@@ -256,25 +240,21 @@ PokefanMDerekPikachuIsItText:
 	done
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #MON are"
-	cont "capable of."
+	text "너의 포켓몬"
+	line "무엇을 할 수 있나 보여줘!"
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
-	line "have potential."
+	text "좋구나 너의 포켓몬"
+	line "좋은 가능성을 가지고 있구나"
 	done
 
 PsychicNormanAfterBattleText:
-	text "You know how #-"
-	line "MON have different"
-	cont "abilities?"
-
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	text "포켓몬은 여러가지"
+	line "능력을 지니고있지"
+	
+	para "그것처럼 사람도"
+	line "여러 가능성을 가지고 있는거야"
 	done
 
 PokefanfJaimeHopeItGetsDarkText:
@@ -313,32 +293,23 @@ PokefanfJaimeAfterBattleText:
 	done
 
 Route39SignText:
-	text "ROUTE 39"
-
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	text "이곳은 39번 도로"
+	line "담청시티 …… 인주시티"
 	done
 
 MoomooFarmSignText:
-	text "MOOMOO FARM"
-
-	para "Enjoy Our Fresh"
-	line "and Tasty Milk"
+	text "튼튼 목장"
+	line "맛있는 직접 짠 우유를 드세요!"
 	done
 
 Route39TrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "Use HEADBUTT on"
-	line "trees to shake"
-	cont "#MON out."
-
-	para "Different kinds of"
-	line "#MON drop out"
-	cont "of trees."
-
-	para "Use HEADBUTT on"
-	line "any tree you see!"
+	text "득이 되는 게시판!"
+	
+	para "박치기로 나무를 흔들 때"
+	line "떨어지는 포켓몬은"
+	cont "나무에따라 여러가지입니다"
+	
+	para "여러 나무에 박치기를 합시다!"
 	done
 
 Route39_MapEvents:

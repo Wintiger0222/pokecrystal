@@ -64,83 +64,70 @@ Route11HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_11_HIDDEN_REVIVE
 
 YoungsterOwenSeenText:
-	text "There's no cheat-"
-	line "ing in #MON."
-
-	para "Let's keep it fair"
-	line "and square!"
+	text "포켓몬에게 교활함이란 없다!"
+	line "정정당당하게 싸우자!"
 	done
 
 YoungsterOwenBeatenText:
-	text "Huh? How did this"
-	line "happen?"
+	text "얼레?"
+	line "이럴리가……"
 	done
 
 YoungsterOwenAfterBattleText:
-	text "I fought fair and"
-	line "square with honor."
-
-	para "I don't regret"
-	line "this at all."
+	text "정정당당하게 싸웠다!"
+	line "그래서 나는 후회하지 않아!"
 	done
 
 YoungsterJasonSeenText:
-	text "It itches and"
-	line "tickles a bit when"
-
-	para "I wear shorts in"
-	line "the grass."
+	text "짧은바지로 풀숲을 걸으면"
+	line "잎사귀가 찔러서 간지러워!"
 	done
 
 YoungsterJasonBeatenText:
-	text "Aiyaaah!"
-	line "I got stomped!"
+	text "으아-악!"
+	line "졌-다!"
 	done
 
 YoungsterJasonAfterBattleText:
-	text "I'm going to catch"
-	line "more #MON in"
-	cont "the grass."
+	text "풀숲에서 더욱 포켓몬을"
+	line "많이 잡으려고!"
 	done
 
 PsychicHermanSeenText:
-	text "…"
+	text "…… …… ……"
 	done
-
+	
 PsychicHermanBeatenText:
-	text "…"
+	text "…… …… ……"
 	done
-
+	
 PsychicHermanAfterBattleText:
-	text "…"
-
-	para "I lost while I had"
-	line "my eyes closed…"
+	text "…… …… ……"
+	
+	para "눈을 감고있는 사이에"
+	line "져버렸다……"
 	done
-
+	
 PsychicFidelSeenText:
-	text "I can see it…"
-
-	para "Everything to see"
-	line "about you…"
+	text "나에게는 보인다……"
+	line "그대의 모든 것이……"
 	done
+	
 
 PsychicFidelBeatenText:
-	text "I couldn't foresee"
-	line "your power…"
+	text "그대의 강함은"
+	line "예지 할 수 없었다……"
 	done
 
 PsychicFidelAfterBattleText:
-	text "Strength in con-"
-	line "viction…"
-
-	para "You're strong be-"
-	line "cause you believe"
-	cont "in your #MON."
+	text "믿음의 힘……"
+	
+	para "포겟몬들을 믿고있기 때문에"
+	line "너는 강한 것이군……"
 	done
 
 Route11SignText:
-	text "ROUTE 11"
+	text "이곳은 11번 도로"
 	done
 
 Route11_MapEvents:

@@ -14,24 +14,19 @@ Route29Route46GateYoungsterScript:
 	jumptextfaceplayer Route29Route46GateYoungsterText
 
 Route29Route46GateOfficerText:
-	text "You can't climb"
-	line "ledges."
-
-	para "But you can jump"
-	line "down from them to"
-	cont "take a shortcut."
+	text "언덕을 올라가는 것은 할 수 없다"
+	
+	para "하지만 내려갈 때는 빨라서"
+	line "어쩐지 이득을 보는 기분이지"
 	done
 
 Route29Route46GateYoungsterText:
 	text "Different kinds of"
-	line "#MON appear"
-	cont "past here."
-
-	para "If you want to"
-	line "catch them all,"
-
-	para "you have to look"
-	line "everywhere."
+	text "이 다음부터는 출현하는 포켓몬도"
+	line "좀 다르단다"
+	
+	para "여러 포켓몬을 모은다면"
+	line "여러 장소를 찾아봐야 한다!"
 	done
 
 Route29Route46Gate_MapEvents:

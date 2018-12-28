@@ -211,263 +211,207 @@ MovementData_0x5ce74:
 	step_end
 
 UnknownText_0x5ce77:
-	text "Welcome!"
+	text "어서오세요!"
 	done
 
 UnknownText_0x5ce81:
-	text "Hello. I'm sorry,"
-	line "but we're not"
-	cont "offering any tours"
-	cont "today."
+	text "…… 어서오세요"
+	line "대단히 죄송하지만"
+	cont "지금은 견학을 할 수 없습니다"
 	done
 
 UnknownText_0x5ceba:
-	text "Hi, are you here"
-	line "for the LUCKY NUM-"
-	cont "BER SHOW?"
-
-	para "Want me to check"
-	line "the ID numbers of"
-	cont "your #MON?"
-
-	para "If you get lucky,"
-	line "you win a prize."
+	text "예 여기는 교환소입니다"
+	
+	para "당신의 포켓몬"
+	line "아이디 넘버로"
+	cont "운이 좋다면 상품획득 찬스!"
 	done
 
 UnknownText_0x5cf3a:
-	text "This week's ID"
-	line "number is @"
+	text " 이번 주 당첨 번호는"
+	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text "입니다"
 	done
 
 UnknownText_0x5cf5a:
-	text "Let's see if you"
-	line "have a match."
+	text "그럼 바로 체크"
+	line "하겠습니다"
 	done
 
 UnknownText_0x5cf79:
-	text "<……>"
-	line "<……>"
+	text "…… …… …… …… ……"
+	line " …… …… …… …… ……"
 	done
 
 UnknownText_0x5cf7e:
-	text "Please come back"
-	line "next week for the"
-	cont "next LUCKY NUMBER."
+	text "다음의 발표를"
+	line "즐겁게 기다려주세요"
 	done
 
 UnknownText_0x5cfb5:
-	text "Wow! You have a"
-	line "perfect match of"
-	cont "all five numbers!"
-
-	para "We have a grand"
-	line "prize winner!"
-
-	para "You have won a"
-	line "MASTER BALL!"
+	text "이 이럴수가 5자리 맞았습니다!"
+	line "1등! 1등입니다!"
+	
+	para "1등 상품은"
+	line "마스터볼입니다!"
 	done
 
 UnknownText_0x5d023:
-	text "Hey! You've"
-	line "matched the last"
-	cont "three numbers!"
-
-	para "You've won second"
-	line "prize, an EXP."
-	cont "SHARE!"
+	text "오옷! 아래 3자리 맞았습니다!"
+	line "2등입니다!"
+	
+	para "2등 상품은"
+	line "학습장치입니다!"
 	done
 
 UnknownText_0x5d076:
-	text "Ooh, you've"
-	line "matched the last"
-	cont "two numbers."
-
-	para "You've won third"
-	line "prize, a PP UP."
+	text "아래 2자리 수가 맞았습니다!"
+	line "3등이 당첨되었습니다"
+	
+	para "3등 상품은"
+	line "포인트 업 입니다!"
 	done
-
+	
 UnknownText_0x5d0c0:
-	text "Nope, none of your"
-	line "ID numbers match."
+	text "애석하게도"
+	line "모두 꽝입니다"
 	done
 
 UnknownText_0x5d0e6:
-	text "You've got no room"
-	line "for your prize."
-
-	para "Make room and come"
-	line "back right away."
+	text "짐이 잔뜩 있는 것 같군요"
+	line "짐을 줄이시고 되도록 빨리"
+	cont "오시길 바랍니다"
 	done
 
 UnknownText_0x5d12d:
-	text "We have a special"
-	line "quiz campaign on"
-	cont "right now."
-
-	para "Answer five ques-"
-	line "tions correctly to"
-	cont "win a RADIO CARD."
-
-	para "Slide it into your"
-	line "#GEAR to play"
-
-	para "the radio anytime,"
-	line "anywhere."
-
-	para "Would you like to"
-	line "take the quiz?"
+	text "지금 막 캠페인 중!"
+	
+	para "퀴즈 5문제에 계속해서"
+	line "정답이 나오면"
+	cont "라디오 카드를 선물로!"
+	
+	para "포켓기어에 꽂으면 언제 어디서나"
+	line "라디오를 들을 수 있습니다"
+	cont "퀴즈에 도전하겠습니까?"
 	done
 
 UnknownText_0x5d1f2:
-	text "Question 1:"
-
-	para "Is there a #MON"
-	line "that appears only"
-	cont "in the morning?"
+	text "그럼 제1문제!"
+	
+	para "아침에만 출현하는 포켓몬이"
+	line "있을까요?"
 	done
-
+	
 UnknownText_0x5d231:
-	text "Correct!"
-	line "Question 2:"
-
-	para "Is this statement"
-	line "correct?"
-
-	para "You can't buy a"
-	line "BERRY at a MART."
+	text "정답입니다"
+	line "그럼 제2문제!"
+	
+	para "열매는 마트에서 살 수 없다?"
 	done
 
 UnknownText_0x5d282:
-	text "Bull's-eye!"
-	line "Question 3:"
-
-	para "Does HM01 contain"
-	line "the move FLASH?"
+	text "정답입니다"
+	line "계속해서 제3문제!"
+	
+	para "비전머신01에 들어"
+	line "있는것은 플래시?"
 	done
-
+	
 UnknownText_0x5d2bc:
-	text "So far so good!"
-	line "Question 4:"
-
-	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
-
-	para "who uses bird"
-	line "#MON?"
+	text "계속해서 정답"
+	line "그럼 제4문제!"
+	
+	para "비상은 도라지시티의 비행"
+	line "타입 전문 체육관 관장?"
 	done
 
 UnknownText_0x5d30e:
-	text "Wow! Right again!"
-	line "Here's the final"
-	cont "question:"
-
-	para "Do GOLDENROD GAME"
-	line "CORNER's slots"
-
-	para "have CHARMANDER"
-	line "on their reels?"
+	text "대단하군요!"
+	line "드디어 마지막 문제입니다"
+	
+	
+	para "금빛시티 게임 코너의 게임엔"
+	line "파이리가 있다?"
 	done
 
 UnknownText_0x5d37b:
-	text "Bingo! You got it!"
-	line "Congratulations!"
-
-	para "Here's your prize,"
-	line "a RADIO CARD!"
+	text "모든 문제 정답"
+	line "축하드립니다!"
+	cont "상품인 라디오 카드입니다!"
 	done
-
+	
 UnknownText_0x5d3c0:
-	text "<PLAYER>'s #GEAR"
-	line "can now double as"
-	cont "a radio!"
+	text "<PLAYER>의 포켓몬 기어에서"
+	line "라디오를 들을 수 있게 되었다!"
 	done
 
 UnknownText_0x5d3e5:
-	text "Please tune in to"
-	line "our radio shows."
+	text "우리들의 방송"
+	line "항상 듣고 즐기시길!"
 	done
 
 UnknownText_0x5d409:
-	text "Oh, dear."
-	line "Sorry, but you"
-
-	para "got it wrong."
-	line "Please try again!"
+	text "이런이런 틀리셨네요"
+	line "아깝게 되었군요"
+	cont "다음에 다시 도전해주세요!"
 	done
 
 UnknownText_0x5d443:
-	text "Oh. I see. Please"
-	line "see me if you"
-	cont "change your mind."
+	text "그렇습니까?"
+	line "다시 할 마음이 생기면 찾아주세요"
 	done
 
 RadioTower1FLassText:
-	text "BEN is a fabulous"
-	line "DJ."
-
-	para "His sweet voice"
-	line "makes me melt!"
+	text "DJ라고 한다면 준화뿐이지!"
+	line "저 달콤한 목소리를 말하자면……"
+	
+	para "벌써 녹아서 헤롱헤롱"
 	done
 
 RadioTower1FYoungsterText:
-	text "I love MARY, from"
-	line "#MON TALK."
-
-	para "I only know what"
-	line "she sounds like,"
-	cont "though."
+	text "나는 포켓몬 강좌의"
+	line "호두님이 좋아!"
+	
+	para "……목소리밖에 모르지만"
 	done
 
 GruntM3SeenText:
-	text "We've finally"
-	line "taken over the"
-	cont "RADIO TOWER!"
-
-	para "Now everyone will"
-	line "get to experience"
-
-	para "the true terror of"
-	line "TEAM ROCKET!"
-
-	para "We'll show you"
-	line "how scary we are!"
+	text "드디어 라디오타워를 접수했다!"
+	line "로켓단의 무서움을"
+	cont "전국에 알려야한다"
+	
+	para "먼저 너에게 우리들의"
+	line "두려움을 가르쳐 주겠다!"
 	done
 
 GruntM3BeatenText:
-	text "Too strong! We"
-	line "must watch you…"
+	text "이 이녀석은 강하군……"
+	line "요주의 인물이로군"
 	done
-
+	
 GruntM3AfterBattleText:
-	text "You're too strong."
-
-	para "Our plan could be"
-	line "ruined. I must"
-	cont "warn the others…"
+	text "넌 너무나 강하군"
+	
+	para "이대로는 계획이 물거품이다"
+	line "동료들에게 알리지 않으면……"
 	done
 
 RadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
-
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
-
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	text "1층 …… 안내"
+	line "2층 …… 영업부"
+	cont "3층 …… 총무부"
+	cont "4층 …… 제작실"
+	cont "5층 …… 국장실"
 	done
 
 RadioTower1FLuckyChannelSignText:
-	text "LUCKY CHANNEL!"
-
-	para "Win with #MON"
-	line "ID numbers!"
-
-	para "Trade your #MON"
-	line "to collect differ-"
-	cont "ent ID numbers!"
+	text "럭키- 채널!"
+	line "당신의 포켓몬은 몇번?"
+	
+	para "포켓몬을 교환해서"
+	line "여러가지 번호를 모아보자!"
 	done
 
 RadioTower1F_MapEvents:

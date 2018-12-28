@@ -126,64 +126,59 @@ MoomooScript:
 	end
 
 Route39BarnTwinMoomooIsSickText:
-	text "MOOMOO is sick…"
-
-	para "She needs lots of"
-	line "BERRIES."
+	text "튼튼이가 힘이 없어……"
+	line "나무열매를 많이 먹이지 않으면……"
 	done
 
 Route39BarnTwinWereFeedingMoomooText:
-	text "We're feeding"
-	line "MOOMOO!"
+	text "튼튼이에게 먹이를 주고있어!"
 	done
 
 MoomooWeakMooText:
-	text "MILTANK: …Moo…"
+	text "밀탱크『…… 밀탱"
 	done
 
 Route39BarnItsCryIsWeakText:
-	text "Its cry is weak…"
+	text "울음소리에 힘이 없어……"
 	done
 
 MoomooHappyMooText:
-	text "MILTANK: Mooo!"
+	text "밀탱크『밀 탱-!"
 	done
 
 Route39BarnAskGiveBerryText:
-	text "Give a BERRY to"
-	line "MILTANK?"
+	text "밀탱크에게 나무열매를 주겠습니까?"
 	done
 
 Route39BarnGaveBerryText:
-	text "<PLAYER> gave a"
-	line "BERRY to MILTANK."
+	text "<PLAYER>는(은)"
+	line "나무열매를 먹였다!"
 	done
 
 Route39BarnLittleHealthierText:
-	text "MILTANK became a"
-	line "little healthier!"
+	text "밀탱크는"
+	line "약간 건강을 되찾았다!"
 	done
 
 Route39BarnQuiteHealthyText:
-	text "MILTANK became"
-	line "quite healthy!"
+	text "밀탱크는"
+	line "거의 건강을 되찾았다!"
 	done
 
 Route39BarnTotallyHealthyText:
-	text "MILTANK became"
-	line "totally healthy!"
+	text "밀탱크는"
+	line "매우 건강해졌다!"
 	done
 
 Route39BarnNoBerriesText:
-	text "<PLAYER> has no"
-	line "BERRIES…"
+	text "<PLAYER>는(은)"
+	line "나무열매를 가지고있지 않다"
 	done
 
 Route39BarnRefusedBerryText:
-	text "<PLAYER> wouldn't"
-	line "give a BERRY."
-
-	para "MILTANK looks sad."
+	text "<PLAYER>는(은) 나무열매를"
+	line "주지않았기에 밀탱크는"
+	cont "슬픈 눈빛을 하고있다……"
 	done
 
 Route39Barn_MapEvents:

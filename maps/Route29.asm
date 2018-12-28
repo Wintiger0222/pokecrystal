@@ -247,170 +247,121 @@ DudeMovementData2b:
 	step_end
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
-
-	para "knows when they'll"
-	line "pop out…"
+	text "풀숲에는 포켓몬이 숨어있다"
+	line "언제 튀어나올지 몰라"
 	done
 
 CatchingTutorialIntroText:
-	text "I've seen you a"
-	line "couple times. How"
-
-	para "many #MON have"
-	line "you caught?"
-
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "너 몇 번씩 지나가고 있지만"
+	line "어느정도 포켓몬을 잡았니"
+	
+	para "잘 모르면 내가 포켓몬의"
+	line "잡는 방법을 가르쳐줄까?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
-
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	text "뭐 이런 느낌이지!"
+	
+	para "힘을 빼서 지치게 만들면"
+	line "더욱 잡기 쉬워진단다!"
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
-
-	para "Anyway, if you"
-	line "want to catch"
-
-	para "#MON, you have"
-	line "to walk a lot."
+	text "그런가"
+	line "그렇다면 좋아"
+	
+	para "뭐 원하는 포켓몬이 있다면"
+	line "오직 그것만 찾아 헤매는 것이지"
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "응? 포켓몬을 잡는 방법"
+	line "듣고싶니?"
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
-
-	para "If they're weak"
-	line "and not ready for"
-
-	para "battle, keep out"
-	line "of the grass."
+	text "어이"
+	line "네 포켓몬 건강하냐?"
+	
+	para "포켓몬이 약해져서"
+	line "싸우게 하고싶지 않을 때는"
+	cont "될 수 있는 한 풀숲을 피해"
+	cont "걸어가는 편이 좋아"
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
-
-	para "But you can go to"
-	line "NEW BARK without"
-
-	para "walking through"
-	line "the grass."
+	text "거기에 언덕이 있지?"
+	
+	para "뛰어내리는 것은 무서워도"
+	line "풀숲을 걸어가지 않고"
+	cont "연두마을까지 갈 수 있지!"
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
-
-	para "to record my"
-	line "progress."
+	text "조금 쉬고싶어서"
+	line "레포트를 쓰고있었어"
 	done
 
 ; unused
 Text_WaitingForDay:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only in the"
-	line "daytime."
+	text "낮에만 출현하는 포켓몬을"
+	line "잡기위해 여기서 기다린단다"
 	done
 
 Route29CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only at"
-	line "night."
+	text "밤에만 나오는 포켓몬을"
+	line "잡기위해 여기서 기다린단다"
 	done
 
 Route29CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
-
-	para "appear only in the"
-	line "morning."
+	text "아침에만 출현하는 포켓몬을"
+	line "잡기위해 여기서 기다린단다"
 	done
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
-
-	para "the first time"
-	line "we've met?"
-
-	para "Please allow me to"
-	line "introduce myself."
-
-	para "I am TUSCANY of"
-	line "Tuesday."
+	text "화홍『처음 만나는 것 이지?"
+	
+	para "나는"
+	line "화요일의 화홍이라고 합니다"
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
-
-	para "accept this gift,"
-	line "a PINK BOW."
+	text "인사를 대신해서"
+	line "이것을 받아주세요"
+	cont "핑크빛 리본입니다"
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
-
-	para "It strengthens"
-	line "normal-type moves."
-
-	para "I am certain it"
-	line "will be of use."
+	text "화홍『귀엽게 보이는"
+	line "리본이라고 생각하지 않나요?"
+	
+	para "그것은 노말타입의 기술을"
+	line "강하게 해주는 도구입니다"
+	cont "반드시 도움이 될 것이라 생각해요"
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
-
-	para "Or my younger"
-	line "brother, WESLEY?"
-
-	para "I am the second of"
-	line "seven children."
+	text "화홍『월희언니랑은"
+	line "벌써 만났습니까?"
+	cont "수방이랑은?"
+	
+	para "나는 7남매의"
+	line "둘째입니다"
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "화홍『오늘은 화요일이"
+	line "아닌 것 같군요"
+	cont "유감이네요."
 	done
 
 Route29Sign1Text:
-	text "ROUTE 29"
-
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	text "이곳은 29번 도로"
+	line "무궁시티 …… 연두마을"
 	done
-
 Route29Sign2Text:
-	text "ROUTE 29"
-
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	text "이곳은 29번 도로"
+	line "무궁시티 …… 연두마을"
 	done
 
 Route29_MapEvents:

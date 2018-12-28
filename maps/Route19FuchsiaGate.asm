@@ -23,24 +23,18 @@ Route19FuchsiaGateOfficerScript:
 	end
 
 Route19FuchsiaGateOfficerText:
-	text "CINNABAR's volcano"
-	line "erupted."
-
-	para "It hurled boulders"
-	line "that cut off ROUTE"
-	cont "19 indefinitely."
-
-	para "I wonder if the"
-	line "people of CINNABAR"
-	cont "are safe…"
+	text "홍련섬의 분화로"
+	line "19번 터널의 길이"
+	cont "바위때문에 지나갈 수 없게 되었다"
+	
+	para "홍련마을의 사람들은"
+	line "괜찮을까?"
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No CINNABAR citi-"
-	line "zens were injured"
-
-	para "by the eruption."
-	line "That's great!"
+	text "홍련마을의 사람이라면"
+	line "모두 무사했던 것 같아"
+	cont "다행이야 다행"
 	done
 
 Route19FuchsiaGate_MapEvents:

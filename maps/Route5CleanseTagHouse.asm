@@ -31,31 +31,22 @@ HouseForSaleBookshelf:
 	jumpstd difficultbookshelf
 
 Route5CleanseTagHouseGrannyText1:
-	text "Eeyaaaah!"
-
-	para "I sense a sinister"
-	line "shadow hovering"
-	cont "over you."
-
-	para "Take this to ward"
-	line "it off!"
+	text "히이익!"
+	
+	para "그대에게 불길한 그림자가"
+	line "붙어있도다!"
+	cont "이것을 지니고 가는 것이 좋을터!"
 	done
-
+	
 Route5CleanseTagHouseGrannyText2:
-	text "You were in mortal"
-	line "danger, but you"
-	cont "are protected now."
+	text "큰일 날 뻔했구나!"
+	line "이것으로 안심!"
 	done
-
+	
 Route5CleanseTagHouseTeacherText:
-	text "My grandma is into"
-	line "warding off what"
-
-	para "she believes to be"
-	line "evil spirits."
-
-	para "I'm sorry that she"
-	line "startled you."
+	text "우리 할머니"
+	line "액땜에 열중이란다"
+	cont "미안해 놀라게해서"
 	done
 
 Route5CleanseTagHouse_MapEvents:

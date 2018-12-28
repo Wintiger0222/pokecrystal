@@ -10,17 +10,14 @@ Route2GateScientistScript:
 	jumptextfaceplayer Route2GateScientistText
 
 Route2GateScientistText:
-	text "Are you <PLAY_G>?"
-
-	para "I work as PROF."
-	line "OAK's AIDE."
-
-	para "I had no idea that"
-	line "you were out here."
-
-	para "PROF.OAK's LAB is"
-	line "nearby in PALLET"
-	cont "TOWN."
+	text "네가 <PLAY_G>?"
+	
+	para "오박사님의 조수로"
+	line "일하고 있는 사람입니다"
+	
+	para "벌써 여기까지 와있었군요!"
+	line "오박사님의 연구소는"
+	cont "이 근처의 태초마을입니다"
 	done
 
 Route2Gate_MapEvents:

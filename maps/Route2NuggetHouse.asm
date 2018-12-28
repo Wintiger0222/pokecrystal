@@ -28,28 +28,19 @@ Route2NuggetHouseBookshelf:
 	jumpstd difficultbookshelf
 
 Route2NuggetHouseFisherText:
-	text "Hi! Wow, I'm glad"
-	line "to see you."
-
-	para "You're the first"
-	line "visitor I've had"
-	cont "in a long time."
-
-	para "I'm super-happy!"
-	line "Let me give you a"
-	cont "little present."
+	text "이야이야 잘 왔다!"
+	line "오랜만의 손님이다!"
+	
+	para "아저씨는 매우 기쁘단다!"
+	line "이것을 너에게 주마!"
 	done
 
 Route2NuggetHouseFisherText_GotNugget:
-	text "That's a NUGGET."
-
-	para "I can't give you"
-	line "any nuggets of"
-
-	para "wisdom, so that'll"
-	line "have to do!"
+	text "그것은 아저씨의 금구슬!"
+	line "유용한데 쓰거라!"
+	cont "아저씨의 금구슬이니까!"
 	done
-
+	
 Route2NuggetHouse_MapEvents:
 	db 0, 0 ; filler
 

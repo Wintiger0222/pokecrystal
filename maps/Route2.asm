@@ -80,68 +80,55 @@ Route2HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_2_HIDDEN_REVIVE
 
 BugCatcherRobSeenText:
-	text "My bug #MON are"
-	line "tough. Prepare to"
-	cont "lose!"
+	text "내 벌래포켓몬 강하단다!"
+	line "각오해랏!"
 	done
 
 BugCatcherRobBeatenText:
-	text "I was whipped…"
+	text "당했다!"
 	done
 
 BugCatcherRobAfterBattleText:
-	text "I'm going to look"
-	line "for stronger bug"
-	cont "#MON."
+	text "더욱 강한 포켓몬을"
+	line "찾아야지!"
 	done
 
 BugCatcherEdSeenText:
-	text "If you walk in"
-	line "tall grass wearing"
-
-	para "shorts, do you get"
-	line "nicks and cuts?"
+	text "반바지로 풀숲에 들어가면"
+	line "풀에 다리를 베거나 하지 않니?"
 	done
 
 BugCatcherEdBeatenText:
-	text "Ouch, ouch, ouch!"
+	text "에구에구 아파라……!"
 	done
 
 BugCatcherEdAfterBattleText:
-	text "They'll really"
-	line "sting when you"
-	cont "take a bath."
+	text "목욕을 하면"
+	line "스며들어 아프지 굉장히"
 	done
 
 BugCatcherDougSeenText:
-	text "Why don't girls"
-	line "like bug #MON?"
+	text "여자아이란 어째서"
+	line "벌레포켓몬을 싫어하는 걸까?"
 	done
-
 BugCatcherDougBeatenText:
-	text "No good!"
+	text "틀렸다!"
 	done
 
 BugCatcherDougAfterBattleText:
-	text "Bug #MON squish"
-	line "like plush toys"
-
-	para "when you squeeze"
-	line "their bellies."
-
-	para "I love how they"
-	line "feel!"
+	text "벌레포켓몬의 배를"
+	line "만졌을때"
+	cont "흐물흐물한 감촉!"
+	cont "그것이 좋은건데!"
 	done
 
 Route2SignText:
-	text "ROUTE 2"
-
-	para "VIRIDIAN CITY -"
-	line "PEWTER CITY"
+	text "이곳은 2번 도로"
+	line "상록시티 …… 회색시티"
 	done
-
+	
 Route2DiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "이곳은 디그다의 굴"
 	done
 
 Route2_MapEvents:

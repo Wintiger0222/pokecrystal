@@ -33,44 +33,38 @@ Route10Sign:
 	jumptext Route10SignText
 
 HikerJimSeenText:
-	text "Hahahah!"
+	text "하하 핫핫핫핫!"
 	done
-
+	
 HikerJimBeatenText:
-	text "Hahaha-hachoo!"
+	text "하하 핫핫핫!"
+	line "하하 핫핫핫!"
+	cont "웃음버섯을 먹어버렸어!"
 	done
 
 HikerJimAfterBattleText:
-	text "Hay fever is"
-	line "making me sneeze!"
-	cont "Ahahah-CHOO!"
+	text "히잇 힛힛힛힛!"
+	line "…… 하아 하히히……"
 	done
 
 PokefanmRobertSeenText:
-	text "You like #MON,"
-	line "don't you?"
-
-	para "Me too!"
+	text "너도 포켓몬 좋아하지?"
+	line "나도 엄청 좋아한단다!"
 	done
 
 PokefanmRobertBeatenText:
-	text "I'd have to say"
-	line "that's my loss."
+	text "이것은 그야말로"
+	line "나의 패배같구나!"
 	done
 
 PokefanmRobertAfterBattleText:
-	text "Look what you did"
-	line "to my #MON…"
-
-	para "I won't forget"
-	line "this…"
+	text "소중한 포켓몬을……"
+	line "너에대한 추억을 잊지 않을꺼야……"
 	done
 
 Route10SignText:
-	text "ROUTE 10"
-
-	para "CERULEAN CITY -"
-	line "LAVENDER TOWN"
+	text "이곳은 10번 도로"
+	line "블루시티 …… 보라타운"
 	done
 
 Route10South_MapEvents:

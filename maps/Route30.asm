@@ -261,25 +261,23 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
-
-	para "TACKLE!"
+	text "가거라 꼬렛!"
+	
+	para "몸통박치기!!"
 	done
-
+	
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "뭐야?"
+	line "중요한 승부를 하고있어!"
+	cont "저리 가란말야!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #MON."
-
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	text "아까 진 것이 분해서"
+	line "포켓몬을 찾고있었어"
+	
+	para "헌데 너 약해보이는구나……"
+	line "좋아! 승부를 겨루어보자!"
 	done
 
 YoungsterJoey1BeatenText:
@@ -300,93 +298,80 @@ YoungsterJoey1AfterText:
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
-
-	para "Then you have to"
-	line "battle!"
+	text "너 포켓몬 트레이너지?"
+	line "그렇다면 포켓몬 승부를 하자!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "이상하네?"
+	line "아까 이겼는데"
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
-
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	text "포켓몬의 길은"
+	line "멀고도 험하구낭……"
+	
+	para "좋아! 여러 트레이너랑"
+	line "승부를 해서 단련하고 돌아와야지!"
 	done
 
 BugCatcherDonSeenText:
-	text "Instead of a bug"
-	line "#MON, I found"
-	cont "a trainer!"
+	text "벌레포켓몬 대신"
+	line "트레이너 발견!"
 	done
-
+	
 BugCatcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "에구구 강하구나-!"
 	done
 
 BugCatcherDonAfterText:
-	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
-
-	para "I should've bought"
-	line "some more…"
+	text "포켓몬을 잡으니까"
+	line "몬스터볼을 다 써버려서……"
+	
+	para "더 많이"
+	line "사두었으면 좋았는데"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "MR.#MON's"
-	line "house? It's a bit"
-	cont "farther ahead."
+	text "포켓몬 할아버지의 집?"
+	line "조금 더 가야해"
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
-	text "Everyone's having"
-	line "fun battling!"
-	cont "You should too!"
+	text "모두 포켓몬 승부를"
+	line "즐기고 있단다!"
+	cont "괜찮다면 너도 어떠니?"
 	done
-
 Route30CooltrainerFText:
-	text "I'm not a trainer."
-
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	text "나는 트레이너가 아니야"
+	
+	para "하지만 트레이너끼리"
+	line "시선이 마주치는 것은"
+	cont "승부하자는 사인이지"
 	done
 
 Route30SignText:
-	text "ROUTE 30"
-
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	text "이곳은 30번 도로"
+	line "도라지시티 …… 무궁시티"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#MON'S HOUSE"
-	line "STRAIGHT AHEAD!"
+	text "여기서 곧장"
+	line "포켓몬 할아버지의 집"
 	done
-
+	
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "포켓몬 할아버지의 집"
 	done
-
+	
 Route30TrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "No stealing other"
-	line "people's #MON!"
-
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	text "득이 되는 게시판!"
+	
+	para "다른 사람의 포켓몬을"
+	line "잡으면 도둑놈!"
+	
+	para "몬스터볼은 야생의"
+	line "포켓몬에게만 던집시다!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:

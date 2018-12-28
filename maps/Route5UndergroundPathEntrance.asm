@@ -10,13 +10,11 @@ Route5UndergroundPathEntranceTeacherScript:
 	jumptextfaceplayer Route5UndergroundPathEntranceTeacherText
 
 Route5UndergroundPathEntranceTeacherText:
-	text "Many cities in"
-	line "JOHTO have long"
-
-	para "histories. I'd"
-	line "love to visit!"
+	text "성도는 역사가 오래된"
+	line "마을이 많다네요"
+	cont "한번정도 가보고 싶어라!"
 	done
-
+	
 Route5UndergroundPathEntrance_MapEvents:
 	db 0, 0 ; filler
 

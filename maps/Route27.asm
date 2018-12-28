@@ -315,154 +315,119 @@ MovementData_0x1a0a69:
 	step_end
 
 Route27FisherHeyText:
-	text "Hey!"
+	text "오잉!"
 	done
 
 Route27FisherText:
-	text "Do you know what"
-	line "you just did?"
-
-	para "You've taken your"
-	line "first step into"
-	cont "KANTO."
-
-	para "Check your #-"
-	line "GEAR MAP and see."
+	text "너는 지금!"
+	
+	para "관동지방으로의"
+	line "첫발을 내딛었다!"
+	
+	para "뭔가 있다면 마을지도로"
+	line "확인 해 보거라!"
 	done
 
 CooltrainermBlakeSeenText:
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "꽤 강해보이는군"
+	line "어디 한번 상대를 해볼까!"
 	done
 
 CooltrainermBlakeBeatenText:
-	text "Yow!"
+	text "……!"
 	done
 
 CooltrainermBlakeAfterBattleText:
-	text "If you prevail on"
-	line "this harsh trek,"
-
-	para "the truth will be"
-	line "revealed!"
-
-	para "Heh, sorry, I just"
-	line "wanted to say"
-	cont "something cool."
+	text "이 긴 여정을 넘었을 때"
+	line "반드시 무언가를 알 수 있을터"
+	
+	para "미안 아무생각 없이"
+	line "폼을 한번 잡아봤을 뿐이야"
 	done
 
 CooltrainermBrianSeenText:
-	text "Hm? You're good,"
-	line "aren't you?"
+	text "크윽 강한 녀석이구나"
 	done
-
+	
 CooltrainermBrianBeatenText:
-	text "Just as I thought!"
+	text "생각한대로다!"
 	done
 
 CooltrainermBrianAfterBattleText:
-	text "A good trainer can"
-	line "recognize other"
-	cont "good trainers."
+	text "강한 사나이에게는"
+	line "강한 사나이를 느낄 수 있단다!"
 	done
 
 CooltrainerfReenaSeenText:
-	text "You shouldn't"
-	line "underestimate the"
-
-	para "wild #MON in"
-	line "these parts."
+	text "이 근처의 포켓몬"
+	line "야생이라 해도 깔보지않아!"
 	done
 
 CooltrainerfReenaBeatenText:
-	text "Oh! You're much"
-	line "too strong!"
+	text "아아 강하구나!"
 	done
 
 CooltrainerfReenaAfterBattleText:
-	text "You're just a kid,"
-	line "but you're not to"
-
-	para "be underestimated"
-	line "either."
+	text "너도 꼬마라고 해도"
+	line "멸시당하지 않았던 것 같구나!"
 	done
 
 CooltrainerfMeganSeenText:
-	text "It's rare to see"
-	line "anyone come here."
-
-	para "Are you training"
-	line "on your own?"
+	text "이야 특이한"
+	line "사람이 지나갈 줄이야"
+	cont "무사수행 도중이니?"
 	done
+	
 
 CooltrainerfMeganBeatenText:
-	text "Oh! You're really"
-	line "strong!"
+	text "우와- 강하구나"
 	done
-
+	
 CooltrainerfMeganAfterBattleText:
-	text "I'm checking out"
-	line "pre- and post-"
-	cont "evolution #MON."
-
-	para "Evolution really"
-	line "does make #MON"
-	cont "stronger."
-
-	para "But evolved forms"
-	line "also learn moves"
-	cont "later on."
+	text "진화시키거나 시키지 않거나 해서"
+	line "포켓몬의 특징을"
+	cont "확인하려고 하고있다"
+	
+	para "진화시키면 강해지지만"
+	line "기술을 배우는 것이 늦어지지"
 	done
 
 PsychicGilbertSeenText:
-	text "Don't say a thing!"
-
-	para "Let me guess what"
-	line "you're thinking."
-
-	para "Mmmmmmm…"
-
-	para "I got it! You're"
-	line "on the #MON"
-	cont "LEAGUE challenge!"
+	text "너의 생각을 맞추어보겠다"
+	
+	para "…… 음음음"
+	
+	para "알았다!"
+	line "포켓몬 리그 도전이구나!"
 	done
 
 PsychicGilbertBeatenText:
-	text "You're too much!"
+	text "…… 강하다!"
 	done
 
 PsychicGilbertAfterBattleText:
-	text "With your skills,"
-	line "you'll do well at"
-	cont "the LEAGUE."
-
-	para "That's what my"
-	line "premonition says."
+	text "너의 강력함이라면"
+	line "포켓몬 리그에서도 통할 것 이다"
+	cont "그런 예감이 든다"
 	done
 
 BirdKeeperJose2SeenText:
-	text "Tweet! Tweet!"
-	line "Tetweet!"
+	text "휘-익 휘이익 휘이이!"
 	done
-
+	
 BirdKeeperJose2BeatenText:
-	text "Tweet!"
+	text "휘-익!"
 	done
-
+	
 BirdKeeperJose2AfterBattleText:
-	text "BIRD KEEPERS like"
-	line "me mimic bird"
-
-	para "whistles to com-"
-	line "mand #MON."
+	text "우리들 새 조련사는"
+	line "휘파람으로 포켓몬의 울음소리를"
+	cont "흉내내서 명령을 한다"
 	done
-
+	
 TohjoFallsSignText:
-	text "TOHJO FALLS"
-
-	para "THE LINK BETWEEN"
-	line "KANTO AND JOHTO"
+	text "이곳은 동성 폭포"
+	line "관동과 성도의 갈림길"
 	done
 
 Route27_MapEvents:

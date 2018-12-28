@@ -35,49 +35,32 @@ Route10Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route10Pokecenter1FCooltrainerFText
 
 Route10Pokecenter1FGentlemanText:
-	text "A #MON CENTER"
-	line "near a cave?"
-
-	para "That's mighty"
-	line "convenient."
+	text "동굴 가까이 있는"
+	line "포켓몬 센터는 참 기쁘지"
 	done
 
 Route10Pokecenter1FGymGuyText:
-	text "The POWER PLANT's"
-	line "MANAGER is looking"
-
-	para "for a strong #-"
-	line "MON trainer."
-
-	para "He needs help"
-	line "getting back"
-
-	para "something that"
-	line "was stolen."
+	text "발전소의 소장이"
+	line "강한 트레이너를 찾고 있어"
+	
+	para "도둑에게 도둑맞은 물건을"
+	line "찾아와 주길 바라는 것 같아"
 	done
 
 Route10Pokecenter1FGymGuyText_ReturnedMachinePart:
-	text "I hear TEAM ROCKET"
-	line "got back together"
-
-	para "in JOHTO but fell"
-	line "apart right away."
-
-	para "I didn't know any-"
-	line "thing about that."
+	text "그러고보니 로켓단이"
+	line "성도에서 부활했다고 하더군"
+	cont "이미 망해버린 것 같지만"
+	
+	para "전혀 몰랐었어!"
 	done
-
+	
 Route10Pokecenter1FCooltrainerFText:
-	text "When you go out-"
-	line "side, you can see"
-
-	para "the roof of a big"
-	line "building."
-
-	para "That's the POWER"
-	line "PLANT."
+	text "건물의 지붕이 있는 것이"
+	line "밖으로 나오는 것처럼 보이지?"
+	cont "저기가 발전소야!"
 	done
-
+	
 Route10Pokecenter1F_MapEvents:
 	db 0, 0 ; filler
 

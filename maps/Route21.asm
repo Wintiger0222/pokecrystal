@@ -42,49 +42,44 @@ TrainerFisherArnold:
 	end
 
 SwimmermSethSeenText:
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "힘내라!"
+	line "육지가 보인다!"
 	done
 
 SwimmermSethBeatenText:
-	text "Glug…"
+	text "풍덩!"
 	done
 
 SwimmermSethAfterBattleText:
-	text "This arrogant guy"
-	line "was at CINNABAR's"
-	cont "volcano."
+	text "홍련마을의 분화구에서"
+	line "폼을 잡던 녀석이 한명 있었는데"
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "내가 이기면 내몸에 선텐오일을"
+	line "발라주었으면 좋겠어!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "햇볕에 탄 피부가 걱정이야……"
 	done
 
 SwimmerfNikkiAfterBattleText:
-	text "I have to watch"
-	line "out for blemishes"
-	cont "caused by the sun."
+	text "기미 주근깨가 걱정이야"
+	line "지금 그런 것을 주의할 나이니까"
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "낚시도 질렸다!"
+	line "그래! 승부다!"
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "참패했다……"
 	done
 
 FisherArnoldAfterBattleText:
-	text "I'll just go back"
-	line "to fishing…"
+	text "얌전하게 낚시를 하고있어……"
 	done
 
 Route21_MapEvents:

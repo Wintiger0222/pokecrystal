@@ -143,24 +143,20 @@ Route33FruitTree:
 	fruittree FRUITTREE_ROUTE_33
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "tunnel, but I"
-
-	para "still have plenty"
-	line "of energy left."
+	text "동굴을 지금 막 벗어났지만"
+	line "아직 힘이 남아돌아!"
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "오옷!"
+	line "꼬마쪽이 힘이 넘치는군!"
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best in the"
-	cont "mountains."
+	text "등산가는 산에 있으면"
+	line "힘이 100배 된다는 것이다!"
 	done
-
+	
 HikerAnthonyDunsparceText:
 	text "Hey, did you get a"
 	line "DUNSPARCE?"
@@ -189,7 +185,7 @@ Route33LassText:
 	done
 
 Route33SignText:
-	text "ROUTE 33"
+	text "이곳은 33번 도로"
 	done
 
 Route33_MapEvents:

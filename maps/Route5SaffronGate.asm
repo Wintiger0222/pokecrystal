@@ -10,12 +10,9 @@ Route5SaffronGateOfficerScript:
 	jumptextfaceplayer Route5SaffronGateOfficerText
 
 Route5SaffronGateOfficerText:
-	text "You're from JOHTO,"
-	line "aren't you?"
-
-	para "How do you like"
-	line "KANTO? It's nice,"
-	cont "don't you agree?"
+	text "너는 성도의 사람이지?"
+	line "처음 와본 관동지방은 어떠니?"
+	cont "좋은 곳이지 "
 	done
 
 Route5SaffronGate_MapEvents:

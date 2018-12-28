@@ -85,118 +85,95 @@ Route15PPUp:
 	itemball PP_UP
 
 TeacherColetteSeenText:
-	text "Have you forgotten"
-	line "anything?"
+	text "잃어버린 물건은 없나?"
 	done
-
+	
 TeacherColetteBeatenText:
-	text "Kyaaah!"
+	text "꺄아-!"
 	done
 
 TeacherColetteAfterBattleText:
-	text "Before I became a"
-	line "teacher, I used to"
-
-	para "forget a lot of"
-	line "things."
+	text "선생님도 어린시절에"
+	line "잘 잃어버리곤 했었단다"
 	done
 
 TeacherHillarySeenText:
-	text "On sunny days, I"
-	line "think that the"
-
-	para "kids would rather"
-	line "be playing in the"
-
-	para "schoolyard than"
-	line "studying in class."
+	text "날씨가 좋은 날은"
+	line "교실에서 공부하는 것보다"
+	cont "운동장에서 운동하고싶지!"
 	done
 
 TeacherHillaryBeatenText:
-	text "I didn't want to"
-	line "lose…"
+	text "졌다……"
 	done
 
 TeacherHillaryAfterBattleText:
-	text "Studying is impor-"
-	line "tant, but exercise"
-	cont "is just as vital."
+	text "공부는 중요하지만"
+	line "운동도 중요하단다!"
 	done
 
 SchoolboyKippSeenText:
-	text "Hang on. I have to"
-	line "phone my mom."
+	text "잠깐 기다려"
+	line "어머니에게 전화할꺼니까"
 	done
 
 SchoolboyKippBeatenText:
-	text "Sorry, Mom!"
-	line "I was beaten!"
+	text "미안해요 엄마"
+	line "저 졌어요!"
 	done
-
+	
 SchoolboyKippAfterBattleText:
-	text "My mom worries so"
-	line "much about me, I"
-
-	para "have to phone her"
-	line "all the time."
+	text "많이 걱정하시니까"
+	line "자주 어머니에게 전화한단다"
 	done
 
 SchoolboyTommySeenText:
-	text "Let's battle."
-	line "I won't lose!"
+	text "대전하자!"
+	line "나 지지않을꺼야!"
 	done
 
 SchoolboyTommyBeatenText:
-	text "I forgot to do my"
-	line "homework!"
+	text "학원 숙제"
+	line "까먹었다!"
 	done
 
 SchoolboyTommyAfterBattleText:
-	text "Sayonara! I just"
-	line "learned that in my"
-	cont "Japanese class."
+	text "하우 두 유 두!"
+	line "어제 막 배웠어!"
 	done
 
 SchoolboyJohnnySeenText:
-	text "We're on a field"
-	line "trip to LAVENDER"
-
-	para "RADIO TOWER for"
-	line "social studies."
+	text "보라타운의 라디오타워에"
+	line "사회과 견학을 간다!"
 	done
 
 SchoolboyJohnnyBeatenText:
-	text "You're wickedly"
-	line "tough!"
+	text "엄청 강하구나!"
 	done
 
 SchoolboyJohnnyAfterBattleText:
-	text "I'm tired of walk-"
-	line "ing. I need to"
-	cont "take a break."
+	text "걷는 것 지쳐버렸다……"
+	line "쉬고싶어"
 	done
-
+	
 SchoolboyBillySeenText:
-	text "My favorite class"
-	line "is gym!"
+	text "내가 제일 잘하는 과목은"
+	line "체육이야!"
 	done
-
+	
 SchoolboyBillyBeatenText:
-	text "Oh, no!"
-	line "How could I lose?"
+	text "이런-!"
+	line "졌다-!"
 	done
 
 SchoolboyBillyAfterBattleText:
-	text "If #MON were a"
-	line "subject at school,"
-	cont "I'd be the best!"
+	text "수업에 포켓몬이 있었다면"
+	line "내가 최고일텐데!"
 	done
 
 Route15SignText:
-	text "ROUTE 15"
-
-	para "FUCHSIA CITY -"
-	line "LAVENDER TOWN"
+	text "이곳은 15번 도로"
+	line "연분홍시티 …… 보라타운"
 	done
 
 Route15_MapEvents:

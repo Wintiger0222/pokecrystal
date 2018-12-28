@@ -71,97 +71,74 @@ Route12HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_12_HIDDEN_ELIXER
 
 FisherMartinSeenText:
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #MON."
+	text "낚시는 인내"
+	line "포켓몬도 인내!"
 	done
-
+	
 FisherMartinBeatenText:
-	text "Gwaaah!"
+	text "인 인!"
 	done
 
 FisherMartinAfterBattleText:
-	text "I'm too impatient"
-	line "for fishing…"
+	text "성격이 급한 나는"
+	line "낚시는 어울리지 않을지도……"
 	done
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "낚시를 하면서 라디오에"
+	line "귀를 기울이는 행복!"
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "라디오를 들어가면서였기에……"
+	line "그래서 진거야!"
 	done
 
 FisherStephenAfterBattleText:
-	text "Have you checked"
-	line "out KANTO's radio"
-
-	para "programs? We get a"
-	line "good variety here."
+	text "관동의 라디오 방송"
+	line "들어본 적 있니?"
+	cont "여러 방송을 하고있단다"
 	done
 
 FisherBarneySeenText:
-	text "What's most impor-"
-	line "tant in our every-"
-	cont "day lives?"
+	text "일상의 생활에서"
+	line "소중한 것은 뭘까요?"
 	done
-
+	
 FisherBarneyBeatenText:
-	text "The answer is"
-	line "coming up next!"
+	text "정답은 이 다음 바로!"
 	done
-
+	
 FisherBarneyAfterBattleText:
-	text "I think electric-"
-	line "ity is the most"
-
-	para "important thing in"
-	line "our daily lives."
-
-	para "If it weren't,"
-	line "people wouldn't"
-
-	para "have made such a"
-	line "fuss when the"
-
-	para "POWER PLANT went"
-	line "out of commission."
+	text "나는 역시"
+	line "전기라고 생각한다"
+	
+	para "그게 아니라면 발전소가"
+	line "움직이지 않는 정도로 그렇게"
+	cont "모두들 법석거리지는 않을꺼야"
 	done
 
 FisherKyleSeenText:
-	text "Do you remember?"
+	text "너는 기억하고 있니……!?"
 	done
 
 FisherKyleBeatenText:
-	text "You do remember?"
+	text "기억하고 있냐구-!?"
 	done
 
 FisherKyleAfterBattleText:
-	text "The tug you feel"
-	line "on the ROD when"
-
-	para "you hook a #-"
-	line "MON…"
-
-	para "That's the best"
-	line "feeling ever for"
-	cont "an angler like me."
+	text "포켓몬이 낚일 때의"
+	line "그 낚싯대에 전해지는 느낌!"
+	cont "낚시의 묘미야!"
 	done
 
 Route12SignText:
-	text "ROUTE 12"
-
-	para "NORTH TO LAVENDER"
-	line "TOWN"
+	text "이곳은 12번 도로"
+	line "북쪽 …… 보라타운"
 	done
-
+	
 FishingSpotSignText:
-	text "FISHING SPOT"
+	text "이곳은 낚시의 명소"
 	done
 
 Route12_MapEvents:

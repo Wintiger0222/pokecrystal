@@ -236,195 +236,174 @@ MovementData_0x19f000:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Why"
-	line "did you have to"
-
-	para "show up and bug us"
-	line "now?"
-
-	para "Do you know what"
-	line "they call people"
-	cont "like you?"
-
-	para "Pests! You heard"
-	line "me right, pest!"
-
-	para "…"
-
-	para "…Oh? Those BADGES"
-	line "you have… Are they"
-	cont "JOHTO GYM BADGES?"
-
-	para "If you have eight,"
-	line "you must be good."
-
-	para "OK, then. Come to"
-	line "CERULEAN GYM."
-
-	para "I'll be happy to"
-	line "take you on."
-
-	para "I'm MISTY, the"
-	line "GYM LEADER in"
-	cont "CERULEAN."
+	text "이슬이『에잇!"
+	line "뭐야 갑자기 나타나서!"
+	
+	para "너같은 애를 뭐라고 하는지"
+	line "알고있니?"
+	cont "눈치없는 촐랑이라고 한단다!"
+	
+	para "…… …… ……"
+	line "……얼라리? 너 배지"
+	cont "혹시 성도의 체육관 배지니?"
+	
+	para "8개를 가지고 있다는 것은"
+	line "꽤나 실력있다는 이야기군……!"
+	
+	para "좋아!"
+	line "블루시티 체육관으로 오시지!"
+	cont "상대를 해줄테니까!"
+	
+	para "나는 이쁜공주님 이슬이"
+	line "블루시티의 체육관 관장이시다!"
 	done
 
 SchoolboyDudleySeenText:
-	text "Beat the six of us"
-	line "trainers to win a"
-	cont "fabulous prize!"
-
-	para "Think you've got"
-	line "what it takes?"
+	text "6명에게 전부 이긴다면"
+	line "호화스런 상품을 얻을 수 있다!"
+	
+	para "그건 그렇고"
+	line "너에게 그런 실력이 있을까?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "상당히 잘 하잖아"
 	done
 
 SchoolboyDudleyAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "전력을 다했단다"
+	line "후회는 없어!"
 	done
 
 LassEllenSeenText:
-	text "I'm second."
-	line "Now it's serious!"
+	text "두번째 상대는 나!"
+	line "이제부터가 진짜닷!"
 	done
 
 LassEllenBeatenText:
-	text "How could I lose?"
+	text "믿을 수 없어!"
 	done
 
 LassEllenAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "좋은 시합을 했으니까"
+	line "후회하지 않아!"
 	done
 
 SchoolboyJoeSeenText:
-	text "Here's No. 3!"
-	line "I won't be easy."
+	text "3번째 상대 등장!"
+	line "그렇게 간단히 보낼 수 없지!"
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+	text "해롱해롱 더 이상은 무리군!"
 	done
 
 SchoolboyJoeAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "좋은시합 즐거웠다"
+	line "불만은 없어!"
 	done
 
 LassLauraSeenText:
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "4번째 상대는 나란다!"
+	line "슬슬 막다른 골목까지"
+	cont "왔다고 생각하지 않니?"
 	done
 
 LassLauraBeatenText:
-	text "I lost too…"
+	text "나도 져버렸네"
 	done
 
 LassLauraAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "열심히 했으니까"
+	line "후회는 하지않아!"
 	done
 
 CamperLloydSeenText:
-	text "OK! I'm No. 5."
-	line "I'll stomp you!"
+	text "이야앗! 5번째는"
+	line "내가 상대다!"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "놀라운 녀석이군!"
 	done
 
 CamperLloydAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "좋은 가르침을 받았다"
+	line "후회는 않겠어!"
 	done
 
 LassShannonSeenText:
-	text "I'm the last in"
-	line "line, but I tell"
-	cont "you, I'm tough!"
+	text "6번째 상대는 나!"
+	line "마지막이지만 상대하기 벅찰껄!"
 	done
-
+	
 LassShannonBeatenText:
-	text "You're kidding."
+	text "이런 이건 꿈이겠지!"
 	done
-
+	
 LassShannonAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "전력을 다해 싸웠으니까"
+	line "후회는 없어!"
 	done
 
 SupernerdPatSeenText:
-	text "Mufufufu…"
-
-	para "I have nothing to"
-	line "do with the six-"
-	cont "pack trainers."
-
-	para "I waited here to"
-	line "beat you when you"
-
-	para "were tired out by"
-	line "all the battles."
+	text "훗후후……"
+	
+	para "나는 6명의 상대와"
+	line "전혀 관계없는 사나이"
+	
+	para "싸워서 힘이빠져"
+	line "지친 너를 쓰러뜨리기위해"
+	cont "이곳에서 기다리고 있었다!"
 	done
 
 SupernerdPatBeatenText:
-	text "Aren't you tired"
-	line "at all?"
+	text "지친다는 것을 모르는"
+	line "불사신의 사나이란말인가 너는?"
 	done
 
 SupernerdPatAfterBattleText:
-	text "I'm sorry… I won't"
-	line "cheat anymore…"
+	text "용서해주세요……"
+	line "이젠 비겁한 짓을 하지 않겠어요!"
 	done
 
 CooltrainermKevinNuggetText:
-	text "You took on one"
-	line "more battle than"
-
-	para "you expected, but"
-	line "you won anyway."
-
-	para "As promised, you"
-	line "win a prize."
+	text "무언가 하나의 커다란"
+	line "싸움의 곤경에 빠지게 되었지만"
+	cont "너는 훌륭하게 빠져나왔다!"
+	
+	para "약속대로"
+	line "상품을 주겠다!"
 	done
 
 CooltrainermKevinSeenText:
-	text "But after seeing"
-	line "how you battle, I"
-
-	para "want to see how"
-	line "I'll fare."
-
-	para "How about it? Let"
-	line "me take you on."
+	text "……그건 그렇고"
+	line "너의 싸움을 보고있으면"
+	cont "나도 싸워보고 싶은 생각이 든단다"
+	
+	para "꼭 나와 승부를 겨루어다오!"
+	line "간닷!"
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "이렇게 좋은 승부는"
+	line "처음이다!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
-
-	para "You and your #-"
-	line "MON are truly out-"
-	cont "standing!"
+	text "멋있는 대결이었다!"
+	
+	para "너와 너의 포켓몬들은"
+	line "정말 강하구나!"
 	done
 
 BillsHouseSignText:
-	text "SEA COTTAGE"
-	line "BILL'S HOUSE"
+	text "이곳은 호수공원의 오두막"
+	line "이수재의 집"
 	done
 
 ; unused
-	text "BILL'S HOUSE"
+	text "이수재의 집"
 	done
 
 Route25_MapEvents:

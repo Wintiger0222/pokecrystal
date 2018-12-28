@@ -10,11 +10,9 @@ Route8SaffronGateOfficerScript:
 	jumptextfaceplayer Route8SaffronGateOfficerText
 
 Route8SaffronGateOfficerText:
-	text "Have you been to"
-	line "LAVENDER TOWN?"
-
-	para "There's a tall"
-	line "RADIO TOWER there."
+	text "보라타운에는"
+	line "이미 갔었니?"
+	cont "커다란 라디오타워가 있어"
 	done
 
 Route8SaffronGate_MapEvents:

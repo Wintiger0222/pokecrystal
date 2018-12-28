@@ -343,129 +343,105 @@ MovementData_0x5d921:
 	step_end
 
 RadioTower2FSuperNerdText:
-	text "You can listen to"
-	line "the radio any-"
-	cont "where. Tune in!"
+	text "어디서든 라디오 청취가 가능하니까"
+	line "어디서든 라디오를 들어주세요!"
 	done
 
 RadioTower2FTeacherText:
-	text "Lullabies on the"
-	line "radio may make"
-	cont "#MON sleep."
+	text "라디오에서 흘러나오는 자장가라도"
+	line "포켓몬은 잠들어버리거든"
 	done
 
 RadioTower2FTeacherText_Rockets:
-	text "Why would they"
-	line "want to take over"
-	cont "the RADIO TOWER?"
+	text "라디오 방송국을 점령해서"
+	line "어떡게 할 작정일까……?"
 	done
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
-	line "Jiggly…"
+	text "푸린『푸우…… 푸린……"
 	done
 
 RadioTower2FBlackBelt1Text:
-	text "Sorry. Authorized"
-	line "personnel only"
-	cont "beyond this point."
-
-	para "It wasn't that way"
-	line "before."
-
-	para "There's something"
-	line "wrong with the"
-	cont "DIRECTOR…"
+	text "여기부터 윗층은 관계자 외"
+	line "출입금지란다……"
+	
+	para "예전에는 그런 일이 없었는데"
+	line "지금 국장은 좀 이상해"
 	done
 
 RadioTower2FBlackBelt2Text:
-	text "Feel free to look"
-	line "around anywhere."
-
-	para "The DIRECTOR is"
-	line "nice again, just"
-	cont "as he was before."
+	text "어디든 견학 OK 란다"
+	line "예전처럼 상냥한"
+	cont "국장으로 되돌아왔단다"
 	done
 
 GruntM4SeenText:
-	text "Three years ago,"
-	line "TEAM ROCKET was"
-	cont "forced to disband."
-
-	para "But we're making a"
-	line "comeback here!"
+	text "3년전 로켓단은"
+	line "해산에 몰리게 되었다……"
+	
+	para "그러나 우리들은"
+	line "이곳에서 부활하는 것이다!"
 	done
 
 GruntM4BeatenText:
-	text "Gwah! Don't get"
-	line "cute!"
+	text "크윽-"
+	line "정떨어지는 놈"
 	done
 
 GruntM4AfterBattleText:
-	text "We won't let you"
-	line "ruin our plans"
-	cont "for our comeback!"
+	text "너같은 녀석에게"
+	line "부활의 방해를 받을 순 없지!"
 	done
-
+	
 GruntM5SeenText:
-	text "We're TEAM ROCKET,"
-	line "the exploiters of"
-	cont "#MON!"
-
-	para "We love being"
-	line "evil! Scared?"
+	text "우리들은"
+	line "포켓몬의 마피아 로켓단이다!"
+	cont "나쁜 짓을 무척 좋아하지"
+	
+	para "오호-  겁먹었냐?"
 	done
 
 GruntM5BeatenText:
-	text "You think you're a"
-	line "hero?"
+	text "정의의 편에 설 작정이냐?"
 	done
 
 GruntM5AfterBattleText:
-	text "We're not always"
-	line "evil. We just do"
-	cont "whatever we like."
+	text "특별히 우리들은"
+	line "나쁜 짓을 하려는건 아니구"
+	cont "단지 좋아하는 것을 하려는거야"
 	done
 
 GruntM6SeenText:
-	text "Hey, hey! Keep out"
-	line "of our way!"
+	text "이봐 이봐!"
+	line "우리들을 방해해서는 않되지!"
 	done
 
 GruntM6BeatenText:
-	text "Arggh. I give up."
+	text "우우…… 졌다"
 	done
-
+	
 GruntM6AfterBattleText:
-	text "Our EXECUTIVES are"
-	line "trying to take"
-	cont "this place over."
-
-	para "They have some big"
-	line "plan. I wonder"
-	cont "what that is?"
+	text "간부들은 이곳을 점령하려고"
+	line "엄청난 일을 벌일 것 같아"
+	cont "그건 그렇고 이제 뭘 할까나?"
 	done
 
 GruntF2SeenText:
-	text "Hahaha!"
-
-	para "How boring."
-	line "It was far too"
-
-	para "easy to take over"
-	line "this place!"
-
-	para "Come on, keep me"
-	line "amused!"
+	text "호호호!"
+	line "너무나 간단하게 점령되어서"
+	cont "싫증이 났지뭐야!"
+	
+	para "니가 날 즐겁게 해주겠어?"
 	done
 
 GruntF2BeatenText:
-	text "Wh-who are you?"
+	text "네 녀석은 어떤 놈이냐!?"
 	done
 
 GruntF2AfterBattleText:
-	text "You beat me, and"
-	line "I won't forget it!"
+	text "나보다 강하다니……"
+	
+	para "용서할 수 없어!"
 	done
 
 UnknownText_0x5dcf4:
@@ -693,20 +669,17 @@ UnknownText_0x5e3d8:
 	done
 
 RadioTower2FSalesSignText:
-	text "2F SALES"
+	text "2층 …… 영업부"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
-
-	para "The Hottest Show"
-	line "on the Air!"
+	text "오박사의 포켓몬 강좌"
+	line "대 호평 방송중!"
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Anywhere, Anytime"
-	line "#MON Radio"
+	text "24시간 언제든지"
+	line "어디에 있던지 포켓몬 라디오"
 	done
 
 RadioTower2F_MapEvents:

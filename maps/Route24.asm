@@ -35,85 +35,69 @@ Route24RocketScript:
 	end
 
 Route24RocketSeenText:
-	text "Hey, kid! Me am a"
-	line "TEAM ROCKET member"
-	cont "kind of guy!"
-
-	para "Come from another"
-	line "country, a trainer"
-	cont "number one, me!"
-
-	para "Think I did, if"
-	line "stop the energy,"
-
-	para "be big panic for"
-	line "here people!"
-
-	para "Secret it is my"
-	line "mission, so tell"
-	cont "you I not!"
-
-	para "But! If win you do"
-	line "versus me, a man I"
-
-	para "be and mine secret"
-	line "to you I tell."
-
-	para "Hey, kid! Battle"
-	line "begin we do!"
+	text "헤-이 키-드"
+	line "나 로켓단 멤버다"
+	
+	para "다른나라의 컨트리에서 커밍한"
+	line "넘버원 트레이너다!"
+	
+	para "나 혼자서 생각한"
+	line "스톱 더 에네르기로"
+	cont "피플들은 놀라서 바둥바둥"
+	cont "패닉이 될꺼야!"
+	
+	para "마이 오퍼레이션"
+	line "유에게 알려줄 수 없-어!"
+	
+	para "그러나 벗!"
+	line "나에게서 윈 한다면"
+	cont "나 남자답게 시크릿을"
+	cont "유-에게 가르쳐주겠어!"
+	
+	para "헤-이! 키-드!"
+	line "렛츠 배틀 비긴이다!"
 	done
 
 Route24RocketBeatenText:
-	text "Ayieeeh! No, no,"
-	line "no, believe it I"
-	cont "can't!"
-
-	para "Strong very much"
-	line "be you! Match I am"
-	cont "not to you!"
+	text "오우 노-!"
+	line "아이 캔트 빌리브"
+	
+	para "유-는 블루베리 스트로베리"
+	line "……쏘리 마이미스테이크"
+	cont "유-는 베리 스트롱"
+	cont "이길 수가 없-어"
 	done
 
 Route24RocketAfterBattleText:
-	text "OK. Tell you mine"
-	line "secret will I."
-
-	para "MACHINE PART steal"
-	line "by me, hide it I"
-
-	para "did in GYM of the"
-	line "CERULEAN."
-
-	para "Inside water put"
-	line "it I did. Look for"
-
-	para "in water center of"
-	line "GYM at."
-
-	para "But you forget me"
-	line "not!"
-
-	para "Beat you for sure"
-	line "will TEAM ROCKET."
-
-	para "Come from JOHTO"
-	line "will they, mine"
-
-	para "friends, yes. Will"
-	line "revenge they are."
+	text "알겠습니다……"
+	line "마이 시크릿 가르쳐주겠어요"
+	
+	para "머신부품 훔쳐서 숨겨놓은 곳은"
+	line "인 더 짐 오브 블루시티"
+	
+	para "물속을 룩포해보면"
+	line "유-는 꼭 찾아낼꺼야"
+	cont "저스트 센터 근처입니다요!"
+	
+	para "그러-나!"
+	line "돈 포겟!"
+	
+	para "로켓단은 유-를 반드시"
+	line "찾아내 쓰러뜨릴껍니다!"
+	cont "성도의 마이 프랜드"
+	cont "모두 이곳으로 올껍니다!"
 	done
 
 Route24RocketDisappearsText:
-	text "…"
-
-	para "You say what? TEAM"
-	line "ROCKET bye-bye a"
-
-	para "go-go? Broken it"
-	line "is says you?"
-
-	para "Oh, no! Should I"
-	line "do what now on"
-	cont "from, me?"
+	text "…… …… ……"
+	line "…… …… ……"
+	cont "왓?"
+	cont "로켓단 브로큰?"
+	cont "사라져버렸나요?"
+	
+	para "오우! 노-!"
+	line "나 이제부터"
+	cont "어떡하면 좋을까요!?"
 	done
 
 Route24_MapEvents:

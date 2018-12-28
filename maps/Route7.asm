@@ -10,28 +10,24 @@ Route7LockedDoor:
 	jumptext Route7LockedDoorText
 
 Route7UndergroundPathSignText:
-	text "What's this flyer?"
-
-	para "… Uncouth trainers"
-	line "have been holding"
-
-	para "battles in the"
-	line "UNDERGROUND PATH."
-
-	para "Because of rising"
-	line "complaints by lo-"
-	cont "cal residents, the"
-	cont "UNDERGROUND PATH"
-	cont "has been sealed"
-	cont "indefinitely."
-
-	para "CELADON POLICE"
+	text "…… 알림 전단지다!"
+	
+	para "최근 지하통로에서"
+	line "매너가 나쁜 트레이너들이"
+	cont "포켓몬 승부를 하고 있습니다"
+	
+	para "이웃 주민들로부터"
+	line "불만이 있어서"
+	cont "지하통로를 폐쇄했습니다!"
+	
+	para "…… 무지개시티 경찰 알림"
 	done
 
 Route7LockedDoorText:
-	text "It's locked…"
+	text "열쇠가 잠겨있다"
+	line "……열리지않는다!"
 	done
-
+	
 Route7_MapEvents:
 	db 0, 0 ; filler
 

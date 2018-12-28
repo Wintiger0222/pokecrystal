@@ -523,129 +523,96 @@ Movement_Route32CooltrainerMReset2:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Wait up!"
-	line "What's the hurry?"
+	text "카-악!!"
+	line "다음에-익!!"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, right?"
-	line "Some guy wearing"
-
-	para "glasses was look-"
-	line "ing for you."
-
-	para "See for yourself."
-	line "He's waiting for"
-
-	para "you at the #MON"
-	line "CENTER."
+	text "<PLAYER>(이)란 사람이 그댄가?"
+	line "그대를 찾아다니는"
+	cont "안경쓴 사내가 있었다"
+	
+	para "포켓몬센터에서"
+	line "그대를 기다리고 있을 것이다"
+	cont "그곳에 가 보거라!"
 	done
 
 Route32CooltrainerMText_UnusedSproutTower:
 ; unused
-	text "Have you gone to"
-	line "SPROUT TOWER?"
-
-	para "If you ever visit"
-	line "VIOLET CITY, "
-
-	para "they'll expect you"
-	line "to train there."
-
-	para "That's basic for"
-	line "trainers. Go to"
-	cont "SPROUT TOWER!"
+	text "모다피의 탑에는 갔었는가?"
+	line "도라지시티에 들리면 모다피의탑에서"
+	cont "수행하는 것이"
+	
+	para "트레이너의 상식이 아닌가"
+	line "어서 가 보거라!"
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #MON GYM?"
-
-	para "You can test your"
-	line "#MON and your-"
-	cont "self there."
-
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	text "포켓몬 체육관에는 갔었는가?"
+	line "포켓몬 체육관에 들려서"
+	cont "너와 포켓몬을 단련시키는 것이"
+	
+	para "트레이너의 상식이 아닌가"
+	line "어서 가 보거라!"
 	done
 
 Route32CooltrainerMText_HaveThisSeed:
-	text "You have some good"
-	line "#MON there."
-
-	para "It must be from"
-	line "the training you"
-
-	para "gave them around"
-	line "VIOLET CITY."
-
-	para "The training at"
-	line "the GYM must have"
-
-	para "been especially"
-	line "helpful."
-
-	para "As a souvenir of"
-	line "VIOLET CITY, take"
-	cont "this."
-
-	para "It increases the"
-	line "power of grass-"
-	cont "type moves."
+	text "음 좋은 포켓몬을 데리고 있군!"
+	line "이것도 저것도 도라지시티에서"
+	cont "여러가지로 단련시켰기 때문이지"
+	
+	para "특별히 포켓몬 체육관에서의"
+	line "수행은 이득이 되었을 터"
+	
+	para "좋아! 도라지시티에 온 기념이다"
+	line "이것을 가지고 가거라"
+	
+	para "포켓몬에게 지니게하면"
+	line "풀타입 기술의 위력이"
+	cont "올라간다고 하는 상품이다!"
 	done
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
-	text "Your experiences"
-	line "in VIOLET CITY"
-
-	para "should be useful"
-	line "for your journey."
+	text "도라지시티에서의 경험은"
+	line "그대의 여행에 도움이 될 것이다"
 	done
 
 Text_MillionDollarSlowpokeTail:
-	text "How would you like"
-	line "to have this"
-
-	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
-
-	para "For you right now,"
-	line "just ¥1,000,000!"
-
-	para "You'll want this!"
+	text "맛있고 영양만점의"
+	line "맛있는 꼬리는 모르니?"
+	
+	para "지금이라면 딱 100만원"
+	line "어때 사겠어?"
 	done
 
 Text_ThoughtKidsWereLoaded:
-	text "Tch! I thought"
-	line "kids these days"
-	cont "were loaded…"
+	text "돈이 부족하잖아!"
+	
+	para "쳇! 요즘 아이들은"
+	line "부자라고 생각했는데……"
 	done
 
 Text_RefusedToBuySlowpokeTail:
-	text "You don't want it?"
-	line "Then scram. Shoo!"
+	text "필요 없다고?"
+	line "그럼 저리가! 꺼져!"
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
-
-	para "You made me lose"
-	line "that fish!"
+	text "우왓!"
+	
+	para "놀래켜서 내 포획물이 도망갔잖아!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "풀쩍!"
 	done
 
 FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
-
-	para "fishing and #-"
-	line "MON is the same."
+	text "법석대지말고 소란 피우지말고……"
+	
+	para "낚시도 포켓몬도"
+	line "오묘함은 똑같구나!"
 	done
-
 FisherRalph1SeenText:
 	text "I'm really good at"
 	line "both fishing and"
@@ -656,16 +623,12 @@ FisherRalph1SeenText:
 	done
 
 FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
+	text "상대방의 태도에 맞췄다……"
 	done
 
 FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
-
-	para "#MON are life-"
-	line "long friends!"
+	text "낚시는 일생의 즐거움!"
+	line "포켓몬은 일생의 친구!"
 	done
 
 FisherRalphSwarmText:
@@ -682,130 +645,107 @@ FisherRalphSwarmText:
 ; --- start a segment of unused text
 
 Route32UnusedFisher1SeenText:
-	text "I keep catching"
-	line "the same #MON…"
-
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
+	text "같은 포켓몬밖에 낚이지 않는다……"
+	line "기분전환으로 잠시 싸워볼까……"
 	done
+	
 
 Route32UnusedFisher1BeatenText:
-	text "Nothing ever goes"
-	line "right for me now…"
+	text "안 될때에는"
+	line "뭘 하든지 안 되는 것인가"
 	done
 
 Route32UnusedFisher1AfterText:
-	text "How come the guy"
-	line "next to me catches"
-	cont "good #MON?"
+	text "옆의 낚시꾼은"
+	line "어째서 좋은 포켓몬이 낚일까?"
 	done
 
 Route32UnusedFisher2SeenText:
-	text "Heh, I'm on a roll"
-	line "today. How about a"
-	cont "battle, kid?"
+	text "오늘은 기분 최고로구나"
+	line "좋-아 잠시 싸워볼까!"
 	done
 
 Route32UnusedFisher2BeatenText:
-	text "Oof. I wasn't"
-	line "lucky that time."
+	text "에구구"
+	line "승부에서 이기기는 틀렸는가"
 	done
 
 Route32UnusedFisher2AfterText:
-	text "You have to have a"
-	line "good ROD if you"
-
-	para "want to catch good"
-	line "#MON."
+	text "좋은 포켓몬을 낚고싶으면"
+	line "좋은 낚싯대를 써야지!"
 	done
 
 ; --- end a segment of unused texts
 
 FisherHenrySeenText:
-	text "My #MON?"
-	line "Freshly caught!"
+	text "내 포켓몬"
+	line "어느 때든 쌩쌩!"
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "어기영차"
 	done
 
 FisherHenryAfterText:
-	text "Freshly caught"
-	line "#MON are no"
-
-	para "match for properly"
-	line "raised ones."
+	text "잡은지 얼마 되지 않아서는"
+	line "키운 포켓몬에게 못 미치지"
 	done
 
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
-
-	para "So you think you"
-	line "are pretty tough?"
+	text "못 보던 얼굴이군"
+	line "너 강하냐?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "강하구나!"
 	done
 
 YoungsterAlbertAfterText:
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
-
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
+	text "나는 자신이 좋아하는 포켓몬으로"
+	line "최강을 목표로 한다!"
+	
+	para "강하다고 모두와 같은"
+	line "포켓몬은 사용하지 않아"
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
-
-	para "I think they'll do"
-	line "it for me!"
+	text "풀숲에서 좋은 포켓몬 발견했다!"
+	line "뭔가 해줄 것 같은 기분이야!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "아-아"
+	line "이길 수 있다고 생각했는데"
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "풀숲을 걸어다니면"
+	line "달라 붙는 벌레가 많이 있단다"
 	done
 
 CamperRolandSeenText:
-	text "That glance…"
-	line "It's intriguing."
+	text "그 시선……"
+	line "어쩐지 신경쓰이는군"
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "우-움 유감이다"
 	done
 
 CamperRolandAfterText:
-	text "If you don't want"
-	line "to battle, just"
-	cont "avoid eye contact."
+	text "싸우고싶지 않다면"
+	line "시선을 마주치지 않으면 좋을꺼야"
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
-
-	para "Pardon? Battle?"
-	line "I'm on the phone."
-
-	para "Oh, all right. But"
-	line "make it fast."
+	text "…… 그래그래"
+	line "응 그런거야"
+	
+	para "엥? 뭐라고? 포켓몬 승부?"
+	line "전화하고 있는데"
+	cont "좋아 팍팍 끝내줄 테니까"
 	done
+	
 
 PicnickerLiz1BeatenText:
 	text "Oh! I've got to"
@@ -813,117 +753,98 @@ PicnickerLiz1BeatenText:
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "재미있게 이야기를 하고 있었는데"
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
-	line "from VIOLET CITY!"
-
-	para "You beat FALKNER?"
+	text "얼라리 그 배지는……"
+	
+	para "도라지시티 체육관의 배지!"
+	line "너 비상님에게 이겼단말인가!"
 	done
-
 BirdKeeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "자신의 미숙함을 알았다!"
 	done
+	
 
 BirdKeeperPeterAfterText:
-	text "I should train"
-	line "again at the GYM"
-	cont "in VIOLET CITY."
+	text "도라지시티 체육관에서"
+	line "새로 단련이나 해볼까"
 	done
+	
 
 Route32UnusedText:
 ; unused
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them…"
+	text "낚시 훼방꾼!"
+	line "이라고 야단맞아버렸어……"
 	done
 
 Text_RoarIntro:
-	text "WROOOOAR!"
-	line "PEOPLE RUN WHEN I"
-
-	para "ROAR! BUT YOU"
-	line "CAME LOOKING!"
-
-	para "THAT PLEASES ME!"
-	line "NOW TAKE THIS!"
+	text "우오오옷!"
+	
+	para "소리치면 모두 도망치지만"
+	line "너는 와주었다아앗!"
+	cont "감동했다아아!"
+	cont "이것을 가지고 가거라아아앗!"
 	done
 
 Text_RoarOutro:
-	text "WROOOAR!"
-	line "IT'S ROAR!"
-
-	para "EVEN #MON RUN"
-	line "FROM A GOOD ROAR!"
+	text "우오오옷!"
+	line "내용물은 울부짖기"
+	cont "울부짖으면 포켓몬도 도망친단다"
 	done
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
-
-	para "I'm FRIEDA of"
-	line "Friday!"
-
-	para "Nice to meet you!"
+	text "금순『얏호-!"
+	
+	para "나는 금요일의 금순!"
+	line "잘 부탁해-!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "자 여기 독바늘!"
+	line "너에게 줄께!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
-
-	para "Oh!"
-
-	para "It's wicked!"
-
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	text "금순『독타입의 기술을 배운"
+	line "포켓몬에게 지니게 해봐!"
+	
+	para "앗!"
+	
+	para "하고 놀랄꺼야!"
+	
+	para "기술의 위력이 강해지니까!"
 	done
-
+	
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
-
-	para "I love Friday. No"
-	line "doubt about it!"
-
-	para "Don't you think"
-	line "it's great too?"
+	text "금순『이봐 친구!"
+	line "너는 무슨 요일이 좋니?"
+	
+	para "나는 금요일이란다!"
+	line "절대로!"
+	
+	para "그렇게 생각하지 않니?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
-
-	para "It's so boring"
-	line "when it's not!"
+	text "금순『오늘은 금요일이"
+	line "아니라구?"
+	cont "재미없어-"
 	done
 
 Route32SignText:
-	text "ROUTE 32"
-
-	para "VIOLET CITY -"
-	line "AZALEA TOWN"
+	text "이곳은 32번 도로"
+	line "도라지시티 …… 고동마을"
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	text "알프의 유적"
+	line "동쪽 입구"
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
-	line "AHEAD"
+	text "이 앞은 연결동굴"
 	done
 
 Route32_MapEvents:

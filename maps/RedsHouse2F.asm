@@ -10,17 +10,15 @@ RedsHouse2FPCScript:
 	jumptext RedsHouse2FPCText
 
 RedsHouse2FN64Text:
-	text "<PLAYER> played the"
-	line "N64."
-
-	para "Better get going--"
-	line "no time to lose!"
+	text "<PLAYER>는(은)"
+	line "현대 컴보이64를 하고 있다!"
+	cont "…… …… 좋아!"
+	cont "이제 슬슬 나가볼까!"
 	done
 
 RedsHouse2FPCText:
-	text "It looks like it"
-	line "hasn't been used"
-	cont "in a long time…"
+	text "……긴 시간"
+	line "지치지도 않은 것 같다"
 	done
 
 RedsHouse2F_MapEvents:

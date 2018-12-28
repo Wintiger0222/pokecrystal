@@ -161,84 +161,70 @@ MovementData_0x1a622a:
 	step_end
 
 SwimmermSimonSeenText:
-	text "You have to warm"
-	line "up before going"
-	cont "into the water."
-
-	para "That's basic."
+	text "물에 들어가려는 너는"
+	line "반드시 준비운동을!"
+	
+	para "이것이 기본이니까!"
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "우- 제기럴!"
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
-	line "a good distance"
-	cont "away from here."
+	text "여기서부터 진청시티까지는"
+	line "꽤 거리가 있단다!"
 	done
 
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
-
-	para "Don't ride your"
-	line "#MON! Swim!"
+	text "어린이여"
+	line "포켓몬에 타지말고 수영을 해라!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "져버렸다"
 	done
 
 SwimmermRandallAfterBattleText:
-	text "Swimming exercises"
-	line "your entire body."
-	cont "It's healthy."
+	text "헤엄치기는 전신을 사용하기에"
+	line "꽤 좋은 운동이란다!"
 	done
 
 SwimmerfElaineSeenText:
-	text "Are you going to"
-	line "CIANWOOD?"
-
-	para "How about a quick"
-	line "battle first?"
+	text "진청시티까지 헤엄칠 작정이니?"
+	
+	para "그전에 잠시"
+	line "한번 승부하지 않을래?"
 	done
 
 SwimmerfElaineBeatenText:
-	text "I lost that one!"
+	text "나의 패배로구나"
 	done
 
 SwimmerfElaineAfterBattleText:
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+	text "헤엄치기라면 내가"
+	line "실력이 더 좋다고 생각하는데"
 	done
 
 SwimmerfPaulaSeenText:
-	text "No inner tube for"
-	line "me."
-
-	para "I'm hanging on to"
-	line "a sea #MON!"
+	text "튜브 대신"
+	line "바다의 포켓몬을 잡고 있어"
 	done
 
 SwimmerfPaulaBeatenText:
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "우-웅"
+	line "빙빙돈다"
 	done
 
 SwimmerfPaulaAfterBattleText:
-	text "While I float like"
-	line "this, the waves"
-	cont "carry me along."
+	text "이렇게 둥둥떠서 멍청히 있으면"
+	line "파도에 떠내려 가버린단다"
 	done
 
 Route40Lass1Text:
-	text "Although you can't"
-	line "see it from here,"
-
-	para "CIANWOOD is across"
-	line "the sea."
+	text "여기서는 보이지 않지만"
+	line "넓은 바다를 지나가면"
+	cont "진청시티라는 마을이 있단다"
 	done
 
 Route40PokefanMText:
@@ -287,52 +273,39 @@ Route40StandingYoungsterText:
 	done
 
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
-
-	para "MONICA of Monday."
+	text "월희『처음뵙겠어요"
+	line "나는 월요일의 월희입니다"
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "만남의 징표로 이것을!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
-
-	para "the power of fly-"
-	line "ing-type moves."
-
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	text "월희『그것은 비행타입의"
+	line "공격력을 올려주는 도구"
+	
+	para "당신도 새포켓몬에게"
+	line "지니게 한다면 좋을꺼예요!"
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
-
-	para "are all over the"
-	line "place."
-
-	para "See if you could"
-	line "find them all!"
+	text "월희『내"
+	line "남동생과 여동생들이"
+	cont "여러 장소에 있어요"
+	
+	para "찾아보세요!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad…"
+	text "월희『오늘은 월요일이"
+	line "아닌 것 같군요……"
+	cont "유감이네요"
 	done
 
 Route40SignText:
-	text "ROUTE 40"
-
-	para "CIANWOOD CITY -"
-	line "OLIVINE CITY"
+	text "이곳은 40번 터널"
+	line "진청시티 …… 담청시티"
 	done
 
 Route40_MapEvents:

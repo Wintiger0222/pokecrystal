@@ -323,139 +323,112 @@ Route43MaxEther:
 	itemball MAX_ETHER
 
 PokemaniacBenSeenText:
-	text "I love #MON!"
-
-	para "That's why I"
-	line "started--and why"
-
-	para "I'll keep on col-"
-	line "lecting #MON!"
+	text "나는 포켓몬을 아주 좋아해!"
+	
+	para "그래서 늘 언제나 계속"
+	line "포켓몬이랑 함께 있단다!"
 	done
 
 PokemaniacBenBeatenText:
-	text "How could you do"
-	line "this to me?"
+	text "도대체!"
 	done
+	
 
 PokemaniacBenAfterBattleText:
-	text "What else do I"
-	line "like besides"
-	cont "#MON?"
-
-	para "MARY on the radio."
-	line "I bet she's cute!"
+	text "포켓몬 이외의 좋아하는 것?"
+	
+	para "…… 라디오의 호두님"
+	line "틀림없이 예쁠꺼야"
 	done
-
+	
 PokemaniacBrentSeenText:
-	text "Hey! Do you have"
-	line "any rare #MON?"
+	text "너 뭔가 희귀한"
+	line "포켓몬 가지고있지 않니?"
 	done
 
 PokemaniacBrentBeatenText:
-	text "Oh, my poor #-"
-	line "MON! Darlings!"
+	text "내 포켓몬!"
 	done
-
+	
 PokemaniacBrentAfterBattleText:
-	text "I'd be happy just"
-	line "to own a single"
-	cont "rare #MON."
+	text "나라면 희귀한 포켓몬을"
+	line "가지고있는 것 만으로도 행복해"
 	done
 
 PokemaniacRonSeenText:
-	text "Would you get"
-	line "this?"
-
-	para "Some <RIVAL> guy"
-	line "made fun of my"
-	cont "#MON!"
-
-	para "Darn it! My #-"
-	line "MON's great!"
+	text "내말좀 들어줘!"
+	
+	para "<RIVAL>(이)라고 하는 녀석이"
+	line "내 소중한 포켓몬을"
+	cont "바보취급 했어!"
+	
+	para "제기럴"
+	line "내 포켓몬은 굉장하다니까"
 	done
 
 PokemaniacRonBeatenText:
-	text "My NIDOKING did"
-	line "pretty right on!"
+	text "어떠니 나의 니드킹"
+	line "꽤 잘하지?"
 	done
 
 PokemaniacRonAfterBattleText:
-	text "It's okay for"
-	line "people to like"
-
-	para "different types"
-	line "of #MON."
-
-	para "#MON isn't just"
-	line "about having the"
-	cont "most powerful one."
+	text "어떤 포켓몬을 좋아한다는 것"
+	line "사람들 각각으로 좋다고 생각해"
+	
+	para "강한 포켓몬 만이"
+	line "포켓몬이라고는 할 수 없으니까"
 	done
 
 FisherMarvinSeenText:
-	text "I'm in a slump."
-
-	para "Maybe it's the"
-	line "gear I'm using."
-
-	para "Let's battle for a"
-	line "change of pace!"
+	text "최근에 슬럼프에 빠졌단다"
+	line "사용하고 있는 도구가 나쁜걸까"
+	
+	para "뭐 어떻든 기분이나 전환하자"
+	line "포켓몬 승부다!"
 	done
-
+	
 FisherMarvinBeatenText:
-	text "I lost, but I feel"
-	line "better anyway."
+	text "졌지만"
+	line "좋은 기분전환이 되었단다"
 	done
 
 FisherMarvinAfterBattleText:
-	text "KURT's LURE BALL"
-	line "is the best for"
-
-	para "catching hooked"
-	line "#MON."
-
-	para "It's much more"
-	line "effective than a"
-	cont "ULTRA BALL."
+	text "흐으음…… 역시 낚아 올린"
+	line "포켓몬을 잡으려 한다면"
+	cont "강집 할아버지의 루어볼이지"
+	
+	para "하이퍼볼보다도"
+	line "단연 잡기 쉽단다!"
 	done
-
+	
 CamperSpencerSeenText:
-	text "I can do so much"
-	line "with my #MON--"
-	cont "it's super-fun!"
+	text "포켓몬이랑 함께 있으면"
+	line "여러가지를 할 수 있어서 즐거워!"
 	done
 
 CamperSpencerBeatenText:
-	text "Losing isn't fun"
-	line "at all…"
+	text "지면 재미없지"
 	done
 
 CamperSpencerAfterBattleText:
-	text "What is going on"
-	line "at LAKE OF RAGE?"
-
-	para "We were planning"
-	line "to camp there."
+	text "분노의 호수에 뭔가 있니?"
+	line "우리들은 캠프를 할 작정인데"
 	done
 
 PicnickerTiffanySeenText:
-	text "Are you going to"
-	line "LAKE OF RAGE too?"
-
-	para "Let's play for a "
-	line "little while!"
+	text "너도 분노의 호수에 가니?"
+	line "그전에 잠깐 같이 놀자!"
 	done
-
+	
 PicnickerTiffanyBeatenText:
-	text "I played too much!"
+	text "너무 과하게 놀았다"
 	done
 
 PicnickerTiffanyWantsPicnicText:
-	text "I'm having a pic-"
-	line "nic with #MON."
-
-	para "Won't you join us?"
+	text "포켓몬이랑 함께 피크닉"
+	line "너도 함께하면 어떠니?"
 	done
-
+	
 PicnickerTiffanyClefairyText:
 	text "Isn't my CLEFAIRY"
 	line "just the most"
@@ -463,41 +436,31 @@ PicnickerTiffanyClefairyText:
 	done
 
 Route43Sign1Text:
-	text "ROUTE 43"
-
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	text "이곳은 43번 도로"
+	line "분노의 호수"
+	cont "…… 황토마을"
 	done
-
+	
 Route43Sign2Text:
-	text "ROUTE 43"
-
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	text "이곳은 43번 도로"
+	line "분노의 호수"
+	cont "…… 황토마을"
 	done
 
 Route43TrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "All #MON have"
-	line "pros and cons"
-
-	para "depending on their"
-	line "types."
-
-	para "If their types"
-	line "differ, a higher-"
-
-	para "level #MON may"
-	line "lose in battle."
-
-	para "Learn which types"
-	line "are strong and"
-
-	para "weak against your"
-	line "#MON's type."
+	text "득이 되는 게시판!"
+	
+	para "포켓몬에게는 타입의"
+	line "상성이 있습니다"
+	
+	para "레벨이 높아도 그것만으로"
+	line "이길 수는 없습니다"
+	
+	para "자신의 포켓몬 타입은"
+	line "무엇이 특기고 무엇이 약한가"
+	cont "파악을 해 놓읍시다"
 	done
-
+	
 Route43_MapEvents:
 	db 0, 0 ; filler
 

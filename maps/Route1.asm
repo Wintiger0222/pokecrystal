@@ -37,45 +37,36 @@ Route1FruitTree:
 	fruittree FRUITTREE_ROUTE_1
 
 SchoolboyDannySeenText:
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
+	text "트레이너와 만나면"
+	line "먼저 승부를!"
 	done
-
+	
 SchoolboyDannyBeatenText:
-	text "Awww… I've got a"
-	line "losing record…"
+	text "졌다-!"
 	done
 
 SchoolboyDannyAfterBattleText:
-	text "For trainers, it's"
-	line "a given that we'll"
-
-	para "battle whenever we"
-	line "meet."
+	text "트레이너에게 있어서 승부는"
+	line "인사 같은 것이지"
 	done
 
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "잠깐 너!"
+	line "나랑 승부하지 않을래?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "졌다……!"
 	done
 
 CooltrainerfQuinnAfterBattleText:
-	text "You're strong."
-
-	para "You obviously must"
-	line "have trained hard."
+	text "강하구나 너"
+	line "많은 수행을 했겠군"
 	done
 
 Route1SignText:
-	text "ROUTE 1"
-
-	para "PALLET TOWN -"
-	line "VIRIDIAN CITY"
+	text "이곳은 1번 도로"
+	line "태초마을 …… 상록시티"
 	done
 
 Route1_MapEvents:

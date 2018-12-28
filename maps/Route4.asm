@@ -77,47 +77,41 @@ BirdKeeperHankAfterBattleText:
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
-
-	para "Let's see if I'm"
-	line "right!"
+	text "어쩐지 이길 것 같은 기분"
+	line "나랑 대전하자!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "강하구나 역시……!"
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I heard CLEFAIRY"
-	line "appear at MT.MOON."
-
-	para "But where could"
-	line "they be?"
+	text "달맞이 산에 삐삐가"
+	line "모습을 나타낸다고 들었는데"
+	cont "어디에 있을까?"
 	done
 
 PicnickerSharonSeenText:
-	text "Um…"
-	line "I…"
+	text "저기……"
+	line "나……"
 	done
-
+	
 PicnickerSharonBeatenText:
-	text "…"
+	text "…… …… ……"
 	done
-
+	
 PicnickerSharonAfterBattleText:
-	text "……I'll go train"
-	line "some more…"
+	text "…… …… ……"
+	
+	para "…… 조금 더"
+	line "수행해 보겠습니다……"
 	done
-
+	
 MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
-
-	para "Just go up the"
-	line "stairs."
+	text "달맞이 산 광장"
+	line "……계단을 올라 바로!"
 	done
-
+	
 Route4_MapEvents:
 	db 0, 0 ; filler
 

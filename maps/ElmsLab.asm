@@ -736,7 +736,7 @@ ElmText_Intro:
 	line "포켓몬 연구를 하려고 한단다"
 	
 	para "너가 나를 도와줄수 있을지"
-	line "궁금하구나 <PLAY_G>."
+	line "궁금하구나 <PLAY_G>"
 	
 	para "보다시피…"
 	

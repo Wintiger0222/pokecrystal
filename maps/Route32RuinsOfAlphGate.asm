@@ -18,32 +18,23 @@ Route32RuinsOfAlphGateYoungsterScript:
 	jumptextfaceplayer Route32RuinsOfAlphGateYoungsterText
 
 Route32RuinsOfAlphGateOfficerText:
-	text "RUINS OF ALPH"
-
-	para "A Look-and-Touch"
-	line "Tourist Site"
-
-	para "Try the sliding"
-	line "stone panels!"
+	text "보고 만질 수 있는"
+	line "알프의 유적 관광!"
+	
+	para "움직일 수 있는 돌 아래를"
+	line "꼭 손으로 만져봐 주세요"
 	done
 
 Route32RuinsOfAlphGatePokefanMText:
-	text "You're studying"
-	line "the RUINS?"
-
-	para "I see a scientist"
-	line "in the making."
+	text "옷 유적의 공부인가?"
+	line "장래희망은 박사로군!"
 	done
 
 Route32RuinsOfAlphGateYoungsterText:
-	text "There are drawings"
-	line "on stone panels."
-
-	para "I tried moving"
-	line "them. I wonder"
-	cont "what they are."
+	text "돌 아래에 그림이 그려져 있다!"
+	line "움직여 보았지만 그건 무엇일까?"
 	done
-
+	
 Route32RuinsOfAlphGate_MapEvents:
 	db 0, 0 ; filler
 

@@ -321,45 +321,37 @@ Route38FruitTree:
 	fruittree FRUITTREE_ROUTE_38
 
 BirdKeeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #MON!"
+	text "크게 위세를 떨치는"
+	line "나의 새포켓몬"
 	done
-
+	
 BirdKeeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "이대로 새포켓몬을 타고"
+	line "어딘가에 가고싶은 기분이야"
 	done
-
+	
 BirdKeeperTobyAfterBattleText:
-	text "I plan to train in"
-	line "CIANWOOD CITY to"
-
-	para "teach my #MON"
-	line "how to FLY."
+	text "포켓몬에게 공중날기 기술을"
+	line "가르치기위해 진청시티로"
+	cont "수행을 하러갈 작정이야!"
 	done
 
 SchoolboyChad1SeenText:
-	text "Let me try some-"
-	line "thing I learned"
-	cont "today."
+	text "이제 곧 오늘 공부한 것을"
+	line "확인해볼까"
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "얼라리? 이상하네"
+	line "아직도 공부가 부족한건가?"
 	done
 
 UnknownText_0x1a200e:
-	text "I have to take so"
-	line "many tests, I"
-
-	para "don't have much"
-	line "time for #MON."
-
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	text "늘상은 시험만 봐서"
+	line "그다지 포켓몬을 하지않았다"
+	
+	para "그래서 포켓몬을 할 수 있을 때"
+	line "엄청나게 집중을 하고있지!"
 	done
 
 LassDana1SeenText:
@@ -372,57 +364,50 @@ LassDana1SeenText:
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "역시 그렇군"
+	line "그런 싸움법이 있었구나"
 	done
 
 UnknownText_0x1a20ec:
-	text "I know something"
-	line "good!"
-
-	para "MOOMOO FARM's milk"
-	line "is famous for its"
-	cont "flavor."
+	text "나도 좋은 것을 가르쳐줄께"
+	
+	para "튼튼 목장의 우유가"
+	line "맛있다는 소문이야"
 	done
 
 BeautyValerieSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
-
-	para "May I see your"
-	line "#MON?"
+	text "아항-"
+	line "귀여운 트레이너씨"
+	
+	para "어떤 포켓몬을 가지고 있나"
+	line "보여주지 않겠니?"
 	done
 
 BeautyValerieBeatenText:
-	text "I'm glad I got to"
-	line "see your #MON!"
+	text "여러 포켓몬"
+	line "볼 수 있어서 행복해"
 	done
 
 BeautyValerieAfterBattleText:
-	text "When I see #-"
-	line "MON, it seems to"
-	cont "soothe my nerves."
+	text "포켓몬을 보고있으면"
+	line "차분해진다고 할까"
+	cont "마음이 진정되지"
 	done
 
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
-
-	para "about all sorts of"
-	line "#MON!"
+	text "나는 외국을 돌아다녀서"
+	line "여러 포켓몬을 알고있지!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "그 강함"
+	line "틀림없이 세계적인 수준"
 	done
 
 SailorHarryAfterBattleText:
-	text "All kinds of peo-"
-	line "ple around the"
-
-	para "world live happily"
-	line "with #MON."
+	text "여러 나라에서"
+	line "여러 사람이"
+	cont "포켓몬과 사이좋게 지내고있단다"
 	done
 
 BeautyOliviaSeenText:
@@ -448,28 +433,19 @@ BeautyOliviaAfterBattleText:
 	done
 
 Route38SignText:
-	text "ROUTE 38"
-
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	text "이곳은 38번 도로"
+	line "담청시티 …… 인주시티"
 	done
 
 Route38TrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "If a #MON is"
-	line "trying to evolve,"
-	cont "you can stop it."
-
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
-
-	para "That startles the"
-	line "#MON and stops"
-	cont "its evolution."
+	text "득이 되는 게시판!"
+	
+	para "포켓몬이 진화할 것 같은 때"
+	line "B버튼을 누르면"
+	cont "놀라서 진화를 멈춥니다"
+	cont "이것을 진화캔슬이라고 말합니다"
 	done
-
+	
 Route38_MapEvents:
 	db 0, 0 ; filler
 

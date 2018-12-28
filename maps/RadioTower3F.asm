@@ -155,175 +155,134 @@ RadioTower3FPokemonMusicSign:
 	jumptext RadioTower3FPokemonMusicSignText
 
 RadioTower3FSuperNerdText:
-	text "We have recordings"
-	line "of the cries of"
-
-	para "all #MON that"
-	line "have been found."
-
-	para "We must have about"
-	line "200 kinds."
+	text "지금까지 발견한 포켓몬의"
+	line "울음소리는 전부 모아놨어!"
+	cont "200종류쯤 있단다!"
 	done
-
+	
 RadioTower3FGymGuyText_Rockets:
-	text "To trainers, #-"
-	line "MON are their"
-	cont "beloved partners."
-
-	para "It's terrible how"
-	line "TEAM ROCKET is"
-
-	para "trying to control"
-	line "#MON."
+	text "포켓몬이란 트레이너에 있어서"
+	line "소중한 파트너잖아?"
+	
+	para "그런데도 그따위 명령을 하다니"
+	line "포켓몬이 불쌍해죽겠어!"
 	done
-
+	
 RadioTower3FGymGuyText:
-	text "We run 24 hours a"
-	line "day to broadcast"
-
-	para "entertaining pro-"
-	line "grams."
-
-	para "I'll do my best to"
-	line "run around the"
-	cont "clock too!"
+	text "우리는 24시간 영업중"
+	
+	para "언제든지 즐거운 방송을"
+	line "들을 수 있도록"
+	cont "나도 24시간 분발해야지!"
 	done
-
+	
 UnknownText_0x5e754:
-	text "The TEAM ROCKET"
-	line "boss has locked"
-	cont "himself in."
-
-	para "But the DIRECTOR"
-	line "can open it."
-
-	para "He's up on the"
-	line "fifth floor."
-
-	para "Please save him!"
+	text "이녀석들의 두목이"
+	line "문 저편에 서있어"
+	
+	para "안으로부터 열쇠를 잠궜지만"
+	line "국장님이라면 열 수 있을꺼야"
+	
+	para "국장님은 5층에 있어"
+	line "부탁해 제발 도와줘!"
 	done
-
+	
 UnknownText_0x5e7cb:
-	text "Is the DIRECTOR"
-	line "safe?"
+	text "국장님은 무사하니?"
 	done
 
 UnknownText_0x5e7e2:
-	text "Thank you!"
-	line "You're my hero!"
-
-	para "This is a token of"
-	line "my appreciation."
+	text "고마워, 꼬마 영웅님!"
+	line "이것은 내 감사의 선물이야!"
 	done
-
+	
 UnknownText_0x5e821:
-	text "It's SUNNY DAY."
-	line "It powers up fire-"
-	cont "type moves for a"
-	cont "while."
+	text "안에 들은 것은 쾌청"
+	line "한번 사용하면 잠시후"
+	cont "불꽃타입의 위력이 상승한단다"
 	done
-
+	
 UnknownText_0x5e85c:
-	text "You were simply"
-	line "marvelous!"
+	text "대 활약이었구나!"
 	done
-
+	
 GruntM7SeenText:
-	text "I've been given"
-	line "strict orders."
-
-	para "I'm to crush any-"
-	line "one who challenges"
-	cont "TEAM ROCKET!"
+	text "…… 나의 임무는"
+	
+	para "로켓단을 방해하는 녀석들을"
+	line "재기불능으로 만드는 것이다!"
 	done
-
+	
 GruntM7BeatenText:
-	text "What?!"
+	text "!!!"
 	done
-
+	
 GruntM7AfterBattleText:
-	text "I failed in my"
-	line "duties…"
-
-	para "I'll be docked pay"
-	line "for this…"
+	text "…… 임무 실패"
+	line "……월급 깎여버리겠어!"
 	done
-
+	
 GruntM8SeenText:
-	text "It feels great"
-	line "ordering #MON"
-	cont "to commit crimes."
+	text "포켓몬에게 나쁜 짓을"
+	line "명령하는 것은 기분 좋은 일이지!"
 	done
-
+	
 GruntM8BeatenText:
-	text "You're kidding!"
+	text "…… 뭐얏!"
 	done
-
+	
 GruntM8AfterBattleText:
-	text "I feel lousy over"
-	line "losing!"
-
-	para "Darn it! I hate"
-	line "useless #MON!"
+	text "지면 기분 나쁘잖아!"
+	line "젠장!"
+	cont "쓸모없는 포켓몬나부랭이"
 	done
-
+	
 GruntM9SeenText:
-	text "Why did the shut-"
-	line "ter open? Did you"
-
-	para "have something to"
-	line "do with this?"
+	text "셔터가 열렸냐? 어떻게 된거야?"
+	line "너랑 뭔가 관계가 있는것이냐?"
 	done
-
+	
 GruntM9BeatenText:
-	text "I'm done for!"
+	text "당했-다"
 	done
 
 GruntM9AfterBattleText:
-	text "What?! You made it"
-	line "past our men in"
-	cont "the UNDERGROUND?"
-
-	para "How could you?"
+	text "뭐-라!"
+	line "지하통로를 돌파했어!?"
+	cont "뭐하는 녀석이길래!"
 	done
 
 ScientistMarcSeenText:
-	text "An unknown child"
-	line "wandering here?"
-
-	para "Who are you?"
+	text "별볼일 없는 꼬마가 떠돌다니……"
+	line "뭐냐 너는!?"
 	done
 
 ScientistMarcBeatenText:
-	text "Tch! I took you"
-	line "too lightly!"
+	text "치잇"
+	line "너무 깔봤단 말인가"
 	done
 
 ScientistMarcAfterBattleText:
-	text "Bwahahaha…"
-
-	para "I can transmit as"
-	line "strong a signal as"
-	cont "I need from here."
+	text "쿠쿠쿠……여기부터라면"
+	line "생각한대로 전파를 보낼 수 있겠어"
 	done
 
-RadioTower3FCardKeySlotText:
-	text "It's the CARD KEY"
-	line "slot."
+RadioTower3FCardKeySlotText:	
+	text "카드키를 꽂을 곳이다!"
 	done
 
 InsertedTheCardKeyText:
-	text "<PLAYER> inserted"
-	line "the CARD KEY."
+	text "<PLAYER>는(은)"
+	line "카드키를 꽂았다!"
 	done
 
 RadioTower3FPersonnelSignText:
-	text "3F PERSONNEL"
+	text "3층 ……총무부"
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#MON MUSIC with"
-	line "Host DJ BEN"
+	text "포켓몬 뮤직"
+	line "진행자는 준화입니다"
 	done
 
 RadioTower3F_MapEvents:

@@ -40,40 +40,30 @@ RuinsOfAlphInnerChamberStatue:
 	jumptext RuinsOfAlphInnerChamberStatueText
 
 RuinsOfAlphStrangePresenceText:
-	text "There is a strange"
-	line "presence here…"
+	text "뭔가의 기미가 느껴진다……"
 	done
-
+	
 RuinsOfAlphInnerChamberFisherText:
-	text "This is a big"
-	line "room, but there's"
-	cont "nothing here."
+	text "넓은 방이지만"
+	line "아무것도 없잖아"
 	done
-
+	
 RuinsOfAlphInnerChamberTeacherText:
-	text "This place has a"
-	line "mystical quality"
-	cont "to it."
-
-	para "It feels sort of"
-	line "ethereal even."
+	text "장엄하다고들 말하던 곳인가?"
+	line "신비한 장소네"
 	done
-
+	
 RuinsOfAlphInnerChamberGrampsText:
-	text "Ancient buildings"
-	line "are often tombs of"
-	cont "kings."
-
-	para "Like the pyramids,"
-	line "for instance."
+	text "아주 오래전의 건물이라고 말하니까"
+	line "임금님의 무덤을 연상해"
+	cont "피라미드라던가 고분이라던가……"
 	done
-
+	
 RuinsOfAlphInnerChamberStatueText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "오래전의 포켓몬을"
+	line "흉내내서 만들어진 것"
 	done
-
+	
 RuinsOfAlphInnerChamber_MapEvents:
 	db 0, 0 ; filler
 

@@ -104,143 +104,114 @@ RadioTower4FStudio2Sign:
 	jumptext RadioTower4FStudio2SignText
 
 RadioTower4FFisherText:
-	text "I listened to the"
-	line "radio while I was"
-	cont "at the RUINS."
-
-	para "I heard a strange"
-	line "broadcast there."
+	text "유적에 놀러갔을때"
+	line "라디오를 들으니까"
+	cont "잘 모르는 방송이 들려왔어"
 	done
 
 RadioTower4FDJMaryText:
-	text "MARY: Why? Why do"
-	line "I have to suffer"
-	cont "through this?"
-
-	para "MEOWTH, help me!"
+	text "호두『어째서……"
+	line "이런 일을 당하는거야……?"
+	
+	para "나옹아 도와줘-!"
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "MARY: Oh! You're"
-	line "my little savior!"
-
-	para "Will you take this"
-	line "as my thanks?"
+	text "호두『앗 너는-"
+	line "나를 구해준 사람이구나-"
+	
+	para "자 이거"
+	line "내 마음이야!"
 	done
 
 RadioTower4FDJMaryText_GivePinkBow:
-	text "MARY: It's just"
-	line "right for #MON"
-
-	para "that know normal-"
-	line "type moves."
+	text "호두『그건말야"
+	line "보통타입의 기술을 쓰는"
+	cont "포켓몬에게 딱 맞을꺼야!"
 	done
 
 RadioTower4FDJMaryText_After:
-	text "MARY: Please tune"
-	line "into me on PROF."
-
-	para "OAK'S #MON TALK"
-	line "show."
+	text "호두『나랑 오박사님의"
+	line "포켓몬 강좌 꼭 들어줘야해-!"
 	done
 
 RadioTowerMeowthText:
-	text "MEOWTH: Meowth…"
+	text "나옹『…… 나-옹"
 	done
 
 GruntM10SeenText:
-	text "You plan to rescue"
-	line "the DIRECTOR?"
-
-	para "That won't be pos-"
-	line "sible because I'm"
-	cont "going to beat you!"
+	text "국장을 구해낼 작정인가"
+	line "그건 무리라고 하는거야"
+	cont "여기서 나에게 쓰러져버릴 테니까"
 	done
 
 GruntM10BeatenText:
-	text "No! Unbelievable!"
+	text "오- 이런~!"
 	done
 
 GruntM10AfterBattleText:
-	text "I don't believe"
-	line "it! I was beaten!"
+	text "이럴수가!"
+	line "내가 쓰러져버릴 줄은"
 	done
 
 Executivem2SeenText:
-	text "Stop! I'm known as"
-	line "the TEAM ROCKET"
-	cont "fortress!"
-
-	para "You're not taking"
-	line "another step!"
+	text "멈춰랏! 로켓단의"
+	line "철옹성이라고 불려지는 나다"
+	cont "이 이상은 가게 놔둘 수 없다!"
 	done
 
 Executivem2BeatenText:
-	text "The fortress came"
-	line "down!"
+	text "철옹성이 무너졌다……"
 	done
 
 Executivem2AfterBattleText:
-	text "You've earned my"
-	line "respect, so here's"
-	cont "some advice."
-
-	para "It's not too late."
-	line "You can still turn"
-	cont "back."
+	text "너를 존경하는 뜻에서"
+	line "충고 한가지 해주지"
+	
+	para "지금이라도 늦지않았다"
+	line "돌아가는 편이 좋을 꺼야……"
 	done
-
+	
 GruntF4SeenText:
-	text "Don't I think"
-	line "#MON are cute?"
-
-	para "I'll think my"
-	line "#MON are cute--"
-
-	para "after they beat"
-	line "yours!"
+	text "포켓몬이 귀엽지 않느냐구?"
+	line "그렇군 여기서 너의 포켓몬을"
+	cont "쓰러뜨린다면 귀엽겠지?"
 	done
 
 GruntF4BeatenText:
-	text "Oh, no! They're so"
-	line "useless!"
+	text "흥!"
+	line "도움이 되지 않는다니까!"
 	done
 
 GruntF4AfterBattleText:
-	text "I love my"
-	line "beautiful self!"
-
-	para "Who cares about"
-	line "#MON?"
+	text "나는 내가 제일 예쁘다니까!"
+	line "포켓몬이란 어찌되든 괜찮아!"
 	done
-
+	
 ScientistRichSeenText:
-	text "Most excellent."
-
-	para "This RADIO TOWER"
-	line "will fulfill our"
-	cont "grand design."
+	text "훌륭하군!"
+	
+	para "이 라디오타워의 시설이라면"
+	line "우리들의 야망을 실현시킬 수 있어"
 	done
-
+	
 ScientistRichBeatenText:
-	text "Hmmm…"
-
-	para "All grand plans"
-	line "come with snags."
+	text "흐-음"
+	line "위대한 계획의 앞에는"
+	cont "방해꾼이 낀다는 건가"
 	done
 
 ScientistRichAfterBattleText:
-	text "Do you honestly"
-	line "believe you can"
-	cont "stop TEAM ROCKET?"
+	text "너 같은 녀석에게 방해받을"
+	line "로켓단이라고 생각했단 말인가"
 	done
 
 RadioTower4FProductionSignText:
-	text "4F PRODUCTION"
+	text "4층 …… 제작실"
 	done
 
 RadioTower4FStudio2SignText:
-	text "4F STUDIO 2"
+	text "4층 …… 제2스튜디오"
 	done
 
 RadioTower4F_MapEvents:

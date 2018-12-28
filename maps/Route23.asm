@@ -12,12 +12,11 @@ IndigoPlateauSign:
 	jumptext IndigoPlateauSignText
 
 IndigoPlateauSignText:
-	text "INDIGO PLATEAU"
-
-	para "The Ultimate Goal"
-	line "for Trainers!"
-
-	para "#MON LEAGUE HQ"
+	text "이곳은 석영고원"
+	
+	para "포켓몬 트레이너의 정점!"
+	line "포켓몬의 최고 기관"
+	cont "포켓몬 리그 본부"
 	done
 
 Route23_MapEvents:

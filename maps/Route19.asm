@@ -108,128 +108,97 @@ CarefulSwimmingSign:
 
 SwimmermHaroldSeenText:
 	text "Have you ever gone"
-	line "swimming in the"
-	cont "sea at night?"
+	text "어두워 지고나서부터"
+	line "바다에서 수영한 적 있니?"
 	done
-
+	
 SwimmermHaroldBeatenText:
-	text "Glub…"
+	text "어푸-!"
 	done
-
+	
 SwimmermHaroldAfterBattleText:
-	text "At night, the sea"
-	line "turns black. It"
-
-	para "feels like it will"
-	line "swallow you up."
+	text "밤이 되면 바다가 깜깜해져서"
+	line "빨려들 것 같은 기분이 든단다!"
 	done
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
-
-	para "farther… to…"
-	line "FUCHSIA…"
+	text "영차영차……"
+	line "연분홍시티까지……"
+	cont "으싸으싸…… 조금만 더……"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "빠 빠져 죽겠어!"
 	done
 
 SwimmermTuckerAfterBattleText:
-	text "I… asked my girl-"
-	line "friend to swim to"
-	cont "FUCHSIA… Gasp…"
+	text "애인에게 연분홍시티까지"
+	line "헤엄치자고 말했단다……"
+	cont "영차영차……"
 	done
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "나는 단정하지 못한 사람"
+	line "싫어한단다!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "수영이라면 이길 수 있는데……"
 	done
 
 SwimmerfDawnAfterBattleText:
-	text "It's a quick swim"
-	line "between FUCHSIA"
-
-	para "and SEAFOAM IS-"
-	line "LANDS…"
-
-	para "Sheesh, some big"
-	line "man my boyfriend"
-
-	para "is! What a wimp!"
+	text "연분홍시티와 쌍둥이섬을"
+	line "왕복할 정도로……"
+	cont "힘을 내라! 사나이니까!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "I'm lousy at it."
-
-	para "I'm just splashing"
-	line "around in these"
-	cont "shallow waters."
+	text "수영……?"
+	line "특기가 아니야"
+	cont "얕은 곳에서 미역감는 중이야"
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "이길 수 있다고 생각했는데……!"
 	done
 
 SwimmermJeromeAfterBattleText:
-	text "I might be bad at"
-	line "swimming, but I"
-	cont "love the sea."
+	text "수영을 잘 못해도"
+	line "바다는 매우 좋아한다구!"
 	done
-
+	
 Route19Fisher1Text:
-	text "Sorry. This road"
-	line "is closed for"
-	cont "construction."
-
-	para "If you want to get"
-	line "to CINNABAR, you'd"
-
-	para "better go south"
-	line "from PALLET TOWN."
+	text "이곳은 공사중이라 지나갈 수 없다"
+	line "홍련마을에는 태초마을"
+	cont "쪽으로 돌아서 가거라"
 	done
 
 Route19Fisher1Text_RocksCleared:
-	text "I'm all sweaty."
-	line "Time for a swim!"
+	text "땀을 흠뻑 흘리고"
+	line "헤엄이나 한번 쳐볼까!"
 	done
 
 Route19Fisher2Text:
-	text "Who knows how long"
-	line "it would take to"
-	cont "move this boulder…"
+	text "이 바위를 치우는데"
+	line "얼마나 걸릴까……"
 	done
 
 Route19Fisher2Text_RocksCleared:
-	text "The roadwork is"
-	line "finally finished."
-
-	para "Now I can go"
-	line "fishing again."
+	text "드디어 공사가 끝났단다!"
+	
+	para "이것으로 낚시하러 갈 수 있단다!"
 	done
 
 Route19SignText:
-	text "ROUTE 19"
-
-	para "FUCHSIA CITY -"
-	line "SEAFOAM ISLANDS"
+	text "이곳은 19번 터널"
+	line "연분홍시티 …… 쌍둥이섬"
 	done
 
 CarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to SEAFOAM"
-	cont "ISLANDS."
-
-	para "FUCHSIA POLICE"
+	text "헤엄쳐서 쌍둥이섬에 가는 사람은"
+	line "반드시 주의해주십시오!"
+	
+	para "……연분홍시티 경찰서 "
 	done
 
 Route19_MapEvents:

@@ -34,28 +34,21 @@ Route16GateCannotPassMovement:
 	step_end
 
 Route16GateOfficerText:
-	text "CYCLING ROAD"
-	line "starts here."
-
-	para "It's all downhill,"
-	line "so it's totally"
-	cont "exhilarating."
-
-	para "It's a great sort"
-	line "of feeling that"
-
-	para "you can't get from"
-	line "a ship or train."
+	text "여기서부터는 자전거 길"
+	
+	para "자전거로 달리면"
+	line "최고로 기분이 좋아!"
+	
+	para "리니어 기차나 배로는"
+	line "맛볼 수 없는 기분이지"
 	done
 
 Route16GateCannotPassText:
-	text "Hey! Whoa! Stop!"
-
-	para "You can't go out"
-	line "on the CYCLING"
-
-	para "ROAD without a"
-	line "BICYCLE."
+	text "어이! 너! 스톱!"
+	
+	para "자전거를 가지고 있지 않는 사람은"
+	line "자전거 길을"
+	cont "달리면 안된단다!"
 	done
 
 Route16Gate_MapEvents:

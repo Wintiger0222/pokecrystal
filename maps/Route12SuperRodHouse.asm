@@ -37,44 +37,33 @@ SuperRodHouseBookshelf:
 	jumpstd picturebookshelf
 
 OfferSuperRodText:
-	text "I'm the FISHING"
-	line "GURU's younger"
-	cont "brother."
-
-	para "I can see that you"
-	line "like fishing."
-
-	para "There's no doubt"
-	line "in my mind at all!"
-
-	para "So? I know I'm"
-	line "right."
+	text "나는 낚시아저씨의 동생"
+	line "너는 낚시를 좋아할 만한"
+	cont "얼굴을 하고 있구나!"
+	cont "내 눈이 틀린 적이 없다!"
+	
+	para "어떠냐?"
+	line "맞았지?"
 	done
-
+	
 GiveSuperRodText:
-	text "Yes, yes. Just as"
-	line "I thought!"
-
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "SUPER ROD."
+	text "움 움!"
+	line "생각한대로군!"
+	cont "낚시를 좋아하는 너에게 이걸주마!"
+	cont "이름하여 대단한 낚싯대란다!"
 	done
-
+	
 GaveSuperRodText:
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
-
-	para "Remember--you can"
-	line "catch different"
-
-	para "#MON using"
-	line "different RODS."
+	text "여러 장소에서"
+	line "낚시를 즐기길 바란다!"
+	
+	para "사용하는 낚싯대에 따라"
+	line "잡히는 포켓몬이 다르단다!"
 	done
 
 DontWantSuperRodText:
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "얼라리?"
+	line "나의 예상이 빗나갔군……"
 	done
 
 Route12SuperRodHouse_MapEvents:

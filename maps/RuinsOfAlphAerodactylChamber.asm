@@ -128,19 +128,15 @@ RuinsOfAlphAerodactylChamberWallHoleText:
 	done
 
 RuinsOfAlphAerodactylChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "오래전의 포켓몬을"
+	line "흉내내서 만들어진 포켓몬"
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:
-	text "This flying #-"
-	line "MON attacked its"
-
-	para "prey with saw-like"
-	line "fangs."
+	text "톱같이 생긴 이빨로"
+	line "사냥감을 덮치던 하늘의 포켓몬"
 	done
-
+	
 RuinsOfAlphAerodactylChamber_MapEvents:
 	db 0, 0 ; filler
 

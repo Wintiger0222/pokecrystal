@@ -57,79 +57,68 @@ Route3MtMoonSquareSign:
 	jumptext Route3MtMoonSquareSignText
 
 FirebreatherOtisSeenText:
-	text "Ah! The weather's"
-	line "as fine as ever."
+	text "아-!"
+	line "오늘도 좋은 날씨다!"
 	done
 
 FirebreatherOtisBeatenText:
-	text "It's sunny, but"
-	line "I'm all wet…"
+	text "날씨는 맑아도"
+	line "내 마음은 비……"
 	done
 
 FirebreatherOtisAfterBattleText:
-	text "When it rains,"
-	line "it's hard to get"
-	cont "ignition…"
+	text "비가 오면"
+	line "햇빛이 뚫기 힘들지"
+	cont "홋!"
 	done
 
 YoungsterWarrenSeenText:
-	text "Hmmm… I don't know"
-	line "what to do…"
+	text "우-움……"
+	line "어떡게할까……"
 	done
-
+	
 YoungsterWarrenBeatenText:
-	text "I knew I'd lose…"
+	text "역시 졌다……"
 	done
 
 YoungsterWarrenAfterBattleText:
-	text "You looked strong."
-
-	para "I was afraid to"
-	line "take you on…"
+	text "너 강한 것 같으니까"
+	line "싸우기가 무서웠어 나……"
 	done
 
 YoungsterJimmySeenText:
-	text "I can run like the"
-	line "wind!"
+	text "나는 바람의 아들"
+	line "활력이 넘치는 아이!"
 	done
 
 YoungsterJimmyBeatenText:
-	text "Blown away!"
+	text "퓨우-!"
 	done
 
 YoungsterJimmyAfterBattleText:
-	text "I wear shorts the"
-	line "whole year round."
-
-	para "That's my fashion"
-	line "policy."
+	text "일년내내 짧은 반바지"
+	line "이것이 나의 신조다!"
 	done
 
 FirebreatherBurtSeenText:
-	text "Step right up and"
-	line "take a look!"
+	text "어서오너라!"
+	line "잘 보거라!"
 	done
 
 FirebreatherBurtBeatenText:
-	text "Yow! That's hot!"
+	text "아찻!"
 	done
 
 FirebreatherBurtAfterBattleText:
-	text "The greatest fire-"
-	line "breather in KANTO,"
-	cont "that's me."
-
-	para "But not the best"
-	line "trainer…"
+	text "관동 최고의"
+	line "불뿜기 연예인은 나를두고 하는말!"
+	cont "……포켓몬 승부는 졌지만"
 	done
 
 Route3MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
-
-	para "Just go up the"
-	line "stairs."
+	text "달맞이 산 광장"
+	line "……계단을 올라서 바로!"
 	done
-
 Route3_MapEvents:
 	db 0, 0 ; filler
 

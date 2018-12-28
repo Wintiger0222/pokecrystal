@@ -507,8 +507,8 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	step_end
 
 YoungsterSamuelSeenText:
-	text "This is where I do"
-	line "my training!"
+	text "이 근처는 나의"
+	line "연습 장소란다!"
 	done
 
 YoungsterSamuelBeatenText:
@@ -528,36 +528,29 @@ YoungsterSamuelMobileText:
 	done
 
 YoungsterSamuelAfterText:
-	text "I'm going to train"
-	line "even harder."
-
-	para "After all, I'm"
-	line "trying to become"
-	cont "a GYM LEADER."
+	text "연습으로도 안 된다면 특훈이다!"
+	line "어떻게되던 나의 목표는"
+	cont "체육관 관장이니까!"
 	done
 
 YoungsterIanSeenText:
-	text "I'm the best in my"
-	line "class at #MON."
+	text "나는 반에서 제일"
+	line "포켓몬이 강하다!"
 	done
-
+	
 YoungsterIanBeatenText:
-	text "No! There are bet-"
-	line "ter trainers…"
+	text "에고고……뛰는놈 위에"
+	line "나는놈이 있다는 것인가……"
 	done
 
 YoungsterIanAfterText:
-	text "I'm trying hard so"
-	line "I can be the star"
-	cont "in my class."
+	text "반에서 자랑하기위해"
+	line "여러가지 노력을 하고있어"
 	done
 
 CamperTodd1SeenText:
-	text "I'm confident in"
-	line "my ability to"
-	cont "raise #MON."
-
-	para "Want to see?"
+	text "포켓몬을 키우는데 자신이 있다구"
+	line "잠시 승부할래?"
 	done
 
 CamperTodd1BeatenText:
@@ -582,182 +575,142 @@ CamperToddSaleText:
 	done
 
 PicnickerGina1SeenText:
-	text "Are you a trainer?"
-
-	para "Let's have a"
-	line "practice battle."
+	text "너 포켓몬 트레이너니?"
+	line "그럼 연습상대가 되어줘!"
 	done
 
 PicnickerGina1BeatenText:
-	text "Oh, no! I just"
-	line "can't win…"
+	text "이런!"
+	line "절대로 이길 수 없구나!"
 	done
 
 PicnickerGina1AfterText:
-	text "You're too strong"
-	line "to be a practice"
-	cont "partner."
+	text "너는 너무 강해서"
+	line "연습에 도움이 되지 않겠어!"
 	done
-
+	
 OfficerKeithSeenText:
-	text "Who goes there?"
-	line "What are you up"
-	cont "to?"
+	text "이봐 너"
+	line "거기서 뭘 하고있니?"
 	done
 
 OfficerKeithWinText:
-	text "You're a tough"
-	line "little kid."
+	text "강한 아이로군!"
 	done
 
 OfficerKeithAfterText:
-	text "Yep, I see nothing"
-	line "wrong today. You"
-
-	para "be good and stay"
-	line "out of trouble."
+	text "순찰은 이상 없음!"
+	line "너도 조심하거라"
 	done
 
 OfficerKeithDaytimeText:
-	text "I'm on patrol for"
-	line "suspicious indi-"
-	cont "viduals."
+	text "이상한 인간이 없나"
+	line "순찰하고 있습니다"
 	done
-
 PokefanmBrandonSeenText:
-	text "I just got my"
-	line "#MON back from"
-	cont "DAY-CARE."
-
-	para "Let's see how much"
-	line "stronger it got!"
+	text "보모로부터"
+	line "돌려 받은지 얼마되지 않은 포켓몬"
+	cont "얼마나 강해졌는가 보겠어!"
 	done
-
+	
 PokefanmBrandonBeatenText:
-	text "Why does it end"
-	line "this way?"
+	text "왜 이렇게 되는걸까!?"
 	done
 
 PokefanmBrandonAfterText:
-	text "My #MON knew"
-	line "moves I didn't"
-	cont "know it had."
-
-	para "That confounded me"
-	line "to no end!"
+	text "포켓몬 언제부턴가"
+	line "모르는 기술을 배웠기때문에"
+	cont "내가 갈피를 못 잡았다"
 	done
 
 CooltrainerfIreneSeenText:
-	text "IRENE: Kyaaah!"
-	line "Someone found us!"
+	text "마리사『꺄앗!"
+	line "남자애가 왔어!"
 	done
 
 CooltrainerfIreneBeatenText:
-	text "IRENE: Ohhh!"
-	line "Too strong!"
+	text "마리사『아-앙 강하구나!"
 	done
 
 CooltrainerfIreneAfterText1:
-	text "IRENE: My sister"
-	line "KATE will get you"
-	cont "for this!"
+	text "마리사『마리아 언니에게"
+	line "복수를 해달라고 할꺼야!"
 	done
 
 CooltrainerfIreneAfterText2:
-	text "IRENE: Isn't this"
-	line "beach great?"
-
-	para "It's our secret"
-	line "little getaway!"
+	text "마리사『아름다운 모래펄이지?"
+	line "우리들의 비밀장소야!"
 	done
 
 CooltrainerfJennSeenText:
-	text "JENN: You can't"
-	line "beat IRENE and go"
-	cont "unpunished!"
+	text "고움『잘도 이겼구나!"
+	line "마리사의 복수닷!"
 	done
 
 CooltrainerfJennBeatenText:
-	text "JENN: So sorry,"
-	line "IRENE! Sis!"
+	text "고움『미안해요"
+	line "마리사! 언니!"
 	done
 
 CooltrainerfJennAfterText1:
-	text "JENN: Don't get"
-	line "cocky! My sister"
-	cont "KATE is tough!"
+	text "고움『방심하지 말았어야 했는데"
+	line "마리아 언니는 무척 강하단다!"
 	done
 
 CooltrainerfJennAfterText2:
-	text "JENN: Sunlight"
-	line "makes your body"
-	cont "stronger."
+	text "고움『햇님의 햇살은"
+	line "몸을 튼튼하게 한단다!"
 	done
 
 CooltrainerfKateSeenText:
-	text "KATE: You sure"
-	line "were mean to my"
-	cont "little sisters!"
+	text "마리아『여동생들을"
+	line "잘도 귀여워 해줬구나!"
 	done
 
 CooltrainerfKateBeatenText:
-	text "KATE: No! I can't"
-	line "believe I lost."
+	text "마리아『내가"
+	line "지다니!"
 	done
 
 CooltrainerfKateOfferSoftSandText:
-	text "KATE: You're too"
-	line "strong. I didn't"
-	cont "stand a chance."
-
-	para "Here. You deserve"
-	line "this."
+	text "마리아『강하구나"
+	line "졌다 완벽하게……"
+	
+	para "이것을 줄께!"
 	done
 
 CooltrainerfKateAfterText:
-	text "KATE: I'm sorry we"
-	line "jumped you."
-
-	para "We never expected"
-	line "anyone to find us"
-
-	para "here. You sure"
-	line "startled us."
+	text "마리아『미안해"
+	line "갑자기 싸움을 걸어서"
+	
+	para "아무도 오지 않을꺼라 생각해서"
+	line "무척 놀랬거든"
 	done
 
 Route34IlexForestSignText:
 ; unused
-	text "ILEX FOREST"
-	line "THROUGH THE GATE"
+	text "게이트를 빠져나오면 너도밤나무 숲"
 	done
 
 Route34SignText:
-	text "ROUTE 34"
-
-	para "GOLDENROD CITY -"
-	line "AZALEA TOWN"
-
-	para "ILEX FOREST"
-	line "SOMEWHERE BETWEEN"
+	text "이곳은 34번 도로"
+	line "금빛시티 …… 고동마을"
+	cont "도중의 너도밤나무 숲"
 	done
 
 Route34TrainerTipsText:
-	text "TRAINER TIPS"
-
-	para "BERRY trees grow"
-	line "new BERRIES"
-	cont "every day."
-
-	para "Make a note of"
-	line "which trees bear"
-	cont "which BERRIES."
+	text "득이 되는 게시판!"
+	
+	para "열매나무는 하루가 지나면"
+	line "새로운 나무열매가 열립니다"
+	
+	para "어디에 무엇이 있는지"
+	line "기억해두고 또 옵시다!"
 	done
 
 DayCareSignText:
-	text "DAY-CARE"
-
-	para "LET US RAISE YOUR"
-	line "#MON FOR YOU!"
+	text "이곳은 보모의 집"
+	line "당신의 포켓몬을 돌봐줍니다"
 	done
 
 Route34_MapEvents:

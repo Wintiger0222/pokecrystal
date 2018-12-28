@@ -319,73 +319,54 @@ Route44HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_44_HIDDEN_ELIXER
 
 FisherWilton1SeenText:
-	text "Aack! You made me"
-	line "lose a POLIWAG!"
-
-	para "What are you going"
-	line "to do about it?"
+	text "아아! 너때문에"
+	line "발챙이가 도망쳐버렸잖아!"
+	cont "어떡게 할꺼야!"
 	done
-
+	
 FisherWilton1BeatenText:
-	text "Just forget about"
-	line "it."
+	text "뭐 괜찮아"
 	done
-
+	
 FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
-	line "got away…"
-	cont "It was huge."
-
-	para "I swear it must've"
-	line "been 16 feet long!"
+	text "도망친 발챙이……"
+	line "그녀석 엄청 컸었다"
+	cont "5미터정도 되었었는데!"
 	done
 
 FisherEdgarSeenText:
-	text "I fish until I"
-	line "can't anymore."
-
-	para "I also battle"
-	line "until I drop."
-
-	para "That's my"
-	line "relationship"
-	cont "with my #MON."
+	text "낚고 낚아 낚아올려"
+	line "이겨 이기고 이겨서"
+	cont "그것이 나랑 포켓몬의 관계"
 	done
 
 FisherEdgarBeatenText:
-	text "Hmmmm… "
-	line "This isn't right."
+	text "…… 응- 뭐라할까"
 	done
 
 FisherEdgarAfterBattleText:
-	text "That's 100 wins"
-	line "to 101 losses."
-
-	para "I won't battle"
-	line "again for a while."
+	text "이것으로 100승 101패"
+	
+	para "패배했다……"
+	line "잠시 승부는 그만둬야지"
 	done
 
 BirdKeeperVance1SeenText:
-	text "Do you know about"
-	line "the legendary bird"
-	cont "#MON?"
+	text "전설의 새포켓몬에 관해서"
+	line "뭔가 알고있는가?"
 	done
 
 BirdKeeperVance1BeatenText:
-	text "Whew! You're hot"
-	line "stuff."
+	text "휴우- 잘하는군"
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
-
-	para "the three legend-"
-	line "ary bird #MON."
-
-	para "I heard there are"
-	line "other legendary"
-	cont "birds, though."
+	text "전설의 새포켓몬은"
+	line "3종류가 있는데 파이어"
+	cont "썬더 프리져라고 말한다 "
+	
+	para "하지만 그밖에도 전설의"
+	line "새포켓몬이 있다는 것 같다"
 	done
 
 BirdKeeperVance2BeatenText:
@@ -400,110 +381,87 @@ BirdKeeperVance2BeatenText:
 	done
 
 PsychicPhilSeenText:
-	text "I'm gonna win,"
-	line "for sure!"
+	text "이긴다!"
+	line "절대로 내가 이긴다!"
 	done
 
 PsychicPhilBeatenText:
-	text "Arrgh… That's a"
-	line "shocking loss…"
+	text "…… 켁"
+	line "엄청난 쇼크다!"
 	done
 
 PsychicPhilAfterBattleText:
-	text "It's important to"
-	line "have conviction"
-	cont "on your side."
+	text "무언가를 할 때"
+	line "강하게 생각하는 것이 중요하다"
 	done
 
 PokemaniacZachSeenText:
-	text "I'll do anything"
-	line "to get my hands on"
-	cont "rare #MON!"
+	text "진귀한 포켓몬은"
+	line "무슨 짓을 하든 갖고싶어!"
 	done
 
 PokemaniacZachBeatenText:
-	text "Oooh, your #MON"
-	line "are so appealing."
+	text "와아-"
+	line "네 포켓몬은 좋구나!"
 	done
 
 PokemaniacZachAfterBattleText:
-	text "If a #MON has"
-	line "different colors"
-
-	para "from usual, it's"
-	line "more valuable."
-
-	para "What? You mean"
-	line "that's not true?"
+	text "같은 포켓몬이라도"
+	line "색깔이 다르다면 가치가 높아지지!"
+	cont "엥 그런 일 없어?"
 	done
-
+	
 CooltrainermAllenSeenText:
-	text "I can tell you're"
-	line "a good trainer by"
-	cont "looking at you."
-
-	para "I'm good at #-"
-	line "MON, and I can see"
-	cont "that you are too."
+	text "그 표정은 아주 손색이 없구나"
+	line "꽤 잘할 것 같은 느낌이다!"
+	
+	para "나도 포켓몬 강하니까"
+	line "보기만 해도 실력을 알 수 있다!"
 	done
 
 CooltrainermAllenBeatenText:
-	text "Tch! It's a total"
-	line "loss on my part."
+	text "……!"
+	line "완전한 나의 패배다"
 	done
 
 CooltrainermAllenAfterBattleText:
-	text "Wow. You have a"
-	line "lot of BADGES."
-
-	para "No wonder you're"
-	line "so tough."
-
-	para "I wonder if"
-	line "ECRUTEAK GYM's"
-
-	para "MORTY is still in"
-	line "training?"
-
-	para "He really hammered"
-	line "me."
+	text "그렇게나 배지를 가지고 있는가!"
+	line "과연 강하다는 말이군!"
+	
+	para "그러고보니 인주시티 체육관의 유빈"
+	line "지금도 수행을 하고 있을까"
+	cont "그녀석은 괴로움을 당했단다"
 	done
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
-
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	text "너 강하구나……"
+	
+	para "강한 상대를 원하는 것은"
+	line "트레이너의 본능이다!"
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "아아 안 되 틀렸어"
 	done
 
 CooltrainerfCybilAfterBattleText:
-	text "We all get better"
-	line "by experiencing"
-	cont "many battles."
-
-	para "I battled a lot to"
-	line "become what I am"
-	cont "today--an elite."
+	text "여러 싸움을 경험해서"
+	line "모두들 강해지는 것이다"
+	
+	para "엘리트 트레이너가 될 때까지"
+	line "나도 많이 싸워왔단다"
 	done
 
 Route44Sign1Text:
-	text "ROUTE 44"
-	line "ICE PATH AHEAD"
+	text "이곳은 44번 도로"
+	line "이 앞은 얼음샛길"
 	done
 
 Route44Sign2Text:
-	text "ROUTE 44"
-
-	para "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY"
+	text "이곳은 44번 도로"
+	line "황토마을 …… 검은먹시티"
 	done
-
+	
 Route44_MapEvents:
 	db 0, 0 ; filler
 

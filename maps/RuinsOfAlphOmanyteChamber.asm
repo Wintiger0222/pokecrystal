@@ -129,17 +129,13 @@ RuinsOfAlphOmanyteChamberWallHoleText:
 	done
 
 RuinsOfAlphOmanyteChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "옛날의 포켓몬을"
+	line "흉내내서 만들어낸 것"
 	done
 
 RuinsOfAlphOmanyteChamberDescriptionText:
-	text "This #MON"
-	line "drifted in the"
-
-	para "sea by twisting"
-	line "its ten tentacles."
+	text "10개의 다리를 휘어 굽혀서"
+	line "바다를 떠다녔던 포켓몬"
 	done
 
 RuinsOfAlphOmanyteChamber_MapEvents:

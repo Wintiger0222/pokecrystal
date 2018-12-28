@@ -66,68 +66,60 @@ Route17HiddenMaxElixer:
 	hiddenitem MAX_ELIXER, EVENT_ROUTE_17_HIDDEN_MAX_ELIXER
 
 BikerRileySeenText:
-	text "Hey, you! You're"
-	line "from JOHTO, huh?"
+	text "너!"
+	line "성도에서 왔구나!"
 	done
 
 BikerRileyBeatenText:
-	text "Whoa, you kick!"
+	text "강하다……!"
 	done
 
 BikerRileyAfterBattleText:
-	text "Don't get cocky,"
-	line "you JOHTO punk!"
+	text "성도의 녀석에게"
+	line "조롱을 당하고 참을 수 있을까!"
 	done
 
 BikerJoelSeenText:
-	text "Wow. That's a cool"
-	line "BICYCLE!"
+	text "어이 어이!"
+	line "근사한 자전거잖아!"
 	done
 
 BikerJoelBeatenText:
-	text "But you don't just"
-	line "look cool…"
+	text "폼만은 아니었군……!"
 	done
 
 BikerJoelAfterBattleText:
-	text "I look cool, but"
-	line "I'm weak, so I'm"
-	cont "not really cool."
-
-	para "I have to train"
-	line "harder…"
+	text "폼잡고도 약하면"
+	line "웃기는 일이지……"
+	cont "나도 분발할꺼야!"
 	done
 
 BikerGlennSeenText:
-	text "Hey! Want to have"
-	line "a speed battle?"
+	text "나와 스피드 시합"
+	line "해볼테냐?"
 	done
 
 BikerGlennBeatenText:
-	text "Yikes! You've got"
-	line "awesome torque!"
+	text "대단한 다리 힘이다……"
 	done
 
 BikerGlennAfterBattleText:
-	text "Hands-free riding"
-	line "is considered cool"
-	cont "on CYCLING ROAD."
+	text "자전거 길은"
+	line "손놓고 타기가 기분 최고지"
 	done
 
 BikerCharlesSeenText:
-	text "We're fearless"
-	line "highway stars!"
+	text "우리들은"
+	line "죽음을 두려워 않고 달리지!"
 	done
 
 BikerCharlesBeatenText:
-	text "Arrrgh! Crash and"
-	line "burn!"
+	text "부릉부릉!"
 	done
 
 BikerCharlesAfterBattleText:
-	text "Reckless driving"
-	line "causes accidents!"
-	cont "Take it easy!"
+	text "무모한 운전은 사고의 원인"
+	line "모두 주의하도록 하자……!"
 	done
 
 Route17_MapEvents:

@@ -34,21 +34,19 @@ Route17Route18GateCannotPassMovement:
 	step_end
 
 Route17Route18GateOfficerText:
-	text "CYCLING ROAD"
-	line "Uphill Starts Here"
+	text "자전거 길"
+	line "여기서부터는 오르막길입니다"
 	done
-
+	
 Route17Route18GateCannotPassText:
-	text "Hang on! Don't you"
-	line "have a BICYCLE?"
-
-	para "The CYCLING ROAD"
-	line "is beyond here."
-
-	para "You have to have a"
-	line "BICYCLE to go on."
+	text "아- 이봐 너!"
+	line "자전거 가지고 있지 않니?"
+	
+	para "여기부터는"
+	line "자전거 길!"
+	cont "자전거가 없으면 달릴 수 없단다!"
 	done
-
+	
 Route17Route18Gate_MapEvents:
 	db 0, 0 ; filler
 

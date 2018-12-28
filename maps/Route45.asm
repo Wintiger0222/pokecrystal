@@ -313,93 +313,68 @@ Route45HiddenPpUp:
 	hiddenitem PP_UP, EVENT_ROUTE_45_HIDDEN_PP_UP
 
 HikerErikSeenText:
-	text "Be prepared for"
-	line "anything!"
-
-	para "Let me see if your"
-	line "#MON have been"
-	cont "raised properly!"
+	text "대비해 놓으면 근심은 없다"
+	line "포켓몬을 단련시켰는지 보겠다!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, I lost that!"
+	text "우웃 졌다"
 	done
 
 HikerErikAfterBattleText:
-	text "I'll head back to"
-	line "BLACKTHORN's ICE"
-
-	para "PATH and train"
-	line "some more."
+	text "검은먹시티의 얼음샛길로"
+	line "돌아가서 새로 단련시켜볼까"
 	done
 
 HikerMichaelSeenText:
-	text "Yo! You're spunky!"
-	line "But you know what?"
-
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	text "오웃! 힘이 넘치는 것 같군"
+	line "하지만 힘이라면"
+	cont "아저씨도 지지 않는다!"
 	done
 
 HikerMichaelBeatenText:
-	text "My #MON weren't"
-	line "spunky enough!"
+	text "아저씨는 지지 않았지만"
+	line "포켓몬의 힘이 없었다"
 	done
-
+	
 HikerMichaelAfterBattleText:
-	text "Boy, do I love"
-	line "HP UP! Mmmm, yum!"
-
-	para "I keep drinking my"
-	line "#MON's!"
-
-	para "I can't help it!"
+	text "아저씨의 대응물은"
+	line "맥스 업!"
+	
+	para "맛있으니까 나도모르게"
+	line "포켓몬의 몫도 마셔버린단다"
 	done
 
 HikerParry3SeenText:
-	text "My #MON are"
-	line "power packed!"
+	text "내 포켓몬은"
+	line "힘이 자랑이다!"
 	done
 
 HikerParry3BeatenText:
-	text "Wahahah! I'm the"
-	line "big loser!"
+	text "와하핫"
+	line "아저씨가 졌다!"
 	done
 
 HikerParryAfterBattleText:
-	text "I'm not much good"
-	line "at thinking, see?"
-
-	para "So, I just plow"
-	line "ahead with power!"
+	text "생각하는 것은 소질이 없어서"
+	line "아무튼 골치가 지끈지끈 아프단다"
 	done
 
 HikerTimothySeenText:
-	text "Why do I climb"
-	line "mountains?"
-
-	para "Because they're"
-	line "there."
-
-	para "Why do I train"
-	line "#MON?"
-
-	para "Because they're"
-	line "there!"
+	text "어째서 산을 오르는가"
+	line "…… 그곳에 산이 있기 때문이다"
+	
+	para "어째서 포켓몬을 하는가"
+	line "그건 포켓몬이 있기 때문이다!"
 	done
 
 HikerTimothyBeatenText:
-	text "Losses…"
-	line "They're there too!"
+	text "그것에 패배가 있었다!"
 	done
-
+	
 HikerTimothyAfterBattleText:
-	text "The best thing to"
-	line "ever happen to me"
-
-	para "was discovering"
-	line "#MON."
+	text "인생 최고의 기쁨"
+	line "그것은 포켓몬과 만났다는 것이다!"
 	done
 
 HikerParryGivesIronText:
@@ -416,24 +391,19 @@ HikerParryGivesIronText:
 	done
 
 BlackbeltKenji3SeenText:
-	text "I was training"
-	line "here alone."
-
-	para "Behold the fruits"
-	line "of my labor!"
+	text "여기서 혼자"
+	line "수행을 하고있었다……"
+	
+	para "그 성과를 보여주겠다!"
 	done
-
+	
 BlackbeltKenji3BeatenText:
-	text "Waaaargh!"
+	text "이야-앗!"
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "This calls for"
-	line "extreme measures."
-
-	para "I must take to the"
-	line "hills and train in"
-	cont "solitude."
+	text "눈썹을 깎고"
+	line "산중에 틀어박히지 않으면 안되는가"
 	done
 
 BlackbeltKenjiMorningText:
@@ -454,47 +424,39 @@ BlackbeltKenjiNightText:
 	done
 
 CooltrainermRyanSeenText:
-	text "What are your"
-	line "thoughts on rais-"
-	cont "ing #MON?"
+	text "너는 어떤 생각으로"
+	line "포켓몬을 키우고 있느냐?"
 	done
 
 CooltrainermRyanBeatenText:
-	text "You've won my"
-	line "respect."
+	text "역시 대단하군"
 	done
 
 CooltrainermRyanAfterBattleText:
-	text "I see you're rais-"
-	line "ing your #MON"
-	cont "with care."
-
-	para "The bond you build"
-	line "will save you in"
-	cont "tough situations."
+	text "소중하게 포켓몬을 돌보고 있구나"
+	
+	para "그러한 정이란 것이"
+	line "언젠가 때가 되면 중요하게 된단다"
 	done
-
+	
 CooltrainerfKellySeenText:
-	text "What is your"
-	line "battle strategy?"
-
-	para "It is foolish to"
-	line "use strong moves"
-	cont "indiscriminately."
+	text "포켓몬으로 싸울 때"
+	line "너 뭔가 생각하고 있니?"
+	
+	para "앞뒤 생각않고 강한 기술을"
+	line "명령하는 것만으로는 안 된단다"
 	done
-
 CooltrainerfKellyBeatenText:
-	text "Fine. I lost."
+	text "…… 나의 패배로군"
 	done
-
+	
 CooltrainerfKellyAfterBattleText:
-	text "I'm not in favor"
-	line "of overly power-"
-	cont "ful moves."
-
-	para "I want to win, but"
-	line "I also don't want"
-	cont "to harm #MON."
+	text "그렇군 그다지 강력한"
+	line "기술은 바라지도 않아"
+	
+	para "승부에서는 이기고싶지만"
+	line "별로 포켓몬에게 상처를 입히고"
+	cont "싶지는 않으니까"
 	done
 
 Route45DummyText:
@@ -525,8 +487,8 @@ CamperQuentinAfterBattleText:
 	done
 
 Route45SignText:
-	text "ROUTE 45"
-	line "MOUNTAIN RD. AHEAD"
+	text "이곳은 45번 도로"
+	line "이 앞은 마운틴 로드"
 	done
 
 Route45_MapEvents:

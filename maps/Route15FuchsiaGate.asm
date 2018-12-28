@@ -10,13 +10,11 @@ Route15FuchsiaGateOfficerScript:
 	jumptextfaceplayer Route15FuchsiaGateOfficerText
 
 Route15FuchsiaGateOfficerText:
-	text "You're working on"
-	line "a #DEX? That's"
-
-	para "really something."
-	line "Don't give up!"
+	text "포켓몬 도감 완성을"
+	line "목표로 하고있는 것 같군!"
+	cont "힘내라!"
 	done
-
+	
 Route15FuchsiaGate_MapEvents:
 	db 0, 0 ; filler
 

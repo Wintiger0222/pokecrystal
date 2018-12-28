@@ -33,48 +33,39 @@ Route18Sign:
 	jumptext Route18SignText
 
 BirdKeeperBorisSeenText:
-	text "If you're looking"
-	line "for #MON, you"
-
-	para "have to look in"
-	line "the tall grass."
+	text "포켓몬 찾기의 요령은"
+	line "풀숲을 발견하면"
+	cont "먼저 들어가 보는 것이야!"
 	done
-
+	
 BirdKeeperBorisBeatenText:
-	text "Ayieee!"
+	text "히익-!"
 	done
 
 BirdKeeperBorisAfterBattleText:
-	text "Since you're so"
-	line "strong, it must be"
-	cont "fun to battle."
+	text "너 정도로 강할 수 있다면"
+	line "대전하는 것도 즐겁겠지"
 	done
-
+	
 BirdKeeperBobSeenText:
-	text "CYCLING ROAD is a"
-	line "quick shortcut to"
-	cont "CELADON."
+	text "자전거 길이"
+	line "무지개시티의 지름길이지!"
 	done
-
+	
 BirdKeeperBobBeatenText:
-	text "…Whew!"
+	text "…… ……후우!"
 	done
 
 BirdKeeperBobAfterBattleText:
-	text "If you don't have"
-	line "a BICYCLE, you're"
-
-	para "not allowed to use"
-	line "the shortcut."
+	text "자전거를 가지고 있지 않아서"
+	line "지름길을 이용 할 수 없지만말야"
 	done
-
+	
 Route18SignText:
-	text "ROUTE 18"
-
-	para "CELADON CITY -"
-	line "FUCHSIA CITY"
+	text "이곳은 18번 도로"
+	line "무지개시티 …… 연분홍시티"
 	done
-
+	
 Route18_MapEvents:
 	db 0, 0 ; filler
 

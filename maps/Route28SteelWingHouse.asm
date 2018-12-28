@@ -42,30 +42,23 @@ CelebrityHouseBookshelf:
 	jumpstd magazinebookshelf
 
 CelebrityText1:
-	text "Oh, dear."
-	line "You've found me."
-
-	para "Please don't tell"
-	line "anyone about me."
-
-	para "I'll give you this"
-	line "for keeping my"
-	cont "secret. Please?"
+	text "에잉……!"
+	line "들켜버렸네!"
+	
+	para "나에대한 것"
+	line "누구에게도 말하지마"
+	cont "이거 줄테니까"
+	cont "…… 부탁해"
 	done
 
 CelebrityText2:
-	text "It's tough being a"
-	line "top celebrity."
-
-	para "Everywhere I go,"
-	line "people chase me."
-
-	para "I just want to be"
-	line "left alone…"
+	text "잘나가는 아이돌은 괴로워"
+	line "어딜가도 사람들이 모이니까"
+	cont "조용히 지내고싶은데……"
 	done
 
 CelebritysFearowText:
-	text "FEAROW: Feero!"
+	text "깨비드릴조『드리-일!"
 	done
 
 Route28SteelWingHouse_MapEvents:

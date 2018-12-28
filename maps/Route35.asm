@@ -275,122 +275,103 @@ Route35FruitTree:
 	fruittree FRUITTREE_ROUTE_35
 
 CamperIvanSeenText:
-	text "I've been getting"
-	line "#MON data off"
-
-	para "my radio. I think"
-	line "I'm good."
+	text "라디오에서 여러 포켓몬의"
+	line "정보를 수집하고 있으니까"
+	cont "꽤 강할 것이라고 생각해"
 	done
 
 CamperIvanBeatenText:
-	text "I give!"
+	text "틀려먹었다!"
 	done
 
 CamperIvanAfterBattleText:
-	text "Music on the radio"
-	line "changes the moods"
-	cont "of wild #MON."
+	text "라디오 방송의 음악을 듣고"
+	line "야생 포켓몬이 건강해지거나"
+	cont "얌전해지기도 한단다!"
 	done
 
 CamperElliotSeenText:
-	text "I'm gonna show my"
-	line "girlfriend I'm hot"
-	cont "stuff!"
+	text "좋-아! 여자친구에게"
+	line "좋은 것을 구경이나 시켜줄까!"
 	done
 
 CamperElliotBeatenText:
-	text "I wish you would"
-	line "have lost for me…"
+	text "너……"
+	line "좀 져줘……"
 	done
 
 CamperElliotAfterBattleText:
-	text "I was humiliated"
-	line "in front of my"
-	cont "girlfriend…"
+	text "여자친구에게 창피한 것을"
+	line "보여줘버렸당……"
 	done
 
 PicnickerBrookeSeenText:
-	text "My boyfriend's"
-	line "weak, so I can't"
-	cont "rely on him."
+	text "내 남자친구 너무 약해서"
+	line "의지 할 수 없구만……"
 	done
+	
 
 PicnickerBrookeBeatenText:
-	text "Oh, my! You're so"
-	line "strong!"
+	text "아 강하구나!"
 	done
-
+	
 PicnickerBrookeAfterBattleText:
-	text "I can count on my"
-	line "#MON more than"
-	cont "my boyfriend."
+	text "남자친구보다 포켓몬쪽이"
+	line "믿음직 스러운 것도 문제구나"
 	done
 
 PicnickerKimSeenText:
-	text "Are you going to"
-	line "the GYM? Me too!"
+	text "너 포켓몬 체육관에 가고있니?"
+	line "나도 그렇걸랑"
 	done
 
 PicnickerKimBeatenText:
-	text "Oh. I couldn't"
-	line "win…"
+	text "우-웅 이길 수 없구나"
 	done
 
 PicnickerKimAfterBattleText:
-	text "The GYM BADGES are"
-	line "pretty. I collect"
-	cont "them."
+	text "체육관에서 받은 배지"
+	line "너무 예쁘기 때문에 모으고 있어"
 	done
 
 BirdKeeperBryanSeenText:
-	text "What kinds of"
-	line "BALLS do you use?"
+	text "너 포켓몬을 잡을 때"
+	line "어떤 볼을 사용하고 있니?"
 	done
-
+	
 BirdKeeperBryanBeatenText:
-	text "Yikes! Not fast"
-	line "enough!"
+	text "히야"
+	line "스피드가 부족하구만"
 	done
 
 BirdKeeperBryanAfterBattleText:
-	text "Some #MON flee"
-	line "right away."
-
-	para "Try catching them"
-	line "with KURT's FAST"
-	cont "BALL."
-
-	para "Whenever I find a"
-	line "WHT APRICORN, I"
-	cont "take it to KURT."
-
-	para "He turns it into a"
-	line "custom BALL."
+	text "바로 도망치는 포켓몬이 있지?"
+	line "그럴 때 도움이 되는 것은"
+	cont "강집 할아버지의 스피드볼!"
+	
+	para "나 하얀 규토리를 발견하면은"
+	line "강집 할아버지의 집에 가지고 가서"
+	cont "특수한 볼을 만들어 달라고 할꺼야"
 	done
 
 JugglerIrwin1SeenText:
-	text "Behold my graceful"
-	line "BALL dexterity!"
+	text "보아라!"
+	line "이 화려한 볼의 심판을!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "Whew! That was a"
-	line "jolt!"
+	text "히익- 꼼짝도 못하겠다"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "I was going to"
-	line "dazzle you with my"
-	cont "prize #MON."
-
-	para "But your prowess"
-	line "electrified me!"
+	text "내가 자랑하는 포켓몬으로"
+	line "꼼짝못하게 만들려고 생각했는데"
+	cont "너의 강함에 내가 꼼짝도 못하겠어"
 	done
 
 BugCatcherArnieSeenText:
-	text "I'll go anywhere"
-	line "if bug #MON"
-	cont "appear there."
+	text "벌레포켓몬이 있다면"
+	line "어떤 곳이든 찾아간다"
 	done
 
 BugCatcherArnieBeatenText:
@@ -399,11 +380,9 @@ BugCatcherArnieBeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My VENONAT won me"
-	line "the Bug-Catching"
-
-	para "Contest at the"
-	line "NATIONAL PARK."
+	text "내 소중한 콘팡은"
+	line "공원의 곤충채집 대회에서"
+	cont "우승했을 때의 포켓몬이란다"
 	done
 
 BugCatcherArnieYanmaText:
@@ -415,49 +394,40 @@ BugCatcherArnieYanmaText:
 	done
 
 FirebreatherWaltSeenText:
-	text "I'm practicing my"
-	line "fire breathing."
+	text "이런 곳에서"
+	line "불을 뿜는 연습을!"
 	done
 
 FirebreatherWaltBeatenText:
-	text "Ow! I scorched the"
-	line "tip of my nose!"
+	text "아뜨뜨뜨"
+	line "코끝이 타버렸다"
 	done
 
 FirebreatherWaltAfterBattleText:
-	text "The #MON March"
-	line "on the radio lures"
-	cont "wild #MON."
+	text "라디오로 포켓몬마치를 듣고 있으면"
+	line "평상시보다 더 포켓몬이 튀어나온다"
 	done
 
 OfficerDirkSeenText:
-	text "Danger lurks in"
-	line "the night!"
+	text "밤에는 위험이 가득하다!"
 	done
 
 OfficerDirkBeatenText:
-	text "Whoops!"
+	text "허허 이런이런"
 	done
 
 OfficerDirkAfterBattleText:
-	text "You know, night-"
-	line "time is fun in its"
-	cont "own ways."
-
-	para "But don't overdo"
-	line "it, OK?"
+	text "밤은 밤이라서 즐거운 것이지"
+	line "그럼 그다지 무리는 하지 말거라"
 	done
-
+	
 OfficerDirkPrettyToughText:
-	text "Your #MON look"
-	line "pretty tough."
-
-	para "You could go any-"
-	line "where safely."
+	text "강해보이는 포켓몬이군"
+	line "그렇다면 어디에 있던 안심이다"
 	done
 
 Route35SignText:
-	text "ROUTE 35"
+	text "이곳은 35번 도로"
 	done
 
 Route35_MapEvents:

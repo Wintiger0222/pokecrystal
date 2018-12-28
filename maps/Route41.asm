@@ -133,210 +133,158 @@ Route41HiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
 
 SwimmermCharlieSeenText:
-	text "The water's warm"
-	line "here. I'm loose"
-	cont "and limber."
-
-	para "Sure, I'll take"
-	line "you on!"
+	text "이곳의 바다는 따뜻하다"
+	line "몸도 풀리고 좋은 기분이다"
+	cont "잠시 상대를 해주겠다!"
 	done
 
 SwimmermCharlieBeatenText:
-	text "Yikes! I've got"
-	line "prune skin!"
+	text "물에 너무 오래 있었더니……"
 	done
 
 SwimmermCharlieAfterBattleText:
-	text "Isn't it relaxing"
-	line "just floating like"
-	cont "this?"
+	text "이렇게 멍하게 있으면"
+	line "기분이 좋지"
 	done
 
 SwimmermGeorgeSeenText:
-	text "I'm a bit tired."
-	line "If I win, lend me"
-	cont "your #MON."
+	text "약간 지쳐있는"
+	line "내가 이기면"
+	cont "너의 포켓몬을 빌려주지 않을래?"
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Pant, pant…"
+	text "하아 하아"
 	done
 
 SwimmermGeorgeAfterBattleText:
-	text "It's so far to"
-	line "CIANWOOD."
-
-	para "But it's no easy"
-	line "return trip to"
-	cont "OLIVINE either."
-
-	para "What should I do?"
+	text "진청시티까지는 멀구나"
+	line "담청시티까지 돌아가는 것도"
+	cont "힘들 것 같고 어떡게 할까?"
 	done
 
 SwimmermBerkeSeenText:
-	text "See those islands"
-	line "that are blocked"
-	cont "by whirlpools?"
-
-	para "There just has to"
-	line "be a secret!"
+	text "소용돌이에 둘러싸인 섬"
+	line "비밀이 있다고 생각하지 않니?"
 	done
 
 SwimmermBerkeBeatenText:
-	text "What's the secret"
-	line "to your strength?"
+	text "너의 강함은"
+	line "꼭 비밀이 있을꺼야!"
 	done
 
 SwimmermBerkeAfterBattleText:
-	text "It was a dark and"
-	line "stormy night…"
-
-	para "I saw this giant"
-	line "#MON flying"
-	cont "from the islands."
-
-	para "It was scattering"
-	line "feathers from its"
-	cont "silver wings."
+	text "폭풍이 치던 밤의 이야기다"
+	
+	para "소용돌이 섬으로부터"
+	line "커다란 포켓몬이"
+	cont "은빛 날개를 펼치며"
+	cont "날고 있던 것을 본적이 있어"
 	done
-
+	
 SwimmermKirkSeenText:
-	text "The waves are wild"
-	line "here."
-
-	para "They tire you out"
-	line "while you swim."
+	text "이 바다는 파도가 험해서"
+	line "헤엄치기도 힘들단다"
 	done
-
+	
 SwimmermKirkBeatenText:
-	text "I'm beat!"
+	text "지 지쳤다"
 	done
 
 SwimmermKirkAfterBattleText:
-	text "The currents keep"
-	line "me from reaching"
-	cont "that island."
+	text "바닷물의 흐름에 방해를 받아서"
+	line "저 섬에 올라갈 수가 없단다"
 	done
 
 SwimmermMathewSeenText:
-	text "Are you seeking"
-	line "the secrets of"
-	cont "WHIRL ISLANDS?"
+	text "너도 소용돌이 섬의 비밀을"
+	line "찾으러 왔는가?"
 	done
-
+	
 SwimmermMathewBeatenText:
-	text "Ooh, you've got"
-	line "great endurance!"
+	text "우우 겁난다"
 	done
-
+	
 SwimmermMathewAfterBattleText:
-	text "A secret about"
-	line "WHIRL ISLANDS…"
-
-	para "It's pitch-black"
-	line "inside!"
+	text "소용돌이 섬의 비밀……"
+	line "어쨌든간에 안에는 캄캄하다"
 	done
-
+	
 SwimmerfKayleeSeenText:
-	text "I'm on my way to"
-	line "WHIRL ISLANDS."
-
-	para "I'm going explor-"
-	line "ing with friends."
+	text "친구와 함께"
+	line "소용돌이 섬을 탐험할꺼야!"
 	done
-
+	
 SwimmerfKayleeBeatenText:
-	text "Is that how you do"
-	line "it?"
+	text "흐-응 그렇구나"
 	done
-
+	
 SwimmerfKayleeAfterBattleText:
-	text "There's supposed"
-	line "to be a big #-"
-	cont "MON deep beneath"
-	cont "WHIRL ISLANDS."
-
-	para "I wonder what it"
-	line "could be?"
+	text "소용돌이 섬의 지하에는"
+	line "커다란 포켓몬이 있다는데"
+	cont "어떤 포켓몬일까?"
 	done
-
+	
 SwimmerfSusieSeenText:
-	text "You look so ele-"
-	line "gant, riding your"
-	cont "#MON."
+	text "엥? 포켓몬을 타서"
+	line "어쩐지 우아하게 보이는구나"
 	done
-
+	
 SwimmerfSusieBeatenText:
-	text "I'm crushed…"
+	text "실망이예요"
 	done
 
 SwimmerfSusieAfterBattleText:
-	text "Wasn't there a hit"
-	line "song about a boy"
-	cont "riding a LAPRAS?"
+	text "라프라스에 타고있는 소년"
+	line "그런 노래 없었던가?"
 	done
 
 SwimmerfDeniseSeenText:
-	text "The weather is so"
-	line "beautiful, I'm in"
-	cont "a daze!"
+	text "좋은 날씨로구나……"
+	line "잠이 오기 딱 좋겠어"
 	done
 
 SwimmerfDeniseBeatenText:
-	text "Ohhh!"
+	text "히-잉"
 	done
 
 SwimmerfDeniseAfterBattleText:
-	text "A sunburn is the"
-	line "worst for skin."
-
-	para "But I don't use a"
-	line "sunblock."
-
-	para "I won't pollute"
-	line "the water."
+	text "직사광선은 피부의 천적"
+	
+	para "그렇다고 크림은 바르지 않았어"
+	line "바다가 오염이 될 테니까 "
 	done
 
 SwimmerfKaraSeenText:
-	text "If you need to"
-	line "rest, just tread"
-	cont "water."
-
-	para "You'll get your"
-	line "wind back, so you"
-
-	para "can keep on going"
-	line "strong."
+	text "헤엄치면서 쉴 때는"
+	line "배영을 하는 것이 좋아"
+	cont "피로도 풀리고 기분도 좋아지지!"
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! You have more"
-	line "energy than I do."
+	text "당신쪽이 오히려"
+	line "힘이 넘치는군!"
 	done
 
 SwimmerfKaraAfterBattleText:
-	text "I heard roars from"
-	line "deep inside the"
-	cont "ISLANDS."
+	text "그러고보니까 섬의 저편으로부터"
+	line "무언가의 울음소리가 들려왔단다"
 	done
-
+	
 SwimmerfWendySeenText:
-	text "At night, STARYU"
-	line "gather near the"
-	cont "water's surface."
+	text "밤이되면"
+	line "별가사리가 수면 근처에"
+	cont "모인단다"
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oh, dear…"
+	text "……에고에고"
 	done
 
 SwimmerfWendyAfterBattleText:
-	text "The clusters of"
-	line "STARYU light up"
-	cont "at the same time."
-
-	para "It's so beautiful,"
-	line "it's scary."
+	text "모인 별가사리들이"
+	line "일제히 빛을 뿜는다!"
+	cont "무서울 정도로 아름다웠단다!"
 	done
 
 Route41_MapEvents:

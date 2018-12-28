@@ -223,217 +223,156 @@ MovementData_0x6a2e9:
 	step_end
 
 UnknownText_0x6a2eb:
-	text "Today's @"
+	text "오늘은 @"
 	text_ram wStringBuffer3
-	text "."
-	line "That means the"
-
-	para "Bug-Catching Con-"
-	line "test is on today."
-
-	para "The rules are sim-"
-	line "ple."
-
-	para "Using one of your"
-	line "#MON, catch a"
-
-	para "bug #MON to be"
-	line "judged."
-
-	para "Would you like to"
-	line "give it a try?"
+	text "요일"
+	line "곤충채집 대회가 열립니다"
+	
+	para "룰은 간단!"
+	
+	para "지니고있는 포켓몬 한마리로"
+	line "강해보이는 벌레포켓몬을"
+	cont "잡을 수 있을까를 경쟁하는겁니다"
+	
+	para "참가 하겠습니까?"
 	done
 
 UnknownText_0x6a39d:
-	text "Here are the PARK"
-	line "BALLS for the"
-	cont "Contest."
+	text "대회에서 사용하는"
+	line "전용볼을 받으세요!"
 	done
 
 UnknownText_0x6a3c7:
-	text "<PLAYER> received"
-	line "20 PARK BALLS."
+	text "<PLAYER>는(은)"
+	line "파크볼을 20개 얻었다"
 	done
 
 UnknownText_0x6a3e2:
-	text "The person who"
-	line "gets the strong-"
-	cont "est bug #MON"
-	cont "is the winner."
-
-	para "You have 20"
-	line "minutes."
-
-	para "If you run out of"
-	line "PARK BALLS, you're"
-	cont "done."
-
-	para "You can keep the"
-	line "last #MON you"
-	cont "catch as your own."
-
-	para "Go out and catch"
-	line "the strongest bug"
-
-	para "#MON you can"
-	line "find!"
+	text "제일 강해보이는 포켓몬을"
+	line "잡은 사람이 우승입니다!"
+	
+	para "제한시간은 20분!"
+	
+	para "또한 파크볼이 다 떨어져도"
+	line "종료됩니다!"
+	
+	para "마지막에 잡은 포켓몬은"
+	line "참가자의 포켓몬이 됩니다!"
+	
+	para "힘을내서 강해보이는"
+	line "포켓몬을 잡아주세요!"
 	done
 
 UnknownText_0x6a4c6:
-	text "Uh-oh…"
+	text "엥?"
+	line "포켓몬이 한마리가 아니로군요!"
 
-	para "You have more than"
-	line "one #MON."
-
-	para "You'll have to use"
+	para "시합에 필요한 포켓몬……"
 	line "@"
 	text_ram wStringBuffer3
-	text ", the"
-
-	para "first #MON in"
-	line "your party."
-
-	para "Is that OK with"
-	line "you?"
+	text "(으)로"
+	cont "참가하기로 되었습니다"
+	cont "괜찮겠습니까?"
 	done
-
 UnknownText_0x6a537:
-	text "Fine, we'll hold"
-	line "your other #MON"
-	cont "while you compete."
+	text "그럼 남은 포켓몬은"
+	line "여기에 맡아놓겠습니다!"
 	done
 
 UnknownText_0x6a56b:
-	text "<PLAYER>'s #MON"
-	line "were left with the"
-	cont "CONTEST HELPER."
+	text "<PLAYER>는(은) 관계자에게"
+	line "포켓몬을 맡겼다!"
 	done
-
+	
 UnknownText_0x6a597:
-	text "Please choose the"
-	line "#MON to be used"
-
-	para "in the Contest,"
-	line "then come see me."
+	text "대회에서 싸우게 할"
+	line "포켓몬을 정하고 나서"
+	cont "다시 한번 부탁을 드리겠습니다"
 	done
 
 UnknownText_0x6a5dc:
-	text "OK. We hope you'll"
-	line "take part in the"
-	cont "future."
+	text "그렇습니까"
+	line "다음 번에는 꼭 참가해주세요!"
 	done
 
 UnknownText_0x6a608:
-	text "Uh-oh…"
-	line "The first #MON"
-
-	para "in your party"
-	line "can't battle."
-
-	para "Please switch it"
-	line "with the #MON"
-
-	para "you want to use,"
-	line "then come see me."
+	text "엥?"
+	line "참가할 포켓몬이"
+	cont "싸울 수 없어 보이는군요"
+	
+	para "포켓몬을 바꾸고나서"
+	line "와주세요"
 	done
-
+	
 UnknownText_0x6a67c:
-	text "Uh-oh…"
-	line "Both your party"
-
-	para "and your PC BOX"
-	line "are full."
-
-	para "You have no room"
-	line "to put the bug"
-	cont "#MON you catch."
-
-	para "Please make room"
-	line "in your party or"
-
-	para "your PC BOX, then"
-	line "come see me."
+	text "엥?"
+	line "소지품과 컴퓨터 박스도"
+	cont "가득인 것 같군요"
+	
+	para "그렇다면 벌레포켓몬을"
+	line "잡아도 지닐 수 없어요"
+	
+	para "소지품과 컴퓨터 박스를"
+	line "정리하고 와주세요"
 	done
 
 UnknownText_0x6a71f:
-	text "Uh-oh…"
-	line "You have an EGG as"
-
-	para "the first #MON"
-	line "in your party."
-
-	para "Please switch it"
-	line "with the #MON"
-
-	para "you want to use,"
-	line "then come see me."
+	text "엥?"
+	line "맨 앞의 포켓몬이"
+	cont "알 같군요"
+	
+	para "포켓몬을 바꾸고나서"
+	line "와주세요"
 	done
 
 UnknownText_0x6a79a:
-	text "You still have @"
+	text "남은 시간은"
+	line "앞으로 @"
 	text_ram wStringBuffer3
-	text_start
-	line "minute(s) left."
-
-	para "Do you want to"
-	line "finish now?"
+	text "분입니다"
+	cont "벌써 끝을 내겠습니까?"
 	done
 
 UnknownText_0x6a7db:
-	text "OK. Please wait at"
-	line "the North Gate for"
-
-	para "the announcement"
-	line "of the winners."
+	text "그렇습니까"
+	line "그럼 위의 게이트에서"
+	cont "결과발표를"
+	cont "기다려주십시오"
 	done
 
 UnknownText_0x6a823:
-	text "OK. Please get"
-	line "back outside and"
-	cont "finish up."
+	text "그렇습니까"
+	line "그럼 남은 시간"
+	cont "더욱 분발하고 와주십시요"
 	done
 
 UnknownText_0x6a84f:
-	text "Today's Contest is"
-	line "over. We hope you"
-
-	para "will participate"
-	line "in the future."
+	text "오늘의 콘테스트는"
+	line "끝났어요"
+	cont "다음에 다시 참가해주세요!"
 	done
 
 UnknownText_0x6a894:
-	text "We hold Contests"
-	line "regularly in the"
-
-	para "PARK. You should"
-	line "give it a shot."
+	text "공원에서는 가끔"
+	line "대회가 열린단다"
+	cont "괜찮다면 너도 참가하지 않을래?"
 	done
-
+	
 Route35NationalParkGateYoungsterText:
-	text "When is the next"
-	line "Bug-Catching Con-"
-	cont "test going to be?"
+	text "곤충채집 대회"
+	line "다음은 언제일까?"
 	done
 
 BugCatchingContestExplanationText:
-	text "The Bug-Catching"
-	line "Contest is held on"
-
-	para "Tuesday, Thursday"
-	line "and Saturday."
-
-	para "Not only do you"
-	line "earn a prize just"
-
-	para "for participating,"
-	line "you also get to"
-
-	para "keep the bug"
-	line "#MON you may"
-
-	para "have at the end of"
-	line "the contest."
+	text "곤충채집 대회가"
+	line "열리는 것은……"
+	cont "화요일 목요일 토요일"
+	
+	para "참가상을 받는 것은 물론이고"
+	line "잡은 벌레포켓몬을"
+	cont "자기가 가질 수 있습니다"
 	done
+
 
 Route35NationalParkGate_MapEvents:
 	db 0, 0 ; filler

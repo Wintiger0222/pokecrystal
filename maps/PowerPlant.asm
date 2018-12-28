@@ -213,177 +213,124 @@ MovementData_0x188eda:
 	step_end
 
 UnknownText_0x188ee0:
-	text "A thief broke into"
-	line "the POWER PLANT…"
-
-	para "What is the world"
-	line "coming to?"
+	text "발전소에"
+	line "도둑이 들다니"
+	cont "전대미문의 사건이다……"
 	done
 
 UnknownText_0x188f22:
-	text "I just got word"
-	line "from CERULEAN."
-
-	para "It appears that a"
-	line "shady character"
-
-	para "has been loitering"
-	line "around."
+	text "블루시티로부터"
+	line "연락이 있었습니다!"
+	
+	para "괴상한 남자가 길 한복판에서"
+	line "어슬렁 거린다는 것이었습니다!"
 	done
 
 UnknownText_0x188f7f:
-	text "Could I ask for"
-	line "your cooperation?"
+	text "괜찮다면 너도"
+	line "협력해주지 않겠니?"
 	done
 
 UnknownText_0x188fa2:
-	text "We'll have to beef"
-	line "up our security"
-	cont "presence."
+	text "이제부터는 경비를"
+	line "강화하지 않으면!"
 	done
 
 UnknownText_0x188fcf:
-	text "Someone made off"
-	line "with a part that's"
-
-	para "essential for the"
-	line "generator."
-
-	para "Without it, the"
-	line "new generator's"
-	cont "useless!"
+	text "발전기의 부품이"
+	line "어떤자에의해 도둑맞았다!"
+	
+	para "부품이 없으면 신형의"
+	line "발전기를 움직이게 할 수 없단다!"
 	done
 
 UnknownText_0x189038:
-	text "The generator's up"
-	line "and running. It's"
-
-	para "making electricity"
-	line "to spare."
+	text "매일 많은 전기를"
+	line "만들 수 있게 되었단다!"
 	done
 
 UnknownText_0x189079:
-	text "This POWER PLANT"
-	line "had been abandoned"
-	cont "in the past."
-
-	para "We got it back up"
-	line "and running to"
-
-	para "provide power to"
-	line "the MAGNET TRAIN."
+	text "이곳은 이전에 무인"
+	line "발전소였단다"
+	
+	para "그러나 리니어 기차의"
+	line "전력을 만들기위해"
+	cont "다시 만들어진 것이다"
 	done
 
 UnknownText_0x1890ef:
-	text "The generator's"
-	line "running again!"
+	text "무사히 발전기가"
+	line "움직이게끔 되었단다!"
 	done
-
 UnknownText_0x18910e:
-	text "The POWER PLANT's"
-	line "MANAGER is up"
-	cont "ahead."
-
-	para "But since someone"
-	line "wrecked the gener-"
-	cont "ator, he's been"
-	cont "both sad and"
-	cont "furious…"
+	text "이 앞은 발전실"
+	line "소장님이 계시지만"
+	cont "기계가 부서져서"
+	cont "화를 내거나 슬퍼하기도 하고……"
 	done
-
+	
 UnknownText_0x18917f:
-	text "Since the gener-"
-	line "ator's been fixed,"
-
-	para "the MANAGER has"
-	line "been cheerful."
+	text "기계가 고쳐져서"
+	line "소장님도 기운이 넘친다!"
 	done
 
 UnknownText_0x1891c2:
-	text "The MAGNET TRAIN"
-	line "consumes a lot of"
-	cont "electricity."
-
-	para "It can't move if"
-	line "the new generator"
-	cont "isn't operating."
+	text "리니어 기차는 많은 전기를"
+	line "사용하는 교통수단이니까"
+	
+	para "신형 발전기가 움직이지 않으면"
+	line "리니어 기차는 멈춘채로 끝이란다"
 	done
 
 UnknownText_0x189225:
-	text "All right! We can"
-	line "finally get the"
-
-	para "MAGNET TRAIN"
-	line "running again."
+	text "이제 드디어 리니어 기차를"
+	line "움직이게 할 수 있다!"
 	done
-
+	
 UnknownText_0x189264:
-	text "MANAGER: I, I, I'm"
-	line "ready to blast"
-	cont "someone!"
-
-	para "Who would dare"
-	line "ruin my generator?"
-
-	para "I spent so much"
-	line "time on it!"
-
-	para "If I catch him,"
-	line "he's going to get"
-
-	para "a taste of my ZAP"
-	line "CANNON!"
+	text "소장『요 요 용서 못해!"
+	
+	para "내가 많은 시간을 투자한"
+	line "발전기를 고장내다니!"
+	
+	para "붙잡히기만 하면"
+	line "필살의 전자포로"
+	cont "박살낼꺼야!!"
 	done
-
+	
 UnknownText_0x189308:
-	text "MANAGER: I won't"
-	line "forgive him!"
-
-	para "The culprit can"
-	line "cry and apologize,"
-
-	para "but I'll still"
-	line "hammer him!"
-
-	para "Gahahahah!"
+	text "소장『나는 용서할 수 없다!"
+	line "범인이 울면서 싹싹 빌어도말야!"
+	cont "크흑 크흑 크흐흑……!"
 	done
 
 UnknownText_0x18936e:
-	text "MANAGER: Ah! Yeah!"
-
-	para "That's the missing"
-	line "PART from my be-"
-	cont "loved generator!"
-	cont "You found it?"
+	text "소장『오 오 오 오옷!!"
+	
+	para "그것은 나의 귀여운"
+	line "발전기의 부품이 아닌가!"
+	cont "자네가 찾아주었는가!"
 	done
 
 UnknownText_0x1893c4:
-	text "Wahah! Thanks!"
-
-	para "Here! Take this TM"
-	line "as a reward!"
+	text "얘야!!"
+	line "고맙단다!"
+	cont "고마움의 표시로"
+	cont "이 기술머신을 주마!"
 	done
 
 UnknownText_0x1893f4:
-	text "MANAGER: TM07 is"
-	line "my ZAP CANNON."
-
-	para "It's a powerful"
-	line "technique!"
-
-	para "It's not what any-"
-	line "one would consider"
-
-	para "accurate, but it"
-	line "packs a wallop!"
+	text "소장『기술머신07은"
+	line "나의 필살 전자포!"
+	cont "강력한 기술이란다!"
+	
+	para "약간 명중률은 떨어지지만……"
+	line "위력은 대단하단다!"
 	done
 
 UnknownText_0x189475:
-	text "MANAGER: My be-"
-	line "loved generator!"
-
-	para "Keep pumping the"
-	line "electricity out!"
+	text "소장『내 발전기!"
+	line "점점 전기를 만들고 있다!"
 	done
 
 PowerPlant_MapEvents:

@@ -253,161 +253,118 @@ Route26MaxElixer:
 	itemball MAX_ELIXER
 
 CooltrainermJakeSeenText:
-	text "I'm making my"
-	line "final preparations"
-
-	para "for the #MON"
-	line "LEAGUE."
+	text "포켓몬 리그에 도전하기위해"
+	line "마지막 조정을 하고있단다"
 	done
-
+	
 CooltrainermJakeBeatenText:
-	text "I blew it!"
+	text "시 실패했다!"
 	done
-
+	
 CooltrainermJakeAfterBattleText:
-	text "It's going to be"
-	line "tough to win at"
-	cont "the LEAGUE."
-
-	para "I need to do some"
-	line "more training."
-
-	para "I hear that the"
-	line "LEAGUE's ELITE"
-
-	para "FOUR are tougher"
-	line "than GYM LEADERS."
+	text "더욱 포켓몬을 단련시키지 않으면"
+	line "이기는 것이 어려울 것 같다"
+	
+	para "지금까지의 체육관 관장보다"
+	line "훨씬 강하다고 들었으니까"
+	cont "포켓몬 리그에 있는 사천왕은!"
 	done
-
+	
 CooltrainermGaven3SeenText:
-	text "By experiencing"
-	line "tough battles, you"
-	cont "gain power."
+	text "어려운 싸움을 계속해서"
+	line "진정한 강함을 배운다!"
 	done
-
+	
 CooltrainermGaven3BeatenText:
-	text "Gaah! Life is even"
-	line "tougher!"
+	text "인생이란 더욱 힘들지!"
 	done
-
+	
 CooltrainermGavenAfterText:
-	text "To get to #MON"
-	line "LEAGUE, you have"
-
-	para "to get through"
-	line "VICTORY ROAD."
-
-	para "But VICTORY ROAD"
-	line "is tough."
-
-	para "Practically nobody"
-	line "goes there!"
+	text "포켓몬 리그에 가기 위해서는"
+	line "챔피언 로드를 넘지 않으면……"
+	
+	para "하지만 챔피언 로드는"
+	line "아무도 없을정도로 험난하단다"
 	done
-
+	
 CooltrainerfJoyceSeenText:
-	text "Since you've come"
-	line "this far, you must"
-	cont "be good."
-
-	para "I'm going to give"
-	line "this battle every-"
-	cont "thing I've got!"
+	text "여기에 있다는 것은"
+	line "나름대로 실력이 있다는 증거!"
+	
+	para "나도 전력을 다해서"
+	line "상대를 해주겠어!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "No! I don't"
-	line "believe this!"
+	text "이런!"
+	line "믿을 수가 없어!"
 	done
-
+	
 CooltrainerfJoyceAfterBattleText:
-	text "I've defeated"
-	line "eight GYM LEADERS,"
-
-	para "so I was feeling"
-	line "confident."
-
-	para "I'll have to try"
-	line "harder next time."
+	text "8명의 체육관 관장에게 이겨서"
+	line "자신 있었는데……"
+	
+	para "더욱 더 열심히 해야겠군!"
 	done
 
 CooltrainerfBeth1SeenText:
-	text "I lost to a train-"
-	line "er named <RIVAL>."
-
-	para "He was really"
-	line "strong, but…"
-
-	para "It was as if he"
-	line "absolutely had to"
-	cont "win at any cost."
-
-	para "I felt sorry for"
-	line "his #MON."
+	text "<RIVAL>(이)라고 하는"
+	line "트레이너에게 졌다……"
+	
+	para "엄청 강했지만"
+	line "승부에만 집착한다는 기분이 들어"
+	cont "포켓몬이 불쌍했어"
 	done
 
 CooltrainerfBeth1BeatenText:
-	text "#MON aren't"
-	line "tools of war."
+	text "역시 포켓몬은"
+	line "싸움의 도구가 아니니까말야"
 	done
 
 CooltrainerfBethAfterText:
-	text "#MON are in-"
-	line "valuable, lifelong"
-	cont "partners."
+	text "포켓몬은 일생을 함께하는"
+	line "소중한 파트너니까"
 	done
 
 PsychicRichardSeenText:
-	text "Wow, look at all"
-	line "those BADGES!"
-	cont "I'm impressed."
-
-	para "But you're not"
-	line "satisfied by just"
-
-	para "collecting them,"
-	line "right?"
+	text "그 배지의 수"
+	line "대단하구나!"
+	
+	para "하지만 배지를 모은 것 만으로"
+	line "만족하는 것은 금물이다"
 	done
+	
 
 PsychicRichardBeatenText:
-	text "Good battle!"
+	text "좋은 승부였다!"
 	done
 
 PsychicRichardAfterBattleText:
-	text "People and #MON"
-	line "grow from their"
-	cont "experiences."
-
-	para "Don't get lazy and"
-	line "complacent."
+	text "모든 것을 경험함으로"
+	line "사람도 포켓몬도 성장해간다"
+	
+	para "너 이제부터도"
+	line "방심하지 말고 열심히 해야한다!"
 	done
 
 FisherScottSeenText:
-	text "I'm feeling great"
-	line "today!"
-
-	para "I feel like I"
-	line "could boot even"
-	cont "the LEAGUE CHAMP!"
+	text "오늘은 기분 최고!"
+	line "지금이라면 포켓몬 리그의"
+	cont "챔피언이라도 이길 수 있겠다!"
 	done
 
 FisherScottBeatenText:
-	text "No! Not in this"
-	line "battle!"
+	text "에구구"
+	line "승부는 틀려버렸나"
 	done
-
 FisherScottAfterBattleText:
-	text "Just like in fish-"
-	line "ing, it's all over"
-
-	para "in #MON if you"
-	line "give up."
+	text "낚시도 포켓몬도"
+	line "포기한다면 그것으로 끝이구나"
 	done
 
 Route26SignText:
-	text "ROUTE 26"
-
-	para "#MON LEAGUE"
-	line "RECEPTION GATE"
+	text "이곳은 26번 도로"
+	line "포켓몬 리그 접수처 게이트"
 	done
 
 Route26_MapEvents:

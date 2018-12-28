@@ -13,13 +13,11 @@ Route16FuchsiaSpeechHouseBookshelf:
 	jumpstd picturebookshelf
 
 Route16FuchsiaSpeechHouseSuperNerdText:
-	text "If you cruise down"
-	line "CYCLING ROAD, you"
-
-	para "will end up in"
-	line "FUCHSIA CITY."
+	text "자전거 길을"
+	line "달려 내려가면"
+	cont "연분홍시티에 갈 수있어"
 	done
-
+	
 Route16FuchsiaSpeechHouse_MapEvents:
 	db 0, 0 ; filler
 

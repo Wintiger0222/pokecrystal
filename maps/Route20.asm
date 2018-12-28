@@ -50,64 +50,52 @@ CinnabarGymSign:
 	jumptext CinnabarGymSignText
 
 SwimmerfNicoleSeenText:
-	text "I feel so much"
-	line "lighter in water."
+	text "물에 들어가면"
+	line "몸이 가벼워지는 느낌이 들어"
 	done
-
+	
 SwimmerfNicoleBeatenText:
-	text "Oh, no!"
+	text "싫-어!"
 	done
 
 SwimmerfNicoleAfterBattleText:
-	text "Swimming exercises"
-	line "your full body."
-
-	para "It's really good"
-	line "for you."
+	text "수영은 전신을 사용하니까"
+	line "건강에 매우 좋단다!"
 	done
 
 SwimmerfLoriSeenText:
-	text "What an impressive"
-	line "collection of GYM"
-
-	para "BADGES. We should"
-	line "battle!"
+	text "굉장히 배지를 많이 모았군!"
+	line "승부하자!"
 	done
 
 SwimmerfLoriBeatenText:
-	text "No!"
+	text "싫어-!"
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF is no longer"
-	line "the only HM move"
-	cont "you use in water."
+	text "물에서 쓸 수 있는 비전기술은"
+	line "파도타기만이 아니지"
 	done
-
+	
 SwimmermCameronSeenText:
-	text "I guess it's im-"
-	line "possible to swim"
-
-	para "all the way to"
-	line "JOHTO."
+	text "이대로 성도까지"
+	line "헤엄치기는 무리일꺼야"
 	done
 
 SwimmermCameronBeatenText:
-	text "Aiyah!"
+	text "으학-!"
 	done
 
 SwimmermCameronAfterBattleText:
-	text "Besides the sea, I"
-	line "can also swim in"
-	cont "ponds and rivers."
+	text "바다이외에도 연못이랑 "
+	line "여기저기 있지……"
 	done
 
 CinnabarGymSignText:
-	text "What does this"
-	line "sign say?"
-
-	para "CINNABAR GYM"
-	line "LEADER: BLAINE"
+	text "…… 벽보가 붙어있다!"
+	
+	para "홍련마을의 체육관은 이곳!"
+	line "체육관 관장 강연"
 	done
 
 Route20_MapEvents:

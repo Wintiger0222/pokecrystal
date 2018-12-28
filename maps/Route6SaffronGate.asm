@@ -27,32 +27,18 @@ Route6SaffronGuardScript:
 	end
 
 Route6SaffronGuardWelcomeText:
-	text "Welcome to SAFFRON"
-	line "CITY, home of the"
-	cont "MAGNET TRAIN!"
-
-	para "…That's what I'd"
-	line "normally say, but"
-
-	para "the MAGNET TRAIN"
-	line "isn't running now."
-
-	para "It's not getting"
-	line "any electricity"
-
-	para "because there's"
-	line "something wrong"
-
-	para "with the POWER"
-	line "PLANT."
+	text "리니어 기차의 마을"
+	line "노랑시티에 잘 오셨습니다!"
+	
+	para "……라고 하면 좋겠지만"
+	line "발전소에 사고가 난 것처럼"
+	cont "전기를 보내주지 않으니까"
+	cont "리니어가 움직이지 않고 있단다"
 	done
 
 Route6SaffronGuardMagnetTrainText:
-	text "The MAGNET TRAIN"
-	line "is the most famous"
-
-	para "thing about SAF-"
-	line "FRON."
+	text "노랑시티에서 유명한 것은"
+	line "역시 리니어 기차지!"
 	done
 
 Route6SaffronGate_MapEvents:

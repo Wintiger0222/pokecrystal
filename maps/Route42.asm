@@ -224,96 +224,72 @@ Route42SuicuneMovement:
 	step_end
 
 FisherTullySeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#MON I caught!"
+	text "내가 낚아 올린 포켓몬"
+	line "그 강함을 보여주겠다!"
 	done
 
 FisherTullyBeatenText:
-	text "What? That's not"
-	line "right."
+	text "오잉? 이상하네"
 	done
 
 FisherTullyAfterBattleText:
-	text "I want to become"
-	line "the trainer CHAMP"
-
-	para "using the #MON"
-	line "I caught."
-
-	para "That's the best"
-	line "part of fishing!"
+	text "호호호 낚아 올린 포켓몬으로"
+	line "최강의 트레이너를 목표로!"
+	cont "이것이야말로 낚싯꾼의 참맛"
 	done
 
 HikerBenjaminSeenText:
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "역시 하늘 아래는 좋구나!"
+	line "기분까지도 넓게 트이니까!"
 	done
 
 HikerBenjaminBeatenText:
-	text "Gahahah!"
+	text "캬하핫!"
 	done
 
 HikerBenjaminAfterBattleText:
-	text "Losing feels in-"
-	line "significant if you"
-
-	para "look up at the big"
-	line "sky!"
+	text "하늘의 광대함에 비교하면"
+	line "졌다는 것은 아주 작은 것!"
 	done
 
 PokemaniacShaneSeenText:
-	text "HEY!"
-
-	para "This is my secret"
-	line "place! Get lost,"
-	cont "you outsider!"
+	text "어이!"
+	
+	para "이 근방은 비밀의 낚시터란다"
+	line "이방인이 소란 피우지 말아 줘!"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my MOON STONE…"
+	text "아아 달맞이 돌을"
+	line "사용했다면 좋았을까?"
 	done
 
 PokemaniacShaneAfterBattleText:
-	text "You're working on"
-	line "a #DEX?"
-
-	para "Wow, you must know"
-	line "some pretty rare"
-	cont "#MON!"
-
-	para "May I please see"
-	line "it. Please?"
+	text "호오 포켓몬 도감을 만들고 있어?"
+	line "그럼 진귀한 포켓몬이라든가"
+	cont "여러가지 알고 있겠구나?"
+	
+	para "저기 나한테도 도감을 보여줘"
 	done
 
 Route42Sign1Text:
-	text "ROUTE 42"
-
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	text "이곳은 42번 도로"
+	line "인주시티 …… 황토마을"
 	done
 
 MtMortarSign1Text:
-	text "MT.MORTAR"
-
-	para "WATERFALL CAVE"
-	line "INSIDE"
+	text "절구산"
+	line "안은 큰 폭포의 동굴"
 	done
-
+	
 MtMortarSign2Text:
-	text "MT.MORTAR"
-
-	para "WATERFALL CAVE"
-	line "INSIDE"
+	text "절구산"
+	line "안은 큰 폭포의 동굴"
 	done
-
+	
 Route42Sign2Text:
-	text "ROUTE 42"
-
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	text "이곳은 42번 도로"
+	line "인주시티 …… 황토마을"
 	done
 
 Route42_MapEvents:

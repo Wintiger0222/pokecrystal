@@ -266,153 +266,114 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "DARK CAVE…"
-
-	para "If #MON could"
-	line "light it up, I'd"
-	cont "explore it."
+	text "어둠의 동굴……"
+	line "포켓몬이 주변을 밝게 해주는"
+	cont "기술을 쓸 수 있다면"
+	cont "안을 조사해 볼 수 있을텐데"
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "잔뜩 포켓몬을 잡았다"
+	line "잠시 승부를 겨루어줘!"
 	done
 
 BugCatcherWade1BeatenText:
-	text "Awwwww…"
+	text "어쩐지-"
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
-
-	para "you have six with"
-	line "you."
-
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	text "6마리를 가지고 있을 때"
+	line "포켓몬을 잡으면"
+	cont "컴퓨터 통신에서 자동적으로"
+	cont "박스에 보내어진단다!"
 	done
 
 Text_Route31SleepyMan:
-	text "… Hnuurg… Huh?"
-
-	para "I walked too far"
-	line "today looking for"
-	cont "#MON."
-
-	para "My feet hurt and"
-	line "I'm sleepy…"
-
-	para "If I were a wild"
-	line "#MON, I'd be"
-	cont "easy to catch…"
-
-	para "…Zzzz…"
+	text "움 음냐음냐……"
+	
+	para "포켓몬을 찾아서 너무 돌아다녔다"
+	line "다리는 아프고 잠도오고……"
+	
+	para "내가 야생 포켓몬이라면"
+	line "잡기 쉬운 상태다……"
+	cont "쿠우…… 음냐음냐……"
 	done
 
 Text_Route31SleepyManGotMail:
-	text "…Zzzz… Huh?"
-
-	para "What's that? You"
-	line "have MAIL for me?"
+	text "쿠우…… 음냐음냐……"
+	
+	para "응? 뭐라고?"
+	line "나에게 메일을 가져왔다고?"
 	done
 
 Text_Route31HandOverMailMon:
-	text "<PLAYER> handed"
-	line "over the #MON"
-	cont "holding the MAIL."
+	text "<PLAYER>는(은) 메일을 지닌"
+	line "포켓몬을 건네주었다!"
 	done
 
 Text_Route31ReadingMail:
-	text "Let's see…"
-
-	para "…DARK CAVE leads"
-	line "to another road…"
-
-	para "That's good to"
-	line "know."
-
-	para "Thanks for bring-"
-	line "ing this to me."
-
-	para "My friend's a good"
-	line "guy, and you're"
-	cont "swell too!"
-
-	para "I'd like to do"
-	line "something good in"
-	cont "return too!"
-
-	para "I know! I want you"
-	line "to have this!"
+	text "머 뭐라고……"
+	
+	para "「어둠의 동굴에서부터"
+	line "다른길이 연결되어있어」"
+	cont "라고"
+	
+	para "고맙다!"
+	
+	para "친구도 친절하지만"
+	line "너도 친절하구나!"
+	
+	para "친절에 감동받아서"
+	line "나도 무언가 해주고싶어"
+	
+	para "맞아!"
+	line "이것을 줄께!"
 	done
 
 Text_Route31DescribeNightmare:
-	text "TM50 is NIGHTMARE."
-
-	para "It's a wicked move"
-	line "that steadily cuts"
-
-	para "the HP of a sleep-"
-	line "ing enemy."
-
-	para "Ooooh…"
-	line "That's scary…"
-
-	para "I don't want to"
-	line "have bad dreams."
+	text "기술머신50은 악몽"
+	
+	para "자고있는 상대의 체력을"
+	line "천천히 줄게하는 무서운 기술"
+	
+	para "우- 떨려라……"
+	line "무서운 꿈은 꾸고싶지 않아……"
 	done
 
 Text_Route31WrongMail:
-	text "This MAIL isn't"
-	line "for me."
+	text "이건 나에게 온 메일이 아니야"
 	done
 
 Text_Route31MissingMail:
-	text "Why is this #-"
-	line "MON so special?"
-
-	para "It doesn't have"
-	line "any MAIL."
+	text "그 포켓몬이 뭘 어떡했는데?"
+	line "메일을 가지고있지 않잖아"
 	done
 
 Text_Route31DeclinedToHandOverMail:
-	text "What? You don't"
-	line "want anything?"
+	text "뭐? 아무것도 아니라구?"
 	done
 
 Text_Route31CantTakeLastMon:
-	text "If I take that"
-	line "#MON from you,"
-
-	para "what are you going"
-	line "to use in battle?"
+	text "내가 그 포켓몬을 받으면"
+	line "너는 싸울 수 없게되는 것이군!"
 	done
 
 Route31YoungsterText:
-	text "I found a good"
-	line "#MON in DARK"
-	cont "CAVE."
-
-	para "I'm going to raise"
-	line "it to take on"
-	cont "FALKNER."
-
-	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	text "어둠의 동굴에서"
+	line "좋은 포켓몬을 잡았다!"
+	
+	para "이녀석을 단련시켜서"
+	line "도라지시티 체육관 관장"
+	cont "비상과 승부를 내겠어!"
 	done
 
 Route31SignText:
-	text "ROUTE 31"
-
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	text "이곳은 31번 도로"
+	line "도라지시티 …… 무궁시티"
 	done
 
 DarkCaveSignText:
-	text "DARK CAVE"
+	text "이곳은 어둠의 동굴"
 	done
 
 Route31_MapEvents:

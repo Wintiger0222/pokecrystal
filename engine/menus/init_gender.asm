@@ -20,13 +20,17 @@ InitCrystalData:
 	ret
 
 INCLUDE "mobile/mobile_12.asm"
-
+Builddat:;제거예정
+INCLUDE "build_date.asm";제거예정
 InitGender:
 	call InitGenderScreen
 	call LoadGenderScreenPal
 	call LoadGenderScreenLightBlueTile
 	call WaitBGMap2
 	call SetPalettes
+	hlcoord 0, 1 ;제거예정
+	ld de, Builddat;제거예정
+	call PlaceString;제거예정
 	ld hl, TextJump_AreYouABoyOrAreYouAGirl
 	call PrintText
 	ld hl, .MenuHeader

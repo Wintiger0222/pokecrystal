@@ -193,56 +193,44 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
-	text "Hold it there,"
-	line "kiddo!"
-
-	para "The toll is ¥1000"
-	line "to go through."
+	text "잠깐!"
+	
+	para "이곳의 통행료는"
+	line "1000원을 내도록 되어 있습니다"
 	done
 
 RocketText_ThankYou:
-	text "Thank you very"
-	line "much!"
+	text "헤헤헤 고맙습니다!"
 	done
 
 RocketText_AllYouGot:
-	text "Then pay what you"
-	line "have, please."
+	text "그럼 있는 것만이라도 받겠어요"
 	done
 
 RocketText_MakingABundle:
-	text "He-he-he. We're"
-	line "making a bundle."
-
-	para "Everyone wants to"
-	line "see what's going"
-
-	para "on up at LAKE OF"
-	line "RAGE."
+	text "헤헤헤 분노의 호수에서"
+	line "이상한 일이 일어나고 부터는"
+	cont "지나가는 녀석들이 많아서 돈벌지!"
 	done
 
 OfficerText_FoundTM:
-	text "I got chased from"
-	line "my post by these"
-	cont "thugs in black."
-
-	para "They left this"
-	line "behind."
-
-	para "It makes me uncom-"
-	line "fortable. Could"
-	cont "you take it away?"
+	text "갑자기 검은색 투성의 녀석들에게"
+	line "쫓겨나서 큰일이었단다"
+	
+	para "이런 것이 남겨져 있었는데"
+	line "어쩐지 기분이 나쁘니까"
+	cont "네가 괜찮다면 가지고 가거라"
 	done
 
 Text_ReceivedTM30:
-	text "<PLAYER> received"
-	line "TM30."
+	text "<PLAYER>는(은)"
+	line "기술머신30을 얻었다!"
 	done
 
 OfficerText_AvoidGrass:
-	text "Use this gate to"
-	line "avoid walking in"
-	cont "the grass."
+	text "이 게이트는"
+	line "풀숲을 피해서 지나가고싶은"
+	cont "사람들을 위한 게이트란다"
 	done
 
 Route43Gate_MapEvents:

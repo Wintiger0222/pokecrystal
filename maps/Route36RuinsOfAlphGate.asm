@@ -14,22 +14,14 @@ Route36RuinsOfAlphGateGrampsScript:
 	jumptextfaceplayer Route36RuinsOfAlphGateGrampsText
 
 Route36RuinsOfAlphGateOfficerText:
-	text "Don't you wonder"
-	line "who'd make some-"
-	cont "thing like this?"
-	cont "And why?"
+	text "도대체 누가 무엇을 위하여"
+	line "이런 것을 만들었을까?"
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "Did you see that"
-	line "strange tree in"
-	cont "the road?"
-
-	para "That may explain"
-	line "why fewer people"
-
-	para "are visiting the"
-	line "RUINS OF ALPH."
+	text "도로에 이상한 나무가 있었지"
+	line "그때문인가 모르겠지만"
+	cont "유적에도 손님이 줄어들었다"
 	done
 
 Route36RuinsOfAlphGate_MapEvents:

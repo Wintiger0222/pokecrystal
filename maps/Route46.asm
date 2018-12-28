@@ -169,83 +169,61 @@ Route46FruitTree2:
 	fruittree FRUITTREE_ROUTE_46_2
 
 HikerBaileySeenText:
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #MON!"
+	text "좋-아!"
+	line "산의 포켓몬의 강력함을"
+	cont "가르쳐주마!"
 	done
 
 HikerBaileyBeatenText:
-	text "Mercy! You showed"
-	line "me your power!"
+	text "졌다!"
+	line "너의 강함을 충분히 알았다!"
 	done
 
 HikerBaileyAfterBattleText:
-	text "It's over. I don't"
-	line "mind. We HIKERS"
-	cont "are like that."
+	text "끝난 것은 마음을 두지 않아!"
+	line "그것이 등산가의 마음가짐!"
 	done
 
 CamperTedSeenText:
-	text "I'm raising #-"
-	line "MON too!"
-
-	para "Will you battle"
-	line "with me?"
+	text "나도 포켓몬을 키우고 있어"
+	line "잠시 상대해줘!"
 	done
 
 CamperTedBeatenText:
-	text "Wha…?"
+	text "엥?"
 	done
 
 CamperTedAfterBattleText:
-	text "I did my best but"
-	line "came up short."
-
-	para "No excuses--I"
-	line "admit I lost."
+	text "잘 싸워서도 이기지 못 했다면"
+	line "있는 그대로 패배를 인정하겠어!"
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #MON"
-	line "too!"
-
-	para "Will you battle"
-	line "with me?"
+	text "나도 포켓몬을 키우고 있어"
+	line "잠시 상대를 해줄래?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, rats!"
+	text "에이 짜증나!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "I've been to many"
-	line "GYMS, but the GYM"
-
-	para "in GOLDENROD is my"
-	line "favorite."
-
-	para "It's filled with"
-	line "pretty flowers!"
+	text "여러 포켓몬 체육관을 돌아다녔지만"
+	line "금빛시티 체육관이 제일 좋아"
+	cont "꽃이 가득 펴서 아름다우니까"
 	done
 
 PicnickerErin2BeatenText:
-	text "Aww… I keep losing"
-	line "all the time!"
-
-	para "I'll just have to"
-	line "try harder!"
-
-	para "Anyway, thanks for"
-	line "battling me again"
-
-	para "and again. Here's"
-	line "that present from"
-	cont "the other time."
+	text "아으으 또 져버렸어!"
+	line "다음에는 더 잘 싸울거야!"
+	
+	para "하여튼 또 싸워줘서 고마워"
+	line "보답으로 이걸 줄게"
 	done
 
 Route46SignText:
-	text "ROUTE 46"
-	line "MOUNTAIN RD. AHEAD"
+	text "이곳은 46번 도로"
+	line "이 앞은 마운틴 로드"
 	done
 
 Route46_MapEvents:

@@ -30,20 +30,16 @@ Route26HealHouseBookshelf:
 	jumpstd picturebookshelf
 
 Route26HealHouseRestAWhileText:
-	text "Your #MON look"
-	line "a little tired."
-
-	para "You should rest"
-	line "them a while."
+	text "네 포켓몬"
+	line "지쳐있는 것 같구나……"
+	
+	para "빨리 쉬게 하거라"
 	done
 
 Route26HealHouseKeepAtItText:
-	text "There!"
-
-	para "Your #MON are"
-	line "looking good!"
-
-	para "Keep at it!"
+	text "움!"
+	line "포켓몬 건강을 되찾았구나!"
+	cont "그럼 잘 하거라!"
 	done
 
 Route26HealHouse_MapEvents:

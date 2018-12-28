@@ -14,15 +14,13 @@ Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
 Route31VioletGateOfficerText:
-	text "Hi there!"
-	line "Did you visit"
-	cont "SPROUT TOWER?"
+	text "어이 아이야"
+	line "모다피의 탑 견학은 했니?"
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "꽤나 멀리도 왔다!"
+	line "집에 전화 해야지!"
 	done
 
 Route31VioletGate_MapEvents:
