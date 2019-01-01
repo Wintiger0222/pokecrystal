@@ -590,6 +590,11 @@ _PushWindow::
 	ld h, [hl]
 	ld l, a
 	set 0, [hl]
+ 	push hl
+ 	push de
+ 	farcall Korean_BackupMenuFont
+ 	pop de
+ 	pop hl
 	call MenuBoxCoord2Tile
 	call .copy
 	call MenuBoxCoord2Attr
@@ -606,7 +611,7 @@ _PushWindow::
 
 .done
 	pop hl
-	call .ret ; empty function
+;	call .ret ; empty function
 	ld a, h
 	ld [de], a
 	dec de
@@ -628,7 +633,7 @@ _PushWindow::
 	call GetMenuBoxDims
 	inc b
 	inc c
-	call .ret ; empty function
+;	call .ret ; empty function
 
 .row
 	push bc
@@ -651,7 +656,7 @@ _PushWindow::
 	ret
 
 .ret
-	ret
+ 	ret
 
 _ExitMenu::
 	xor a

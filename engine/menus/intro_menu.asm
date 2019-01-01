@@ -1350,6 +1350,7 @@ CopyrightString:
 	db "@"
 
 GameInit::
+	farcall Korean_Setup
 	farcall TryLoadSaveData
 	call ClearWindowData
 	call ClearBGPalettes

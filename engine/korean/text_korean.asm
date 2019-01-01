@@ -9,11 +9,14 @@ Korean::
 	push bc
 	call CheckTable
 	jr nc, .done
+.trim
 	call TrimTable
 	call CheckTable
 	jr nc, .done
 	ld a, $80
 .done
+ 	cp $ec
+ 	jr nc, .trim
 	pop bc
 	push af
 	push bc
@@ -26,25 +29,54 @@ Korean::
 	ret
 
 ; 폰트 속성, 테이블 초기화
-Korean_Init::
+Korean_Setup::
 	di
 	ldh a, [rSVBK]
 	push af
-	ld a, BANK(wKoreanTextTableBuffer)
+ 	ld a, BANK("Korean WRAM")
 	ldh [rSVBK], a
+; wram 초기화
 	xor a
-	ld [wKoreanFontProperty], a
-	ld c, wKoreanTextTableBufferEnd - wKoreanTextTableBuffer
-	ld hl, wKoreanTextTableBuffer
+ 	ld hl, wKorenWRAMStart
+	ld bc, $1000
 .loop
 	ld [hli], a
 	dec c
 	jr nz, .loop
+ 	dec b
+ 	jr nz, .loop
+ ; 메뉴 백업 스택 포인터 지정
+ 	ld de, wKoreanMenuBackupStackPointer
+ 	ld hl, wKoreanMenuBackupDataStart
+ 	ld a, l
+ 	ld [de], a
+ 	inc de
+ 	ld a, h
+ 	ld [de], a
 	pop af
 	ldh [rSVBK], a
 	ei
 	ret
 
+ ; 폰트 속성, 테이블 초기화 (플래그값(7) 조정)
+Korean_Init::
+ 	di
+ 	ldh a, [rSVBK]
+ 	push af
+ 	ld a, BANK(wKoreanTextTableBuffer)
+ 	ldh [rSVBK], a
+ 	xor a
+ 	ld [wKoreanFontProperty], a
+ 	ld c, wKoreanTextTableBufferEnd - wKoreanTextTableBuffer
+ 	ld hl, wKoreanTextTableBuffer
+.loop
+ 	ld [hli], a
+ 	dec c
+ 	jr nz, .loop
+ 	pop af
+ 	ldh [rSVBK], a
+ 	ei
+ 	ret
 
 ; 폰트 속성 설정
 ; 1. 기본 속성
@@ -93,8 +125,10 @@ CheckTable:
 .loop
 	bit 7, [hl]
 	jr z, .found
+.flag_6
 ; 중복 테이블 검사
 	ld a, [hli]
+ 	res 6, a
 	res 7, a
 	cp b
 	jr nz, .next
@@ -140,7 +174,7 @@ TrimTable:
 	ld a, BANK(wKoreanTextTableBuffer)
 	ldh [rSVBK], a
 	ld hl, wKoreanTextTableBuffer
-	ld c, wKoreanTextTableBufferEnd - wKoreanTextTableBuffer
+ 	ld c, (wKoreanTextTableBufferEnd - wKoreanTextTableBuffer) / 2
 .loop1
 	res 7, [hl]
 	inc hl

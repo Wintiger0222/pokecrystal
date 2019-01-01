@@ -579,6 +579,7 @@ SECTION "Korean", ROMX
 
 INCLUDE "engine/korean/naming_screen_korean.asm"
 INCLUDE "engine/korean/text_korean.asm"
+INCLUDE "engine/korean/menu_korean.asm"
 INCLUDE "data/korean/korean.asm"
 
 
