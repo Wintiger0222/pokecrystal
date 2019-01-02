@@ -10,10 +10,9 @@ VermilionPortPassageTeacherScript:
 	jumptextfaceplayer VermilionPortPassageTeacherText
 
 VermilionPortPassageTeacherText:
-	text "The FAST SHIP"
-	line "sails on Wednes-"
-	cont "days and Sundays"
-	cont "every week."
+	text "쾌속선 아쿠아호의 출항은"
+	line "매주"
+	cont "수요일과 일요일이야!"
 	done
 
 VermilionPortPassage_MapEvents:

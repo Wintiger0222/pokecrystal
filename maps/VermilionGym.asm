@@ -103,159 +103,119 @@ VermilionGymStatue:
 	jumpstd gymstatue2
 
 LtSurgeIntroText:
-	text "SURGE: Hey, you"
-	line "little tyke!"
-
-	para "I have to hand it"
-	line "to you. It may not"
-
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
-
-	para "When it comes to"
-	line "electric #MON,"
-	cont "I'm number one!"
-
-	para "I've never lost on"
-	line "the battlefield."
-
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	text "마티스『헤이!"
+	line "푸어 리틀키드!"
+	
+	para "미에게 싸움을 걸다니"
+	line "유는 주제도 모르는군!"
+	cont "미의 일렉트로닉 포켓몬"
+	cont "넘버원이다!"
+	
+	para "전장에서는 진 적이"
+	line "없다!!"
+	
+	para "유-도 적군의 솔져처럼"
+	line "찌릿찌릿 감전시켜주지!"
 	done
 
 LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
-	line "You are strong!"
-
-	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	text "마티스『오- 노-!"
+	line "유-는 스트롱"
+	
+	para "오케이!"
+	line "오렌지배지를 주마!"
 	done
 
 ReceivedThunderBadgeText:
-	text "<PLAYER> received"
-	line "THUNDERBADGE."
+	text "<PLAYER>는(은) 마티스로부터"
+	line "오렌지배지를 얻었다!"
 	done
 
 LtSurgeThunderBadgeText:
-	text "SURGE: THUNDER-"
-	line "BADGE increases"
-	cont "#MON's speed. "
-
-	para "Consider it proof"
-	line "that you defeated"
-
-	para "me. You wear it"
-	line "proudly, hear?"
+	text "마티스『오렌지배지를 지니고 있으면"
+	line "유-의 포켓몬 스피드업!"
+	
+	para "미에게 이겼다는 증거!"
+	line "소중히 해라 굿바이!"
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
-	line "Still slugging and"
-	cont "chugging away?"
-
-	para "My #MON and I"
-	line "are still at it!"
+	text "마티스『헤이! 키드!"
+	line "열심히 하고 있나"
+	
+	para "미랑 포켓몬도"
+	line "열심히 지내고 있단다!"
 	done
 
 GentlemanGregorySeenText:
-	text "You're here to"
-	line "defeat LT.SURGE?"
-
-	para "Not if I can help"
-	line "it!"
+	text "마티스 소령을"
+	line "쓰러뜨리러 왔는가!"
+	cont "그렇게는 놔둘 수 없다!"
 	done
 
 GentlemanGregoryBeatenText:
-	text "Sorry I failed"
-	line "you, LT.SURGE,"
-	cont "sir!"
+	text "죄송합니다!"
+	line "마티스 소령님!"
 	done
 
 GentlemanGregoryAfterBattleText:
-	text "When I was still"
-	line "in the army, LT."
-
-	para "SURGE saved my"
-	line "life."
+	text "군대에 있을 적 이야기다……"
+	line "나는 마티스 소령님덕에"
+	cont "생명을 건졌단다……!"
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
-	line "nized my potential"
-
-	para "with electric"
-	line "#MON."
-
-	para "Think you can beat"
-	line "me?"
+	text "전기 조련사의 실력을"
+	line "마티스님이 인정해주셨다"
+	cont "그런 나를 이길 수 있을까?"
 	done
-
+	
 GuitaristVincentBeatenText:
-	text "Ooh, how shocking!"
+	text "히익- 감전되었다!"
 	done
 
 GuitaristVincentAfterBattleText:
-	text "If the GYM's traps"
-	line "were working, you"
-
-	para "would have been"
-	line "toast…"
+	text "체육관의 장치가 움직이고 있다면"
+	line "너같은건 쓰러뜨릴 수 있었는데.!"
 	done
 
 JugglerHortonSeenText:
-	text "I'm going to take"
-	line "you down! Prepare"
-	cont "to be shocked!"
+	text "너는 내가 쓰러뜨린다!"
+	line "각오해랏!"
 	done
 
 JugglerHortonBeatenText:
-	text "Gwaaah!"
-	line "I was overpowered…"
+	text "크아악!"
+	line "강하닷!"
 	done
 
 JugglerHortonAfterBattleText:
-	text "Don't get too com-"
-	line "fortable about"
-
-	para "beating me…"
-	line "LT.SURGE is tough."
+	text "나에게 이겼다고해서"
+	line "안심하지 말아라……"
+	cont "마티스 소령님은 강하니까……"
 	done
 
 VermilionGymGuyText:
-	text "Yo! CHAMP in"
-	line "making!"
-
-	para "You lucked out"
-	line "this time."
-
-	para "LT.SURGE is very"
-	line "cautious. He has"
-
-	para "traps set all over"
-	line "the GYM."
-
-	para "But--he-heh--the"
-	line "traps aren't"
-	cont "active right now."
-
-	para "You'll have no"
-	line "problem getting to"
-	cont "LT.SURGE."
+	text "여어-!"
+	line "미래의 챔피언!"
+	cont "너 운 좋다!"
+	
+	para "늘 마티스는 신중하게"
+	line "함정을 장치해 놓았지만"
+	cont "지금은 운 좋게도 고장중!"
+	
+	para "마음을 놓지말고"
+	line "마티스랑 싸우거라!"
 	done
 
 VermilionGymGuyWinText:
-	text "Whew! That was an"
-	line "electrifying bout!"
-
-	para "It sure made me"
-	line "nervous."
+	text "익사이팅한 시합이었다!"
+	line "긴장했었다!"
 	done
 
 VermilionGymTrashCanText:
-	text "Nope! Nothing here"
-	line "but trash."
+	text "잠만보 동상……!"
+	line "안에는 쓰레기만이!"
 	done
 
 VermilionGym_MapEvents:

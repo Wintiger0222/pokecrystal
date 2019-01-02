@@ -52,47 +52,35 @@ VictoryRoadGateStepDownMovement:
 	step_end
 
 VictoryRoadGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "여기서부터 앞은"
+	line "진정 강한 포켓몬"
+	cont "트레이너만 지나갈 수 있습니다"
 	done
 
 VictoryRoadGateNotEnoughBadgesText:
-	text "You don't have all"
-	line "the GYM BADGES of"
-	cont "JOHTO."
-
-	para "I'm sorry, but I"
-	line "can't let you go"
-	cont "through."
+	text "당신은 아직 성도의 배지를"
+	line "전부 가지고있지 않습니다!"
+	
+	para "정해진 규칙이기때문에"
+	line "지나가실 수 없습니다!"
 	done
 
 VictoryRoadGateEightBadgesText:
-	text "Oh! The eight"
-	line "BADGES of JOHTO!"
-
-	para "Please, go right"
-	line "on through!"
+	text "오오-옷!"
+	line "그것은 성도의 8개의 배지"
+	cont "자 어서 들어오십시오!"
 	done
 
 VictoryRoadGateLeftBlackBeltText:
-	text "This way leads to"
-	line "MT.SILVER."
-
-	para "You'll see scary-"
-	line "strong #MON out"
-	cont "there."
+	text "이 앞은…… 은빛 산!"
+	line "무서울 정도로 강한 포켓몬이"
+	cont "번식하고 있다!"
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Off to the #MON"
-	line "LEAGUE, are you?"
-
-	para "The ELITE FOUR are"
-	line "so strong it's"
-
-	para "scary, and they're"
-	line "ready for you!"
+	text "포켓몬 리그에 도전인가?"
+	line "무서울 정도로 강한 사천왕이"
+	cont "도전을 기다리고 있다!"
 	done
 
 VictoryRoadGate_MapEvents:

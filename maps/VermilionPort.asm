@@ -227,73 +227,61 @@ MovementData_0x74efe:
 	step_end
 
 UnknownText_0x74f06:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "이제 곧 출항합니다"
+	line "승선해 주십시오"
 	done
 
 UnknownText_0x74f31:
-	text "Sorry. You can't"
-	line "board now."
+	text "배에는 탈 수 없습니다!"
 	done
 
 UnknownText_0x74f4d:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
-
-	para "Will you be board-"
-	line "ing today?"
+	text "어서오세요!"
+	line "쾌속선 아쿠아호에"
+	cont "승선하겠습니까?"
 	done
 
 UnknownText_0x74f8b:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "그럼 티켓을 확인하겠습니다"
 	done
 
 UnknownText_0x74fa7:
-	text "We hope to see you"
-	line "again!"
+	text "다음에도 계속 이용을"
+	line "부탁드립니다"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
-
-	para "That's it."
-	line "Thank you!"
+	text "<PLAYER>는(은) 선원에게"
+	line "승선티켓을 보였다!"
+	
+	para "예! 감사합니다!"
 	done
 
 UnknownText_0x74ff2:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
-
-	para "…But no TICKET!"
-
-	para "Sorry!"
-	line "You may board only"
-
-	para "if you have an"
-	line "S.S.TICKET."
+	text "<PLAYER>는(은) 선원에게"
+	line "티켓을 보이려했다……"
+	cont "티켓이…… 없어……!"
+	
+	para "……대단히 죄송합니다만"
+	
+	para "들어가는 것은"
+	line "티켓이 있는 분에 한해서입니다"
 	done
 
 UnknownText_0x75059:
-	text "The FAST SHIP will"
-	line "sail on Wednesday."
+	text "쾌속선의 출항은"
+	line "다음 수요일입니다"
 	done
 
 UnknownText_0x75080:
-	text "The FAST SHIP will"
-	line "sail next Sunday."
+	text "쾌속선의 출항은"
+	line "다음 일요일입니다"
 	done
 
 UnknownText_0x750a6:
-	text "You came from"
-	line "JOHTO?"
-
-	para "I hear many rare"
-	line "#MON live over"
-	cont "there."
+	text "너는 성도에서 왔니?"
+	line "거기에는 진귀한 포켓몬이"
+	cont "있다고 하던데"
 	done
 
 VermilionPort_MapEvents:

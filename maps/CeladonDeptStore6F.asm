@@ -79,17 +79,17 @@ CeladonDeptStore6FVendingMachine:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 0, 2, SCREEN_WIDTH - 1, TEXTBOX_Y - 1 ;11, 15?;수정필요
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags;미번역
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
-	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
-	db "CANCEL@"
+	db "맛있는　물　　　200¥@"
+	db "미네랄　사이다　300¥@"
+	db "후르츠　밀크　　350¥@"
+	db "그만두다@"
 
 CeladonDeptStore6FDirectory:
 	jumptext CeladonDeptStore6FDirectoryText

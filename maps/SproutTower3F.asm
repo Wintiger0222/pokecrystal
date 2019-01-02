@@ -152,179 +152,146 @@ MovementData_0x184a24:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "ELDER: You are in-"
-	line "deed skilled as a"
-	cont "trainer."
-
-	para "As promised, here"
-	line "is your HM."
-
-	para "But let me say"
-	line "this: You should"
-
-	para "treat your"
-	line "#MON better."
-
-	para "The way you battle"
-	line "is far too harsh."
-
-	para "#MON are not"
-	line "tools of war…"
+	text "주지『그대의 실력"
+	line "틀림없이 진짜로세"
+	
+	para "약속대로"
+	line "이 비전머신을 건네줌세"
+	
+	para "하지만 조금은 더"
+	line "소중하게 다뤄야 될 것이오"
+	
+	para "그대의 싸움방식 너무 과격하오"
+	line "포켓몬은 싸움의"
+	cont "도구가 아닌 것을……"
 	done
 
 SproutTowerRivalOnlyCareAboutStrongText:
-	text "…"
-	line "…Humph!"
-
-	para "He claims to be"
-	line "the ELDER but"
-	cont "he's weak."
-
-	para "It stands to"
-	line "reason."
-
-	para "I'd never lose to"
-	line "fools who babble"
-
-	para "about being nice"
-	line "to #MON."
-
-	para "I only care about"
-	line "strong #MON"
-	cont "that can win."
-
-	para "I really couldn't"
-	line "care less about"
-	cont "weak #MON."
+	text "…… …… ……"
+	
+	para "…… 흥!"
+	line "주지녀석 지껄이는 것치곤"
+	cont "전혀 반응이 없었다"
+	
+	para "…… 당연하겠지"
+	line "포켓몬에게 다정하게라든지"
+	cont "싱거운 말만 지껄이는 녀석에게"
+	cont "나는 지지않아"
+	
+	para "내가 중요하게 여기는 것은"
+	line "강하고 이기는 포켓몬뿐"
+	
+	para "그 이외의 포켓몬 같은 건"
+	line "어떻게되던 간에 상관없어"
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
-	text "<RIVAL> used an"
-	line "ESCAPE ROPE!"
+	text "<RIVAL>는(은)"
+	line "동굴탈출 로프를 사용했다!"
 	done
 
 SageLiSeenText:
-	text "So good of you to"
-	line "come here!"
-
-	para "SPROUT TOWER is a"
-	line "place of training."
-
-	para "People and #MON"
-	line "test their bonds"
-
-	para "to build a bright"
-	line "future together."
-
-	para "I am the final"
-	line "test."
-
-	para "Allow me to check"
-	line "the ties between"
-
-	para "your #MON and"
-	line "you!"
+	text "여기까지 잘 오셨소!"
+	
+	para "이 모다피의 탑은"
+	line "포켓몬과 사람이"
+	cont "밝은 미래를 만들 수 있을까"
+	cont "수행으로 확인하는 장소"
+	
+	para "그리고 마지막 시련은"
+	line "바로 나일세"
+	
+	para "그대와 포켓몬의 인연을"
+	line "확인해보겠소이다!"
 	done
 
 SageLiBeatenText:
-	text "Ah, excellent!"
+	text "우움"
+	line "훌륭하오"
 	done
 
 SageLiTakeThisFlashText:
-	text "You and your #-"
-	line "MON should have"
-
-	para "no problem using"
-	line "this move."
-
-	para "Take this FLASH"
-	line "HM."
+	text "그대와"
+	line "포켓몬이라면 이 비전을"
+	cont "잘 다룰 수 있을 것이라 믿소"
+	
+	para "플래시의 비전머신을"
+	line "가져가도록 하시오!"
 	done
-
+	
 SageLiFlashExplanationText:
-	text "FLASH illuminates"
-	line "even the darkest"
-	cont "of all places."
-
-	para "But to use it out"
-	line "of battle, you"
-
-	para "need the BADGE"
-	line "from VIOLET's GYM."
+	text "플래시를 가르치면"
+	line "어떠한 어두운 곳에서도"
+	cont "밝게 할 수 있소!"
+	
+	para "하지만 싸우지 않을 때"
+	line "사용하는 것은 도라지 체육관에서"
+	cont "받을 수 있는 배지가 필요하오"
 	done
 
 SageLiAfterBattleText:
-	text "I hope you learn"
-	line "and grow from your"
-	cont "journey."
+	text "그대의 여행이"
+	line "많은 결실을 맺도록 빌겠소이다"
 	done
 
 SageJinSeenText:
-	text "I train to find"
-	line "enlightenment in"
-	cont "#MON!"
+	text "포켓몬의 길에 도달하도록"
+	line "수행을 하고있소!"
 	done
-
+	
 SageJinBeatenText:
-	text "My training is"
-	line "incomplete…"
+	text "짐의 수행은 아직"
+	line "끝나지 않았소…"
 	done
-
+	
 SageJinAfterBattleText:
-	text "As #MON grow"
-	line "stronger, so does"
-	cont "the trainer."
-
-	para "No, wait. As the"
-	line "trainer grows"
-
-	para "stronger, so do"
-	line "the #MON."
+	text "포켓몬이 강해질때"
+	line "트레이너 역시 강해진다"
+	
+	para "아니 트레이너가 강해진다면"
+	line "포켓몬 역시 강해지는 것이 진리"
 	done
 
 SageTroySeenText:
-	text "Let me see how"
-	line "much you trust"
-	cont "your #MON."
+	text "그대가 포켓몬을"
+	line "얼마만큼 신뢰하고있는가"
+	cont "내가 확인해보겠소!"
 	done
 
 SageTroyBeatenText:
-	text "Yes, your trust is"
-	line "real!"
+	text "우움!"
+	line "신뢰하고 있었구려!"
 	done
 
 SageTroyAfterBattleText:
-	text "It is not far to"
-	line "the ELDER."
+	text "주지스님이 계신 곳까지"
+	line "얼마 남지 않았소이다!"
 	done
 
 SageNealSeenText:
-	text "The ELDER's HM"
-	line "lights even pitch-"
-	cont "black darkness."
+	text "주지스님께서 주시는"
+	line "비전머신은"
+	cont "어떤 어둠도 밝게 비추지요"
 	done
 
 SageNealBeatenText:
-	text "It is my head that"
-	line "is bright!"
+	text "밝게 빛나는 것은"
+	line "내 머리-!"
 	done
-
+	
 SageNealAfterBattleText:
-	text "Let there be light"
-	line "on your journey."
+	text "그대가 나아가는 길이"
+	line "눈부심으로 가득하길 빌겠소이다"
 	done
-
+	
 SproutTower3FPaintingText:
-	text "It's a powerful"
-	line "painting of a"
-	cont "BELLSPROUT."
+	text "힘찬 터치로"
+	line "모다피가 그려져 있다……"
 	done
 
 SproutTower3FStatueText:
-	text "A #MON statue…"
-
-	para "It looks very"
-	line "distinguished."
+	text "포켓몬이 받들어 모셔지고 있군……"
+	line "어딘가 장엄한 기분이 드는군"
 	done
 
 SproutTower3F_MapEvents:

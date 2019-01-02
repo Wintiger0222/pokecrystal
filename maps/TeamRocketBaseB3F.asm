@@ -317,250 +317,193 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "LANCE: It takes"
-	line "two passwords to"
-
-	para "get into the"
-	line "boss's quarters."
-
-	para "Those passwords"
-	line "are known only to"
-	cont "a few ROCKETS."
-
-	para "That ROCKET there"
-	line "very graciously"
-	cont "told me so."
-
-	para "<PLAY_G>, let's go"
-	line "get the passwords."
+	text "목호『두목의 방에 들어가기 위해선"
+	line "문의 패스워드가"
+	cont "2개 필요한 것 같다"
+	
+	para "그 패스워드는"
+	line "일부의 로켓단원에게만"
+	cont "알려져 있는 것 같아"
+	
+	para "그쪽의 로케단원이"
+	line "정중하게 가르쳐주었단다"
+	
+	para "<PLAY_G>! 힘을 내서"
+	line "비밀을 알아내도록 해!"
 	done
 
 TeamRocketBaseB3FRocketText:
-	text "Urrggh… The guy"
-	line "in the cape is"
-	cont "incredibly tough…"
+	text "우우우……"
+	line "망토의 사내놈 너무나도 강하군……"
 	done
 
 RocketBaseRivalText:
-	text "…"
-
-	para "Didn't I tell you"
-	line "that I was going"
-
-	para "to destroy TEAM"
-	line "ROCKET?"
-
-	para "…Tell me, who was"
-	line "the guy in the"
-
-	para "cape who used"
-	line "dragon #MON?"
-
-	para "My #MON were no"
-	line "match at all."
-
-	para "I don't care that"
-	line "I lost. I can beat"
-
-	para "him by getting"
-	line "stronger #MON."
-
-	para "It's what he said"
-	line "that bothers me…"
-
-	para "He told me that"
-	line "I don't love and"
-
-	para "trust my #MON"
-	line "enough."
-
-	para "I'm furious that I"
-	line "lost to a bleeding"
-	cont "heart like him."
-
-	para "…Humph! I don't"
-	line "have the time for"
-	cont "the likes of you!"
+	text "…… …… ……"
+	
+	para "로켓단을 쳐부수는 것은"
+	line "나역시 이야기했잖아"
+	
+	para "…… 그것보다도"
+	line "그 망토의 드래곤 조련사"
+	cont "녀석은 도대체 어떤 놈이냐?"
+	
+	para "내 포켓몬이"
+	line "전부 맥을 못 추고 당했어……"
+	
+	para "진건 어찌되었든 좋아"
+	line "더욱더"
+	cont "강한 포켓몬을 손에 넣으면"
+	cont "녀석에게도 이길 수 있어"
+	
+	para "그것보다 맘에 들지 않는 것은"
+	line "그 녀석의 대사……"
+	
+	para "너는 포켓몬에 대한"
+	line "사랑과 신뢰가 부족하다 라고"
+	
+	para "그런 나약한 말을 하는 녀석에게"
+	line "졌다고 생각하니까 열 받아!"
+	
+	para "…… 흥! 네녀석"
+	line "상대 같은건 해줄 수 없어 "
 	done
 
 ExecutiveM4BeforeText:
-	text "What? Who are you?"
-	line "This is the office"
-
-	para "of our leader,"
-	line "GIOVANNI."
-
-	para "Since disbanding"
-	line "TEAM ROCKET three"
-
-	para "years ago, he has"
-	line "been in training."
-
-	para "But we're certain"
-	line "he will be back"
-
-	para "some day to assume"
-	line "command again."
-
-	para "That's why we're"
-	line "standing guard."
-
-	para "I won't let any-"
-	line "one disturb this"
-	cont "place!"
+	text "뭐야 너는?"
+	line "이곳은 우리들의 두목"
+	cont "비주기님의 방"
+	
+	para "비주기님은 3년전"
+	line "해산을 시킨 후로 계속"
+	cont "지금도 수행중……"
+	
+	para "하지만 언젠가는"
+	line "돌아오실 것을 믿고"
+	cont "이곳을 이렇게 지키고 있다"
+	
+	para "어떤 녀석이던"
+	line "이곳을 소란 피우게 놔둘것 같냐!"
 	done
 
 ExecutiveM4BeatenText:
-	text "I… I couldn't do a"
-	line "thing…"
-
-	para "GIOVANNI, please"
-	line "forgive me…"
+	text "크으으……"
+	line "이길 방법이 없군"
+	
+	para "비주기님"
+	line "용서를……"
 	done
 
 ExecutiveM4AfterText:
-	text "No, I can't let"
-	line "this affect me."
-
-	para "I have to inform"
-	line "the others…"
+	text "이럴 순 없지"
+	line "져서 풀이죽어있을때가 아냐"
+	cont "동료들에게 알리지않으면……"
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: The"
-	line "password is…"
-
-	para "HAIL GIOVANNI."
+	text "니로우『패스워드 는……"
+	
+	para "비주기님 만세"
 	done
 
 GruntF5SeenText:
-	text "Do I know the"
-	line "password?"
-
-	para "Maybe."
-
-	para "But no weakling's"
-	line "going to get it!"
+	text "패스워드를 알고 있느냐구?"
+	line "그래 알고 있을지도 모르지"
+	
+	para "하지만 약한 녀석들에게는"
+	line "가르쳐주지 않겠다!"
 	done
 
 GruntF5BeatenText:
-	text "All right. Stop."
-	line "I'll tell you."
+	text "알았다니까"
+	line "가르쳐주면 되잖아"
 	done
 
 GruntF5AfterBattleText:
-	text "The password to"
-	line "the boss's room is"
-
-	para "SLOWPOKETAIL."
-
-	para "But it's useless"
-	line "unless you have"
-	cont "two passwords."
+	text "두목님 방문의 패스워드는……"
+	
+	para "야돈의 꼬리"
+	
+	para "다만 2개를 갖추지 않으면"
+	line "전혀 의미가 없지만말야"
 	done
 
 GruntM28SeenText:
-	text "Hyuck-hyuck-hyuck!"
-
-	para "You're challenging"
-	line "me to a battle?"
-
-	para "Hah! You're nuts,"
-	line "but you have guts!"
-
-	para "I like that!"
-
-	para "If you can beat"
-	line "me, I'll tell you"
-
-	para "a password to the"
-	line "boss's room!"
+	text "캬하하하!"
+	
+	para "위대한 이몸을 쓰러뜨리겠다고?"
+	line "배짱한번 두둑하군"
+	
+	para "마음에 들었다!"
+	line "나에게서 이기면"
+	cont "두목님 방문의 패스워드를"
+	cont "가르쳐주지!"
 	done
 
 GruntM28BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "You're good!"
+	text "으갸갸갸!"
+	line "잘 하잖아!"
 	done
 
 GruntM28AfterBattleText:
-	text "Hyuck-hyuck-hyuck!"
-
-	para "The password to"
-	line "the boss's room…"
-
-	para "Uh…, I think it is"
-	line "RATICATE TAIL."
+	text "캬하하하!"
+	
+	para "두목님 방문의 패스워드를"
+	line "가르쳐주겠다"
+	cont "확실히 레트라의 꼬리였다"
 	done
 
 ScientistRossSeenText:
-	text "I used to work for"
-	line "SILPH, but now I"
-
-	para "run research for"
-	line "TEAM ROCKET."
-
-	para "A meddlesome child"
-	line "like you needs to"
-	cont "be punished."
+	text "예전에는 실프주식회사에서"
+	line "지금은 로켓단에서"
+	cont "이렇게해서 실험하고 있지"
+	
+	para "방해하는 것 들은 용서없다"
 	done
-
+	
 ScientistRossBeatenText:
-	text "A mere tactical"
-	line "error cost me…"
+	text "안되겠군……"
+	line "작전 실패였어"
 	done
 
 ScientistRossAfterBattleText:
-	text "A radio signal"
-	line "that drives #-"
-	cont "MON mad…"
-
-	para "My experiment is a"
-	line "complete success."
-
-	para "My promotion is"
-	line "assured. This loss"
-
-	para "means absolutely"
-	line "nothing."
+	text "포켓몬을 괴롭히는 전파……"
+	
+	para "실험은 성공"
+	line "나도 출세할 것이 틀림 없어"
+	cont "진 것 정도야 어찌되든 괜찮겠지"
 	done
 
 ScientistMitchSeenText:
-	text "I don't care that"
-	line "#MON are hurt"
-	cont "by our experiment."
+	text "실험때문에 포켓몬이 괴로워해도"
+	line "나에게는 상관 없어"
 	done
-
+	
 ScientistMitchBeatenText:
-	text "Thinking is my"
-	line "strong suit, not"
-	cont "battling."
+	text "생각하는 것은 특기이지만"
+	line "싸우는 것은 소질이 없다"
 	done
 
 ScientistMitchAfterBattleText:
-	text "If we turn up the"
-	line "power of our radio"
-
-	para "signal for broad-"
-	line "cast nationwide…"
-
-	para "The very thought"
-	line "excites me!"
+	text "이상한 전파를 파워 업해서"
+	line "전국에 흘려보내면……"
+	
+	para "상상하는 것 만으로도 두근거린다"
 	done
 
 TeamRocketBaseB3FLockedDoorNeedsPasswordText:
-	text "The door's closed…"
-
-	para "It needs two"
-	line "passwords to open."
+	text "문이 닫혀있다……"
+	
+	para "열기 위해서는"
+	line "패스워드가 2개 필요한 것 같다"
 	done
 
 TeamRocketBaseB3FLockedDoorOpenSesameText:
-	text "The door's closed…"
-
-	para "<PLAYER> entered"
-	line "the two passwords."
-
-	para "The door opened!"
+	text "문이 닫혀있다……"
+	
+	para "<PLAYER>는(은) 2개의"
+	line "패스워드를 입력했다"
+	
+	para "문이 열렸다!"
 	done
 
 TeamRocketBaseB3F_MapEvents:

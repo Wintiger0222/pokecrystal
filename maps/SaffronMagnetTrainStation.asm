@@ -125,94 +125,72 @@ MovementData_0x18a8a1:
 	step_end
 
 UnknownText_0x18a8a9:
-	text "I'm sorry, but the"
-	line "MAGNET TRAIN isn't"
-	cont "operating now."
+	text "죄송합니다"
+	line "리니어 기차는"
+	cont "현재 운행하고 있지 않습니다"
 	done
 
 UnknownText_0x18a8dd:
-	text "We'll soon depart"
-	line "for GOLDENROD."
-
-	para "Are you coming on"
-	line "board?"
+	text "금빛시티행"
+	line "이제 곧 출발합니다"
+	cont "승차하시겠습니까?"
 	done
 
 UnknownText_0x18a917:
-	text "May I see your"
-	line "rail PASS, please?"
-
-	para "OK. Right this"
-	line "way, please."
+	text "승차권을 확인하겠습니다!"
+	
+	para "네!"
+	line "이쪽으로 타십시오!"
 	done
 
 UnknownText_0x18a956:
-	text "Sorry, but you"
-	line "don't have a PASS."
+	text "허허 손님"
+	line "승차권을 소지하지 않으셨군요"
 	done
 
 UnknownText_0x18a978:
-	text "We hope to see you"
-	line "again."
+	text "다음에 이용을"
+	line "부탁드리겠습니다!"
 	done
 
 UnknownText_0x18a993:
-	text "We have arrived in"
-	line "SAFFRON."
-
-	para "We hope to see you"
-	line "again."
+	text "감사합니다"
+	line "노랑시티 도착입니다"
+	
+	para "다음에도 이용을"
+	line "부탁드리겠습니다!"
 	done
 
 SaffronMagnetTrainStationGymGuyText:
-	text "The MAGNET TRAIN"
-	line "is a super-modern"
-
-	para "rail liner that"
-	line "uses electricity"
-
-	para "and magnets to"
-	line "attain incredible"
-	cont "speed."
-
-	para "However, if there"
-	line "isn't any elec-"
-	cont "tricity…"
+	text "리니어 기차는"
+	line "전기랑 자석의 힘으로"
+	cont "달리는 꿈의 초특급열차!"
+	
+	para "그러나 전기가 없다면……"
 	done
 
 SaffronMagnetTrainStationGymGuyText_ReturnedMachinePart:
-	text "Whew…"
-
-	para "How many times"
-	line "have I gone back"
-
-	para "and forth between"
-	line "KANTO and JOHTO?"
+	text "후우-……"
+	
+	para "관동과 성도를"
+	line "어떡게 왕복을 했을까?"
 	done
 
 SaffronMagnetTrainStationTeacherText:
-	text "Before the MAGNET"
-	line "TRAIN STATION was"
-
-	para "built, there was a"
-	line "house there."
-
-	para "A little girl"
-	line "named COPYCAT used"
-	cont "to live there."
+	text "리니어 기차역이 생기기 전에"
+	line "이 장소에는 흉내내기 아가씨라는"
+	cont "여자아이의 집이 있었단다"
 	done
 
 SaffronMagnetTrainStationLassText:
-	text "Hi. Do you have a"
-	line "rail PASS? I have"
-
-	para "one. All the peo-"
-	line "ple in SAFFRON who"
-
-	para "ride the MAGNET"
-	line "TRAIN have PASSES."
+	text "오빠 정기권은 가지고 있어?"
+	line "나는 가지고 있어!"
+	
+	para "노랑시티의 사람들은 모두"
+	line "정기권으로"
+	cont "리니어 기차에 탄다!"
 	done
-
+	
 SaffronMagnetTrainStation_MapEvents:
 	db 0, 0 ; filler
 

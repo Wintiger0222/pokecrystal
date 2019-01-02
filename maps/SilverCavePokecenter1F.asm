@@ -14,17 +14,13 @@ SilverCavePokecenter1FGrannyScript:
 	jumptextfaceplayer SilverCavePokecenter1FGrannyText
 
 SilverCavePokecenter1FGrannyText:
-	text "Trainers who seek"
-	line "power climb MT."
-
-	para "SILVER despite its"
-	line "many dangers…"
-
-	para "With their trusted"
-	line "#MON, they must"
-
-	para "feel they can go"
-	line "anywhere…"
+	text "강한 힘을 얻고자 하는 트레이너는"
+	line "위험을 무릅쓰고"
+	cont "은빛 산에 오른다고 하는……"
+	
+	para "믿고 있는 포켓몬과"
+	line "함께라면 어디서든지"
+	cont "할 수 있다는 것인가……"
 	done
 
 SilverCavePokecenter1F_MapEvents:

@@ -17,18 +17,16 @@ VermilionMagnetTrainSpeechHouseBookshelf:
 	jumpstd picturebookshelf
 
 VermilionMagnetTrainSpeechHousePokefanFText:
-	text "Do you know about"
-	line "the MAGNET TRAIN?"
-
-	para "It's a railway"
-	line "that goes to GOL-"
-	cont "DENROD in JOHTO."
+	text "리니어 기차에 대해 알고 있니?"
+	
+	para "성도의 금빛시티까지"
+	line "통해 있는 철도란다"
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
-	text "I want to go to"
-	line "SAFFRON to see"
-	cont "the MAGNET TRAIN."
+	text "노랑시티"
+	line "노랑시티 갈꺼야!"
+	cont "리니어 기차가 보고싶어!"
 	done
 
 VermilionMagnetTrainSpeechHouse_MapEvents:

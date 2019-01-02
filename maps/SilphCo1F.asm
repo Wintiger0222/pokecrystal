@@ -28,31 +28,26 @@ SilphCoOfficerScript:
 	end
 
 SilphCoReceptionistText:
-	text "Welcome. This is"
-	line "SILPH CO.'s HEAD"
-	cont "OFFICE BUILDING."
+	text "어서오세요!"
+	line "실프주식회사"
+	cont "본사 빌딩입니다!"
 	done
 
 SilphCoOfficerText:
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
-
-	para "But since you came"
-	line "such a long way,"
-
-	para "have this neat"
-	line "little souvenir."
+	text "2층 이상의 층은"
+	line "사원만 들어갈 수 있단다"
+	
+	para "하지만 멀리서부터"
+	line "일부러 와준 너에게는"
+	cont "이것을 주마!"
 	done
 
 SilphCoOfficerText_GotUpGrade:
-	text "It's SILPH CO.'s"
-	line "latest product."
-
-	para "It's not for sale"
-	line "anywhere yet."
+	text "실프주식회사의"
+	line "신제품이란다!"
+	cont "아직 어디에서도 팔지 않아!"
 	done
-
+	
 SilphCo1F_MapEvents:
 	db 0, 0 ; filler
 

@@ -109,10 +109,10 @@ CeladonPrizeRoom_TMMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "TM32    1500@"
-	db "TM29    3500@"
-	db "TM15    7500@"
-	db "CANCEL@"
+	db "기술머신32　　1500@"
+	db "기술머신29　　3500@"
+	db "기술머신15　　7500@"
+	db "그만두다@"
 
 CeladonGameCornerPrizeRoomPokemonVendor:
 	faceplayer
@@ -188,17 +188,17 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 17, TEXTBOX_Y - 1
+	menu_coords 0, 2, 17, TEXTBOX_Y - 1;수정필요
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "PIKACHU    2222@"
-	db "PORYGON    5555@";미번역
-	db "LARVITAR   8888@"
-	db "CANCEL@"
+	db "피카츄　　　　　2222@"
+	db "폴리곤　　　　　5555@"
+	db "애버라스　　　　8888@"
+	db "그만두다@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
 	text "폴리곤을 가지고 싶었는데……"

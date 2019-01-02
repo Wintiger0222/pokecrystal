@@ -629,99 +629,75 @@ SecurityCameraMovement9:
 	step_end
 
 CameraGrunt1SeenText:
-	text "Hey!"
-	line "Intruder alert!"
+	text "오옷!"
+	line "침입자 발견!"
 	done
 
 CameraGrunt1BeatenText:
-	text "Dang… I failed…"
+	text "젠장"
+	line "물러날 때인가……"
 	done
 
 CameraGrunt2SeenText:
-	text "It's my turn!"
-	line "There's no escape!"
+	text "다음은 내 차례닷!"
+	line "놓치지 않겠어!"
 	done
 
 CameraGrunt2BeatenText:
-	text "Surveillance cams"
-	line "are in the #MON"
-	cont "statues."
-
-	para "We'll keep appear-"
-	line "ing until you trip"
-	cont "a secret switch."
+	text "포켓몬 동상이 노려보고 있다"
+	
+	para "비밀 스위치를 끄지 않는 한"
+	line "네놈앞에 나타나주겠다!"
 	done
-
+	
 ScientistJedSeenText:
-	text "This was once a"
-	line "ninja hideout."
-
-	para "There are traps to"
-	line "confound intruders"
-	cont "like you."
+	text "이곳은 원래 닌자의 소굴"
+	
+	para "여러 장치로"
+	line "침입자를 막을 것이다!"
 	done
 
 ScientistJedBeatenText:
-	text "I get it…"
+	text "음- 역시……"
 	done
 
 ScientistJedAfterBattleText:
-	text "All right. I'll"
-	line "divulge a secret"
-	cont "about our hideout."
-
-	para "That thing on the"
-	line "floor up ahead is"
-	cont "a warp panel."
-
-	para "If you step on it,"
-	line "you'll be warped"
-
-	para "back to the en-"
-	line "trance."
+	text "…… 알았다"
+	line "아지트의 비밀을 가르쳐주마"
+	
+	para "이 앞에 있는 것은 워프판넬"
+	line "멍청하게 올라서 버리면"
+	cont "입구까지 튕겨져버린다!"
 	done
 
 GruntM16SeenText:
-	text "Heheh. Feeling"
-	line "lucky, punk?"
-
-	para "Go ahead, take"
-	line "another step."
-
-	para "We've got traps"
-	line "set in the floor!"
+	text "오호! 그 이상 나아갈 건가?"
+	line "폭탄이 장치되어 있으니까"
+	cont "밟으면 쾅 하고 터져버릴껄!"
 	done
 
 GruntM16BeatenText:
-	text "Kaboom!"
+	text "쾅!!"
 	done
 
 GruntM16AfterBattleText:
-	text "I don't even know"
-	line "where the traps"
-	cont "are planted."
-
-	para "You'll just have"
-	line "to collect your"
-	cont "courage and walk."
+	text "실은 나 역시도 어느 곳에서"
+	line "폭발할지 기억하지 못해"
+	cont "배짱으로 나아갈 수 밖에 없다"
 	done
 
 TeamRocketBaseB1FSecurityCameraText:
-	text "It's a PERSIAN"
-	line "statue…"
-
-	para "Its eyes are oddly"
-	line "shiny."
+	text "페르시온 포켓몬 동상……"
+	line "웬지 눈이 빛나고 있는 것 같다"
 	done
 
 TeamRocketBaseB1FSecretSwitchText:
-	text "A secret switch!"
-	line "Better press it."
+	text "비밀의 스위치 발견!"
+	line "눌러볼까!……꾹 하고말야!"
 	done
 
 TeamRocketBaseB1FSwitchOffText:
-	text "The switch is"
-	line "turned off."
+	text "스위치가 꺼져있다……"
 	done
 
 TeamRocketBaseB1F_MapEvents:

@@ -62,109 +62,87 @@ ViridianGymStatue:
 	jumpstd gymstatue2
 
 LeaderBlueBeforeText:
-	text "BLUE: Yo! Finally"
-	line "got here, huh?"
-
-	para "I wasn't in the"
-	line "mood at CINNABAR,"
-
-	para "but now I'm ready"
-	line "to battle you."
-
-	para "…"
-
-	para "You're telling me"
-	line "you conquered all"
-	cont "the GYMS in JOHTO?"
-
-	para "Heh! JOHTO's GYMS"
-	line "must be pretty"
-	cont "pathetic then."
-
-	para "Hey, don't worry"
-	line "about it."
-
-	para "I'll know if you"
-	line "are good or not by"
-
-	para "battling you right"
-	line "now."
-
-	para "Ready, JOHTO"
-	line "CHAMP?"
+	text "그린『어이 왔구나"
+	
+	para "홍련에서는 좀"
+	line "신경과민이 되었지만"
+	cont "지금은 잡념없이"
+	cont "싸우고 싶은 생각 뿐이다"
+	
+	para "…… …… ……"
+	
+	para "네가 성도의 체육관을"
+	line "전부 제패 했다고?"
+	
+	para "성도의 레벨이"
+	line "낮은 것은 아닌가?"
+	
+	para "뭐 좋아"
+	line "싸워보면 알 수 있는 것"
+	cont "너의 실력이"
+	cont "진짜인가 아닌가를!"
+	
+	para "간다!"
+	line "성도의 어린이!"
 	done
 
 LeaderBlueWinText:
-	text "BLUE: What?"
-
-	para "How the heck did I"
-	line "lose to you?"
-
-	para "…"
-
-	para "Tch, all right…"
-	line "Here, take this--"
-	cont "it's EARTHBADGE."
+	text "그린『바보같이!"
+	
+	para "내가 이런 녀석에게"
+	line "지다니!!"
+	
+	para "…… …… ……"
+	line "…… 쳇 할 수 없군"
+	cont "자 그린배지다"
+	cont "너에게 주겠어!"
 	done
 
 Text_ReceivedEarthBadge:
-	text "<PLAYER> received"
-	line "EARTHBADGE."
+	text "<PLAYER>는(은) 그린으로부터"
+	line "그린배지를 받았다!"
 	done
-
+	
 LeaderBlueAfterText:
-	text "BLUE: …"
-
-	para "All right, I was"
-	line "wrong. You're the"
-
-	para "real deal. You are"
-	line "a good trainer."
-
-	para "But I'm going to"
-	line "beat you someday."
-
-	para "Don't you forget"
-	line "it!"
+	text "그린『…… …… ……"
+	
+	para "내가 잘못 알았다"
+	line "너는 진짜 실력꾼이다"
+	cont "강한 트레이너다"
+	cont "사심 없이 받아들이겠어!"
+	
+	para "하지만!"
+	line "잊지말아라!"
+	
+	para "언젠가 내가 너를"
+	line "쓰러뜨릴테니까!"
 	done
 
 LeaderBlueEpilogueText:
-	text "BLUE: Listen, you."
-
-	para "You'd better not"
-	line "lose until I beat"
-	cont "you. Got it?"
+	text "그린『알아들었느냐!"
+	
+	para "내가 쓰러뜨릴 때까지"
+	line "지지는 않겠지!"
 	done
 
 ViridianGymGuyText:
-	text "Yo, CHAMP in"
-	line "making!"
-
-	para "How's it going?"
-	line "Looks like you're"
-	cont "on a roll."
-
-	para "The GYM LEADER is"
-	line "a guy who battled"
-
-	para "the CHAMPION three"
-	line "years ago."
-
-	para "He's no pushover."
-
-	para "Give it everything"
-	line "you've got!"
+	text "여-어!"
+	line "미래의 챔피언!"
+	cont "상태는 어때?"
+	cont "호조인 것 같구나!"
+	
+	para "3년전 챔피언과"
+	line "싸웠던 남자가"
+	cont "이 체육관의 관장이다"
+	
+	para "상당히 벅찬 상대일껄"
+	line "열심히 하거라!"
 	done
 
 ViridianGymGuyWinText:
-	text "Man, you are truly"
-	line "tough…"
-
-	para "That was a heck of"
-	line "an inspirational"
-
-	para "battle. It brought"
-	line "tears to my eyes."
+	text "역시 강하구나!"
+	line "나 눈물이 나오려고해"
+	cont "감동적인 승부였단다!"
 	done
 
 ViridianGym_MapEvents:

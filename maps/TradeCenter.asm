@@ -48,8 +48,7 @@ TradeCenterFriendScript:
 	end
 
 .FriendReadyText:
-	text "Your friend is"
-	line "ready."
+	text "상대방의 준비는 다되었다!"
 	done
 
 TradeCenter_MapEvents:

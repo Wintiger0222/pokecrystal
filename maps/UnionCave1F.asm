@@ -86,116 +86,89 @@ UnionCave1FUnusedSign:
 	jumptext UnionCave1FUnusedSignText
 
 HikerRussellSeenText:
-	text "You're headed to"
-	line "AZALEA, are you?"
-
-	para "Let my #MON see"
-	line "if you are good"
-	cont "enough to battle."
+	text "고동마을에 가는거니?"
+	line "이곳을 빠져나갈 수 있을까"
+	cont "내 포켓몬으로 시험해보겠다!"
 	done
 
 HikerRussellBeatenText:
-	text "Oh, oh, oh!"
+	text "어이쿠……"
 	done
 
 HikerRussellAfterBattleText:
-	text "All right, then!"
-	line "I've decided."
-
-	para "I'm not leaving"
-	line "until my #MON"
-	cont "get tougher!"
+	text "우-음! 결정했어!"
+	
+	para "내 포켓몬이 강해질때까지"
+	line "여기서 한 발짝도 나가지 않겠어!"
 	done
 
 PokemaniacLarrySeenText:
-	text "I roam far and"
-	line "wide in search of"
-	cont "#MON."
-
-	para "Are you looking"
-	line "for #MON too?"
-
-	para "Then you're my"
-	line "collecting rival!"
+	text "포켓몬 찾으러 동서남북"
+	line "너도 포켓몬 찾으러왔니?"
+	
+	para "그럼 나의 포켓몬 수집"
+	line "경쟁상대로군!"
 	done
 
 PokemaniacLarryBeatenText:
-	text "Ugh. My poor #-"
-	line "MON…"
+	text "아아 내 포켓몬……"
 	done
 
 PokemaniacLarryAfterBattleText:
-	text "Every Friday, you"
-	line "can hear #MON"
-
-	para "roars from deep"
-	line "inside the cave."
+	text "금요일이 될 때마다"
+	line "동굴 저편으로부터"
+	cont "포켓몬의 울음소리가 들려온다"
 	done
 
 HikerDanielSeenText:
-	text "Whoa! What a"
-	line "surprise!"
-
-	para "I didn't expect to"
-	line "see anyone here!"
+	text "우왓 깜짝이야"
+	line "이런곳에 사람이 있다니!"
 	done
 
 HikerDanielBeatenText:
-	text "Whoa! I'm beaten"
-	line "big time!"
+	text "우왓, 깜짝, 화들짝"
+	line "이렇게 강한 사람이 있다니!"
 	done
 
 HikerDanielAfterBattleText:
-	text "I was conned into"
-	line "buying a SLOWPOKE-"
-	cont "TAIL."
-
-	para "I feel sorry for"
-	line "the poor #MON."
+	text "속았었나? 멍청하게"
+	line "야돈의 꼬리를 사버렸어"
+	cont "어쩐지 야돈이 불쌍한 것 같아"
 	done
 
 FirebreatherBillSeenText:
-	text "ZUBAT's SUPERSONIC"
-	line "keeps confusing"
-	cont "my #MON."
-
-	para "I'm seriously"
-	line "upset about that!"
+	text "주뱃의 초음파로"
+	line "혼란스러워져서"
+	cont "어쩐지 화가나!"
 	done
 
 FirebreatherBillBeatenText:
-	text "I flamed out!"
+	text "불이 옮겨 붙었다"
 	done
 
 FirebreatherBillAfterBattleText:
-	text "On weekends, you"
-	line "can hear strange"
-
-	para "roars from deep in"
-	line "the cave."
+	text "주말이 되면"
+	line "동굴 저편으로부터"
+	cont "이상한 울음소리가 들린단다"
 	done
 
 FirebreatherRaySeenText:
-	text "If it's light, a"
-	line "cave isn't scary."
-
-	para "If you're strong,"
-	line "#MON aren't"
-	cont "scary."
+	text "주위가 밝다면 동굴은 무섭지 않지"
+	line "강하다면 포켓몬도 무섭지 않아"
 	done
 
 FirebreatherRayBeatenText:
-	text "FLASH!"
+	text "플래-시!!"
 	done
 
 FirebreatherRayAfterBattleText:
-	text "It's my #MON's"
-	line "fire that lights"
-	cont "up this cave."
+	text "내 포켓몬이"
+	line "불꽃으로 불을 밝히고 있으니까"
+	cont "이 동굴은 밝은 것이지!"
 	done
 
 UnionCave1FUnusedSignText:
-	text "UNION CAVE"
+	text "연결동굴"
 	done
 
 UnionCave1F_MapEvents:

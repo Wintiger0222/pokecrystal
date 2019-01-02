@@ -32,46 +32,32 @@ WardensHomeBookshelf:
 	jumpstd picturebookshelf
 
 WardensGranddaughterText1:
-	text "My grandpa is the"
-	line "SAFARI ZONE WAR-"
-	cont "DEN."
-
-	para "At least he was…"
-
-	para "He decided to go"
-	line "on a vacation and"
-
-	para "took off overseas"
-	line "all by himself."
-
-	para "He quit running"
-	line "SAFARI ZONE just"
-	cont "like that."
+	text "나의 할아버지는"
+	line "사파리존의 할아버지야!"
+	
+	para "…… 그랬었는데"
+	line "지금 외국을 여행중이야"
+	cont "「여행을 떠난다!」라고 하시며"
+	cont "혼자 가버리셨어!"
+	
+	para "그때 사파리존을"
+	line "그만뒀어!"
 	done
 
 WardensGranddaughterText2:
-	text "Many people were"
-	line "disappointed that"
-
-	para "SAFARI ZONE closed"
-	line "down, but Grandpa"
-	cont "is so stubborn…"
+	text "사파리존이 없어져서"
+	line "안타까워하는 사람이 있지만"
+	cont "할아버지가 완고하셔서!"
 	done
 
 WardenPhotoText:
-	text "It's a photo of a"
-	line "grinning old man"
-
-	para "who's surrounded"
-	line "by #MON."
+	text "많은 포켓몬에 둘러싸여"
+	line "웃는 얼굴의 할아버지가 찍혀있다!"
 	done
 
 SafariZonePhotoText:
-	text "It's a photo of a"
-	line "huge grassy plain"
-
-	para "with rare #MON"
-	line "frolicking in it."
+	text "어딘가의 대 초원에서"
+	line "희귀한 포켓몬이 찍혀 있어!"
 	done
 
 SafariZoneWardensHome_MapEvents:

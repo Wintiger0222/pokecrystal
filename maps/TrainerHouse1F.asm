@@ -35,104 +35,66 @@ TrainerHouseIllegibleBook:
 	jumptext TrainerHouseIllegibleText
 
 TrainerHouse1FReceptionistText:
-	text "Welcome to TRAINER"
-	line "HOUSE, the newest"
-
-	para "and most happening"
-	line "place in VIRIDIAN."
-
-	para "We're open to"
-	line "trainers only."
-
-	para "You can battle"
-	line "against the best"
-
-	para "of the best right"
-	line "downstairs."
+	text "이곳은 트레이너 하우스"
+	line "상록시티의 신 명소"
+	cont "트레이너의 사교장입니다!"
+	
+	para "지하의 연습장에서"
+	line "대전도 할 수 있어요!"
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "VIRIDIAN is the"
-	line "town closest to"
-	cont "INDIGO PLATEAU."
-
-	para "They built this"
-	line "place because so"
-
-	para "many trainers pass"
-	line "through on their"
-
-	para "way up to INDIGO"
-	line "PLATEAU."
+	text "상록시티는 석영고원에서"
+	line "제일 가까운 마을"
+	
+	para "석영고원을 목표로 하여"
+	line "트레이너들이 많이 들리기 때문에"
+	cont "이 시설이 만들어졌단다"
 	done
 
 TrainerHouse1FCooltrainerFText:
-	text "They hold practice"
-	line "battles downstairs"
-	cont "here."
-
-	para "I would love to"
-	line "see how well a"
-
-	para "trainer from JOHTO"
-	line "battles."
+	text "지하의 방에서"
+	line "연습 시합을 하고 있어"
+	
+	para "성도의 트레이너 실력을"
+	line "보여줘!"
 	done
 
 TrainerHouse1FYoungsterText:
-	text "I guess you can't"
-	line "become the CHAMP"
-
-	para "unless you go all"
-	line "over the place and"
-
-	para "battle all kinds"
-	line "of people."
-
-	para "The CHAMPION from"
-	line "PALLET traveled to"
-
-	para "all the cities and"
-	line "towns in KANTO."
+	text "여러 마을에 가서"
+	line "여러 사람들과 싸우지 않으면"
+	cont "챔피언이 될 수 없는걸까"
+	
+	para "태초마을의 챔피언도"
+	line "관동의 모든 마을을"
+	cont "여행하며 다녔데!"
 	done
-
+	
 TrainerHouse1FGentlemanText:
-	text "Whew… I'm taking a"
-	line "rest from #MON"
-	cont "battles."
+	text "후우……"
+	line "포켓몬 승부에 지쳐서"
+	cont "잠시 휴식을……"
 	done
 
 TrainerHouseSign1Text:
-	text "Practice battles"
-	line "are held in the"
-
-	para "TRAINING HALL"
-	line "downstairs."
-
-	para "Skilled trainers"
-	line "are invited to"
-	cont "participate."
+	text "지하 트레이닝장"
+	line "연습 시합을 개최합니다!"
+	cont "실력을 자랑하는 트레이너는"
+	cont "자진해서 참가 해 주세요!"
 	done
 
 TrainerHouseSign2Text:
-	text "There are no rules"
-	line "or regulations for"
-
-	para "practice matches."
-	line "Just like in field"
-
-	para "battles, anything"
-	line "goes!"
+	text "룰과 규정은 없습니다!"
+	line "도로에서 자유시합과도"
+	cont "같습니다!"
 	done
-
+	
 TrainerHouseIllegibleText:
-	text "…What's this?"
-	line "A strategy memo?"
-
-	para "This writing looks"
-	line "like ONIX tracks…"
-
-	para "It's completely"
-	line "illegible…"
+	text "…… 뭐 뭐라고"
+	line "대전 공략 메모……?"
+	
+	para "롱스톤이 지나간 흔적"
+	line "같은 글씨라서 읽을 수 없다……!"
 	done
 
 TrainerHouse1F_MapEvents:

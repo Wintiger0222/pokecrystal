@@ -35,17 +35,17 @@ Red:
 	end
 
 .Text1:
-	text "<……>"
-	line "<……>"
+	text "…… …… …… …… ……"
+	line " …… …… …… …… ……"
 	done
 
 .Text2:
-	text "…"
+	text "…… …… …… …… ……"
 	done
 
 .Text3:
-	text "<……>"
-	line "<……>"
+	text "…… …… …… …… ……"
+	line " …… …… …… …… ……"
 	done
 
 SilverCaveRoom3_MapEvents:

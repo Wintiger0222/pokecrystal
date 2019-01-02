@@ -113,181 +113,149 @@ SaffronGymStatue:
 	jumpstd gymstatue2
 
 SabrinaIntroText:
-	text "SABRINA: I knew"
-	line "you were coming…"
-
-	para "Three years ago I"
-	line "had a vision of"
-	cont "your arrival."
-
-	para "You're after my"
-	line "BADGE."
-
-	para "I don't enjoy bat-"
-	line "tling, but it's my"
-
-	para "duty as a LEADER"
-	line "to confer BADGES"
-
-	para "on anyone who has"
-	line "proven him- or"
-	cont "herself worthy."
-
-	para "Since you wish it,"
-	line "I will show you my"
-	cont "psychic powers!"
+	text "초련『…… 역시 왔구나!"
+	
+	para "네가 올꺼라는 예감이"
+	line "3년전부터 있었어"
+	
+	para "너의 목적은"
+	line "다시말해 내가 가진 이 배지"
+	
+	para "나는 싸움을"
+	line "좋아하지 않지만……"
+	cont "배지를 어울리는 사람에게"
+	cont "전하는 것이 관장의 사명"
+	
+	para "네가 원한다면"
+	line "나의 에스퍼 능력을"
+	cont "보여주겠어!"
 	done
 
 SabrinaWinLossText:
-	text "SABRINA: Your"
-	line "power…"
-
-	para "It far exceeds"
-	line "what I foresaw…"
-
-	para "Maybe it isn't"
-	line "possible to fully"
-
-	para "predict what the"
-	line "future holds…"
-
-	para "OK, you win. You"
-	line "earned yourself"
-	cont "MARSHBADGE."
+	text "초련『이 강력함……!"
+	line "예상을 뛰어넘는구나……!"
+	cont "완벽하게 미래 예지는"
+	cont "되지 않는 것 일지도……"
+	
+	para "잘 알겠다 나의"
+	line "골드배지를"
+	cont "너에게 주겠어"
 	done
 
 ReceivedMarshBadgeText:
-	text "<PLAYER> received"
-	line "MARSHBADGE."
+	text "<PLAYER>는(은)"
+	line "골드배지를 얻었다!"
 	done
 
 SabrinaMarshBadgeText:
-	text "SABRINA: MARSH-"
-	line "BADGE draws out"
-
-	para "your subliminal"
-	line "powers…"
-
-	para "Although I failed"
-	line "to accurately pre-"
-	cont "dict your power,"
-	cont "this much I know"
-	cont "to be true."
-
-	para "You will become a"
-	line "celebrated and"
-	cont "beloved CHAMPION!"
+	text "초련『그 골드배지는"
+	line "너의 잠재되어 있는 힘을"
+	cont "끌어내어 주는 물건……"
+	
+	para "너의 강함을"
+	line "정확하게 예지하지 못 했지만"
+	cont "이것만은 확실히 알아……"
+	
+	para "너의 미래는 밝고"
+	line "훌륭한 챔피언으로서"
+	cont "모두에게 환영받을꺼야!"
 	done
 
 SabrinaFightDoneText:
-	text "SABRINA: Your love"
-	line "for your #MON"
-
-	para "overwhelmed my"
-	line "psychic power…"
-
-	para "The power of love,"
-	line "I think, is also a"
-
-	para "kind of psychic"
-	line "power…"
+	text "초련『……너의"
+	line "포켓몬을 향한 애정이"
+	cont "나의 초능력보다"
+	cont "뛰어난 것 같아……"
+	
+	para "그 애정의 힘도"
+	line "초능력의 한가지"
+	cont "난 그렇게 생각해……"
 	done
 
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "그대가 쓰러뜨려 온"
+	line "것들의 힘이"
+	cont "나의 몸에 전해져 온다!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "강하다 너무 강해!"
 	done
 
 MediumRebeccaAfterBattleText:
-	text "What is the source"
-	line "of your power?"
+	text "그대의 힘의 원류는"
+	line "어디인가!"
 	done
-
+	
 PsychicFranklinSeenText:
-	text "Psychic power is"
-	line "the power of your"
-	cont "soul."
+	text "초능력은"
+	line "마음의 힘!"
 	done
 
 PsychicFranklinBeatenText:
-	text "Your soul has more"
-	line "power than mine!"
+	text "마음의 강함에"
+	line "졌-다!!"
 	done
 
 PsychicFranklinAfterBattleText:
-	text "You made your soul"
-	line "stronger, not just"
-	cont "your abilities."
+	text "기술뿐이 아니라"
+	line "마음까지도 단련되어져 있다!"
 	done
-
+	
 MediumDorisSeenText:
-	text "Fufufufu…"
-	line "I see it clearly."
-
-	para "I can see into"
-	line "your soul!"
+	text "후후후……"
+	line "보인다 보여……!"
+	
+	para "그대의 마음속이"
+	line "확실하게 보이는구나!"
 	done
-
+	
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "마음속을 읽어도"
+	line "지는 것은 지는 것!"
 	done
 
 MediumDorisAfterBattleText:
-	text "Darn! I forgot"
-	line "that I predicted I"
-	cont "would lose to you."
+	text "이럴 수가!"
+	line "그대에게 질 것을"
+	cont "예측하고 있었는데"
+	cont "잊고있었다!"
 	done
-
+	
 PsychicJaredSeenText:
-	text "The FIGHTING DOJO"
-	line "next door was once"
-	cont "this city's GYM."
+	text "옆의 격투 도장은"
+	line "이전에 이 마을의"
+	cont "체육관이었다!"
 	done
 
 PsychicJaredBeatenText:
-	text "I was no match…"
+	text "생각대로 되지 않는군……"
 	done
 
 PsychicJaredAfterBattleText:
-	text "KARATE KING, the"
-	line "master of the"
-
-	para "FIGHTING DOJO, was"
-	line "just destroyed by"
-	cont "SABRINA."
+	text "도장의 사범"
+	line "태권왕도"
+	
+	para "초련에게 호되게"
+	line "당했단다!"
 	done
 
 SaffronGymGuyText:
-	text "Yo, CHAMP in"
-	line "making!"
-
-	para "A trainer as"
-	line "skilled as you"
-
-	para "doesn't need to be"
-	line "told how to deal"
-
-	para "with psychic-type"
-	line "#MON, right?"
-
-	para "I expect great"
-	line "things from you!"
-
-	para "Good luck!"
+	text "여어!"
+	line "미래의 챔피언!"
+	
+	para "너 정도의 트레이너라면"
+	line "에스퍼타입의 공략방법쯤은"
+	cont "물론 알고 있겠지!"
+	
+	para "기대하겠어!"
+	line "행운을 빌께!"
 	done
 
 SaffronGymGuyWinText:
-	text "That was another"
-	line "fantastic battle!"
+	text "훌륭한 시합이었다!"
 	done
-
+	
 SaffronGym_MapEvents:
 	db 0, 0 ; filler
 

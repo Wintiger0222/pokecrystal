@@ -10,12 +10,9 @@ VermilionDiglettsCaveSpeechHouseGentlemanScript:
 	jumptextfaceplayer VermilionDiglettsCaveSpeechHouseGentlemanText
 
 VermilionDiglettsCaveSpeechHouseGentlemanText:
-	text "Over many years,"
-	line "DIGLETT dug a"
-	cont "large tunnel."
-
-	para "That tunnel goes"
-	line "to a distant town."
+	text "디그다가 몇 년에 걸쳐서"
+	line "판 지하의 통로는"
+	cont "먼 마을까지 통해져 있단다"
 	done
 
 VermilionDiglettsCaveSpeechHouse_MapEvents:

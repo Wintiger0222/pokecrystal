@@ -22,52 +22,35 @@ SoulHouseGrannyScript:
 	jumptextfaceplayer SoulHouseGrannyText
 
 MrFujiText:
-	text "MR.FUJI: Welcome."
-
-	para "Hmm… You appear to"
-	line "be raising your"
-
-	para "#MON in a kind"
-	line "and loving manner."
-
-	para "#MON lovers"
-	line "come here to pay"
-
-	para "their respects to"
-	line "departed #MON."
-
-	para "Please offer con-"
-	line "dolences for the"
-
-	para "souls of the de-"
-	line "parted #MON."
-
-	para "I'm sure that will"
-	line "make them happy."
+	text "등나무노인『야아 잘 왔단다"
+	
+	para "흠흠…… 너는 포켓몬을"
+	line "소중하게 키우고 있는 것 같구나"
+	
+	para "이곳은 포켓몬을 사랑하는 사람들이"
+	line "모이는 장소"
+	
+	para "어떠냐 너도 기도해주겠느냐"
+	line "포켓몬들이 기뻐할께야"
 	done
 
 SoulHouseTeacherText:
-	text "There are other"
-	line "graves of #MON"
-	cont "here, I think."
-
-	para "There are many"
-	line "chambers that only"
-	cont "MR.FUJI may enter."
+	text "포켓몬의 묘지는"
+	line "이것만이 아닌 것 같아"
+	
+	para "등나무노인만 들어갈 수 있는"
+	line "방이 많이 있다고 하던데"
 	done
 
 SoulHouseLassText:
-	text "I came with my mom"
-	line "to visit #MON"
-	cont "graves…"
+	text "엄마랑 함께"
+	line "성묘하러 왔단다……"
 	done
-
+	
 SoulHouseGrannyText:
-	text "The #MON that"
-	line "lived with me…"
-
-	para "I loved them like"
-	line "my grandchildren…"
+	text "함께 지냈던"
+	line "포켓몬은"
+	cont "손자같은 것이지……"
 	done
 
 SoulHouse_MapEvents:

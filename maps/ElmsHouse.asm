@@ -21,7 +21,6 @@ ElmsHouseBookshelf:
 
 ElmsWifeText:
 	text "엥 <PLAY_G>!"
-	line "husband's always"
 
 	para "우리 남편"
 	line "어쩐지 바쁜 것 같아도"

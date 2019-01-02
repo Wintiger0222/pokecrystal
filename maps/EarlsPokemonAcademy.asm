@@ -102,7 +102,7 @@ AcademyBlackboard:
 
 .BlackboardMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 11, 8
+	menu_coords 0, 0, 11, 8;확인필요
 	dw .MenuData
 	db 1 ; default option
 
@@ -114,12 +114,12 @@ AcademyBlackboard:
 	dbw BANK(AcademyBlackboard), 0
 
 .Text:
-	db "PSN@";미번역
-	db "PAR@"
-	db "SLP@"
-	db "BRN@"
-	db "FRZ@"
-	db "QUIT@"
+	db "독@"
+	db "마비@"
+	db "잠듦@"
+	db "화상@"
+	db "얼음@"
+	db "그만두다@"
 
 AcademyNotebook:
 	opentext

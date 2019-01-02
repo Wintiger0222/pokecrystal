@@ -75,68 +75,54 @@ UnionCaveB2FHyperPotion:
 	itemball HYPER_POTION
 
 CooltrainermNickSeenText:
-	text "There are two"
-	line "kinds of people."
-
-	para "Those who have"
-	line "style, and those"
-	cont "who don't."
-
-	para "What kind of"
-	line "person are you?"
+	text "세상에는 2종류의"
+	line "인간이 있지"
+	cont "센스가 있는 자와 없는 자"
+	
+	para "너는 어떨까?"
 	done
-
+	
 CooltrainermNickBeatenText:
-	text "You've got"
-	line "dazzling style!"
+	text "아름답게 빛나고 있다!"
 	done
 
 CooltrainermNickAfterBattleText:
-	text "Your #MON style"
-	line "is stunning and"
-	cont "colorful, I admit."
-
-	para "You'll just keep"
-	line "getting better!"
+	text "너의 포켓몬 센스"
+	line "장래가 있어 보인다"
+	cont "반드시 강하게 될꺼야!"
 	done
 
 CooltrainerfGwenSeenText:
-	text "I'm in training."
-	line "Care for a round?"
+	text "현재 여기서 특훈을 하고있어"
+	line "너 상대해주지 않을래?"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "Aww, no! You're"
-	line "too good for me."
+	text "아앙 졌어!"
+	line "너무 강하잖아!"
 	done
 
 CooltrainerfGwenAfterBattleText:
-	text "I'm going to train"
-	line "by myself until I"
-	cont "improve."
+	text "강해질 때까지"
+	line "남몰래 특훈을 할꺼야!"
 	done
-
+	
 CooltrainerfEmmaSeenText:
-	text "If the #MON I"
-	line "liked were there,"
-	cont "I'd go anywhere."
-
-	para "That's what a real"
-	line "trainer does."
+	text "좋아하는 포켓몬이 있다면"
+	line "어떠한 곳이든 갈꺼야"
+	cont "그것이 트레이너라는 것이지!"
 	done
 
 CooltrainerfEmmaBeatenText:
-	text "I'd rather pet my"
-	line "babies than this!"
+	text "나는 승부하는 것보다 포켓몬을"
+	line "귀여워하는 것을 좋아하는지도 몰라"
 	done
-
 CooltrainerfEmmaAfterBattleText:
-	text "Just once a week,"
-	line "a #MON comes to"
-	cont "the water's edge."
-
-	para "I wanted to see"
-	line "that #MON…"
+	text "매주 딱 한번씩만"
+	line "물가에 포켓몬이 찾아와"
+	
+	para "그 포켓몬을 만나고싶은데……"
+	line "라고 생각하고 있어"
 	done
 
 UnionCaveB2F_MapEvents:

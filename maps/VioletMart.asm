@@ -21,29 +21,19 @@ VioletMartCooltrainerMScript:
 	jumptextfaceplayer VioletMartCooltrainerMText
 
 VioletMartGrannyText:
-	text "When you first"
-	line "catch a #MON,"
-	cont "it may be weak."
-
-	para "But it will even-"
-	line "tually grow to be"
-	cont "strong."
-
-	para "It's important to"
-	line "treat #MON with"
-	cont "love."
+	text "잡은지 얼마 안 되었어도"
+	line "약한 포켓몬도 키우면"
+	cont "언젠가 강해질 것입니다"
+	
+	para "중요한 것은 포켓몬에 대한"
+	line "애정이라고 생각합니다"
 	done
 
 VioletMartCooltrainerMText:
-	text "#MON can hold"
-	line "items like POTION"
-	cont "and ANTIDOTE."
-
-	para "But they don't"
-	line "appear to know how"
-
-	para "to use manmade"
-	line "items."
+	text "포켓몬도 도구를 지니고 있지만"
+	line "상처약이라든가 해독제라든가"
+	cont "사람이 만든 도구는"
+	cont "사용방법을 모르는 것 같다"
 	done
 
 VioletMart_MapEvents:

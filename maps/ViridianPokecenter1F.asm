@@ -35,38 +35,30 @@ ViridianPokecenter1FBugCatcherScript:
 	jumptextfaceplayer ViridianPokecenter1FBugCatcherText
 
 ViridianPokecenter1FCooltrainerMText:
-	text "Where in the world"
-	line "is VIRIDIAN's GYM"
-
-	para "LEADER? I wanted"
-	line "to challenge him."
+	text "상록시티의 체육관 관장은"
+	line "어디에 갔을까"
+	cont "도전 하고 싶었는데"
 	done
 
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
-	text "There are no GYM"
-	line "TRAINERS at the"
-	cont "VIRIDIAN GYM."
-
-	para "The LEADER claims"
-	line "his policy is to"
-
-	para "win without having"
-	line "any underlings."
+	text "상록시티 체육관은"
+	line "체육관 트레이너가 없단다"
+	
+	para "주위사람같은게 있든 없든 이긴다"
+	line "라는 것이 관장의 정책이래"
 	done
 
 ViridianPokecenter1FCooltrainerFText:
-	text "I heard that the"
-	line "GYM in CINNABAR is"
-	cont "gone."
-
-	para "I wonder what be-"
-	line "came of BLAINE,"
-	cont "the GYM LEADER."
+	text "홍련마을의 체육관이"
+	line "없어진 것 같아"
+	
+	para "관장인 강연은"
+	line "어디서 무엇을 하고 있을까?"
 	done
 
 ViridianPokecenter1FBugCatcherText:
-	text "My dream is to be-"
-	line "come a GYM LEADER."
+	text "체육관 관장이 되는 것이"
+	line "내 꿈이란다!"
 	done
 
 ViridianPokecenter1F_MapEvents:

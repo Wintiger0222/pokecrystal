@@ -21,18 +21,16 @@ SaffronMartCooltrainerFScript:
 	jumptextfaceplayer SaffronMartCooltrainerFText
 
 SaffronMartCooltrainerMText:
-	text "There's a big"
-	line "RADIO TOWER in"
-	cont "LAVENDER."
+	text "보라타운에는"
+	line "커다란 라디오타워가 있다!"
 	done
-
+	
 SaffronMartCooltrainerFText:
-	text "I want to become"
-	line "stronger, but I'm"
-	cont "not good yet…"
-
-	para "Could you show me"
-	line "how sometime?"
+	text "더욱 강해지고 싶은데"
+	line "아직도 멀었어……"
+	
+	para "다음에는 강해지는 비결을"
+	line "가르쳐 주었으면 좋겠어"
 	done
 
 SaffronMart_MapEvents:

@@ -41,63 +41,55 @@ SproutTower1FStatue:
 	jumptext SproutTower1FStatueText
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
-
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	text "우리들이 이 탑을"
+	line "지키고있는 것은"
+	
+	para "포켓몬에 대한 감사의 마음을"
+	line "항상 잊지 않도록 하기 위함이오!"
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "아 고맙소!"
 	done
 
 SageChowAfterBattleText:
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
-
-	para "We must always be"
-	line "thankful for this."
+	text "세상의 모든 생명체"
+	line "서로 돕고 살아간다는……"
+	
+	para "감사의 마음을"
+	line "잊는다면 아니 될 것이오"
 	done
 
 SproutTower1FSage1Text:
-	text "Only if you reach"
-	line "the top will you"
-	cont "obtain an HM."
+	text "가장 꼭대기까지"
+	line "올라왔다는 것만으로도"
+	cont "비전의 기술을 얻게되는 것이오"
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
-	line "built long ago"
-
-	para "as a place for"
-	line "#MON training."
+	text "이곳 모다피의 탑은"
+	line "포켓몬 수행을 위하여"
+	cont "오래 전에 지어진 것이오"
 	done
 
 SproutTower1FGrannyText:
-	text "A BELLSPROUT over"
-	line "100 feet tall…"
-
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	text "30미터에 달하는"
+	line "거대한 모다피"
+	
+	para "그 몸체가"
+	line "탑 중심의 기둥이"
+	cont "되었다고들 말하지"
 	done
 
 SproutTower1FTeacherText:
-	text "See the pillar"
-	line "shaking?"
-
-	para "People are train-"
-	line "ing upstairs."
+	text "기둥이 미묘하게 흔들리고 있지?"
+	line "위에서 스님들이"
+	cont "수행을 하고있지"
 	done
 
 SproutTower1FStatueText:
-	text "A #MON statue…"
-
-	para "It looks very"
-	line "distinguished."
+	text "포켓몬이 받들어 모셔지고 있군……"
+	line "어딘가 장엄한 기분이야"
 	done
 
 SproutTower1F_MapEvents:

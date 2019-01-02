@@ -17,37 +17,26 @@ FishingDudesHouseBookshelf:
 	jumpstd picturebookshelf
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "DUDE, the elder of"
-	cont "the FISHING BROS."
+	text "나는 낚시아저씨"
+	line "낚시 형제의 형"
 
-	para "Have you met the"
-	line "FISHING GURU at"
-	cont "LAKE OF RAGE?"
+	para "너는 분노의 호수에 있던"
+	line "낚시꾼을 알고있니?"
 
-	para "He dreams about"
-	line "seeing the world's"
-	cont "greatest MAGIKARP."
+	para "그녀석은 세상에서 가장"
+	line "엄청난 잉어킹을 잡고싶어해"
 
-	para "If you don't mind,"
-	line "could you show him"
-
-	para "any MAGIKARP you"
-	line "catch?"
-
-	para "Who knows, you may"
-	line "catch the MAGIKARP"
-	cont "of his dreams."
+	para "혹시 너가 낚아올린 잉어킹을"
+	line "보여주는건 어떠니?"
+	cont "그가 꿈꾸던 것일지도 몰라!"
 	done
 
 FishingDudesHousePhotoText:
-	text "It's a photo of"
-	line "people fishing…"
-
-	para "They're having a"
-	line "great time…"
+	text "낚시를 하고 있는 사람이"
+	line "찍혀있다……"
+	cont "매우 즐거운 것 같다"
 	done
-
+	
 VermilionFishingSpeechHouse_MapEvents:
 	db 0, 0 ; filler
 

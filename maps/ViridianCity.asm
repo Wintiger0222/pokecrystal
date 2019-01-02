@@ -86,131 +86,88 @@ ViridianCityMartSign:
 	jumpstd martsign
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Hey, kid! I just"
-	line "had a double shot"
-
-	para "of espresso, and"
-	line "I am wired!"
-
-	para "I need to talk to"
-	line "someone, so you'll"
-	cont "have to do!"
-
-	para "I might not look"
-	line "like much now, but"
-
-	para "I was an expert at"
-	line "catching #MON."
-
-	para "Do you believe me?"
+	text "우익-! 힉…… 기다리거라!"
+	line "내 이야기를 잘 들어라!"
+	
+	para "이렇게 보여도 옛날에는"
+	line "포켓몬을 잡는 것에"
+	cont "솜씨가 좋았단다"
+	
+	para "믿어주겠니?"
 	done
 
 ViridianCityCoffeeGrampsBelievedText:
-	text "Good, good. Yes, I"
-	line "was something out"
-
-	para "of the ordinary,"
-	line "let me tell you!"
+	text "그렇지 그렇단다"
+	line "음음"
 	done
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "What? You little"
-	line "whelp!"
-
-	para "If I were just a"
-	line "bit younger, I'd"
-
-	para "show you a thing"
-	line "or two. Humph!"
+	text "뭔소리냐 이녀석아!"
+	
+	para "내가 조금만 더 젊었어도"
+	line "실력을 보여줄 수 있을텐데"
 	done
 
 ViridianCityGrampsNearGymText:
-	text "This GYM didn't"
-	line "have a LEADER"
-	cont "until recently."
-
-	para "A young man from"
-	line "PALLET became the"
-
-	para "LEADER, but he's"
-	line "often away."
+	text "최근까지 이 체육관은"
+	line "관장이 없었단다"
+	
+	para "최근 태초마을의 젊은이가"
+	line "관장이 되었다는 것 같은데"
+	cont "……그런데 지금은 부재중이란다"
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Are you going to"
-	line "battle the LEADER?"
-
-	para "Good luck to you."
-	line "You'll need it."
+	text "관장이랑 싸울텐가"
+	line "힘내거라"
 	done
 
 ViridianCityDreamEaterFisherText:
-	text "Yawn!"
-
-	para "I must have dozed"
-	line "off in the sun."
-
-	para "…I had this dream"
-	line "about a DROWZEE"
-
-	para "eating my dream."
-	line "Weird, huh?"
-
-	para "Huh?"
-	line "What's this?"
-
-	para "Where did this TM"
-	line "come from?"
-
-	para "This is spooky!"
-	line "Here, you can have"
-	cont "this TM."
+	text "후아-!"
+	line "햇볕을 쪼이고 있다가"
+	cont "잠들어버렸다!"
+	
+	para "…… 이상한 꿈을 꿨다"
+	line "슬리프가 꿈을 먹고 있었다!"
+	cont "……오잉? 나 언제부턴가"
+	cont "기술머신을 가지고 있었는데?"
+	
+	para "움"
+	line "뭔가 불길해!"
+	cont "이거 너 줄께!"
 	done
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
-
-	para "…Zzzzz…"
+	text "기술머신42의 내용물은……"
+	line "꿈먹기란다……"
+	cont "…… 쿨-……"
 	done
 
 ViridianCityYoungsterText:
-	text "I heard that there"
-	line "are many items on"
-
-	para "the ground in"
-	line "VIRIDIAN FOREST."
+	text "상록숲에는"
+	line "못보던 도구가 잔뜩"
+	cont "떨어져 있다는 이야기가 있다!"
 	done
 
 ViridianCitySignText:
-	text "VIRIDIAN CITY"
-
-	para "The Eternally"
-	line "Green Paradise"
+	text "이곳은 상록시티"
+	line "상록은 녹색 영원한 색깔"
 	done
-
+	
 ViridianGymSignText:
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
-	cont "LEADER: …"
-
-	para "The rest of the"
-	line "text is illegible…"
+	text "상록시티 포켓몬 체육관"
+	line "관장 ……"
+	cont "다음은 글을 읽을 수 없다!"
 	done
 
 ViridianCityWelcomeSignText:
-	text "WELCOME TO"
-	line "VIRIDIAN CITY,"
-
-	para "THE GATEWAY TO"
-	line "INDIGO PLATEAU"
+	text "석영고원 입구의 마을"
+	line "상록시티에 어서오세요!"
 	done
 
 TrainerHouseSignText:
-	text "TRAINER HOUSE"
-
-	para "The Club for Top"
-	line "Trainer Battles"
+	text "트레이너 하우스"
+	line "용사들이 모이는 장소"
 	done
 
 ViridianCity_MapEvents:

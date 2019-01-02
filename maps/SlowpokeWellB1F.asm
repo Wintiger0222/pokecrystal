@@ -143,181 +143,139 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Hey there,"
-	line "<PLAYER>!"
+	text "강집『오오 <PLAYER>인가"
 
-	para "The guard up top"
-	line "took off when I"
-	cont "shouted at him."
-
-	para "But then I took a"
-	line "tumble down the"
-	cont "WELL."
-
-	para "I slammed down"
-	line "hard on my back,"
-	cont "so I can't move."
-
-	para "Rats! If I were"
-	line "fit, my #MON"
-
-	para "would've punished"
-	line "them…"
-
-	para "Ah, it can't be"
-	line "helped."
-
-	para "<PLAYER>, show them"
-	line "how gutsy you are"
-	cont "in my place!"
+	para "위에서 망을보던 녀석은"
+	line "큰소리로 혼쭐을 내니까"
+	cont "도망쳤지만……"
+	
+	para "나는 우물에서 떨어져버려"
+	line "허리를 다쳐 움직일 수 없단다"
+	
+	para "젠장…… 다치지만 않았으면"
+	line "내 포켓몬이"
+	cont "착착 혼을 낼 수 있을텐데……"
+	
+	para "이보게 <PLAYER>!"
+	line "내 대신"
+	cont "트레이너의 정신을 보여주거라!"
 	done
 
 KurtLeaveSlowpokeWellText:
-	text "KURT: Way to go,"
-	line "<PLAYER>!"
-
-	para "TEAM ROCKET has"
-	line "taken off."
-
-	para "My back's better"
-	line "too. Let's get out"
-	cont "of here."
+	text "강집『<PLAYER>잘해주었다"
+	line "로켓단녀석들"
+	cont "싹 도망쳤단다"
+	
+	para "허리 상태도 좋아졌구"
+	line "나도 돌아가 봐야겠다"
 	done
 
 GruntM29SeenText:
-	text "Darn! I was stand-"
-	line "ing guard up top"
-
-	para "when some old coot"
-	line "yelled at me."
-
-	para "He startled me so"
-	line "much that I fell"
-	cont "down here."
-
-	para "I think I'll vent"
-	line "my anger by taking"
-	cont "it out on you!"
+	text "젠장 위에서 감시하고 있었는데"
+	line "뭐야 저 노인은"
+	
+	para "갑자기 큰소리를 지르니까"
+	line "놀라서 우물에 떨어져버렸잖아"
+	
+	para "에-이 기분전환으로"
+	line "너를 괴롭혀볼까!"
 	done
 
 GruntM29BeatenText:
-	text "Arrgh! This is NOT"
-	line "my day!"
+	text "아- 이런-"
+	line "전혀 안되겠군!"
 	done
 
 GruntM29AfterBattleText:
-	text "Sure, we've been"
-	line "hacking the tails"
-
-	para "off SLOWPOKE and"
-	line "selling them."
-
-	para "Everything we do"
-	line "is for profit."
-
-	para "That's right!"
-	line "We're TEAM ROCKET,"
-
-	para "and we'll do any-"
-	line "thing for money!"
+	text "그렇다 우리들이"
+	line "야돈의 꼬리를 잘라서"
+	cont "팔고있었다"
+	
+	para "이것도 저것도 다 돈벌기 위해서"
+	line "맞아 돈을 위해서라면"
+	cont "무엇이든 하는것이 바로 로켓단!"
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
-
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
+	text "뭐냐?"
+	
+	para "우리의 일을 방해할 것이라면"
+	line "용서하지 않겠다!"
 	done
 
 GruntM1BeatenText:
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
+	text "쿠웃 꼬맹이"
+	line "꽤 잘하는군! 하지만"
+	cont "다음부터는 그렇게 않될 것이다"
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three years ago."
-
-	para "But we continued"
-	line "our activities"
-	cont "underground."
-
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
+	text "확실히 우리 로켓단은"
+	line "3년전에 해산했다"
+	
+	para "하지만 이렇게 지하로 숨어들어"
+	line "활동을 계속해온 것이다"
+	
+	para "이제부터 어떤 일이 일어날까"
+	line "즐겁게 기다리는게 좋을꺼다!"
 	done
 
 GruntM2SeenText:
-	text "Quit taking SLOW-"
-	line "POKETAILS?"
-
-	para "If we obeyed you,"
-	line "TEAM ROCKET's rep"
-	cont "would be ruined!"
+	text "꼬리 자르는 것을 그만두라고?"
+	
+	para "누가 시킨다고 그만둔다면"
+	line "로켓단이 아니지!"
 	done
 
 GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
+	text "너 너무나도 강하군……"
 	done
 
 GruntM2AfterBattleText:
-	text "We need the money,"
-	line "but selling SLOW-"
-	cont "POKETAILS?"
-
-	para "It's tough being a"
-	line "ROCKET GRUNT!"
+	text "돈을 번다고는 하지만"
+	line "야돈의 꼬리를 팔다니……"
+	
+	para "조무래기는 괴로워……"
 	done
 
 GruntF1SeenText:
-	text "Stop taking TAILS?"
-
-	para "Yeah, just try to"
-	line "defeat all of us!"
+	text "꼬리 자르는 것을 그만두라고?"
+	
+	para "자- 우리들"
+	line "전원을 쓰러뜨려 보아랏!"
 	done
 
 GruntF1BeatenText:
-	text "You rotten brat!"
+	text "이런 얄미운 녀석"
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKETAILS"
-	line "grow back fast!"
-
-	para "What's wrong with"
-	line "selling them?"
+	text "야돈의 꼬리 같은 거"
+	line "금방 또다시 생기잖아"
+	cont "그것을 파는게 뭐가 나빠!"
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
-
-	para "Huh? It has MAIL."
-	line "Read it?"
+	text "야돈이다……"
+	line "꼬리가 잘려있어……"
+	
+	para "오잉? 메일을 가지고있다"
+	line "읽어볼까?"
 	done
 
 SlowpokeWellB1FSlowpokeMailText:
-	text "<PLAYER> read the"
-	line "MAIL."
-
-	para "Be good and look"
-	line "after the house"
-
-	para "with Grandpa and"
-	line "SLOWPOKE."
-
-	para "Love, Dad"
+	text "<PLAYER>는(은)"
+	line "메일을 읽어보았다!"
+	
+	para "할아버지랑 야돈이랑 사이좋게"
+	line "집지키고 있거라! 아버지로부터"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "야돈이다……"
+	line "꼬리가 잘려있다……"
 	done
-
+	
 SlowpokeWellB1F_MapEvents:
 	db 0, 0 ; filler
 

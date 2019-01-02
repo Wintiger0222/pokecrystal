@@ -31,32 +31,22 @@ SlowpokeWellB2FTMRainDance:
 	itemball TM_RAIN_DANCE
 
 SlowpokeWellB2FGymGuyText:
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
-
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
-
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
-
-	para "gets bitten by a"
-	line "SHELLDER."
-
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	text "나는 여기서"
+	line "야돈이 진화하는 순간을"
+	cont "기다리고 있단다"
+	
+	para "관찰을 하고 알아낸 것은"
+	line "왕의 징표석을 지닌"
+	cont "야돈은 어떻게된건지"
+	cont "셀러에게 잘 물려진다"
+	
+	para "맞아 너에게도"
+	line "왕의 징표석을 나누어주마!"
 	done
 
 SlowpokeWellB2FGymGuyText_GotKingsRock:
-	text "I'm going to be"
-	line "like SLOWPOKE."
-
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	text "야돈을 따라서 느긋하게"
+	line "진화하는 순간을 기다려"
 	done
 
 SlowpokeWellB2F_MapEvents:

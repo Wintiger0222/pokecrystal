@@ -145,10 +145,10 @@ GoldenrodGameCornerTMVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "TM25    5500@"
-	db "TM14    5500@"
-	db "TM38    5500@"
-	db "CANCEL@"
+	db "기술머신25　　5500@"
+	db "기술머신14　　5500@"
+	db "기술머신38　　5500@"
+	db "그만두다@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -230,11 +230,11 @@ GoldenrodGameCornerPrizeMonVendorScript:
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 4 ; items
-	db "ABRA        100@"
-	db "CUBONE      800@"
-	db "WOBBUFFET  1500@"
-	db "CANCEL@"
+	db 4 ; 
+	db "케이시　　　　　　100@"
+	db "텅구리　　　　　　800@"
+	db "마자용　　　　　1500@"
+	db "그만두다@"
 
 GoldenrodGameCornerPharmacistScript:
 	faceplayer

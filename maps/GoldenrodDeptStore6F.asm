@@ -75,10 +75,10 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
-	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
-	db "CANCEL@"
+	db "맛있는　물　　　200¥@"
+	db "미네랄　사이다　300¥@"
+	db "후르츠　밀크　　350¥@"
+	db "그만두다@"
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText

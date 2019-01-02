@@ -79,53 +79,36 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillBeforeText:
-	text "Welcome to #MON"
-	line "LEAGUE, <PLAYER>."
-
-	para "Allow me to intro-"
-	line "duce myself. I am"
-	cont "WILL."
-
-	para "I have trained all"
-	line "around the world,"
-
-	para "making my psychic"
-	line "#MON powerful."
-
-	para "And, at last, I've"
-	line "been accepted into"
-	cont "the ELITE FOUR."
-
-	para "I can only keep"
-	line "getting better!"
-
-	para "Losing is not an"
-	line "option!"
+	text "포켓몬 리그에 잘 왔단다"
+	
+	para "나의 이름은 일목"
+	
+	para "전 세계를 여행하며"
+	line "에스퍼 포켓몬의"
+	cont "수행에 전념했었다"
+	
+	para "그리고 드디어"
+	line "사천왕의 한사람이 되었단다"
+	
+	para "나는 더욱 강해질 것이다!"
+	line "이곳에서 절대 질 수는 없다!"
 	done
 
 WillScript_WillBeatenText:
-	text "I… I can't…"
-	line "believe it…"
+	text "…… 졌다"
 	done
 
 WillScript_WillDefeatText:
-	text "Even though I was"
-	line "defeated, I won't"
-	cont "change my course."
-
-	para "I will continue"
-	line "battling until I"
-
-	para "stand above all"
-	line "trainers!"
-
-	para "Now, <PLAYER>, move"
-	line "on and experience"
-
-	para "the true ferocity"
-	line "of the ELITE FOUR."
+	text "졌다고해서"
+	line "나의 할 일은 변하지 않는다"
+	cont "트레이너의 정상에 서기 위해"
+	cont "계속 싸울 뿐이다"
+	
+	para "너는 다음단계로 넘어가"
+	line "진정한 사천왕의 무서움을"
+	cont "확인하는 것이 좋을 것이다!"
 	done
-
+	
 WillsRoom_MapEvents:
 	db 0, 0 ; filler
 

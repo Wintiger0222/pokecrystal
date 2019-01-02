@@ -37,49 +37,38 @@ SproutTower2FXAccuracy:
 	itemball X_ACCURACY
 
 SageNicoSeenText:
-	text "However hard we"
-	line "battle, the TOWER"
-	cont "will stand strong."
+	text "우리들이 큰 소란을 쳐도"
+	line "이 탑은 꿈쩍도 하지않을 것이오!"
 	done
 
 SageNicoBeatenText:
-	text "I fought hard but"
-	line "I'm too weak."
+	text "소란을 친 것치곤 다행일세……!"
 	done
 
 SageNicoAfterBattleText:
-	text "The flexible pil-"
-	line "lar protects the"
-
-	para "TOWER, even from"
-	line "earthquakes."
+	text "엄청난 지진일지라도"
+	line "흔들리는 기둥덕분에"
+	cont "무너지지 않는 것이외다……!"
 	done
 
 SageEdmondSeenText:
-	text "…Sway like leaves"
-	line "in the wind…"
+	text "바람에 흔들리고 있소"
+	line "나뭇잎처럼……!"
 	done
 
 SageEdmondBeatenText:
-	text "Oh, I'm weak!"
+	text "허약한 녀석!"
 	done
 
 SageEdmondAfterBattleText:
-	text "I tried to copy"
-	line "BELLSPROUT's"
-
-	para "gentle movements"
-	line "for battle…"
-
-	para "But I didn't train"
-	line "well enough."
+	text "모다피의 아름다운 움직임을"
+	line "싸움에도 받아들였소이다만……"
+	cont "수행이 부족한 듯 하구려"
 	done
 
 SproutTower2FStatueText:
-	text "A #MON statue…"
-
-	para "It looks very"
-	line "distinguished."
+	text "포켓몬이 받들어 모셔지고 있군……"
+	line "어딘가 장엄한 분위기야"
 	done
 
 SproutTower2F_MapEvents:

@@ -66,88 +66,69 @@ UnionCaveB1FBoulder:
 	jumpstd strengthboulder
 
 HikerPhillipSeenText:
-	text "It's been a while"
-	line "since I last saw"
-	cont "another person."
-
-	para "Don't be shy."
-	line "Let's battle!"
+	text "아아 오랜만에 사람을 보는군……"
+	line "자 그럼 포켓몬이닷!"
 	done
 
 HikerPhillipBeatenText:
-	text "Uurggh…"
+	text "크윽……"
 	done
 
 HikerPhillipAfterBattleText:
-	text "I've been lost for"
-	line "a long time…"
-
-	para "I don't mind it"
-	line "here, but I am"
-	cont "soooo hungry!"
+	text "계속 헤매어서……"
+	
+	para "이곳으로부터 나가지 못하는 것은"
+	line "괜찮지만 배가 고프다 뭐!"
 	done
 
 HikerLeonardSeenText:
-	text "What do you know!"
-	line "A visitor!"
+	text "오오 오랜만에 손님이 왔군!"
 	done
 
 HikerLeonardBeatenText:
-	text "Wahahah! You're a"
-	line "feisty one!"
+	text "와하하하-"
+	line "힘이 넘치는 꼬마로군!"
 	done
 
 HikerLeonardAfterBattleText:
-	text "I live down here."
-
-	para "You can, too, if"
-	line "you'd like."
-
-	para "There's plenty of"
-	line "room, you see."
+	text "나는 이곳에서 지내고 있어!"
+	line "너도 마음에 들면 지내도 좋아!"
+	cont "장소는 얼마든지 널려있으니까"
 	done
 
 PokemaniacAndrewSeenText:
-	text "Who's there?"
-
-	para "Leave me and my"
-	line "#MON alone!"
+	text "누구냐? 나랑 포켓몬밖에"
+	line "없는 세계를 방해하지 말아줘!"
 	done
-
+	
 PokemaniacAndrewBeatenText:
-	text "Go…"
-	line "Go away!"
+	text "으우……"
+	line "저리 가!"
 	done
 
 PokemaniacAndrewAfterBattleText:
-	text "Just me and my"
-	line "#MON. I'm de-"
-	cont "lirious with joy."
+	text "나와 포켓몬뿐……"
+	line "아아 나는 참 행복해!"
 	done
 
 PokemaniacCalvinSeenText:
-	text "I came all the way"
-	line "here to conduct my"
-	cont "#MON research."
-
-	para "Let me demonstrate"
-	line "my findings in a"
-	cont "real battle!"
+	text "포켓몬에 관한 것을 조사하기 위해"
+	line "이런 곳까지도 찾아왔어요"
+	
+	para "내 조사결과를"
+	line "실천으로 가르쳐주지요!"
 	done
 
 PokemaniacCalvinBeatenText:
-	text "You demonstrated"
-	line "on me!"
+	text "내가 가르침을 받았다-"
 	done
 
 PokemaniacCalvinAfterBattleText:
-	text "I should compile"
-	line "and announce my"
-	cont "study findings."
-
-	para "I might even be-"
-	line "come famous like"
-	cont "PROF.ELM."
+	text "이제 곧 조사한 것을"
+	line "정리해서 발표해볼까나"
+	
+	para "그렇게 하면 공박사처럼"
+	line "유명하게 될지도 몰라"
 	done
 
 UnionCaveB1F_MapEvents:

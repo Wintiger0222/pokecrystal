@@ -106,161 +106,113 @@ SaffronCityMartSign:
 	jumpstd martsign
 
 SaffronCityLass1Text:
-	text "A little girl who"
-	line "is an expert at"
-
-	para "mimicking people"
-	line "lives here."
-
-	para "She even mimics"
-	line "the people she's"
-
-	para "conversing with."
-	line "It's confusing."
+	text "이곳은 흉내내기가 뛰어난"
+	line "여자아이의 집이란다"
+	
+	para "사람들의 흉내를 내서 말하니까"
+	line "말을 하면 곤란해지지"
 	done
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The COPYCAT girl"
-	line "looked unhappy."
-
-	para "She said she lost"
-	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	text "흉내내기 잘하는 여자아이"
+	line "소중히 여기던"
+	cont "삐삐인형을 잃어버려서"
+	cont "낙심하고 있어"
 	done
 
 SaffronCityPokefanMText:
-	text "You came out from"
-	line "JOHTO?"
-
-	para "You can zip back"
-	line "home if the MAGNET"
-	cont "TRAIN's running."
+	text "성도에서 왔는가?"
+	
+	para "리니어 기차가 움직인다면"
+	line "바로 성도에 돌아갈 수 있는데!"
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
-	text "You came out from"
-	line "JOHTO?"
-
-	para "You can zip back"
-	line "home by hopping on"
-	cont "the MAGNET TRAIN."
+	text "성도에서 왔는가?"
+	
+	para "리니어에 타면 눈 깜짝할 새에"
+	line "성도에 돌아갈 수 있지!"
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the GYM,"
-	line "raring for battles"
-	cont "against trainers…"
-
-	para "It turns out, I"
-	line "stumbled into the"
-
-	para "unused GYM next"
-	line "door."
-
-	para "Boy, I was pretty"
-	line "embarrassed."
+	text "자 체육관 트레이너랑 싸우자!"
+	line "라는건 체육관에 들어와서……"
+	
+	para "지금은 하고 있지 않다"
+	line "옆의 체육관에 들어가버렸다……"
+	cont "좀 창피했었어……"
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is SILPH CO.,"
-	line "famous for #MON"
-	cont "merchandise."
-
-	para "In the past, TEAM"
-	line "ROCKET wanted the"
-
-	para "company because of"
-	line "that."
+	text "이곳은 포켓몬 제품으로"
+	line "유명한 실프주식회사!"
+	
+	para "그래서 예전에"
+	line "로켓단에게 표적이 되었었단다"
 	done
 
 SaffronCityFisherText:
-	text "Chew… Chew…"
-
-	para "I hear there's big"
-	line "trouble brewing at"
-	cont "the POWER PLANT."
-
-	para "Chew… Chew…"
+	text "우걱우걱……"
+	
+	para "발전소 큰일난 것 같군"
+	line "쩝 쩝……"
 	done
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Chew… Chew…"
-
-	para "I hear there was"
-	line "big trouble at the"
-	cont "POWER PLANT."
-
-	para "Chew… Chew…"
-	line "Haaah, I'm full!"
+	text "쩝 쩝……"
+	
+	para "발전소에 큰일이 났었다"
+	line "는 것 같아 우걱우걱……"
+	cont "배가 빵빵해졌다……!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Going into an"
-	line "alley for the"
-
-	para "first time makes"
-	line "me sorta anxious."
+	text "처음 들어가는 뒷골목이라"
+	line "약간 두근거리네!"
 	done
 
 SaffronCityYoungster2Text:
-	text "There's a place"
-	line "called TRAINER"
-
-	para "HOUSE in VIRIDIAN"
-	line "where trainers"
-
-	para "gather from all"
-	line "over the place."
+	text "트레이너가 많이 모이는"
+	line "트레이너 하우스라는 건물이"
+	cont "상록시티에 있데!"
 	done
-
+	
 SaffronCityLass2Text:
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
-
-	para "It's nice to hear"
-	line "praise for your"
-
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	text "라디오 방송에서 이 마을이"
+	line "소개되었단다"
+	
+	para "살고있는 마을을 칭찬받아서"
+	line "약간 부끄러워!"
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
-
-	para "Shining, Golden"
-	line "Land of Commerce"
+	text "이곳은 노랑시티"
+	line "노랑은 금빛으로 빛나는 색깔"
 	done
-
+	
 SaffronGymSignText:
-	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
-
-	para "The Master of"
-	line "Psychic #MON!"
+	text "노랑시티 포켓몬 체육관"
+	line "관장 초련"
+	cont "에스퍼 레이디"
 	done
 
 FightingDojoSignText:
-	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	text "누구든지 오세요"
+	line "격투 도장!"
 	done
 
 SilphCoSignText:
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "실프주식회사"
+	line "본사 빌딩"
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "에스퍼 아저씨의 집"
 	done
-
+	
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
-	line "MAGNET TRAIN"
-	cont "STATION"
+	text "이곳은 노랑시티"
+	line "리니어 기차역"
 	done
 
 SaffronCity_MapEvents:

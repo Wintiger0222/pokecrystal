@@ -11,12 +11,12 @@ TinTower9FHPUp:
 
 TinTower9FUnusedHoOhText:
 ; unused
-	text "HO-OH: Shaoooh!"
+	text "칠색조『조오-!!"
 	done
 
 TinTower9FUnusedLugiaText:
 ; unused
-	text "LUGIA: Gyaaan!"
+	text "루기아『기아-아!!"
 	done
 
 TinTower9F_MapEvents:

@@ -110,61 +110,49 @@ Movement_TrainerHouseTurnBack:
 	step_end
 
 TrainerHouseB1FIntroText:
-	text "Hi. Welcome to our"
-	line "TRAINING HALL."
-
-	para "You may battle a"
-	line "trainer once per"
-	cont "day."
+	text "이곳은 연습장!"
+	line "하루에 한번입니다만"
+	cont "트레이너를 상대로"
+	cont "대전할 수 있습니다!"
 	done
-
+	
 TrainerHouseB1FYourOpponentIsText:
+;확인필요;앞에 아무말도 없음?
 	text_ram wStringBuffer3
-	text " is your"
-	line "opponent today."
+	text "님 입니다"
 	done
 
 TrainerHouseB1FAskWantToBattleText:
-	text "Would you like to"
-	line "battle?"
+	text "대전을 하겠습니까?"
 	done
 
 TrainerHouseB1FGoRightInText:
-	text "Please go right"
-	line "through."
-
-	para "You may begin"
-	line "right away."
+	text "어서 들어가세요"
+	line "바로 대전이 시작됩니다!"
 	done
 
 TrainerHouseB1FPleaseComeAgainText:
-	text "Sorry. Only those"
-	line "trainers who will"
-
-	para "be battling are"
-	line "allowed to go in."
+	text "연습 시합을"
+	line "하시려는 트레이너만"
+	cont "들어가실 수 있습니다!"
 	done
-
+	
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "I'm sorry."
-	line "This would be your"
-
-	para "second time today."
-	line "You're permitted"
-
-	para "to enter just once"
-	line "a day."
+	text "손님"
+	line "오늘은 두번째이군요!"
+	
+	para "대전은 하루에 한번씩 입니다"
+	line "대단히 죄송합니다"
 	done
 
 TrainerHouseB1FCalBeatenText:
-	text "I lost…"
-	line "Darn…"
+	text "졌다……"
+	line "유감이다……!"
 	done
 
 TrainerHouseB1FCalBeforeText:
-	text "I traveled out"
-	line "here just so I"
-	cont "could battle you."
+	text "너랑 싸우기 위하여"
+	line "멀리서 찾아왔다!"
 	done
 
 TrainerHouseB1F_MapEvents:

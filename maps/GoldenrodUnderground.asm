@@ -416,232 +416,192 @@ GoldenrodUndergroundHiddenAntidote:
 	hiddenitem ANTIDOTE, EVENT_GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE
 
 SupernerdEricSeenText:
-	text "I got booted out"
-	line "of the GAME COR-"
-	cont "NER."
-
-	para "I was trying to"
-	line "cheat using my"
-	cont "#MON…"
+	text "포켓몬을 사용하여"
+	line "속임수를 쓰려다가 들켜서"
+	cont "게임코너에서 쫓겨났다……"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "…… 투덜투덜"
 	done
 
 SupernerdEricAfterBattleText:
-	text "I guess I have to"
-	line "do things fair and"
-	cont "square…"
+	text "역시 정정당당하지 않으면"
+	line "안되는 것인가……"
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
-
-	para "If you know your"
-	line "type advantages,"
-
-	para "you'll do better"
-	line "in battle."
+	text "너 포켓몬의"
+	line "상성을 생각하고 있니?"
+	
+	para "타입의 상성을 알고 있으면"
+	line "포켓몬이 더욱 강해진다!"
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "아이고 아얏!"
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
-	line "type alignments."
-
-	para "But I only use one"
-	line "type of #MON."
+	text "타입의 상성은 잘 알고 있지만"
+	line "나는 같은 타입의"
+	cont "포켓몬만 사용하고 있지"
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got a haircut!"
-
-	para "I'll show you how"
-	line "strong it is!"
+	text "산발하는 기술의 포켓몬!"
+	line "그 강함을 보여주거랏!"
 	done
-
+	
 PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
+	text "으아아!"
 	done
 
 PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
-	line "like you more if"
-
-	para "you give them"
-	line "haircuts."
+	text "산발을 당하면"
+	line "어쩐지 포켓몬이 잘 따라준다"
 	done
 
 PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
-
-	para "Let me see them!"
+	text "너 어쩐지"
+	line "희귀한 포켓몬을 가지고 있군"
+	cont "좀 보여줘"
 	done
 
 PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "으악!"
+	line "졌다! 분하다!"
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
-
-	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
-	cont "good guy."
-
-	para "He'll phone you if"
-	line "he sees any rare"
-	cont "#MON."
+	text "포켓몬 도감을 만들고 있니?"
+	line "그럼 알아둬야 할 정보!"
+	
+	para "33번 도로에 있는"
+	line "등산가 스톰씨는"
+	
+	para "희귀한 포켓몬을 발견하면"
+	line "전화로 알려준단다!"
 	done
 
 UnknownText_0x7c5b0:
-	text "The door's locked…"
+	text "열쇠가 잠겨있다"
 	done
-
+	
 UnknownText_0x7c5c3:
-	text "The door is open."
+	text "문은 열려있군"
 	done
 
 UnknownText_0x7c5d6:
-	text "The BASEMENT KEY"
-	line "opened the door."
+	text "지하의 열쇠를 사용했다!"
+	line "문이 열렸다!"
 	done
 
 UnknownText_0x7c5f9:
-	text "Welcome!"
-
-	para "I run the #MON"
-	line "SALON!"
-
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
-
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥500."
-
-	para "Would you like me"
-	line "to do that?"
+	text "어서오세요!"
+	line "우리집은 포켓몬 미용실!"
+	
+	para "실력이 확실한 나는"
+	line "미용사 형제중의 형님이"
+	cont "500원으로 당신의 포켓몬을"
+	cont "예쁘게 꾸며줍니다!"
+	
+	para "어떻게 할래요?"
+	line "예쁘게 꾸며줄까요?"
 	done
 
 UnknownText_0x7c69a:
-	text "Which #MON"
-	line "should I work on?"
+	text "어느 포켓몬을 아름답게 할까요?"
 	done
 
 UnknownText_0x7c6b8:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "좋습니다!"
+	line "예쁘게 해 줄께요!"
 	done
 
 UnknownText_0x7c6d8:
-	text "There! All done!"
+	text "네 끝났습니다!"
 	done
 
 UnknownText_0x7c6ea:
-	text "Is that right?"
-	line "That's a shame!"
+	text "그래요?"
+	line "유감이로군요"
 	done
 
 UnknownText_0x7c709:
-	text "You'll need more"
-	line "money than that."
+	text "돈이 부족한 것 같군요!"
 	done
 
 UnknownText_0x7c72b:
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "하루에 1마리씩입니다"
+	line "오늘 영업은 끝!"
 	done
 
 UnknownText_0x7c75c:
-	text "Welcome to the"
-	line "#MON SALON!"
-
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
-
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥300."
-
-	para "So? How about it?"
+	text "포켓몬 미용실에 잘 오셨습니다!"
+	
+	para "나는"
+	line "미용사 형제중의 동생!"
+	
+	para "값이 싼 점이 영업방침!"
+	line "300원으로 너의 포켓몬을"
+	cont "예쁘게 해 줄께!"
+	
+	para "어떻게 할래?"
+	line "나한테 맡겨볼래?"
 	done
 
 UnknownText_0x7c7f1:
-	text "OK, which #MON"
-	line "should I do?"
+	text "어떤 포켓몬을 멋있게 할까?"
 	done
 
 UnknownText_0x7c80e:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "좋아!"
+	line "아주 멋있게 해 줄께!"
 	done
 
 UnknownText_0x7c82a:
-	text "There we go!"
-	line "All done!"
+	text "자 끝났다!"
 	done
 
 UnknownText_0x7c842:
-	text "No? "
-	line "How disappointing!"
+	text "그래?"
+	line "유감이군"
 	done
 
 UnknownText_0x7c85b:
-	text "You're a little"
-	line "short on funds."
+	text "돈이 부족한 것 같군"
 	done
 
 UnknownText_0x7c87b:
-	text "I can do only one"
-	line "haircut a day."
-
-	para "Sorry, but I'm all"
-	line "done for today."
+	text "하루에 1마리뿐이야"
+	line "미안 오늘은 영업 끝!"
 	done
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3
-	text " looks a"
-	line "little happier."
+	text "는(은)"
+	line "약간 기쁜 듯"
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "happy."
+	text "는(은)"
+	line "기뻐하는 것 같다!"
 	done
 
 HaircutBrosText_MuchHappier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "delighted!"
+	text "는(은)"
+	line "매우 기뻐하는 것 같다!"
 	done
 
 UnknownText_0x7c904:
-	text "We're not open"
-	line "today."
+	text "오늘은 하지 않아!"
 	done
 
 GoldenrodUndergroundNoEntryText:
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "이 앞은 출입금지!"
 	done
 
 GoldenrodUnderground_MapEvents:

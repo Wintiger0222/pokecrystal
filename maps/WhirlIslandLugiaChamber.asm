@@ -37,8 +37,8 @@ Lugia:
 	reloadmapafterbattle
 	end
 
-LugiaText:
-	text "Gyaaas!"
+LugiaText:	
+	text "으갸아아!!"
 	done
 
 WhirlIslandLugiaChamber_MapEvents:

@@ -21,17 +21,13 @@ VermilionMartBuenaScript:
 	jumptextfaceplayer VermilionMartBuenaText
 
 VermilionMartSuperNerdText:
-	text "TEAM ROCKET is no"
-	line "longer in KANTO."
-
-	para "That alone makes"
-	line "me happy."
+	text "관동에는 로켓단이 없어"
+	line "단지 그것만으로도 기뻐진단다!"
 	done
 
 VermilionMartBuenaText:
-	text "I'm thinking about"
-	line "going shopping in"
-	cont "SAFFRON."
+	text "노랑시티의 상점까지"
+	line "쇼핑하러 가려고 생각하고 있어"
 	done
 
 VermilionMart_MapEvents:
