@@ -7,17 +7,12 @@ UnknownText_0x64000:
 	done
 
 UnknownText_0x64032:
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G> 알고 있니?"
 
-	para "GOLDENROD's RADIO"
-	line "TOWER has been"
+	para "금빛시티의 라디오타워가"
+	line "로켓단에게 점령당했대"
 
-	para "taken over by TEAM"
-	line "ROCKET!"
-
-	para "…Um… What's TEAM"
-	line "ROCKET?"
+	para "근데 로켓단이라는건 뭐니?"
 	done
 
 UnknownText_0x64099:

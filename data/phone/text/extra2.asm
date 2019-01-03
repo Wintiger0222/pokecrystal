@@ -1,21 +1,15 @@
 UnknownText_0x174000:
-	text "Hi, <PLAY_G>!"
-	line "Our BICYCLE sales"
+	text "여어 <PLAY_G>"
+	line "최근에 자전거 잘 팔리고 있어!"
 
-	para "have gone through"
-	line "the roof!"
+	para "네가 자전거를 타고"
+	line "선전을 해주기 때문이란다"
 
-	para "We owe it all to"
-	line "your advertising"
+	para "고맙다는 답례로"
+	line "빌려준 자전거"
+	cont "너에게 줄께!"
 
-	para "by riding around"
-	line "on our BICYCLE."
-
-	para "As our way of say-"
-	line "ing thanks, please"
-
-	para "keep that BICYCLE."
-	line "Thanks again!"
+	para "정말 고마워!"
 	done
 
 JackIntelligenceText:
@@ -1730,15 +1724,12 @@ UnknownText_0x177361:
 	done
 
 UnknownText_0x177378:
-	text "Have you heard"
-	line "about TEAM ROCKET?"
+	text "<PLAY_G> 소문 들었니?"
 
-	para "They've taken over"
-	line "the RADIO TOWER in"
-	cont "GOLDENROD."
+	para "금빛시티 라디오타워가"
+	line "로켓단에게 빼았겼대!"
 
-	para "Are the people"
-	line "inside safe?"
+	para "안에 있는 사람들 괜찮을까?"
 	done
 
 UnknownText_0x1773e7:

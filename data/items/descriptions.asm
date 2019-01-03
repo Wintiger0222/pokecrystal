@@ -503,9 +503,8 @@ MysteryEggDesc:
 	db   "포켓몬 할아버지가 맡긴 것"
 	next "어떤 알인지 모른다@"
 
-ClearBellDesc:
-	db   "Makes a gentle"
-	next "ringing.@"
+ClearBellDesc:;4세대참조
+	db   "마음이 편안해지는 음색이 들린다@"
 
 SilverWingDesc:
 	db   "은빛으로 빛나는 신비한 날개@"
@@ -673,12 +672,10 @@ RageCandyBarDesc:
 	next "체력을 20 회복시켜준다@"
 
 GSBallDesc:
-	db   "The mysterious"
-	next "BALL.@"
+	db   "신비로운 몬스터볼@"
 
-BlueCardDesc:
-	db   "Card to save"
-	next "points.@"
+BlueCardDesc:;4세대 참조
+	db   "포인트를 모으는 카드@"
 
 MiracleSeedDesc:
 	db   "지니게 하면 풀타입의"
@@ -727,8 +724,8 @@ MachinePartDesc:
 	db   "발전소의 기계부품@"
 
 EggTicketDesc:
-	db   "May use at Golden-"
-	next "rod trade corner.@"
+	db   "금빛시티 교환소에서"
+	next "사용 할 수 있다@"
 
 LostItemDesc:
 	db   "흉내내기 아가씨가 잃어버린"

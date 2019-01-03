@@ -1,101 +1,81 @@
 BillPhoneMornGreetingText:
-	text "Good morning!"
+	text "안녕!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
-
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "이곳은 포켓몬 저장시스템"
+	line "관리 서비스!"
 	done
 
 BillPhoneDayGreetingText:
-	text "Good day!"
+	text "안녕!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
-
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "이곳은 포켓몬 저장시스템"
+	line "관리 서비스!"
 	done
 
 BillPhoneNiteGreetingText:
-	text "Good evening!"
+	text "수고했어요!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
-
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "이곳은 포켓몬 저장시스템"
+	line "관리 서비스!"
 	done
 
 BillPhoneGenericText:
-	text "Who's calling?"
+	text "이름은 뭐라고 하냐?"
 
-	para "<PLAY_G>, is it?"
-	line "Hang on a sec…"
+	para "그래 <PLAY_G>인가"
+	line "잠깐 기다려라!"
 
-	para $56
-	line $56
+	para "…… …… …… …… ……"
+	line " …… …… …… ……"
 	done
 
 BillPhoneNotFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "네 네 오래 기다렸어요!"
 
-	para "<PLAY_G>, your BOX"
-	line "has room for @"
+	para "<PLAY_G>이 사용하는 박스"
+	line "아직 @"
 	text_ram wStringBuffer3
-	text_start
-	cont "more #MON."
+	text "마리"
+	cont "비어있어"
 
-	para "Get out there and"
-	line "fill it up!"
+	para "점점 많이 맡겨줘!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "네 네 오래 기다렸어요!"
 
-	para "<PLAY_G>, your BOX"
-	line "has room for only"
-	cont "@"
+	para "<PLAY_G>이 사용하는 박스"
+	line "지금 @"
 	text_ram wStringBuffer3
-	text " more #MON."
+	text "마리밖에"
+	cont "비어있지 않아"
 
-	para "Maybe you should"
-	line "switch your BOX."
+	para "슬슬 정리해두는 편이"
+	line "좋지 않겠니?"
 	done
-
+	
 BillPhoneFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "네 네 오래 기다렸어요!"
 
-	para "<PLAY_G>, your BOX"
-	line "is full!"
+	para "<PLAY_G>이 사용하는 박스"
+	line "전혀 비어있지 않아!"
 
-	para "You'll have to"
-	line "switch BOXES if"
-
-	para "you want to catch"
-	line "more #MON."
+	para "정리해 주겠니"
+	line "이젠 포켓몬을 맡길 수 없어!"
 	done
+
 
 BillPhoneNewlyFullText:
-	text "Hi, <PLAY_G>?"
-	line "It's me, BILL!"
+	text "여보세요 <PLAY_G>?"
 
-	para "Thanks for using"
-	line "my STORAGE SYSTEM."
+	para "나 이수재야!"
+	line "늘 이용해줘서 고마워"
 
-	para "That last #MON"
-	line "you sent filled"
-	cont "your BOX up."
+	para "지금 전송한 포켓몬으로"
+	line "박스가 가득 찼어!"
 
-	para "You'll have to"
-	line "switch BOXES if"
+	para "컴퓨터 정리를 하지 않으면"
+	line "더 이상 맡길 수 없단다!"
 
-	para "you want to catch"
-	line "more #MON."
-
-	para "Bye now!"
+	para "그럼 바이바이!"
 	done

@@ -1,211 +1,158 @@
 ElmPhoneStartText:
-	text "Hello, <PLAY_G>?"
+	text "여보세요 <PLAY_G>인가?"
 
-	para "Try not to overdo"
-	line "it."
-
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "그다지 무리하지마"
+	line "포켓몬이 상처를 입었다면"
+	cont "쉬게하는 것도 중요하니까"
 	done
 
 ElmPhoneSawMrPokemonText:
-	text "Hello, <PLAY_G>?"
+	text "여보세요 <PLAY_G>인가?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "포켓몬 할아버지를 만났느냐?"
+	line "그럼 조심해서"
+	cont "돌아오너라"
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAY_G>? I'm very"
-	line "upset now."
+	text "아아 <PLAY_G>……"
 
-	para "We had a #MON"
-	line "stolen from here."
-
-	para "How could anyone"
-	line "do that?"
+	para "포켓몬을 도둑맞았단다……"
+	line "어떻게 이럴 수가 있을까……"
 	done
 
 ElmPhoneCheckingEggText:
-	text "Hello, <PLAY_G>?"
+	text "여보세요 <PLAY_G>인가?"
 
-	para "We're checking the"
-	line "EGG now. It does"
-
-	para "appear to be a"
-	line "#MON EGG."
+	para "지금 알을 조사하고 있는데"
+	line "역시 포켓몬의 알 같단다"
 	done
 
 ElmPhoneAssistantText:
-	text "Hello, <PLAY_G>?"
+	text "여어 <PLAY_G>"
 
-	para "Did you see my"
-	line "assistant? He's at"
-
-	para "the #MON CENTER"
-	line "in VIOLET CITY."
+	para "도라지시티의 포켓몬 센터에 있는"
+	line "조수랑은 만나주었는가?"
 	done
 
 ElmPhoneEggUnhatchedText:
-	text "Hello, <PLAY_G>?"
+	text "여보세요 <PLAY_G>인가?"
 
-	para "How's the EGG? Has"
-	line "anything changed?"
+	para "알은 어떤 상태냐?"
+	line "뭔가 변화 같은 것은 없느냐?"
 
-	para "If anything hap-"
-	line "pens, please call."
+	para "변한 것이 있으면"
+	line "전화를 부탁하겠다"
 	done
 
 ElmPhoneEggHatchedText:
-	text "Hello, <PLAY_G>?"
-	line "How is the EGG?"
+	text "여어 <PLAY_G>"
+	line "알은 어떤 기분이냐?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
-
-	para "Please come show"
-	line "me now!"
+	para "엥 포켓몬이 태어났다고!"
+	line "어 어떤 포켓몬일까"
+	cont "잠시 돌아오거라!"
 	done
 
 ElmPhoneDiscovery1Text:
-	text "Hello, <PLAY_G>?"
+	text "여보세요 <PLAY_G>인가?"
 
-	para "I just made a new"
-	line "discovery."
-
-	para "The time it takes"
-	line "for an EGG to"
-
-	para "hatch depends on"
-	line "the #MON."
+	para "포켓몬의 종류에 따라서"
+	line "알이 변할때 까지"
+	cont "시간의 차이가 있는 것 같구나"
 	done
 
 ElmPhoneDiscovery2Text:
-	text "Hello, <PLAY_G>?"
+	text "여보세요 <PLAY_G>인가?"
 
-	para "It's still a"
-	line "mystery what kinds"
-
-	para "of moves hatched"
-	line "#MON have."
-
-	para "We're investigat-"
-	line "ing that now."
+	para "태어난 포켓몬이"
+	line "어떤 기술을 알고 있는가"
+	cont "뭔가 비밀이 있는 것 같구나!"
+	cont "그것을 지금 조사하고 있단다"
 	done
 
 ElmPhonePokerusText:
-	text "Hello, <PLAY_G>?"
+	text "아 <PLAY_G>!?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "최근 알아낸 것인데"
+	line "포켓몬에 달라붙는"
+	cont "포케러스라고 하는 녀석이 있단다"
 
-	para "Apparently there's"
-	line "something called"
+	para "바이러스 같은 것이라서"
+	line "포케러스라고 한다는구나"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "그래서 그 포케러스는"
+	line "점점 늘어서 함께 있는"
+	cont "다른 포켓몬에게도 달라붙지만"
+	cont "단지 그렇기만 한다더구나"
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "잠시 시간이 지나면"
+	line "자연적으로 없어진다는 것 같다"
 
-	para "It multiplies fast"
-	line "and infects other"
-
-	para "#MON too. But"
-	line "that's all."
-
-	para "It doesn't seem to"
-	line "do anything, and"
-
-	para "it goes away over"
-	line "time."
-
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "그럼 열심히 하거라!"
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAY_G>?"
-	line "It's a disaster!"
+	text "여 여보세요 <PLAY_G>?"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "크 큰일났구나!!"
+	line "에- 그러니까 뭐가 뭐였는지……"
 
-	para "What should I do?"
-	line "It… Oh, no…"
-
-	para "Please get back"
-	line "here now!"
+	para "어떡하지……"
+	line "아무튼 큰일이란다"
+	cont "지금 바로 돌아오너라!!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hello, <PLAY_G>? We"
-	line "discovered some-"
+	text "여보세요 <PLAY_G>!"
+	line "포켓몬의 알에 대해서"
+	cont "알아낸 것이 있단다!"
 
-	para "thing about the"
-	line "EGG!"
-
-	para "My assistant is at"
-	line "the #MON CENTER"
-
-	para "in VIOLET CITY. "
-	line "Could you talk to"
-	cont "him?"
+	para "도라지시티 포켓몬센터에서"
+	line "내 조수가 기다리고 있을테니"
+	cont "말해보거라!"
 	done
 
+
 ElmPhoneRocketText:
-	text "<PLAY_G>, how are"
-	line "things going?"
+	text "<PLAY_G>"
+	line "최근의 상태는 어떤가?"
 
-	para "I called because"
-	line "something weird is"
+	para "으음- 어쩐지"
+	line "라디오 방송이 이상해서"
+	cont "걱정이되어 전화를 했단다"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "그러니까 라디오를 들으면"
+	line "로켓단이……"
+	cont "라든가 이야기 하고 있단다"
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "<PLAY_G>"
+	line "뭔가 모르겠느냐?"
 
-	para "<PLAY_G>, do you"
-	line "know anything"
-	cont "about it?"
+	para "그게 아니면 혹시"
+	line "로켓단이 부활을 했다던가?"
+	cont "그런 일은 없는가……"
 
-	para "Maybe TEAM ROCKET"
-	line "has returned. No,"
-
-	para "that just can't"
-	line "be true."
-
-	para "Sorry to bug you."
-	line "Take care!"
+	para "이상한 전화를 해서 미안하구나"
+	line "그럼 몸조심하거라!"
 	done
 
 ElmPhoneGiftText:
-	text "Hello, <PLAY_G>?"
+	text "여보세요 <PLAY_G>"
+	line "전해줄 물건이 있단다"
 
-	para "I have something"
-	line "here for you."
-
-	para "Could you swing by"
-	line "my LAB?"
-
-	para "See you later!"
+	para "잠시"
+	line "연구소에 와주지 않겠느냐"
+	cont "그럼 부탁한다!"
 	done
 
 ElmPhoneUnusedText:
-	text "Hello, <PLAY_G>?"
-	line "How's it going?"
+	text "여보세요 <PLAY_G>"
+	line "상태는 어떠냐?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "실은"
+	line "좋은 물건을 손에 넣었단다"
+	cont "괜찮다면 가지러 오너라"
 
-	para "Swing by my LAB"
-	line "and pick it up!"
-
-	para "See you later!"
+	para "그럼!"
 	done

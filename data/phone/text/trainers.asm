@@ -1987,5 +1987,5 @@ UnknownText_0x1b75e5:
 	done
 
 UnusedPhoneText:
-	text "Good morning."
+	text "안녕"
 	done

@@ -1,165 +1,137 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "여보세요…"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "아 <PLAYER>아니니!"
+	line "잘 하고 있니?"
 	done
-
 MomPhoneLandmarkText:
-	text "Oh, so you're in"
-	line "@"
+	text "그래 @"
 	text_ram wStringBuffer3
-	text "…"
+	text "에 있니…"
 
-	para "Isn't that where"
+	para "확실히 그곳에"
 	line "@"
 	text_ram wStringBuffer4
 	text_start
-	para "is? Did you go"
-	line "take a look?"
+	text "(이)가"
+	cont "있다고 생각했는데"
+	cont "가봤니?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Really, you're in"
-	line "@"
+	text "흐음 @"
 	text_ram wStringBuffer3
-	text "?"
+	text "에 있니?"
+	line "엄마는 가본 적이 없구나"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, <PLAYER>."
+	para "<PLAYER>(이)는 대단하구나!"
 	done
 
 MomPhoneNewBarkText:
-	text "What? You're in"
-	line "@"
+	text "뭐야 @"
 	text_ram wStringBuffer3
-	text "?"
-
-	para "Come see your MOM"
-	line "sometime!"
+	text "에 있니?"
+	line "가끔은 얼굴 좀 내밀어라"
 	done
 
 MomPhoneCherrygroveText:
-	text "You're visiting"
-	line "@"
+	text "엥 @"
 	text_ram wStringBuffer3
-	text "?"
-
-	para "How about coming"
-	line "home for a bit?"
+	text "에 있니?"
+	line "연두마을에서 가까우니까"
+	cont "가끔은 집에 들리도록 해라"
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
-	line "@"
+	text "지금 @"
 	text_ram wStringBuffer3
-	text "?"
-
-	para "Good luck on your"
-	line "#MON quest!"
+	text " (이)야"
+	line "포켓몬 모으기에 힘내거라!"
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "흐-음 여러가지로 힘들겠구나"
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
-
-	para "determined. You'll"
-	line "be OK, right?"
+	para "하지만 <PLAYER>는(은)"
+	line "늘 열심히 하니까"
+	cont "괜찮겠지"
 	done
 
-MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥@"
-	text_ram wStringBuffer3
-	text "."
 
-	para "Do you want to"
-	line "keep on saving?"
+MomCheckBalanceText:
+	text "그건 그렇고 저금"
+	line "@"
+	text_ram wStringBuffer3
+	text "원 모여있는데"
+	cont "계속 저금할꺼니?"
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "저금도 잘"
+	line "모아놓지 않으면 안 되니까!"
 	done
 
 MomYoureNotSavingText:
-	text "Oh, <PLAYER>,"
-	line "you're not saving"
-
-	para "any money. Would"
-	line "you like to save?"
+	text "그러고보니 <PLAYER>"
+	line "저금하지 않고 있지만 저금할꺼니?"
 	done
 
 MomYouveSavedText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "그러고보니 <PLAYER>"
+	line "엄마가 @"
 	text_ram wStringBuffer3
-	text "."
-
-	para "Want to start"
-	line "saving again?"
+	text "원"
+	cont "맡고 있는데"
+	cont "다시 저금 시작할래?"
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "그럼 저금해둘게"
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. I won't save"
-	line "your money."
+	text "그럼 저금하지 않을게"
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "<PLAYER>! 열심히 해야해!"
+	line "엄마가 응원하고 있으니까!"
 	done
-
+	
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "여보세요."
 
-	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.ELM"
-	cont "waiting for you?"
+	para "엥 <PLAYER>"
+	line "공박사님이 부르고 계시지"
+	cont "않았었니?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "여보세요."
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
-
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "엥 <PLAYER>"
+	line "공박사님으로부터"
+	cont "일을 부탁받았다고?"
+	cont "힘내거라!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "여보세요."
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
-
-	para "your errand come"
-	line "on home, dear."
+	para "엥 <PLAYER>"
+	line "일이 끝났다면"
+	cont "놀지말고 돌아와야한다"
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "여보세요."
 
 	para "…… <PLAYER>?"
-	line "I heard from PROF."
+	line "공박사님께 들었단다"
+	cont "여행을 떠난다고."
 
-	para "ELM that you went"
-	line "on a long trip."
+	para "엄마는 한가지 부탁이 있었는데."
 
-	para "I wish you would"
-	line "have told me…"
-
-	para "What about money?"
-	line "Should I save it?"
+	para "돈 같은건 어떡게 할꺼니?"
+	line "엄마가 저금을 해줄까?"
 	done
