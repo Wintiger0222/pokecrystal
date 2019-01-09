@@ -1,4 +1,4 @@
-db "이제 케이네 코스프레를 할수 있습니다"
-next "CGB-BYTK ver 0.62"
-next"[Jan 03 2019]"
-next"09:45:43@"
+db  "전문 케이네 코스어가 되기위해"
+next"노력하겠습니다"
+next"CGB<->BYTK ver 0.63"
+next"[Jan 08 2019]@"

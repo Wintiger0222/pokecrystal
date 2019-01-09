@@ -39,7 +39,7 @@ _GiveOddEgg:
 .done
 
 	ld hl, OddEggs
-	ld a, OddEgg1End - OddEgg1
+	ld a, NICKNAMED_MON_STRUCT_LENGTH
 	call AddNTimes
 
 	ld de, wOddEggSpecies
@@ -64,10 +64,10 @@ _GiveOddEgg:
 	ld [wMobileMonSpeciesPointerBuffer], a
 	ld a, HIGH(wMobileMonSpeciesBuffer - 1)
 	ld [wMobileMonSpeciesPointerBuffer + 1], a
-	; load pointer to wOddEggSpecies in wMobileMonStructurePointerBuffer
-	ld a, LOW(wOddEggSpecies)
+	; load pointer to wOddEgg in wMobileMonStructurePointerBuffer
+	ld a, LOW(wOddEgg)
 	ld [wMobileMonStructurePointerBuffer], a
-	ld a, HIGH(wOddEggSpecies)
+	ld a, HIGH(wOddEgg)
 	ld [wMobileMonStructurePointerBuffer + 1], a
 
 	; load Odd Egg Name in wTempOddEggNickname

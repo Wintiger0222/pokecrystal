@@ -249,7 +249,7 @@ ListMovePP:
 	and a
 	jr z, .skip
 	ld c, a
-	ld a, "-"
+	ld a, "<->"
 	call .load_loop
 
 .skip
@@ -460,7 +460,7 @@ ListMoves:
 	ld a, b
 .nonmove_loop
 	push af
-	ld [hl], "-"
+	ld [hl], "<->"
 	ld a, [wBuffer1]
 	ld c, a
 	ld b, 0

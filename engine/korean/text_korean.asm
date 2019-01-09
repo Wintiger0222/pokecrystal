@@ -178,6 +178,7 @@ TrimTable:
 .loop1
 	res 7, [hl]
 	inc hl
+	inc hl
 	dec c
 	jr nz, .loop1
 	ld h, HIGH(wKoreanTextTableBuffer)
