@@ -925,10 +925,10 @@ ContestJudging_FirstPlaceText::
 	text ""
 
 	para "@"
-	text_ram wBugContestWinnerName
+	text_ram wStringBuffer1
 	text "를(을) 잡은"
 	line "@"
-	text_ram wStringBuffer1
+	text_ram wBugContestWinnerName
 	text "님!@@"
 
 ContestJudging_FirstPlaceScoreText::
@@ -941,10 +941,10 @@ ContestJudging_FirstPlaceScoreText::
 
 ContestJudging_SecondPlaceText::
 	text "2등은 @"
-	text_ram wBugContestWinnerName
+	text_ram wStringBuffer1
 	text "를(을)"
 	line "잡은 @"
-	text_ram wStringBuffer1
+	text_ram wBugContestWinnerName
 	text "님@@"
 
 ContestJudging_SecondPlaceScoreText::
@@ -957,10 +957,10 @@ ContestJudging_SecondPlaceScoreText::
 
 ContestJudging_ThirdPlaceText::
 	text "3등은 @"
-	text_ram wBugContestWinnerName
+	text_ram wStringBuffer1
 	text "를(을)"
 	line "잡은 @"
-	text_ram wStringBuffer1
+	text_ram wBugContestWinnerName
 	text "님@@"
 
 ContestJudging_ThirdPlaceScoreText::

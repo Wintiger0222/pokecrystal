@@ -83,27 +83,20 @@ BirdKeeperRoyAfterBattleText:
 	done
 	
 PokefanmTrevorSeenText:
-	text "Hi. Did you know…?"
+	text "안녕 그거 알아…?"
 
-	para "#MON get more"
-	line "friendly if you"
-
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "포켓몬을 잡았던 곳에서"
+	line "훈련을 하면 친밀도가 올라간다"
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this PSYDUCK?"
+	text "내가 이 고라파덕을"
+	line "어디서 잡았더라?"
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "If only there were"
-	line "an easy way to"
-
-	para "identify where I"
-	line "got my #MON…"
+	text "내가 포켓몬을 어디서 잡았는지"
+	line "알수 있는 방법이 있었으면……"
 	done
 
 ;PokefanmTrevorSeenText_Old:	

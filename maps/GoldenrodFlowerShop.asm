@@ -86,11 +86,8 @@ FlowerShopRadio:
 	jumpstd radio2
 
 UnknownText_0x553d4:
-	text "Have you seen that"
-	line "wiggly tree that's"
-
-	para "growing on ROUTE"
-	line "36?"
+	text "36번 도로의"
+	line "움직이는 나무를 본 적 있니?"
 
 	para "My little sister"
 	line "got all excited"
@@ -114,8 +111,8 @@ UnknownText_0x55463:
 	done
 
 UnknownText_0x554c2:
-	text "Oh, you're better"
-	line "than WHITNEY…"
+	text "응? 너"
+	line "꼭두보다 강하구나"
 
 	para "You'll be OK,"
 	line "then. Here's the"

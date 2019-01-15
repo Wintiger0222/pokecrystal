@@ -121,17 +121,12 @@ BillTakeThisEeveeText:
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew you'd"
-	line "come through!"
-
-	para "Way to go! You're"
-	line "the real deal!"
-
-	para "OK, I'm counting"
-	line "on you."
-
-	para "Take good care of"
-	line "it!"
+	text "이수재『역시 "
+	line "그럴 줄 알았다니까!"
+	cont "얄밉도록 마음에 들어!"
+	
+	para "그럼 부탁해"
+	line "많이 이뻐해줘!"
 	done
 
 ReceivedEeveeText:
@@ -154,7 +149,7 @@ BillNoEeveeText:
 	done
 
 BillPopWontWorkText:
-	text "BILL: My pop, he"
+	text "이수재『My pop, he"
 	line "won't work. All he"
 
 	para "does is goof off"

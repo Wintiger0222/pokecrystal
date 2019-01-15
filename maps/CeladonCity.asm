@@ -135,22 +135,16 @@ CeladonCityTeacher2Text:
 	done
 
 CeladonCityLassText_Mobile:
-; unused/미번역
-	text "I love being"
-	line "surrounded by tall"
-	cont "buildings!"
+; unused
+	text "커다란 건물들에 둘러싸이니"
+	line "멋지다!"
 
-	para "Isn't it true that"
-	line "GOLDENROD #MON"
+	para "금빛시티 포켓몬 커뮤니티 센터는"
+	line "점점 더 커지고 있지않아?"
 
-	para "CENTER was made"
-	line "much, much bigger?"
-
-	para "That is so neat!"
-	line "I wish we had a"
-
-	para "place like that in"
-	line "KANTO…"
+	para "그거 참 멋지다!"
+	line "관동지방에도 그런 건물이"
+	cont "있었으면 좋겠어……"
 	done
 
 CeladonCityLassText:
