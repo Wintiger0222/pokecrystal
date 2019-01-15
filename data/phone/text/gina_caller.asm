@@ -54,15 +54,12 @@ UnknownText_0x177361:
 	done
 
 UnknownText_0x177378:
-	text "Have you heard"
-	line "about TEAM ROCKET?"
+	text "<PLAY_G> 소문 들었니?"
 
-	para "They've taken over"
-	line "the RADIO TOWER in"
-	cont "GOLDENROD."
+	para "금빛시티 라디오타워가"
+	line "로켓단에게 빼았겼대!"
 
-	para "Are the people"
-	line "inside safe?"
+	para "안에 있는 사람들 괜찮을까?"
 	done
 
 UnknownText_0x1773e7:

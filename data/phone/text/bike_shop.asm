@@ -1,19 +1,13 @@
 UnknownText_0x174000:
-	text "Hi, <PLAY_G>!"
-	line "Our BICYCLE sales"
+	text "여어 <PLAY_G>"
+	line "최근에 자전거 잘 팔리고 있어!"
 
-	para "have gone through"
-	line "the roof!"
+	para "네가 자전거를 타고"
+	line "선전을 해주기 때문이란다"
 
-	para "We owe it all to"
-	line "your advertising"
+	para "고맙다는 답례로"
+	line "빌려준 자전거"
+	cont "너에게 줄께!"
 
-	para "by riding around"
-	line "on our BICYCLE."
-
-	para "As our way of say-"
-	line "ing thanks, please"
-
-	para "keep that BICYCLE."
-	line "Thanks again!"
+	para "정말 고마워!"
 	done
