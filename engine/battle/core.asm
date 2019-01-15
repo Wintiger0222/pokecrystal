@@ -3551,17 +3551,20 @@ Function_SetEnemyMonAndSendOutAnimation:
 
 	call BattleCheckEnemyShininess
 	jr nc, .not_shiny
+
 	ld a, 1 ; shiny anim
 	ld [wBattleAnimParam], a
 	ld de, ANIM_SEND_OUT_MON
 	call Call_PlayBattleAnim
-.not_shiny
 
+.not_shiny
 	ld bc, wTempMonSpecies
 	farcall CheckFaintedFrzSlp
 	jr c, .skip_cry
+
 	farcall CheckBattleScene
 	jr c, .cry_no_anim
+
 	hlcoord 12, 0
 	ld d, $0
 	ld e, ANIM_MON_SLOW
@@ -4154,7 +4157,7 @@ PursuitSwitch:
 	ld a, [wLastPlayerMon]
 	ld [wCurBattleMon], a
 .do_turn
-	ld a, BANK(DoPlayerTurn)
+	ld a, BANK(DoPlayerTurn) ; aka BANK(DoEnemyTurn)
 	rst FarCall
 
 	ld a, BATTLE_VARS_MOVE
@@ -4404,7 +4407,7 @@ UseHeldStatusHealingItem:
 
 .got_pointer
 	call SwitchTurnCore
-	ld a, BANK(CalcEnemyStats)
+	ld a, BANK(CalcPlayerStats) ; aka BANK(CalcEnemyStats)
 	rst FarCall
 	call SwitchTurnCore
 	call ItemRecoveryAnim
@@ -5411,14 +5414,14 @@ MoveSelectionScreen:
 
 .skip_inc
 	ld [wMenuCursorY], a
-	ld a, $1
+	ld a, 1
 	ld [wMenuCursorX], a
 	ld a, [wNumMoves]
 	inc a
 	ld [w2DMenuNumRows], a
-	ld a, $1
+	ld a, 1
 	ld [w2DMenuNumCols], a
-	ld c, $2c
+	ld c, STATICMENU_ENABLE_LEFT_RIGHT | STATICMENU_ENABLE_START | STATICMENU_WRAP
 	ld a, [wMoveSelectionMenuType]
 	dec a
 	ld b, D_DOWN | D_UP | A_BUTTON

@@ -31,6 +31,21 @@ crystal11_obj := $(crystal_obj:.o=11.o)
 crystalmobile_obj := $(crystal_obj:.o=mobile.o)
 
 
+### Build tools
+
+ifeq (,$(shell which sha1sum))
+SHA1 := shasum
+else
+SHA1 := sha1sum
+endif
+
+RGBDS ?=
+RGBASM  ?= $(RGBDS)rgbasm
+RGBFIX  ?= $(RGBDS)rgbfix
+RGBGFX  ?= $(RGBDS)rgbgfx
+RGBLINK ?= $(RGBDS)rgblink
+
+
 ### Build targets
 
 .SUFFIXES:
