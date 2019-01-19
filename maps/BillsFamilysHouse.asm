@@ -122,20 +122,13 @@ BillTakeThisEeveeText:
 
 BillImCountingOnYouText:
 	text "이수재『역시 "
-	line "그럴 줄 알았다니까!"
-	cont "얄밉도록 마음에 들어!"
+	line "어이…… 바람둥이!"
+	cont "얄밉도록 마음에 드는"
+	cont "왕자님!"
 	
 	para "그럼 부탁해"
 	line "많이 이뻐해줘!"
 	done
-	
-	; text"マサキ『さすがやな　"
-	; line"よっ……　にくいねーッ"
-	; cont"だいとうりょう!"
-
-	; para"ほな　たのんだで"
-	; line"かわいがったりや!
-	; done
 
 ReceivedEeveeText:
 	text "<PLAYER>는(은)"

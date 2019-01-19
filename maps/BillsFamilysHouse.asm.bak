@@ -122,12 +122,14 @@ BillTakeThisEeveeText:
 
 BillImCountingOnYouText:
 	text "이수재『역시 "
-	line "그럴 줄 알았다니까!"
-	cont "얄밉도록 마음에 들어!"
+	line "어이…… 바람둥이!"
+	cont "얄밉도록 마음에 드는"
+	cont "왕자님!"
 	
 	para "그럼 부탁해"
 	line "많이 이뻐해줘!"
 	done
+	
 
 ReceivedEeveeText:
 	text "<PLAYER>는(은)"
@@ -150,14 +152,9 @@ BillNoEeveeText:
 	done
 
 BillPopWontWorkText:
-	text "이수재『My pop, he"
-	line "won't work. All he"
-
-	para "does is goof off"
-	line "all day long."
-
-	para "He's getting to be"
-	line "a real headache…"
+	text "이수재『나는 예전에"
+	line "전송머신의 실험을 했었어"
+	cont "그것의 연속이라도 시작해볼까"
 	done
 
 BillsPopText:
@@ -165,28 +162,18 @@ BillsPopText:
 	line "내 아들도"
 	cont "포켓몬에 박식하단다"
 
-	para "He just got called"
-	line "to the #MON"
+	para"マサキって　いうんだけど"
+	line"いま　エンジュの　ポケモンセンターに"
+	cont"よばれて　いったわ"
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
-
-	para "My husband went"
-	line "off to the GAME"
-
-	para "CORNER without"
-	line "being called…"
+	para"だんなは　よばれもしないのに"
+	line"ゲームコーナーに　いってるけど…"
 	done
 
 BillsMomText:
-	text "My husband was"
-	line "once known as a"
-
-	para "#MANIAC."
-	line "BILL must have"
-
-	para "taken after his"
-	line "father."
+	text"うちの　だんなも　むかしは"
+	line"ポケモンマニア　って　よばれてたのよ"
+	cont"マサキは　ちちおやに　にたのかねぇ…"
 	done
 
 BillsSisterUsefulNumberText:

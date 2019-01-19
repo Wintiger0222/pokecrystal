@@ -193,14 +193,15 @@ ClairText_GoToDragonsDen:
 	cont "참 된 드래곤 조련사로"
 	cont "인정받기 위한 의식이지"
 
-	para "중안에　사당이　있으니"
-	line "거기에　가라"
+	para "ちゅうおうに　ほこらが　あるから"
+	line "そこへ　いきなさい"
 
-	para "만약　거기서　너가"
-	line "안일한　생각을　고쳐온다면"
+	para "もし　そこで　あなたが"
+	line "あまい　かんがえを　かえられたなら"
 
-	para "체육관 배지를　얻을　자격이 있는"
-	line "트레이너로　인정해주마!"
+	para "ジムバッジを　わたすに　ふさわしい"
+	line ""
+	cont "として　みとめてあげるわ!"
 	done
 	
 ClairText_TooMuchToExpect:
@@ -210,8 +211,8 @@ ClairText_TooMuchToExpect:
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
-	text "늦어!"
-	line "빨리빨리 받아라!"
+	text "おそいわよ!"
+	line "さっさと　うけとりなさい!"
 	done
 
 BlackthornGymText_ReceivedTM24:
@@ -229,31 +230,31 @@ BlackthornGymClairText_DescribeTM24:
 	done
 
 BlackthornGymClairText_BagFull:
-	text "뭐야!"
-	line "정리가 안되있잖아!"
+	text "なによ!"
+	line "せいり　されてないじゃないの!"
 	done
 
 BlackthornGymClairText_League:
-	text "무슨일이야?"
-	line "포켓몬 리그에 가는 것이지?"
+	text "どうしたの?"
+	line "#り-グに　むかうんでしょう?"
 
-	para "장소는 알고있어?"
+	para "ばしょは　しってるの?"
 
-	para "여기서라면　그러니까…"
-	line "우선은　연두마을에　가는게 좋겠어"
+	para "ここからだと　そうね…"
+	line "まずは　ワカバタウンに　いくといいわ"
 
-	para "거기거부터　파도타기로"
-	line "계속　동쪽으로　나아가면"
-	cont "포켓몬리그에　도착할거야"
-	cont "하지만　힘든　길이　될거야"
+	para "そこから　なみのりで"
+	line "ずっと　ひがしに　すすんで　いけば"
+	cont "#り-グに　とうちゃく　するわ"
+	cont "でも　きびしい　みちのりに　なるわよ"
 
-	para "그래도…　포켓몬리그에서"
-	line "지는것은　용서하지 않아!"
+	para "それと…　#り-グでも"
+	line "まけることは　ゆるさないからね!"
 
-	para "그렇지 않으면　져버린　내가"
-	line "비참해져 버리잖아!"
+	para "そうでないと　まけた　わたしが　"
+	line "みじめに　なるでしょ!"
 
-	para "…힘내라"
+	para "…がんばりなさい"
 	done
 
 CooltrainermPaulSeenText:
@@ -262,12 +263,13 @@ CooltrainermPaulSeenText:
 	done
 
 CooltrainermPaulBeatenText:
-	text "나의　드레곤이　졌다고!"
+	text "ボクの　ドラゴンが　まけるなんて!"
+	done
 
 CooltrainermPaulAfterBattleText:
-	text "엣!　이향님이"
-	line "다시　만나고　싶어한다고?"
-	cont "설마 그럴리가 없겠지！"
+	text "えっ!　ワタルさまに"
+	line "また　あおうって　いわれたのかい?"
+	cont "まさか…　そんな　はず　ないよ!"
 	done
 
 CooltrainermMikeSeenText:

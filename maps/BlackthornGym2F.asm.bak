@@ -79,73 +79,38 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "ジムの　だれもが　ドラゴンタイプの"
-	line "<POKE>を　つかうわけ　じゃない!"
+	text "체육관의 누구나 드래곤타입의"
+	line "포켓몬을 쓰지는 않아!"
 	done
 
-	text "It's not as if we"
-	line "all use dragon-"
-	cont "type #MON."
-	done
-; 우리 모두가 용 타입 #MON을 사용하는 것은 아니다. 
 CooltrainermCodyBeatenText:
-	text "ちくしょ-!　ドラゴンさえ　いれば!"
+	text "젠장-!　드레곤만　있었다면!"
 	done
 
-	text "Rats! If only I"
-	line "had a dragon!"
-	done
-; 쥐! 용만 있으면! 
 CooltrainermCodyAfterBattleText:
-	text "ボクら　ドラゴンつかいの　いちぞくは"
-	line "ちょうろうさまの　ゆるしが　でたとき"
-	cont "はじめて　ドラゴン<POKE>を"
-	cont "つかうことが　できるように　なるんだ"
+	text "우리　드레곤　조련사　일동들은"
+	line "장로님의　허락이　났을때"
+	cont "비로소　드레곤　포켓몬을"
+	cont "사용할　수　있게　된다"
 	done
 
-	text "Members of our"
-	line "dragon-user clan"
-
-	para "can use dragon"
-	line "#MON only after"
-
-	para "our MASTER allows"
-	line "it."
-	done
-; 우리의 용 사용자 가족의 구성원들은 우리의 마스터가 허락한 후에만 용 #몬을 사용할 수 있다. 
 CooltrainerfFranSeenText:
-	text "なも　ない　"
-	cont "を"
-	line "このさきに　いかせる　わけには"
-	cont "いかないわ!　だって…"
+	text "이름　없는　트레이너를"
+	line "이곳에　들여보낼　수　없어！"
+	cont "안그러면…"
 
-	para "イブキさまに　おこられちゃうもん!"
+	para "이향님이　격노하실거야!"
 	done
 
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
-
-	para "CLAIR would be"
-	line "livid if I did!"
-	done
-; 나는 이름 없는 트레이너가 나를 지나치게 할 수 없다! 만약 내가 그렇게 했다면, 클레어는 격노했을 것이다. 
 CooltrainerfFranBeatenText:
-	text "あ-ん　まけちゃった-"
+	text "아-앙　졌어-"
 	done
 
-	text "Awww… I lost…"
-	done
-; 오우... 내가 졌어... 
 CooltrainerfFranAfterBattleText:
-	text "どうしよう…"
-	line "イブキさまに　おこられちゃうわ…"
+	text "어쩌지…"
+	line "이향님께　들키면　안되…"
 	done
 
-	text "Uh-oh… CLAIR is"
-	line "going to be mad…"
-	done
-; 어-오... 클레어 화낼 거야
 BlackthornGym2FBoulderFellText:
 	text "바위는 아래에 떨어졌다!"
 	done

@@ -135,10 +135,6 @@ Text_ReturnedAfterSave_Mobile:
 	text "레포트 작성 시기로 돌아갑니다"
 	done
 
-;	text "You'll be returned"
-;	line "after you SAVE."
-	done
-
 BattleTowerBattleRoom_MapEvents:
 	db 0, 0 ; filler
 

@@ -33,7 +33,7 @@ CianwoodGymGuyScript:
 	end
 
 CianwoodPokecenter1FSuperNerdScript:
-	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
+	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText;아마 일본어판에서 CianwoodPokecenter1FUnusedText1와 2, 모바일기능버전시구현필요
 
 CianwoodPokecenter1FLassText:
 	text "이 마을의 매니아랑 만났니?"

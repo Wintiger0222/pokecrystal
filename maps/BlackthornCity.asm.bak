@@ -143,61 +143,47 @@ BlackthornCityMartSign:
 	jumpstd martsign
 
 Text_ClairIsOut:
-	text "I am sorry."
+	text "대단히 죄송합니다"
 
-	para "CLAIR, our GYM"
-	line "LEADER, entered"
+	para "체육관 관장 이향님은"
+	line "뒤쪽 동굴에서"
+	cont "수행을 하고 있습니다"
 
-	para "the DRAGON'S DEN"
-	line "behind the GYM."
-
-	para "I have no idea"
-	line "when our LEADER"
-	cont "will return."
+	para "돌아오시려면 언제쯤이나 될지……"
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
-	line "LEADER, is waiting"
-	cont "for you."
+	text "체육관 관장 이향님이"
+	cont :기다리고 계십니다"
 
-	para "However, it would"
-	line "be impossible for"
-
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "하지만 보통의"
+	line "실력으로는 이길 수 없을껍니다"
 	done
 
 Text_ClairIsBeaten:
-	text "You defeated"
-	line "CLAIR?"
+	text "이향 관장님께 이겼습니까?"
+	line "그것 대단하군요……"
 
-	para "That's amazing!"
-
-	para "I've never heard"
-	line "of her losing to"
-
-	para "anyone other than"
-	line "LANCE."
+	para"ワタルさま　いがいに"
+	line"まけるのを　みるのは　はじめてです!"
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text "No. Only chosen"
-	line "trainers may train"
-
-	para "here."
-	line "Please leave."
+	text "이곳은 드래곤 조련사들만"
+	line "수행을 허가받은 장소"
+	cont "물러나 주십시오"
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
-	line "it, her grand-"
-	cont "father--our MASTER"
-	cont "--will also."
+	text"まごの　イブキさまが"
+	line"おゆるしになった　ならば"
 
-	para "You may enter."
+	para"ちょうろうさまも"
+	line"きっと　おゆるしになるじゃろう…"
+
+	para"どうぞ　おとおり　くださいまし"
 	done
-
+	
 BlackBeltText_WeirdRadio:
 	text "라디오가 고장났나?"
 	line "어째 요즘은 이상하네"
@@ -207,7 +193,7 @@ BlackBeltText_WeirdRadio:
 BlackBeltText_VoicesInMyHead:
 	text "우왁"
 	line "전파가 찌릿찌릿하다-!"
-	
+
 	para "응?"
 	line "라디오 듣고 있어"
 	done
@@ -224,7 +210,7 @@ BlackthornYoungsterText:
 
 MeetSantosText:
 	text "토영『…… …… ……"
-	
+
 	para "나는 토요일의 토영……"
 	done
 
@@ -234,19 +220,19 @@ SantosGivesGiftText:
 
 SantosGaveGiftText:
 	text "토영『…… …… ……"
-	
+
 	para "저주의 부적……"
-	
+
 	para "고스트타입의 기술이 강해진다"
 	line "네가 놀랄 정도로……"
 	done
 
 SantosSaturdayText:
 	text "토영『…… …… ……"
-	
+
 	para "다음 토요일에"
 	line "또 만나……"
-	
+
 	para "더 줄 물건은 없지만……"
 	done
 
@@ -259,7 +245,7 @@ SantosNotSaturdayText:
 BlackthornCooltrainerF2Text:
 	text "뭐!"
 	line "얼음샛길을 지나서 왔다고!"
-	
+
 	para "너 포켓몬 트레이너로서"
 	line "제법 뛰어난 솜씨를 지녔구나!!"
 	done
@@ -285,7 +271,7 @@ DragonDensSignText:
 
 BlackthornCityTrainerTipsText:
 	text "득이 되는 게시판!"
-	
+
 	para "기적의 열매를 지니게 하고있으면"
 	line "어떠한 특수 상태라도"
 	cont "회복합니다!"

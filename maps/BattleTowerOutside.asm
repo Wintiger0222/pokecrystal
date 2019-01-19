@@ -17,6 +17,7 @@ BattleTowerOutside_MapScripts:
 .Callback2:
 	clearevent EVENT_BATTLE_TOWER_OUTSIDE_SAILOR
 	return
+
 BattleTowerOutsideYoungsterScript:
 IF DEF(_CRYSTALMOBILE)
 	special Mobile_DummyReturnFalse

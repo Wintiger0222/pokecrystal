@@ -143,35 +143,35 @@ BlackthornCityMartSign:
 	jumpstd martsign
 
 Text_ClairIsOut:
-	text"もうしわけ　ございません"
+	text "대단히 죄송합니다"
 
-	para"ジムりーダーの　イブキさまは"
-	line"ジムの　うらにある　りゅうのあなへ"
-	cont"ようじで　でかけて　おります"
+	para "체육관 관장 이향님은"
+	line "뒤쪽 동굴에서"
+	cont "수행을 하고 있습니다"
 
-	para"もどられるのは　いつになるやら…"
+	para "돌아오시려면 언제쯤이나 될지……"
 	done
 
 Text_ClairIsIn:
-	text"ジムりーダーの　イブキさまが"
-	line"おまちになって　おります"
+	text "체육관 관장 이향님이"
+	cont "기다리고 계십니다"
 
-	para"ですが　なみたいていの"
-	line"じつりょく　では　かてませんよ"
+	para "하지만 보통의"
+	line "실력으로는 이길 수 없을껍니다"
 	done
 
 Text_ClairIsBeaten:
-	text"イブキさまにかたれたのですか!"
-	line"それは　すごい…"
+	text "이향 관장님께 이겼습니까?"
+	line "그것 대단하군요……"
 
-	para"ワタルさま　いがいに"
-	line"まけるのを　みるのは　はじめてです!"
+	para "ワタルさま　いがいに"
+	line "まけるのを　みるのは　はじめてです!"
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text"ここはえらばれた　<TRAINER>だけが"
-	line"しゅぎょうを　ゆるされた　ばしょ"
-	cont"おひきとり　くださいまし"
+	text "이곳은 드래곤 조련사들만"
+	line "수행을 허가받은 장소"
+	cont "물러나 주십시오"
 	done
 
 BlackthornGrampsGrantsEntryText:

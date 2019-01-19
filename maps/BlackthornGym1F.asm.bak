@@ -204,25 +204,6 @@ ClairText_GoToDragonsDen:
 	cont "として　みとめてあげるわ!"
 	done
 	
-;	para "There is a small"
-;	line "shrine at its"
-;	
-;	para "center."
-;	line "Go there."
-;	
-;	para "If you can prove"
-;	line "that you've lost"
-;	
-;	para "your lazy ideals,"
-;	line "I will recognize"
-;	
-;	para "you as a trainer"
-;	line "worthy of a GYM"
-;	cont "BADGE!"
-;	done
-; 그것의 중앙에 작은 사당이 있다. 
-; 거기 가.
-; 네가 게으른 이상을 잃어버린 것을 증명할 수 있다면, 나는 너를 GYM BADGE의 자격이 있는 트레이너로 인정할 거야!
 ClairText_TooMuchToExpect:
 	text "어떻게 되었니?"
 
@@ -230,8 +211,8 @@ ClairText_TooMuchToExpect:
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
-	text "おそいわよ!"
-	line "さっさと　うけとりなさい!"
+	text "늦어!"
+	line "빨리빨리 받아라!"
 	done
 
 BlackthornGymText_ReceivedTM24:
@@ -249,98 +230,47 @@ BlackthornGymClairText_DescribeTM24:
 	done
 
 BlackthornGymClairText_BagFull:
-	text "なによ!"
-	line "せいり　されてないじゃないの!"
+	text "뭐야!"
+	line "정리가 안되있잖아!"
 	done
-	text "What is this? You"
-	line "don't have room?"
-	done
-; 이게 뭐야?
-; 자리가 없다고? 
+
 BlackthornGymClairText_League:
-	text "どうしたの?"
-	line "#り-グに　むかうんでしょう?"
+	text "무슨일이야?"
+	line "포켓몬 리그에 가는 것이지?"
 
-	para "ばしょは　しってるの?"
+	para "장소는 알고있어?"
 
-	para "ここからだと　そうね…"
-	line "まずは　ワカバタウンに　いくといいわ"
+	para "여기서라면　그러니까…"
+	line "우선은　연두마을에　가는게 좋겠어"
 
-	para "そこから　なみのりで"
-	line "ずっと　ひがしに　すすんで　いけば"
-	cont "#り-グに　とうちゃく　するわ"
-	cont "でも　きびしい　みちのりに　なるわよ"
+	para "거기거부터　파도타기로"
+	line "계속　동쪽으로　나아가면"
+	cont "포켓몬리그에　도착할거야"
+	cont "하지만　힘든　길이　될거야"
 
-	para "それと…　#り-グでも"
-	line "まけることは　ゆるさないからね!"
+	para "그래도…　포켓몬리그에서"
+	line "지는것은　용서하지 않아!"
 
-	para "そうでないと　まけた　わたしが　"
-	line "みじめに　なるでしょ!"
+	para "그렇지 않으면　져버린　내가"
+	line "비참해져 버리잖아!"
 
-	para "…がんばりなさい"
+	para "…힘내라"
 	done
 
-;	text "What's the matter?"
-;
-;	para "Aren't you headed"
-;	line "to the #MON"
-;	cont "LEAGUE?"
-;
-;	para "Don't you know"
-;	line "where it is?"
-;
-;	para "From here, go to"
-;	line "NEW BARK TOWN."
-;
-;	para "Then SURF east."
-;	line "The route there is"
-;	cont "very tough."
-;
-;	para "Don't you dare"
-;	line "lose at the #-"
-;	cont "MON LEAGUE!"
-;
-;	para "If you do, I'll"
-;	line "feel even worse"
-;
-;	para "about having lost"
-;	line "to you!"
-;
-;	para "Give it every-"
-;	line "thing you've got."
-;	done
-; 무슨 일이죠?
-; #MON LEGUE로 가는 거 아니에요?
-; 어디 있는지 몰라?
-; 여기서 뉴 바크 투엔으로 가.
-; 그럼 동쪽으로.
-; 그 길은 매우 험하다.
-; 감히 #-MON LEAGUE에게 패하지 마!
-; 만약 그렇다면, 나는 너에게 길을 잃은 것에 대해 더 기분이 나빠질 거야!가진 것을 다 줘라. 
 CooltrainermPaulSeenText:
 	text "처음 싸우는 드래곤 조련사의"
 	line "강함을 알아두는 것이 좋을꺼다!"
 	done
 
 CooltrainermPaulBeatenText:
-	text "ボクの　ドラゴンが　まけるなんて!"
+	text "나의　드레곤이　졌다고!"
 
-;	text "My dragon #MON"
-;	line "lost?"
-;	done
-; 내 드래곤 #몬이 졌다고? 
 CooltrainermPaulAfterBattleText:
-	text "えっ!　ワタルさまに"
-	line "また　あおうって　いわれたのかい?"
-	cont "まさか…　そんな　はず　ないよ!"
+	text "엣!　이향님이"
+	line "다시　만나고　싶어한다고?"
+	cont "설마 그럴리가 없겠지！"
 	done
-	text "LANCE told you"
-	line "that he'd like to"
 
-	para "see you again?"
-	line "Not a chance!"
-	done
-; 랜스가 다시 만나고 싶다고? 설마!
 CooltrainermMikeSeenText:
 	text "내가 질꺼라는 예상 같은 것은"
 	line "1퍼센트도 없어!"

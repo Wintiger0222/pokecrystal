@@ -784,10 +784,17 @@ endr
 ; functions related to the cable club and various NPC scripts referencing communications
 
 Mobile_DummyReturnFalse:
+IF DEF (_CRYSTALMOBILE)
+	call Mobile_AlwaysReturnNotCarry
+	ld a, c
+	ld [ScriptVar],a
+	ret
+ELSE
 	xor a
 	ld [wScriptVar], a
 	ret
-
+ENDC
+	
 Stubbed_Function106314:
 	ret
 	ld a, $4
@@ -804,9 +811,13 @@ Stubbed_Function106314:
 	ret
 
 Mobile_AlwaysReturnNotCarry:
+IF DEF (_CRYSTALMOBILE)
+
+ELSE
 	or a
 	ret
-
+ENDC
+	
 Function106331:
 ; called by Mobile_DummyReturnFalse in Crystal-J
 	; check ~[4:b000] == [7:a800]

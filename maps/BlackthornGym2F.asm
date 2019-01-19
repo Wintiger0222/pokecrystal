@@ -79,36 +79,37 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "체육관의 누구나 드래곤타입의"
-	line "포켓몬을 쓰지는 않아!"
+	text "ジムの　だれもが　ドラゴンタイプの"
+	line "<POKE>を　つかうわけ　じゃない!"
 	done
 
 CooltrainermCodyBeatenText:
-	text "젠장-!　드레곤만　있었다면!"
+	text "ちくしょ-!　ドラゴンさえ　いれば!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "우리　드레곤　조련사　일동들은"
-	line "장로님의　허락이　났을때"
-	cont "비로소　드레곤　포켓몬을"
-	cont "사용할　수　있게　된다"
+	text "ボクら　ドラゴンつかいの　いちぞくは"
+	line "ちょうろうさまの　ゆるしが　でたとき"
+	cont "はじめて　ドラゴン<POKE>を"
+	cont "つかうことが　できるように　なるんだ"
 	done
 
 CooltrainerfFranSeenText:
-	text "이름　없는　트레이너를"
-	line "이곳에　들여보낼　수　없어！"
-	cont "안그러면…"
+	text "なも　ない　"
+	cont "を"
+	line "このさきに　いかせる　わけには"
+	cont "いかないわ!　だって…"
 
-	para "이향님이　격노하실거야!"
+	para "イブキさまに　おこられちゃうもん!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "아-앙　졌어-"
+	text "あ-ん　まけちゃった-"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "어쩌지…"
-	line "이향님께　들키면　안되…"
+	text "どうしよう…"
+	line "イブキさまに　おこられちゃうわ…"
 	done
 
 BlackthornGym2FBoulderFellText:
