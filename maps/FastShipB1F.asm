@@ -221,10 +221,10 @@ FashShipB1FSailorBlocksLeftMovement:
 FastShipB1FOnDutySailorText:
 	text "어이 어이 이봐 너"
 	line "친구를 찾아주지 않겠니?"
-	
+
 	para "일을 땡땡이치고 어딘가 있을지"
 	line "나원 참……!"
-	
+
 	para "나도 찾으러 가고싶지만"
 	line "일을 해야해서……"
 	done
@@ -242,14 +242,14 @@ FastShipB1FOnDutySailorThanksText:
 
 FastShipB1FOnDutySailorSawLittleGirlText:
 	text "뭐 여자아이?"
-	
+
 	para "그러고보니까"
 	line "이곳을 지나간 것 같아!"
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
 	text "이 다음은 식당이야"
-	
+
 	para "안쪽의 계단은 선장실에"
 	line "연결되어있어"
 	done
@@ -340,18 +340,18 @@ BlackbeltWaiBeatenText:
 	text "우오-옷!"
 	line "떼굴떼굴!"
 	done
-	
+
 BlackbeltWaiAfterBattleText:
 	text "성도지방에서 수행하는"
 	line "태권왕과 만나지 못했어요"
-	
+
 	para "어딘가의 동굴에서"
 	line "수행하고 있틀텐데……"
 	done
 
 SailorKennethSeenText:
 	text "나는 선원!"
-	
+
 	para "하지만 챔피언을 목표로"
 	line "포켓몬 특훈중!"
 	done
@@ -363,7 +363,7 @@ SailorKennethBeatenText:
 SailorKennethAfterBattleText:
 	text "……혹시 8개의 배지는"
 	line "체육관 관장에게 이긴 증거?"
-	
+
 	para "과연 강하군!"
 	done
 

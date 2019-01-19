@@ -806,9 +806,8 @@ Text_HeadbuttOutro:
 	done
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text"もりのかみさまに"
+	line"なにか　あったのかしら…"
 	done
 
 IlexForestSignpostText:
@@ -830,67 +829,51 @@ Text_ShrineCelebiEvent:
 	text "너도밤나무 숲의 사당……"
 	line "숲의 신을 받들어 모시는 곳이다"
 
-	para "Oh? What is this?"
+	para"あれ?"
 
-	para "It's a hole."
-	line "It looks like the"
+	para"ジーエスボールが　おけるような"
+	line"あなが　あいている!"
 
-	para "GS BALL would fit"
-	line "inside it."
-
-	para "Want to put the GS"
-	line "BALL here?"
+	para"おいて　みますか?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> put in the"
-	line "GS BALL."
+	text"<PLAYER>は　ジーエスボールを"
+	line"ほこらにおいた！"
 	done
 
 Text_KurtCaughtCelebi:
-	text "Whew, wasn't that"
-	line "something!"
+	text"いやー　すごかった！"
 
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
+	para"<PLAYER>!"
+	line"すばらしいものを　みさせて"
+	cont"もらったわい"
 
-	para "The legends about"
-	line "that SHRINE were"
-	cont "real after all."
+	para"あの　ほこらにまつわる　はなしは"
+	line"ほんとう　だったんじゃな"
 
-	para "I feel inspired by"
-	line "what I just saw."
+	para"さあ　いいもの　みたら"
+	line"ボールが　つくりたくなったわい"
 
-	para "It motivates me to"
-	line "make better BALLS!"
-
-	para "I'm going!"
+	para"かえるぞ!"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
-
-	para "You frightened a"
-	line "#MON away!"
+	text"きゅうにはなしかけないでよ!"
+	line"ポケモンが　にげちゃったじゃないか!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text"はじめて　みる"
+	line"ポケモン　だったのに…"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
+	text"このきにずつきを　したら"
+	line"はじめてみる　ポケモンが　おちてきた"
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
-
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para"もっと　いろんな　ばしょで"
+	line"きにずつき　してみようかな…"
 	done
 
 IlexForest_MapEvents:

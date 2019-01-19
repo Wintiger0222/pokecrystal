@@ -79,17 +79,30 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
+	text "ジムの　だれもが　ドラゴンタイプの"
+	line "<POKE>を　つかうわけ　じゃない!"
+	done
+
 	text "It's not as if we"
 	line "all use dragon-"
 	cont "type #MON."
 	done
-
+; 우리 모두가 용 타입 #MON을 사용하는 것은 아니다. 
 CooltrainermCodyBeatenText:
+	text "ちくしょ-!　ドラゴンさえ　いれば!"
+	done
+
 	text "Rats! If only I"
 	line "had a dragon!"
 	done
-
+; 쥐! 용만 있으면! 
 CooltrainermCodyAfterBattleText:
+	text "ボクら　ドラゴンつかいの　いちぞくは"
+	line "ちょうろうさまの　ゆるしが　でたとき"
+	cont "はじめて　ドラゴン<POKE>を"
+	cont "つかうことが　できるように　なるんだ"
+	done
+
 	text "Members of our"
 	line "dragon-user clan"
 
@@ -99,8 +112,16 @@ CooltrainermCodyAfterBattleText:
 	para "our MASTER allows"
 	line "it."
 	done
-
+; 우리의 용 사용자 가족의 구성원들은 우리의 마스터가 허락한 후에만 용 #몬을 사용할 수 있다. 
 CooltrainerfFranSeenText:
+	text "なも　ない　"
+	cont "を"
+	line "このさきに　いかせる　わけには"
+	cont "いかないわ!　だって…"
+
+	para "イブキさまに　おこられちゃうもん!"
+	done
+
 	text "I can't allow a"
 	line "nameless trainer"
 	cont "past me!"
@@ -108,19 +129,25 @@ CooltrainerfFranSeenText:
 	para "CLAIR would be"
 	line "livid if I did!"
 	done
-
+; 나는 이름 없는 트레이너가 나를 지나치게 할 수 없다! 만약 내가 그렇게 했다면, 클레어는 격노했을 것이다. 
 CooltrainerfFranBeatenText:
-	text "Awww… I lost…"
+	text "あ-ん　まけちゃった-"
 	done
 
+	text "Awww… I lost…"
+	done
+; 오우... 내가 졌어... 
 CooltrainerfFranAfterBattleText:
+	text "どうしよう…"
+	line "イブキさまに　おこられちゃうわ…"
+	done
+
 	text "Uh-oh… CLAIR is"
 	line "going to be mad…"
 	done
-
+; 어-오... 클레어 화낼 거야
 BlackthornGym2FBoulderFellText:
-	text "The boulder fell"
-	line "through!"
+	text "바위는 아래에 떨어졌다!"
 	done
 
 BlackthornGym2F_MapEvents:

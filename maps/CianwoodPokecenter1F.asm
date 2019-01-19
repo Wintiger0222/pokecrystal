@@ -58,20 +58,16 @@ CianwoodGymGuyText:
 	cont "상대방이 파워를 발휘하기 전에"
 	cont "쓰러뜨려야 한다!"
 	
-	para "And those boulders"
-	line "in the middle of"
-	cont "the GYM?"
-	
-	para "If you don't move"
-	line "them correctly,"
-	
-	para "you won't reach"
-	line "the GYM LEADER."
-	
-	para "If you get stuck,"
-	line "go outside."
+	para"それから…"
+	line"ジムの　まんなかにある　おおいわ!"
+
+	para"あれを　うまく　うごかさないと"
+	line"ジムりーダーには　あえないぜ!"
+
+	para"さきにすすめなく　なったら"
+	line"いちど　そとにでるのも　だいじだぞ"
 	done
-	
+
 CianwoodGymGuyWinText:
 	text "<PLAYER>! 이겼지?"
 	line "그 표정을 보면 알 수 있지!"
@@ -79,30 +75,22 @@ CianwoodGymGuyWinText:
 
 CianwoodPokecenter1FUnusedText1:
 ; unreferenced
-	text "Don't you get the"
-	line "urge to show off"
+	text"じぶんの　ポケモンって"
+	line"ひとにみせたく　なるよね!"
 
-	para "your #MON to"
-	line "friends?"
-
-	para "I wish I could"
-	line "show the #MON I"
-
-	para "raised to my pal"
-	line "in VIOLET."
+	para"キキョウの　ともだちに"
+	line"ぼくが　そだてた　ポケモン"
+	cont"みせて　あげたいな…"
 	done
 
 CianwoodPokecenter1FUnusedText2:
 ; unreferenced
-	text "I've been battling"
-	line "my pal in VIOLET"
+	text"さいきん　モバイルアダプタで"
+	line"キキョウの　ともだちと"
+	cont"つうしんたいせん　してるんだ"
 
-	para "using a MOBILE"
-	line "ADAPTER link."
-
-	para "I'm down 5-7"
-	line "against him. I've"
-	cont "gotta crank it up!"
+	para"いま　5しょう　7はい!"
+	line"まだまだ　これからだよね!"
 	done
 
 CianwoodPokecenter1FSuperNerdText:
@@ -118,7 +106,7 @@ CianwoodPokecenter1FSuperNerdText:
 	para "battles, and show"
 	line "off my #MON!"
 	done
-
+; 나는 내가 키운 #MON을 자랑하는 것을 좋아한다. 그렇지 않나요? 나는 많은 전투에 참가해서 내 #MON을 자랑할 거야!
 CianwoodPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 

@@ -103,7 +103,7 @@ MoveTutorScript:
 	db 4 ; items
 	db "FLAMETHROWER@"
 	db "THUNDERBOLT@"
-	db "ICE BEAM@"
+	db "ICE BEAM@";미번역
 	db "CANCEL@"
 
 .Refused:
@@ -307,7 +307,7 @@ GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
 
 GoldenrodCityCooltrainerF2Text:
 	text "금빛시티라고 하면 라디오타워"
-	
+
 	para "지금이라면 캠페인에서"
 	line "포켓기어로 라디오를 들을 수 있게"
 	cont "서비스를 받을 수 있데!"
@@ -328,7 +328,7 @@ GoldenrodCityLassText:
 	text "그쪽 집에서"
 	line "포켓몬의 이름으로"
 	cont "점을 쳐준단다"
-	
+
 	para "포켓몬에게 좋은 이름을"
 	line "다시 지어주는 것도 가능하데"
 	done
@@ -354,11 +354,11 @@ GoldenrodCityRocket1Text:
 
 GoldenrodCityRocket2Text:
 	text "라디오타워를 빼앗아서……"
-	
+
 	para "뭐야!"
 	line "꼬맹이에게는 관계 없다!"
 	done
-	
+
 GoldenrodCityRocket3Text:
 	text "포켓몬?"
 	line "돈벌이에 사용하는 도구잖아!"
@@ -407,7 +407,7 @@ GoldenrodCitySignText:
 
 GoldenrodCityBikeShopSignText:
 	text "어느 곳이든 씽씽!"
-	
+
 	para "자전거에 대한 것이라면"
 	line "여기 미라클 싸이클로!"
 	done
@@ -429,12 +429,18 @@ GoldenrodCityUndergroundSignNorthText:
 GoldenrodCityUndergroundSignSouthText:
 	text "여기서부터 지하통로"
 	done
-	
+
 GoldenrodCityPokeComCenterSignText:
 ; unused
+IF DEF (_CRYSTALMOBILE)
 	text "이곳은 포켓몬 커뮤니티 센터"
 	line "뭐든 모바일 멋진 커뮤니티!"
 	done
+ELSE
+	text "モバイルの　ことなら!"
+	line "포켓몬 커뮤니케이션 센터"
+	done
+ENDC
 
 GoldenrodCityFlowerShopSignText:
 	text "이곳은 금빛 플라워숍"
@@ -442,61 +448,47 @@ GoldenrodCityFlowerShopSignText:
 	done
 
 UnknownText_0x199042:
-	text "I can teach your"
-	line "#MON amazing"
+	text"わしは　ポケモンにすごいわざを"
+	line"おしえることが　できるのだが…"
 
-	para "moves if you'd"
-	line "like."
-
-	para "Should I teach a"
-	line "new move?"
+	para"すごいわざを　おしえて　ほしいかね?"
 	done
 
 UnknownText_0x199090:
-	text "It will cost you"
-	line "4000 coins. Okay?"
+	text"かわりにコインを　4000まい"
+	line"もらうけど　それでも　いいかな?"
 	done
 
 UnknownText_0x1990b4:
-	text "Aww… But they're"
-	line "amazing…"
+	text"すごいのに…"
 	done
 
 UnknownText_0x1990ce:
-	text "Wahahah! You won't"
-	line "regret it!"
-
-	para "Which move should"
-	line "I teach?"
+	text"わっはっはっ　よくいった！"
+	line"では…　どのわざを　おぼえさせる?"
 	done
 
 UnknownText_0x199107:
-	text "Hm, too bad. I'll"
-	line "have to get some"
-	cont "cash from home…"
+	text"しょうがない…"
+	line"かえって　こづかい　もらってくるか…"
 	done
 
 UnknownText_0x19913a:
-	text "If you understand"
-	line "what's so amazing"
-
-	para "about this move,"
-	line "you've made it as"
-	cont "a trainer."
+	text"このわざの　すごさが　わかれば"
+	line"もう　いちにんまえの　<TRAINER>だな"
 	done
 
 UnknownText_0x19918b:
-	text "Wahahah!"
-	line "Farewell, kid!"
+	text"わっはっはっ"
+	line"それでは　さらばだ!"
 	done
 
 UnknownText_0x1991a4:
-	text "B-but…"
+	text"そっ　そんなぁ…"
 	done
 
 UnknownText_0x1991ac:
-	text "…You don't have"
-	line "enough coins here…"
+	text"……コインが　たらんぞ?"
 	done
 
 UnknownText_0x1991cf:

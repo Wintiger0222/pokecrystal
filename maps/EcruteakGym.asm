@@ -179,31 +179,31 @@ EcruteakGymGrampsSlowStepDownMovement:
 
 MortyIntroText:
 	text "잘 왔구나"
-	
+
 	para "인주시티에서는"
 	line "옛날부터 포켓몬을"
 	cont "신으로서 받들고 있었다"
-	
+
 	para "그리고 진정한 실력을 가진"
 	line "트레이너 앞에"
-	
+
 	para "무지개 빛의 포켓몬이 날아온다……"
 	cont "그렇게 전해지고 있다"
-	
+
 	para "나는 그 전설을 믿고"
 	line "태어나서부터 지금까지 계속 여기서"
 	cont "비밀의 수행을 하고 있다"
-	
+
 	para "그 덕분에"
 	line "다른 사람에게는 보이지 않는 것도"
 	cont "볼 수 있도록 되었다"
-	
+
 	para "이제 조금……"
-	
+
 	para "머지않아서"
 	line "전설의 포켓몬과 만날 수 있다"
 	cont "그런 미래가 보이는 것 같다"
-	
+
 	para "그것을 위한 수행"
 	line "너에게도"
 	cont "협력을 부탁하고 싶구나"
@@ -211,7 +211,7 @@ MortyIntroText:
 
 MortyWinLossText:
 	text "아직도 부족한 것인가"
-	
+
 	para "알겠다"
 	line "이 배지는 너의 것이다!"
 	done
@@ -225,29 +225,29 @@ MortyText_FogBadgeSpeech:
 	text "팬텀배지를 가지고 있으면"
 	line "레벨 50까지의 포켓몬이라면"
 	cont "어떤 포켓몬이라도 너를 따른다"
-	
+
 	para "또 파도타기라는"
 	line "기술을 사용할 수 있게된다"
-	
+
 	para "그리고 이것도 주마"
 	done
 
 MortyText_ShadowBallSpeech:
 	text "내용물은 새도우볼"
-	
+
 	para "그냥 공격 하는 것만이 아니라"
 	line "가끔은 특수방어를 물리치기도 한다"
-	
+
 	para "마음에 들면 사용해도 좋아"
 	done
 
 MortyFightDoneText:
 	text "그런가"
-	
+
 	para "너는 여러곳을 모험해서"
 	line "내가 모르는 것을"
 	cont "여러가지 보고왔구나……"
-	
+
 	para "그것도 부러워"
 	done
 
@@ -255,7 +255,7 @@ SageJeffreySeenText:
 	text "포켓몬과 함께 봄을 지내고"
 	line "여름부터 가을 그리고 겨울"
 	cont "그리고 또 봄이 오고……"
-	
+
 	para "그렇게 해서 우리들은 계속"
 	line "포켓몬이랑 지내왔어요"
 	done
@@ -281,7 +281,7 @@ SagePingBeatenText:
 SagePingAfterBattleText:
 	text "우리들이 꺼낼 포켓몬은"
 	line "고스트타입뿐"
-	
+
 	para "노말타입의 공격으로는"
 	line "데미지를 줄 수 없다!"
 	done
@@ -312,7 +312,7 @@ MediumGraceBeatenText:
 MediumGraceAfterBattleText:
 	text "좋다"
 	line "보이지않는 마루의 비밀을 알려주마"
-	
+
 	para "우리들의 눈 앞"
 	line "그곳에 길은 있다!"
 	done
@@ -321,27 +321,24 @@ EcruteakGymGuyText:
 	text "이곳의 트레이너들은"
 	line "비밀의 목적이 있어서"
 	cont "수행을 계속하고 있다고 한다"
-	
+
 	para "이기면 인주시티의 비밀에 대해"
 	line "뭔가 가르쳐줄지도 모르지"
 	done
 
 EcruteakGymGuyWinText:
-	text "우와-<PLAYER>."
+	text "우와-<PLAYER>"
 	line "잘 이겼구나!"
-	
+
 	para "나 같은건 무서워서"
 	line "구석에 숨어서 떨고 있었어"
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the GYM"
-	line "LEADER, is absent."
+	text"いま　りーダーの　マツバは　おらん"
+	line"すまんが　ひきとって　もらおうかの"
 
-	para "Sorry, but you'll"
-	line "have to leave."
-
-	para "Hohohoho."
+	para"호호호호"
 	done
 
 EcruteakGym_MapEvents:

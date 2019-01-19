@@ -536,48 +536,38 @@ UnknownText_0x18e82a:
 	done
 
 UnknownText_0x18e863:
-	text "KURT: Now that my"
-	line "granddaughter is"
-	
-	para "helping me, I can"
-	line "work much faster."
+	text"ガンテツ『まごが　てつだってくれて"
+	line"しごとが　はかどるようになったわい"
 	done
 
 UnknownText_0x18e8ab:
-	text "Wh-what is that?"
+	text"そ　そ　それは!!"
 
-	para "I've never seen"
-	line "one before."
+	para"なんじゃ?"
+	line"はじめて　みたぞ!"
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para"モンスターボールによくにているが…"
+	line"べつの　どうぐの　ようじゃな"
 
-	para "but it appears to"
-	line "be something else."
-
-	para "Let me check it"
-	line "for you."
+	para"ちょっと　しらべさせてくれ"
 	done
 
 UnknownText_0x18e934:
-	text "I'm checking it"
-	line "now."
+	text"いま　しらべている　ところじゃ"
 	done
 
 UnknownText_0x18e949:
-	text "Ah-ha! I see!"
-	line "So…"
+	text"ほうほう!　なるほど!　ふむふむ!"
 	done
 
 UnknownText_0x18e95c:
 	text "<PLAYER>!"
 
-	para "This BALL started"
-	line "to shake while I"
-	cont "was checking it."
+	para"しらべていたら　きゅうに"
+	line"この　ボールが　ブルブル"
+	cont"ふるえだしてな"
 
-	para "There must be"
-	line "something to this!"
+	para"なにか　あると　おもうんじゃが…!!"
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
@@ -607,25 +597,19 @@ KurtsGranddaughterDadText:
 	done
 
 KurtsGranddaughterHelpText:
-	text "I get to help"
-	line "Grandpa now!"
-
-	para "We'll make good"
-	line "BALLS for you, so"
-	cont "please wait!"
+	text"おじいちゃんの　おてつだい　してるの"
+	line"がんばって　つくるから　まっててね"
 	done
 
 KurtsGranddaughterFunText:
-	text "It's fun to make"
-	line "BALLS!"
+	text"ボール　つくりって　たのしいね!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text "Grandpa's checking"
-	line "a BALL right now."
+	text"おじいちゃんが　ボールを"
+	line"しらべて　いるから"
 
-	para "So I'm waiting"
-	line "till he's done."
+	para"おわるまで　まってるの"
 	done
 
 KurtsHouseSlowpokeText:

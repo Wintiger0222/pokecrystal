@@ -23,27 +23,19 @@ CeruleanPokecenter1FGymGuyScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuyText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
-
-	para "#MON I've been"
-	line "raising, even if"
-
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #MON."
+	text"やっぱり　たいせんの　ときは"
+	line"たとえ　よわくたって"
+	cont"つかまえた　ばかりの　ポケモンより"
+	cont"ずっと　そだててきた　ポケモンを"
+	cont"つかいたいよね!"
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Do you battle by"
-	line "mobile phone?"
+	text"モバイル　たいせん　やってる?"
 
-	para "If time runs out"
-	line "during a battle,"
-
-	para "waiting to see who"
-	line "won is really"
-	cont "nerve wracking."
+	para"とちゅうで　たいせんが　おわったとき"
+	line"どっちが　かったのか　わかるまで"
+	cont"すっごく　ドキドキ　するよね!"
 	done
 
 CeruleanPokecenter1FGymGuyText:

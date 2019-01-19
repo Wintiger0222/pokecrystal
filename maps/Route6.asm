@@ -48,41 +48,37 @@ Route6UndergroundPathSignText:
 	done
 	
 PokefanmRexSeenText:
-	text "My PHANPY is the"
-	line "cutest in the"
-	cont "world."
+	text"だから　わたしの　ゴマゾウちゃんが"
+	line"せかいで　1ばん　かわいいん　です!"
 	done
 
 PokefanmRexBeatenText:
-	text "My PHANPY!"
+	text"わたしの　ゴマゾウちゃんがー!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my PHANPY acts!"
+	text"みてくださいよ　この"
+	line"ゴマゾウちゃんの　あまえた　しぐさ!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para"もう　かわいくて　かわいくて"
+	line"クゥーって　かんじに　なるでしょ?"
 	done
 
 PokefanmAllanSeenText:
-	text "My TEDDIURSA is"
-	line "the cutest in the"
-	cont "world."
+	text"だから　わたしの　ヒメグマちゃんが"
+	line"せかいで　1ばん　かわいいん　です!"
 	done
 
 PokefanmAllanBeatenText:
-	text "My TEDDIURSA!"
+	text"わたしの　ヒメグマちゃんがー!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my TEDDIURSA acts!"
+	text"みてくださいよ　この"
+	line"ヒメグマちゃんの　あまえた　しぐさ!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para"もう　かわいくて　かわいくて"
+	line"クゥーって　かんじに　なるでしょ?"
 	done
 
 Route6_MapEvents:

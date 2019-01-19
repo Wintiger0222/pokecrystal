@@ -107,7 +107,6 @@ CarefulSwimmingSign:
 	jumptext CarefulSwimmingSignText
 
 SwimmermHaroldSeenText:
-	text "Have you ever gone"
 	text "어두워 지고나서부터"
 	line "바다에서 수영한 적 있니?"
 	done

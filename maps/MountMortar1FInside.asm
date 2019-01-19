@@ -65,53 +65,40 @@ MountMortar1FInsideHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 
 PokemaniacMillerSeenText:
-	text "I'm not losing"
-	line "this time!"
+	text"こんどは　まけないぞー!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "I lost to some"
-	line "kid…?"
+	text"こんな　こどもにも　まけるなんて…"
 	done
 
 PokemaniacMillerAfterBattleText:
-	text "A while back, this"
-	line "karate dude wanted"
+	text"このまえ　からてかの　おっさんに"
+	line"しょうぶを　いどまれたんだけど"
 
-	para "to battle. He was"
-	line "ridiculously good."
+	para"メチャクチャ　つよくて"
+	line"ボロボロにされちゃったよ…"
 
-	para "He just thrashed"
-	line "us silly."
-
-	para "He went in deeper"
-	line "saying it was for"
-
-	para "his training. I"
-	line "wonder how he is?"
+	para"しゅぎょうするって　おくに"
+	line"はいっていったけど　げんきかな?"
 	done
 
 SupernerdMarkusSeenText:
-	text "Hey! HUGH!"
+	text"おーい!　タカフミー!"
 	done
 
 SupernerdMarkusBeatenText:
-	text "I mistook you for"
-	line "someone else…"
+	text"ありゃ　ひとちがい…"
 	done
 
 SupernerdMarkusAfterBattleText:
-	text "I came to explore"
-	line "MT.MORTAR, but I"
+	text"すりばちやまを"
+	line"ちょうさ　するためにきたんだけど"
+	cont"なかまと　はぐれちゃったんだよ…"
 
-	para "got separated from"
-	line "my partner…"
-
-	para "Did you run into a"
-	line "trainer who uses a"
-
-	para "SEADRA that knows"
-	line "WATERFALL?"
+	para"たきのぼりを　つかう"
+	line"シードラを　つかってくる"
+	cont"<TRAINER>にあわなかった?"
 	done
 
 MountMortar1FInside_MapEvents:

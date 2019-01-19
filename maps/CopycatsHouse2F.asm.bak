@@ -212,7 +212,7 @@ CopycatText_Male_1:
 CopycatText_QuickMimicking:
 	text "흉내내기 아가씨『…… 뭐?"
 	line "사람들 흉내를 내지 말라고?"
-	
+
 	para "하지만 나는"
 	line "흉내내기가 취미야!"
 	done
@@ -235,7 +235,7 @@ CopycatText_Male_2:
 CopycatText_Worried:
 	text "흉내내기 아가씨『…… 뭐?"
 	line "맘대로 정하지말라구?"
-	
+
 	para "그치만 곤란하니까……"
 	line "누군가 주워갔을까……?"
 	done
@@ -255,7 +255,7 @@ CopycatText_GivePass:
 CopycatText_ExplainPass:
 	text "흉내내기 아가씨『리니어 기차에"
 	line "탈 때 사용하는 정기권이야!"
-	
+
 	para "전에 살고있던 집이"
 	line "리니어 기차역이 되었을 때"
 	cont "철도회사 사람이"
@@ -267,7 +267,7 @@ CopycatText_Male_3:
 	line "리니어 기차 정기권 고마웠어!"
 
 	para "<PLAYER>『…… 뭐-야?"
-	
+
 	para "<PLAYER>『내 흉내를 내면"
 	line "그렇게 즐겁니?"
 	done
@@ -278,46 +278,41 @@ CopycatText_ItsAScream:
 	done
 
 CopycatText_Female_1:
-	text "<PLAYER>: Hi. You"
-	line "must like #MON."
+	text "<PLAYER>『야아! 안녕!"
+	line "너 포켓몬 좋아하는구나!"
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>『아니 내가 아니고"
+	line "너에게 물어보고 있는건데"
 
-	para "<PLAYER>: Pardon?"
-	line "You're weird!"
-	done
+	para "<PLAYER>『…… 뭐라고?"
+	line "이상한 녀석이구나!"
+	done	
 
+; 안녕. 넌 #MON을 좋아하나 봐. 
+; 아니, 난 아니야. 나는 네게 물었다. 
+; 뭐라고 하셨죠? 너 이상해! 
 CopycatText_Female_2:
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # DOLL?"
+	text "<PLAYER>『야아! 안녕!"
+	line "삐삐인형을 잃어버린것 같구나!"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "<PLAYER>『찾아주면"
+	line "정기권을 받을 수 있니?"
 
-	para "rail PASS if I"
-	line "find it for you?"
+	para "<PLAYER>『그럼 내가"
+	line "찾아줄께!"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
-
-	para "You think you lost"
-	line "it when you were"
-	cont "in VERMILION?"
+	para "갈색시티에 갔을 때"
+	line "떨어뜨렸는지도 몰라!"
 	done
 
 CopycatText_Female_3:
-	text "<PLAYER>: Thank you"
-	line "for the rail PASS!"
+	text "<PLAYER>『리니어 기차"
+	line "정기권 고마웠어!"
 
-	para "<PLAYER>: …Pardon?"
+	para "<PLAYER>『……응? 뭐라고?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
-
-	para "copy what I say"
-	line "and do?"
+	para "<PLAYER>『내 흉내를 내는것이"
+	line "그렇게 재미가 있니?"
 	done
 
 CopycatsDodrioText1:

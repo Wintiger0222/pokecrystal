@@ -724,50 +724,47 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "공박사『여어 <PLAY_G>!"
+	text "공박사『앗 <PLAY_G>"
 	line "기다리고 있었단다!"
 
-	line "기다리고 있었단다!"
-	
 	para "오늘 너를 부른 것은"
 	line "부탁이 있어서란다!"
-	
-	para "나는 지금 새로운"
-	line "포켓몬 연구를 하려고 한단다"
-	
-	para "너가 나를 도와줄수 있을지"
-	line "궁금하구나 <PLAY_G>"
-	
-	para "보다시피…"
-	
-	para "내가 새로 하고 있는 연구의"
-	line "보고서를 쓰고있지만"
-	cont "아직 모르는 것이 많구나"
-	
+
+	para "지금 포켓몬에 대해"
+	line "새로운 연구를"
+	cont "하고 있는데"
+
+	para "<PLAY_G>도 협력을"
+	line "해주었으면 하구나!"
+
+	para "사실은…"
+
+	para "학회에 발표할"
+	line "자료를 작성하고 있는데"
+	cont "모르는 것이 있단다…"
+
 	para "그래서!"
-	
-	para "내가 최근에 발견한"
-	line "포켓몬을 길러줬으면 하구나!"
+
+	para "내가 최근에 잡은"
+	line "포켓몬을 길러주었으면 하구나"
 	done
 
 ElmText_Accepted:
-	text "고맙구나 <PLAY_G>!"
-
-	line "엄청난 도움이 될거야!"
+	text "<PLAY_G> 고맙구나!"
+	line "엄청 도움이 될거야!"
 	done
 
 ElmText_Refused:
-	text "하지만… 정말로"
-	line "네 도움이 필요하다니까!"
+	text "그런 말 말고!"
+	line "부탁이다!"
 	done
 
 ElmText_ResearchAmbitions:
-	text "내가 이 연구를 발표하면"
-	line "우리는 포켓몬의 비밀에"
-	cont "더욱 근접 할 것이다"
+	text "이 연구를 발표하면"
+	line "포켓몬의 비밀에 조금"
+	cont "더 근접할 것이 틀림없다!"
 
-	para "여기에서 너가 중요한"
-	line "역할을 할꺼야!"
+	para "기대되는구나!"
 	done
 
 ElmText_GotAnEmail:
@@ -777,7 +774,7 @@ ElmText_GotAnEmail:
 	para "…… …… ……"
 	line "흐음… 흐으음…"
 
-	para "호 그렇구나…"
+	para "오- 그렇군"
 	done
 
 ElmText_MissionFromMrPokemon:
@@ -797,24 +794,22 @@ ElmText_MissionFromMrPokemon:
 	para "호기심이 생기지만"
 	line "나도 조수도 포켓몬"
 	cont "연구로 바쁘니까……"
+	cont "아!"
 	
-	para "아!"
-	line "그렇지!"
+	para "그래!"
 
-	para "<PLAY_G> 네가 대신 가주면"
-	line "딱 좋겠다!"
-	para "그렇지? 부탁한다!"
+	para "<PLAY_G> 부탁한다!"
+	line "대신 가주거라!"
 	done
 
 ElmText_ChooseAPokemon:
-	text "나는 너가 여기있는"
-	line "포켓몬 중에 하나를"
-	cont "골랐으면 좋겠구나"
-	
-	para "너는 그 포켓몬의"
-	line "첫 파트너가 될거란다!"
-	cont "<PLAY_G>!"
-	cont "자 고르거라!"
+	text "내가 길러주길 바라는 포켓몬이"
+	line "이 볼에 들어있단다!"
+
+	para "<PLAY_G>이 처음으로"
+	line "파트너가 될 포켓몬이다"
+
+	para "자 고르거라!"
 	done
 
 ElmText_LetYourMonBattleIt:
@@ -856,6 +851,7 @@ ChoseStarterText:
 
 ReceivedStarterText:
 	text "<PLAYER>는(은)"
+
 	line "@"
 	text_ram wStringBuffer3
 	text "를(을) 받았다"
@@ -865,10 +861,10 @@ ElmDirectionsText1:
 	text "포켓몬 할아버지가 계신 곳은"
 	line "이 마을 근처의"
 	cont "무궁시티 끝이란다"
-	
+
 	para "거기까지는 거의"
 	line "외길이니까 찾기 쉬울꺼다"
-	
+
 	para "참 내 전화번호를"
 	line "알려줄테니까"
 	cont "무슨 일이 있으면 연락하거라!"
@@ -878,8 +874,7 @@ ElmDirectionsText2:
 	text "포켓몬이 상처를 입었다면"
 	line "저쪽에 있는 기계로"
 	cont "포켓몬을 회복시켜주거라"
-	
-	
+
 	para "언제든지 써도 된단다"
 	done
 
@@ -897,7 +892,7 @@ ElmDescribesMrPokemonText:
 	text "포켓몬 할아버지는"
 	line "여러 장소에 가서"
 	cont "희귀한 것을 발견한단다"
-	
+
 	para "희귀한 것만으로는"
 	line "도움이 되지 않을테지만……"
 	done
@@ -936,7 +931,7 @@ ElmAfterTheftText3:
 ElmAfterTheftText4:
 	text "…… 혹시"
 	line "포켓몬의 알!?"
-	
+
 	para "만약 그렇다면 정말로"
 	line "엄청난 대발견이구나!"
 	done
@@ -951,24 +946,24 @@ ElmAfterTheftText5:
 	para "누가 뭐라든 오박사님은"
 	line "트레이너의 재능을 꿰뚫어보는"
 	cont "힘을 가지고 계시니까"
-	
+
 	para "그래 <PLAY_G> 너에게는"
 	line "챔피언이 될 수 있는"
 	cont "소질이 있을지도 모르겠구나"
-	
+
 	para "포켓몬도 잘 따르는 것 같고"
 	line "이대로 각지의 포켓몬 체육관에"
 	cont "도전 해보면 어떻겠느냐?"
-	
+
 	para "여기서부터라면 도라지시티의"
 	line "포켓몬 체육관이 제일 가깝단다"
 	done
 
 ElmAfterTheftText6:
-	text "……<PLAY_G>"
+	text "…… <PLAY_G>"
 	line "챔피언을 목표로 하는 것은"
 	cont "길고 긴 여행이 될꺼라 생각한다"
-	
+
 	para "출발하기 전에"
 	line "어머님께 잘 말씀드리거라"
 	done
@@ -982,11 +977,11 @@ ElmStudyingEggText:
 ElmAideHasEggText:
 	text "공박사『엥 <PLAY_G>"
 	line "내 조수랑 만나지 못 했느냐?"
-	
+
 	para "너에게 알을 전해주기위해"
 	line "도라지시티의 포켓몬센터에"
 	cont "갔을텐데……"
-	
+
 	para "길이 어긋났나보구나"
 	line "미안하지만 조수에게 가보거라"
 	done
@@ -1014,13 +1009,13 @@ ShowElmTogepiText2:
 
 ShowElmTogepiText3:
 	text "알이 부화했구나!"
-	
+
 	para "그렇다면 포켓몬은"
 	line "알에서 태어나는 것인가……"
-	
+
 	para "아냐아냐 모든 포켓몬이"
 	line "그렇게 정해진 것은 아닐꺼다"
-	
+
 	para "우-음 아직도"
 	line "조사할 것이 많이 있구나"
 	done
@@ -1029,21 +1024,21 @@ ElmGiveEverstoneText1:
 	text "<PLAY_G> 고맙구나!"
 	line "너의 덕분으로 포켓몬의"
 	cont "비밀을 알 수 있을 것 같구나"
-	
+
 	para "이것은 나의 답례란다"
 	line "사양말고 가지고 가거라!"
 	done
 
 ElmGiveEverstoneText2:
 	text "그것은 변함없는 돌!"
-	
+
 	para "포켓몬은 종류에 따라서"
 	line "어느정도 키우면"
 	cont "진화해서 모습이 바뀐단다"
-	
+
 	para "그때 변함없는 돌을"
 	line "가지고 있게하면 진화하지 않는단다"
-	
+
 	para "지금의 모습 그대로 키우고 싶은"
 	line "포켓몬이 있다면 사용 해보거라"
 	done
@@ -1057,7 +1052,7 @@ AideText_AfterTheft:
 	text "…… 휴우"
 	line "…… 빼앗긴 포켓몬"
 	cont "지금쯤 뭘 하고 있을까……"
-	
+
 	para "나쁜 사람에게 키워지면"
 	line "나쁜 포켓몬이 된다고 말하니까"
 	done
@@ -1066,37 +1061,37 @@ ElmGiveMasterBallText1:
 	text "공박사『여어 <PLAY_G>!"
 	line "네 덕분으로"
 	cont "연구도 척척 진행되고 있단다"
-	
+
 	para "이것은 나의 답례품"
 	line "꼭 사용하거라!"
 	done
 
 ElmGiveMasterBallText2:
 	text "이 마스터볼은!!"
-	
+
 	para "어떤 포켓몬이라도"
 	line "절대적으로 잡을 수 있는"
 	cont "궁극의 몬스터볼"
-	
+
 	para "포켓몬의 연구를"
 	line "인정받는 사람에게"
 	cont "보내지는 것 같은데……"
-	
+
 	para "나보다는 네가"
 	line "잘 사용할 수 있다고 생각한단다"
 	cont "<PLAY_G>에게 주겠다!"
 	done
 
 ElmGiveTicketText1:
-	text "공박사『야아 <PLAY_G>!"
+	text "공박사『야아 <PLAY_G>"
 	line "기다리고 있었단다!"
 
 	para "오늘 너를 부른 것은"
 	line "주고싶은 것이 있기때문이란다"
-	
+
 	para "이것!"
 	line "승선 티켓"
-	
+
 	para "이것으로 관동지방의 포켓몬도"
 	line "잡을 수 있게 되었구나!"
 	done
@@ -1104,14 +1099,13 @@ ElmGiveTicketText1:
 ElmGiveTicketText2:
 	text "쾌속선에 탄다고 하면"
 	line "담청시티란다!"
-	
-	para "……곤 하지만"
-	line "<PLAY_G>이"
+
+	para "……곤 하지만 <PLAY_G>이"
 	line " 더 잘 아는 것 같구나"
 
 	para "포켓몬과 함께"
 	line "여러 곳을 여행했으니까"
-	
+
 	para "그럼 관동지방에 가면"
 	line "오박사님께 부탁한다!"
 	done
@@ -1130,23 +1124,23 @@ AideText_GiveYouPotion:
 AideText_AlwaysBusy:
 	text "둘밖에 없으니까"
 	line "약간의 일로도 당황스럽다……"
-	
+
 	para "아- 바빠요"
 	done
 
 AideText_TheftTestimony:
 	text "밖에서 커다란 소리가 나서……"
-	
+
 	para "박사님이랑 보러 나갔다가"
 	line "포켓몬을 도둑맞은 것 같습니다……"
-	
+
 	para "다른 사람의 물건을 훔치다니"
 	line "믿을 수가 없어요!"
-	
+
 	para "…… 휴우"
 	line "…… 도둑맞은 포켓몬"
 	cont "지금쯤 어떻게 되었을까……"
-	
+
 	para "나쁜사람에게 키워지면"
 	line "나쁜 포켓몬이 된다니까"
 	done
@@ -1161,7 +1155,7 @@ AideText_GiveYouBalls:
 AideText_ExplainBalls:
 	text "포켓몬 도감을 만들 때에는"
 	line "포켓몬을 잡아야합니다!"
-	
+
 	para "몬스터볼을"
 	line "야생의 포켓몬에게 던지면"
 	cont "잡을 수 있습니다!"
@@ -1170,15 +1164,15 @@ AideText_ExplainBalls:
 ElmsLabOfficerText1:
 	text "이 연구소"
 	line "포켓몬을 도둑맞은 것 같아서……"
-	
+
 	para "지금 공박사님으로부터"
 	line "말씀을 듣고있던 중입니다"
 	cont "뭐든지 빨갛고 긴"
 	cont "머리카락의 소년이었던 것 같아서"
-	
+
 	para "엣!"
 	line "그런 트레이너랑 싸웠다고?"
-	
+
 	para "이름이라던가"
 	line "말하지 않았던가요?"
 	done
@@ -1186,7 +1180,7 @@ ElmsLabOfficerText1:
 ElmsLabOfficerText2:
 	text "알겠습니다!"
 	line "<RIVAL>(이)라고 하는군요!"
-	
+
 	para "협력해주셔서"
 	line "고맙습니다!"
 	done
@@ -1202,28 +1196,27 @@ ElmsLabWindowText2:
 
 ElmsLabTravelTip1Text:
 	text "<PLAYER>는(은) 책을 꺼냈다"
-	
+
 	para "탐험지식 제1"
-	
+
 	para "스타트 버튼을 누른다!"
 	line "메뉴가 펼쳐진다!"
-	done
 	done
 
 ElmsLabTravelTip2Text:
 	text "<PLAYER>는(은) 책을 꺼냈다"
-	
+
 	para "탐험지식 제2"
-	
+
 	para "포켓몬 레포트로"
 	line "기록을 할 수 있다!"
 	done
 
 ElmsLabTravelTip3Text:
 	text "<PLAYER>는(은) 책을 꺼냈다"
-	
+
 	para "탐험지식 제3"
-	
+
 	para "가방을 열어서"
 	line "셀렉트 버튼을 누른다!"
 	cont "도구를 교체할 수 있다!"
@@ -1231,9 +1224,9 @@ ElmsLabTravelTip3Text:
 
 ElmsLabTravelTip4Text:
 	text "<PLAYER>는(은) 책을 꺼냈다"
-	
+
 	para "탐험지식 제4"
-	
+
 	para "포켓몬의 사용 기술을 보고"
 	line "A버튼을 누른다!"
 	cont "기술을 교체할 수 있다!"
@@ -1247,7 +1240,7 @@ ElmsLabTrashcanText:
 ElmsLabPCText:
 	text "포켓몬 진화의"
 	line "관찰결과"
-	
+
 	para "…화면에 그렇게 써져있어…"
 	done
 

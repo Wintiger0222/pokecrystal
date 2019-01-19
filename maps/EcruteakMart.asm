@@ -23,10 +23,10 @@ EcruteakMartGrannyScript:
 EcruteakMartSuperNerdText:
 	text "나의 이브이"
 	line "에브이로 진화 했단다"
-	
+
 	para "하지만 친구의 이브이는"
 	line "블래키로 진화했어"
-	
+
 	para "뭔가 틀렸었나"
 	line "둘다 계속 이브이인 채로"
 	cont "키우고 있었는데……"

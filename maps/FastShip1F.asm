@@ -208,7 +208,7 @@ MovementData_0x75238:
 FastShip1FSailor1Text_ToVermilion:
 	text "쾌속선 아쿠아호는"
 	line "갈색시티로 향하고 있습니다"
-	
+
 	para "갈색시티의 항구에 도착하면"
 	line "방송으로 알려드리겠습니다"
 	done
@@ -216,14 +216,14 @@ FastShip1FSailor1Text_ToVermilion:
 FastShip1FSailor1Text_ToOlivine:
 	text "쾌속선 아쿠아호는"
 	line "담청시티로 향하고 있습니다"
-	
+
 	para "담청시티의 항구에 도착하면"
 	line "방송으로 알려드리겠습니다"
 	done
 
 FastShip1FSailor2Text_FirstTime:
 	text "너의 방은 여기야"
-	
+
 	para "포켓몬들이 상처를 입었다면"
 	line "침대에서 쉬게해도 좋아"
 	cont "모두 건강해질테니까"
@@ -231,10 +231,10 @@ FastShip1FSailor2Text_FirstTime:
 
 FastShip1FSailor2Text:
 	text "너의 방은 이곳이다"
-	
+
 	para "침대에서 쉬면"
 	line "포켓몬도 건강해질꺼야"
-	
+
 	para "자고있는 동안에"
 	line "항구에 도착할꺼야"
 	done
@@ -242,7 +242,7 @@ FastShip1FSailor2Text:
 FastShip1FSailor3Text:
 	text "배에 타고있는 손님들은"
 	line "모두 트레이너란다"
-	
+
 	para "방에서 대전상대를"
 	line "기다리고 있단다"
 	done
@@ -250,7 +250,7 @@ FastShip1FSailor3Text:
 FastShip1FGrandpaText:
 	text "미안하구나 꼬마야!"
 	line "할아버지가 소란을 피워서……!"
-	
+
 	para "손녀딸이 없어져서"
 	line "찾고있단다!"
 	cont "어린 여자아이인데"

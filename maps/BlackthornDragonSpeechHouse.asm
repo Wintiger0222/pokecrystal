@@ -27,18 +27,13 @@ BlackthornDragonSpeechHouseMagazineBookshelf:
 	jumpstd magazinebookshelf
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "A clan of trainers"
-	line "who can freely"
+	text "이 검은먹시티에는"
+	line "드래곤을 자유롭게 다루는"
+	cont "일족이 살고있어"
 
-	para "command dragons"
-	line "live right here in"
-	cont "BLACKTHORN."
-
-	para "As a result, there"
-	line "are many legends"
-
-	para "about dragons in"
-	line "this town."
+	para "그때문에 이 마을에는"
+	line "드래곤에 관한 전설들이"
+	cont "많이 남아있는 것같아"
 	done
 
 BlackthornDragonSpeechHouseDratiniText:

@@ -92,10 +92,10 @@ UnusedMissingDaughterText:
 ; unused
 	text "에구 에구……"
 	line "내 딸이 없어졌단다"
-	
+
 	para "설마"
 	line "불탄 탑에 갔단말인가?"
-	
+
 	para "그곳은 아이가 자주 행방불명되어서"
 	line "가까이 가지말라고 말해뒀는데"
 	cont "어떡게하면 좋단말인가……"
@@ -109,7 +109,7 @@ EcruteakCityGramps1Text:
 EcruteakCityGramps2Text:
 	text "허헛 어린"
 	line "전통 무용수의 춤은 배웠는가"
-	
+
 	para "지금 무도장에 가면"
 	line "이상한 아저씨에게서"
 	cont "좋은 것을 얻을 수 있다고 한다"
@@ -122,12 +122,11 @@ EcruteakCityLass1Text:
 	done
 
 EcruteakCityLass2Text:
-	text "The tower that"
-	line "used to be here…"
+	text"ここにあった　とう……"
+	line"おばあちゃんにきいた　はなしだけど"
 
-	para "My grandma told me"
-	line "it used to be much"
-	cont "taller."
+	para"すっごく　むかしは　もっと　もっと"
+	line"たかかったんだって"
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
@@ -139,7 +138,7 @@ EcruteakCityLass2Text_ReleasedBeasts:
 EcruteakCityFisherText:
 	text "들은 이야기지만"
 	line "담청시티의 등대……"
-	
+
 	para "어둠을 밝히는 포켓몬이"
 	line "쓰러져버려서 큰 일인 것 같아"
 	done
@@ -157,32 +156,23 @@ EcruteakCityYoungsterText:
 	done
 
 EcruteakCityGramps3Text:
-	text "In the distant"
-	line "past…"
+	text"むかし…"
 
-	para "This tower burned"
-	line "in a fire. Three"
+	para"このとうが　かじになったときに"
+	line"そこで　しんでしまった"
+	cont"なもない　3びきの　ポケモンを"
 
-	para "nameless #MON"
-	line "perished in it."
+	para"にじいろの　ポケモンが　そらより"
+	line"あらわれ　よみがえらせた…"
 
-	para "A rainbow-colored"
-	line "#MON descended"
+	para"エンジュの　ジムりーダーに"
+	line"ふるくから　つたわっておる"
 
-	para "from the sky and"
-	line "resurrected them…"
+	para"わし?"
 
-	para "It's a legend that"
-	line "has been passed"
-
-	para "down by ECRUTEAK"
-	line "GYM LEADERS."
-
-	para "Me?"
-
-	para "I was a trainer"
-	line "way back when."
-	cont "Hohoho!"
+	para"わしも　むかしは　<TRAINER>"
+	line"じゃったのじゃよ"
+	cont"ほっほっほっほ"
 	done
 
 EcruteakCitySignText:
@@ -193,7 +183,7 @@ EcruteakCitySignText:
 
 TinTowerSignText:
 	text "방울탑"
-	
+
 	para "전설의 포켓몬이 내려온다고"
 	line "전해지고 있습니다"
 	done
@@ -211,7 +201,7 @@ EcruteakDanceTheaterSignText:
 
 BurnedTowerSignText:
 	text "불탄 탑"
-	
+
 	para "수수께끼의 큰 화재로 불탔습니다"
 	line "위험하니까 가까이가지 마십시오"
 	done

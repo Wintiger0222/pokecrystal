@@ -140,7 +140,7 @@ GoldenrodDeptStore5FElevatorButton:
 
 UnknownText_0x56143:
 	text "어서오세요!"
-	
+
 	para "엇 너의 포켓몬……"
 	done
 
@@ -152,7 +152,7 @@ UnknownText_0x5615a:
 
 UnknownText_0x561a6:
 	text "귀엽구나!"
-	
+
 	para "기술머신을 사용해서"
 	line "좋은 기술을 가르쳐 주거라!"
 	done
@@ -162,7 +162,7 @@ UnknownText_0x561d8:
 	line "그런 포켓몬에게는"
 	cont "이 기술머신이 어떨까?"
 	done
-	
+
 UnknownText_0x56202:
 	text "틀림없이 너의 포켓몬에게"
 	line "딱 맞는 기술머신이 있을꺼야"
@@ -170,15 +170,15 @@ UnknownText_0x56202:
 
 UnknownText_0x56241:
 	text "이상한 소포"
-	
+
 	para "삐익!"
-	
+
 	para "하고 선물이 도달합니다"
 	done
 
 UnknownText_0x56279:
 	text "이상한 소포"
-	
+
 	para "내 게임보이에서는"
 	line "되지 않아요……"
 	done
@@ -192,7 +192,7 @@ GoldenrodDeptStore5FLassText:
 GoldenrodDeptStore5FPokefanMText:
 	text "다른 사람에게 얻은 포켓몬은"
 	line "이름을 바꿀 수 없단다"
-	
+
 	para "이름을 붙인 사람의"
 	line "마음이 담겨져 있으니까"
 	done

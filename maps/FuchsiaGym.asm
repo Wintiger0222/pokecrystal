@@ -236,9 +236,9 @@ Movement_NinjaSpin:
 JanineText_DisappointYou:
 	text "후후후……"
 	line "유감이네……"
-	
+
 	para "라고 말한 것은 거짓말!"
-	
+
 	para "내가 진짜!"
 	line "연분홍시티 체육관의 도희란다!"
 	done
@@ -246,7 +246,7 @@ JanineText_DisappointYou:
 JanineText_ToughOne:
 	text "도희『강하구나 너!"
 	line "졌다 그것도 완전히……"
-	
+
 	para "자 이것을 가져가!"
 	line "핑크배지야!"
 	done
@@ -259,7 +259,7 @@ Text_ReceivedSoulBadge:
 JanineText_ToxicSpeech:
 	text "도희『너 강하구나!"
 	line "특별히 이걸줄께!"
-	
+
 	para "강한 독이라서"
 	line "상대방의 체력을 빼앗는"
 	cont "맹독이라는 기술이야!"
@@ -268,7 +268,7 @@ JanineText_ToxicSpeech:
 JanineText_ApplyMyself:
 	text "도희『더욱 수행을 해서"
 	line "더욱 더 강해질꺼야!"
-	
+
 	para "내 아버지께도"
 	line "너에게도 지지 않도록말야!"
 	done
@@ -283,7 +283,7 @@ LassAliceBeforeText:
 LassAliceBeatenText:
 	text "멋지게 속였는데……!"
 	done
-	
+
 LassAliceAfterText:
 	text "누가 진짜 관장인가"
 	line "보고 알 수 있을까?"
@@ -323,7 +323,7 @@ PicnickerCindyAfterText:
 
 CamperBarryBeforeText:
 	text "왓 하핫!"
-	
+
 	para "그래!"
 	line "내가 도희란다!"
 	done
@@ -341,12 +341,12 @@ CamperBarryAfterText:
 FuchsiaGymGuyText:
 	text "여어!"
 	line "미래의 챔피언!"
-	
+
 	para "……오호!"
 	line "잘 둘러 보아라!"
 	cont "관장 도희가"
 	cont "많이 있단다!"
-	
+
 	para "진짜는 누구일까!?"
 	done
 

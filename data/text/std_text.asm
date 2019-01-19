@@ -14,35 +14,43 @@ NurseNiteText:
 	done
 
 PokeComNurseMornText:
-	text "Good morning!"
-
-	para "This is the #-"
-	line "MON COMMUNICATION"
-
-	para "CENTER--or the"
-	line "#COM CENTER."
+IF DEF(_CRYSTALMOBILE)
+	text "안녕하세요!"
+	line "포켓몬 커뮤니티 센터입니다!"
 	done
+ELSE
+	text "안녕하세요!"
+
+	para "포켓몬 커뮤니케이션 센터에"
+	line "오신 것을 환영합니다!"
+	done
+ENDC
 
 PokeComNurseDayText:
-	text "Hello!"
-
-	para "This is the #-"
-	line "MON COMMUNICATION"
-
-	para "CENTER--or the"
-	line "#COM CENTER."
+IF DEF(_CRYSTALMOBILE)
+	text "안녕하세요!"
+	line "포켓몬 커뮤니티 센터입니다!"
 	done
+ELSE
+	text "안녕하세요!"
 
+	para "포켓몬 커뮤니케이션 센터에"
+	line "오신 것을 환영합니다!"
+	done
+ENDC
+	
 PokeComNurseNiteText:
-	text "Good to see you"
-	line "working so late."
-
-	para "This is the #-"
-	line "MON COMMUNICATION"
-
-	para "CENTER--or the"
-	line "#COM CENTER."
+IF DEF(_CRYSTALMOBILE)
+	text "늦은 시간까지 수고하시네요!"
+	line "포켓몬 커뮤니티 센터입니다!"
 	done
+ELSE
+	text "늦은 시간까지 수고하시네요!"
+
+	para "포켓몬 커뮤니케이션 센터에"
+	line "오신 것을 환영합니다!"
+	done
+ENDC
 
 NurseAskHealText:
 	text "이곳에서는 포켓몬의"

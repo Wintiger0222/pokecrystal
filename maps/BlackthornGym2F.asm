@@ -79,43 +79,36 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "It's not as if we"
-	line "all use dragon-"
-	cont "type #MON."
+	text "체육관의 누구나 드래곤타입의"
+	line "포켓몬을 쓰지는 않아!"
 	done
 
 CooltrainermCodyBeatenText:
-	text "Rats! If only I"
-	line "had a dragon!"
+	text "젠장-!　드레곤만　있었다면!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "Members of our"
-	line "dragon-user clan"
-
-	para "can use dragon"
-	line "#MON only after"
-
-	para "our MASTER allows"
-	line "it."
+	text "우리　드레곤　조련사　일동들은"
+	line "장로님의　허락이　났을때"
+	cont "비로소　드레곤　포켓몬을"
+	cont "사용할　수　있게　된다"
 	done
 
 CooltrainerfFranSeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
+	text "이름　없는　트레이너를"
+	line "이곳에　들여보낼　수　없어！"
+	cont "안그러면…"
 
-	para "CLAIR would be"
-	line "livid if I did!"
+	para "이향님이　격노하실거야!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "Awww… I lost…"
+	text "아-앙　졌어-"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Uh-oh… CLAIR is"
-	line "going to be mad…"
+	text "어쩌지…"
+	line "이향님께　들키면　안되…"
 	done
 
 BlackthornGym2FBoulderFellText:

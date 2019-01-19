@@ -272,9 +272,9 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Pal@";미번역
-	db "Underling@"
-	db "Friend@"
+	db "なかま@"
+	db "てした@"
+	db "ともだち@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -285,9 +285,9 @@ DragonShrineQuestion2_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Strategy@"
-	db "Raising@"
-	db "Cheating@"
+	db "さくせん@"
+	db "そだてる@"
+	db "インチキ@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -298,9 +298,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Weak person@"
-	db "Tough person@"
-	db "Anybody@"
+	db "よわいひと@"
+	db "つよいひと@"
+	db "だれとでも@"
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -311,9 +311,9 @@ DragonShrineQuestion4_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Love@"
-	db "Violence@"
-	db "Knowledge@"
+	db "애정@"
+	db "폭력@"
+	db "지식@"
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -324,9 +324,9 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Tough@"
-	db "Both@"
-	db "Weak@"
+	db "つよいの@"
+	db "どっちも@"
+	db "よわいの@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step UP
@@ -392,267 +392,200 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Good to see"
-	line "you here."
+	text"ふむ…　よくきたのう"
 
-	para "No need to explain"
-	line "why you came."
+	para"なーにしんぱい　するでない"
+	line"なにも　いわなくても　わかっておる!"
+	cont"イブキの　やつにいわれて"
+	cont"この　ほこらまで　きたのじゃろう?"
 
-	para "CLAIR sent you"
-	line "here, didn't she?"
+	para"あの　むすめにも　こまったものじゃ…"
 
-	para "That girl is a"
-	line "handful…"
+	para"まぁ…　おぬしには　もうしわけないが"
+	line"すこし　ばかり　ためさせてもらうぞ"
+	cont"なーにわしの　しつもんに"
+	cont"すこし　こたえて　もらうだけじゃよ"
 
-	para "I am sorry, but I"
-	line "must test you."
-
-	para "Not to worry, you"
-	line "are to answer only"
-	cont "a few questions."
-
-	para "Ready?"
+	para"では　いくぞ…　"
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #MON"
-	line "to you?"
+	text"おぬしにとって　ポケモンとは"
+	line"どのような　そんざい　なのかな?"
 	done
 
 DragonShrineQuestion2Text:
-	text "What helps you to"
-	line "win battles?"
+	text"ポケモンしょうぶで　かつために"
+	line"ひつようなこと　とは　なにかな?"
 	done
 
 DragonShrineQuestion3Text:
-	text "What kind of"
-	line "trainer do you"
-	cont "wish to battle?"
+	text"どんな　ポケモン<TRAINER>と　"
+	line"たたかって　みたいと　おもう?"
 	done
 
 DragonShrineQuestion4Text:
-	text "What is most"
-	line "important for"
-	cont "raising #MON?"
+	text"ポケモンを　そだてる　のに"
+	line"いちばん　だいじなことは　なんじゃ?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #MON."
-	line "Weak #MON."
-
-	para "Which is more"
-	line "important?"
+	text"つよいポケモンと　よわいポケモン"
+	line"どっちのほうが　だいじ　なのかのう?"
 	done
 
 DragonShrinePassedTestText:
-	text "Hm… I see…"
+	text"ふむ　なるほど…"
 
-	para "You care deeply"
-	line "for #MON."
+	para"おぬしは　ポケモンを　とても"
+	line"だいじにおもって　いるようじゃな…"
 
-	para "Very commendable."
+	para"かんしん　かんしん"
+	line"その　こころが　たいせつなのじゃ!"
 
-	para "That conviction is"
-	line "what is important!"
-
-	para "<PLAYER>, don't"
-	line "lose that belief."
-
-	para "It will see you"
-	line "through at the"
-	cont "#MON LEAGUE."
+	para"<PLAYER>よ"
+	line"いまの　きもちを　わすれるで　ないぞ"
+	cont"その　きもちを　わすれなければ"
+	cont"ポケモンりーグにいっても"
+	cont"じゅうぶん　つうよう　するじゃろう!"
 	done
-
+	
 DragonShrineMustIInformLanceText:
-	text "CLAIR!"
+	text"こりゃ　イブキ!"
 
-	para "This child is"
-	line "impeccable, in"
-	cont "skill and spirit!"
+	para"この　もの"
+	line"わざも　こころも　みごとな　ものじゃ"
+	cont"かんねんして　さっさと"
+	cont"ライジングバッジを　わたさんか!"
 
-	para "Admit defeat and"
-	line "confer the RISING-"
-	cont "BADGE!"
-
-	para "…Or must I inform"
-	line "LANCE of this?"
+	para"さもないと…"
+	line"このことを　ワタルにいいつけるぞ!"
 	done
 
 DragonShrineElderScoldsClairText:
-	text "CLAIR…"
+	text"イブキよ…"
 
-	para "Reflect upon what"
-	line "it is that you"
-
-	para "lack and this"
-	line "child has."
+	para"おまえになくて"
+	line"この　ものにあるもの…"
+	cont"よく　かんがえる　ことじゃ"
 	done
-
+	
 DragonShrineComeAgainText:
-	text "Come again, if you"
-	line "so desire."
+	text"きがむいたら　また　くるがよい"
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Good to see"
-	line "you here."
+	text"ふむ…　よくきたのう"
 
-	para "Your arrival is"
-	line "most fortunate."
+	para"ちょうど　よかった"
+	line"おぬしにわたすものが　あるのじゃ!"
 
-	para "I have something"
-	line "for you."
-
-	para "Take this DRATINI"
-	line "as proof that I"
-
-	para "have recognized"
-	line "your worth."
+	para"わしにみとめられた　あかしとして"
+	line"この　ミニりュウ　つれてゆくがよい!"
 	done
 
 DragonShrinePlayerReceivedDratiniText:
-	text "<PLAYER> received"
-	line "DRATINI!"
+	text"<PLAYER>は　ちょうろうから"
+	line"ミニりュウを　もらった！"
 	done
-
+	
 DragonShrinePartyFullText:
-	text "Hm? Your #MON"
-	line "party is full."
+	text"なんじゃ?"
+	line"ポケモンが　いっぱいの　ようじゃぞ"
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #MON are"
-	line "symbolic of our"
-	cont "clan."
+	text"ドラゴンポケモンは"
+	line"われら　いちぞくの　しょうちょう!"
 
-	para "You have shown"
-	line "that you can be"
-
-	para "entrusted with"
-	line "one."
+	para"おぬしになら　まかせられる"
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
-	line "have learned an"
+	text"おぬしとの　であいで　イブキは"
+	line"なにかを　かんじとった　ようじゃ…"
 
-	para "invaluable lesson"
-	line "from you."
-
-	para "I thank you as her"
-	line "grandfather."
+	para"そふ　として　かんしゃ　するぞ"
 	done
-
+	
 DragonShrineSilverIsInTrainingText:
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text"いま　おぬしと　おなじ　としごろの"
+	line"しょうねんが　しゅぎょうにきておる"
 
-	para "He is much like"
-	line "CLAIR when she was"
-
-	para "younger. It is a"
-	line "little worrisome…"
+	para"むかしの　イブキににていて"
+	line"ちょっと　しんぱい　じゃのう…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text "Hah? I didn't"
-	line "quite catch that…"
+	text"はぁ?"
+	line"よく　きこえなかったのう……"
 	done
 
 DragonShrineWrongAnswerText2:
-	text "What was it you"
-	line "said?"
+	text"なんと　いったんじゃ?"
 	done
-
+	
 DragonShrineRightAnswerText:
-	text "Oh, I understand…"
+	text"ふむ　なるほど…"
 	done
 
 DragonShrineElder2Text:
-	text "It's been quite"
-	line "some time since a"
-
-	para "trainer has gained"
-	line "our MASTER's rare"
-	cont "approval."
-
-	para "In fact, not since"
-	line "Master LANCE."
+	text"ちょうろうさまに"
+	line"みとめられた　ものを　みるのは"
+	cont"ワタルさま　いらい　ひさしぶりじゃ"
 	done
-
+	
 DragonShrineElder3Text:
-	text "You know young"
-	line "Master LANCE?"
+	text"ワタルさまを　しっているのか?"
 
-	para "He looks so much"
-	line "like our MASTER"
-	cont "did in his youth."
-
-	para "It's in their"
-	line "blood."
+	para"ワタルさまは　わかいころの"
+	line"ちょうろうさまにそっくりじゃ"
+	cont"ちは　あらそえない　ものじゃのう…"
 	done
 
 DragonShrineClairYouPassedText:
-	text "So how did it go?"
+	text"けっかは　どうかしら?"
 
-	para "I guess there's no"
-	line "point in asking."
-
-	para "You did fail?"
-
-	para "<……><……><……><……><……><……>"
-
-	para "…What? You passed?"
+	para"きくまでも　ないと　おもうけど…"
+	line"あなたでは　むり　だったでしょう?"
+	cont"<……>　<……>　<……>　<……>　<……>　<……>"
+	cont"<……>　え!　ごうかく?"
 	done
-
 DragonShrineClairThatCantBeText:
-	text "That can't be!"
+	text"そんな!"
 	done
-
+	
 DragonShrineClairYoureLyingText:
-	text "You're lying!"
-
-	para "Even I haven't"
-	line "been approved!"
+	text"うそでしょ!"
+	line"わっ　わたしだって"
+	cont"まだ　みとめてもらって　ないのに!"
 	done
-
+	
 DragonShrineIUnderstandText:
-	text "I-I understand…"
+	text"わっ　わかりましたわ…"
 	done
-
+	
 DragonShrineHereRisingBadgeText:
-	text "Here, this is the"
-	line "RISINGBADGE…"
-
-	para "Hurry up! Take it!"
+	text"さあ　これが　ライジングバッジよ…"
+	line"さっさと　うけとりなさい!"
 	done
-
+	
 DragonShrinePlayerReceivedRisingBadgeText:
-	text "<PLAYER> received"
-	line "RISINGBADGE."
+	text"<PLAYER>は　イブキから"
+	line"ライジングバッジを　もらった！"
 	done
-
+	
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
-	line "enable your"
-
-	para "#MON to use the"
-	line "move for climbing"
-	cont "waterfalls."
-
-	para "Also, all #MON"
-	line "will recognize you"
-
-	para "as a trainer and"
-	line "obey your every"
-
-	para "command without"
-	line "question."
+	text"ライジングバッジを　もっていれば"
+	line"どんな　たきでも"
+	cont"のぼることが　できる…"
+	cont"そして　すべての　ポケモンが"
+	cont"あなたを　<TRAINER>として　みとめ"
+	cont"どんな　めいれいにも　したがうわ…"
 	done
 
 DragonShrineSpeechlessText:
-	text "<……><……><……><……><……><……>"
+	text "<……> <……> <……> <……> <……> <……>"
 	done
 
 DragonShrine_MapEvents:

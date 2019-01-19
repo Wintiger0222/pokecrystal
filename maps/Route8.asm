@@ -136,19 +136,17 @@ SupernerdSamAfterBattleText:
 	done
 
 SupernerdTomSeenText:
-	text "Hm… You've got"
-	line "many GYM BADGES."
+	text"ほぅ…　きみは　ジムバッジを"
+	line"たくさん　もっている　ようだね"
 	done
 
 SupernerdTomBeatenText:
-	text "Just as I thought…"
-	line "You're tough!"
+	text"おもった　とおりだ…　つよい!"
 	done
 
 SupernerdTomAfterBattleText:
-	text "GYM BADGES give"
-	line "you advantages in"
-	cont "battles."
+	text"ジムバッジを　もっていると"
+	line"たいせんが　ゆうりになるんだよ"
 	done
 
 Route8LockedDoorText:

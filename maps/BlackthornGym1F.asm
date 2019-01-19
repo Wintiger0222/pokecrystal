@@ -158,18 +158,18 @@ ClairIntroText:
 	line "사천왕들에게도"
 	cont "진적이 없다!"
 	cont "어때 그래도 싸울꺼니?"
-	
+
 	para "…… 그래 알겠다"
 	line "그럼 시작해보자꾸나!"
-	
-	para "나역시 트레이너"
+
+	para "나역시 체육관 관장으로서"
 	line "어떤 상대라도"
 	cont "전력을 다해서 상대를 해준다!"
 	done
 
 ClairWinText:
 	text "이 내가 지다니……"
-	
+
 	para "믿을 수 없어"
 	line "뭔가 잘못된 것 같아……"
 	done
@@ -192,37 +192,26 @@ ClairText_GoToDragonsDen:
 	line "용의 이빨을 가지고 오는 것이"
 	cont "참 된 드래곤 조련사로"
 	cont "인정받기 위한 의식이지"
-	
-	para "There is a small"
-	line "shrine at its"
-	
-	para "center."
-	line "Go there."
-	
-	para "If you can prove"
-	line "that you've lost"
-	
-	para "your lazy ideals,"
-	line "I will recognize"
-	
-	para "you as a trainer"
-	line "worthy of a GYM"
-	cont "BADGE!"
-	done
 
-ClairText_TooMuchToExpect:
-	text "이향『어떻게 되었니?"
+	para "중안에　사당이　있으니"
+	line "거기에　가라"
+
+	para "만약　거기서　너가"
+	line "안일한　생각을　고쳐온다면"
+
+	para "체육관 배지를　얻을　자격이 있는"
+	line "트레이너로　인정해주마!"
+	done
 	
-	para "나에게 이긴 것이"
-	line "어쩌다 운이 좋아서가 아니라면"
-	cont "가지고 오는것 정도는 간단하겠지?"
+ClairText_TooMuchToExpect:
+	text "어떻게 되었니?"
+
+	para "역시 너에게는 무리였나?"
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
-	text "이향『너의 실력을"
-	line "꺼리낌 없이 인정하겠어"
-	
-	para "이 기술머신도 가지고 가"
+	text "늦어!"
+	line "빨리빨리 받아라!"
 	done
 
 BlackthornGymText_ReceivedTM24:
@@ -240,39 +229,31 @@ BlackthornGymClairText_DescribeTM24:
 	done
 
 BlackthornGymClairText_BagFull:
-	text "What is this? You"
-	line "don't have room?"
+	text "뭐야!"
+	line "정리가 안되있잖아!"
 	done
 
 BlackthornGymClairText_League:
-	text "What's the matter?"
+	text "무슨일이야?"
+	line "포켓몬 리그에 가는 것이지?"
 
-	para "Aren't you headed"
-	line "to the #MON"
-	cont "LEAGUE?"
+	para "장소는 알고있어?"
 
-	para "Don't you know"
-	line "where it is?"
+	para "여기서라면　그러니까…"
+	line "우선은　연두마을에　가는게 좋겠어"
 
-	para "From here, go to"
-	line "NEW BARK TOWN."
+	para "거기거부터　파도타기로"
+	line "계속　동쪽으로　나아가면"
+	cont "포켓몬리그에　도착할거야"
+	cont "하지만　힘든　길이　될거야"
 
-	para "Then SURF east."
-	line "The route there is"
-	cont "very tough."
+	para "그래도…　포켓몬리그에서"
+	line "지는것은　용서하지 않아!"
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "그렇지 않으면　져버린　내가"
+	line "비참해져 버리잖아!"
 
-	para "If you do, I'll"
-	line "feel even worse"
-
-	para "about having lost"
-	line "to you!"
-
-	para "Give it every-"
-	line "thing you've got."
+	para "…힘내라"
 	done
 
 CooltrainermPaulSeenText:
@@ -281,16 +262,12 @@ CooltrainermPaulSeenText:
 	done
 
 CooltrainermPaulBeatenText:
-	text "My dragon #MON"
-	line "lost?"
-	done
+	text "나의　드레곤이　졌다고!"
 
 CooltrainermPaulAfterBattleText:
-	text "LANCE told you"
-	line "that he'd like to"
-
-	para "see you again?"
-	line "Not a chance!"
+	text "엣!　이향님이"
+	line "다시　만나고　싶어한다고?"
+	cont "설마 그럴리가 없겠지！"
 	done
 
 CooltrainermMikeSeenText:
@@ -326,18 +303,18 @@ CooltrainerfLolaAfterBattleText:
 BlackthornGymGuyText:
 	text "여어!"
 	line "미래의 챔피언!"
-	
+
 	para "드디어 이곳까지 왔구나"
 	line "이제 얼마 남지 않았다!"
 	cont "나도 협력하겠어!"
-	
+
 	para "이향이가 사용하는 포켓몬은"
 	line "전설의 생명체"
 	cont "성스러운 드래곤 포켓몬"
-	
+
 	para "시시한 공격으로는"
 	line "데미지를 입힐 수 없지!"
-	
+
 	para "…… 하지만"
 	line "얼음타입의 기술에는"
 	cont "약하다는 이야기가 있어!"
@@ -346,7 +323,7 @@ BlackthornGymGuyText:
 BlackthornGymGuyWinText:
 	text "이향에게 이기다니"
 	line "대단하군!"
-	
+
 	para "남은 것은 포켓몬 리그의 도전!"
 	line "목표로 삼아라 챔피언을!"
 	done

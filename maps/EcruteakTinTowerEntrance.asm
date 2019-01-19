@@ -153,7 +153,7 @@ EcruteakTinTowerEntranceSageText:
 	text "방울탑은 인주시티의"
 	line "체육관 배지를 가진 사람만이"
 	cont "올라갈 수 있는 신성한 탑"
-	
+
 	para "죄송합니다만"
 	line "물러나 주십시오"
 	done
@@ -162,99 +162,79 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 	text "방울탑은 인주시티의"
 	line "체육관 배지를 가진 사람만이"
 	cont "오를 수 있는 신성한 탑"
-	
+
 	para "오오!"
-	
+
 	para "그것은 인주시티의 체육관 배지!"
-	
+
 	para "어서 지나가십시오"
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text"たいへんなことが　おきた"
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para"もうしわけないが"
+	line"おひきとり　くださいまし"
 
-	para "…What soothes the"
-	line "soul…"
+	para"……　こころの　やすまる　もの"
 
-	para "The WISE TRIO say"
-	line "things that are so"
-
-	para "very difficult to"
-	line "understand…"
+	para"3にんしゅうは"
+	line"むずかしいことを　おっしゃる"
 	done
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text"たいへんなことが　おきた"
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para"もうしわけないが"
+	line"おひきとり　くださいまし"
 
-	para "<……><……><……>"
+	para"………"
 
-	para "Ah!"
+	para"おお!"
 
-	para "The sound of that"
-	line "CLEAR BELL!"
+	para"その　おとは　とうめいなスズ!"
 
-	para "It… It's sublime!"
+	para"なんという　うつくしい　おとでしょう"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para"そんなにきれいな　ねいろは"
+	line"きいたことが　ありません"
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	para"その　スズは　もつものの　こころを"
+	line"おとで　あらわすのです"
 
-	para "You…"
+	para"あなたなら…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para"スズのとうにすすめるかも"
+	line"しれません"
 
-	para "Please, do go on."
+	para"どうぞ　おとおり　くださいまし"
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text"どうぞ　おとおり　くださいまし"
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text"その　スズは　もつものの　こころを"
+	line"おとで　あらわすのです"
 
-	para "You…"
+	para"あなたなら…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para"スズのとうにすすめるかも"
+	line"しれません"
 
-	para "Please, do go on."
+	para"どうぞ　おとおり　くださいまし"
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER"
-	line "ahead is a nine-"
-
-	para "tier tower of"
-	line "divine beauty."
-
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	text"この　さきにある　スズのとうは"
+	line"こうごうしく　こころが　やすまる"
+	cont"9じゅうのとう　です"
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
 	text "방울탑이 흔들렸습니다!"
-	
+
 	para "틀림없이 제일 꼭대기에"
 	line "포켓몬이 돌아왔을 것 입니다"
 	done
@@ -262,7 +242,7 @@ EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
 EcruteakTinTowerEntranceGrampsText:
 	text "2개의 탑에"
 	line "2마리의 포켓몬……"
-	
+
 	para "그러나 탑 하나가 불에 탄 뒤에"
 	line "포켓몬도 날아간 채 돌아오지않아."
 	done

@@ -86,76 +86,58 @@ MountMoonSilverMovementAfter:
 	step_end
 
 MountMoonSilverTextBefore:
-	text "<……> <……> <……>"
+	text "…… …… ……"
 
-	para "It's been a while,"
-	line "<PLAYER>."
+	para "오래간만이로군 <PLAYER>"
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "……난 너에게 지고 나서부터"
+	line "내 자신에게 무엇이 부족한가"
+	cont "이녀석들과 함께"
+	cont "계속 생각해왔다……"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#MON…"
-
-	para "And we came up"
-	line "with an answer."
-
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "그리고 발견해냈다 대답을"
+	line "<PLAYER>!"
+	cont "너에게 보여주겠어"
 	done
 
 MountMoonSilverTextWin:
-	text "<……> <……> <……>"
+	text "…… …… ……"
 
-	para "I thought I raised"
-	line "my #MON to be"
+	para "이녀석들이 지닌 힘"
+	line "최대한으로 발휘할 수 있도록"
+	cont "키웠다 라고 생각했는데……"
 
-	para "the best they"
-	line "could be…"
-
-	para "…But it still "
-	line "wasn't enough…"
+	para "…… 아직 부족한 것인가"
 	done
 
 MountMoonSilverTextAfter:
-	text "<……> <……> <……>"
+	text "…… …… ……"
 
-	para "…You won, fair"
-	line "and square."
+	para "…… 확실히 나의 패배다"
+	
+	para "그건 인정하겠어"
+	line "하지만 이것으로 끝은 아니야"
 
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
+	para "언젠가 최강의"
+	line "포켓몬 트레이너가 되어 보이겠어"
 
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "MON trainer ever."
+	para "…… 이녀석들도"
+	line "내 의지에 따라와 줄 꺼야"
 
-	para "Because these guys"
-	line "are behind me."
-
-	para "…Listen, <PLAYER>."
-
-	para "One of these days"
-	line "I'm going to prove"
-
-	para "how good I am by"
-	line "beating you."
+	para "…… 잘 들어둬 <PLAYER>"
+	line "언젠가 너를 쓰러뜨리고"
+	cont "나의 강함을 가르쳐줄 테니까"
 	done
 
 MountMoonSilverTextLoss:
-	text "<……> <……> <……>"
+	text "…… …… ……"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "이것으로 빚은 갚았다"
 
-	para "With my #MON,"
-	line "I'm going to beat"
-
-	para "the CHAMPION and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "…… 다음은 이녀석들과 함께"
+	line "챔피언을 쓰러뜨리고"
+	cont "세계 최강의"
+	cont "포켓몬 트레이너가 될꺼야"
 	done
 
 MountMoon_MapEvents:

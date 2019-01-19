@@ -13,24 +13,18 @@ CeladonMansionRoofGraffiti:
 	jumptext CeladonMansionRoofGraffitiText
 
 CeladonMansionRoofFisherText:
-	text "High places--I do"
-	line "love them so!"
+	text "높은 곳들"
+	line "난 정말 그곳들을 좋아해!"
 
-	para "I'd say the only"
-	line "thing that loves"
-
-	para "heights as much as"
-	line "me is smoke!"
+	para "나만큼 높은 곳을 좋아하는"
+	line "유일한 것은 담배라고!"
 	done
 
 CeladonMansionRoofGraffitiText:
-	text "There's graffiti"
-	line "on the wall…"
+	text "벽에 낙서가 있다…"
 
-	para "<PLAYER> added a"
-	line "moustache!"
+	para "<PLAYER>는 콧수염을 추가했다!"
 	done
-
 CeladonMansionRoof_MapEvents:
 	db 0, 0 ; filler
 

@@ -109,37 +109,31 @@ RuinsOfAlphHoOhChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphHoOhChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text"벽에 무늬가 있다!"
 	done
 
 RuinsOfAlphHoOhChamberUnownText:
 ; unused
-	text "It's UNOWN text!"
+	text "안농 문자다!"
 	done
 
 RuinsOfAlphHoOhChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text"벽에 무늬가 있다!"
 	done
 
 RuinsOfAlphHoOhChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text"벽에 큰 구멍이"
+	line"뚫려있다!"
 	done
 
 RuinsOfAlphHoOhChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "옛날의 포켓몬을"
+	line "흉내내서 만들어낸 것"
 	done
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "A #MON that"
-	line "flew gracefully on"
-
-	para "rainbow-colored"
-	line "wings."
+	text "무지개 빛으로 빛나는 날개로"
+	line "넓은 하늘을 우아하게 나는 포켓몬"
 	done
 
 RuinsOfAlphHoOhChamber_MapEvents:

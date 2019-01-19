@@ -151,607 +151,460 @@ MovementData_0x6106c:
 
 ; unused
 UnknownText_0x61072:
-	text "Hello! Welcome to"
-	line "#COM CENTER"
-	cont "TRADE CORNER."
+	text"ポケモンコミュニケーションセンター"
+	line"トレードコーナーに　ようこそ!"
 
-	para "You can trade"
-	line "#MON with other"
-	cont "people far away."
+	para"こちらでは"
+	line"であったことのない　おともだちと"
+	cont"ポケモンの　こうかんが　たのしめます"
 	done
 
 UnknownText_0x610ce:
-	text "To make a trade,"
-	line "we must hold your"
-	cont "#MON."
+	text"こうかんを　するためには　ポケモンを"
+	line"あずけて　もらうことになりますが…"
 
-	para "Would you like to"
-	line "trade?"
+	para"こうかんを　しますか?"
 	done
 
 UnknownText_0x61111:
-	text "What kind of"
-	line "#MON do you"
-	cont "want in return?"
+	text"つぎにどんな　ポケモンが"
+	line"ほしいのか　おしえて　ください"
 	done
 
 UnknownText_0x6113b:
-	text "Fine. We will try"
-	line "to trade your"
-
-	para "@"
+	text"わかりました"
+	line"あなたの　@"
 	text_ram wStringBuffer3
-	text " for"
-	line "@"
+	text"と"
+	cont"@"
 	text_ram wStringBuffer4
-	text "."
+	text "の"
+	cont"こうかんを　とりもって　さしあげます"
 
-	para "We'll have to hold"
-	line "your #MON"
-	cont "during the trade."
+	para"それでは　あなたの　ポケモンを"
+	line"おあずかりさせて　いただきます"
 
-	para "Please wait while"
-	line "we prepare the"
-	cont "room for it."
+	para"おへやの　じゅんびを　しますので"
+	line"しばらく　おまちください　……"
 	done
 
 UnknownText_0x611c9:
-	text "Fine. We will try"
-	line "to trade your"
-
-	para "@"
+	text"わかりました　あなたの　@"
 	text_ram wStringBuffer3
-	text " for a"
-	line "#MON that you"
-	cont "have never seen."
+	text"と"
+	line"あなたが　みはっけんの　ポケモンとの"
+	cont"こうかんを　とりもって　さしあげます"
 
-	para "We'll have to hold"
-	line "your #MON"
-	cont "during the trade."
+	para"それでは　あなたの　ポケモンを"
+	line"おあずかりさせて　いただきます"
 
-	para "Please wait while"
-	line "we prepare the"
-	cont "room for it."
+	para"おへやの　じゅんびを　しますので"
+	line"しばらく　おまちください　……"
 	done
 
 UnknownText_0x61271:
-	text "Your trade #MON"
-	line "has been received."
+	text"あなたの　ポケモンを　"
+	line"しっかりと　おあずかり　いたしました"
 
-	para "It will take time"
-	line "to find a trade"
-
-	para "partner. Please"
-	line "come back later."
+	para"こうかん　あいてを　さがすには　"
+	line"すこし　じかんが　かかりますので"
+	cont"しばらくしたら　また　おいでください"
 	done
 
 UnknownText_0x612d8:
-	text "Oh? You have only"
-	line "one #MON in"
-	cont "your party. "
+	text"あら?　てもちの　ポケモンが"
+	line"1たいしか　いないようですね　……"
 
-	para "Please come back"
-	line "once you've in-"
-	cont "creased the size"
-	cont "of your party."
+	para"てもちの　ポケモンを　ふやして　から"
+	line"また　いらして　ください"
 	done
 
 UnknownText_0x61344:
-	text "We hope to see you"
-	line "again."
+	text"またの"
+	line"ごりようを　おまち　してます!"
 	done
 
 UnknownText_0x6135f:
-	text "Communication"
-	line "error…"
+	text"つうしんエラー"
 	done
 
+
 UnknownText_0x61375:
-	text "If we accept that"
-	line "#MON, what will"
-	cont "you battle with?"
+	text"その　ポケモンを　あずけると"
+	line"たたかえる　てもちポケモンが"
+
+	para"いなくなって　しまいます!"
 	done
 
 UnknownText_0x613a9:
-	text "Sorry. We can't"
-	line "accept an EGG."
+	text"もうしわけ　ありませんが"
+	line"タマゴは　おあずかり　できません"
 	done
 
 UnknownText_0x613c8:
-	text "Sorry, but your"
-	line "#MON appears to"
-
-	para "be abnormal. We"
-	line "can't accept it."
+	text"ポケモンにいじょうがあるので"
+	line"おあずかり　できません!"
 	done
 
 UnknownText_0x61409:
-	text "Oh? Aren't we"
-	line "already holding a"
-	cont "#MON of yours?"
+	text"あら?　あなた…　ポケモンを"
+	line"おあずけになっていますよね?"
 	done
 
 UnknownText_0x61438:
-	text "We'll check the"
-	line "rooms."
-
-	para "Please wait."
+	text"それでは　おへやを　しらべますので"
+	line"しばらく　おまちください……"
 	done
 
-UnknownText_0x6145c:
-	text "Thank you for your"
-	line "patience."
 
-	para "A trade partner"
-	line "has been found."
+UnknownText_0x6145c:
+	text"おまたせ　しました！　こうかんの"
+	line"あいてが　みつかっていた　ようです"
 	done
 
 UnknownText_0x6149a:
-	text "It's your new"
-	line "partner."
+	text"あなたの　あたらしい　なかまです"
+	line"かわいがって　あげて　くださいね"
 
-	para "Please take care"
-	line "of it with love."
-
-	para "We hope to see you"
-	line "again."
+	para"それでは　またの"
+	line"ごりようを　おまち　しております!"
 	done
-
+	
 UnknownText_0x614ed:
-	text "Uh-oh. Your party"
-	line "is already full."
+	text"でも　てもちの　ポケモンが"
+	line"いっぱいな　ようです　ので　……"
 
-	para "Please come back"
-	line "when you have room"
-	cont "in your party."
+	para"てもちの　ポケモンを　へらして　から"
+	line"また　いらして　ください"
 	done
 
 UnknownText_0x61544:
-	text "It's unfortunate,"
-	line "but no one has"
+	text"ざんねん　ですが…"
+	line"こうかん　あいては　みつかってません"
 
-	para "come forward as a"
-	line "trade partner."
-
-	para "Would you like"
-	line "your #MON back?"
+	para"おあずかり　している"
+	line"ポケモンを　ひきとりますか?"
 	done
 
 UnknownText_0x615a5:
-	text "We have returned"
-	line "your #MON."
+	text"ポケモンを　"
+	line"おかえし　いたしました"
 	done
-
+	
 UnknownText_0x615c2:
-	text "It's unfortunate,"
-	line "but no one has"
+	text"ざんねん　ですが…"
+	line"こうかん　あいては　みつかってません"
 
-	para "come forward as a"
-	line "trade partner."
+	para"ながく　おあずけになっているので"
+	line"あなたの　ポケモンが"
+	cont"たいへん　さみしがってる　ようです"
 
-	para "We've held your"
-	line "#MON for a long"
-
-	para "time. As a result,"
-	line "it is very lonely."
-
-	para "Sorry, but we must"
-	line "return it to you."
+	para"なので　1ど　おあずかり　している"
+	line"ポケモンを　おかえし　いたします…"
 	done
+
 
 UnknownText_0x6166e:
-	text "We hope to see you"
-	line "again."
+	text"またの"
+	line"ごりようを　おまち　しております!"
 	done
-
+	
 UnknownText_0x61689:
-	text "Fine. We will"
-	line "continue to hold"
-	cont "your #MON."
+	text"それでは　ひきつづき"
+	line"ポケモンを　おあずかり　いたします"
 	done
 
 UnknownText_0x616b4:
-	text "Oh? You left your"
-	line "#MON with us"
-	cont "only recently."
+	text"あら?　"
+	line"ポケモンを　おあずかりしてから"
+	cont"まだ　すこし　しか"
+	cont"じかんが　たっていないようですね"
 
-	para "Please come back"
-	line "later."
+	para"もう　しばらく　たってから"
+	line"また　おこしください"
 	done
 
 UnknownText_0x616fb:
-	text "We'll SAVE before"
-	line "connecting to the"
-	cont "CENTER."
+	text"センターにおつなぎするまえに"
+	line"レポートを　かきます"
 	done
 
 UnknownText_0x61727:
-	text "Which #MON do"
-	line "you want to trade?"
+	text"それでは　こうかんにだしたい"
+	line"ポケモンを　えらんで　ください"
 	done
-
+	
 UnknownText_0x61749:
-	text "Sorry, but we must"
-	line "cancel the trade."
+	text"もうしわけ　ありませんが　こうかんを"
+	line"ちゅうし　させて　いただきます"
 	done
-
 UnknownText_0x6176f:
-	text "Oh!"
+	text"あ!"
 
-	para "I see you have an"
-	line "EGG TICKET!"
+	para"「タマゴけん」を　おもちの"
+	line"かたですね!"
 
-	para "It's a coupon that"
-	line "special people can"
-
-	para "redeem for a"
-	line "special #MON!"
+	para"タマゴけんは　とくべつな　ポケモンを"
+	line"とくべつな　かただけにおわたしする"
+	cont"ひきかえけん　です"
 	done
 
 UnknownText_0x617d2:
-	text "Let me give you a"
-	line "quick briefing."
+	text"それでは　かんたんにせつめい"
+	line"させていただきます!"
 
-	para "Trades held at the"
-	line "TRADE CORNER are"
+	para"トレードコーナーの　こうかんでは"
+	line"であったことのない　おともだちと"
+	cont"こうかんを　するので　じかんが"
+	cont"かかりますが"
 
-	para "between two"
-	line "trainers who don't"
+	para"なぞのタマゴは"
+	line"あなたのためにとくべつに"
+	cont"ようい　していたものですので"
+	cont"すぐ　おくられてきます!"
 
-	para "know each other's"
-	line "identity."
+	para"いまから　センターにある"
+	line"いろいろな　へやから"
 
-	para "As a result, it"
-	line "may take time."
-
-	para "However, an ODD"
-	line "EGG is available"
-	cont "just for you."
-
-	para "It will be sent to"
-	line "you right away."
-
-	para "Please choose one"
-	line "of the rooms in"
-
-	para "the CENTER."
-	line "An ODD EGG will be"
-
-	para "sent from the"
-	line "chosen room."
+	para"1つの　へやを　えらび"
+	line"そこにある　なぞのタマゴを"
+	cont"おくってもらいます"
 	done
 
 UnknownText_0x6191f:
-	text "Please wait a"
-	line "moment."
+	text"じゅんびを　しますので"
+	line"しばらく　おまちください……"
 	done
 
 UnknownText_0x61936:
-	text "Thank you for"
-	line "waiting."
+	text"おまたせ　しました!"
+	line"なぞのタマゴを　うけとりました!"
 
-	para "We received your"
-	line "ODD EGG."
+	para"これは　なぞのタマゴです"
 
-	para "Here it is!"
-
-	para "Please raise it"
-	line "with loving care."
+	para"たいせつにそだてて　あげて"
+	line"くださいね"
 	done
 
 UnknownText_0x61996:
-	text "I'm awfully sorry."
+	text"もうしわけ　ございません!"
 
-	para "The EGG TICKET"
-	line "exchange service"
-	cont "isn't running now."
+	para"ただいま　タマゴけんの"
+	line"サービスは　ちゅうし　しています"
 	done
 
 UnknownText_0x619db:
-	text "It's a #MON"
-	line "NEWS MACHINE."
+	text"ポケモンニュースマシンだ!"
 	done
 
 UnknownText_0x619f5:
-	text "What would you"
-	line "like to do?"
+	text"なにを　しますか?"
 	done
 
 UnknownText_0x61a11:
-	text "#MON NEWS is"
-	line "news compiled from"
+	text"ポケモンニュースは"
+	line"みんなの　ポケモンレポートを"
+	cont"あつめて　つくる　ニュースです!"
 
-	para "the SAVE files of"
-	line "#MON trainers."
+	para"あたらしい　ニュースを　よみこむとき"
+	line"あなたの　ポケモンレポートが"
+	cont"おくられる　ことが　あります"
 
-	para "When reading the"
-	line "NEWS, your SAVE"
+	para"おくられる　レポートの　ないようは"
+	line"あなたの　ぼうけんの　きろくと"
+	cont"モバイルプロフィールです"
 
-	para "file may be sent"
-	line "out."
+	para"でんわばんごうは　おくられません"
 
-	para "The SAVE file data"
-	line "will contain your"
+	para"ニュースは　みんなから　おくられる"
+	line"レポートによって　いろいろ"
+	cont"ないようが　かわることが　あります"
 
-	para "adventure log and"
-	line "mobile profile."
-
-	para "Your phone number"
-	line "will not be sent."
-
-	para "The contents of"
-	line "the NEWS will vary"
-
-	para "depending on the"
-	line "SAVE files sent by"
-
-	para "you and the other"
-	line "#MON trainers."
-
-	para "You might even be"
-	line "in the NEWS!"
+	para"もしかすると　あなたの　なまえも"
+	line"ニュースにのるかもしれません!"
 	done
 
 UnknownText_0x61b7c:
-	text "Would you like to"
-	line "get the NEWS?"
+	text"あたらしい　ニュースを"
+	line"よみこみますか?"
 	done
 
 UnknownText_0x61b9d:
-	text "Reading the latest"
-	line "NEWS… Please wait."
+	text"あたらしい　ニュースを　よみこみます"
+	line"そのまま　しばらく　おまちください"
 	done
-
+	
 UnknownText_0x61bc4:
-	text "There is no old"
-	line "NEWS…"
+	text"まえの　ニュースが　ありません!"
 	done
 
 UnknownText_0x61bdb:
-	text "The NEWS data is"
-	line "corrupted."
-
-	para "Please download"
-	line "the NEWS again."
+	text"ニュースの　データが　こわれています"
+	line"よみこみ　なおして　ください"
 	done
 
 UnknownText_0x61c18:
-	text "We're making"
-	line "preparations."
-
-	para "Please come back"
-	line "later."
+	text"じゅんびちゅう…"
+	line"また　あとで　おこしください"
 	done
 
 UnknownText_0x61c4b:
-	text "We will SAVE your"
-	line "progress before"
-
-	para "starting the NEWS"
-	line "MACHINE."
+	text"ニュースマシンを　そうさする　まえに"
+	line"レポートを　かきます"
 	done
 
 UnknownText_0x61c89:
-	text "Whoa, this #MON"
-	line "CENTER is huge."
+	text"でっかい　ポケモンセンターだねー"
+	line"すごいねー"
 
-	para "They just built"
-	line "this place. They"
-
-	para "installed lots of"
-	line "new machines too."
+	para"ここって　さいきん　できたばかりでね"
+	line"あたらしい　きかいが"
+	cont"いっぱい　あるんだよ!"
 	done
 
 UnknownText_0x61cef:
-	text "I thought up a fun"
-	line "new thing for the"
-	cont "TRADE CORNER!"
+	text"トレードコーナーの　あたらしい"
+	line"あそびかた　はっけんしちゃった！"
 
-	para "I make a PIDGEY"
-	line "hold MAIL, then"
+	para"ポッポにメールを　もたせて"
+	line"ほしい　ポケモンも　ポッポにして"
+	cont"こうかんにだすんだ!"
 
-	para "put it up for"
-	line "trade for another"
-	cont "one!"
+	para"みんなが　おなじこと　すると"
+	line"いろんな　ひとと"
+	cont"ぶんつうが　できちゃうよ!"
 
-	para "If everyone did"
-	line "that, MAIL could"
+	para"なづけて　ポッポメール!"
 
-	para "be traded with all"
-	line "sorts of people!"
-
-	para "I call it PIDGEY"
-	line "MAIL!"
-
-	para "If it becomes"
-	line "popular, I might"
-
-	para "make lots of new"
-	line "friends!"
+	para"…はやったら　ともだち　いっぱい"
+	line"できるかも!"
 	done
 
 UnknownText_0x61dfd:
-	text "They said you can"
-	line "trade #MON with"
+	text"ここはね　あったことのない　ひとと"
+	line"ポケモンを　こうかんできる"
+	cont"ところ　なんだって!"
 
-	para "total strangers up"
-	line "here."
-
-	para "But they're still"
-	line "adjusting things."
+	para"でも　いまは　まだ"
+	line"ちょうせいちゅう　みたいよ"
 	done
 
 UnknownText_0x61e5c:
-	text "Some girl I don't"
-	line "know sent me her"
+	text"いま　しらない　おんなのこから"
+	line"ハネッコを　もらったの!"
 
-	para "HOPPIP."
-	line "You should trade"
-
-	para "for a #MON that"
-	line "you want."
+	para"あなたも　ほしい　ポケモンと"
+	line"こうかん　できると　いいね!"
 	done
 
 UnknownText_0x61eb2:
-	text "I received a"
-	line "female HOPPIP, but"
-	cont "its named STANLEY!"
-
-	para "That's my dad's"
-	line "name!"
+	text"メスの　ハネッコを　もらったのに"
+	line"なまえが　ヤスオくん　だったの!"
+	cont"しかも　パパと　おなじ　なまえ…"
 	done
 
 UnknownText_0x61efa:
-	text "What is the NEWS"
-	line "MACHINE?"
+	text"ニュースマシンって　なんだろう?"
 
-	para "Does it get news"
-	line "from a wider area"
-	cont "than the radio?"
+	para"ラジオより　ひろい　ちいきの"
+	line"じょうほうが　わかるのかな?"
 	done
 
 UnknownText_0x61f48:
-	text "The #COM CENTER"
-	line "will link with all"
+	text"ポケモンコミュニケーションセンターと"
+	line"ぜんぶの　ポケモンセンターが"
+	cont"でんぱで　つながるんだって!"
 
-	para "#MON CENTERS in"
-	line "a wireless net."
-
-	para "That must mean"
-	line "I'll be able to"
-
-	para "link with all"
-	line "sorts of people."
+	para"きっと　これから"
+	line"いろんな　ひとと　つうしんが"
+	cont"できるようになるのね!"
 	done
 
 UnknownText_0x61fc9:
-	text "The machines here"
-	line "can't be used yet."
+	text"ここにある　しせつは"
+	line"まだ　つかえないみたいだけど"
 
-	para "Still, it's nice"
-	line "coming to a trendy"
-
-	para "place before other"
-	line "people."
+	para"ひとよりも　はやく"
+	line"うわさのスポットを　みにきたっていう"
+	cont"うれしさが　あるね!"
 	done
 
 UnknownText_0x6202c:
-	text "My friend was in"
-	line "the NEWS a while"
-
-	para "back. I was really"
-	line "surprised!"
+	text"こないだ　ニュースにともだちの"
+	line"なまえが　でてたから　びっくりした！"
 	done
 
 UnknownText_0x6206d:
-	text "I get anxious if I"
-	line "don't check out"
-	cont "the latest NEWS!"
+	text"さいしんじょうほうを　いつも"
+	line"チェックしてないと　きがすまないわ!"
 	done
 
 UnknownText_0x620a1:
-	text "If I get in the"
-	line "NEWS and become"
+	text"ニュースになまえが　のって"
+	line"すっごく　ゆうめいになっちゃったら"
+	cont"きっと　もう　もてもて　だろうな…"
 
-	para "famous, I bet I'll"
-	line "be adored."
-
-	para "I wonder how I"
-	line "could get in the"
-	cont "NEWS?"
+	para"うーん　どうやったら　のるんだろう?"
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
-	line "upstairs is for"
-	cont "link battles."
+	text"2かいにある　コロシアムで"
+	line"つうしんたいせん　できるだろ"
 
-	para "Battle records are"
-	line "posted on the"
-
-	para "wall, so I can't"
-	line "afford to lose."
+	para"かべをみると　じぶんの　せいせきが"
+	line"わかるから　まけてられないよ"
 	done
 
 UnknownText_0x62173:
-	text "I came over here"
-	line "when I got word"
+	text"コガネの　ポケモンセンターに"
+	line"みたこともない　きかいが　あると"
+	cont"きいて　やってきたが…"
 
-	para "that GOLDENROD's"
-	line "#MON CENTER has"
-
-	para "new machines that"
-	line "no one's ever seen"
-	cont "before."
-
-	para "But it looks like"
-	line "they're still busy"
-
-	para "with all their"
-	line "preparations…"
+	para"まだ　いろいろと　じゅんびで"
+	line"あわただしそうじゃな…"
 	done
 
 UnknownText_0x62222:
-	text "Just seeing all"
-	line "these new things"
-
-	para "here makes me feel"
-	line "younger!"
+	text"ここにいると"
+	line"あたらしいものが　いっぱい　みられて"
+	cont"きぶんが　わかがえるのう"
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text"どんなにレべルが　たかくたって"
+	line"タイプの　あいしょうが　あるの"
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
-
-	para "I don't think"
-	line "there is a single"
-
-	para "#MON that is"
-	line "the toughest."
+	para"ぜったいにつよい　ポケモンってのは"
+	line"そうそう　いないでしょうね"
 	done
 
 UnknownText_0x622f0:
-	text "<PLAYER>, isn't it?"
+	text"<PLAYER>さん　ですよね?"
 
-	para "Congratulations!"
+	para"おめでとうございます!"
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para"こんかいは　とくべつに…ということで"
+	line"ジーエスボールと　いうものが"
+	cont"おくられて　きました！"
 
-	para "Please accept it!"
+	para"どうぞ　おうけとりください!"
 	done
 
 UnknownText_0x62359:
-	text "Please do come"
-	line "again!"
+	text"また　ごりようください!"
 	done
-
 UnknownText_0x62370:
-	text "#COM CENTER"
-	line "1F INFORMATION"
-
-	para "Left:"
-	line "ADMINISTRATION"
-
-	para "Center:"
-	line "TRADE CORNER"
-
-	para "Right:"
-	line "#MON NEWS"
+	text"ポケモンコミュニケーションセンター"
+	line"1かい　の　ごあんない"
+	cont"ひだり　　　…　かんりしつ"
+	cont"ちゅうおう　…　トレードコーナー"
+	cont"みぎ　　　　…　ポケモンニュース"
 	done
 
 UnknownText_0x623c7:
-	text "It's a #MON"
-	line "NEWS MACHINE!"
+	text"ポケモンニュースマシンだ!"
 
-	para "It's not in"
-	line "operation yet…"
+	para"まだ　ニュースは　よめない　みたい…"
 	done
 
 UnknownText_0x623fb:

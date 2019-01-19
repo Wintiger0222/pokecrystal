@@ -228,48 +228,32 @@ Route40Lass1Text:
 	done
 
 Route40PokefanMText:
-	text "Hm! There's a big"
-	line "building up ahead!"
-
-	para "What is it?"
+	text"む!　このさきにいくと"
+	line"なにやら　でっかい　たてものが!"
+	cont"なんだ　なんだ?"
 	done
 
 Route40PokefanMText_Mobile:
-	text "Hm! Look at all"
-	line "those serious-"
-	cont "looking trainers"
-	cont "streaming in."
-
-	para "What? What?"
+	text"む!　つよそうな　<TRAINER>が"
+	line"いっぱい　はいってくぞ!"
+	cont"なんだ　なんだ?"
 	done
 
 Route40Lass2Text:
-	text "I came to OLIVINE"
-	line "by ship to see the"
+	text"ふねで　アサギにかんこうにきたの!"
 
-	para "sights and soak up"
-	line "the atmosphere."
-
-	para "Being a port, it"
-	line "feels so different"
-	cont "from a big city."
+	para"とかい　とは　ちがった"
+	line"みなとまちって　ムードが　いいわねえ"
 	done
 
 Route40StandingYoungsterText:
-	text "Have you gone to"
-	line "the BATTLE TOWER?"
+	text"バトルタワーは　もう　いった?"
 
-	para "I think a lot of"
-	line "tough trainers"
+	para"かなり　つよい　<TRAINER>が"
+	line"あつまってる　らしいけど…"
 
-	para "have gathered"
-	line "there already."
-
-	para "But since you have"
-	line "so many BADGES,"
-
-	para "you shouldn't do"
-	line "badly at all."
+	para"それだけ　バッジを　もっているんなら"
+	line"かなり　いいせん　いけるんじゃない?"
 	done
 
 MeetMonicaText:

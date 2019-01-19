@@ -21,7 +21,7 @@ FightingDojoFocusBand:
 
 FightingDojoBlackBeltText:
 	text "어서오셔!"
-	
+
 	para "격투 도장의 사범"
 	line "태권왕은"
 	cont "수행을 위해"

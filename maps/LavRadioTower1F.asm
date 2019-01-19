@@ -48,7 +48,8 @@ LavRadioTower1FGentlemanScript:
 	end
 
 .expncardname
-	db "EXPN CARD@"
+	db "확장카드@";미번역
+	;확장카드?
 
 LavRadioTower1FSuperNerd2Script:
 	faceplayer

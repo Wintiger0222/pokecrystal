@@ -242,17 +242,12 @@ RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text "Our investigation,"
-	line "with your help, is"
+	text"わたしたちの　ちょうさと　きみの"
+	line"きょうりょくの　おかげで"
+	cont"いせきの　ことが　わかってきたよ"
 
-	para "giving us insight"
-	line "into the RUINS."
-
-	para "The RUINS appear"
-	line "to have been built"
-
-	para "as a habitat for"
-	line "#MON."
+	para"あの　いせきは　ポケモンの　すみか"
+	line"として　つくられた　らしいね"
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
@@ -275,32 +270,23 @@ RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 
 RuinsOfAlphResearchCenterUnusedText1:
 ; unused
-	text "We think something"
-	line "caused the cryptic"
+	text"なぞの　もようが　あらわれたのには"
+	line"なにか　きっかけとなる　できごとが"
+	cont"あったと　おもうんだよ"
 
-	para "patterns to appear"
-	line "in the RUINS."
-
-	para "We've focused our"
-	line "studies on that."
+	para"いま　それを　しらべているんだ"
 	done
 
 RuinsOfAlphResearchCenterUnusedText2:
 ; unused
-	text "According to my"
-	line "research…"
+	text"ぼくの　しらべでは…"
 
-	para "Those mysterious"
-	line "patterns appeared"
+	para"ポケモンコミュニケーションセンターが"
+	line"できたときから　なぞの　もようが"
+	cont"あらわれているんだ!"
 
-	para "when the #COM"
-	line "CENTER was built."
-
-	para "It must mean that"
-	line "radio waves have"
-
-	para "some sort of a"
-	line "link…"
+	para"ということは…　でんぱ!　が"
+	line"なにか　かんけい　してるらしいね"
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:

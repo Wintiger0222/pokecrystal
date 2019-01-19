@@ -18,11 +18,11 @@ LugiaSpeechHouseRadio:
 
 EcruteakLugiaSpeechHouseGrampsText:
 	text "내가 어렸을 적의 이야기"
-	
+
 	para "하늘이 갑자기"
 	line "깜깜해졌다고 생각하는중에"
 	cont "커다란 포켓몬이 날아왔다"
-	
+
 	para "용 같기도 하고"
 	line "새 같기도 한 포켓몬은"
 	cont "무엇이었을까?"

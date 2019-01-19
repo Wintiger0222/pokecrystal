@@ -216,7 +216,7 @@ KimonoGirlMikiAfterBattleText:
 SurfGuyNeverLeftAScratchText:
 	text "전통 무용수들은 춤뿐만 아니라"
 	line "포켓몬에도 달인이다!"
-	
+
 	para "항상 도전하고 있지만"
 	line "전혀 이길 수가 없구나……"
 	done
@@ -228,20 +228,18 @@ SurfGuyLadGiftText:
 	done
 
 SurfGuyLassieGiftText:
-	text "Lassie, if you can"
-	line "defeat all the"
-
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	text "음"
+	line "전통 무용수들을 전부 이기면"
+	cont "내가 좋은 물건을 줄께!"
 	done
 
 SurfGuyLikeADanceText:
 	text "거기에비해서"
 	line "네 포켓몬의 싸움법은"
 	cont "마치 춤을 추는 듯 했다!"
-	
+
 	para "좋은 구경을 했다!"
-	
+
 	para "이것은 내 마음의 선물이다"
 	line "사양말고 받아주거라!"
 	done
@@ -264,21 +262,21 @@ RhydonText:
 DanceTheatreCooltrainerMText:
 	text "저 아저씨"
 	line "항상 코뿌리랑 함께 있어!"
-	
+
 	para "파도타기를 쓸 수 있는 포켓몬에게"
 	line "춤도 가르치고 싶다고 한다!"
-	
+
 	para "싱크로나이즈 스위밍이라도"
 	line "시킬 작정인가"
 	done
 
 DanceTheatreGrannyText:
 	text "전통 무용수들 이쁘구나……"
-	
+
 	para "그러나 사람들 앞에 나서는 것은"
 	line "엄격한 관례랑 수행을"
 	cont "소화하지 않으면 안 되지!"
-	
+
 	para "뭐 좋아한다면 뭐든지 할수 있지만"
 	done
 

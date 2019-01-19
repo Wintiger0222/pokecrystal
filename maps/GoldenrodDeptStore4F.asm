@@ -51,7 +51,7 @@ GoldenrodDeptStore4FBugCatcherText:
 GoldenrodDeptStore4FGameboyKidText:
 	text "통신 케이블을 통하게 하는 것으로"
 	line "진화하는 포켓몬도 있단다"
-	
+
 	para "근육몬 윤겔라 고우스트"
 	line "데구리 4종류이지만"
 	cont "그밖에도 있다고들 말한단다"

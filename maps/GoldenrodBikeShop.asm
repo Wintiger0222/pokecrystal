@@ -50,7 +50,7 @@ GoldenrodBikeShopClerkIntroText:
 	text "하아……"
 	line "일부러 멀리서 금빛시티까지 왔는데"
 	cont "자전거가 전혀 팔리지 않아"
-	
+
 	para "어째서일까?"
 	line "너 자전거를 타고 돌아다니며"
 	cont "선전을 해주지 않겠니?"
@@ -58,7 +58,7 @@ GoldenrodBikeShopClerkIntroText:
 
 GoldenrodBikeShopClerkAgreedText:
 	text "저 정말?"
-	
+
 	para "그럼 이름이랑 전화번호"
 	line "가르쳐줘"
 	cont "자전거를 빌려줄테니까"
@@ -74,12 +74,13 @@ GoldenrodBikeShopClerkFirstRateBikesText:
 	line "성능 최고니까!"
 	cont "어떤 길이라도 씽씽 달린단다!"
 	done
-	
+
 GoldenrodBikeShopClerkRefusedText:
 	text "하아……"
 	line "사람들의 친절함에 젖어들고싶어"
 	done
 
+; possibly unused
 GoldenrodBikeShopJustReleasedCompactBikeText:
 	text "드디어 발매!"
 	line "최고급 컴팩트 사이클"

@@ -49,7 +49,15 @@ CeladonCityTeacher2Script:
 	jumptextfaceplayer CeladonCityTeacher2Text
 
 CeladonCityLassScript:
+IF DEF(_CRYSTALMOBILE)
+	special Mobile_DummyReturnFalse
+	iftrue .mobile
+ENDC
 	jumptextfaceplayer CeladonCityLassText
+.mobile
+IF DEF(_CRYSTALMOBILE)
+	jumptextfaceplayer CeladonCityLassText_Mobile
+ENDC
 
 CeladonCitySign:
 	jumptext CeladonCitySignText

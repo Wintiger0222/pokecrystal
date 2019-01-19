@@ -512,19 +512,13 @@ YoungsterSamuelSeenText:
 	done
 
 YoungsterSamuelBeatenText:
-	text "Beaten by a"
-	line "passing stranger!"
+	text"とおりすがりの　やつに　まけた！"
 	done
 
 YoungsterSamuelMobileText:
-	text "Have you been to"
-	line "GOLDENROD CITY?"
-
-	para "Weren't you amazed"
-	line "by how they've"
-
-	para "changed the"
-	line "#MON CENTER?"
+	text"きみ　もう　コガネに　いった?"
+	line"ポケモンセンターが　かわってて"
+	cont"びっくり　しただろ?"
 	done
 
 YoungsterSamuelAfterText:
@@ -554,24 +548,18 @@ CamperTodd1SeenText:
 	done
 
 CamperTodd1BeatenText:
-	text "Did I screw up my"
-	line "training?"
+	text"そだてかた　まちがえたかな?"
 	done
 
 CamperTodd1AfterText:
-	text "Maybe I should"
-	line "take one to a DAY-"
-
-	para "CARE. Or maybe use"
-	line "some items…"
+	text"うーん…"
+	line"そだてやさんに　あずけようかな?"
+	cont"どうぐを　つかおうかな?"
 	done
 
 CamperToddSaleText:
-	text "Shopping under the"
-	line "sky!"
-
-	para "It feels so nice"
-	line "up on a rooftop."
+	text"そらの　したで　かいもの!"
+	line"おくじょうは　きぶん　いいよねー"
 	done
 
 PicnickerGina1SeenText:

@@ -430,9 +430,8 @@ PicnickerTiffanyWantsPicnicText:
 	done
 	
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFAIRY"
-	line "just the most"
-	cont "adorable thing?"
+	text"ねぇ　わたしの　ピッピちゃん"
+	line"すっごく　かわいいでしょ?"
 	done
 
 Route43Sign1Text:

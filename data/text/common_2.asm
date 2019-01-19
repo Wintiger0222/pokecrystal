@@ -243,25 +243,46 @@ UnknownText_0x1c04fa::
 	prompt
 
 UnknownText_0x1c051a::
-	text "Received"
-	line "@"
+IF DEF(_CRYSTALMOBILE)
 	text_ram wc850
-	text "'s CARD."
+	text "에게서 카드를"
+	line "받았다!"
 	prompt
+ELSE
+	text_ram wc850
+	text "에게서 명함을"
+	line "받았다!"
+	prompt
+ENDC
 
 UnknownText_0x1c0531::
+IF DEF(_CRYSTALMOBILE)
 	text_ram wc850
-	text "'s CARD was"
-	line "listed as no.@"
-	text_decimal wDeciramBuffer, 1, 2
-	text "."
+	text "의 카드를"
+	line "@"
+	text_decimal wd265, 1, 2
+	text "번째에 넣었다!"
 	prompt
+ELSE
+	text_ram wc850
+	text "의 명함을"
+	line "@"
+	text_decimal wd265, 1, 2
+	text "번째에 넣었다!"
+	prompt
+ENDC
 
 UnknownText_0x1c0555::
-	text "The CARD was not"
-	line "registered."
+IF DEF(_CRYSTALMOBILE)
+	text "친구 등록을"
+	line "그만두었다!"
 	prompt
-
+ELSE
+	text "명함 등록을"
+	line "그만두었다!"
+	prompt
+ENDC
+	
 UnknownText_0x1c0573::	
 	text "통신을 중지했습니다"
 	prompt
@@ -841,11 +862,11 @@ MailMovedFromBoxText::
 	prompt
 
 UnknownText_0x1c0fb3::
-	text "Yes"
+	text "예"
 	prompt
 
 UnknownText_0x1c0fb8::
-	text "No"
+	text "아니오"
 	prompt
 
 UnknownText_0x1c0fbc::

@@ -70,16 +70,13 @@ HappinessRatersHouseRadio:
 	jumpstd radio2
 
 GoldenrodHappinessRaterTeacherText:
-	text "If you treat your"
-	line "#MON nicely,"
+	text "포켓몬도 말이야"
+	line "소중히 대해주면 잘 따른단다"
 
-	para "they will love you"
-	line "in return."
-
-	para "Oh? Let me see"
-	line "your @"
+	para "응?"
+	line "너의 @"
 	text_ram wStringBuffer3
-	text "…"
+	text "……"
 	done
 
 GoldenrodHappinessRatingText_LovesYouALot:

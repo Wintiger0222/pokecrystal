@@ -228,11 +228,9 @@ SurfGuyLadGiftText:
 	done
 
 SurfGuyLassieGiftText:
-	text "Lassie, if you can"
-	line "defeat all the"
-
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	text "음!"
+	line "전통 무용수들을 전부 이기면"
+	cont "내가 좋은 물건을 주마!"
 	done
 
 SurfGuyLikeADanceText:

@@ -143,61 +143,47 @@ BlackthornCityMartSign:
 	jumpstd martsign
 
 Text_ClairIsOut:
-	text "I am sorry."
+	text"もうしわけ　ございません"
 
-	para "CLAIR, our GYM"
-	line "LEADER, entered"
+	para"ジムりーダーの　イブキさまは"
+	line"ジムの　うらにある　りゅうのあなへ"
+	cont"ようじで　でかけて　おります"
 
-	para "the DRAGON'S DEN"
-	line "behind the GYM."
-
-	para "I have no idea"
-	line "when our LEADER"
-	cont "will return."
+	para"もどられるのは　いつになるやら…"
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
-	line "LEADER, is waiting"
-	cont "for you."
+	text"ジムりーダーの　イブキさまが"
+	line"おまちになって　おります"
 
-	para "However, it would"
-	line "be impossible for"
-
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para"ですが　なみたいていの"
+	line"じつりょく　では　かてませんよ"
 	done
 
 Text_ClairIsBeaten:
-	text "You defeated"
-	line "CLAIR?"
+	text"イブキさまにかたれたのですか!"
+	line"それは　すごい…"
 
-	para "That's amazing!"
-
-	para "I've never heard"
-	line "of her losing to"
-
-	para "anyone other than"
-	line "LANCE."
+	para"ワタルさま　いがいに"
+	line"まけるのを　みるのは　はじめてです!"
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text "No. Only chosen"
-	line "trainers may train"
-
-	para "here."
-	line "Please leave."
+	text"ここはえらばれた　<TRAINER>だけが"
+	line"しゅぎょうを　ゆるされた　ばしょ"
+	cont"おひきとり　くださいまし"
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
-	line "it, her grand-"
-	cont "father--our MASTER"
-	cont "--will also."
+	text"まごの　イブキさまが"
+	line"おゆるしになった　ならば"
 
-	para "You may enter."
+	para"ちょうろうさまも"
+	line"きっと　おゆるしになるじゃろう…"
+
+	para"どうぞ　おとおり　くださいまし"
 	done
-
+	
 BlackBeltText_WeirdRadio:
 	text "라디오가 고장났나?"
 	line "어째 요즘은 이상하네"

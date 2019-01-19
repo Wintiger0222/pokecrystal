@@ -613,13 +613,11 @@ FisherJustinAfterText:
 	para "낚시도 포켓몬도"
 	line "오묘함은 똑같구나!"
 	done
+	
 FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
-	cont "#MON."
-
-	para "I'm not about to"
-	line "lose to any kid!"
+	text"つりも　とくい　だが"
+	line"ポケモン　だって　わかもの　には"
+	cont"まけんぞ!"
 	done
 
 FisherRalph1BeatenText:
@@ -632,14 +630,11 @@ FisherRalphAfterText:
 	done
 
 FisherRalphSwarmText:
-	text "One, two, three…"
-	line "Muahahaha, what a"
+	text"ひい　ふう　みい…"
+	line"うほほ　たいりょう　たいりょう!"
 
-	para "great haul!"
-	line "I'm done! Go ahead"
-
-	para "and catch as many"
-	line "as you can, kid!"
+	para"わしは　もう　いいから"
+	line"いっぱい　つれよ　わかいの!"
 	done
 
 ; --- start a segment of unused text
@@ -748,8 +743,8 @@ PicnickerLiz1SeenText:
 	
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text"もう!　この　くやしさを"
+	line"どこへ　ぶつければ　いいのー!"
 	done
 
 PicnickerLiz1AfterText:

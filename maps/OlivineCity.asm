@@ -215,14 +215,11 @@ OlivineCityStandingYoungsterPokedexText:
 	done
 	
 OlivineCitySailor2Text:
-	text "The sea is sweet!"
+	text"うみは　いいぞー"
+	line"ゆうひも　きれい!"
 
-	para "Sunsets on the sea"
-	line "are marvelous!"
-
-	para "Sing with me! "
-	line "Yo-ho! Blow the"
-	cont "man down!…"
+	para"うーみーはー　ひろいーなー"
+	line"おーきーなー　っと!"
 	done
 
 OlivineCitySignText:
@@ -248,13 +245,13 @@ OlivineLighthouseSignText:
 	done
 	
 OlivineCityBattleTowerSignText:
-	text "BATTLE TOWER AHEAD"
-	line "Opening Now!"
+	text"このさき　バトルタワー"
+	line"オープンちゅう!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen:
 ; unused; originally shown when the Battle Tower was closed
-	text "BATTLE TOWER AHEAD"
+	text"このさき　バトルタワー"
 	done
 
 OlivineCity_MapEvents:

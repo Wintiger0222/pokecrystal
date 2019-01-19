@@ -74,31 +74,23 @@ DayCareBookshelf:
 	jumpstd difficultbookshelf
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text"じいさんが"
+	line"あんたを　さがしておったよ"
 	done
-
+	
 Text_DayCareManTalksAboutEggTicket:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text"わしは　そだてや　じいさんじゃ"
+	line"さいきん　できた　コガネの"
+	cont"トレードコーナーとか　いうところで"
+	cont"なぞのタマゴを　もらえる　という"
 
-	para "There's something"
-	line "new in GOLDENROD"
+	para"「タマゴけん」というのを"
+	line"もらったんじゃが…"
 
-	para "called the TRADE"
-	line "CORNER."
+	para"わしら　そだてやじゃから"
+	line"ひつようないんじゃ"
 
-	para "I was given an EGG"
-	line "TICKET that can be"
-
-	para "traded in for a"
-	line "ODD EGG."
-
-	para "But since we run a"
-	line "DAY-CARE, we don't"
-
-	para "need it. You may"
-	line "as well have it."
+	para"これは　きみにあげよう"
 	done
 
 DayCareManText_GiveOddEgg:
@@ -124,16 +116,16 @@ DayCareManText_GiveOddEgg:
 	para "Then fine, this is"
 	line "yours to keep!"
 	done
-
+	
 DayCareText_ComeAgain:
-	text "Come again."
+	text"また　きなさいよ"
 	done
-
+; 또 오세요. 	
 DayCareText_GotOddEgg:
 	text "<PLAYER> received"
 	line "ODD EGG!"
 	done
-
+; <플레이어> ODD EGG! 
 DayCareText_DescribeOddEgg:
 	text "I found that when"
 	line "I was caring for"
@@ -147,12 +139,12 @@ DayCareText_DescribeOddEgg:
 	para "EGG, so I'd kept"
 	line "it around."
 	done
-
+; 내가 예전에 누군가의 #MON을 돌봤을 때. 하지만 트레이너가 EGGG를 원하지 않았기 때문에 나는 그것을 가지고 있었다. 
 DayCareText_PartyFull:
 	text "You've no room for"
 	line "this."
 	done
-
+; 넌 이럴 여유가 없어.
 DayCare_MapEvents:
 	db 0, 0 ; filler
 

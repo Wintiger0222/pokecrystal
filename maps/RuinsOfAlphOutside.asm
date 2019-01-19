@@ -221,42 +221,32 @@ RuinsOfAlphResearchCenterSignText:
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "While exploring"
-	line "the RUINS, we"
+	text"いせきを　みてたら　きゅうに"
+	line"なにかの　けはいを　かんじたんだ…"
 
-	para "suddenly noticed"
-	line "an odd presence."
-
-	para "We all got scared"
-	line "and ran away."
-
-	para "You should be"
-	line "careful too."
+	para"みんなも　こわくなって　にげたよ!"
+	line"きみも　きを　つけなよ"
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "The RUINS hide a"
-	line "huge secret!"
-
-	para "…I think…"
+	text"この　いせきには　なにか　おおきな"
+	line"ひみつが　かくされている!"
+	cont"…と　おもうんだけど…"
 	done
 
 RuinsOfAlphOutsideYoungster1Text:
-	text "There are many"
-	line "kinds of UNOWN, so"
-
-	para "we use them for"
-	line "our secret codes."
+	text"アンノーン　って　たくさん　いるから"
+	line"ぼくたち　ひみつの　あんごうに"
+	cont"してるんだ!"
 	done
 
 RuinsOfAlphOutsideYoungster2Text:
-	text "A… H… E… A… D…"
-	line "Hmm…"
+	text"こ…　の…　さ…　き…"
+	line"うーん"
 
-	para "What?"
+	para"え?"
 
-	para "I'm decoding this"
-	line "message!"
+	para"あんごうを　といてるんだよ!"
 	done
 
 RuinsOfAlphOutside_MapEvents:

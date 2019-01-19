@@ -129,217 +129,161 @@ MovementData_0x98628:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Astounding…"
+	text"なんということだ!"
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU have arisen"
-	cont "from their sleep…"
+	para"スイクン　エンテイ　ライコウさまが"
+	line"めざめられた　らしい…"
 
-	para "Is the legend"
-	line "coming true?"
+	para"あの　でんせつが　おきるというのか?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "We train at the"
-	line "BURNED TOWER, but"
+	text"わたしたちも　やけたとうで"
+	line"しゅぎょうを　しておりますが"
+	cont"あなが　あいたなど　きいたことも"
+	cont"ございません"
 
-	para "we've never heard"
-	line "of a hole opening"
-
-	para "up there before."
-	line "It must have been"
-
-	para "deliberately made"
-	line "by someone."
+	para"だれかが　わざと　あなを"
+	line"つくったとしか　かんがえられません…"
 	done
-
+	
 WiseTriosRoomSage3BlocksExitText:
-	text "TIN TOWER may be"
-	line "entered by those"
+	text"スズのとうは　エンジュの"
+	line"ジムバッジを　もっていれば"
+	cont"はいれるのじゃが"
 
-	para "bearing ECRUTEAK's"
-	line "GYM BADGE."
+	para"スイクン　エンテイ　ライコウさまが"
+	line"めざめられた　いま"
 
-	para "However, now that"
-	line "SUICUNE, RAIKOU"
-
-	para "and ENTEI have"
-	line "arisen, I ask you"
-
-	para "to refrain from"
-	line "entering!"
+	para"ごえんりょ　ねがいたい!"
 	done
 
 WiseTriosRoomSage3Text:
-	text "We, the WISE TRIO,"
-	line "are the protectors"
-
-	para "of the legendary"
-	line "#MON."
+	text"わたしたちは　でんせつの　ポケモンを"
+	line"まもっている　3にんしゅうじゃ"
 	done
 
 SageGakuSeenText:
-	text "Legend has it that"
-	line "upon the emergence"
+	text"でんせつでは　ポケモンと"
+	line"こころを　かよわせる"
+	cont"じんぶつが　あらわれたとき"
 
-	para "of a trainer who"
-	line "has the ability to"
+	para"スズのとうで　そのじんぶつを　ためす"
+	line"と　ある……"
 
-	para "touch the souls of"
-	line "#MON, a #MON"
+	para"その　でんせつどおり"
 
-	para "will come forth to"
-	line "put that trainer"
+	para"ポケモン…　スイクンさまが"
+	line"おこしに　なった！"
 
-	para "to test at the TIN"
-	line "TOWER."
-
-	para "The legend has"
-	line "come true!"
-
-	para "The legendary"
-	line "#MON SUICUNE"
-	cont "has arrived!"
-
-	para "We, the WISE TRIO,"
-	line "shall test your"
-
-	para "worthiness to go"
-	line "inside!"
+	para"わたしたち　3にんしゅうが"
+	line"きみに　その　しかくが　あるのか"
+	cont"たしかめる!"
 	done
 
 SageGakuBeatenText:
-	text "Stronger than we"
-	line "thought? Perhaps…"
+	text"よそう　いじょうに　つよい…"
+	line"……　もしや……"
 	done
 
 SageGakuAfterBattleText:
-	text "Ah, so it is you"
-	line "who claim to have"
+	text"きみが　おやすみに　なっていた"
+	line"スイクン　エンテイ　ライコウさまを"
+	cont"みた　という　かたか"
 
-	para "seen SUICUNE,"
-	line "ENTEI and RAIKOU"
-	cont "while they slept?"
+	para"しんじられん!"
 
-	para "Unbelievable!"
-
-	para "Legend has it that"
-	line "they can't be seen"
-	cont "while they sleep…"
+	para"でんせつでは　おやすみに"
+	line"なられているときは　みえない"
+	cont"と　あるのに……"
 	done
 
 SageMasaSeenText:
-	text "Can you be trusted"
-	line "with the truth?"
+	text"あなたに　しんじつを　つたえて"
+	line"よいものか　どうか"
 
-	para "I must ascertain"
-	line "your worthiness."
+	para"おちから　はいけん　いたします"
 	done
 
 SageMasaBeatenText:
-	text "…I will tell you"
-	line "the truth…"
+	text"…………"
+	line"しんじつを　おはなし　しましょう"
 	done
-
+	
 SageMasaAfterBattleText:
-	text "In the past, there"
-	line "were two nine-tier"
-	cont "towers here."
+	text"むかしは　9じゅうの　とうが"
+	line"2つ　ありました"
 
-	para "The BRASS TOWER,"
-	line "which was said to"
+	para"ポケモンを　おこす　とう　と"
+	line"いわれた　かねのとう"
 
-	para "awaken #MON,"
-	line "and the TIN TOWER,"
+	para"ポケモンを　やすめる　とう　と"
+	line"いわれた　スズのとう　です"
 
-	para "where #MON were"
-	line "said to rest."
+	para"それは　すばらしい　けしき"
+	line"だったに　ちがいありません"
 
-	para "The view from the"
-	line "tops of the TOWERS"
+	para"そのころの　かねのとうには"
+	line"おおきな　ぎんいろの　ポケモンが"
+	cont"はねを　やすめていた　そうです"
 
-	para "must have been"
-	line "magnificent."
+	para"ところが…"
 
-	para "At the time, an"
-	line "immense, silver-"
+	para"いまから　およそ150ねん　まえ"
+	line"1つの　とう　に"
+	cont"かみなりが　おちたそうです"
 
-	para "colored #MON"
-	line "was said to make"
+	para"そのため　とう　は"
+	line"ものすごい　ほのおに　つつまれ"
+	cont"3にちも　もえつづけた　そうです"
 
-	para "its roost atop the"
-	line "BRASS TOWER."
+	para"そして…"
 
-	para "However…"
+	para"とつぜんの　おおあめに　よって"
+	line"きえたそうです"
 
-	para "About 150 years"
-	line "ago, a lightning"
-
-	para "bolt struck one of"
-	line "the TOWERS."
-
-	para "It was engulfed in"
-	line "flames that raged"
-	cont "for three days."
-
-	para "A sudden downpour"
-	line "finally put out"
-	cont "the blaze."
-
-	para "And that is how"
-	line "the BURNED TOWER"
-	cont "came to be."
+	para"それが　いまの　やけたとう　なのです"
 	done
 
 SageKojiSeenText:
-	text "Let me see your"
-	line "power!"
+	text"きみの　ちから　みせてもらうぞ!"
 	done
 
 SageKojiBeatenText:
-	text "Too strong!"
-	line "Why?"
+	text"つ　つよい…　つよすぎる"
+	line"なぜだ!?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "You… Are you the"
-	line "trainer who is"
-
-	para "awaited by the"
-	line "legendary #MON?"
+	text"きみ!　もしや!?"
+	line"でんせつの　ポケモンたちが"
+	cont"まっている　かたか!?"
 	done
 
 SageKojiAfterBattleSpeechText:
-	text "I see…"
+	text"なるほど……"
 
-	para "We, the WISE TRIO,"
-	line "have been given "
+	para"わたしたち　3にんしゅうは"
+	line"でんせつの　ポケモンを　おまもりし"
 
-	para "the responsibility"
-	line "of protecting the"
+	para"しんじつの　ちからと　こころを"
+	line"もった　ひとを　とおすように"
+	cont"いわれています"
 
-	para "legendary #MON."
-	line "We are to allow"
+	para"どうぞ　おとおり　ください"
 
-	para "passage only to"
-	line "those people who"
+	para"そして　このさきの"
+	line"スズのとうに　おはいりください"
 
-	para "possess the power"
-	line "and soul of truth."
-
-	para "Please, do go on"
-	line "and enter the TIN"
-	cont "TOWER ahead."
-
-	para "SUICUNE will put"
-	line "you to the test."
+	para"スイクンさまは　あなたを　おためしに"
+	line"なるでしょう"
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Please, do go on."
+	text"どうぞ　おとおり　ください"
 
-	para "SUICUNE will put"
-	line "you to the test."
+	para"スイクンさまは　あなたを　おためしに"
+	line"なるでしょう"
 	done
 
 WiseTriosRoom_MapEvents:

@@ -89,39 +89,26 @@ UnknownText_0x553d4:
 	text "36번 도로의"
 	line "움직이는 나무를 본 적 있니?"
 
-	para "My little sister"
-	line "got all excited"
-
-	para "and went to see"
-	line "it…"
-
-	para "I'm worried… Isn't"
-	line "it dangerous?"
+	para"わたしの　いもうとが"
+	line"おもしろがって　みにいっちゃったの…"
+	cont"あぶなくないのかしら　しんぱいだわ…"
 	done
 
 UnknownText_0x55463:
-	text "Do you want to"
-	line "borrow the water"
-
-	para "bottle too?"
-	line "I don't want you"
-
-	para "doing anything"
-	line "dangerous with it."
+	text"キミも　じょうろを　かりたいの?"
+	line"あぶないこと　かんがえちゃ　ダメよ"
 	done
-
+	
 UnknownText_0x554c2:
 	text "응? 너"
 	line "꼭두보다 강하구나"
 
-	para "You'll be OK,"
-	line "then. Here's the"
-	cont "SQUIRTBOTTLE!"
+	para"それなら　だいじょうぶね"
+	line"この　ゼニガメじょうろを　あげるわ"
 	done
 
 UnknownText_0x5550d:
-	text "Don't do anything"
-	line "too dangerous!"
+	text"あまり　あぶないことを　しちゃダメよ"
 	done
 
 UnknownText_0x5552e:
@@ -130,27 +117,20 @@ UnknownText_0x5552e:
 	done
 
 UnknownText_0x55561:
-	text "When I told my sis"
-	line "about the jiggly"
+	text"うちの　おねえちゃんに"
+	line"うごく　きの　はなしを　したら"
+	cont"あぶないから　やめなさい　だって!"
 
-	para "tree, she told me"
-	line "it's dangerous."
-
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
-
-	para "lend me her water"
-	line "bottle…"
+	para"アカネちゃんにかてたら"
+	line"じょうろ　かして　くれるかなぁ……"
 	done
 
 UnknownText_0x555e6:
-	text "Wow, you beat"
-	line "WHITNEY? Cool!"
+	text"アカネちゃんにかつなんて　すごいね"
 	done
 
 UnknownText_0x55604:
-	text "So it really was a"
-	line "#MON!"
+	text"やっぱり　ポケモン　だったのね!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

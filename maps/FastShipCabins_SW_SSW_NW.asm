@@ -125,7 +125,7 @@ FirebreatherLyleBeatenText:
 FirebreatherLyleAfterBattleText:
 	text "역시 바다 위에서는"
 	line "불꽃이 약한걸까……"
-	
+
 	para "관계없어?"
 	line "그러니?"
 	done
@@ -158,7 +158,7 @@ BeautyCassieBeatenText:
 BeautyCassieAfterBattleText:
 	text "실연의 슬픔을 고치기에는"
 	line "배를 타는 여행이 최고이지만……"
-	
+
 	para "쾌속선은 너무 빨라서"
 	line "정취가 없어!"
 	done
@@ -167,7 +167,7 @@ GuitaristClydeSeenText:
 	text "금빛시티의 라디오 방송국에"
 	line "노래를 알려나가는 것이다!"
 	done
-	
+
 GuitaristClydeBeatenText:
 	text "띠리링!"
 	done
@@ -175,7 +175,7 @@ GuitaristClydeBeatenText:
 GuitaristClydeAfterBattleMobileText:
 	text "나는 배틀 타워에 가서"
 	line "나의 꿈을 이룰거야!"
-	
+
 	para "그러기 위해선"
 	line "갈색시티로 가야되……"
 	done

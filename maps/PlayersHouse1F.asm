@@ -224,9 +224,9 @@ MomGivesPokegearText:
 	done
 
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
-	done
+	; text "Is it Daylight"
+	; line "Saving Time now?"
+	; done
 
 ComeHomeForDSTText:
 	text "그래 그래"
@@ -277,36 +277,27 @@ ImBehindYouText:
 	done
 
 NeighborMornIntroText:
-	text "Good morning,"
-	line "<PLAY_G>!"
-
-	para "I'm visiting!"
+	text "안녕 <PLAY_G>!"
+	line "나 놀러왔어!"
 	done
 
 NeighborDayIntroText:
-	text "Hello, <PLAY_G>!"
-	line "I'm visiting!"
+	text "안녕 <PLAY_G>!"
+	line "나 놀러왔어!"
 	done
-
+	
 NeighborNiteIntroText:
-	text "Good evening,"
-	line "<PLAY_G>!"
-
-	para "I'm visiting!"
+	text "좋은 저녁 <PLAY_G>!"
+	line "나 놀러왔어!"
 	done
 
-NeighborText:
-	text "<PLAY_G>, have you"
-	line "heard?"
+NeighborText:;번역함
+	text "<PLAY_G> 들어봤니?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "내 딸은 공박사의 조수가"
+	line "되고싶어해"
 
-	para "becoming PROF."
-	line "ELM's assistant."
-
-	para "She really loves"
-	line "#MON!"
+	para "그애는 포켓몬 정말 좋아한다니까"
 	done
 
 StoveText:

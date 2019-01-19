@@ -83,7 +83,6 @@ HallOfFame_LanceText:
 	para "자 <PLAY_G>!"
 	line "너와 네 파트너들을"
 	cont "기록하자!"
-	line "as CHAMPIONS!"
 	done
 
 HallOfFame_MapEvents:

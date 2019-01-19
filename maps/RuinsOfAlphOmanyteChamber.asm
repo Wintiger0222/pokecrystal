@@ -109,23 +109,21 @@ RuinsOfAlphOmanyteChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphOmanyteChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text"벽에 무늬가 있다!"
 	done
 
 RuinsOfAlphOmanyteChamberUnownText:
 ; unused
-	text "It's UNOWN text!"
+	text "안농 문자다!"
 	done
 
 RuinsOfAlphOmanyteChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text"벽에 무늬가 있다!"
 	done
 
 RuinsOfAlphOmanyteChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text"벽에 큰 구멍이"
+	line"뚫려있다!"
 	done
 
 RuinsOfAlphOmanyteChamberAncientReplicaText:

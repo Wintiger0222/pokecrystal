@@ -255,21 +255,19 @@ WhitneyGoodCryText:
 	done
 
 LassCarrieSeenText:
-	text "Don't let my"
-	line "#MON's cute"
-	
-	para "looks fool you."
-	line "They can whip you!"
+	text"あたしの　ポケモン　かわいいからって"
+	line"ゆだんしてると　いたいめ　みるわよ!"
 	done
 
 LassCarrieBeatenText:
-	text "Darn… I thought"
-	line "you were weak…"
+	text"やっちゃった……"
+	line"あたしが　ゆだん　しちゃったみたい"
 	done
 
 LassCarrieAfterBattleText:
-	text "Do my #MON"
-	line "think I'm cute?"
+	text"ポケモンのほうは"
+	line"あたしのこと　かわいいって"
+	cont"おもって　くれてるのかな?"
 	done
 
 LassBridgetSeenText:

@@ -146,22 +146,14 @@ RuinsOfAlphKabutoChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "유적의 방에 잘 오셨습니다!"
 
-	para "There are sliding"
-	line "panels that depict"
-
-	para "a #MON drawn by"
-	line "the ancients."
-
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
-
-	para "To the right is a"
-	line "description of the"
-	cont "#MON."
+	para "아주 오래전의 사람이 그린"
+	line "포켓몬의 그림이 있습니다!"
+	cont "움직여봐 주세요"
+	
+	para "오른쪽은 그 포켓몬에 대한"
+	line "설명이라고 말해지고 있습니다"
 
 	para "Scientists in the"
 	line "back are examining"
@@ -171,86 +163,64 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	done
 
 UnknownText_0x588f5:
-	text "Recently, strange,"
-	line "cryptic patterns"
-	cont "have appeared."
+	text"さいきん　なぞの　もようが"
+	line"ここに　あらわれたんだ!"
 
-	para "It's odd. They"
-	line "weren't here a"
-	cont "little while ago…"
+	para"ふしぎなんだ"
+	line"ちょっと　まえまでは　なかったのに…"
 
-	para "You should take a"
-	line "look at the walls."
+	para"きみも　かべを　みてみなよ!"
 	done
 
 UnknownText_0x5897c:
-	text "Ah! Here's another"
-	line "huge hole!"
-
-	para "It's big enough to"
-	line "go through!"
+	text"おお!　またもや　はっけん!"
+	line"とおれる　あなが　できたぞ!"
 	done
 
 UnknownText_0x589b8:
-	text "That tremor was"
-	line "pretty scary!"
-
-	para "But I'm more"
-	line "concerned about"
-	cont "this wall here…"
+	text"さっきの　ゆれは　びっくりだね!"
+	line"でも　そんなことより…"
+	cont"この　かべが　きになるなぁ…"
 	done
 
 RuinsOfAlphKabutoChamberUnusedText:
 ; unused
-	text "The patterns on"
-	line "the wall appear to"
-	cont "be words!"
+	text"この　かべに　かかれた　もようは"
+	line"ことば　の　ようだ!"
 
-	para "And those sliding"
-	line "stone panels seem"
+	para"で…　あの　せきばんは"
+	line"なにかの　あいずで…"
 
-	para "to be signals of"
-	line "some kind."
-
-	para "I think they make"
-	line "#MON appear,"
-
-	para "but it's not clear"
-	line "yet…"
+	para"それで　ポケモンが　でてくると"
+	line"おもうんだけど…　うーん…"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text"벽에 무늬가 있다!"
 	done
 
 RuinsOfAlphKabutoChamberUnownText:
 ; unused
-	text "It's UNOWN text!"
+	text "안농 문자다!"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text"벽에 무늬가 있다!"
 	done
 
 RuinsOfAlphKabutoChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text"벽에 큰 구멍이"
+	line"뚫려있다!"
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "옛날의 포켓몬을"
+	line "흉내내서 만들어낸 것"
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #MON that hid"
-	line "on the sea floor."
-
-	para "Eyes on its back"
-	line "scanned the area."
+	text "바다 밑에 숨어서 등 뒤의"
+	line "눈으로 주변을 보던 포켓몬"
 	done
 
 RuinsOfAlphKabutoChamber_MapEvents:

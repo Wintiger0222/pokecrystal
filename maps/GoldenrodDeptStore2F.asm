@@ -43,7 +43,7 @@ GoldenrodDeptStore2FUnusedText1:
 ; unused
 	text "이곳에서는 포켓몬이 지닐 수 있는"
 	line "물건을 여러가지 팔 작정이란다"
-	
+
 	para "이것은 서비스"
 	line "포켓몬에게 지니게 하거라"
 	done
@@ -58,7 +58,7 @@ GoldenrodDeptStore2FUnusedText2:
 GoldenrodDeptStore2FYoungsterText:
 	text "포켓기어로 등록할 수 있는"
 	line "전화번호는 10명뿐이란다"
-	
+
 	para "누구의 전화번호를"
 	line "등록 해둘까 망설여진다"
 	done
@@ -72,7 +72,7 @@ GoldenrodDeptStore2FCooltrainerFText:
 GoldenrodDeptStore2FGentlemanText:
 	text "백화점에 오면"
 	line "금빛시티는 도회지구나 라고 생각되"
-	
+
 	para "이 상품 진열의 훌륭함"
 	line "다른 곳이랑은 틀려 "
 	done

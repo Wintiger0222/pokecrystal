@@ -308,216 +308,162 @@ MovementData_0x1851fe:
 	step_end
 
 TinTowerEusineSuicuneText:
-	text "EUSINE: Awesome!"
-	line "Too awesome, even!"
+	text"ミナキ『すごい!　すごすぎる!"
 
-	para "I've never seen a"
-	line "battle that great."
+	para"こんな　すばらしい　たたかいを"
+	line"みたのは　はじめてだ"
+	cont"かんげきしたよ"
 
-	para "That was truly"
-	line "inspiring to see."
+	para"スイクンも　すごかったが"
+	line"<PLAYER>も　すごかったぜ!"
 
-	para "SUICUNE was tough,"
-	line "but you were even"
+	para"ふしぎな　ちからを　もつ　スイクンは"
+	line"にじいろの　ポケモンを"
+	cont"よびよせる　らしいぜ"
 
-	para "more incredible,"
-	line "<PLAYER>."
+	para"こんかいの　ことで"
+	line"いつのひか　その　ポケモンが"
+	cont"すがたを　みせるかも　しれない"
 
-	para "I heard SUICUNE's"
-	line "mystic power"
+	para"わたしも　でんせつについて"
+	line"いろいろと　しらべてみる　つもりだ"
 
-	para "summons a rainbow-"
-	line "colored #MON."
+	para"すばらしい　たたかいを　みせてくれた"
+	line"きみに　かんしゃするぜ"
 
-	para "Maybe, just maybe,"
-	line "what went on today"
-
-	para "will cause that"
-	line "#MON to appear."
-
-	para "I'm going to study"
-	line "the legends more."
-
-	para "Thanks for showing"
-	line "me that fantastic"
-	cont "battle."
-
-	para "Later, <PLAYER>!"
+	para"じゃあな　<PLAYER>!"
 	done
 
 TinTower1FSage1Text:
-	text "According to"
-	line "legend…"
+	text"でんせつでは…"
 
-	para "When the souls of"
-	line "#MON and humans"
+	para"ひとと　ポケモンが　こころを"
+	line"かよわせるとき"
+	cont"にじいろの　ポケモンが　まいおりる"
 
-	para "commune, from the"
-	line "heavens descends a"
+	para"というが…"
 
-	para "#MON of rainbow"
-	line "colors…"
+	para"でんせつの　ポケモンたちが"
+	line"ひとを　ためしている!"
 
-	para "Could it mean the"
-	line "legendary #MON"
-
-	para "are testing us"
-	line "humans?"
+	para"という　ことなのだろうか?"
 	done
 
 TinTower1FSage2Text:
-	text "When the BRASS"
-	line "TOWER burned down,"
+	text"かねのとうが　やけたとき"
+	line"なもない　ポケモンたちが　3たい"
+	cont"いきたえた　らしいのです"
+	cont"かなしいことです"
 
-	para "three nameless"
-	line "#MON were said"
+	para"ですが…"
 
-	para "to have perished."
-	line "It was tragic."
+	para"そこに　にじいろの　ポケモン"
 
-	para "However…"
+	para"すなわち…"
 
-	para "A rainbow-colored"
-	line "#MON…"
+	para"ホウオウさまが　そらより　あらわれ"
+	line"3たいの　ポケモンたちを"
+	cont"よみがえらせました"
 
-	para "In other words…"
+	para"それが…"
 
-	para "HO-OH descended"
-	line "from the sky and"
+	para"スイクン　エンテイ　ライコウさま"
+	line"なのです"
 
-	para "gave new life to"
-	line "the three #MON."
-
-	para "They are…"
-
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU."
-
-	para "That is what they"
-	line "say."
+	para"そういう　はなしを　きいております"
 	done
 
 TinTower1FSage3Text:
-	text "The two TOWERS are"
-	line "said to have been"
+	text"2つの　とうは　ポケモンと　ひとの"
+	line"ゆうじょうと　きぼうを　ねがって"
+	cont"つくられた　そうじゃ"
 
-	para "built to foster"
-	line "friendship and"
-
-	para "hope between #-"
-	line "MON and people."
-
-	para "That was 700 years"
-	line "ago, but the ideal"
-
-	para "still remains"
-	line "important today."
+	para"もう　700ねんも"
+	line"まえの　ことじゃが"
+	cont"たいせつな　ことじゃ"
 	done
 
 TinTower1FSage4Text1:
-	text "HO-OH appears to"
-	line "have descended"
-
-	para "upon this, the TIN"
-	line "TOWER!"
+	text"この　スズのとうに　ホウオウさまが"
+	line"まいおりたらしい"
 	done
 
 TinTower1FSage5Text1:
-	text "This will protect"
-	line "you. Take it."
+	text"あなたのみを　まもる"
+	line"これを　おもちくだされ"
 	done
 
 TinTower1FSage5Text2:
-	text "Now, go."
+	text"さあ　すすみなさい"
 	done
 
 TinTower1FSage6Text1:
-	text "I believe you are"
-	line "being tested."
-
-	para "Free your mind"
-	line "from uncertainty,"
-	cont "and advance."
+	text"やはり　きみは"
+	line"ためされて　いるのじゃろう"
+	cont"まよいを　けして　すすむのじゃ"
 	done
 
 TinTowerEusineHoOhText:
-	text "I knew it."
+	text"やっぱり　<PLAYER>が"
+	line"にじいろの　ポケモンに　あえたんだね"
 
-	para "I knew you'd get"
-	line "to see the #MON"
+	para"わたしが　おもいえがいた"
+	line"とおりだった"
 
-	para "of rainbow colors,"
-	line "<PLAYER>."
+	para"わたしの　けんきゅうも"
+	line"すてたもんじゃないな"
 
-	para "It happened just"
-	line "as I envisioned."
-
-	para "My research isn't"
-	line "bad, I might say."
-
-	para "I'm going to keep"
-	line "studying #MON"
-
-	para "to become a famous"
-	line "#MANIAC!"
+	para"もっともっと　ポケモンのことを"
+	line"べんきょうして"
+	cont"りっぱな　マニアになるぜ!"
 	done
 
 TinTower1FSage4Text2:
-	text "The legendary"
-	line "#MON are said"
+	text"でんせつの　ポケモンたちには"
+	line"とうにおちた　かみなり"
 
-	para "to embody three"
-	line "powers…"
+	para"とうを　やきつくした　ほのお"
 
-	para "The lightning that"
-	line "struck the TOWER."
+	para"とうの　ほのおを　けした　あめ"
 
-	para "The fire that"
-	line "burned the TOWER."
-
-	para "And the rain that"
-	line "put out the fire…"
+	para"この3つの　ちからが"
+	line"やどっていると　いわれている"
 	done
 
 TinTower1FSage5Text3:
-	text "When the legendary"
-	line "#MON appeared…"
+	text"でんせつの　ポケモンが"
+	line"たんじょう　したときのことです"
 
-	para "They struck terror"
-	line "in those who saw"
-	cont "their rise."
+	para"それを　みていた　ひとたちは"
+	line"かれらを　おそれ"
 
-	para "And…"
+	para"そして……"
 
-	para "Some even took to"
-	line "futile attacks."
+	para"むりな　こうげきを　するものまで"
+	line"あらわれたそうです"
 
-	para "The legendary"
-	line "#MON, knowing"
+	para"じぶんたちの　ちからを　しっていた"
+	line"でんせつの　ポケモンたちは"
 
-	para "their own power,"
-	line "fled, ignoring the"
-	cont "frightened people."
+	para"そんな　ひとたちに　こうげきはせず"
+	line"ひたすら　かけまわったそうです"
 	done
 
 TinTower1FSage6Text2:
-	text "Of the legendary"
-	line "#MON, SUICUNE"
+	text"でんせつの　ポケモンの　なかでも"
+	line"スイクンさまは　もっとも"
+	cont"ホウオウさまに　ちかいそんざいと"
+	cont"いわれておるのじゃ"
 
-	para "is said to be the"
-	line "closest to HO-OH."
+	para"そして　また　アンノーンという"
+	line"ポケモンとも　なにか　つながりが"
+	cont"あるらしいと　きいておる"
 
-	para "I hear there may"
-	line "also be a link to"
+	para"アンノーンという　ポケモンも"
+	line"スイクンさまも　ともに"
 
-	para "#MON known as"
-	line "UNOWN."
-
-	para "The #MON UNOWN"
-	line "must be sharing a"
-
-	para "cooperative bond"
-	line "with SUICUNE."
+	para"ちからを　だしあって"
+	line"きょうりょくして　おるのじゃろう"
 	done
 
 TinTower1F_MapEvents:

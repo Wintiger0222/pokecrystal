@@ -355,12 +355,10 @@ UnknownText_0x1a200e:
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #MON."
+	text"キミ　ポケモン　つよそうじゃん!"
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para"つよいんだったら"
+	line"いろいろ　コツを　おしえてよ!"
 	done
 
 LassDana1BeatenText:
@@ -411,25 +409,22 @@ SailorHarryAfterBattleText:
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#MON and I are"
-	cont "beautiful?"
+	text"ねぇ　わたしも　ポケモンも"
+	line"とっても　キレイだと　おもわない?"
 	done
 
+
 BeautyOliviaBeatenText:
-	text "We drink MOOMOO"
-	line "MILK every day."
+	text"びようのためにまいにち"
+	line"モーモーミルクを　のんでるのよ"
 	done
 
 BeautyOliviaAfterBattleText:
-	text "MOOMOO MILK is"
-	line "good for beauty"
+	text"モーモーミルクは"
+	line"びようと　けんこうにいいけれど"
 
-	para "and health, but"
-	line "inconveniently,"
-
-	para "they only sell a"
-	line "bottle at a time."
+	para"ひとり　1ぽんずつ　しか"
+	line"うってもらえないのが　なんてんよねぇ"
 	done
 
 Route38SignText:

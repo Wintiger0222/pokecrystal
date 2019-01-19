@@ -246,65 +246,49 @@ CianwoodCityUnusedText:
 	done
 
 EusineSuicuneText:
-	text "EUSINE: Yo,"
-	line "<PLAYER>."
+	text"ミナキ『よう　<PLAYER>"
 
-	para "Wasn't that"
-	line "SUICUNE just now?"
+	para"いまの……"
+	line"スイクンじゃなかったか?"
 
-	para "I only caught a"
-	line "quick glimpse, but"
+	para"ちらっとしか　みえなかったが"
+	line"うみの　うえを　スイクンが"
+	cont"はしっていった　ように　みえたぜ…"
 
-	para "I thought I saw"
-	line "SUICUNE running on"
-	cont "the waves."
+	para"スイクンは　うつくしくて　りりしい"
 
-	para "SUICUNE is beau-"
-	line "tiful and grand."
+	para"しかも　ものすごい　はやさで"
+	line"まちや　みちを　かけめぐる"
 
-	para "And it races"
-	line "through towns and"
+	para"すばらしい"
 
-	para "roads at simply"
-	line "awesome speeds."
+	para"わたしも　もっと　ちかくで"
+	line"スイクンを　みてみたいのだが……"
 
-	para "It's wonderful…"
+	para"よし!"
 
-	para "I want to see"
-	line "SUICUNE up close…"
+	para"<TRAINER>である　きみと　たたかって"
+	line"わたしも　スイクンに　みとめてもらう"
 
-	para "I've decided."
-
-	para "I'll battle you as"
-	line "a trainer to earn"
-	cont "SUICUNE's respect!"
-
-	para "Come on, <PLAYER>."
-	line "Let's battle now!"
+	para"さっそく　しょうぶだ!"
+	line"いくぞ　<PLAYER>!"
 	done
 
 EusineBeatenText:
-	text "I hate to admit"
-	line "it, but you win."
+	text"くやしいけど　わたしの　まけだ!"
 	done
 
 EusineAfterText:
-	text "You're amazing,"
-	line "<PLAYER>!"
+	text"すごいぜ　<PLAYER>!"
 
-	para "No wonder #MON"
-	line "gravitate to you."
+	para"どうりで　<PLAYER>のまわりを…"
 
-	para "I get it now."
+	para"なるほど"
 
-	para "I'm going to keep"
-	line "searching for"
-	cont "SUICUNE."
+	para"わたしは　スイクンをさがす"
 
-	para "I'm sure we'll see"
-	line "each other again."
-
-	para "See you around!"
+	para"また　あうであろう"
+	line"じゃあな!"
 	done
 
 CianwoodCitySignText:
@@ -330,8 +314,8 @@ CianwoodPhotoStudioSignText:
 	done
 
 CianwoodPokeSeerSignText:
-	text "THE # SEER"
-	line "AHEAD"
+	text"このさき"
+	line"なんでも　おみとおし"
 	done
 
 CianwoodCity_MapEvents:

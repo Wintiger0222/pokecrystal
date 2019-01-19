@@ -281,22 +281,19 @@ YoungsterJoey1SeenText:
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost again!"
-	line "Doggone it!"
+	text"ああ　また　まけた…!"
+	line"くやしいー!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
+	text"やっぱ　もっと　ポケモンもってないと"
+	line"しょうぶのとき　きびしいのか?"
 
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para"…いや!　こうなったら"
+	line"オレは　いじでも"
+	cont"こいつだけで　つよくなってやるぜ!"
 	done
-
+	
 YoungsterMikeySeenText:
 	text "너 포켓몬 트레이너지?"
 	line "그렇다면 포켓몬 승부를 하자!"
@@ -375,18 +372,14 @@ Route30TrainerTipsText:
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "I lost again…"
-	line "Gee, you're tough!"
+	text"また　まけちまったか…"
+	line"おまえ　ほんとーにつよいな!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para"そうだ!"
+	line"わたすの　わすれる　ところだった！"
 
-	para "Use it to get even"
-	line "tougher, OK?"
-
-	para "I'm going to get"
-	line "tougher too."
+	para"これで　もっと　つよくなれよな"
+	line"おれも　もっと　つよくなるからさ!"
 	done
 
 Route30_MapEvents:

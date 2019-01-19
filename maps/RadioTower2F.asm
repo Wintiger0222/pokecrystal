@@ -445,227 +445,184 @@ GruntF2AfterBattleText:
 	done
 
 UnknownText_0x5dcf4:
-	text "BUENA: Hi! I'm"
-	line "BUENA!"
+	text"アオイ『はーい　わたし　アオイ!"
 
-	para "Do you know about"
-	line "a radio program"
-	cont "called PASSWORD?"
+	para"あいことば　っていう"
+	line"ラジオばんぐみ　しってる?"
 
-	para "If you can tell me"
-	line "the password from"
+	para"この　ばんぐみで　ながれている"
+	line"あいことばを　わたしに　おしえると"
+	cont"ポイントを　もらえるの"
 
-	para "the program, you"
-	line "will earn points."
+	para"その　ポイントを　ためると"
+	line"そこにいる　おねえさんが"
+	cont"すてきな　けいひんと"
+	cont"こうかん　してくれるのよ!"
 
-	para "Save up those"
-	line "points and trade"
+	para"はい!"
 
-	para "them to that sweet"
-	line "young lady over"
+	para"これが　ポイントを　ためる"
+	line"カードよ!"
 
-	para "there for some"
-	line "choice prizes!"
-
-	para "Here you go!"
-
-	para "It's your very own"
-	line "point card!"
+	para"あなたに　あげるね!"
 	done
 
 UnknownText_0x5de10:
-	text "BUENA: Tune in to"
-	line "my PASSWORD SHOW!"
+	text"アオイ『わたしの　あいことば"
+	line"ばんぐみを　よろしくね!"
 	done
 
 UnknownText_0x5de35:
-	text "BUENA: Hi!"
-	line "Did you tune in to"
-	cont "my radio show?"
+	text"アオイ『わたしの　ラジオばんぐみ"
+	line"きいて　くれたかな?"
 
-	para "Do you remember"
-	line "today's password?"
+	para"きょうの　あいことば　おぼえてる?"
 	done
 
 UnknownText_0x5de84:
-	text "BUENA: Oh, wow!"
-	line "Thank you!"
+	text"アオイ『わー　どうも　ありがとう!"
+	line"えっとー　おなまえは?"
 
-	para "What was your name"
-	line "again?"
+	para"……<PLAY_G>ね!"
 
-	para "…<PLAY_G>, OK!"
-
-	para "Come on, <PLAY_G>."
-	line "Join the show."
+	para"それじゃ　<PLAY_G>も"
+	line"ばんぐみに　さんかしてね!"
 	done
 
 UnknownText_0x5dedd:
-	text "BUENA: Everyone"
-	line "ready?"
+	text"アオイ『みんな　いくわよ!"
 
-	para "I want to hear you"
-	line "shout out today's"
+	para"<PLAY_G>が　こたえる"
+	line"きょうの　あいことば"
 
-	para "password for"
-	line "<PLAY_G>!"
+	para"いっちゃってー!"
 	done
 
 UnknownText_0x5df29:
-	text "BUENA: Come back"
-	line "after you listen"
-
-	para "to my show, OK?"
-	line "Catch ya later!"
+	text"アオイ『それじゃ"
+	line"ばんぐみを　きいたら"
+	cont"また　きてね!"
 	done
 
 UnknownText_0x5df6c:
-	text "BUENA: Sorry…"
+	text"アオイ『ごめんねー"
+	line"もんだいに　こたえられるのは"
+	cont"いちにち　いっかい　だけなの"
 
-	para "You get just one"
-	line "chance each day."
-
-	para "Come back tomorrow"
-	line "for another try!"
+	para"また　あした　きてね!"
 	done
 
 UnknownText_0x5dfc1:
-	text "BUENA: YIPPEE!"
-	line "That's right!"
+	text"アオイ『きゃー　せいかいよ!"
 
-	para "You did tune in!"
-	line "I'm so happy!"
+	para"ちゃんと　きいて　くれたのね!"
+	line"うれしいなー"
 
-	para "You earned one"
-	line "point! Congrats!"
+	para"はい　1ポイント　あげまーす!"
+	line"おめでとう!!"
 	done
 
 UnknownText_0x5e01c:
-	text "BUENA: Aww…"
-	line "That's not it…"
+	text"アオイ『あーん"
+	line"ざんねん　はずれでーす!"
 
-	para "Did you forget the"
-	line "password?"
+	para"あいことば　わすれちゃったかな?"
 	done
 
 UnknownText_0x5e054:
-	text "BUENA: Yup! Our"
-	line "contestant was"
+	text"アオイ『はい!"
+	line"いま　こたえて　くれたのは"
+	cont"<PLAY_G>　でしたー!"
+	cont"どうも　ありがとう"
 
-	para "<PLAY_G>."
-	line "Thanks for coming!"
-
-	para "I hope all you"
-	line "listeners will"
-
-	para "come too!"
-	line "I'll be waiting!"
+	para"みんなも　きてね!"
+	line"まってまーす!"
 	done
 
 UnknownText_0x5e0c2:
-	text "BUENA: Huh?"
-	line "Today's password?"
+	text"アオイ『えっ!"
+	line"きょうの　あいことば?"
 
-	para "HELP, of course!"
+	para"もちろん　たすけてー　でしょ!"
 	done
 
 UnknownText_0x5e0f1:
-	text "BUENA: Your BLUE"
-	line "CARD's full."
+	text"アオイ『ポイントが"
+	line"もう　いっぱいです!"
 
-	para "Trade it in for a"
-	line "fabulous prize!"
+	para"けいひんと　こうかん　してね!"
 	done
 
 UnknownText_0x5e131:
-	text "BUENA: Tune in to"
-	line "PASSWORD every"
+	text"アオイ『あいことば　ばんぐみは"
+	line"まいにち　ごご6じから"
+	cont"0じまで　やってまーす!"
 
-	para "night from six to"
-	line "midnight!"
-
-	para "Tune in, then drop"
-	line "in for a visit!"
+	para"ばんぐみ　きいたら　きてね!"
 	done
 
 UnknownText_0x5e192:
-	text "BUENA: Oh? You"
-	line "forgot to bring"
-	cont "your BLUE CARD?"
+	text"アオイ『あら?"
+	line"ブルーカードを　もってくるの"
+	cont"わすれちゃったかな?"
 
-	para "I can't give you"
-	line "points if you"
-	cont "don't have it."
+	para"ブルーカードが　ないと"
+	line"ポイントを　あげられないの…"
 	done
 
 UnknownText_0x5e1ee:
-	text "BUENA: Oh! Your"
-	line "BLUE CARD reached"
+	text"アオイ『あ!　ブルーカードが"
+	line"きょうで　30ポイントよ!"
+	cont"すごい　すごーい!"
 
-	para "30 points today!"
-	line "That's so wild!"
+	para"…そうねー"
+	line"30ポイントの　けいひんは"
+	cont"とくに　ないんだけど…"
 
-	para "Hmm… There isn't a"
-	line "prize for hitting"
-	cont "30 points, but…"
+	para"<PLAY_G>は　なんども"
+	line"きてくれたから　とくべつ!"
 
-	para "You came by so"
-	line "often, <PLAY_G>."
-
-	para "I'll make you a"
-	line "special deal!"
-
-	para "How would you like"
-	line "my phone number?"
+	para"アオイの　でんわばんごう"
+	line"おしえて　あげちゃおうかな?"
 	done
 
 UnknownText_0x5e2bf:
-	text "BUENA: <PLAY_G>,"
-	line "do you want to"
-
-	para "register my phone"
-	line "number?"
+	text"アオイ『<PLAY_G>"
+	line"わたしの　でんわばんごう"
+	cont"とうろく　する?"
 	done
 
 UnknownText_0x5e2f3:
-	text "<PLAYER> registered"
-	line "BUENA's number."
+	text"<PLAYER>は　アオイの"
+	line"でんわばんごうを　とうろく　した！"
 	done
 
 UnknownText_0x5e310:
-	text "BUENA: I look"
-	line "forward to hearing"
-	cont "from you!"
+	text"アオイ『でんわ　まってるね!"
 	done
 
 UnknownText_0x5e33c:
-	text "BUENA: Aww… It's a"
-	line "special prize…"
+	text"アオイ『えー　とくべつ"
+	line"だいサービス　なのになあ…"
 	done
 
 UnknownText_0x5e35e:
-	text "BUENA: <PLAY_G>,"
-	line "your phone list"
-
-	para "has no room left"
-	line "for me…"
+	text"アオイ『<PLAY_G>の　でんわ"
+	line"いっぱいで　とうろく　できないよー"
 	done
 
 UnknownText_0x5e392:
-	text "You can cash in"
-	line "your saved points"
-
-	para "for a lovely prize"
-	line "of your choice!"
+	text"たまった　ポイントを　つかえば"
+	line"こちらで　おすきな　けいひんと"
+	cont"こうかん　できます!"
 	done
 
 UnknownText_0x5e3d8:
-	text "You can't trade in"
-	line "points without"
-	cont "your BLUE CARD."
+	text"ブルーカードを　もっていないと"
+	line"けいひんと　こうかん　できません"
 
-	para "Don't forget your"
-	line "BLUE CARD!"
+	para"ブルーカードを　わすれずに"
+	line"また　きてくださいね!"
 	done
 
 RadioTower2FSalesSignText:

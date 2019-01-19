@@ -108,21 +108,40 @@ UnknownText_0x1bc16e::
 	done
 
 UnknownText_0x1bc187::
+IF DEF(_CRYSTALMOBILE)
 	text "Please enter any"
 	line "four-digit number."
 	done
+ELSE
+	text "좋아하는 4자리 숫자를"
+	line "입력해주십시오"
+	done
+ENDC
 
 UnknownText_0x1bc1ac::
+IF DEF(_CRYSTALMOBILE)
 	text "Enter the same"
 	line "number to confirm."
 	done
+ELSE
+	text "확인을 위하여 다시 한번"
+	line "똑같은 숫자를 입력해주세요"
+	done
+ENDC
 
 UnknownText_0x1bc1cf::
+IF DEF(_CRYSTALMOBILE)
 	text "That's not the"
 	line "same number."
 	done
+ELSE
+	text "똑같은 숫자가 아닙니다"
+	para ""
+	done
+ENDC
 
 UnknownText_0x1bc1eb::
+IF DEF(_CRYSTALMOBILE)
 	text "Your PASSCODE has"
 	line "been set."
 
@@ -132,29 +151,65 @@ UnknownText_0x1bc1eb::
 
 	para ""
 	done
+ELSE
+	text "비밀번호가 결정되었습니다!"
+
+	para "다음부터 명함 폴더를"
+	line "열 때는 이 번호를"
+	cont "입력해주십시오"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1bc23e::
+IF DEF(_CRYSTALMOBILE)
 	text "0000 is invalid!"
 
 	para ""
 	done
+ELSE
+	text "0000은 사용할 수 없습니다!"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1bc251::
+IF DEF(_CRYSTALMOBILE)
 	text "Enter the CARD"
 	next "FOLDER PASSCODE."
 	done
+ELSE
+	text "명함 폴더의"
+	next "비밀번호를 입력해주십시오"
+	done
+ENDC
 
 UnknownText_0x1bc272::
+IF DEF(_CRYSTALMOBILE)
 	text "Incorrect"
 	line "PASSCODE!"
 
 	para ""
 	done
+ELSE
+	text "비밀번호가"
+	line "틀립니다!"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1bc288::
+IF DEF(_CRYSTALMOBILE)
 	text "CARD FOLDER open.@"
 	text_end
-
+ELSE
+	text "명함 폴더를 열었습니다!@"
+	text_end
+ENDC
+	
 UnknownText_0x1bc29c::
 	text "………………………………"
 	line "………………………………"
@@ -210,44 +265,92 @@ UnknownText_0x1bc37a::
 	done
 
 UnknownText_0x1bc384::
+IF DEF(_CRYSTALMOBILE)
 	text "There is nothing"
 	line "connected."
 	done
-
+ELSE
+	text "There is nothing"
+	line "connected."
+	done
+ENDC
+	
 UnknownText_0x1bc3a1::
+IF DEF(_CRYSTALMOBILE)
 	text "Check cell phone"
 	line "adapter."
 	done
-
+ELSE
+	text "Check cell phone"
+	line "adapter."
+	done
+ENDC
+	
 UnknownText_0x1bc3bc::
+IF DEF(_CRYSTALMOBILE)
 	text "Check CDMA"
 	line "adapter."
 	done
-
+ELSE
+	text "Check CDMA"
+	line "adapter."
+	done
+ENDC
+	
 UnknownText_0x1bc3d1::
+IF DEF(_CRYSTALMOBILE)
 	text "Check DOCOMO PHS"
 	line "adapter."
 	done
-
+ELSE
+	text "Check DOCOMO PHS"
+	line "adapter."
+	done
+ENDC
+	
 UnknownText_0x1bc3ec::
+IF DEF(_CRYSTALMOBILE)
 	text "Check DDI PHS"
 	line "adapter."
 	done
+ELSE
+	text "Check DDI PHS"
+	line "adapter."
+	done
+ENDC
 
 UnknownText_0x1bc404::
+IF DEF(_CRYSTALMOBILE)
 	text "Check unlimited"
 	line "battle mobile"
 	cont "adapter."
 	done
+ELSE
+	text "Check unlimited"
+	line "battle mobile"
+	cont "adapter."
+	done
+ENDC
 
 UnknownText_0x1bc42c::
+IF DEF(_CRYSTALMOBILE)
 	text "The password is:"
 	line ""
 	done
+ELSE
+	text "패스워드는"
+	line "      입니다"
+	done
+ENDC
 
 UnknownText_0x1bc43f::
+IF DEF(_CRYSTALMOBILE)
 	text "Is this OK?"
 	done
+ELSE
+	text "이것으로 정하겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1bc44c::
 	text "ID 를"
@@ -1212,51 +1315,90 @@ UnknownText_0x1bd188::
 	done
 
 UnknownText_0x1bd19a::
-	text "A new CARD arrived"
-	line "from @"
+IF DEF(_CRYSTALMOBILE)
 	text_ram wStringBuffer2
-	text "."
+	text "에게서 새로운"
+	line "카드가 도착했다!"
 	done
+ELSE
+	text_ram wStringBuffer2
+	text "에게서 새로운"
+	line "명함이 도착했다!"
+	done
+ENDC
 
 UnknownText_0x1bd1ba::
-	text "Put this CARD in"
-	line "the CARD FOLDER?"
+IF DEF(_CRYSTALMOBILE)
+	text "이 카드를 친구 수첩에"
+	line "넣으시겠습니까?"
 	done
+ELSE
+	text "이 명함을 명함 폴더에"
+	line "넣으시겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1bd1dd::
+IF DEF(_CRYSTALMOBILE)
 	text_ram wStringBuffer2
-	text "'s CARD was"
-	line "listed as no.@"
+	text "의 카드를 리스트의"
+	line "@"
 	text_decimal wStringBuffer1, 1, 2
-	text "."
+	text "번째에 넣었다!"
 	prompt
+ELSE
+	text_ram wStringBuffer2
+	text "의 명함을 리스트의"
+	line "@"
+	text_decimal wStringBuffer1, 1, 2
+	text "번째에 넣었다!"
+	prompt
+ENDC
 
 UnknownText_0x1bd201::
-	text "Starting link."
+	text "통신을 시작합니다!"
 	done
 
 UnknownText_0x1bd211::
-	text "Link terminated."
+	text "통신을 그만두었습니다"
 	done
 
 UnknownText_0x1bd223::
-	text "Closing link."
+	text "통신을 종료합니다"
 	done
 
 UnknownText_0x1bd232::
+IF DEF(_CRYSTALMOBILE)
 	text "Clear the time"
 	line "limit?"
 	done
+ELSE
+	text "Clear the time"
+	line "limit?"
+	done
+ENDC
 
 UnknownText_0x1bd249::
+IF DEF(_CRYSTALMOBILE)
 	text "The time limit was"
 	line "cleared."
 	done
+ELSE
+	text "The time limit was"
+	line "cleared."
+	done
+ENDC
 
 UnknownText_0x1bd266::
+IF DEF(_CRYSTALMOBILE)
 	text "Pick which packet"
 	line "as an error?"
 	done
+ELSE
+	text "Pick which packet"
+	line "as an error?"
+	done
+ENDC
 
 UnknownText_0x1bd286::
 	text_ram wStringBuffer2

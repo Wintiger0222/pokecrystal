@@ -21,7 +21,6 @@ Route29Route46GateOfficerText:
 	done
 
 Route29Route46GateYoungsterText:
-	text "Different kinds of"
 	text "이 다음부터는 출현하는 포켓몬도"
 	line "좀 다르단다"
 	

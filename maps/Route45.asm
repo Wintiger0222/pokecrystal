@@ -378,16 +378,11 @@ HikerTimothyAfterBattleText:
 	done
 
 HikerParryGivesIronText:
-	text "I just can't find"
-	line "a way to win!"
+	text"いやいや　ほんとにかなわんな!"
+	line"その　ちょうしで　がんばれよ!"
 
-	para "Keep it up!"
-
-	para "Oh, and take this"
-	line "--it's the gift"
-
-	para "you couldn't take"
-	line "when we last met."
+	para"このあいだの　わすれもの"
+	line"きょうこそ　もらってくれ!"
 	done
 
 BlackbeltKenji3SeenText:
@@ -403,24 +398,19 @@ BlackbeltKenji3BeatenText:
 
 BlackbeltKenjiAfterBattleText:
 	text "눈썹을 깎고"
-	line "산중에 틀어박히지 않으면 안되는가"
+	line "산중에 틀어박히지 않으면 안되는가……"
 	done
 
 BlackbeltKenjiMorningText:
-	text "I'm going to train"
-	line "a bit more before"
-	cont "I break for lunch."
+	text"ひるの　きゅうけい　じかんまで"
+	line"もうすこし　しゅぎょうだ!"
 	done
 
 BlackbeltKenjiNightText:
-	text "We had plenty of"
-	line "rest at lunch, so"
+	text"ひるま　たっぷり　やすんだから"
+	line"たいりょく　かいふく!"
 
-	para "now we're all"
-	line "ready to go again!"
-
-	para "We're going to"
-	line "train again!"
+	para"また　しゅぎょうを　はじめるぞー!"
 	done
 
 CooltrainermRyanSeenText:
@@ -460,30 +450,24 @@ CooltrainerfKellyAfterBattleText:
 	done
 
 Route45DummyText:
-	text "I'm really, really"
-	line "tough!"
+	text"ボクは　すごく　つよいよ!"
 
-	para "Is there anywhere"
-	line "I can prove how"
-	cont "tough I really am?"
+	para"どこかで　ボクの　つよさ"
+	line"ためせる　ところ　ないかなあ…"
 	done
 
 CamperQuentinSeenText:
-	text "I'm really, really"
-	line "tough!"
+	text"ボクは　すごく　つよいよ!"
 	done
-
+	
 CamperQuentinBeatenText:
-	text "I was tough at the"
-	line "BATTLE TOWER…"
+	text"バトルタワーでは"
+	line"すごく　つよかったんだけどな…"
 	done
 
 CamperQuentinAfterBattleText:
-	text "Have you been to"
-	line "the BATTLE TOWER?"
-
-	para "I never, ever lose"
-	line "there, but…"
+	text"バトルタワーには　いった?"
+	line"あそこなら　ぜったい　まけないのに…"
 	done
 
 Route45SignText:

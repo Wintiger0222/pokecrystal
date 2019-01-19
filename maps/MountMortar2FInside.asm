@@ -45,23 +45,21 @@ MountMortar2FInsideHiddenFullRestore:
 	hiddenitem FULL_RESTORE, EVENT_MOUNT_MORTAR_2F_INSIDE_HIDDEN_FULL_RESTORE
 
 SupernerdHughSeenText:
-	text "Yo! MARKUS!"
+	text"おーい!　ガクジー!"
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, my mistake."
+	text"ゴメン　まちがえた…"
 	done
 
 SupernerdHughAfterBattleText:
-	text "I'm investigating"
-	line "MT.MORTAR, but my"
-	cont "pal's gone AWOL."
+	text"すりばちやまを"
+	line"ちょうさ　するためにきたんだけど"
+	cont"なかまと　はぐれちゃったんだよ…"
 
-	para "Have you seen a"
-	line "trainer who has a"
-
-	para "SLOWPOKE that can"
-	line "use STRENGTH?"
+	para"かいりきを　つかう"
+	line"ヤドンを　つかってくる"
+	cont"<TRAINER>にあわなかった?"
 	done
 
 MountMortar2FInside_MapEvents:

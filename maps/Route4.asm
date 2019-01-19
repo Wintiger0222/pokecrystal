@@ -52,28 +52,20 @@ Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
 
 BirdKeeperHankSeenText:
-	text "I'm raising my"
-	line "#MON. Want to"
-	cont "battle with me?"
+	text"いま　ポケモン　そだててるんだ"
+	line"しょうぶの　あいてを　してくれよ!"
+	done
 	done
 
 BirdKeeperHankBeatenText:
-	text "Ack! I lost that"
-	line "one…"
+	text"あれ　まけちゃったか…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "If you have a"
-	line "specific #MON"
+	text"そだてたい　ポケモンが　いるときは"
+	line"さいしょに　だして　すぐ　ひっこめる"
 
-	para "that you want to"
-	line "raise, put it out"
-
-	para "first, then switch"
-	line "it right away."
-
-	para "That's how to do"
-	line "it."
+	para"これが　コツだね"
 	done
 
 PicnickerHopeSeenText:

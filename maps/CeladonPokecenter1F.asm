@@ -88,56 +88,43 @@ CeladonPokecenter1FPharmacistText:
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text"ミナキ『やあ!"
 
-	para "I'm back visiting"
-	line "my hometown."
-
-	para "It's been quite a"
-	line "while."
+	para"ひさしぶりに　じっかに"
+	line"かえって　きたんだ"
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text"<PLAYER>は　しってるかい?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para"さっき　きいた　はなし　なんだが"
+	line"スズのとうに　にじいろの　ポケモンが"
+	cont"あらわれたって　うわさだ"
 
-	para "rainbow-colored"
-	line "#MON appearing"
-	cont "at TIN TOWER."
+	para"わたしも　いまから"
+	line"エンジュに　いこうと　おもって"
 
-	para "I've just had my"
-	line "party healed, so"
+	para"まずは　ポケモンの　かいふくを"
+	line"してたって　わけさ"
 
-	para "now I'm headed to"
-	line "ECRUTEAK."
-
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para"それじゃあ　おさきに　<PLAYER>!"
 	done
 
 NoBeastsText:
-	text "Oh, by the way,"
-	line "<PLAYER>."
+	text"そういえば　<PLAYER>"
+	line"でんせつの　ポケモンである"
 
-	para "Have you caught"
-	line "the legendary"
+	para"ライコウと　エンテイを"
+	line"つかまえたかい?"
 
-	para "#MON RAIKOU and"
-	line "ENTEI?"
+	para"……………"
 
-	para "<……><……><……>"
+	para"そうか…"
 
-	para "Okay…"
+	para"つかまえたら　わたしにも"
+	line"しらせて　ほしい"
 
-	para "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
-
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para"よろしく　たのむぜ　<PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

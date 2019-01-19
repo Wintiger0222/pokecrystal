@@ -69,6 +69,7 @@ UnknownText_0x1c4212::
 	done
 
 UnknownText_0x1c422a::
+IF DEF(_CRYSTALMOBILE)
 	text "To enter a mobile"
 	line "battle, you must"
 
@@ -77,13 +78,28 @@ UnknownText_0x1c422a::
 
 	para "Is that OK?"
 	done
+ELSE
+	text "모바일 대전에서는"
+	line "포켓몬을 3마리 골라서"
+	cont "대전합니다"
 
+	para "하시겠습니까?"
+	done
+ENDC
+	
 UnknownText_0x1c4275::
+IF DEF(_CRYSTALMOBILE)
 	text "Need more info on"
 	line "mobile battles?"
 	done
-
+ELSE	
+	text "모바일 대전의"
+	line "설명을 듣겠습니까?"
+	done
+ENDC
+	
 UnknownText_0x1c4298::
+IF DEF(_CRYSTALMOBILE)
 	text "For a mobile"
 	line "battle, choose"
 	cont "three #MON."
@@ -109,8 +125,28 @@ UnknownText_0x1c4298::
 	para "least amount of HP"
 	line "wins."
 	done
+ELSE
+	text "모바일 대전에서는"
+	line "포켓몬을 3마리 골라서"
+	cont "대전합니다"
 
+	para "대전할 수 있는 시간은"
+	line "전화를 거는 사람과 받는 사람 모두"
+	cont "하루 10분입니다"
+
+	para "10분 이내에 대전이"
+	line "끝나지 않았을 경우에는"
+	cont "전투불능이 된 포켓몬의 수가"
+	cont "적은 쪽이 승리합니다"
+
+	para "전투불능이 된 수가 같을 때에는"
+	line "줄어든 체력의 비율이"
+	cont "적은 쪽이 승리합니다"
+	done
+ENDC
+	
 UnknownText_0x1c439c::
+IF DEF(_CRYSTALMOBILE)
 	text "Today's remaining"
 	line "time is @"
 	text_decimal wStringBuffer2, 1, 2
@@ -119,8 +155,18 @@ UnknownText_0x1c439c::
 	para "Would you like to"
 	line "battle?"
 	done
+ELSE
+	text "오늘 중 남은 시간은"
+	line "앞으로 @"
+	text_decimal wStringBuffer2, 1, 2
+	text "분입니다"
 
+	para "대전하시겠습니까?"
+	done
+ENDC
+	
 UnknownText_0x1c43dc::
+IF DEF(_CRYSTALMOBILE)
 	text "There are only @"
 	text_decimal wStringBuffer2, 1, 2
 	text_start
@@ -129,50 +175,107 @@ UnknownText_0x1c43dc::
 	para "Want a quick"
 	line "battle?"
 	done
+ELSE
+	text "오늘 중 남은 시간은"
+	line "앞으로 @"
+	text_decimal wStringBuffer2, 1, 2
+	text "분 밖에 남지 않았습니다!"
 
+	para "힘내서 대전하시겠습니까?"
+	done
+ENDC
+	
 UnknownText_0x1c4419::
+IF DEF(_CRYSTALMOBILE)
 	text "There is only"
 	line "1 min. left today!"
 
 	para "Want to rush"
 	line "through a battle?"
 	done
+ELSE
+	text "오늘 중 남은 시간은"
+	line "앞으로 1분 밖에 남지 않았습니다!"
 
+	para "서둘러 대전하시겠습니까?"
+	done
+ENDC
+	
 UnknownText_0x1c445a::
+IF DEF(_CRYSTALMOBILE)
 	text "There is less than"
 	line "1 min. left today!"
 
 	para "Please try again"
 	line "tomorrow."
 	done
+ELSE
+	text "오늘 중 남은 시간은"
+	line "앞으로 1분도 없습니다!"
 
+	para "내일 또 찾아와주십시오"
+	done
+ENDC
+	
 UnknownText_0x1c449c::
+IF DEF(_CRYSTALMOBILE)
 	text "Try again using"
 	line "the same settings?"
 	done
-
+ELSE
+	text "오늘 중 남은 시간은"
+	line "앞으로 1분도 없습니다!"
+	done
+ENDC
+	
 UnknownText_0x1c44c0::
+IF DEF(_CRYSTALMOBILE)
 	text "There is less than"
 	line "1 min. left today!"
 	done
-
+ELSE
+	text "오늘 중 남은 시간은"
+	line "앞으로 1분도 없습니다!"
+	done
+ENDC
+	
 UnknownText_0x1c44e7::
+IF DEF(_CRYSTALMOBILE)
 	text "No time left for"
 	line "linking today."
 	done
-
+ELSE
+	text "오늘은 이 이상"
+	line "통신할 수 없습니다"
+	done
+ENDC
+	
 UnknownText_0x1c4508::
+IF DEF(_CRYSTALMOBILE)
 	text "Pick three #MON"
 	line "for battle."
 	done
-
+ELSE
+	text "배틀에 내보낼 포켓몬을"
+	line "3마리 골라주십시오!"
+	done
+ENDC
+	
 UnknownText_0x1c4525::
+IF DEF(_CRYSTALMOBILE)
 	text "Today's remaining"
 	line "time is @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 	done
-
+ELSE
+	text "오늘 중 남은 시간은"
+	line "앞으로 @"
+	text_decimal wStringBuffer2, 1, 2
+	text "분입니다"
+	done
+ENDC
+	
 UnknownText_0x1c454b::
 	text "여기까지의 활약을"
 	line "포켓몬 레포트에 기록하겠습니까?"
@@ -418,35 +521,39 @@ UnknownText_0x1c4baf::
 
 	line "@"
 	text_ram wStringBuffer1
-	text "!"
+	text "(으)로"
+	cont "진화했다!"
 	done
 
 UnknownText_0x1c4bc5::
-	text "Huh? @"
+	text "얼라리……?"
+	line "@"
 	text_ram wStringBuffer2
-	text_start
-	line "stopped evolving!"
+	text "의 변화가"
+	cont "멈췄다!"	
 	prompt
 
 UnknownText_0x1c4be3::
-	text "What? @"
+	text "…… 오잉!?"
+	line "@"
 	text_ram wStringBuffer2
-	text_start
-	line "is evolving!"
+	text "의 상태가……!"
 	done
 
 UnknownText_0x1c4bfd::
-	text "How many?"
+	text "몇 개를 구입하겠습니까?"
 	done
 
 UnknownText_0x1c4c08::
-	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text " @"
+	text "@"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will be ¥@"
+	text "를(을)"
+	line "@"
+	text_decimal wItemQuantityChangeBuffer, 1, 2
+	text "개로"
+	cont "@"
 	text_decimal hMoneyTemp, 3, 6
-	text "."
+	text "원 구입하시겠습니까?"
 	done
 
 UnknownText_0x1c4c28::
@@ -671,6 +778,7 @@ UnknownText_0x1c50bb::
 	done
 
 _MobileStadiumEntryText::
+IF DEF(_CRYSTALMOBILE)
 	text "Data for use in"
 	line "the MOBILE STADIUM"
 
@@ -680,8 +788,19 @@ _MobileStadiumEntryText::
 
 	para "Read the data?"
 	done
+ELSE
+	text "이곳에서는"
+	line "닌텐도64 전용 소프트"
+	cont "『포켓몬스타디움 금은』의"
+	cont "『모바일 스타디움』에서 사용하는"
+	cont "데이터를 불러올 수 있습니다"
+
+	para "데이터를 불러오시겠습니까?"
+	done
+ENDC
 
 _MobileStadiumSuccessText::
+IF DEF(_CRYSTALMOBILE)
 	text "Data transfer is"
 	line "complete."
 
@@ -693,26 +812,54 @@ _MobileStadiumSuccessText::
 
 	para ""
 	done
+ELSE
+	text "데이터를 모두 불러왔습니다"
+
+	para "『포켓몬스타디움 금은』의"
+	line "『모바일 스타디움』을"
+	cont "즐겨주십시오!"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1c5182::
 	db "시계의 시간 불명@"
 
 UnknownText_0x1c5196::
+IF DEF(_CRYSTALMOBILE)
 	text "Delete the saved"
 	line "LOG-IN PASSWORD?"
 	done
+ELSE
+	text "저장하고 있는 로그인 패스워드를"
+	line "삭제해도 되겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1c51b9::
+IF DEF(_CRYSTALMOBILE)
 	text "Deleted the LOG-IN"
 	line "PASSWORD."
 	done
+ELSE
+	text "로그인 패스워드를 삭제하였습니다"
+	done
+ENDC
 
 UnknownText_0x1c51d7::
+IF DEF(_CRYSTALMOBILE)
 	text "Pick three #MON"
 	line "for battle."
 	prompt
+ELSE
+	text "3마리의 포켓몬을"
+	line "참가시켜 주십시오!"
+	prompt
+ENDC
 
 UnknownText_0x1c51f4::
+IF DEF(_CRYSTALMOBILE)
 	text_ram wMobileParticipant1Nickname
 	text ","
 	line "@"
@@ -724,13 +871,30 @@ UnknownText_0x1c51f4::
 
 	para "Use these three?"
 	done
+ELSE
+	text_ram wMobileParticipant1Nickname
+	text " @"
+	text_ram wMobileParticipant2Nickname
+	text " @"
+	text_ram wMobileParticipant3Nickname
+	text ""
+	line "이 3마리로 하시겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1c521c::
+IF DEF(_CRYSTALMOBILE)
 	text "Only three #MON"
 	line "may enter."
 	prompt
+ELSE
+	text "참가할 수 있는 포켓몬은"
+	line "3마리까지입니다!"
+	prompt
+ENDC
 
 UnknownText_0x1c5238::
+IF DEF(_CRYSTALMOBILE)
 	text "The CARD FOLDER"
 	line "stores your and"
 
@@ -746,8 +910,21 @@ UnknownText_0x1c5238::
 
 	para ""
 	done
+ELSE
+	text "명함 폴더에는"
+	line "당신과 친구들의"
+	cont "명함을 넣을 수 있습니다"
+
+	para "명함이란 이름이나"
+	line "전화번호나 자기소개를"
+	cont "적은 카드를 말합니다"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1c52bc::
+IF DEF(_CRYSTALMOBILE)
 	text "This is your CARD."
 
 	para "Once you've"
@@ -759,8 +936,19 @@ UnknownText_0x1c52bc::
 
 	para ""
 	done
+ELSE
+	text "이것은 당신의 명함입니다!"
+
+	para "전화번호를 입력하면"
+	line "친구들과"
+	cont "명함을 교환할 수 있습니다"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1c531e::
+IF DEF(_CRYSTALMOBILE)
 	text "If you have your"
 	line "friend's CARD, you"
 
@@ -773,8 +961,19 @@ UnknownText_0x1c531e::
 
 	para ""
 	done
+ELSE
+	text "친구의 명함이 있으면"
+	line "포켓몬센터 2층에서"
+	cont "모바일로 통신할 때"
+	cont "전화를 걸 상대를"
+	cont "명함으로 고를 수 있습니다"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1c5394::
+IF DEF(_CRYSTALMOBILE)
 	text "To safely store"
 	line "your collection of"
 
@@ -784,8 +983,18 @@ UnknownText_0x1c5394::
 
 	para ""
 	done
+ELSE
+	text "그럼 당신과 친구들의"
+	line "명함을 지키기 위해"
+	cont "명함 폴더의"
+	cont "비밀번호를 만들어놓읍시다"
+
+	para ""
+	done
+ENDC
 
 UnknownText_0x1c53ee::
+IF DEF(_CRYSTALMOBILE)
 	text "If the CARD FOLDER"
 	line "is deleted, all"
 
@@ -800,20 +1009,45 @@ UnknownText_0x1c53ee::
 	para "Want to delete"
 	line "your CARD FOLDER?"
 	done
+ELSE
+	text "명함 폴더를 버릴 경우"
+	line "현재 가지고 있는 모든 명함과"
+	cont "비밀번호가 없어집니다"
+
+	para "한 번 버린 명함 폴더는"
+	line "되돌릴 수 없습니다"
+
+	para "명함 폴더를 버리시겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1c5494::
+IF DEF(_CRYSTALMOBILE)
 	text "Are you sure you"
 	line "want to delete it?"
 	done
+ELSE
+	text "정말로 버려도"
+	line "괜찮겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1c54b9::
+IF DEF(_CRYSTALMOBILE)
 	text "The CARD FOLDER"
 	line "has been deleted."
 
 	para ""
 	done
+ELSE
+	text "명함 폴더를 버렸습니다！"
+	
+	para ""
+	done
+ENDC
 
 UnknownText_0x1c54dd::
+IF DEF(_CRYSTALMOBILE)
 	text "There is an older"
 	line "CARD FOLDER from a"
 	cont "previous journey."
@@ -821,16 +1055,35 @@ UnknownText_0x1c54dd::
 	para "Do you want to"
 	line "open it?"
 	done
+ELSE
+	text "이전에 모험했을 때의"
+	line "명함 폴더가 있습니다"
+
+	para "이걸 여시겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1c552d::
+IF DEF(_CRYSTALMOBILE)
 	text "Delete the old"
 	line "CARD FOLDER?"
 	done
+ELSE
+	text "그럼 이전의 명함 폴더는"
+	line "버리시겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1c554a::
+IF DEF(_CRYSTALMOBILE)
 	text "Finish registering"
 	line "CARDS?"
 	done
+ELSE
+	text "명함 등록을"
+	next "종료하시겠습니까?"
+	done
+ENDC
 
 UnknownText_0x1c5565::
 	text "앗?"

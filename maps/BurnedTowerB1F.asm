@@ -192,46 +192,32 @@ BurnedTowerB1FEusineMovement1:
 	step_end
 
 BurnedTowerB1FEusineText:
-	text "EUSINE: I dug a"
-	line "hole here, too…"
+text"ミナキ『わたしも　あなをほって"
+	line"おりてきたら………"
 
-	para "I was shocked!"
+	para"おどろいたぜ!"
 
-	para "SUICUNE raced by"
-	line "like a blur, right"
+	para"めのまえを　ものすごい　いきおいで"
+	line"スイクンが　かけていった"
 
-	para "in front of my"
-	line "eyes!"
+	para"スイクンを　おいかけて　10ねん"
+	line"ようやく　であうことが　できた"
 
-	para "For ten years I"
-	line "chased SUICUNE,"
+	para"かんどうだぜ!"
 
-	para "and I finally got"
-	line "to see it."
+	para"これも　<PLAYER>の　おかげだ"
+	line"ありがとう!"
 
-	para "I'm all choked up!"
+	para"エンジュに　つたわる"
+	line"でんせつの　ポケモンは"
+	cont"みとめた　ひとを　ちかづけて　ためす"
 
-	para "<PLAYER>, I owe"
-	line "this all to you!"
+	para"そうきいたことが　あるぜ"
 
-	para "Thank you!"
+	para"わたしは　スイクンを　おう"
 
-	para "I heard that the"
-	line "legendary #MON"
-
-	para "of ECRUTEAK test"
-	line "chosen humans by"
-
-	para "allowing them to"
-	line "get close."
-
-	para "I'm going to track"
-	line "SUICUNE."
-
-	para "<PLAYER>, let's"
-	line "meet again!"
-
-	para "Farewell!"
+	para"では　<PLAYER>　またあおう!"
+	line"さらばだ!"
 	done
 
 BurnedTowerB1F_MapEvents:

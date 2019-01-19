@@ -158,121 +158,90 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerSilver_BeforeText:
-	text "<……> <……> <……>"
+	text"……　……　……"
 
-	para "…Oh, it's you."
+	para"……　なんだ　おまえ　か"
 
-	para "I came looking for"
-	line "some legendary"
+	para"ここに　ねむると　いわれる"
+	line"でんせつの　ポケモンを"
+	cont"さがしに　わざわざ　きたが"
+	cont"そんな　ポケモン　どこにも　いない!"
 
-	para "#MON that they"
-	line "say roosts here."
+	para"せっかく　オレが"
+	line"こんなところ　まで　きてやったのに"
+	cont"ふざけやがって!"
 
-	para "But there's"
-	line "nothing here!"
-
-	para "Nothing after all"
-	line "the trouble of"
-
-	para "coming to this"
-	line "dump? No way!"
-
-	para "It's all your"
-	line "fault!"
+	para"おまえの　せいだぞ!"
 	done
 
 BurnedTowerSilver_WinText:
-	text "…Humph!"
+	text "…흥!"
 
-	para "This is why I hate"
-	line "battling wimps."
-
-	para "There's no"
-	line "challenge in it."
+	para "이렇기 때문에 약한 녀석과"
+	line "싸우는 것이 싫다니까"
+	cont "나도 모르는 새 놀자판이 된다니까"
 	done
 
 BurnedTowerSilver_AfterText1:
-	text "…Aw, whatever."
+	text "…뭐 괜찮아"
 
-	para "You would never be"
-	line "able to catch a"
-
-	para "legendary #MON"
-	line "anyway."
+	para "너 같은 녀석에게"
+	line "전설의 포켓몬이"
+	cont "잡힐 리가 없으니까"
 	done
 
 BurnedTowerSilver_LossText:
-	text "…Humph!"
+	text "…흥!"
 
-	para "This is why I hate"
-	line "battling wimps."
-
-	para "It's just a waste"
-	line "of my time."
+	para "이렇기 때문에 약한 녀석과"
+	line "싸우는 것이 싫다니까"
+	cont "시간낭비만 될 뿐이야"
 	done
 
 BurnedTowerSilver_AfterText2:
-	text "Humph!"
+	text"ふん"
 
-	para "What are you doing"
-	line "falling into a"
+	para"なに　あな　なんかに　おちてんだ"
+	line"ドジな　ヤツ"
 
-	para "hole? Some genius"
-	line "you are!"
-
-	para "Serves you right!"
+	para"ざまあみろ!"
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "ミナキ『わたしは　スイクンという"
+	line "ポケモンを　さがして　たびをしている"
+	cont "ミナキというものだ"
 
-	para "I'm on the trail"
-	line "of a #MON named"
-	cont "SUICUNE."
+	para"きみは…"
 
-	para "And you are…?"
+	para"<PLAYER>というのか　よろしく!"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para"この　やけたとうに　スイクンが"
+	line"いるという　はなしを　きいて"
+	cont"やって　きたが……"
 
-	para "I heard rumors"
-	line "that SUICUNE is in"
-
-	para "this BURNED TOWER,"
-	line "so I came to look."
-
-	para "But where exactly"
-	line "could it be?"
+	para"いったい　どこに　いるのやら…"
 	done
 
 BurnedTower1FEusineText:
-	text "EUSINE: I heard"
-	line "that SUICUNE is in"
+	text"ミナキ『この　やけたとうに"
+	line"スイクンが　いるという　はなしを"
+	cont"きいて　やって　きたが……"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
-
-	para "But where exactly"
-	line "could it be?"
+	para"いったい　どこに　いるのやら…"
 	done
-
+	
 BurnedTower1FMortyText:
-	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	text"マツバ『エンジュの　ジムりーダーは"
+	line"でんせつのポケモンと　いわれている"
 
-	para "study what are"
-	line "said to be the"
+	para"スイクン　エンテイ　ライコウに"
+	line"ついて　いろいろと"
+	cont"べんきょう　しなければ　ならないんだ"
 
-	para "legendary #MON"
-	line "--SUICUNE, ENTEI"
-	cont "and RAIKOU."
-
-	para "EUSINE is here, so"
-	line "I've decided to"
-
-	para "investigate the"
-	line "TOWER with him."
+	para"ミナキくんが　きているので"
+	line"いっしょに　この　とうを"
+	cont"しらべようと　おもってね"
 	done
 
 BurnedTower1F_MapEvents:

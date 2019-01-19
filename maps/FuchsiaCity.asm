@@ -81,7 +81,7 @@ FuchsiaGymSignText:
 
 SafariZoneOfficeSignText:
 	text "……전단지가 붙어있다"
-	
+
 	para "사파리존 사무국은"
 	line "휴업중입니다"
 	done

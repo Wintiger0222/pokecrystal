@@ -58,7 +58,7 @@ ItemFinderHouseRadio:
 EcruteakItemfinderAdventureText:
 	text "호오! 포켓몬과 함께"
 	line "탐험의 여행을 하고 있느냐"
-	
+
 	para "탐험이라고 하면 보물찾기!"
 	line "그렇게 생각하지?"
 	done
@@ -66,7 +66,7 @@ EcruteakItemfinderAdventureText:
 EcruteakItemfinderTrueSpiritText:
 	text "오오!"
 	line "사나이의 로망을 알고 있구나"
-	
+
 	para "마음에 들었다!"
 	line "이것을 가지고 가거라!"
 	done
@@ -74,15 +74,15 @@ EcruteakItemfinderTrueSpiritText:
 ItemfinderExplanationText:
 	text "보이지 않아도 여기저기"
 	line "도구가 떨어져 있다"
-	
+
 	para "다우징머신을 사용하면"
 	line "너의 근처에"
 	cont "도구가 떨어져 있을까 없을까"
 	cont "조사할 수 있다"
-	
+
 	para "단지 어디에 떨어져 있는가는"
 	line "알 수 없으니까 직접 찾아보거라"
-	
+
 	para "그래!"
 	line "인주시티의 불탄 탑에도"
 	cont "보물이 있다고 하는 소문이 있다"
@@ -95,7 +95,7 @@ EcruteakItemfinderToEachHisOwnText:
 
 EcruteakHistoryBookText:
 	text "인주시티의 역사……"
-	
+
 	para "읽어보겠습니까?"
 	done
 
@@ -103,11 +103,11 @@ EcruteakTwoTowersText:
 	text "인주시티에는 2개의 탑이 있어"
 	line "각각 포켓몬이"
 	cont "머무는 장소였다"
-	
+
 	para "그러나 탑이 불에 탄 이후"
 	line "포켓몬을 볼 수 없게 되었다……"
 	cont "그렇게 전해지고 있습니다"
-	
+
 	para "계속해서 읽어보시겠습니까?"
 	done
 
@@ -115,11 +115,11 @@ EcruteakThreeMonText:
 	text "또한 인주시티에는"
 	line "마을 근처를 이리저리 뛰어다니는"
 	cont "포켓몬들이 있었습니다"
-	
+
 	para "각각"
 	line "번개 화염 물의"
 	cont "정령이라 전해지고 있습니다"
-	
+
 	para "그러나 자신들의"
 	line "너무나도 강한 힘을 주체 못하고"
 	cont "여기저기 풀숲을"

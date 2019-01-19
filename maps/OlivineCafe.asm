@@ -47,25 +47,17 @@ OlivineCafeStrengthSailorText_GotStrength:
 	done
 	
 OlivineCafeFishingGuruText:
-	text "OLIVINE CAFE's"
-	line "menu is chock full"
-
-	para "of hearty fare for"
-	line "beefy SAILORS!"
+	text"この　アサギしょくどうには"
+	line"ちから　じまんの　うみのおとこが"
+	cont"まんぞくする　メニューが　いっぱい!"
 	done
 
 OlivineCafeSailorText:
-	text "Whenever I roll"
-	line "into this town, I"
+	text"このまちにくると　かならず"
+	line"この　アサギしょくどうにくるんだ"
 
-	para "always visit the"
-	line "OLIVINE CAFE."
-
-	para "Everything on the"
-	line "menu makes me feel"
-
-	para "stronger. I can't"
-	line "stop eating!"
+	para"ここの　メシは　どれを　くっても"
+	line"ちからが　つくんだから　やめられん!"
 	done
 
 OlivineCafe_MapEvents:

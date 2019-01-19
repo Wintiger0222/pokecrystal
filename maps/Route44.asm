@@ -370,15 +370,13 @@ BirdKeeperVanceLegendaryBirdsText:
 	done
 
 BirdKeeperVance2BeatenText:
-	text "Why can't I ever"
-	line "beat you?"
+	text"どうして　きみには"
+	line"こう　かてないんだろうなあ…"
 
-	para "Oh yeah, here you"
-	line "go. It's that gift"
-
-	para "I couldn't give"
-	line "you last time."
+	para"おっと　そうだ　こないだ"
+	line"あげられなかった　これ　あげる!"
 	done
+
 
 PsychicPhilSeenText:
 	text "이긴다!"

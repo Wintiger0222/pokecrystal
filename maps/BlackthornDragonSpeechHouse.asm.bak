@@ -40,9 +40,9 @@ BlackthornDragonSpeechHouseGrannyText:
 	para "about dragons in"
 	line "this town."
 	done
-
+; 용을 자유롭게 지휘할 수 있는 트레이너 일족이 바로 여기 블랙토른에 살고 있다. 그 결과, 이 마을에는 용에 대한 많은 전설이 있다.
 BlackthornDragonSpeechHouseDratiniText:
-	text "DRATINI: Draa!"
+	text "미뇽『미뇽-"
 	done
 
 BlackthornDragonSpeechHouse_MapEvents:

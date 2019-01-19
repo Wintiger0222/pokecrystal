@@ -240,7 +240,7 @@ MovementData_0x76010:
 
 SSAquaCaptainExhaustingText:
 	text "이야- 살았어!"
-	
+
 	para "저 여자아이"
 	line "놀이상대하기엔 지쳐서"
 	cont "곤란해하고 있던 중이란다"
@@ -250,14 +250,14 @@ SSAquaCaptainHowDoYouLikeText:
 	text "우리 아쿠아호에"
 	line "탄 기분은 어떤가!?"
 	cont "바다 위를 미끄러지듯"
-	
+
 	para "달리고 있지!"
 	done
 
 SSAquaCantFindGranddaughterText:
 	text "어이 꼬마야……"
 	line "손녀가 보이질 않는단다……"
-	
+
 	para "배의 어딘가에 있다면"
 	line "그렇게 걱정은 아니지만"
 	cont "활발한 여자아이라서"
@@ -285,7 +285,7 @@ SSAquaGrandpaTravellingText:
 SSAquaGranddaughterCaptainPlayWithMeText:
 	text "선장님"
 	line "나랑 놀자!"
-	
+
 	para "시시해!"
 	line "더 놀고싶어!"
 	done
@@ -339,7 +339,7 @@ TwinsMegandpeg1SeenText:
 TwinsMegandpeg1BeatenText:
 	text "이런 졌잖아!"
 	done
-	
+
 TwinsMegandpeg1AfterBattleText:
 	text "꼬맹이라고 부르는 것은"
 	line "아이들에게 실례되니까!"
@@ -377,7 +377,7 @@ PokefanmJeremySeenText:
 	text "어때 우리 포켓몬"
 	line "매우 예쁘지?"
 	done
-	
+
 PokefanmJeremyBeatenText:
 	text "아아……!"
 	line "겨우 예쁘게 했었는데!"
@@ -387,26 +387,26 @@ PokefanmJeremyAfterBattleText:
 	text "포켓몬 미용실에서"
 	line "또 예쁘게 다듬어야지!"
 	done
-	
+
 PokefanfGeorgiaSeenText:
 	text "백화점에서 쇼핑을!"
 	line "그리고나서……"
 	done
-	
+
 PokefanfGeorgiaBeatenText:
 	text "뭐였지……?"
 	done
-	
+
 PokefanfGeorgiaAfterBattleText:
 	text "그래 그래 보모에게 맡겼던"
 	line "포켓몬을 찾으러 가야해!"
 	done
-	
+
 SupernerdShawnSeenText:
 	text "너 몬스터볼을"
 	line "몇 종류 가지고 있니?"
 	done
-	
+
 SupernerdShawnBeatenText:
 	text "이봐 잠깐"
 	line "너 그만둬!"

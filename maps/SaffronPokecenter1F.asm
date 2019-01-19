@@ -43,32 +43,24 @@ SaffronPokecenter1FTeacherText:
 	text "성도의 포켓몬 센터는"
 	line "어떻게 생겼어?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para"…ふーん　カントーと"
+	line"あまり　かわらないのね"
 
-	para "different from the"
-	line "ones in KANTO."
-
-	para "I can go to JOHTO"
-	line "without worrying,"
-	cont "then!"
+	para"じゃあ　あんしんして"
+	line"ジョウトに　いけるわ!"
 	done
 
 SaffronPokecenter1FTeacherMobileText:
 	text "성도의 포켓몬 센터는"
 	line "어떻게 생겼어?"
 
-	para "…Oh, I see."
-	line "So they let you"
+	para"…ふーん　そっちでも"
+	line"とおくに　いる　ひとと"
+	cont"つうしん　できるように　なったんだー"
 
-	para "link with people"
-	line "far away?"
-
-	para "Then I'll get my"
-	line "friend in JOHTO to"
-
-	para "catch a MARILL and"
-	line "trade it to me!"
+	para"じゃあ　ジョウトの　ともだちに"
+	line"マりル　つかまえて　もらって"
+	cont"こうかん　しよっと!"
 	done
 
 SaffronPokecenter1FFisherText:

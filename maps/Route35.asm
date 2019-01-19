@@ -375,8 +375,8 @@ BugCatcherArnieSeenText:
 	done
 
 BugCatcherArnieBeatenText:
-	text "Huh? I shouldn't"
-	line "have lost that…"
+	text"あっれー?"
+	line"まける　はず　ないんだけどなー"
 	done
 
 BugCatcherArnieAfterBattleText:
@@ -386,11 +386,10 @@ BugCatcherArnieAfterBattleText:
 	done
 
 BugCatcherArnieYanmaText:
-	text "Wow… Look at all"
-	line "those YANMA!"
+	text"すごい…　こんなにいっぱいの"
+	line"ヤンヤンマが　いるなんて!"
 
-	para "I'm so blown away,"
-	line "I can't move."
+	para"かんどう　しちゃって　うごけないよ!"
 	done
 
 FirebreatherWaltSeenText:

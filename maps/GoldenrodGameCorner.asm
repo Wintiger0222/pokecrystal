@@ -401,14 +401,14 @@ MoveTutorInsideText:
 	text "Wahahah! The coins"
 	line "keep rolling in!"
 	done
-
+; 와하! 동전이 자꾸 굴러들어온다! 
 GoldenrodGameCornerLeftTheirDrinkText:
 	text "Someone left their"
 	line "drink."
 
 	para "It smells sweet."
 	done
-
+; 누군가가 그들의 음료를 떠났다. 좋은 냄새가 난다.
 GoldenrodGameCorner_MapEvents:
 	db 0, 0 ; filler
 

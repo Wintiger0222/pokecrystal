@@ -37,7 +37,7 @@ GoldenrodDeptStore3FSuperNerdText:
 GoldenrodDeptStore3FRockerText:
 	text "오오 시합할 때 포켓몬에게"
 	line "스페셜 업은 쓰고 있는가?"
-	
+
 	para "특수 공격이 올라가서"
 	line "확실히 좋은 기분이지!"
 	done

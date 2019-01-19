@@ -59,16 +59,13 @@ PlayersNeighborsDaughterText:
 	done
 
 PlayersNeighborText:
-	text "My daughter is"
-	line "adamant about"
+	para "내 딸은 공박사의 조수가"
+	line "되고싶어해"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "그애는 포켓몬 정말 좋아한다니까"
+	done
 
-	para "She really loves"
-	line "#MON!"
-
-	para "But then, so do I!"
+	para "하지만 나도 그래!"
 	done
 
 PlayerNeighborRadioText1:

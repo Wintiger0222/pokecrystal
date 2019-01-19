@@ -95,106 +95,81 @@ Route35GoldenrodGateFisherScript:
 	jumptextfaceplayer Route35GoldenrodGateFisherText
 
 UnknownText_0x69ddd:
-	text "Excuse me, kid!"
-	line "Can you do a guy"
-	cont "a favor?"
-
-	para "Can you take this"
-	line "#MON with MAIL"
-	cont "to my friend?"
-
-	para "He's on ROUTE 31."
+	text "이봐- 너 너!"
+	
+	para "이 메일을 지니고 있는 포켓몬을"
+	line "31번 도로에 있는"
+	cont "친구에게 전해주었으면 좋겠어"
+	cont "부탁을 들어주겠니?"
 	done
 
 UnknownText_0x69e48:
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "고마워!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
-
-	para "You'll recognize"
-	line "him right away!"
+	para "친구는 뚱뚱한 남자아이고"
+	line "언제나 졸고 있으니까"
+	cont "바로 알아볼 수 있을꺼야!"
 	done
 
 UnknownText_0x69eb8:
-	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	text"<PLAYER>는(은) 메일을 지닌"
+	line"포켓몬을 맡았다!"
 	done
 
 UnknownText_0x69ed6:
-	text "You can read it,"
-	line "but don't lose it!"
-	cont "ROUTE 31!"
+	text "메일을 읽어봐도 좋지만"
+	line "잃어버리지는 말아라!"
+	cont "31번 도로까지 부탁해!"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
-
-	para "I wonder if it's"
-	line "been cleared?"
+	para"……참 그러고보니"
+	line"이상한 모양의 나무가"
+	cont"길을 막고있는 듯 한데"
+	cont"이젠 지나갈 수 있게 되었을까?"
 	done
 
 UnknownText_0x69f56:
-	text "You can't carry"
-	line "another #MON…"
+	text"그 이상"
+	line"포켓몬을 지닐 수 없을 것 같군……"
 	done
 
 UnknownText_0x69f74:
-	text "Oh… Never mind,"
-	line "then…"
+	text"그런가……"
+	line"할 수 없네……"
 	done
 
 UnknownText_0x69f8b:
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
-
-	para "Here's something"
-	line "for your trouble!"
+	text"고마워!"
+	line"잘 전해주었구나!"
+	cont"답례로 이걸줄께!"
 	done
-
+	
 UnknownText_0x69fd9:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text"내친구는 자고있었지?"
+	line"잠만 퍼질러 자는 녀석이지!"
 	done
 
 Route35GoldenrodGatePokefanFText:
-	text "A strange tree is"
-	line "blocking the road."
+	text"말을 걸면 꿈틀꿈틀 움직이는"
+	line"나무가 길을 막고 있단다"
 
-	para "It wriggles around"
-	line "if you talk to it."
-
-	para "I heard it became"
-	line "wild when someone"
-
-	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	para"꼬부기 물뿌리개로 물을 뿌리면"
+	line"화를 낸다는 이야기를 들었어"
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
-	text "I like the #MON"
-	line "Lullaby they play"
-	cont "on the radio."
+	text"나 라디오에서 흘러나오는"
+	line"포켓몬의 자장가를 좋아해"
 	done
 
 Route35GoldenrodGateFisherText:
-	text "I wonder how many"
-	line "kinds of #MON"
+	text"せかいには　どれだけの"
+	line"ポケモンが　いるんだろうな"
 
-	para "there are in the"
-	line "world."
-
-	para "Three years ago,"
-	line "PROF.OAK said that"
-
-	para "there were 150"
-	line "different kinds."
+	para"3ねんまえ　オーキドはかせは"
+	line"150しゅるい　いるって"
+	cont"はっぴょう　してたけどな"
 	done
-
+	
 Route35GoldenrodGate_MapEvents:
 	db 0, 0 ; filler
 

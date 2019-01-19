@@ -158,32 +158,23 @@ HikerAnthony2AfterText:
 	done
 	
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
-	line "DUNSPARCE?"
+	text"ノコッチ　つかまえて　きたか?"
 
-	para "I caught one too."
-
-	para "Take a look at it"
-	line "in the light. It's"
-	cont "got a funny face!"
+	para"わしも　つかまえたけど"
+	line"あかるい　ところで　みると"
+	cont"おもしろい　かお　してるなあ!"
 	done
 
 Route33LassText:
-	text "Pant, pant…"
+	text"はあ　はあ…"
+	line"やっと　どうくつを　ぬけたわ"
 
-	para "I finally got"
-	line "through that cave."
-
-	para "It was much bigger"
-	line "than I'd expected."
-
-	para "I got too tired to"
-	line "explore the whole"
-
-	para "thing, so I came"
-	line "outside."
+	para"おもったより　なかが"
+	line"ずっと　ひろいんだもの"
+	cont"ぜんぶ　みてまわれない　うちに"
+	cont"つかれて　でてきちゃった"
 	done
-
+	
 Route33SignText:
 	text "이곳은 33번 도로"
 	done

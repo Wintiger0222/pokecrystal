@@ -55,9 +55,15 @@ PokecomCenterAdminOfficeMobileComputer1:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
+IF DEF (_CRYSTALMOBILE)
+	db "# COM CLUB@" ; # COM CLUB
+	db "MOBILE CENTER@" ; MOBILE CENTER
+	db "QUIT@" ; QUIT
+ELSE;번역하지마세요
 	db "#　つうしん　クラブ@" ; # COM CLUB
 	db "モバイルセンター@" ; MOBILE CENTER
 	db "やめる@" ; QUIT
+ENDC
 
 PokecomCenterAdminOfficeMobileComputer2:
 	opentext
@@ -97,167 +103,126 @@ PokecomCenterAdminOfficeMobileComputer2:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
+IF DEF (_CRYSTALMOBILE)
+	db "Use phone@" ; Use phone
+	db "Don't use phone@" ; Don't use phone
+	db "QUIT@" ; QUIT
+ELSE;번역하지마세요
 	db "でんわ<WO>つかうとき@" ; Use phone
 	db "でんわ<GA>つながらないとき@" ; Don't use phone
 	db "やめる@" ; QUIT
+ENDC
 
 PokecomCenterAdminOfficeMobileComputer3:
 	jumptext PokecomCenterAdminOfficeMobileComputer3Text
 
 PokecomCenterAdminOfficeMobileScientist1Text:
-	text "#COM CENTER and"
-	line "MOBILE CENTER were"
+	text"ポケモンコミュニケーションセンターと"
+	line"モバイルセンターは"
 
-	para "built to satisfy"
-	line "demands for trades"
-
-	para "and battles with"
-	line "trainers far away"
-
-	para "and with total"
-	line "strangers."
+	para"とおくにいる　<TRAINER>どうしや"
+	line"しらない　<TRAINER>どうし　でも"
+	cont"たいせんや　こうかんが　できたら"
+	cont"いいな　という　きぼうがあって"
+	cont"つくられたんです"
 	done
 
 PokecomCenterAdminOfficeMobileScientist2Text:
-	text "When you linked"
-	line "with someone by"
+	text"はじめて　モバイルを　つかって"
+	line"つうしん　できたときは　かんどう"
+	cont"したでしょ?"
 
-	para "mobile phone for"
-	line "the first time,"
-
-	para "weren't you"
-	line "impressed?"
-
-	para "When my first try"
-	line "worked, I was so"
-
-	para "impressed that I"
-	line "got the shakes!"
+	para"ぼくらも　さいしょに　つうしんの"
+	line"じっけんが　せいこう　したときは"
+	cont"からだが　ふるえちゃったよ"
 	done
 
 PokecomCenterAdminOfficeMobileScientist3Text:
-	text "They were able to"
-	line "build this huge"
-
-	para "facility thanks to"
-	line "advances in wire-"
-	cont "less technology."
+	text"これだけ　おおきい　しせつが"
+	line"できたのは　でんぱ　の　ぎじゅつが"
+	cont"おおきく　はってん　したからなんだ"
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text:
-	text "It's a notice"
-	line "about where MOBILE"
-
-	para "ADAPTERS are to be"
-	line "used…"
+	text"モバイルアダプタを　つかう"
+	line"ばしょに　ついて　かいてある"
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_PokeComClub:
 	text "There's a #COM"
-	line "CLUB upstairs in"
+	text"ポケモンセンター　2かいの"
+	line"ポケモン　つうしん　クラブ　で"
 
-	para "any #MON"
-	line "CENTER."
+	para"モバイルアダプタをつかって"
+	line"とおくにいる　おともだちと"
+	cont"たいせんや　こうかんが　できます"
 
-	para "There, you can"
-	line "battle or trade"
-
-	para "with a friend far"
-	line "away by using a"
-	cont "MOBILE ADAPTER."
-
-	para "To link up, your"
-	line "friend must have"
-
-	para "the same kind of"
-	line "MOBILE ADAPTER as"
-	cont "you."
+	para"つうしんは　おなじ　しゅるいの"
+	line"モバイルアダプタを　つかっている"
+	cont"おともだちと　してください"
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_MobileCenter:
-	text "To use the TRADE"
-	line "CORNER or read the"
+	text"トレードコーナーで　こうかんしたり"
+	line"ポケモンニュースを　よみこむときは"
 
-	para "#MON NEWS, you"
-	line "need to phone the"
-	cont "MOBILE CENTER."
+	para"モバイルセンター　という　ところに"
+	line"でんわを　かけます"
 
-	para "You must register"
-	line "at the MOBILE"
-
-	para "CENTER before"
-	line "connecting there."
+	para"モバイルセンターに　つなぐには"
+	line"まず　モバイルセンターへの"
+	cont"とうろくを　しておいてください"
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text:
-	text "It's a notice"
-	line "about using the"
-	cont "phone…"
+	text"でんわを　つかうときに"
+	line"ついて　かいてある"
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text_UsePhone:
-	text "Please ensure that"
-	line "your phone and"
+	text"でんわと　モバイルアダプタを"
+	line"しっかり　つないでください"
 
-	para "MOBILE ADAPTER are"
-	line "properly linked."
+	para"でんぱが　はいりやすい"
+	line"ところで　つうしんしてください"
 
-	para "Please make sure"
-	line "the wireless phone"
-	cont "signal is strong."
-
-	para "Don't touch or"
-	line "hang up the phone"
-	cont "while linking."
+	para"つうしんちゅうは　でんわを"
+	line"さわったり　きらないで　ください"
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text_DontUsePhone:
-	text "If the server is"
-	line "busy, it may not"
+	text"でんわかいせんが　こんでいるときは"
+	line"うまく　つながらないことが　あります"
 
-	para "be possible to log"
-	line "on."
+	para"そのときは　すこし　まってから"
+	line"かけなおして　みてください"
 
-	para "If so, please call"
-	line "back later."
+	para"どうしても　うまく　いかなかったり"
+	line"エラーの　いみが　わからないときは"
 
-	para "If you are unable"
-	line "to log on or don't"
-
-	para "understand the"
-	line "error messages,"
-
-	para "call a support"
-	line "center or read the"
-	cont "instructions."
+	para"サポートセンターへ　といあわせるか"
+	line"せつめいしょを　よんでください"
 	done
 
 PokecomCenterAdminOfficeMobileComputer3Text:
-	text "The ADMINISTRATION"
-	line "OFFICE received an"
-	cont "e-mail. It says…"
+	text"かんりしつに　メールが　きてる!"
 
-	para "<……> <……> <……>"
+	para"……　……　……"
 
-	para "To the #COM"
-	line "CENTER staff…"
+	para"『ポケモンコミュニケーションセンター"
+	line"スタッフの　みなさんへ"
 
-	para "Wireless communi-"
-	line "cation has enabled"
+	para"でんぱで　つうしんが　できるので"
+	line"ぜんこくの　ポケモン<TRAINER>が"
+	cont"こうりゅう　できるように"
+	cont"なりましたね!"
 
-	para "#MON trainers"
-	line "to interact across"
+	para"このさき　いつか　せかいじゅうの"
+	line"ポケモン<TRAINER>　ぜんいんが"
+	cont"つうしん　できるように　なる　ひまで"
+	cont"がんばってください!"
 
-	para "the nation. Let's"
-	line "keep working for"
-
-	para "the day when all"
-	line "the trainers in"
-
-	para "the world can link"
-	line "without barriers!"
-
-	para "<……> <……> <……>"
+	para"……　……　……"
 	done
 
 PokecomCenterAdminOfficeMobile_MapEvents:

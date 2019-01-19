@@ -315,7 +315,7 @@ AzaleaTownGrampsTextBefore:
 	para "어디에선가는 야돈의 꼬리가"
 	line "팔리고 있다는 이야기가 있고……"
 	done
-	
+
 AzaleaTownGrampsTextAfter:
 	text "야돈이 돌아왔어"
 	line "아무튼 느긋한 야돈이라서"
@@ -353,21 +353,19 @@ WoosterText:
 	text "수어『……교오-"
 	done
 
-AzaleaTownKurtText1:
-	text "너도밤나무 숲이"
-	line "소란스러워!"
-	
-	para "데체 뭐가 일어나고 있는거야?"
+AzaleaTownKurtText1:	
+	text "너도밤나무숲이 술렁거리고 있다!"
+	line "이게 무슨 일이야!"
 	done
 
-AzaleaTownKurtText2:
-	text "<PLAYER> 여기"
-	line "GS볼을 다시 가져가거라!"
+AzaleaTownKurtText2:	
+	text "<PLAYER>!"
+	line "GS볼은 돌려주마!"
 	done
 
-AzaleaTownKurtText3:
-	text "너도밤나무 숲이 왜이리"
-	line "소란스러운지 보고와주겠나?"
+AzaleaTownKurtText3:	
+	text "너도밤나무숲이 술렁거리고 있다"
+	line "원인을 알아내주지 않겠나?"
 	done
 
 AzaleaTownSignText:

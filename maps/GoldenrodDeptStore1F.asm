@@ -35,7 +35,7 @@ GoldenrodDeptStore1FReceptionistText:
 GoldenrodDeptStore1FGentlemanText:
 	text "금빛시티 백화점에는"
 	line "여러가지 물건이 진열되어 있다"
-	
+
 	para "하지만 이 마을의"
 	line "게임코너 경품이 아니면"
 	cont "손에 넣을 수 없는 것도 있단다"
@@ -48,7 +48,7 @@ GoldenrodDeptStore1FPokefanFText:
 
 GoldenrodDeptStore1FBugCatcherText:
 	text "엄마는 쇼핑을 아주 잘하셔"
-	
+
 	para "약간 싼 가격에"
 	line "도구를 사오신다"
 	done

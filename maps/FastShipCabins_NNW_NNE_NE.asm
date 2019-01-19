@@ -196,7 +196,7 @@ SailorStanlySeenText:
 	line "그러나 게으름 피우는 건 아니야!"
 	cont "아무도 없는 방이라서"
 	cont "잠시 낮잠을 자고 있었어……!"
-	
+
 	para "에이!"
 	line "포켓몬 승부다!"
 	done
@@ -241,7 +241,7 @@ BurglarCoreyBeatenText:
 BurglarCoreyAfterBattleText:
 	text "예쁜 동전을"
 	line "방에서 주웠어"
-	
+
 	para "전에 이 방을 쓰고있던"
 	line "손님이 떨어뜨렸을까……?"
 	done

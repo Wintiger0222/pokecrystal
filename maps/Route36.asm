@@ -426,43 +426,30 @@ SudowoodoAttackedText:
 	done
 
 FloriaText1:
-	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
-	
-	para "Listen, listen!"
-	
-	para "When I sprinkled"
-	line "water on that"
-	
-	para "wiggly tree, it"
-	line "jumped right up!"
-	
-	para "It just has to be"
-	line "a #MON."
-	
-	para "I bet it would be"
-	line "shocked out of its"
-	
-	para "disguise if you"
-	line "soaked it!"
-	
-	para "I know! I'll tell"
-	line "my sis and borrow"
-	cont "her water bottle!"
+	text"あたし　フラワーショップの　サキ"
+
+	para"ねーねー　きいて　きいて!"
+
+	para"うごく　きにみずを　かけて　みたら"
+	line"おどろいて　とびあがったの!"
+
+	para"きっと　しょうたいは　ポケモンなのよ"
+
+	para"もっと　みずを　かければ　おどろいて"
+	line"しょうたいを　あらわす　はずよ!"
+
+	para"そうだ!"
+	line"おねえちゃんにこのことを　はなして"
+	cont"じょうろを　かして　もらおーっと!"
 	done
-
+	
 FloriaText2:
-	text "When I told my sis"
-	line "about the jiggly"
+	text"うちの　おねえちゃんに"
+	line"うごく　きの　はなしを　したら"
+	cont"あぶないから　やめなさい　だって!"
 
-	para "tree, she said"
-	line "it's dangerous."
-
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
-
-	para "lend me her water"
-	line "bottle…"
+	para"アカネちゃんにかてたら"
+	line"じょうろ　かして　くれるかなぁ……"
 	done
 
 RockSmashGuyText1:
@@ -499,15 +486,12 @@ RockSmashGuyText3:
 	done
 	
 UnknownText_0x1945b8:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text"おかしな　きが　はえちゃって"
+	line"コガネにいけないのよー!"
 
-	para "I wanted to go see"
-	line "the huge #MON"
-
-	para "CENTER they just"
-	line "opened…"
+	para"すっごく　ひろい　ポケモンセンターが"
+	line"できたって　いうから"
+	cont"みにいこうと　おもったのに"
 	done
 
 Route36LassText:

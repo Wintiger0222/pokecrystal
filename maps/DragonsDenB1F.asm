@@ -205,202 +205,159 @@ MovementDragonsDen_ClairWalksAway:
 ClairText_Wait:
 	text "Wait!"
 	done
-
+; 잠깐! 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
-	line "about this."
-
-	para "Here, take this as"
-	line "my apology."
+	text"イブキ『こんかいは　わるかったわね…"
+	line"おわびに　これを　あげるわ"
 	done
 
 NotifyReceiveDragonbreath:
-	text "<PLAYER> received"
-	line "TM24."
+	text"<PLAYER>は　イブキから"
+	line"TM24を　もらった！"
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "That contains"
-	line "DRAGONBREATH."
+	text"なかに　はいっているのは"
+	line"りゅうのいぶき"
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
-
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para"……　べつに　シャレじゃ　ないわよ"
+	line"いらないなら　むりして"
+	cont"もっていかなくても　いいのよ"
 	done
 
 ClairText_NoRoom:
-	text "Oh? You don't have"
-	line "any room for this."
-
-	para "I'm going back to"
-	line "the GYM, so make"
-
-	para "room, then come"
-	line "see me there."
+	text"あら?"
+	line"それいじょうは　もてないようね…"
+	cont"ジムで　まっているから"
+	cont"ほしければ　せいり　してらっしゃい"
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
-	line "matter? Aren't you"
+	text"イブキ『どうしたの?"
+	line"ポケモンりーグに　むかうんでしょう?"
 
-	para "going on to the"
-	line "#MON LEAGUE?"
+	para"ばしょは　しってるの?"
 
-	para "Do you know how to"
-	line "get there?"
+	para"ここからだと　そうね…"
+	line"まずは　ワカバタウンに　いくといいわ"
 
-	para "From here, go to"
-	line "NEW BARK TOWN."
+	para"そこから　なみのりで"
+	line"ずっと　ひがしに　すすんで　いけば"
+	cont"ポケモンりーグに　とうちゃく　するわ"
+	cont"でも　きびしい　みちのりに　なるわよ"
 
-	para "Then SURF east to"
-	line "#MON LEAGUE."
+	para"それと…　ポケモンりーグでも"
+	line"まけることは　ゆるさないからね!"
 
-	para "The route there is"
-	line "very tough."
+	para"そうでないと　まけた　わたしが　"
+	line"みじめに　なるでしょ!"
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
-
-	para "If you do, I'll"
-	line "feel even worse"
-
-	para "about having lost"
-	line "to you!"
-
-	para "Give it everything"
-	line "you've got."
+	para"…がんばりなさい"
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text"용의 사당"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
-
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para"용이 굴에 있다고 한다"
+	line"드래곤 포켓몬을 받들어 모신다"
 	done
 
 SilverText_Training1:
-	text "…"
-	line "What? <PLAYER>?"
+	text"……　……　……"
+	line"뭐야 <PLAYER>(이)잖아……"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para"……　미안하지만 너의"
+	line"상대가 되어줄 생각은 없다"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para"지금의 이 녀석들로서는"
+	line"너에게 이길 수 없으니까"
+	cont"그런 무책임한 짓은 시킬 수 없지"
 
-	para "I can't push them"
-	line "too hard now."
-
-	para "I have to be dis-"
-	line "ciplined to become"
-
-	para "the greatest #-"
-	line "MON trainer…"
+	para"그렇게하지 않으면"
+	line"최강의 트레이너는"
+	cont"될 수 없으니까……"
 	done
 
 SilverText_Training2:
-	text "…"
+	text"……　……　……"
 
-	para "Whew…"
-
-	para "Learn to stay out"
-	line "of my way…"
+	para"후우……"
+	line"사람의 방해를 해서는 안되지!"
 	done
 
 CooltrainermDarinSeenText:
-	text "You! How dare you"
-	line "enter uninvited!"
+	text"キサマ!　なにものだ!"
+	line"かってに　はいって　くるな!"
 	done
-
+	
 CooltrainermDarinBeatenText:
-	text "S-strong!"
+	text"つっ　つよい!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "The SHRINE ahead"
-	line "is home to the"
+	text"このさきにある　ほこらには"
+	line"ボクたち　ドラゴンつかい　いちぞくの"
+	cont"ちょうろうさまが　いらっしゃる…"
 
-	para "MASTER of our"
-	line "dragon-user clan."
-
-	para "You're not allowed"
-	line "to just go in!"
+	para"かってに　はいって　いって"
+	line"しつれいなことを　しないで　くれよ!"
 	done
 
 CooltrainerfCaraSeenText:
-	text "You shouldn't be"
-	line "in here!"
+	text"こんな　ところまで"
+	line"はいってきちゃ　ダメじゃない!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Oh yikes, I lost!"
+	text"いやーん　まけちゃったー"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Soon I'm going to"
-	line "get permission"
+	text"もうすぐ　ちょうろうさまから"
+	line"ドラゴンをつかう　おゆるしが　でるの"
 
-	para "from our MASTER to"
-	line "use dragons."
-
-	para "When I do, I'm"
-	line "going to become an"
-
-	para "admirable dragon"
-	line "trainer and gain"
-
-	para "our MASTER's"
-	line "approval."
+	para"おゆるしが　でたら　つぎは"
+	line"ちょうろうさまに　みとめられるような"
+	cont"りっぱな　ドラゴンつかいを　めざすわ"
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text"しらない　ひとですー"
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text"いたいですー"
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "It was like having"
-	line "to battle LANCE."
+	text"なんだか　ワタルおにいちゃんと"
+	line"たたかってた　みたいですー"
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text"あなた　だれですかー"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text"ひどいですー"
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "We'll tell on you."
-
-	para "MASTER will be"
-	line "angry with you."
+	text"おじいちゃんに　いいつけて"
+	line"いっぱい　しかって　もらうですー"
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found"
+	text "<PLAYER>는(은)"
 	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text "를(을)"
+	cont "발견했다!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "그러나 <PLAYER>는(은)"
+	line "더 이상 도구를 지닐 수 없다!"
 	done
 
 DragonsDenB1F_MapEvents:

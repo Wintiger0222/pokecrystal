@@ -101,7 +101,7 @@ GoldenrodDeptStoreRoofPokefanFText:
 	para "to take a break"
 	line "from shopping."
 	done
-
+; 휴, 피곤해. 나는 때때로 쇼핑에서 휴식을 취하기 위해 옥상으로 올라온다. 
 GoldenrodDeptStoreRoofFisherText:
 	text "Pardon? Who says"
 	line "an adult can't get"
@@ -113,22 +113,23 @@ GoldenrodDeptStoreRoofFisherText:
 	para "collect all the"
 	line "dolls!"
 	done
+; 네? 뭐라고요? 어른은 이런 일에 관여할 수 없다고 누가 말하겠어? 매일 인형을 다 모으러 올 거야! 
 
 GoldenrodDeptStoreRoofTwinText:
 	text "They have bargain"
 	line "sales here every"
 	cont "so often."
 	done
-
+; 그들은 여기서 아주 자주 염가 판매를 한다. 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
 	text "Oh, wow!"
 	done
-
+; 오, 와우! 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
 	text "Will you quit"
 	line "bothering me?"
 	done
-
+; 그만 좀 괴롭힐래? 
 GoldenrodDeptStoreRoofPokefanMText:
 	text "There's something"
 	line "I really want, but"
@@ -140,7 +141,7 @@ GoldenrodDeptStoreRoofPokefanMText:
 	line "off the BERRIES"
 	cont "I've collected…"
 	done
-
+; 내가 정말 원하는 게 있는데 필요한 현금이 없어... 내가 모은 베리스를 팔 수 있을지도... 
 GoldenrodDeptStoreRoofTeacherText:
 	text "Oh, everything is"
 	line "so cheap!"
@@ -148,7 +149,7 @@ GoldenrodDeptStoreRoofTeacherText:
 	para "I bought so much,"
 	line "my PACK's crammed!"
 	done
-
+; 오, 모든 게 너무 싸! 내가 너무 많이 샀어, 내 팩이 꽉 찼어! 
 GoldenrodDeptStoreRoofBugCatcherText:
 	text "My #MON always"
 	line "get paralyzed or"
@@ -162,7 +163,7 @@ GoldenrodDeptStoreRoofBugCatcherText:
 	para "I wonder if"
 	line "there's any left?"
 	done
-
+; 내 #MON은 칩이 다운되면 항상 마비되거나 독이 된다. 그래서 풀힐을 사러 왔어. 남은 게 있나? 
 Binoculars1Text:
 	text "These binoculars"
 	line "let me see far"
@@ -173,7 +174,7 @@ Binoculars1Text:
 	para "Is it the one with"
 	line "the green roof?"
 	done
-
+; 이 쌍안경으로 멀리 볼 수 있다 아마도 나는 내 집을 볼 수 있을 것이다. 초록 지붕 있는 거 아니야? 
 Binoculars2Text:
 	text "Hey! Some trainers"
 	line "are battling on"
@@ -186,7 +187,7 @@ Binoculars2Text:
 	line "like battling"
 	cont "right now!"
 	done
-
+; 이봐! 몇몇 트레이너들이 길에서 싸우고 있어! #몬이 낙엽을 마구 쐈어! 그래서 지금 당장 싸울 것 같아! 
 Binoculars3Text:
 	text "A FISHER caught a"
 	line "lot of MAGIKARP…"
@@ -197,7 +198,7 @@ Binoculars3Text:
 	para "Look at the water"
 	line "going everywhere!"
 	done
-
+; 한 FIS사람이 많은 마기카프를 잡았다... 동시에 스플래시! 사방으로 흐르는 물 좀 봐! 
 PokeDollVendingMachineText:
 	text "A vending machine"
 	line "for #MON dolls?"
@@ -208,7 +209,7 @@ PokeDollVendingMachineText:
 	para "But it's almost"
 	line "empty…"
 	done
-
+; #MON 인형 자동판매기? 돈을 넣고, 크랭크를 돌려... 하지만 거의 비어있어...
 GoldenrodDeptStoreRoof_MapEvents:
 	db 0, 0 ; filler
 

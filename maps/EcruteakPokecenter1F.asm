@@ -100,7 +100,7 @@ EcruteakPokecenter1FPlayerMovement1:
 EcruteakPokecenter1F_BillText1:
 	text "나는 이수재"
 	line "너는……?"
-	
+
 	para "후움 <PLAYER>(이)라고 하는가"
 	line "좋을때 왔구나"
 	done
@@ -108,36 +108,36 @@ EcruteakPokecenter1F_BillText1:
 EcruteakPokecenter1F_BillText2:
 	text "지금 타임캡슐의"
 	line "조정이 끝났단다"
-	
+
 	para "너도 알고있는 그대로"
 	line "포켓몬을 교환할 수 있잖아"
-	
+
 	para "그래서 옛날의 사람들과도"
 	line "교환할 수 있도록"
 	cont "타임캡슐이 만들어졌단다"
-	
+
 	para "…… 하지만"
 	line "옛날 사람들이 모르는 것은"
 	cont "보낼 수 없단다"
 	cont "컴퓨터가 파손될 위험이 있어서"
-	
+
 	para "그렇기때문에 이쪽에서 옛날에"
 	line "없었던 것을 빼지 않으면 안 되"
-	
+
 	para "확실히 이야기 한다면"
 	line "새로운 포켓몬"
 	cont "새로운 기술은"
 	cont "타임캡슐에서는"
 	cont "통신교환을 할 수 없어"
-	
+
 	para "뭐 그 부분은 조정 했고"
 	line "내일이 되면"
 	cont "전국의 포켓몬 센터에서"
 	cont "타임캡슐을 쓸 수 있을꺼야"
-	
+
 	para "그럼 나는 금빛시티에 돌아갈께"
 	line "가끔은 부모님이랑도 지내야지"
-	
+
 	para "그럼 바이바이!"
 	done
 
@@ -146,29 +146,25 @@ EcruteakPokecenter1FPokefanMText:
 	line "포켓몬을 사용하는 모습도 아름다워"
 	done
 
-EcruteakPokecenter1FPokefanMTextMobile:
-	text "You must be hoping"
-	line "to battle more"
+EcruteakPokecenter1FPokefanMTextMobile:;번역함
+	text "더 많은 사람들이랑 싸워보고싶지?"
+	line "트레이너들이 모이는"
+	cont "장소가 있는것 같아"
 
-	para "people, right?"
-	line "There's apparently"
+	para "어디냐고?"
 
-	para "some place where"
-	line "trainers gather."
-
-	para "Where, you ask?"
-
-	para "It's a little past"
-	line "OLIVINE CITY."
+	para "담청시티를 조금 더"
+	line "지나서에 있어"
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
 	text "체육관 관장인 유빈님"
 	line "멋있어"
 	cont "그 냉정한 점이 좋아"
-	
+
 	para "게다가 포켓몬도"
 	line "매우 강하니까"
+	done
 
 EcruteakPokecenter1FGymGuyText:
 	text "분노의 호수……"
