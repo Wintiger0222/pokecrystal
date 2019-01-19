@@ -3094,7 +3094,7 @@ wKoreanFontProperty:: db
 
 wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES
 wBoxNamesEnd::
-wBoxNameBuffer:: db
+wBoxNameBuffer:: ds BOX_NAME_LENGTH
 
 wKoreanMenuBackupStackPointer:: dw
 wKoreanMenuBackupDataStart::
