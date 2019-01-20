@@ -53,9 +53,10 @@ MobileBattleRoomConsoleScript:
 	closetext
 	end
 
-MobileBattleRoom_EstablishingCommsText:
-	text "Establishing"
-	line "communications…"
+MobileBattleRoom_EstablishingCommsText:;TRANSLATED
+;	text "Establishing"
+;	line "communications…"
+	text "통신 대기중…"
 	done
 
 MobileBattleRoom_HealText:

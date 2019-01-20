@@ -9,14 +9,14 @@ Route38EcruteakGate_MapScripts:
 Route38EcruteakGateOfficerScript:
 	jumptextfaceplayer Route38EcruteakGateOfficerText
 
-Route38EcruteakGateOfficerText:
-	text"きみは　どこから　きたんだい?"
+Route38EcruteakGateOfficerText:;TRANSLATED
+	text"너는　어디서　왔니?"
 
-	para"えっ　ワカバタウン!?"
+	para"에엣 연두마을!?"
 
-	para"ああ　ウツギはかせが　"
-	line"いらっしゃる　まち　でしょ"
-	cont"ずいぶんと　とおくから　きたんだね"
+	para"아아　공박사님이"
+	line"계시는　마을　말이구나"
+	cont"대단히　멀리에서　온 거구나"
 	done
 
 Route38EcruteakGate_MapEvents:

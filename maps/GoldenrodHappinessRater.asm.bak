@@ -112,7 +112,7 @@ GoldenrodHappinessRatingText_LooksMean:
 GoldenrodHappinessRaterPokefanMText:
 	text "언제나 포켓몬 승부에 져서"
 	line "기절만 시키고……"
-
+	
 	para "그것이 이유일까"
 	line "포켓몬이 잘 따라주질 않아"
 	done

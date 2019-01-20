@@ -760,20 +760,19 @@ ElmText_Refused:
 	done
 
 ElmText_ResearchAmbitions:
-	text "이"
-	line "연구를 발표하면"
-
-	para "다시 포켓몬의 비밀에 조금"
-	line "더 근접할 것이 틀림없다!"
+	text "이 연구를 발표하면"
+	line "포켓몬의 비밀에 조금"
+	cont "더 근접할 것이 틀림없다!"
 
 	para "기대되는구나!"
 	done
 
 ElmText_GotAnEmail:
-	text "아! 메일이다!"
+	text "아!"
+	line "전자우편이다!"
 
-	para "…… …… …… …… ……"
-	line " …… …… …… …… 흠흠"
+	para "…… …… ……"
+	line "흐음… 흐으음…"
 
 	para "오- 그렇군"
 	done
@@ -783,15 +782,15 @@ ElmText_MissionFromMrPokemon:
 	
 	para "내가 아는 사람중에"
 	line "포켓몬 할아버지라고 하는"
-
+	
 	para "이상한것을 발견했을 때"
 	line "대발견! 이라고 떠드는"
 	cont "할아버지가 있단다"
-
+	
 	para "그리고 전에"
 	line "「이번만큼은 진짜야!」"
 	cont "라는 메일이 왔단다"
-
+	
 	para "호기심이 생기지만"
 	line "나도 조수도 포켓몬"
 	cont "연구로 바쁘니까……"

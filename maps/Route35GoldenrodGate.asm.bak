@@ -64,14 +64,14 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "어둠의 동굴에서 부터"
-	next "다른길이 연결되어있어@"
+	db   "DARK CAVE leads"
+	next "to another road@"
 
 GiftSpearowName:
-	db "심부름꾼@"
+	db "KENYA@"
 
 GiftSpearowOTName:
-	db "유지@"
+	db "RANDY@"
 
 	db 0 ; filler
 
@@ -161,13 +161,13 @@ Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
 	line"포켓몬의 자장가를 좋아해"
 	done
 
-Route35GoldenrodGateFisherText:;TRANSLATED
-	text"세상에는 얼마나 많은"
-	line"포켓몬이 있을까?"
+Route35GoldenrodGateFisherText:
+	text"せかいには　どれだけの"
+	line"ポケモンが　いるんだろうな"
 
-	para"3년전에 오박사님은"
-	line"150종류 정도가 있다고"
-	cont"발표했었는데 말야"
+	para"3ねんまえ　オーキドはかせは"
+	line"150しゅるい　いるって"
+	cont"はっぴょう　してたけどな"
 	done
 	
 Route35GoldenrodGate_MapEvents:

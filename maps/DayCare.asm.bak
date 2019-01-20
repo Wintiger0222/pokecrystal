@@ -116,11 +116,11 @@ DayCareManText_GiveOddEgg:
 	para "Then fine, this is"
 	line "yours to keep!"
 	done
-
+	
 DayCareText_ComeAgain:
 	text"また　きなさいよ"
 	done
-
+	
 DayCareText_GotOddEgg:
 	text "<PLAYER> received"
 	line "ODD EGG!"

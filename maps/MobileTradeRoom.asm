@@ -27,9 +27,10 @@ MobileTradeRoomConsoleScript:
 	closetext
 	end
 
-MobileTradeRoom_EstablishingCommsText:
-	text "Establishing"
-	line "communications…"
+MobileTradeRoom_EstablishingCommsText:;TRANSLATED
+;	text "Establishing"
+;	line "communications…"
+	text "통신 대기중…"
 	done
 
 MobileTradeRoom_MapEvents:

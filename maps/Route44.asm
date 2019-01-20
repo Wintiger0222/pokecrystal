@@ -369,12 +369,12 @@ BirdKeeperVanceLegendaryBirdsText:
 	line "새포켓몬이 있다는 것 같다"
 	done
 
-BirdKeeperVance2BeatenText:
-	text"どうして　きみには"
-	line"こう　かてないんだろうなあ…"
+BirdKeeperVance2BeatenText:;TRANSLATED
+	text"어째서　너에게는"
+	line"이렇게　이길 수없는 것일까…"
 
-	para"おっと　そうだ　こないだ"
-	line"あげられなかった　これ　あげる!"
+	para"아앗　맞아 저번에"
+	line"주지 못했던　이거　줄게!"
 	done
 
 

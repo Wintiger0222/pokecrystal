@@ -95,8 +95,7 @@ CooltrainermCodyAfterBattleText:
 	done
 
 CooltrainerfFranSeenText:
-	text "なも　ない　"
-	cont "を"
+	text "なも　ない　<TRAINER>を"
 	line "このさきに　いかせる　わけには"
 	cont "いかないわ!　だって…"
 

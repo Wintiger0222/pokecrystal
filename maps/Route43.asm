@@ -429,9 +429,9 @@ PicnickerTiffanyWantsPicnicText:
 	line "너도 함께하면 어떠니?"
 	done
 	
-PicnickerTiffanyClefairyText:
-	text"ねぇ　わたしの　ピッピちゃん"
-	line"すっごく　かわいいでしょ?"
+PicnickerTiffanyClefairyText:;TRANSLATED
+	text"저기　내　삐삐"
+	line"너무　귀엽지않아?"
 	done
 
 Route43Sign1Text:

@@ -437,7 +437,7 @@ IF DEF (_CRYSTALMOBILE)
 	line "뭐든 모바일 멋진 커뮤니티!"
 	done
 ELSE
-	text "모바일 관련 일이라면!"
+	text "モバイルの　ことなら!"
 	line "포켓몬 커뮤니케이션 센터"
 	done
 ENDC

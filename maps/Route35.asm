@@ -374,9 +374,9 @@ BugCatcherArnieSeenText:
 	line "어떤 곳이든 찾아간다"
 	done
 
-BugCatcherArnieBeatenText:
-	text"あっれー?"
-	line"まける　はず　ないんだけどなー"
+BugCatcherArnieBeatenText:;TRANSLATED
+	text"얼레-?"
+	line"질 리가　없는데　말이야-"
 	done
 
 BugCatcherArnieAfterBattleText:
@@ -385,11 +385,11 @@ BugCatcherArnieAfterBattleText:
 	cont "우승했을 때의 포켓몬이란다"
 	done
 
-BugCatcherArnieYanmaText:
-	text"すごい…　こんなにいっぱいの"
-	line"ヤンヤンマが　いるなんて!"
+BugCatcherArnieYanmaText:;TRANSLATED
+	text"대단해…　이렇게나 잔뜩"
+	line"왕자리가 있다니!"
 
-	para"かんどう　しちゃって　うごけないよ!"
+	para"감동해서　움직일 수가　없어!"
 	done
 
 FirebreatherWaltSeenText:

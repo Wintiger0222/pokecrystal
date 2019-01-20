@@ -185,11 +185,11 @@ BridgetWalksAwayMovement:
 WhitneyBeforeText:
 	text "네-에!"
 	line "내가 바로 꼭두!!"
-
+	
 	para "모두 포켓몬 하고 있잖아"
 	line "나도 시작해보니까"
 	cont "뭐- 엄청 귀여워서!"
-
+	
 	para "으-응 도전할꺼니?"
 	line "말해두겠는데 나"
 	cont "엄청 강하단다!"
@@ -197,29 +197,29 @@ WhitneyBeforeText:
 
 WhitneyShouldntBeSoSeriousText:
 	text "우우……"
-
+	
 	para "…… 으앙!!"
 	line "너무해 너무하다구!!"
-
+	
 	para "상대 못하겠어!!"
 	line "꼬마니까……"
 	done
 
 WhitneyYouMeanieText:
 	text "와앙!!"
-
+	
 	para "와-앙!!"
-
+	
 	para "…… 훌쩍 훌쩍"
 	line "…… 너무해!!"
 	done
 
 WhitneyWhatDoYouWantText:
 	text "……훌쩍"
-
+	
 	para "뭐야? 아직 뭔가 남았어?"
 	line "아아 배지?"
-
+	
 	para "미안해 까먹었었어"
 	line "자 레귤러배지"
 	cont "이거 말이지!"
@@ -235,7 +235,7 @@ WhitneyPlainBadgeText:
 	line "싸우지 않을 때에도"
 	cont "괴력의 기술을 쓸 수 있고"
 	cont "포켓몬의 스피드도 빨라진단다"
-
+	
 	para "또 이것도 줄께!"
 	done
 
@@ -249,7 +249,7 @@ WhitneyAttractText:
 WhitneyGoodCryText:
 	text "후우!"
 	line "울고나니까 후련해졌다!"
-
+	
 	para "그럼 또 놀러와!"
 	line "바이바이!"
 	done
@@ -273,7 +273,7 @@ LassCarrieAfterBattleText:
 LassBridgetSeenText:
 	text "강한 포켓몬 보다"
 	line "귀여운 포켓몬을 좋아해!"
-
+	
 	para "하지만 내가 가지고 있는 것은"
 	line "강하고 귀여운 포켓몬이야!"
 	done
@@ -286,7 +286,7 @@ LassBridgetAfterBattleText:
 	text "꼭두에게 이기려고"
 	line "열심히 하는데 아직 멀었을까"
 	cont "어쩐지 자신이 없어져……"
-
+	
 	para "라고 하다니"
 	line "지면 다음에 또 열심히하면 되지!"
 	done
@@ -294,7 +294,7 @@ LassBridgetAfterBattleText:
 BridgetWhitneyCriesText:
 	text "아-아 꼭두를"
 	line "울게만들었군"
-
+	
 	para "괜찮아!"
 	line "이제 곧 울음을 그칠테니까"
 	cont "지면 언제나 운단다"
@@ -336,11 +336,11 @@ BeautySamanthaAfterBattleText:
 GoldenrodGymGuyText:
 	text "여어!"
 	line "미래의 챔피언!"
-
+	
 	para "이 체육관은"
 	line "노말타입 포켓몬의"
 	cont "조련사들이 모여 있단다!"
-
+	
 	para "싸우게 한다고 하면"
 	line "격투타입의"
 	cont "포켓몬이 추천감이다!"

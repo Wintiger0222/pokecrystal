@@ -87,7 +87,7 @@ GoldenrodDeptStoreB1FBlackBelt2Text:
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
 	text "엣취 엣취"
-
+	
 	para "떨어져 있는 것은 잡동사니뿐"
 	line "원한다면 가져가!"
 	done

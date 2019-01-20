@@ -105,10 +105,10 @@ MovementData_0x55158:
 
 UnknownText_0x55160:
 	text "전철이 오지 않아!"
-
+	
 	para "이렇게되면 대신 내가"
 	line "손님을 업고……"
-
+	
 	para "그건 무리인가"
 	done
 
@@ -120,7 +120,7 @@ UnknownText_0x551b7:
 
 UnknownText_0x551ed:
 	text "승차권을 확인하겠습니다!"
-
+	
 	para "네!"
 	line "이쪽으로 타십시오!"
 	done
@@ -138,17 +138,17 @@ UnknownText_0x5524f:
 UnknownText_0x5526a:
 	text "대단히 고맙습니다"
 	line "금빛시티에 도착했습니다"
-
+	
 	para "다음에도 이용을"
 	line "부탁드리겠습니다!"
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
 	text "내가 사장이다!"
-
+	
 	para "포켓몬보다도 빠른 철도!"
 	line "그것이 꿈이었단다!"
-
+	
 	para "이것으로 성도랑 관동지방이"
 	line "더욱 가까워졌단다!"
 	done

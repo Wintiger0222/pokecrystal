@@ -198,7 +198,7 @@ ClairText_GoToDragonsDen:
 	line ""
 	cont "として　みとめてあげるわ!"
 	done
-
+	
 ClairText_TooMuchToExpect:
 	text "어떻게 되었니?"
 

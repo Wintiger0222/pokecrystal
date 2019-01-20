@@ -314,7 +314,7 @@ GoldenrodGameCornerCardFlipMachineScript:
 
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "어서오세요!"
-
+	
 	para "게임을 해서 모은 동전은"
 	line "이곳에서 마음에 드는"
 	cont "경품으로 교환할 수 있습니다!"
@@ -371,7 +371,7 @@ GoldenrodGameCornerCooltrainerMText:
 
 GoldenrodGameCornerPokefanFText:
 	text "카드 돌리기……"
-
+	
 	para "자신이 예상을 하기 쉽기때문에"
 	line "배율이 낮아도"
 	cont "슬롯머신보다 좋아해"
@@ -384,7 +384,7 @@ GoldenrodGameCornerCooltrainerFText:
 GoldenrodGameCornerGentlemanText:
 	text "자신의 포켓몬에게"
 	line "눈보라를 가르쳤단다"
-
+	
 	para "동전을 모으는 것이 힘들었지만"
 	line "그만큼의 가치가 있어"
 	done
@@ -392,7 +392,7 @@ GoldenrodGameCornerGentlemanText:
 GoldenrodGameCornerPokefanM2Text:
 	text "슬롯머신으로도 이길 수 없고"
 	line "카드 돌리기에서도 못이긴다"
-
+	
 	para "화가나서 지하통로에"
 	line "동전 케이스를 버렸단다!"
 	done
@@ -401,14 +401,14 @@ MoveTutorInsideText:
 	text "Wahahah! The coins"
 	line "keep rolling in!"
 	done
-
+; 와하! 동전이 자꾸 굴러들어온다! 
 GoldenrodGameCornerLeftTheirDrinkText:
 	text "Someone left their"
 	line "drink."
 
 	para "It smells sweet."
 	done
-
+; 누군가가 그들의 음료를 떠났다. 좋은 냄새가 난다.
 GoldenrodGameCorner_MapEvents:
 	db 0, 0 ; filler
 
