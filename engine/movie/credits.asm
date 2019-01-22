@@ -20,6 +20,9 @@ Credits::
 	call ClearTileMap
 	call ClearSprites
 
+; 엔딩 화면전에 한글폰트가 남기 때문에 폰트를 초기화
+	call LoadStandardFont
+	
 	ld hl, wCreditsBlankFrame2bpp
 	ld c, (wCreditsBlankFrame2bppEnd - wCreditsBlankFrame2bpp) / 2
 	ld de, `22222222 ; eight pixels, each color #2 (dark)
@@ -308,7 +311,7 @@ ParseCredits:
 	call .get
 	ld bc, 20 * 2
 	call AddNTimes
-	call PlaceString
+	call Credits_PlaceString
 	jr .loop
 
 .theend
@@ -599,6 +602,52 @@ Credits_TheEnd:
 	jr nz, .loop
 	ret
 
+Credits_PlaceString:
+; 기존 PlaceString 사용시 화면 업데이트중에
+; 노이즈가 심하게 일어나기 때문에 새로운 루틴을 사용
+	push hl
+.loop:
+	ld a, [de]
+	cp "@"
+	jr nz, .check
+	ld b, h
+	ld c, l
+	pop hl
+	ret
+
+.next
+	inc de
+	jr .loop
+
+.check
+	cp "#"
+	jr z, .place_poke
+	cp "<NEXT>"
+	jr z, .place_next
+
+.place
+	ld [hli], a
+	call PrintLetterDelay
+	jr .next
+
+.place_poke
+	push de
+	ld de, .string_poke
+	call Credits_PlaceString
+	ld h, b
+	ld l, c
+	pop de
+	jr .next
+
+.string_poke: db "POKé@"
+
+.place_next
+	pop hl
+	ld bc, SCREEN_WIDTH * 2
+	add hl, bc
+	push hl
+	jr .next
+	
 CreditsBorderGFX:    INCBIN "gfx/credits/border.2bpp"
 
 CreditsMonsGFX: ; used only for BANK(CreditsMonsGFX)
