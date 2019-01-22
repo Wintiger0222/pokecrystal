@@ -42,13 +42,21 @@ Function17005a:
 	ld [wOTTrademonSpecies], a
 	ld hl, $a827
 	ld de, wOTTrademonSenderName
+IF DEF(_MOBILE)
+	ld bc, NAME_LENGTH - 1
+ELSE
 	ld bc, NAME_LENGTH_JAPANESE - 1
+ENDC
 	call CopyBytes
 	ld a, "@"
 	ld [de], a
 	ld hl, $a85c
 	ld de, wOTTrademonOTName
+IF DEF(_MOBILE)
+	ld bc, NAME_LENGTH - 1
+ELSE
 	ld bc, NAME_LENGTH_JAPANESE - 1
+ENDC
 	call CopyBytes
 	ld a, "@"
 	ld [de], a

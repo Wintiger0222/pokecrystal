@@ -6816,7 +6816,11 @@ Mobile46_RunJumptable:
 Function11b483:
 	call .InitRAM
 	ld hl, wPlayerName
+IF DEF(_MOBILE)
+	ld a, NAME_LENGTH - 1
+ELSE
 	ld a, NAME_LENGTH_JAPANESE - 1
+ENDC
 .loop1
 	push af
 	ld a, [hli]

@@ -1821,9 +1821,15 @@ Function114b55:
 .asm_114b8c
 	pop hl
 	xor a
+IF DEF(_MOBILE)
+rept NAME_LENGTH
+	ld [hli], a
+endr
+ELSE
 rept NAME_LENGTH_JAPANESE
 	ld [hli], a
 endr
+ENDC
 	jr .asm_114b82
 
 .asm_114b96

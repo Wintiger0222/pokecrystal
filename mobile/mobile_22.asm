@@ -355,7 +355,11 @@ Function89331:
 ; Sets carry if it does not find a nonspace character.
 ; Returns the location of the following character in hl.
 	push bc
+IF DEF(_MOBILE)
+	ld c, NAME_LENGTH - 1
+ELSE
 	ld c, NAME_LENGTH_JAPANESE - 1
+ENDC
 .loop
 	ld a, [hli]
 	cp "@"
@@ -382,12 +386,20 @@ Function89346:
 	jr _incave
 
 Function8934a:
+IF DEF(_MOBILE)
+	ld hl, NAME_LENGTH
+ELSE
 	ld hl, NAME_LENGTH_JAPANESE
+ENDC
 	add hl, bc
 _incave:
 ; Scans up to 5 characters starting at hl, looking for a nonspace character up to the next terminator.  Sets carry if it does not find a nonspace character.  Returns the location of the following character in hl.
 	push bc
+IF DEF(_MOBILE)
+	ld c, NAME_LENGTH - 1
+ELSE
 	ld c, NAME_LENGTH_JAPANESE - 1
+ENDC
 .loop
 	ld a, [hli]
 	cp "@"
@@ -419,7 +431,11 @@ Function89363:
 
 ._incave
 	push de
+IF DEF(_MOBILE)
+	ld e, NAME_LENGTH
+ELSE
 	ld e, NAME_LENGTH_JAPANESE
+ENDC
 .loop
 	ld a, [hli]
 	cp -1

@@ -811,6 +811,8 @@ Stubbed_Function106314:
 	ret
 
 Mobile_AlwaysReturnNotCarry:
+; called by Mobile_DummyReturnFalse in Crystal-J
+	; check ~[4:b000] == [7:a800]
 IF DEF (_CRYSTALMOBILE)
 
 ELSE
@@ -818,9 +820,7 @@ ELSE
 	ret
 ENDC
 	
-Function106331:
-; called by Mobile_DummyReturnFalse in Crystal-J
-	; check ~[4:b000] == [7:a800]
+;Function106331: ;;originally part of Mobile_AlwaysReturnNotCarry
 	ld a, $4
 	call GetSRAMBank
 	ld a, [$b000]

@@ -214,7 +214,11 @@ Function4a0c2:
 	call GetSRAMBank
 	ld hl, sPlayerData + wPlayerName - wPlayerData
 	ld de, wPlayerName
+IF DEF(_MOBILE)
+	ld bc, NAME_LENGTH
+ELSE
 	ld bc, NAME_LENGTH_JAPANESE
+ENDC
 	call CopyBytes
 	call CloseSRAM
 	farcall _LoadData

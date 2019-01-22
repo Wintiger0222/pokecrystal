@@ -2536,7 +2536,11 @@ LoadSelectedPartiesForColosseum:
 .CopyThreeSpecies:
 ; Load the 3 choices to the buffer
 	push de
+IF DEF(_MOBILE)
+	ld bc, wStringBuffer2 + NAME_LENGTH
+ELSE
 	ld bc, wStringBuffer2 + NAME_LENGTH_JAPANESE
+ENDC
 	xor a
 .party_loop
 	push af
@@ -2552,7 +2556,11 @@ LoadSelectedPartiesForColosseum:
 	ld a, 3
 	ld [de], a
 	inc de
+IF DEF(_MOBILE)
+	ld hl, wStringBuffer2 + NAME_LENGTH
+ELSE
 	ld hl, wStringBuffer2 + NAME_LENGTH_JAPANESE
+ENDC
 	ld bc, 3
 	call CopyBytes
 	ld a, $ff

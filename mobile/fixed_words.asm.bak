@@ -1365,25 +1365,13 @@ BCD2String:
 	ret
 
 MobileString_Page:
-IF DEF (_MOBILE)
-	db "페이지@"
-ELSE
 	db "ぺージ@"
-ENDC
 
 MobileString_Prev:
-IF DEF (_MOBILE)
-	db "이전@"
-ELSE
 	db "まえ@"
-ENDC
 
 MobileString_Next:
-IF DEF (_MOBILE)
-	db "다음@"
-ELSE
 	db "つぎ@"
-ENDC
 
 Function11c8f6:
 	ld a, [wcd20] ; wcd20
@@ -3199,11 +3187,7 @@ EZChat_GetCategoryWordsByKana:
 	push hl
 
 	; skip to the attributes
-IF DEF(_MOBILE)
-	ld hl, NAME_LENGTH - 1
-ELSE
 	ld hl, NAME_LENGTH_JAPANESE - 1
-ENDC
 	add hl, de
 
 	; get the number of words in the category
