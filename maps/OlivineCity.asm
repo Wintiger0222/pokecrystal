@@ -105,8 +105,15 @@ OlivineLighthouseSign:
 	jumptext OlivineLighthouseSignText
 
 OlivineCityBattleTowerSign:
+IF DEF(_MOBILE)
+	special Mobile_DummyReturnFalse
+	iftrue .mobile
+	jumptext OlivineCityBattleTowerSignText_NotYetOpen
+.mobile
+ENDC
 	jumptext OlivineCityBattleTowerSignText
-
+	
+	
 OlivineCityPokecenterSign:
 	jumpstd pokecentersign
 
@@ -214,12 +221,12 @@ OlivineCityStandingYoungsterPokedexText:
 	cont "좋다 멋있다"
 	done
 	
-OlivineCitySailor2Text:
-	text"うみは　いいぞー"
-	line"ゆうひも　きれい!"
+OlivineCitySailor2Text:;TRANSLATED
+	text"바다가 좋구만-"
+	line"노을도 아름답고!"
 
-	para"うーみーはー　ひろいーなー"
-	line"おーきーなー　っと!"
+	para"바-다-는-　가이없-고-"
+	line"커-다-랗-구나!"
 	done
 
 OlivineCitySignText:
@@ -244,14 +251,14 @@ OlivineLighthouseSignText:
 	line "다른 이름은 빛남의 등대"
 	done
 	
-OlivineCityBattleTowerSignText:
-	text"このさき　バトルタワー"
-	line"オープンちゅう!"
+OlivineCityBattleTowerSignText:;TRANSLATED
+	text"이 앞은 배틀타워"
+	line"오픈중!"
 	done
 
-OlivineCityBattleTowerSignText_NotYetOpen:
+OlivineCityBattleTowerSignText_NotYetOpen:;TRANSLATED
 ; unused; originally shown when the Battle Tower was closed
-	text"このさき　バトルタワー"
+	text"이 앞은 배틀타워"
 	done
 
 OlivineCity_MapEvents:

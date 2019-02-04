@@ -22,20 +22,20 @@ CeruleanPokecenter1FSuperNerdScript:
 CeruleanPokecenter1FGymGuyScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuyText
 
-CeruleanPokecenter1FSuperNerdText:
-	text"やっぱり　たいせんの　ときは"
-	line"たとえ　よわくたって"
-	cont"つかまえた　ばかりの　ポケモンより"
-	cont"ずっと　そだててきた　ポケモンを"
-	cont"つかいたいよね!"
+CeruleanPokecenter1FSuperNerdText:;TRANSLATED
+	text"역시 배틀을 할 때는"
+	line"좀 약해도"
+	cont"막 잡은 포켓몬보다"
+	cont"쭉 키워온 포켓몬을"
+	cont"쓰고싶네!"
 	done
 
-CeruleanPokecenter1FSuperNerdText_Mobile:
-	text"モバイル　たいせん　やってる?"
+CeruleanPokecenter1FSuperNerdText_Mobile:;TRANSLATED
+	text"모바일 배틀 하고있어?"
 
-	para"とちゅうで　たいせんが　おわったとき"
-	line"どっちが　かったのか　わかるまで"
-	cont"すっごく　ドキドキ　するよね!"
+	para"배틀이 도중에 끝나버리면"
+	line"누가 이겼는지 알고 싶어서"
+	cont"엄청 두근두근한다구!"
 	done
 
 CeruleanPokecenter1FGymGuyText:

@@ -203,17 +203,17 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_Wait:
-	text "Wait!"
+	text "기다려!"
 	done
-; 잠깐! 
+	
 ClairText_GiveDragonbreathDragonDen:
 	text"イブキ『こんかいは　わるかったわね…"
 	line"おわびに　これを　あげるわ"
 	done
 
 NotifyReceiveDragonbreath:
-	text"<PLAYER>は　イブキから"
-	line"TM24を　もらった！"
+	text "<PLAYER>는(은) 이향으로부터"
+	line "기술머신24를 얻었다!"
 	done
 
 ClairText_DescribeDragonbreathDragonDen:

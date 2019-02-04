@@ -46,18 +46,18 @@ OlivineCafeStrengthSailorText_GotStrength:
 	cont "강한 힘이 자랑꺼리란다!"
 	done
 	
-OlivineCafeFishingGuruText:
-	text"この　アサギしょくどうには"
-	line"ちから　じまんの　うみのおとこが"
-	cont"まんぞくする　メニューが　いっぱい!"
+OlivineCafeFishingGuruText:;TRANSLATED
+	text"이 담청카페에는"
+	line"힘이 자랑인　바다사나이가"
+	cont"만족하는　메뉴가　잔뜩!"
 	done
 
-OlivineCafeSailorText:
-	text"このまちにくると　かならず"
-	line"この　アサギしょくどうにくるんだ"
+OlivineCafeSailorText:;TRANSLATED
+	text"이 마을에 들를땐 항상"
+	line"이 담청 카페에 들러"
 
-	para"ここの　メシは　どれを　くっても"
-	line"ちからが　つくんだから　やめられん!"
+	para"여기의　밥은　언제 먹어도"
+	line"힘이 세지는것 같아!"
 	done
 
 OlivineCafe_MapEvents:

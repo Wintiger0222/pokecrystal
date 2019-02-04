@@ -614,10 +614,10 @@ FisherJustinAfterText:
 	line "오묘함은 똑같구나!"
 	done
 	
-FisherRalph1SeenText:
-	text"つりも　とくい　だが"
-	line"ポケモン　だって　わかもの　には"
-	cont"まけんぞ!"
+FisherRalph1SeenText:;TRANSLATED
+	text"난 낚시도 자신 있지만"
+	line"포켓몬이라 해서 너 같이"
+	cont"어린애한테는 지지 않아!"
 	done
 
 FisherRalph1BeatenText:
@@ -629,12 +629,12 @@ FisherRalphAfterText:
 	line "포켓몬은 일생의 친구!"
 	done
 
-FisherRalphSwarmText:
-	text"ひい　ふう　みい…"
-	line"うほほ　たいりょう　たいりょう!"
+FisherRalphSwarmText:;TRANSLATED
+	text"하나 둘 셋…"
+	line"으하하하　풍어다 풍어!"
 
-	para"わしは　もう　いいから"
-	line"いっぱい　つれよ　わかいの!"
+	para"난 이제 됬어"
+	line"잔뜩　잡아라　꼬마야!"
 	done
 
 ; --- start a segment of unused text
@@ -742,9 +742,9 @@ PicnickerLiz1SeenText:
 	done
 	
 
-PicnickerLiz1BeatenText:
-	text"もう!　この　くやしさを"
-	line"どこへ　ぶつければ　いいのー!"
+PicnickerLiz1BeatenText:;TRANSLATED
+	text"정말!　이 분함을"
+	line"어디에 쏟아야 되나고-!"
 	done
 
 PicnickerLiz1AfterText:

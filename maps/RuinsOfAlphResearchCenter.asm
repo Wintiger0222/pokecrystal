@@ -125,10 +125,26 @@ RuinsOfAlphResearchCenterScientist2Script:
 	end
 
 .GotAllUnown:
+IF DEF(_MOBILE)
+	special Mobile_DummyReturnFalse
+	iftrue .Mobile
+	writetext RuinsOfAlphResearchCenterUnusedText1
+	waitbutton
+	closetext
+	end
+
+.Mobile
+	writetext RuinsOfAlphResearchCenterUnusedText2
+	waitbutton
+	closetext
+	end
+
+ELSE
 	writetext RuinsOfAlphResearchCenterScientist2Text_GotAllUnown
 	waitbutton
 	closetext
 	end
+ENDC
 
 RuinsOfAlphResearchCenterComputer:
 	opentext
@@ -241,13 +257,13 @@ RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
 	line "바로 조사를 착수해야겠군!"
 	done
 
-RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text"わたしたちの　ちょうさと　きみの"
-	line"きょうりょくの　おかげで"
-	cont"いせきの　ことが　わかってきたよ"
+RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:;TRANSLATED
+	text"우리의　조사와　너의"
+	line"협력　덕분에"
+	cont"유적의　정체를　알수 있었어"
 
-	para"あの　いせきは　ポケモンの　すみか"
-	line"として　つくられた　らしいね"
+	para"이　유적은　포켓몬의　거처로"
+	line"사용할려고 만든것 같아"
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
@@ -268,36 +284,37 @@ RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	line "유적에 있다는 것인가……"
 	done
 
-RuinsOfAlphResearchCenterUnusedText1:
+;MOBILE RELATED
+RuinsOfAlphResearchCenterUnusedText1:;TRANSLATED
 ; unused
-	text"なぞの　もようが　あらわれたのには"
-	line"なにか　きっかけとなる　できごとが"
-	cont"あったと　おもうんだよ"
+	text"의문의　모양이　나타난데에는"
+	line"뭔가　계기가 된 일이 있었다고"
+	cont"우리 쪽에서는 생각하고 있어"
 
-	para"いま　それを　しらべているんだ"
+	para"지금　그것을　조사하는 중이야"
 	done
 
-RuinsOfAlphResearchCenterUnusedText2:
+RuinsOfAlphResearchCenterUnusedText2:;TRANSLATED
 ; unused
-	text"ぼくの　しらべでは…"
+	text"내 조사에 따르면…"
 
-	para"ポケモンコミュニケーションセンターが"
-	line"できたときから　なぞの　もようが"
-	cont"あらわれているんだ!"
+IF DEF (_MOBILE)
+	para"포켓몬 커뮤니티 센터가"
+ELSE
+	para"포켓몬 커뮤니케이션 센터가"
+ENDC
+	line"나타난 후로　수수꼐끼의　모양이"
+	cont"나타나고 있어!"
 
-	para"ということは…　でんぱ!　が"
-	line"なにか　かんけい　してるらしいね"
+	para"그렇다는건…　전파!　가"
+	line"뭔가　관련되어　있는 것 같아"
 	done
 
-RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
-	text "Why did those"
-	line "ancient patterns"
+RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:;TRANSLATED
+	text "왜 수수꼐끼의 모양이"
+	line "하필 지금 나타난 걸까……"
 
-	para "appear on the wall"
-	line "now?"
-
-	para "The mystery"
-	line "deepens…"
+	para "수수께끼가 커져가는군…"
 	done
 
 RuinsOfAlphResearchCenterComputerText:

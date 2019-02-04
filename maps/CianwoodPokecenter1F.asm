@@ -33,7 +33,17 @@ CianwoodGymGuyScript:
 	end
 
 CianwoodPokecenter1FSuperNerdScript:
-	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText;아마 일본어판에서 CianwoodPokecenter1FUnusedText1와 2, 모바일기능버전시구현필요
+IF DEF(_MOBILE)
+	special Mobile_DummyReturnFalse
+	iftrue .mobile
+	jumptextfaceplayer CianwoodPokecenter1FUnusedText1
+	
+.mobile
+	jumptextfaceplayer CianwoodPokecenter1FUnusedText2
+
+ELSE
+	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
+ENDC
 
 CianwoodPokecenter1FLassText:
 	text "이 마을의 매니아랑 만났니?"
@@ -42,7 +52,7 @@ CianwoodPokecenter1FLassText:
 	line "늘 자랑하고 있으니까"
 	done
 
-CianwoodGymGuyText:
+CianwoodGymGuyText:;TRANSLATED
 	text "이 마을의 포켓몬 체육관은"
 	line "난폭한 녀석들 투성이야!"
 	
@@ -58,14 +68,15 @@ CianwoodGymGuyText:
 	cont "상대방이 파워를 발휘하기 전에"
 	cont "쓰러뜨려야 한다!"
 	
-	para"それから…"
-	line"ジムの　まんなかにある　おおいわ!"
+	para"그것보다…"
+	line"체육관 한가운데에 있는"
+	cont"거대한 바위!"
 
-	para"あれを　うまく　うごかさないと"
-	line"ジムりーダーには　あえないぜ!"
+	para"저걸 제대로 움직이지 않으면"
+	line"관장한테 도달할 수 없다!"
 
-	para"さきにすすめなく　なったら"
-	line"いちど　そとにでるのも　だいじだぞ"
+	para"진행할수 없게 되면"
+	line"한번 나가보는 것도 중요해"
 	done
 
 CianwoodGymGuyWinText:
@@ -73,40 +84,34 @@ CianwoodGymGuyWinText:
 	line "그 표정을 보면 알 수 있지!"
 	done
 
-CianwoodPokecenter1FUnusedText1:
+CianwoodPokecenter1FUnusedText1:;TRANSLATED
 ; unreferenced
-	text"じぶんの　ポケモンって"
-	line"ひとにみせたく　なるよね!"
+	text"자신의 포켓몬을"
+	line"다른사람에게 보여주고 싶어!"
 
-	para"キキョウの　ともだちに"
-	line"ぼくが　そだてた　ポケモン"
-	cont"みせて　あげたいな…"
+	para"도라지시티의 친구에게"
+	line"내가 키운 포켓몬"
+	cont"보여주고 싶은데…"
 	done
 
-CianwoodPokecenter1FUnusedText2:
+CianwoodPokecenter1FUnusedText2:;TRANSLATED
 ; unreferenced
-	text"さいきん　モバイルアダプタで"
-	line"キキョウの　ともだちと"
-	cont"つうしんたいせん　してるんだ"
+	text"최근　모바일 어댑터로"
+	line"도라지시티의 친구랑"
+	cont"통신대전을 하고있어"
 
-	para"いま　5しょう　7はい!"
-	line"まだまだ　これからだよね!"
+	para"지금은 5 대 7!"
+	line"아직 끝나지 않았다고!"
 	done
 
-CianwoodPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+CianwoodPokecenter1FSuperNerdText:;TRANSLATED
+	text"자신의 포켓몬을"
+	line"다른사람에게 보여주고 싶어!"
 
-	para "I've raised."
-	line "Don't you?"
-
-	para "I'm going to get"
-	line "into a bunch of"
-
-	para "battles, and show"
-	line "off my #MON!"
+	para "배틀을 많이 해서"
+	line "내 포켓몬을 자랑할거야!"
 	done
-; 나는 내가 키운 #MON을 자랑하는 것을 좋아한다. 그렇지 않나요? 나는 많은 전투에 참가해서 내 #MON을 자랑할 거야!
+	
 CianwoodPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 

@@ -60,9 +60,8 @@ MobileBattleRoom_EstablishingCommsText:;TRANSLATED
 	done
 
 MobileBattleRoom_HealText:
-	text "Your #MON will"
-	line "be fully healed"
-	cont "before battle."
+	text "배틀 전에 포켓몬들의 체력이"
+	line "회복됩니다"
 	done
 
 MobileBattleRoom_MapEvents:

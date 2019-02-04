@@ -87,44 +87,44 @@ CeladonPokecenter1FPharmacistText:
 	cont "3년전의 이야기란다!"
 	done
 
-CeladonEusineText1:
-	text"ミナキ『やあ!"
+CeladonEusineText1:;TRANSLATED
+	text"수호『여어!"
 
-	para"ひさしぶりに　じっかに"
-	line"かえって　きたんだ"
+	para"오랜만에 고향에"
+	line"돌아왔어"
 	done
 
-EusineLeavesCeladonText:
-	text"<PLAYER>は　しってるかい?"
+EusineLeavesCeladonText:;TRANSLATED
+	text"<PLAYER>는 알아?"
 
-	para"さっき　きいた　はなし　なんだが"
-	line"スズのとうに　にじいろの　ポケモンが"
-	cont"あらわれたって　うわさだ"
+	para"아까 들은 이야기인데"
+	line"방울탑에 무지개색 포켓몬이"
+	cont"나타났다는 소문이 있어"
 
-	para"わたしも　いまから"
-	line"エンジュに　いこうと　おもって"
+	para"나도 지금부터"
+	line"인주시티에 갈까 생각하는데"
 
-	para"まずは　ポケモンの　かいふくを"
-	line"してたって　わけさ"
+	para"일단믄 포켓몬 회복을"
+	line"먼저 해야겠지"
 
-	para"それじゃあ　おさきに　<PLAYER>!"
+	para"그럼 거기서 보자　<PLAYER>!"
 	done
 
-NoBeastsText:
-	text"そういえば　<PLAYER>"
-	line"でんせつの　ポケモンである"
+NoBeastsText:;TRANSLATED
+	text"그러고보니　<PLAYER>"
+	line"전설의 포켓몬 있잖아"
 
-	para"ライコウと　エンテイを"
-	line"つかまえたかい?"
+	para"라이코랑 앤테이는"
+	line"잡았어?"
 
 	para"……………"
 
-	para"そうか…"
+	para"그런가…"
 
-	para"つかまえたら　わたしにも"
-	line"しらせて　ほしい"
+	para"잡았다면 나한테도"
+	line"알려줬으면 좋겠어"
 
-	para"よろしく　たのむぜ　<PLAYER>!"
+	para"잘 부탁한다구　<PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

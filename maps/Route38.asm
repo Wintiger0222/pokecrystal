@@ -354,11 +354,11 @@ UnknownText_0x1a200e:
 	line "엄청나게 집중을 하고있지!"
 	done
 
-LassDana1SeenText:
-	text"キミ　ポケモン　つよそうじゃん!"
+LassDana1SeenText:;TRANSLATE
+	text"너 포켓몬 강해 보이는데!"
 
-	para"つよいんだったら"
-	line"いろいろ　コツを　おしえてよ!"
+	para"강하다면"
+	line"이것저것 코치좀 해줘!"
 	done
 
 LassDana1BeatenText:
@@ -408,23 +408,23 @@ SailorHarryAfterBattleText:
 	cont "포켓몬과 사이좋게 지내고있단다"
 	done
 
-BeautyOliviaSeenText:
-	text"ねぇ　わたしも　ポケモンも"
-	line"とっても　キレイだと　おもわない?"
+BeautyOliviaSeenText:;TRANSLATE
+	text"저기 나랑　포켓몬"
+	line"둘다 아름답다고 생각 안해?"
 	done
 
 
-BeautyOliviaBeatenText:
-	text"びようのためにまいにち"
-	line"モーモーミルクを　のんでるのよ"
+BeautyOliviaBeatenText:;TRANSLATE
+	text"우린 미용을 뮈해 매일"
+	line"튼튼밀크를 마시고있어"
 	done
 
-BeautyOliviaAfterBattleText:
-	text"モーモーミルクは"
-	line"びようと　けんこうにいいけれど"
+BeautyOliviaAfterBattleText:;TRANSLATE
+	text"튼튼밀크가 미용에"
+	line"참 좋긴 한데"
 
-	para"ひとり　1ぽんずつ　しか"
-	line"うってもらえないのが　なんてんよねぇ"
+	para"한 명당 1병 밖에"
+	line"팔지 않는게 흠지야"
 	done
 
 Route38SignText:

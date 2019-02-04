@@ -47,38 +47,38 @@ Route6UndergroundPathSignText:
 	line "블루시티 …… 갈색시티"
 	done
 	
-PokefanmRexSeenText:
-	text"だから　わたしの　ゴマゾウちゃんが"
-	line"せかいで　1ばん　かわいいん　です!"
+PokefanmRexSeenText:;TRANSLATED
+	text"그러니까 제 코코리가"
+	line"세계에서　제일　귀엽다고요!"
 	done
 
-PokefanmRexBeatenText:
-	text"わたしの　ゴマゾウちゃんがー!"
+PokefanmRexBeatenText:;TRANSLATED
+	text"나의 코코리가-!"
 	done
 
-PokefanmRexAfterBattleText:
-	text"みてくださいよ　この"
-	line"ゴマゾウちゃんの　あまえた　しぐさ!"
+PokefanmRexAfterBattleText:;TRANSLATED
+	text"봐주세요 이"
+	line"코코리가 어리광부리는 모습을!"
 
-	para"もう　かわいくて　かわいくて"
-	line"クゥーって　かんじに　なるでしょ?"
+	para"너무 귀엽고 귀여워서"
+	line"심정지가 느껴지지 않나요?"
 	done
 
-PokefanmAllanSeenText:
-	text"だから　わたしの　ヒメグマちゃんが"
-	line"せかいで　1ばん　かわいいん　です!"
+PokefanmAllanSeenText:;TRANSLATED
+	text"그러니까 제 깜지곰이"
+	line"세계에서　제일　귀엽다고요!"
 	done
 
-PokefanmAllanBeatenText:
-	text"わたしの　ヒメグマちゃんがー!"
+PokefanmAllanBeatenText:;TRANSLATED
+	text"나의 깜지곰이-!"
 	done
 
-PokefanmAllanAfterBattleText:
-	text"みてくださいよ　この"
-	line"ヒメグマちゃんの　あまえた　しぐさ!"
+PokefanmAllanAfterBattleText:;TRANSLATED
+	text"봐주세요 이"
+	line"깜지곰이 어리광부리는 모습을!"
 
-	para"もう　かわいくて　かわいくて"
-	line"クゥーって　かんじに　なるでしょ?"
+	para"너무 귀엽고 귀여워서"
+	line"심정지가 느껴지지 않나요?"
 	done
 
 Route6_MapEvents:

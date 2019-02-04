@@ -398,15 +398,13 @@ GoldenrodGameCornerPokefanM2Text:
 	done
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "와하하! 돈이"
+	line "굴러들어 오는구나!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
-
-	para "It smells sweet."
+	text "누군가가 음료수를 놓고 갔다"
+	line "달콤한 냄새가 난다"
 	done
 
 GoldenrodGameCorner_MapEvents:

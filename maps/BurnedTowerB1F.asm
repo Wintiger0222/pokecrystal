@@ -191,33 +191,33 @@ BurnedTowerB1FEusineMovement1:
 	step DOWN
 	step_end
 
-BurnedTowerB1FEusineText:
-text"ミナキ『わたしも　あなをほって"
-	line"おりてきたら………"
+BurnedTowerB1FEusineText:;TRANSLATED
+	text"수호『나도　구멍을 파서"
+	line"내려왔는데 말야………"
 
-	para"おどろいたぜ!"
+	para"놀랐다구!"
 
-	para"めのまえを　ものすごい　いきおいで"
-	line"スイクンが　かけていった"
+	para"눈앞을　무서운　기세로"
+	line"스이쿤이　달리고 있었어"
 
-	para"スイクンを　おいかけて　10ねん"
-	line"ようやく　であうことが　できた"
+	para"스이쿤을　뒤쫓은지　10년"
+	line"간신히　만날 수　있었어"
 
-	para"かんどうだぜ!"
+	para"감동했다고!"
 
-	para"これも　<PLAYER>の　おかげだ"
-	line"ありがとう!"
+	para"이것도　<PLAYER>　덕분이야"
+	line"고마워!"
 
-	para"エンジュに　つたわる"
-	line"でんせつの　ポケモンは"
-	cont"みとめた　ひとを　ちかづけて　ためす"
+	para"진주시티에　전해지는"
+	line"전설의　포켓몬은"
+	cont"인정한　사람을　가까이서　시험한다"
 
-	para"そうきいたことが　あるぜ"
+	para"그렇게 들은 적이　있어"
 
-	para"わたしは　スイクンを　おう"
+	para"나는　스이쿤을　쫓을거야"
 
-	para"では　<PLAYER>　またあおう!"
-	line"さらばだ!"
+	para"그럼　<PLAYER>　다시만나자!"
+	line"안녕!"
 	done
 
 BurnedTowerB1F_MapEvents:

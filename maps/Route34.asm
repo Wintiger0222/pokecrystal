@@ -385,11 +385,24 @@ TrainerYoungsterSamuel:
 .Script:
 	endifjustbattled
 	opentext
+IF DEF(_MOBILE)
+	special Mobile_DummyReturnFalse
+	iftrue .mobile
+ENDC
 	writetext YoungsterSamuelAfterText
 	waitbutton
 	closetext
 	end
 
+IF DEF(_MOBILE)
+.mobile
+	writetext YoungsterSamuelAfterText
+	waitbutton
+	closetext
+	end
+ENDC
+
+	
 TrainerYoungsterIan:
 	trainer YOUNGSTER, IAN, EVENT_BEAT_YOUNGSTER_IAN, YoungsterIanSeenText, YoungsterIanBeatenText, 0, .Script
 
@@ -511,14 +524,14 @@ YoungsterSamuelSeenText:
 	line "연습 장소란다!"
 	done
 
-YoungsterSamuelBeatenText:
-	text"とおりすがりの　やつに　まけた！"
+YoungsterSamuelBeatenText:;TRANSLATED
+	text"지나가는 여행자에게 졌다!"
 	done
 
-YoungsterSamuelMobileText:
-	text"きみ　もう　コガネに　いった?"
-	line"ポケモンセンターが　かわってて"
-	cont"びっくり　しただろ?"
+YoungsterSamuelMobileText:;TRANSLATED
+	text"너도　금빛시티　간적 있어?"
+	line"포켓몬센터가 바뀌어서"
+	cont"깜짝 놀랐지?"
 	done
 
 YoungsterSamuelAfterText:
@@ -547,19 +560,19 @@ CamperTodd1SeenText:
 	line "잠시 승부할래?"
 	done
 
-CamperTodd1BeatenText:
-	text"そだてかた　まちがえたかな?"
+CamperTodd1BeatenText:;TRANSLATED
+	text"키우는 방법이 잘못됐었나?"
 	done
 
-CamperTodd1AfterText:
-	text"うーん…"
-	line"そだてやさんに　あずけようかな?"
-	cont"どうぐを　つかおうかな?"
+CamperTodd1AfterText:;TRANSLATED
+	text"으-음…"
+	line"보모의 집에 들러야 되나?"
+	cont"도구를 써야 되나?"
 	done
 
-CamperToddSaleText:
-	text"そらの　したで　かいもの!"
-	line"おくじょうは　きぶん　いいよねー"
+CamperToddSaleText:;TRANSLATED
+	text"하늘 아래에서 쇼핑!"
+	line"옥상은 기분 좋네-"
 	done
 
 PicnickerGina1SeenText:

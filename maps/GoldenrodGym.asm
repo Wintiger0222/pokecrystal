@@ -254,20 +254,20 @@ WhitneyGoodCryText:
 	line "바이바이!"
 	done
 
-LassCarrieSeenText:
-	text"あたしの　ポケモン　かわいいからって"
-	line"ゆだんしてると　いたいめ　みるわよ!"
+LassCarrieSeenText:;TRANSLATED
+	text"내 포켓몬 귀엽다고 방심하면"
+	line"쓴 맛을 보게 될 수가 있어!"
 	done
 
-LassCarrieBeatenText:
-	text"やっちゃった……"
-	line"あたしが　ゆだん　しちゃったみたい"
+LassCarrieBeatenText:;TRANSLATED
+	text"당했다……"
+	line"내 쪽이 방심한 거 같아"
 	done
 
-LassCarrieAfterBattleText:
-	text"ポケモンのほうは"
-	line"あたしのこと　かわいいって"
-	cont"おもって　くれてるのかな?"
+LassCarrieAfterBattleText:;TRANSLATED
+	text"내 포켓몬은"
+	line"내가 하는 것이　귀엽다고"
+	cont"생각해 줄까나?"
 	done
 
 LassBridgetSeenText:

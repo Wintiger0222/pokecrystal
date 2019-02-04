@@ -266,6 +266,10 @@ TrainerCooltrainerfKelly:
 TrainerCamperQuentin:
 	faceplayer
 	opentext
+IF DEF(_MOBILE)
+	special Mobile_DummyReturnFalse
+	iffalse .Route45DummyScript
+ENDC
 	checkevent EVENT_BEAT_CAMPER_QUENTIN
 	iftrue .Defeated
 	writetext CamperQuentinSeenText
@@ -285,7 +289,7 @@ TrainerCamperQuentin:
 	closetext
 	end
 
-Route45DummyScript:
+.Route45DummyScript:
 	writetext Route45DummyText
 	waitbutton
 	closetext
@@ -377,12 +381,12 @@ HikerTimothyAfterBattleText:
 	line "그것은 포켓몬과 만났다는 것이다!"
 	done
 
-HikerParryGivesIronText:
-	text"いやいや　ほんとにかなわんな!"
-	line"その　ちょうしで　がんばれよ!"
+HikerParryGivesIronText:;TRANSLATED
+	text"이런이런 상대가 안되는구나!"
+	line"그 기세로 힘내도록 하라!"
 
-	para"このあいだの　わすれもの"
-	line"きょうこそ　もらってくれ!"
+	para"전에 주려다가 잊어버린 거"
+	line"이번엔 받아주렴!"
 	done
 
 BlackbeltKenji3SeenText:
@@ -401,16 +405,16 @@ BlackbeltKenjiAfterBattleText:
 	line "산중에 틀어박히지 않으면 안되는가……"
 	done
 
-BlackbeltKenjiMorningText:
-	text"ひるの　きゅうけい　じかんまで"
-	line"もうすこし　しゅぎょうだ!"
+BlackbeltKenjiMorningText:;TRANSLATED
+	text"점심 휴식 시간까지"
+	line"좀더 수행이다!"
 	done
 
-BlackbeltKenjiNightText:
-	text"ひるま　たっぷり　やすんだから"
-	line"たいりょく　かいふく!"
+BlackbeltKenjiNightText:;TRANSLATED
+	text"점심에 엄청 쉬어서"
+	line"체력을 회복했다!"
 
-	para"また　しゅぎょうを　はじめるぞー!"
+	para"다시　수행을　시작하자-!"
 	done
 
 CooltrainermRyanSeenText:
@@ -449,25 +453,25 @@ CooltrainerfKellyAfterBattleText:
 	cont "싶지는 않으니까"
 	done
 
-Route45DummyText:
-	text"ボクは　すごく　つよいよ!"
+Route45DummyText:;BATTLE TOWER CLOSED;TRANSLATED
+	text"나는　무지하게　강하다고!"
 
-	para"どこかで　ボクの　つよさ"
-	line"ためせる　ところ　ないかなあ…"
+	para"내가 얼마나 강한지"
+	line"시험해줄 곳이 없을까나…"
 	done
 
-CamperQuentinSeenText:
-	text"ボクは　すごく　つよいよ!"
+CamperQuentinSeenText:;TRANSLATED
+	text"나는　무지하게　강하다고!"
 	done
 	
-CamperQuentinBeatenText:
-	text"バトルタワーでは"
-	line"すごく　つよかったんだけどな…"
+CamperQuentinBeatenText:;TRANSLATED
+	text"배틀타워에서는 엄청"
+	line"강했었는데 말이야…"
 	done
 
-CamperQuentinAfterBattleText:
-	text"バトルタワーには　いった?"
-	line"あそこなら　ぜったい　まけないのに…"
+CamperQuentinAfterBattleText:;TRANSLATED
+	text"배틀타워 가본 적 있어?"
+	line"거기서는 절대 안 지는데…"
 	done
 
 Route45SignText:

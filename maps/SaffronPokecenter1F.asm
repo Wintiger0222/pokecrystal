@@ -39,28 +39,28 @@ SaffronPokecenter1FFisherScript:
 SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
-SaffronPokecenter1FTeacherText:
+SaffronPokecenter1FTeacherText:;TRANSLATED
 	text "성도의 포켓몬 센터는"
 	line "어떻게 생겼어?"
 
-	para"…ふーん　カントーと"
-	line"あまり　かわらないのね"
+	para"…흐-음　관동하고"
+	line"별로　다르지 않구나"
 
-	para"じゃあ　あんしんして"
-	line"ジョウトに　いけるわ!"
+	para"그럼　안심하고"
+	line"성도에　갈수 있겠어!!"
 	done
 
-SaffronPokecenter1FTeacherMobileText:
+SaffronPokecenter1FTeacherMobileText:;TRANSLATED
 	text "성도의 포켓몬 센터는"
 	line "어떻게 생겼어?"
 
-	para"…ふーん　そっちでも"
-	line"とおくに　いる　ひとと"
-	cont"つうしん　できるように　なったんだー"
+	para"…흐-음　거기서도"
+	line"멀리　있는　사람과"
+	cont"통신할 수 있는 것인가-"
 
-	para"じゃあ　ジョウトの　ともだちに"
-	line"マりル　つかまえて　もらって"
-	cont"こうかん　しよっと!"
+	para"그럼　성도의　친구에게"
+	line"마릴을　잡아달라　부탁해서"
+	cont"교환해야지!"
 	done
 
 SaffronPokecenter1FFisherText:

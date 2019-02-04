@@ -280,18 +280,18 @@ YoungsterJoey1SeenText:
 	line "좋아! 승부를 겨루어보자!"
 	done
 
-YoungsterJoey1BeatenText:
-	text"ああ　また　まけた…!"
-	line"くやしいー!"
+YoungsterJoey1BeatenText:;TRANSLATED
+	text"아아　또　졌어…!"
+	line"분해-!"
 	done
 
-YoungsterJoey1AfterText:
-	text"やっぱ　もっと　ポケモンもってないと"
-	line"しょうぶのとき　きびしいのか?"
+YoungsterJoey1AfterText:;TRANSLATED
+	text"역시　좀 더　포켓몬을 가지고"
+	line"있지 않으면 승부가 힘드나?"
 
-	para"…いや!　こうなったら"
-	line"オレは　いじでも"
-	cont"こいつだけで　つよくなってやるぜ!"
+	para"…아니야!　이렇게 된다면"
+	line"나는　언제든지"
+	cont"이녀석한테만　잘해줄거야!"
 	done
 	
 YoungsterMikeySeenText:
@@ -371,15 +371,15 @@ Route30TrainerTipsText:
 	line "포켓몬에게만 던집시다!"
 	done
 
-YoungsterJoeyText_GiveHPUpAfterBattle:
-	text"また　まけちまったか…"
-	line"おまえ　ほんとーにつよいな!"
+YoungsterJoeyText_GiveHPUpAfterBattle:;TRANSLATED
+	text"또　져버렸나…"
+	line"너　정말로 강하구나!"
 
-	para"そうだ!"
-	line"わたすの　わすれる　ところだった！"
+	para"그레!"
+	line"이거 주는 것 까먹었다!"
 
-	para"これで　もっと　つよくなれよな"
-	line"おれも　もっと　つよくなるからさ!"
+	para"이걸로　더　강해지면"
+	line"나도　더　강해질테니까!"
 	done
 
 Route30_MapEvents:

@@ -227,33 +227,33 @@ Route40Lass1Text:
 	cont "진청시티라는 마을이 있단다"
 	done
 
-Route40PokefanMText:
-	text"む!　このさきにいくと"
-	line"なにやら　でっかい　たてものが!"
-	cont"なんだ　なんだ?"
+Route40PokefanMText:;TRANSLATED
+	text"흠!　이 앞으로 가면"
+	line"무엇보다도 큰 건물이!"
+	cont"뭐야 뭐야?"
 	done
 
-Route40PokefanMText_Mobile:
-	text"む!　つよそうな　<TRAINER>が"
-	line"いっぱい　はいってくぞ!"
-	cont"なんだ　なんだ?"
+Route40PokefanMText_Mobile:;TRANSLATED
+	text"흠!　강해보이는 트레이너가"
+	line"가득 모여 있어!"
+	cont"뭐야 뭐야?"
 	done
 
-Route40Lass2Text:
-	text"ふねで　アサギにかんこうにきたの!"
+Route40Lass2Text:;TRANSLATED
+	text"배타고　담청시티 관광하러 왔어!"
 
-	para"とかい　とは　ちがった"
-	line"みなとまちって　ムードが　いいわねえ"
+	para"도시하고는 다른"
+	line"항구도시라서 기분 좋네에"
 	done
 
-Route40StandingYoungsterText:
-	text"バトルタワーは　もう　いった?"
+Route40StandingYoungsterText:;TRANSLATED
+	text"배틀타워에는 가본 적 있어?"
 
-	para"かなり　つよい　<TRAINER>が"
-	line"あつまってる　らしいけど…"
+	para"제법 강한 트레이너들이"
+	line"모여든다는 거 같은데…"
 
-	para"それだけ　バッジを　もっているんなら"
-	line"かなり　いいせん　いけるんじゃない?"
+	para"그 정도로 배지를 가지고 있으면"
+	line"자격은 충분할 것 같은데?"
 	done
 
 MeetMonicaText:

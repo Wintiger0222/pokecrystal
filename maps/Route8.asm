@@ -135,18 +135,18 @@ SupernerdSamAfterBattleText:
 	line "대단해-!"
 	done
 
-SupernerdTomSeenText:
-	text"ほぅ…　きみは　ジムバッジを"
-	line"たくさん　もっている　ようだね"
+SupernerdTomSeenText:;TRANSLATED
+	text"호오…　너는 체육관 배지를"
+	line"잔뜩 가지고 있는것 같네"
 	done
 
-SupernerdTomBeatenText:
-	text"おもった　とおりだ…　つよい!"
+SupernerdTomBeatenText:;TRANSLATED
+	text"생각한 대로…　강해!"
 	done
 
-SupernerdTomAfterBattleText:
-	text"ジムバッジを　もっていると"
-	line"たいせんが　ゆうりになるんだよ"
+SupernerdTomAfterBattleText:;TRANSLATED
+	text"체육관 배지를 가지고 있으면"
+	line"대전에서 유리하게 되지"
 	done
 
 Route8LockedDoorText:

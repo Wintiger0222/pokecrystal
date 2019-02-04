@@ -153,6 +153,10 @@ Route36LassScript:
 	opentext
 	checkevent EVENT_FOUGHT_SUDOWOODO
 	iftrue .ClearedSudowoodo
+IF DEF(_MOBILE)
+	special Mobile_DummyReturnFalse
+	iftrue .mobile
+ENDC
 	writetext Route36LassText
 	waitbutton
 	closetext
@@ -163,6 +167,14 @@ Route36LassScript:
 	waitbutton
 	closetext
 	end
+
+IF DEF(_MOBILE)
+.mobile
+	writetext UnknownText_0x1945b8
+	waitbutton
+	closetext
+	end
+ENDC
 
 TrainerSchoolboyAlan1:
 	trainer SCHOOLBOY, ALAN1, EVENT_BEAT_SCHOOLBOY_ALAN, SchoolboyAlan1SeenText, SchoolboyAlan1BeatenText, 0, .Script
@@ -425,31 +437,31 @@ SudowoodoAttackedText:
 	para "이상한 나무가 덤벼들었다"
 	done
 
-FloriaText1:
-	text"あたし　フラワーショップの　サキ"
+FloriaText1:;TRANSLATE
+	text"나는　플라워숍의 꽃님"
 
-	para"ねーねー　きいて　きいて!"
+	para"저기저기　들어봐　들어봐!"
 
-	para"うごく　きにみずを　かけて　みたら"
-	line"おどろいて　とびあがったの!"
+	para"이상한　나무에　물을 뿌려보니"
+	line"놀라서 튀어오르는거 있지!"
 
-	para"きっと　しょうたいは　ポケモンなのよ"
+	para"분명　정체는　포켓몬일 거야"
 
-	para"もっと　みずを　かければ　おどろいて"
-	line"しょうたいを　あらわす　はずよ!"
+	para"분명히　물을　뿌리고　있으면"
+	line"정체를　드러낼 꺼야!"
 
-	para"そうだ!"
-	line"おねえちゃんにこのことを　はなして"
-	cont"じょうろを　かして　もらおーっと!"
+	para"그래!"
+	line"언니에게 이 일을　말해서"
+	cont"물뿌리개　빌려달라　해야지!"
 	done
 	
-FloriaText2:
-	text"うちの　おねえちゃんに"
-	line"うごく　きの　はなしを　したら"
-	cont"あぶないから　やめなさい　だって!"
+FloriaText2:;TRANSLATE
+	text"우리　언니에게"
+	line"이상한　나무　얘기를　했는데"
+	cont"위험하니까　그만두라고 했어!"
 
-	para"アカネちゃんにかてたら"
-	line"じょうろ　かして　くれるかなぁ……"
+	para"꼭두에게 이기면"
+	line"물뿌리개　빌려　주려나아……"
 	done
 
 RockSmashGuyText1:
@@ -485,13 +497,13 @@ RockSmashGuyText3:
 	line "부수는게 좋다고 생각하지!"
 	done
 	
-UnknownText_0x1945b8:
-	text"おかしな　きが　はえちゃって"
-	line"コガネにいけないのよー!"
+UnknownText_0x1945b8:;TRANSLATE
+	text "이상한 나무가 생겨서"
+	line "금빛시티에 갈 수 없어"
 
-	para"すっごく　ひろい　ポケモンセンターが"
-	line"できたって　いうから"
-	cont"みにいこうと　おもったのに"
+	para"엄청 큰 포켓몬센터가"
+	line"있다고 해서"
+	cont"보러 갈려"
 	done
 
 Route36LassText:

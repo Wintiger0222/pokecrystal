@@ -185,13 +185,11 @@ GentlemanAlfredAfterBattleText:
 	cont "치료할 수 없다는 이야기란다"
 	done
 
-SailorHueyGiveProteinText:
-	text "Man! You're as"
-	line "tough as ever!"
+SailorHueyGiveProteinText:;TRANSLATED
+	text "평소처럼 강인하군!"
 
-	para "Anyway, here's"
-	line "that medicine from"
-	cont "before."
+	para "어쨋든 여기 전에 봤던"
+	line "그 약이다"
 	done
 
 OlivineLighthouse2F_MapEvents:

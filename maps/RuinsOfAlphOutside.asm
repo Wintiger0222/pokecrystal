@@ -220,33 +220,33 @@ RuinsOfAlphResearchCenterSignText:
 	line "유적의 질문 접수중!"
 	done
 
-RuinsOfAlphOutsideFisherText1:
-	text"いせきを　みてたら　きゅうに"
-	line"なにかの　けはいを　かんじたんだ…"
+RuinsOfAlphOutsideFisherText1:;TRNASLATED
+	text"유적을　보는　중에"
+	line"뭔가의 기척을 느꼈어…"
 
-	para"みんなも　こわくなって　にげたよ!"
+	para"모두들　겁먹어서　도망쳤다고!"
 	line"きみも　きを　つけなよ"
 	done
 
-RuinsOfAlphOutsideFisherText2:
-	text"この　いせきには　なにか　おおきな"
-	line"ひみつが　かくされている!"
-	cont"…と　おもうんだけど…"
+RuinsOfAlphOutsideFisherText2:;TRNASLATED
+	text"이　유적에는　뭔가　거대한"
+	line"비밀이　숨겨져 있다!"
+	cont"…고 생각해…"
 	done
 
-RuinsOfAlphOutsideYoungster1Text:
-	text"アンノーン　って　たくさん　いるから"
-	line"ぼくたち　ひみつの　あんごうに"
-	cont"してるんだ!"
+RuinsOfAlphOutsideYoungster1Text:;TRNASLATED
+	text"안농은 종류가　잔뜩　있으니까"
+	line"우리들의 비밀 암호로"
+	cont"쓰고 있어!"
 	done
 
-RuinsOfAlphOutsideYoungster2Text:
-	text"こ…　の…　さ…　き…"
-	line"うーん"
+RuinsOfAlphOutsideYoungster2Text:;TRNASLATED
+	text"ㅇ…ㅣ…　ㅇ…ㅏ…ㅍ…　ㅇ…ㅔ…"
+	line"으-음"
 
-	para"え?"
+	para"응?"
 
-	para"あんごうを　といてるんだよ!"
+	para"암호를　해독하고 있어!"
 	done
 
 RuinsOfAlphOutside_MapEvents:

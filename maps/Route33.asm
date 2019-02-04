@@ -157,22 +157,22 @@ HikerAnthony2AfterText:
 	line "힘이 100배 된다는 것이다!"
 	done
 	
-HikerAnthonyDunsparceText:
-	text"ノコッチ　つかまえて　きたか?"
+HikerAnthonyDunsparceText:;TRANSLATED
+	text"노고치를 잡아본 적이 있는가"
 
-	para"わしも　つかまえたけど"
-	line"あかるい　ところで　みると"
-	cont"おもしろい　かお　してるなあ!"
+	para"나도 하나 잡긴 했네만"
+	line"밝은 곳을 보고 있으면"
+	cont"재미있는 얼굴을 하고 있지!"
 	done
 
-Route33LassText:
-	text"はあ　はあ…"
-	line"やっと　どうくつを　ぬけたわ"
+Route33LassText:;TRANSLATED
+	text"하아 하아…"
+	line"드디어 동굴에서 빠져나왔네"
 
-	para"おもったより　なかが"
-	line"ずっと　ひろいんだもの"
-	cont"ぜんぶ　みてまわれない　うちに"
-	cont"つかれて　でてきちゃった"
+	para"생각한 것보다 안쪽이"
+	line"훨씬 넓어서"
+	cont"전부 돌아보니 못하고"
+	cont"힘들어서 나와버렸어"
 	done
 	
 Route33SignText:

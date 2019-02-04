@@ -51,21 +51,21 @@ Route4HPUp:
 Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
 
-BirdKeeperHankSeenText:
-	text"いま　ポケモン　そだててるんだ"
-	line"しょうぶの　あいてを　してくれよ!"
+BirdKeeperHankSeenText:;TRANSLATED
+	text"지금　포켓몬을　키우고 있어"
+	line"승부의 기회를 줘!"
 	done
 	done
 
-BirdKeeperHankBeatenText:
-	text"あれ　まけちゃったか…"
+BirdKeeperHankBeatenText:;TRANSLATED
+	text"어라　져버린건가…"
 	done
 
-BirdKeeperHankAfterBattleText:
-	text"そだてたい　ポケモンが　いるときは"
-	line"さいしょに　だして　すぐ　ひっこめる"
+BirdKeeperHankAfterBattleText:;TRANSLATED
+	text"키우고 싶은 포켓몬이 생길 때는"
+	line"맨 처음에 꺼낸뒤 다시 집어넣어"
 
-	para"これが　コツだね"
+	para"그게 요령이야"
 	done
 
 PicnickerHopeSeenText:

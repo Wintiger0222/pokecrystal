@@ -64,15 +64,15 @@ MountMortar1FInsideUltraBall:
 MountMortar1FInsideHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 
-PokemaniacMillerSeenText:
+PokemaniacMillerSeenText:;TRANSLATED
 	text"こんどは　まけないぞー!"
 	done
 
-PokemaniacMillerBeatenText:
+PokemaniacMillerBeatenText:;TRANSLATED
 	text"こんな　こどもにも　まけるなんて…"
 	done
 
-PokemaniacMillerAfterBattleText:
+PokemaniacMillerAfterBattleText:;TRANSLATED
 	text"このまえ　からてかの　おっさんに"
 	line"しょうぶを　いどまれたんだけど"
 
@@ -83,15 +83,15 @@ PokemaniacMillerAfterBattleText:
 	line"はいっていったけど　げんきかな?"
 	done
 
-SupernerdMarkusSeenText:
+SupernerdMarkusSeenText:;TRANSLATED
 	text"おーい!　タカフミー!"
 	done
 
-SupernerdMarkusBeatenText:
+SupernerdMarkusBeatenText:;TRANSLATED
 	text"ありゃ　ひとちがい…"
 	done
 
-SupernerdMarkusAfterBattleText:
+SupernerdMarkusAfterBattleText:;TRANSLATED
 	text"すりばちやまを"
 	line"ちょうさ　するためにきたんだけど"
 	cont"なかまと　はぐれちゃったんだよ…"
