@@ -157,21 +157,21 @@ BurnedTower1FEusineMovement:
 	step DOWN
 	step_end
 
-BurnedTowerSilver_BeforeText:
+BurnedTowerSilver_BeforeText:;TRANSLATED
 	text"……　……　……"
 
-	para"……　なんだ　おまえ　か"
+	para"……　뭐야　너였냐"
 
-	para"ここに　ねむると　いわれる"
-	line"でんせつの　ポケモンを"
-	cont"さがしに　わざわざ　きたが"
-	cont"そんな　ポケモン　どこにも　いない!"
+	para"여기에　잠들어　있다는"
+	line"전설의　포켓몬을"
+	cont"머리를 써서 일부러 찾아왔는데"
+	cont"그런 포켓몬은 어디에도 없다고!"
 
-	para"せっかく　オレが"
-	line"こんなところ　まで　きてやったのに"
-	cont"ふざけやがって!"
+	para"일부러 내가"
+	line"이런 곳까지 왔는데"
+	cont"장난이나 치고!"
 
-	para"おまえの　せいだぞ!"
+	para"네 탓이라고!"
 	done
 
 BurnedTowerSilver_WinText:
@@ -198,50 +198,50 @@ BurnedTowerSilver_LossText:
 	cont "시간낭비만 될 뿐이야"
 	done
 
-BurnedTowerSilver_AfterText2:
-	text"ふん"
+BurnedTowerSilver_AfterText2:;TRANSLATED
+	text"흥"
 
-	para"なに　あな　なんかに　おちてんだ"
-	line"ドジな　ヤツ"
+	para"구멍 따위에나 떨어지네"
+	line"얼빠진 녀석"
 
-	para"ざまあみろ!"
+	para"꼴 좋다!"
 	done
 
-BurnedTower1FEusineIntroText:
-	text "ミナキ『わたしは　スイクンという"
-	line "ポケモンを　さがして　たびをしている"
-	cont "ミナキというものだ"
+BurnedTower1FEusineIntroText:;TRANSLATED
+	text "수호『나는 스이쿤이라는"
+	line "포켓몬을 찾아 여행하고 있는"
+	cont "수호라고 해"
 
-	para"きみは…"
+	para"너는…"
 
-	para"<PLAYER>というのか　よろしく!"
+	para"<PLAYER>라고 하는구나　반가워!"
 
-	para"この　やけたとうに　スイクンが"
-	line"いるという　はなしを　きいて"
-	cont"やって　きたが……"
+	para"여기　불탄탑에　스이쿤이"
+	line"있다는　얘기를　듣고"
+	cont"오긴　했는데……"
 
-	para"いったい　どこに　いるのやら…"
+	para"도데체 어디에 있는 건지…"
 	done
 
-BurnedTower1FEusineText:
-	text"ミナキ『この　やけたとうに"
-	line"スイクンが　いるという　はなしを"
-	cont"きいて　やって　きたが……"
+BurnedTower1FEusineText:;TRANSLATED
+	text"수호『여기　불탄탑에　스이쿤이"
+	line"있다는　얘기를　듣고"
+	cont"오긴　했는데……"
 
-	para"いったい　どこに　いるのやら…"
+	para"도데체 어디에 있는 건지…"
 	done
 	
-BurnedTower1FMortyText:
-	text"マツバ『エンジュの　ジムりーダーは"
-	line"でんせつのポケモンと　いわれている"
+BurnedTower1FMortyText:;TRANSLATED
+	text"유빈『인주시티의 체육관 관장은"
+	line"전설의 포켓몬으로 알려져 있는"
 
-	para"スイクン　エンテイ　ライコウに"
-	line"ついて　いろいろと"
-	cont"べんきょう　しなければ　ならないんだ"
+	para"스이쿤 엔테이 라이코"
+	line"에 대해 이것저것"
+	cont"공부하지 않으면 안되"
 
-	para"ミナキくんが　きているので"
-	line"いっしょに　この　とうを"
-	cont"しらべようと　おもってね"
+	para"수호군이　오면"
+	line"함께　이　탑을"
+	cont"조사하려고 해"
 	done
 
 BurnedTower1F_MapEvents:

@@ -44,22 +44,22 @@ MountMortar2FInsideEscapeRope:
 MountMortar2FInsideHiddenFullRestore:
 	hiddenitem FULL_RESTORE, EVENT_MOUNT_MORTAR_2F_INSIDE_HIDDEN_FULL_RESTORE
 
-SupernerdHughSeenText:
-	text"おーい!　ガクジー!"
+SupernerdHughSeenText:;TRANSLATED
+	text"어-이!　매홍-!"
 	done
 
-SupernerdHughBeatenText:
-	text"ゴメン　まちがえた…"
+SupernerdHughBeatenText:;TRANSLATED
+	text"미안　잘못봤어…"
 	done
 
-SupernerdHughAfterBattleText:
-	text"すりばちやまを"
-	line"ちょうさ　するためにきたんだけど"
-	cont"なかまと　はぐれちゃったんだよ…"
+SupernerdHughAfterBattleText:;TRANSLATED
+	text"절구산을"
+	line"조사하러 동료와 왔지만"
+	cont"도중에　떨어져 버렸어…"
 
-	para"かいりきを　つかう"
-	line"ヤドンを　つかってくる"
-	cont"<TRAINER>にあわなかった?"
+	para"괴력를 사용하는"
+	line"야돈을 가진"
+	cont"트레이너를 본 적 있어?"
 	done
 
 MountMortar2FInside_MapEvents:

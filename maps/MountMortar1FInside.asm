@@ -65,40 +65,40 @@ MountMortar1FInsideHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 
 PokemaniacMillerSeenText:;TRANSLATED
-	text"こんどは　まけないぞー!"
+	text"이번에는 지지 않는다!"
 	done
 
 PokemaniacMillerBeatenText:;TRANSLATED
-	text"こんな　こどもにも　まけるなんて…"
+	text"이런 꼬맹이한테 지다니…"
 	done
 
 PokemaniacMillerAfterBattleText:;TRANSLATED
-	text"このまえ　からてかの　おっさんに"
-	line"しょうぶを　いどまれたんだけど"
+	text"이 전에　태권도　소년과"
+	line"승부를 했지만"
 
-	para"メチャクチャ　つよくて"
-	line"ボロボロにされちゃったよ…"
+	para"엉망진창　되어버려"
+	line"너덜너덜하게 당해버렸다…"
 
-	para"しゅぎょうするって　おくに"
-	line"はいっていったけど　げんきかな?"
+	para"수행을 하러"
+	line"들어갔는데　잘 지내려나?"
 	done
 
 SupernerdMarkusSeenText:;TRANSLATED
-	text"おーい!　タカフミー!"
+	text"어-이!　혜음-!"
 	done
 
 SupernerdMarkusBeatenText:;TRANSLATED
-	text"ありゃ　ひとちがい…"
+	text"뭐야 다른사람이잖아…"
 	done
 
 SupernerdMarkusAfterBattleText:;TRANSLATED
-	text"すりばちやまを"
-	line"ちょうさ　するためにきたんだけど"
-	cont"なかまと　はぐれちゃったんだよ…"
+	text"절구산을"
+	line"조사하러 동료와 왔지만"
+	cont"도중에　떨어져 버렸어…"
 
-	para"たきのぼりを　つかう"
-	line"シードラを　つかってくる"
-	cont"<TRAINER>にあわなかった?"
+	para"폭포오르기를 사용하는"
+	line"시드라를 가진"
+	cont"트레이너를 본 적 있어?"
 	done
 
 MountMortar1FInside_MapEvents:

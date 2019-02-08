@@ -246,7 +246,7 @@ CianwoodCityUnusedText:
 	done
 
 EusineSuicuneText:
-	text"ミナキ『よう　<PLAYER>"
+	text"수호『여어　<PLAYER>"
 
 	para"いまの……"
 	line"スイクンじゃなかったか?"

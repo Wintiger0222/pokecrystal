@@ -78,9 +78,9 @@ TrainerCooltrainerfFran:
 	closetext
 	end
 
-CooltrainermCodySeenText:
-	text "ジムの　だれもが　ドラゴンタイプの"
-	line "<POKE>を　つかうわけ　じゃない!"
+CooltrainermCodySeenText:;TRANSLATED
+	text "체육관의　모두가　드래곤 타입의"
+	line "포켓몬을　사용하는것은　아니야!"
 	done
 
 CooltrainermCodyBeatenText:
