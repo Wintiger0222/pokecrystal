@@ -152,7 +152,7 @@ OaksAssistant1Text:
 	done
 	
 OaksAssistant2Text:
-	db "<PLAY_G>이"
+	text "<PLAY_G>이"
 	line "도감을 만들어주어서"
 	cont "박사님의 연구가"
 	cont "잘 진행되고 있어요!"
@@ -191,9 +191,7 @@ OaksLabPCText:
 	para "내쪽은……"
 	line "한창 힘내고 있는 중입니다"
 	
-	para "그건 그렇고"
-	db "<PLAY_G>"
-	db "이"
+	para "그건 그렇고<PLAY_G>이"
 	line "열심히 하고 있다는 소문을 들어서"
 	cont "매우 기쁘답니다!"
 	
