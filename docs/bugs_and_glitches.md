@@ -10,6 +10,8 @@ Fixes are written in the `diff` format. If you've used Git before, this should l
 +add green + lines
 ```
 
+Some fixes are mentioned as breaking compatibility with link battles. This can be avoided by writing more complicated fixes that only apply if the value at `[wLinkMode]` is not `LINK_COLOSSEUM`. That's how Crystal itself fixed two bugs in Gold and Silver regarding the moves [Reflect and Light Screen](#reflect-and-light-screen-can-make-special-defense-wrap-around-above-1024) and [Present](#present-damage-is-incorrect-in-link-battles).
+
 
 ## Contents
 
@@ -68,6 +70,7 @@ Fixes are written in the `diff` format. If you've used Git before, this should l
 - [`ChooseWildEncounter` doesn't really validate the wild Pokémon species](#choosewildencounter-doesnt-really-validate-the-wild-pokémon-species)
 - [`TryObjectEvent` arbitrary code execution](#tryobjectevent-arbitrary-code-execution)
 - [`ClearWRAM` only clears WRAM bank 1](#clearwram-only-clears-wram-bank-1)
+- [`BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects](#battleanimcmd_clearobjs-only-clears-the-first-6-objects)
 
 
 ## Thick Club and Light Ball can make (Special) Attack wrap around above 1024
@@ -897,22 +900,24 @@ CopyPokemonName_Buffer1_Buffer3:
  	call Random
  	cp 5 percent
  	jr c, .CheckMagikarpArea
- ; Try again if length >= 1616 mm (i.e. if LOW(length) >= 3 inches)
+ ; Try again if length >= 1616 mm (i.e. if LOW(length) >= 4 inches)
  	ld a, [wMagikarpLength + 1]
--	cp LOW(1616) ; should be "cp 3", since 1616 mm = 5'3", but LOW(1616) = 80
-+	cp 3
+-	cp LOW(1616) ; should be "cp 4", since 1616 mm = 5'4", but LOW(1616) = 80
++	cp 4
  	jr nc, .GenerateDVs
 
  ; 20% chance of skipping this check
  	call Random
  	cp 20 percent - 1
  	jr c, .CheckMagikarpArea
- ; Try again if length >= 1600 mm (i.e. if LOW(length) >= 2 inches)
+ ; Try again if length >= 1600 mm (i.e. if LOW(length) >= 3 inches)
  	ld a, [wMagikarpLength + 1]
--	cp LOW(1600) ; should be "cp 2", since 1600 mm = 5'2", but LOW(1600) = 64
-+	cp 2
+-	cp LOW(1600) ; should be "cp 3", since 1600 mm = 5'3", but LOW(1600) = 64
++	cp 3
  	jr nc, .GenerateDVs
 ```
+
+**Better fix:** Rewrite the whole system to use millimeters instead of feet and inches, since they have better precision (1 in = 25.4 mm); and only convert from metric to imperial units for display purposes (or don't, of course). 
 
 
 ## Magikarp lengths can be miscalculated
@@ -1204,22 +1209,22 @@ The exact cause of this bug is unknown.
 
 This is a mistake with the “`…`” tile in [gfx/battle/hp_exp_bar_border.png](/gfx/battle/hp_exp_bar_border.png):
 
-![image](/docs/images/hp_exp_bar_border.png)
+![image](/gfx/battle/hp_exp_bar_border.png)
 
 **Fix:** Lower the ellipsis by two pixels:
 
-![image](/docs/images/hp_exp_bar_border_fix.png)
+![image](/docs/images/hp_exp_bar_border.png)
 
 
 ## Two tiles in the `port` tileset are drawn incorrectly
 
 This is a mistake with the left-hand warp carpet corner tiles in [gfx/tilesets/port.png](/gfx/tilesets/port.png):
 
-![image](/docs/images/port.png)
+![image](/gfx/tilesets/port.png)
 
 **Fix:** Adjust them to match the right-hand corner tiles:
 
-![image](/docs/images/port_fix.png)
+![image](/docs/images/port.png)
 
 
 ## `LoadMetatiles` wraps around past 128 blocks
@@ -1253,7 +1258,66 @@ This bug prevents you from using blocksets with more than 128 blocks.
 
 ([Video](https://www.youtube.com/watch?v=XFOWvMNG-zw))
 
-*To do:* Identify specific code causing this bug and fix it.
+**Fix:**
+
+First, edit `UsedSurfScript` in [engine/events/overworld.asm](/engine/events/overworld.asm):
+
+```diff
+ UsedSurfScript:
+ 	writetext UsedSurfText ; "used SURF!"
+ 	waitbutton
+ 	closetext
+ 
+ 	callasm .empty_fn ; empty function
+ 
+ 	copybytetovar wBuffer2
+ 	writevarcode VAR_MOVEMENT
+ 
+ 	special ReplaceKrisSprite
+ 	special PlayMapMusic
+-; step into the water (slow_step DIR, step_end)
+ 	special SurfStartStep
+-	applymovement PLAYER, wMovementBuffer
+ 	end
+```
+
+Then edit `SurfStartStep` in [engine/overworld/player_object.asm](/engine/overworld/player_object.asm):
+
+```diff
+ SurfStartStep:
+-	call InitMovementBuffer
+-	call .GetMovementData
+-	call AppendToMovementBuffer
+-	ld a, movement_step_end
+-	call AppendToMovementBuffer
+-	ret
+-
+-.GetMovementData:
+ 	ld a, [wPlayerDirection]
+ 	srl a
+ 	srl a
+ 	maskbits NUM_DIRECTIONS
+ 	ld e, a
+ 	ld d, 0
+ 	ld hl, .movement_data
+ 	add hl, de
+-	ld a, [hl]
+-	ret
++	add hl, de
++	add hl, de
++	ld a, BANK(.movement_data)
++	jp StartAutoInput
+
+ .movement_data
+-	slow_step DOWN
+-	slow_step UP
+-	slow_step LEFT
+-	slow_step RIGHT
++	db D_DOWN,  0, -1
++	db D_UP,    0, -1
++	db D_LEFT,  0, -1
++	db D_RIGHT, 0, -1
+```
 
 
 ## Swimming NPCs aren't limited by their movement radius
@@ -1583,5 +1647,24 @@ This supports up to six entries.
  	cp 8
 -	jr nc, .bank_loop ; Should be jr c
 +	jr c, .bank_loop
+ 	ret
+```
+
+
+## `BattleAnimCmd_ClearObjs` only clears the first 6⅔ objects
+
+**Fix:** Edit `BattleAnimCmd_ClearObjs` in [engine/battle_anims/anim_commands.asm](/engine/battle_anims/anim_commands.asm):
+
+```diff
+ BattleAnimCmd_ClearObjs:
+-; BUG: This function only clears the first 6⅔ objects
+ 	ld hl, wActiveAnimObjects
+-	ld a, $a0 ; should be NUM_ANIM_OBJECTS * BATTLEANIMSTRUCT_LENGTH
++	ld a, NUM_ANIM_OBJECTS * BATTLEANIMSTRUCT_LENGTH
+ .loop
+ 	ld [hl], 0
+ 	inc hl
+ 	dec a
+ 	jr nz, .loop
  	ret
 ```

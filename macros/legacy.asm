@@ -53,6 +53,7 @@ storetext         EQUS "battletowertext"
 displaylocation   EQUS "landmarktotext"
 givepokeitem      EQUS "givepokemail"
 checkpokeitem     EQUS "checkpokemail"
+passtoengine      EQUS "autoinput"
 
 ; macros/scripts/maps.asm
 
@@ -174,3 +175,8 @@ limited_interpret_data EQUS "text_dots"
 link_wait_button       EQUS "text_linkwaitbutton"
 current_day            EQUS "text_today"
 text_jump              EQUS "text_far"
+
+; macros/scripts/battle_anims.asm
+anim_enemyfeetobj  EQUS "anim_battlergfx_2row"
+anim_playerheadobj EQUS "anim_battlergfx_1row"
+anim_clearsprites  EQUS "anim_keepsprites"
