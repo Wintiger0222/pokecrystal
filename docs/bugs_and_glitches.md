@@ -89,6 +89,7 @@ Some fixes are mentioned as breaking compatibility with link battles. This can b
 +	ld a, HIGH(MAX_STAT_VALUE)
 +	cp h
 +	jr c, .cap
++	ret nz
 +	ld a, LOW(MAX_STAT_VALUE)
 +	cp l
 +	ret nc
@@ -126,6 +127,7 @@ Some fixes are mentioned as breaking compatibility with link battles. This can b
 +	ld a, HIGH(MAX_STAT_VALUE)
 +	cp b
 +	jr c, .cap
++	ret nz
 +	ld a, LOW(MAX_STAT_VALUE)
 +	cp c
 +	ret nc
@@ -166,7 +168,7 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
 
 ## Moves with a 100% secondary effect chance will not trigger it in 1/256 uses
 
-*Fixing this bug will break compatibility with standard Pokémon Crystal for link battles.*
+*Fixing this bug **may** break compatibility with standard Pokémon Crystal for link battles.*
 
 ([Video](https://www.youtube.com/watch?v=mHkyO5T5wZU&t=206))
 
@@ -175,22 +177,36 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
 ```diff
 -	; BUG: 1/256 chance to fail even for a 100% effect chance,
 -	; since carry is not set if BattleRandom == [hl] == 255
+- 	call BattleRandom
 +	ld a, [hl]
-+	cp 100 percent
-+	jr z, .ok
- 	call BattleRandom
++	sub 100 percent
++	; If chance was 100%, RNG won't be called (carry not set)
++	; Thus chance will be subtracted from 0, guaranteeing a carry
++	call c, BattleRandom
  	cp [hl]
--	pop hl
--	ret c
-+	jr c, .ok
+ 	pop hl
+ 	ret c
 
  .failed
  	ld a, 1
  	ld [wEffectFailed], a
  	and a
-+.ok
-+	pop hl
  	ret
+```
+
+**Compatibility preservation:** If you wish to keep compatibility with standard Pokémon Crystal, you can disable the fix during link battles by also applying the following edit in the same place:
+
+```diff
++	ld a, [wLinkMode]
++	cp LINK_COLOSSEUM
++	scf ; Force RNG to be called
++	jr z, .nofix ; Don't apply fix in link battles, for compatibility
+ 	ld a, [hl]
+ 	sub 100 percent
+ 	; If chance was 100%, RNG won't be called (carry not set)
+ 	; Thus chance will be subtracted from 0, guaranteeing a carry
++.nofix
+ 	call c, BattleRandom
 ```
 
 ## Belly Drum sharply boosts Attack even with under 50% HP
@@ -231,7 +247,88 @@ This bug existed for all battles in Gold and Silver, and was only fixed for sing
 
 ([Video](https://twitter.com/crystal_rby/status/874626362287562752))
 
-*To do:* Identify specific code causing this bug and fix it.
+**Fix:**
+
+First, edit [hram.asm](/hram.asm):
+
+```diff
+ hClockResetTrigger:: db ; ffeb
++hIsConfusionDamage:: db ; ffec
+```
+
+Then edit four routines in [engine/battle/effect_commands.asm](/engine/battle/effect_commands.asm):
+
+```diff
+ HitSelfInConfusion:
+ 	...
+ 	call TruncateHL_BC
+ 	ld d, 40
+ 	pop af
+ 	ld e, a
++	ld a, TRUE
++	ldh [hIsConfusionDamage], a
+ 	ret
+```
+
+```diff
+ BattleCommand_DamageCalc:
+ ; damagecalc
+ 	...
+ .skip_zero_damage_check
++	xor a ; Not confusion damage
++	ldh [hIsConfusionDamage], a
++	; fallthrough
++
++ConfusionDamageCalc:
+ ; Minimum defense value is 1.
+ 	ld a, c
+ 	and a
+ 	jr nz, .not_dividing_by_zero
+ 	ld c, 1
+ .not_dividing_by_zero
+
+ 	...
+
+ ; Item boosts
++
++; Item boosts don't apply to confusion damage
++	ldh a, [hIsConfusionDamage]
++	and a
++	jr nz, .DoneItem
++
+ 	call GetUserItem
+
+ 	...
+```
+
+```diff
+ CheckEnemyTurn:
+ 	...
+
+ 	ld hl, HurtItselfText
+ 	call StdBattleTextBox
+ 	call HitSelfInConfusion
+
+-	call BattleCommand_DamageCalc
++	call ConfusionDamageCalc
+ 	call BattleCommand_LowerSub
+
+ 	...
+```
+
+```diff
+ HitConfusion:
+ 	ld hl, HurtItselfText
+ 	call StdBattleTextBox
+
+ 	xor a
+ 	ld [wCriticalHit], a
+
+ 	call HitSelfInConfusion
+-	call BattleCommand_DamageCalc
++	call ConfusionDamageCalc
+ 	call BattleCommand_LowerSub
+```
 
 
 ## Moves that lower Defense can do so after breaking a Substitute
@@ -329,7 +426,28 @@ Add this to the end of each file:
 
 ([Video](https://www.youtube.com/watch?v=tiRvw-Nb2ME))
 
-*To do:* Identify specific code causing this bug and fix it.
+**Fix:** Edit `PursuitSwitch` in [engine/battle/core.asm](/engine/battle/core.asm)
+
+```diff
+ 	ld a, $f0
+ 	ld [wCryTracks], a
+ 	ld a, [wBattleMonSpecies]
+ 	call PlayStereoCry
++	ld a, [wCurBattleMon]
++	push af
+ 	ld a, [wLastPlayerMon]
++	ld [wCurBattleMon], a
++	call UpdateFaintedPlayerMon
++	pop af
++	ld [wCurBattleMon], a
+-	ld c, a
+-	ld hl, wBattleParticipantsNotFainted
+-	ld b, RESET_FLAG
+-	predef SmallFarFlagAction
+ 	call PlayerMonFaintedAnimation
+ 	ld hl, BattleText_MonFainted
+ 	jr .done_fainted
+```
 
 
 ## Lock-On and Mind Reader don't always bypass Fly and Dig
