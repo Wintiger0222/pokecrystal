@@ -8,6 +8,8 @@
 
 # no binaries
 *.exe
+libpng16-16.dll
+zlib1.dll
 
 # roms
 *.gbc

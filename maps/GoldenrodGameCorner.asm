@@ -30,7 +30,7 @@ GoldenrodGameCorner_MapScripts:
 	iffalse .finish
 	checkitem COIN_CASE
 	iffalse .move_tutor_inside
-	checkcode VAR_WEEKDAY
+	readvar VAR_WEEKDAY
 	ifequal WEDNESDAY, .move_tutor_outside
 	ifequal SATURDAY, .move_tutor_outside
 .move_tutor_inside
@@ -72,40 +72,40 @@ GoldenrodGameCornerTMVendor_LoopScript:
 	ifequal 1, .Thunder
 	ifequal 2, .Blizzard
 	ifequal 3, .FireBlast
-	jump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
+	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
 .Thunder:
 	checkcoins GOLDENRODGAMECORNER_TM25_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext TM_THUNDER, MEM_BUFFER_0
+	getitemname STRING_BUFFER_3, TM_THUNDER
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	giveitem TM_THUNDER
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins GOLDENRODGAMECORNER_TM25_COINS
-	jump GoldenrodGameCornerTMVendor_FinishScript
+	sjump GoldenrodGameCornerTMVendor_FinishScript
 
 .Blizzard:
 	checkcoins GOLDENRODGAMECORNER_TM14_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext TM_BLIZZARD, MEM_BUFFER_0
+	getitemname STRING_BUFFER_3, TM_BLIZZARD
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	giveitem TM_BLIZZARD
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins GOLDENRODGAMECORNER_TM14_COINS
-	jump GoldenrodGameCornerTMVendor_FinishScript
+	sjump GoldenrodGameCornerTMVendor_FinishScript
 
 .FireBlast:
 	checkcoins GOLDENRODGAMECORNER_TM38_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext TM_FIRE_BLAST, MEM_BUFFER_0
+	getitemname STRING_BUFFER_3, TM_FIRE_BLAST
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	giveitem TM_FIRE_BLAST
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins GOLDENRODGAMECORNER_TM38_COINS
-	jump GoldenrodGameCornerTMVendor_FinishScript
+	sjump GoldenrodGameCornerTMVendor_FinishScript
 
 GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript:
 	writetext GoldenrodGameCornerPrizeVendorConfirmPrizeText
@@ -117,7 +117,7 @@ GoldenrodGameCornerTMVendor_FinishScript:
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	jump GoldenrodGameCornerTMVendor_LoopScript
+	sjump GoldenrodGameCornerTMVendor_LoopScript
 
 GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript:
 	writetext GoldenrodGameCornerPrizeVendorNeedMoreCoinsText
@@ -173,61 +173,61 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal 1, .Abra
 	ifequal 2, .Cubone
 	ifequal 3, .Wobbuffet
-	jump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
+	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
 .Abra:
 	checkcoins GOLDENRODGAMECORNER_ABRA_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	checkcode VAR_PARTYCOUNT
+	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	pokenamemem ABRA, MEM_BUFFER_0
+	getmonname STRING_BUFFER_3, ABRA
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	writebyte ABRA
+	setval ABRA
 	special GameCornerPrizeMonCheckDex
 	givepoke ABRA, 5
 	takecoins GOLDENRODGAMECORNER_ABRA_COINS
-	jump .loop
+	sjump .loop
 
 .Cubone:
 	checkcoins GOLDENRODGAMECORNER_CUBONE_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	checkcode VAR_PARTYCOUNT
+	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	pokenamemem CUBONE, MEM_BUFFER_0
+	getmonname STRING_BUFFER_3, CUBONE
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	writebyte CUBONE
+	setval CUBONE
 	special GameCornerPrizeMonCheckDex
 	givepoke CUBONE, 15
 	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
-	jump .loop
+	sjump .loop
 
 .Wobbuffet:
 	checkcoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	checkcode VAR_PARTYCOUNT
+	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	pokenamemem WOBBUFFET, MEM_BUFFER_0
+	getmonname STRING_BUFFER_3, WOBBUFFET
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	writebyte WOBBUFFET
+	setval WOBBUFFET
 	special GameCornerPrizeMonCheckDex
 	givepoke WOBBUFFET, 15
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
-	jump .loop
+	sjump .loop
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -301,14 +301,14 @@ GoldenrodGameCornerSlotsMachineScript:
 	random 6
 	ifequal 0, GoldenrodGameCornerLuckySlotsMachineScript
 	refreshscreen
-	writebyte FALSE
+	setval FALSE
 	special SlotMachine
 	closetext
 	end
 
 GoldenrodGameCornerLuckySlotsMachineScript:
 	refreshscreen
-	writebyte TRUE
+	setval TRUE
 	special SlotMachine
 	closetext
 	end

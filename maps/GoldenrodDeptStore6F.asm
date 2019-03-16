@@ -31,8 +31,8 @@ GoldenrodVendingMachine:
 	giveitem FRESH_WATER
 	iffalse .NotEnoughSpace
 	takemoney YOUR_MONEY, GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE
-	itemtotext FRESH_WATER, MEM_BUFFER_0
-	jump .VendItem
+	getitemname STRING_BUFFER_3, FRESH_WATER
+	sjump .VendItem
 
 .SodaPop:
 	checkmoney YOUR_MONEY, GOLDENRODDEPTSTORE6F_SODA_POP_PRICE
@@ -40,8 +40,8 @@ GoldenrodVendingMachine:
 	giveitem SODA_POP
 	iffalse .NotEnoughSpace
 	takemoney YOUR_MONEY, GOLDENRODDEPTSTORE6F_SODA_POP_PRICE
-	itemtotext SODA_POP, MEM_BUFFER_0
-	jump .VendItem
+	getitemname STRING_BUFFER_3, SODA_POP
+	sjump .VendItem
 
 .Lemonade:
 	checkmoney YOUR_MONEY, GOLDENRODDEPTSTORE6F_LEMONADE_PRICE
@@ -49,8 +49,8 @@ GoldenrodVendingMachine:
 	giveitem LEMONADE
 	iffalse .NotEnoughSpace
 	takemoney YOUR_MONEY, GOLDENRODDEPTSTORE6F_LEMONADE_PRICE
-	itemtotext LEMONADE, MEM_BUFFER_0
-	jump .VendItem
+	getitemname STRING_BUFFER_3, LEMONADE
+	sjump .VendItem
 
 .VendItem:
 	pause 10
@@ -58,17 +58,17 @@ GoldenrodVendingMachine:
 	writetext GoldenrodClangText
 	buttonsound
 	itemnotify
-	jump .Start
+	sjump .Start
 
 .NotEnoughMoney:
 	writetext GoldenrodVendingNoMoneyText
 	waitbutton
-	jump .Start
+	sjump .Start
 
 .NotEnoughSpace:
 	writetext GoldenrodVendingNoSpaceText
 	waitbutton
-	jump .Start
+	sjump .Start
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
