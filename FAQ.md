@@ -7,6 +7,7 @@
 - [I can't build the ROM, `make` just prints an error!](#i-cant-build-the-rom-make-just-prints-an-error)
   - [`gcc`: command not found](#gcc-command-not-found)
   - ["ERROR: `UNION` already defined"](#error-union-already-defined)
+  - ["Expression must be 8-bit"](#expression-must-be-8-bit)
   - ["Segmentation fault" from `rgbgfx`](#segmentation-fault-from-rgbgfx)
   - ["Section is too big" or "Unable to place section in bank"](#section-is-too-big-or-unable-to-place-section-in-bank)
   - ["Invalid file or object file version"](#invalid-file-or-object-file-version)
@@ -34,6 +35,10 @@ You need to install `gcc`. If you're using Cygwin, re-run its setup, and at "Sel
 
 Download [**rgbds 0.3.8**][rgbds]. Older versions will not work.
 
+### "Expression must be 8-bit"
+
+Download [**rgbds 0.3.8**][rgbds]. Older versions will not work.
+
 ### "Segmentation fault" from `rgbgfx`
 
 If you are using 64-bit Windows, download [**64-bit Cygwin**][cygwin] and [**64-bit rgbds**][rgbds].
@@ -57,7 +62,7 @@ If you added or changed any code, you've made a mistake while writing some of it
 
 ## How do I edit maps?
 
-For `asm` scripts, read [docs/map_event_scripts.md](docs/map_event_scripts.md). For `blk` layouts, use [Polished Map][polished-map].
+For `asm` scripts, read [docs/map_event_scripts.md](https://pret.github.io/pokecrystal/map_event_scripts). For `blk` layouts, use [Polished Map][polished-map].
 
 
 ## How do I edit the colors of an image?
@@ -71,7 +76,7 @@ It really depends on what image you're trying to change the colors of, where the
 
 ## How do I write new features?
 
-There are a number of special-purpose scripting languages, as described in [docs](docs/). For more general features, you'll need to code directly in [assembly language][asm]. Some of the [tutorials][tutorials] for specific features may also be helpful.
+There are a number of special-purpose scripting languages, as described in [docs](https://pret.github.io/pokecrystal/). For more general features, you'll need to code directly in [assembly language][asm]. Some of the [tutorials][tutorials] for specific features may also be helpful.
 
 
 ## I need more help!

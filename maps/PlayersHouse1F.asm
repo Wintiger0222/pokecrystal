@@ -28,7 +28,7 @@ MeetMomRightScript:
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iffalse .OnRight
 	applymovement PLAYERSHOUSE1F_MOM1, MomTurnsTowardPlayerMovement
-	jump MeetMomScript
+	sjump MeetMomScript
 
 .OnRight:
 	applymovement PLAYERSHOUSE1F_MOM1, MomWalksToPlayerMovement
@@ -36,7 +36,7 @@ MeetMomScript:
 	opentext
 	writetext ElmsLookingForYouText
 	buttonsound
-	stringtotext GearName, MEM_BUFFER_1
+	getstring STRING_BUFFER_4, GearName
 	scall PlayersHouse1FReceiveItemStd
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
@@ -47,20 +47,36 @@ MeetMomScript:
 	writetext MomGivesPokegearText
 	buttonsound
 	special SetDayOfWeek
+
+; .SetDayOfWeek:
+	; writetext IsItDSTText
+	; yesorno
+	; iffalse .WrongDay
+	; special InitialSetDSTFlag
+	; yesorno
+	; iffalse .SetDayOfWeek
+	; sjump .DayOfWeekDone
+
+; .WrongDay:
+	; special InitialClearDSTFlag
+	; yesorno
+	; iffalse .SetDayOfWeek
+; .DayOfWeekDone:
+
 	writetext ComeHomeForDSTText
 	yesorno
 	iffalse .ExplainPhone
-	jump .KnowPhone
+	sjump .KnowPhone
 
 .KnowPhone:
 	writetext KnowTheInstructionsText
 	buttonsound
-	jump .FinishPhone
+	sjump .FinishPhone
 
 .ExplainPhone:
 	writetext DontKnowTheInstructionsText
 	buttonsound
-	jump .FinishPhone
+	sjump .FinishPhone
 
 .FinishPhone:
 	writetext InstructionsNextText
@@ -70,15 +86,15 @@ MeetMomScript:
 	iftrue .FromRight
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 	iffalse .FromLeft
-	jump .Finish
+	sjump .Finish
 
 .FromRight:
 	applymovement PLAYERSHOUSE1F_MOM1, MomTurnsBackMovement
-	jump .Finish
+	sjump .Finish
 
 .FromLeft:
 	applymovement PLAYERSHOUSE1F_MOM1, MomWalksBackMovement
-	jump .Finish
+	sjump .Finish
 
 .Finish:
 	special RestartMapMusic
@@ -87,7 +103,7 @@ MeetMomScript:
 
 MeetMomTalkedScript:
 	playmusic MUSIC_MOM
-	jump MeetMomScript
+	sjump MeetMomScript
 
 GearName:
 	db "포켓기어@"
@@ -149,17 +165,17 @@ NeighborScript:
 .MornScript:
 	writetext NeighborMornIntroText
 	buttonsound
-	jump .Main
+	sjump .Main
 
 .DayScript:
 	writetext NeighborDayIntroText
 	buttonsound
-	jump .Main
+	sjump .Main
 
 .NiteScript:
 	writetext NeighborNiteIntroText
 	buttonsound
-	jump .Main
+	sjump .Main
 
 .Main:
 	writetext NeighborText
