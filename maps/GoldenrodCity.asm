@@ -101,10 +101,10 @@ MoveTutorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FLAMETHROWER@"
-	db "THUNDERBOLT@"
-	db "ICE BEAM@";미번역
-	db "CANCEL@"
+	db "화염방사@"
+	db "10만볼트@"
+	db "냉동빔@";미번역
+	db "그만두다@"
 
 .Refused:
 	writetext UnknownText_0x1990b4
@@ -447,48 +447,48 @@ GoldenrodCityFlowerShopSignText:
 	line "아름다움을 당신에게 줍니다"
 	done
 
-UnknownText_0x199042:
-	text"わしは　ポケモンにすごいわざを"
-	line"おしえることが　できるのだが…"
+UnknownText_0x199042:;TRANSLATED
+	text"난 포켓몬한테 엄청난 기술을"
+	line"알려줄 수 있는데 말이다…"
 
-	para"すごいわざを　おしえて　ほしいかね?"
+	para"기술을 가르쳐줄까?"
 	done
 
-UnknownText_0x199090:
-	text"かわりにコインを　4000まい"
-	line"もらうけど　それでも　いいかな?"
+UnknownText_0x199090:;TRANSLATED
+	text"대신 4000코인을 받을 건데"
+	line"그래도 괜찮겠니?"
 	done
 
-UnknownText_0x1990b4:
-	text"すごいのに…"
+UnknownText_0x1990b4:;TRANSLATED
+	text"엄청난 건데…"
 	done
 
-UnknownText_0x1990ce:
-	text"わっはっはっ　よくいった！"
-	line"では…　どのわざを　おぼえさせる?"
+UnknownText_0x1990ce:;TRANSLATED
+	text"와하하 잘 말했다!"
+	line"그럼… 어떤 기술을 가르쳐줄까?"
 	done
 
-UnknownText_0x199107:
-	text"しょうがない…"
-	line"かえって　こづかい　もらってくるか…"
+UnknownText_0x199107:;TRANSLATED
+	text"할 수 없다… "
+	line"돌아가서 용돈이나 가지고 오자…"
 	done
 
-UnknownText_0x19913a:
-	text"このわざの　すごさが　わかれば"
-	line"もう　いちにんまえの　<TRAINER>だな"
+UnknownText_0x19913a:;TRANSLATED
+	text"이 기술의 굉장함을 이해한다면"
+	line"어엿한 트레이너가 된 거란다"
 	done
 
-UnknownText_0x19918b:
-	text"わっはっはっ"
-	line"それでは　さらばだ!"
+UnknownText_0x19918b:;TRANSLATED
+	text"와하핫"
+	line"그렇다면 작별이다!"
 	done
 
-UnknownText_0x1991a4:
-	text"そっ　そんなぁ…"
+UnknownText_0x1991a4:;TRANSLATED
+	text"그… 그런…"
 	done
 
-UnknownText_0x1991ac:
-	text"……コインが　たらんぞ?"
+UnknownText_0x1991ac:;TRANSLATED
+	text"………코인이 부족하단다?"
 	done
 
 UnknownText_0x1991cf:

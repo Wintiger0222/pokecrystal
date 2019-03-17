@@ -155,44 +155,42 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	para "오른쪽은 그 포켓몬에 대한"
 	line "설명이라고 말해지고 있습니다"
 
-	para "Scientists in the"
-	line "back are examining"
-
-	para "some newly found"
-	line "patterns."
+	para "뒤에 있는 과학자 분들은"
+	line "새로발견된 문양을"
+	cont "연구하고 있습니다"
 	done
-
+;_MOBILE 관련
 UnknownText_0x588f5:
-	text"さいきん　なぞの　もようが"
-	line"ここに　あらわれたんだ!"
+	text"요즘 이상한 모양이"
+	line"여기 나타났어!"
 
-	para"ふしぎなんだ"
-	line"ちょっと　まえまでは　なかったのに…"
+	para"이상한데 말이야"
+	line"좀 전까지는 없었는데…"
 
-	para"きみも　かべを　みてみなよ!"
+	para"너도 벽을 한 번 봐!"
 	done
 
 UnknownText_0x5897c:
-	text"おお!　またもや　はっけん!"
-	line"とおれる　あなが　できたぞ!"
+	text"오오! 또 하나 발견!"
+	line"지나갈 수 있는 구멍이 있어!"
 	done
 
 UnknownText_0x589b8:
-	text"さっきの　ゆれは　びっくりだね!"
-	line"でも　そんなことより…"
-	cont"この　かべが　きになるなぁ…"
+	text"좀 전의 흔들림은 무서웠어!"
+	line"근데 그런 것보다…"
+	cont"여기 벽이 신경쓰여…"
 	done
 
 RuinsOfAlphKabutoChamberUnusedText:
 ; unused
-	text"この　かべに　かかれた　もようは"
-	line"ことば　の　ようだ!"
+	text"여기 벽에 있는 모양은"
+	line"단어인 것 같다!"
 
-	para"で…　あの　せきばんは"
-	line"なにかの　あいずで…"
+	para"그리고… 저 석판은"
+	line"뭔가의 신호 같은데…"
 
-	para"それで　ポケモンが　でてくると"
-	line"おもうんだけど…　うーん…"
+	para"저기서 포켓몬이 나올 거 같은"
+	line"느낌은 드는데… 흐-음…"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternLeftText:

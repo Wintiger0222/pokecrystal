@@ -128,162 +128,163 @@ MovementData_0x98628:
 	step DOWN
 	step_end
 
-WiseTriosRoomSage1Text:
-	text"なんということだ!"
+WiseTriosRoomSage1Text:;TRANSLATED
+	text"이게 무슨 일인가!"
 
-	para"スイクン　エンテイ　ライコウさまが"
-	line"めざめられた　らしい…"
+	para"스이쿤 앤테이 라이코님께서"
+	line"눈을 뜨셨다는 것인가…"
 
-	para"あの　でんせつが　おきるというのか?"
+	para"그 전설이 마침내"
+	line"일어나고 있는 것인가?"
 	done
 
-WiseTriosRoomSage2Text:
-	text"わたしたちも　やけたとうで"
-	line"しゅぎょうを　しておりますが"
-	cont"あなが　あいたなど　きいたことも"
-	cont"ございません"
+WiseTriosRoomSage2Text:;TRANSLATED
+	text"저희도 불탄 탑에서"
+	line"수행을 하고 있지만"
+	cont"구멍이 열렸다니"
+	cont"들어본 적도 없습니다"
 
-	para"だれかが　わざと　あなを"
-	line"つくったとしか　かんがえられません…"
+	para"누군가가 일부러 구멍을 만들었다고" 
+	line"밖에는 생각하지 못하겠습니다…"
 	done
 	
-WiseTriosRoomSage3BlocksExitText:
-	text"スズのとうは　エンジュの"
-	line"ジムバッジを　もっていれば"
-	cont"はいれるのじゃが"
+WiseTriosRoomSage3BlocksExitText:;TRANSLATED
+	text"방울탑은 인주 체육관의"
+	line"배지를 가지고 있으면"
+	cont"들어갈 수 있지만"
 
-	para"スイクン　エンテイ　ライコウさまが"
-	line"めざめられた　いま"
+	para"스이쿤 앤테이 라이코님께서"
+	line"눈을 뜨신 지금"
 
-	para"ごえんりょ　ねがいたい!"
+	para"들어오는 것을 삼가주기를 원한다!"
 	done
 
-WiseTriosRoomSage3Text:
-	text"わたしたちは　でんせつの　ポケモンを"
-	line"まもっている　3にんしゅうじゃ"
+WiseTriosRoomSage3Text:;TRANSLATED
+	text"우리는 전설의 포켓몬을"
+	line"지키고 있는 3인방이다"
 	done
 
-SageGakuSeenText:
-	text"でんせつでは　ポケモンと"
-	line"こころを　かよわせる"
-	cont"じんぶつが　あらわれたとき"
+SageGakuSeenText:;TRANSLATED
+	text"전설에 따르면 포켓몬과"
+	line"마음이 통할수 있는"
+	cont"인물이 나타나게 될 때"
 
-	para"スズのとうで　そのじんぶつを　ためす"
-	line"と　ある……"
+	para"방울탑에서 그 인물을 시험할것이다"
+	line"…라고 하지"
 
-	para"その　でんせつどおり"
+	para"그 전설대로"
 
-	para"ポケモン…　スイクンさまが"
-	line"おこしに　なった！"
+	para"포켓몬… 스이쿤님께서"
+	line"오시게 되었다!"
 
-	para"わたしたち　3にんしゅうが"
-	line"きみに　その　しかくが　あるのか"
-	cont"たしかめる!"
+	para"우리 3인방이"
+	line"너에게 그 자격이 있는지"
+	cont"확인해 보이겠다!"
 	done
 
-SageGakuBeatenText:
-	text"よそう　いじょうに　つよい…"
-	line"……　もしや……"
+SageGakuBeatenText:;TRANSLATED
+	text"예상 이상으로 강하다…"
+	line"……　어쩌면……"
 	done
 
-SageGakuAfterBattleText:
-	text"きみが　おやすみに　なっていた"
-	line"スイクン　エンテイ　ライコウさまを"
-	cont"みた　という　かたか"
+SageGakuAfterBattleText:;TRANSLATED
+	text"네가 주무시고 계시는"
+	line";스이쿤 앤테이 라이코님을"
+	cont"봤다는 것인가"
 
-	para"しんじられん!"
+	para"믿을 수가 없구만!"
 
-	para"でんせつでは　おやすみに"
-	line"なられているときは　みえない"
-	cont"と　あるのに……"
+	para"전설에서는 주무시고 계시는"
+	line"동안에는 모습이 보이지 않는다…"
+	cont"…라고 했었는데……"
 	done
 
-SageMasaSeenText:
-	text"あなたに　しんじつを　つたえて"
-	line"よいものか　どうか"
+SageMasaSeenText:;TRANSLATED
+	text"당신에게 진실을 알려드려도"
+	line"좋을 지 아닐 지"
 
-	para"おちから　はいけん　いたします"
+	para"이쪽부터 보여 드리겠습니다"
 	done
 
-SageMasaBeatenText:
+SageMasaBeatenText:;TRANSLATED
 	text"…………"
-	line"しんじつを　おはなし　しましょう"
+	line"진실을 알려드리도록 하죠"
 	done
 	
-SageMasaAfterBattleText:
-	text"むかしは　9じゅうの　とうが"
-	line"2つ　ありました"
+SageMasaAfterBattleText:;TRANSLATED
+	text"옛날에는 9층탑이"
+	line"두 개 있었습니다"
 
-	para"ポケモンを　おこす　とう　と"
-	line"いわれた　かねのとう"
+	para"포켓몬이 깨어난다고"
+	line"일컬어지는 황동탑"
 
-	para"ポケモンを　やすめる　とう　と"
-	line"いわれた　スズのとう　です"
+	para"포켓몬이 쉰다고"
+	line"일컬어지는 방울탑이었죠"
 
-	para"それは　すばらしい　けしき"
-	line"だったに　ちがいありません"
+	para"분명 아름다운 광경이었음이"
+	line"틀림 없습니다"
 
-	para"そのころの　かねのとうには"
-	line"おおきな　ぎんいろの　ポケモンが"
-	cont"はねを　やすめていた　そうです"
+	para"그때의 황동탑에서는"
+	line"거대한 은색 포켓몬이"
+	cont"날다가 쉬곤 했다고 하지요"
 
-	para"ところが…"
+	para"그런데…"
 
-	para"いまから　およそ150ねん　まえ"
-	line"1つの　とう　に"
-	cont"かみなりが　おちたそうです"
+	para"지금부터 대략 150년 전"
+	line"한 탑에"
+	cont"벼락이 떨어졌다고 합니다"
 
-	para"そのため　とう　は"
-	line"ものすごい　ほのおに　つつまれ"
-	cont"3にちも　もえつづけた　そうです"
+	para"그 때문에 그 탑은"
+	line"엄청난 화염에 싸여"
+	cont"3일을 불탔다고 합니다"
 
-	para"そして…"
+	para"그리고…"
 
-	para"とつぜんの　おおあめに　よって"
-	line"きえたそうです"
+	para"갑자기 큰비가 내려"
+	line"불이 꺼졌습니다"
 
-	para"それが　いまの　やけたとう　なのです"
+	para"이 탑이 지금의 불탄탑입니다"
 	done
 
-SageKojiSeenText:
-	text"きみの　ちから　みせてもらうぞ!"
+SageKojiSeenText:;TRANSLATED
+	text"자네의 힘을 보도록 하겠다!"
 	done
 
-SageKojiBeatenText:
-	text"つ　つよい…　つよすぎる"
-	line"なぜだ!?"
+SageKojiBeatenText:;TRANSLATED
+	text"가 강해… 너무 강하다"
+	line"어째서인가!?"
 	done
 
-SageKojiAfterBattleQuestionText:
-	text"きみ!　もしや!?"
-	line"でんせつの　ポケモンたちが"
-	cont"まっている　かたか!?"
+SageKojiAfterBattleQuestionText:;TRANSLATED
+	text"자네!　혹시!?"
+	line"전설의 포켓몬이"
+	cont"기다리고 있는 자인가!?"
 	done
 
-SageKojiAfterBattleSpeechText:
-	text"なるほど……"
+SageKojiAfterBattleSpeechText:;TRANSLATED
+	text"역시나……"
 
-	para"わたしたち　3にんしゅうは"
-	line"でんせつの　ポケモンを　おまもりし"
+	para"저희 3인방은"
+	line"전설의 포켓몬을 지키고"
 
-	para"しんじつの　ちからと　こころを"
-	line"もった　ひとを　とおすように"
-	cont"いわれています"
+	para"진실된 힘과 마음을"
+	line"가진 사람을 지나가게 한다고"
+	cont"불리고 있습니다"
 
-	para"どうぞ　おとおり　ください"
+	para"지나가 주십시오"
 
-	para"そして　このさきの"
-	line"スズのとうに　おはいりください"
+	para"그리고 앞에 있는 방울탑에"
+	line"들어가주십시오"
 
-	para"スイクンさまは　あなたを　おためしに"
-	line"なるでしょう"
+	para"스이쿤님께서 당신을"
+	line"시험에 들게 하실 것입니다"
 	done
 
-SageKojiAfterBattleFinalText:
-	text"どうぞ　おとおり　ください"
+SageKojiAfterBattleFinalText:;TRANSLATED
+	para"지나가 주십시오"
 
-	para"スイクンさまは　あなたを　おためしに"
-	line"なるでしょう"
+	para"스이쿤님께서 당신을"
+	line"시험에 들게 하실 것입니다"
 	done
 
 WiseTriosRoom_MapEvents:

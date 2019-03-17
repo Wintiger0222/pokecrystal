@@ -444,185 +444,185 @@ GruntF2AfterBattleText:
 	para "용서할 수 없어!"
 	done
 
-UnknownText_0x5dcf4:
-	text"アオイ『はーい　わたし　アオイ!"
+UnknownText_0x5dcf4:;TRANSLATED
+	text"규화『네-에 규화입니다!"
 
-	para"あいことば　っていう"
-	line"ラジオばんぐみ　しってる?"
+	para"혹시 규화의 암호라는"
+	line"라디오 방송 알고 있어?"
 
-	para"この　ばんぐみで　ながれている"
-	line"あいことばを　わたしに　おしえると"
-	cont"ポイントを　もらえるの"
+	para"이 방송에서 나오는"
+	line"암호를 나한테 알려주면"
+	cont"포인트를 줄거야"
 
-	para"その　ポイントを　ためると"
-	line"そこにいる　おねえさんが"
-	cont"すてきな　けいひんと"
-	cont"こうかん　してくれるのよ!"
+	para"그 포인트를 모으면"
+	line"저기 있는 언니가"
+	cont"멋진 경품이랑"
+	cont"교환해 주는 거지!"
 
-	para"はい!"
+	para"그러면!"
 
-	para"これが　ポイントを　ためる"
-	line"カードよ!"
+	para"포인트를 모을 때 쓰는"
+	line"카드야!"
 
-	para"あなたに　あげるね!"
+	para"너에게 줄게!!"
 	done
 
-UnknownText_0x5de10:
-	text"アオイ『わたしの　あいことば"
-	line"ばんぐみを　よろしくね!"
+UnknownText_0x5de10:;TRANSLATED
+	text"규화『내 암호 방송"
+	line"재밌게 들어줘!"
 	done
 
-UnknownText_0x5de35:
-	text"アオイ『わたしの　ラジオばんぐみ"
-	line"きいて　くれたかな?"
+UnknownText_0x5de35:;TRANSLATED
+	text"규화『내 라디오 방송"
+	line"들어 준걸까나?"
 
-	para"きょうの　あいことば　おぼえてる?"
+	para"오늘의 암호 기억하고 있어?"
 	done
 
-UnknownText_0x5de84:
-	text"アオイ『わー　どうも　ありがとう!"
-	line"えっとー　おなまえは?"
+UnknownText_0x5de84:;TRANSLATED
+	text"규화『와ー　정말 고마워!"
+	line"그러니까ー　이름이?"
 
-	para"……<PLAY_G>ね!"
+	para"……<PLAY_G>이구나!"
 
-	para"それじゃ　<PLAY_G>も"
-	line"ばんぐみに　さんかしてね!"
+	para"그러면　<PLAY_G>도"
+	line"방송에 참가하자구!"
 	done
 
-UnknownText_0x5dedd:
-	text"アオイ『みんな　いくわよ!"
+UnknownText_0x5dedd:;TRANSLATED
+	text"규화『모두들 갑니다!"
 
-	para"<PLAY_G>が　こたえる"
-	line"きょうの　あいことば"
+	para"<PLAY_G>이 대답해주는"
+	line"오늘의 암호"
 
-	para"いっちゃってー!"
+	para"말해주세요ー!"
 	done
 
-UnknownText_0x5df29:
-	text"アオイ『それじゃ"
-	line"ばんぐみを　きいたら"
-	cont"また　きてね!"
+UnknownText_0x5df29:;TRANSLATED
+	text"규화『그러면"
+	line"방송을 듣게 되면"
+	cont"다시 들러줘!"
 	done
 
-UnknownText_0x5df6c:
-	text"アオイ『ごめんねー"
-	line"もんだいに　こたえられるのは"
-	cont"いちにち　いっかい　だけなの"
+UnknownText_0x5df6c:;TRANSLATED
+	text"규화『미안해ー"
+	line"문제를 맞힐 기회는"
+	cont"하루에 한 번 뿐이야"
 
-	para"また　あした　きてね!"
+	para"내일 다시 와줘!"
 	done
 
-UnknownText_0x5dfc1:
-	text"アオイ『きゃー　せいかいよ!"
+UnknownText_0x5dfc1:;TRANSLATED
+	text"규화『꺄ー　정답이야!"
 
-	para"ちゃんと　きいて　くれたのね!"
-	line"うれしいなー"
+	para"제대로 들어줬구나!"
+	line"기쁜데에ー"
 
-	para"はい　1ポイント　あげまーす!"
-	line"おめでとう!!"
+	para"그럼　1포인트　드립니ー다!"
+	line"축하해!!"
 	done
 
-UnknownText_0x5e01c:
-	text"アオイ『あーん"
-	line"ざんねん　はずれでーす!"
+UnknownText_0x5e01c:;TRANSLATED
+	text"규화『아ー앙"
+	line"유감스럽게도 틀렸네ー요!"
 
-	para"あいことば　わすれちゃったかな?"
+	para"암호를 까먹은 거려나?"
 	done
 
-UnknownText_0x5e054:
-	text"アオイ『はい!"
-	line"いま　こたえて　くれたのは"
-	cont"<PLAY_G>　でしたー!"
-	cont"どうも　ありがとう"
+UnknownText_0x5e054:;TRANSLATED
+	text"규화『넵!"
+	line"지금 대답해준 사람은"
+	cont"<PLAY_G>였습니다ー!"
+	cont"감사합니다"
 
-	para"みんなも　きてね!"
-	line"まってまーす!"
+	para"모두들 들러줘!"
+	line"기다리고 있을께ー!"
 	done
 
-UnknownText_0x5e0c2:
-	text"アオイ『えっ!"
-	line"きょうの　あいことば?"
+UnknownText_0x5e0c2:;TRANSLATED
+	text"규화『엣!"
+	line"오늘의 암호?"
 
-	para"もちろん　たすけてー　でしょ!"
+	para"물론 도와줘ー　잖아!"
 	done
 
-UnknownText_0x5e0f1:
-	text"アオイ『ポイントが"
-	line"もう　いっぱいです!"
+UnknownText_0x5e0f1:;TRANSLATED
+	text"규화『포인트가"
+	line"꽉 찼네요!"
 
-	para"けいひんと　こうかん　してね!"
+	para"경품하고 교환하고 와줘!"
 	done
 
-UnknownText_0x5e131:
-	text"アオイ『あいことば　ばんぐみは"
-	line"まいにち　ごご6じから"
-	cont"0じまで　やってまーす!"
+UnknownText_0x5e131:;TRANSLATED
+	text"규화『암호 방송은"
+	line"매일 저녁 6시부터"
+	cont"0시까지　입니ー다!"
 
-	para"ばんぐみ　きいたら　きてね!"
+	para"방송 들으시면 들러줘!"
 	done
 
-UnknownText_0x5e192:
-	text"アオイ『あら?"
-	line"ブルーカードを　もってくるの"
-	cont"わすれちゃったかな?"
+UnknownText_0x5e192:;TRANSLATED
+	text"규화『어라?"
+	line"블루카드 가져오는 걸"
+	cont"깜빡한 거려나?"
 
-	para"ブルーカードが　ないと"
-	line"ポイントを　あげられないの…"
+	para"카드가 없으면"
+	line"포인트를 줄 수가 없는데…"
 	done
 
-UnknownText_0x5e1ee:
-	text"アオイ『あ!　ブルーカードが"
-	line"きょうで　30ポイントよ!"
-	cont"すごい　すごーい!"
+UnknownText_0x5e1ee:;TRANSLATED
+	text"규화『아! 블루카드에"
+	line"오늘로 30포인트야!"
+	cont"대단해　대단ー해!"
 
-	para"…そうねー"
-	line"30ポイントの　けいひんは"
-	cont"とくに　ないんだけど…"
+	para"…그러네ー"
+	line"30포인트짜리 경품은"
+	cont"딱히 없지만…"
 
-	para"<PLAY_G>は　なんども"
-	line"きてくれたから　とくべつ!"
+	para"<PLAY_G>은　몇 번이고"
+	line"와줬으니까 특별히!"
 
-	para"アオイの　でんわばんごう"
-	line"おしえて　あげちゃおうかな?"
+	para"규화의 전화번호"
+	line"알려줄까나?"
 	done
 
-UnknownText_0x5e2bf:
-	text"アオイ『<PLAY_G>"
-	line"わたしの　でんわばんごう"
-	cont"とうろく　する?"
+UnknownText_0x5e2bf:;TRANSLATED
+	text"규화『<PLAY_G>"
+	line"내 전화번호"
+	cont"등록할거야?"
 	done
 
-UnknownText_0x5e2f3:
-	text"<PLAYER>は　アオイの"
-	line"でんわばんごうを　とうろく　した！"
+UnknownText_0x5e2f3:;TRANSLATED
+	text"<PLAYER>는(은)　규화의"
+	line"번호를 등록했다!"
 	done
 
-UnknownText_0x5e310:
-	text"アオイ『でんわ　まってるね!"
+UnknownText_0x5e310:;TRANSLATED
+	text"규화『전화 기다리고 있을게!"
 	done
 
-UnknownText_0x5e33c:
-	text"アオイ『えー　とくべつ"
-	line"だいサービス　なのになあ…"
+UnknownText_0x5e33c:;TRANSLATED
+	text"규화『에ー　특별"
+	line"대서비스인데…"
 	done
 
-UnknownText_0x5e35e:
-	text"アオイ『<PLAY_G>の　でんわ"
-	line"いっぱいで　とうろく　できないよー"
+UnknownText_0x5e35e:;TRANSLATED
+	text"규화『<PLAY_G>의 전화번호가"
+	line"꽉 차서 등록이 안 되네요ー"
 	done
 
-UnknownText_0x5e392:
-	text"たまった　ポイントを　つかえば"
-	line"こちらで　おすきな　けいひんと"
-	cont"こうかん　できます!"
+UnknownText_0x5e392:;TRANSLATED
+	text"모아놓은 포인트를 쓰면"
+	line"여기 있는 경품하고"
+	cont"교환할 수 있습니다!"
 	done
 
-UnknownText_0x5e3d8:
-	text"ブルーカードを　もっていないと"
-	line"けいひんと　こうかん　できません"
+UnknownText_0x5e3d8:;TRANSLATED
+	text"블루카드가 없으면"
+	line"교환할 수 없습니다"
 
-	para"ブルーカードを　わすれずに"
-	line"また　きてくださいね!"
+	para"블루카드를 잊지 말고"
+	line"가지고 와주세요!"
 	done
 
 RadioTower2FSalesSignText:

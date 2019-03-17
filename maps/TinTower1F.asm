@@ -307,163 +307,162 @@ MovementData_0x1851fe:
 	step UP
 	step_end
 
-TinTowerEusineSuicuneText:
-	text"ミナキ『すごい!　すごすぎる!"
+TinTowerEusineSuicuneText:;TRANSLATED
+	text"수호『굉장해!　엄청 굉장해!"
 
-	para"こんな　すばらしい　たたかいを"
-	line"みたのは　はじめてだ"
-	cont"かんげきしたよ"
+	para"이렇게 아름다운 싸움은"
+	line"태어나서 처음 봐"
+	cont"감격했다고"
 
-	para"スイクンも　すごかったが"
-	line"<PLAYER>も　すごかったぜ!"
+	para"스이쿤도 굉장했지만"
+	line"<PLAYER>도 굉장했다구!"
 
-	para"ふしぎな　ちからを　もつ　スイクンは"
-	line"にじいろの　ポケモンを"
-	cont"よびよせる　らしいぜ"
+	para"신기한 힘을 가진 스이쿤은"
+	line"무지개색 포켓몬을"
+	cont"불러들인다고 해"
 
-	para"こんかいの　ことで"
-	line"いつのひか　その　ポケモンが"
-	cont"すがたを　みせるかも　しれない"
+	para"오늘 있었던 일로"
+	line"어느 날인가 그 포켓몬이"
+	cont"모습을 나타낼 지도 모르지"
 
-	para"わたしも　でんせつについて"
-	line"いろいろと　しらべてみる　つもりだ"
+	para"난 전설에 대해서"
+	line"이것저것 조사해볼 생각이야"
 
-	para"すばらしい　たたかいを　みせてくれた"
-	line"きみに　かんしゃするぜ"
+	para"멋진 싸움 보여줘서"
+	line"너한테 감사한다고"
 
-	para"じゃあな　<PLAYER>!"
+	para"그럼 또 보자 <PLAYER>!"
 	done
 
-TinTower1FSage1Text:
-	text"でんせつでは…"
+TinTower1FSage1Text:;TRANSLATED
+	text"전설에 따르면…"
 
-	para"ひとと　ポケモンが　こころを"
-	line"かよわせるとき"
-	cont"にじいろの　ポケモンが　まいおりる"
+	para"인간과 포켓몬의 마음이"
+	line"통하게 될 때"
+	cont"무지개색 포켓몬이 내려온다"
 
-	para"というが…"
+	para"고 하지만…"
 
-	para"でんせつの　ポケモンたちが"
-	line"ひとを　ためしている!"
+	para"전설의 포켓몬들이"
+	line"사람을 시험한다!"
 
-	para"という　ことなのだろうか?"
+	para"라는 것인가?"
 	done
 
-TinTower1FSage2Text:
-	text"かねのとうが　やけたとき"
-	line"なもない　ポケモンたちが　3たい"
-	cont"いきたえた　らしいのです"
-	cont"かなしいことです"
+TinTower1FSage2Text:;TRANSLATED
+	text"황동탑이 불탔을 때"
+	line"이름 없는 포켓몬 3마리가"
+	cont"죽어버렸다고 합니다"
+	cont"슬픈 일이죠"
 
-	para"ですが…"
+	para"그런데…"
 
-	para"そこに　にじいろの　ポケモン"
+	para"거기서 무지개색 포켓몬"
 
-	para"すなわち…"
+	para"다시 말해…"
 
-	para"ホウオウさまが　そらより　あらわれ"
-	line"3たいの　ポケモンたちを"
-	cont"よみがえらせました"
+	para"칠색조님이 하늘에서 내려오셔서"
+	line"3마리의 포켓몬을"
+	cont"살려내주셨습니다"
 
-	para"それが…"
+	para"그 포켓몬들이…"
 
-	para"スイクン　エンテイ　ライコウさま"
-	line"なのです"
+	para"스이쿤 앤테이 라이코님"
+	line"인 것입니다"
 
-	para"そういう　はなしを　きいております"
+	para"그런 이야기를 들었습니다"
 	done
 
-TinTower1FSage3Text:
-	text"2つの　とうは　ポケモンと　ひとの"
-	line"ゆうじょうと　きぼうを　ねがって"
-	cont"つくられた　そうじゃ"
+TinTower1FSage3Text:;TRANSLATED
+	text"여기 2개의 탑은 인간과 포켓몬의"
+	line"우정과 희망을 바라며"
+	cont"지은 곳이라 말하지"
 
-	para"もう　700ねんも"
-	line"まえの　ことじゃが"
-	cont"たいせつな　ことじゃ"
+	para"700년이나"
+	line"더 된 일이지만"
+	cont"아주 중요한 일이야"
 	done
 
-TinTower1FSage4Text1:
-	text"この　スズのとうに　ホウオウさまが"
-	line"まいおりたらしい"
+TinTower1FSage4Text1:;TRANSLATED
+	text"여기 방울탑에 칠색조님이"
+	line"내려오셨다는 것 같다"
 	done
 
-TinTower1FSage5Text1:
-	text"あなたのみを　まもる"
-	line"これを　おもちくだされ"
+TinTower1FSage5Text1:;TRANSLATED
+	text"당신의 몸을 지킬"
+	line"이걸 가지고 가세요"
 	done
 
-TinTower1FSage5Text2:
-	text"さあ　すすみなさい"
+TinTower1FSage5Text2:;TRANSLATED
+	text"자 나아가도록 하세요"
 	done
 
-TinTower1FSage6Text1:
-	text"やはり　きみは"
-	line"ためされて　いるのじゃろう"
-	cont"まよいを　けして　すすむのじゃ"
+TinTower1FSage6Text1:;TRANSLATED
+	text"역시 자네는"
+	line"시험받고 있는 게야"
+	cont"헤메임 없이 나아가게나"
 	done
 
-TinTowerEusineHoOhText:
-	text"やっぱり　<PLAYER>が"
-	line"にじいろの　ポケモンに　あえたんだね"
+TinTowerEusineHoOhText:;TRANSLATED
+	text"역시 <PLAYER>(이)가"
+	line"무지개색 포켓몬이랑 만나게 됬네"
 
-	para"わたしが　おもいえがいた"
-	line"とおりだった"
+	para"내가 상상한 그대로야"
 
-	para"わたしの　けんきゅうも"
-	line"すてたもんじゃないな"
+	para"내 연구도"
+	line"쓸만한가 보네"
 
-	para"もっともっと　ポケモンのことを"
-	line"べんきょうして"
-	cont"りっぱな　マニアになるぜ!"
+	para"더욱 더 포켓몬에 대한 것을"
+	line"공부해나가서"
+	cont"훌륭한 마니아가 될 거라고!"
 	done
 
-TinTower1FSage4Text2:
-	text"でんせつの　ポケモンたちには"
-	line"とうにおちた　かみなり"
+TinTower1FSage4Text2:;TRANSLATED
+	text"전설의 포켓몬에게는"
+	line"탑에 떨어진 번개"
 
-	para"とうを　やきつくした　ほのお"
+	para"탑을 불태운 화염"
 
-	para"とうの　ほのおを　けした　あめ"
+	para"탑의 화염을 없앤 비"
 
-	para"この3つの　ちからが"
-	line"やどっていると　いわれている"
+	para"이 3개의 힘이"
+	line"깃들어있다고 전해지지"
 	done
 
-TinTower1FSage5Text3:
-	text"でんせつの　ポケモンが"
-	line"たんじょう　したときのことです"
+TinTower1FSage5Text3:;TRANSLATED
+	text"전설의 포켓몬이"
+	line"탄생했을 때의 일입니다"
 
-	para"それを　みていた　ひとたちは"
-	line"かれらを　おそれ"
+	para"그들을 보고 있던 사람들은"
+	line"그들을 두려워했습니다"
 
-	para"そして……"
+	para"그리고……"
 
-	para"むりな　こうげきを　するものまで"
-	line"あらわれたそうです"
+	para"무리한 공격을 하는"
+	line"사람들도 나타났습니다"
 
-	para"じぶんたちの　ちからを　しっていた"
-	line"でんせつの　ポケモンたちは"
+	para"자신의 힘을 알고 있던"
+	line"전설의 포켓몬들은"
 
-	para"そんな　ひとたちに　こうげきはせず"
-	line"ひたすら　かけまわったそうです"
+	para"사람들을 공격하지 않고 그저"
+	line"돌아다니기만 했다고 합니다"
 	done
 
-TinTower1FSage6Text2:
-	text"でんせつの　ポケモンの　なかでも"
-	line"スイクンさまは　もっとも"
-	cont"ホウオウさまに　ちかいそんざいと"
-	cont"いわれておるのじゃ"
+TinTower1FSage6Text2:;TRANSLATED
+	text"전설의 포켓몬 중에서도"
+	line"스이쿤님은 가장"
+	cont"칠색조님과 가까운 "
+	cont"존재라고들 하지"
 
-	para"そして　また　アンノーンという"
-	line"ポケモンとも　なにか　つながりが"
-	cont"あるらしいと　きいておる"
+	para"그리고 또 안농이라는"
+	line"포켓몬하고도 뭔가 관계가"
+	cont"있을 것 같다고도 들었네"
 
-	para"アンノーンという　ポケモンも"
-	line"スイクンさまも　ともに"
+	para"안농이라고 하는 포켓몬도"
+	line"스이쿤님도 같이"
 
-	para"ちからを　だしあって"
-	line"きょうりょくして　おるのじゃろう"
+	para"힘을 보태서"
+	line"협력하고 있는 거겠지"
 	done
 
 TinTower1F_MapEvents:

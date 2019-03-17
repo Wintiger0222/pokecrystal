@@ -92,85 +92,85 @@ Binoculars3:
 PokeDollVendingMachine:
 	jumptext PokeDollVendingMachineText
 
-GoldenrodDeptStoreRoofPokefanFText:
-	text"ふう!　つかれた！"
+GoldenrodDeptStoreRoofPokefanFText:;TRANSLATED
+	text"후우!　지쳤다！"
 
-	para"たまにショッピングの　いきぬきに"
-	line"おくじょうにあがって　くるのよ"
+	para"물건 사다가 잠시 쉴 때면"
+	line"옥상에 와서 쉬는 거야"
 	done
 
-GoldenrodDeptStoreRoofFisherText:
-	text"なに?　べつにおとなが"
-	line"むちゅうになっても　いいでしょ!"
+GoldenrodDeptStoreRoofFisherText:;TRANSLATED
+	text"뭐? 어른이 이런 거에"
+	line"빠지는 게 어때서?"
 
-	para"おれは　まいにち　かよって"
-	line"にんぎょう　ぜんぶ　あつめるぞー!"
+	para"난 매일 여기 와서"
+	line"인형을 전부 모을 거라구-!"
 	done
 
-GoldenrodDeptStoreRoofTwinText:
-	text"たまにこの　ばしょで"
-	line"やすうりしてる　ときが　あるよ"
+GoldenrodDeptStoreRoofTwinText:;TRANSLATED
+	text"여기선 때때로"
+	line"할인을 하곤 해"
 	done
 
-GoldenrodDeptStoreRoofSuperNerdOhWowText:
-	text"おおっ　すげー!"
+GoldenrodDeptStoreRoofSuperNerdOhWowText:;TRANSLATED
+	text"오오 굉장하다!"
 	done
 
-GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text"ちょっと　じゃましないでよ!"
+GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:;TRANSLATED
+	text"잠깐 방해 좀 하지 말아줄래!"
 	done
 
-GoldenrodDeptStoreRoofPokefanMText:
-	text"どうしても　ほしいもんが　あるが"
-	line"こづかいが　たりない…"
+GoldenrodDeptStoreRoofPokefanMText:;TRANSLATED
+	text"진짜 갖고 싶은 게 있는데"
+	line"용돈이 부족해…"
 
-	para"ひたすら　ためた　きのみを"
-	line"うってしまおうかな…"
+	para"모아놨던 열매라도"
+	line"팔아먹어야 되나…"
 	done
 
-GoldenrodDeptStoreRoofTeacherText:
-	text"あれも　これも　やすいわ!"
-	line"もう　かいもの　しすぎちゃって"
-	cont"りュックが　ぎゅうぎゅうよ"
+GoldenrodDeptStoreRoofTeacherText:;TRANSLATED
+	text"이것도 저것도 싸구나!"
+	line"물건을 너무 많이 사서"
+	cont"가방이 꽉 찼지 뭐니"
 	done
 
-GoldenrodDeptStoreRoofBugCatcherText:
-	text"ボクのポケモン　いざってときに"
-	line"すぐ　まひしたり　どくに"
-	cont"やられちゃうから"
-	cont"なんでもなおし　かいにきたんだけど"
-	cont"まだ　のこっているかな…"
+GoldenrodDeptStoreRoofBugCatcherText:;TRANSLATED
+	text"내 포켓몬 여차하면"
+	line"마비된다던가"
+	cont"독에 당한다던가 하니까"
+	cont"만병통치제를 살려는데"
+	cont"남아있으려나…"
 	done
 
-Binoculars1Text:
-	text"ぼうえんきょうで　とおくが　みえる!"
-	line"じぶんの　うちも　みえそう!"
-	cont"あの　みどりのやねの　いえかな?"
+Binoculars1Text:;TRANSLATED
+	text"망원경으로 멀리까지 볼 수 있어!"
+	line"내 집도 보일 거 같아!"
+	cont"저기 초록색 지붕이려나?"
 	done
 
-Binoculars2Text:
-	text"あっ!　だれかと　だれかが"
-	line"どうろで　しょうぶ　してる!"
+Binoculars2Text:;TRANSLATED
+	text"앗! 트레이너 둘이"
+	line"도로에서 승부하고 있다!"
 
-	para"ポケモンが　はっぱを"
-	line"いっぱい　とばしてる!"
-	cont"みてたら　しょうぶしたくなってきた！"
+	para"포켓몬이 잎사귀를"
+	line"잔뜩 날리고 있어!"
+	cont"보고 났더니 승부하고 싶어졌다!"
 	done
 
-Binoculars3Text:
-	text"おじさんが　つぎつぎと　つりあげた"
-	line"たいりょうの　コイキングが"
-	cont"いっせいにはねてる…"
+Binoculars3Text:;TRANSLATED
+	text"아저씨가 계속 낚아온"
+	line"대량의 잉어킹들이"
+	cont"다같이 튀어오르고 있다…"
 
-	para"すごい　みずしぶきだ!"
+	para"엄청난 물보라야!"
 	done
 
-PokeDollVendingMachineText:
-	text"おかねを　いれて　ハンドルをまわすと"
-	line"ちいさい　ポケモンにんぎょうが"
-	cont"でてくる　はんばいきだ!"
+PokeDollVendingMachineText:;TRANSLATED
+	text"돈을 넣고 핸들을 돌리면"
+	line"작은 포켓몬 인형이"
+	cont"나오는 뽑기 기계다!"
 
-	para"でも　ほとんど　からっぽ…"
+	para"근데 거의 비어있네…"
 	done
 
 GoldenrodDeptStoreRoof_MapEvents:

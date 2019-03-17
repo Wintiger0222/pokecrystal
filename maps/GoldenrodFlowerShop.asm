@@ -89,26 +89,26 @@ UnknownText_0x553d4:
 	text "36번 도로의"
 	line "움직이는 나무를 본 적 있니?"
 
-	para"わたしの　いもうとが"
-	line"おもしろがって　みにいっちゃったの…"
-	cont"あぶなくないのかしら　しんぱいだわ…"
+	para"내 동생이 신나서"
+	line"보러 가버렸는데…"
+	cont"위험할까봐 걱정이야…"
 	done
 
 UnknownText_0x55463:
-	text"キミも　じょうろを　かりたいの?"
-	line"あぶないこと　かんがえちゃ　ダメよ"
+	text"너도 물뿌리개를 빌리고 싶어?"
+	line"위험한 짓은 생각도 하지마"
 	done
 	
 UnknownText_0x554c2:
 	text "응? 너"
 	line "꼭두보다 강하구나"
 
-	para"それなら　だいじょうぶね"
-	line"この　ゼニガメじょうろを　あげるわ"
+	para"그러면 문제 없겠네"
+	line"여기 꼬부기물뿌리개야"
 	done
 
 UnknownText_0x5550d:
-	text"あまり　あぶないことを　しちゃダメよ"
+	text"위험한 일은 하면 안 돼"
 	done
 
 UnknownText_0x5552e:
@@ -117,20 +117,20 @@ UnknownText_0x5552e:
 	done
 
 UnknownText_0x55561:
-	text"うちの　おねえちゃんに"
-	line"うごく　きの　はなしを　したら"
-	cont"あぶないから　やめなさい　だって!"
+	text"언니한테 움직이는 나무"
+	line"이야기를 했더니"
+	cont"위험하니까 하지 말래!"
 
-	para"アカネちゃんにかてたら"
-	line"じょうろ　かして　くれるかなぁ……"
+	para"꼭두한테 이기면"
+	line"물뿌리개 빌려주려나……"
 	done
 
 UnknownText_0x555e6:
-	text"アカネちゃんにかつなんて　すごいね"
+	text"꼭두를 이겼다니 굉장해!"
 	done
 
 UnknownText_0x55604:
-	text"やっぱり　ポケモン　だったのね!"
+	text"그러니까 포켓몬이었던 거네!"
 	done
 
 GoldenrodFlowerShop_MapEvents:
