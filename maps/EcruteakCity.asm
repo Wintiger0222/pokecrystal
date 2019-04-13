@@ -122,13 +122,13 @@ EcruteakCityLass1Text:
 	done
 
 EcruteakCityLass2Text:
-	text"ここにあった　とう……"
-	line"おばあちゃんにきいた　はなしだけど"
+	text"여기 있었던 …… 탑"
+	line"할머니 한테서 들은 얘긴데"
 
-	para"すっごく　むかしは　もっと　もっと"
-	line"たかかったんだって"
+	para"오래전엔 좀더"
+	line"높았다고 한대"
 	done
-
+	
 EcruteakCityLass2Text_ReleasedBeasts:
 	text "3마리의 커다란 포켓몬"
 	line "여기저기에 달려가 사라졌어"
@@ -156,23 +156,23 @@ EcruteakCityYoungsterText:
 	done
 
 EcruteakCityGramps3Text:
-	text"むかし…"
+	text"오래전…"
 
-	para"このとうが　かじになったときに"
-	line"そこで　しんでしまった"
-	cont"なもない　3びきの　ポケモンを"
+	para"이런 화재가 났을 때"
+	line"거기서 죽어버린"
+	cont"이름도 없는 3마리의 포켓몬을"
 
-	para"にじいろの　ポケモンが　そらより"
-	line"あらわれ　よみがえらせた…"
+	para"무지개빛의 포켓몬이 하늘에서"
+	line"나타나 되살려냈다…"
 
-	para"エンジュの　ジムりーダーに"
-	line"ふるくから　つたわっておる"
+	para"인주시티 체육관 관장에게"
+	line"오래전부터 전해지고 있어"
 
-	para"わし?"
+	para"나?"
 
-	para"わしも　むかしは　<TRAINER>"
-	line"じゃったのじゃよ"
-	cont"ほっほっほっほ"
+	para"나도 예전엔　<TRAINER>"
+	line"였다네"
+	cont"홋홋홋호"
 	done
 
 EcruteakCitySignText:

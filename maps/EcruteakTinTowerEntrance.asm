@@ -171,65 +171,65 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
-	text"たいへんなことが　おきた"
+	text"큰일이 났습니다"
 
-	para"もうしわけないが"
-	line"おひきとり　くださいまし"
+	para"죄송합니다만"
+	line"물러나 주십시오"
 
-	para"……　こころの　やすまる　もの"
+	para"……마음을 평안하게 하는것"
 
-	para"3にんしゅうは"
-	line"むずかしいことを　おっしゃる"
+	para"3인방은"
+	line"어려운 말씀을 하시는군"
 	done
-
+	
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text"たいへんなことが　おきた"
+	text"큰일이 났습니다"
 
-	para"もうしわけないが"
-	line"おひきとり　くださいまし"
+	para"죄송합니다만"
+	line"물러나 주십시오"
 
 	para"………"
 
-	para"おお!"
+	para"오오!"
 
-	para"その　おとは　とうめいなスズ!"
+	para"그 소리는 투명한 방울!"
 
-	para"なんという　うつくしい　おとでしょう"
+	para"이 얼마나 아름다운 소리입니까"
 
-	para"そんなにきれいな　ねいろは"
-	line"きいたことが　ありません"
+	para"이런 깨끗한 음색은 지금까지"
+	line"한 번도 들어보질 못했어요"
 
-	para"その　スズは　もつものの　こころを"
-	line"おとで　あらわすのです"
+	para"그 방울은 가진 사람의 마음을"
+	line"소리로 맑게 씻겨줍니다"
 
-	para"あなたなら…"
+	para"당신이라면…"
 
-	para"スズのとうにすすめるかも"
-	line"しれません"
+	para"방울소리처럼 나아갈 수"
+	line"있을지도 모르겠습니다"
 
-	para"どうぞ　おとおり　くださいまし"
+	para"어서 지나가십시오"
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text"どうぞ　おとおり　くださいまし"
+	text"어서 지나가십시오"
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text"その　スズは　もつものの　こころを"
-	line"おとで　あらわすのです"
+	text"그 방울은 가진 사람의 마음을"
+	line"소리로 맑게 씻겨줍니다"
 
-	para"あなたなら…"
+	para"당신이라면…"
 
-	para"スズのとうにすすめるかも"
-	line"しれません"
+	para"방울소리처럼 나아갈 수"
+	line"있을지도 모르겠습니다"
 
-	para"どうぞ　おとおり　くださいまし"
+	para"어서 지나가십시오"
 	done
-
+	
 EcruteakTinTowerEntranceWanderingSageText:
-	text"この　さきにある　スズのとうは"
-	line"こうごうしく　こころが　やすまる"
-	cont"9じゅうのとう　です"
+	text"이 앞에 있는 방울탑은"
+	line"신성하고 마음이 평안해지는"
+	cont"9층탑 입니다"
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:

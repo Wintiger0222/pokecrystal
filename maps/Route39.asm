@@ -181,16 +181,16 @@ Route39HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 Route39MiltankText:
-	text"ミルタンク『ン　モー!"
+	text"밀탱크『음머ー!"
 	done
 
 SailorEugeneSeenText:
-	text"ひさしぶりにアサギにもどってきた"
-	line"どれ　ポケモン　たたかわせてみるか!"
+	text"오랜만에 진청시티에 돌아왔다"
+	line"자 어디 포켓몬배틀을 해볼까!"
 	done
 
 SailorEugeneBeatenText:
-	text"がーん!"
+	text"콰ー앙!"
 	done
 
 SailorEugeneAfterBattleText:
@@ -200,13 +200,13 @@ SailorEugeneAfterBattleText:
 	done
 
 PokefanmDerekSeenText:
-	text"わたしの　ピカチュウちゃん"
-	line"じまん　しちゃおうかな!"
+	text"내 피카츄 좀"
+	line"자랑해볼까나!"
 	done
 
 PokefanmDerekBeatenText:
-	text"ピカチュウちゃんを　じまん"
-	line"する　ひまが　なかった…"
+	text"우리 피카츄 자랑 "
+	line"해볼 여유가 없었어…"
 	done
 
 PokefanMDerekText_NotBragging:
@@ -231,8 +231,8 @@ PokefanfRuthAfterBattleText:
 	done
 
 PokefanMDerekPikachuIsItText:
-	text"やっぱり　ピカチュウでしょう!"
-	line"キミも　そうだと　おもいませんか?"
+	text"역시 피카츄지!"
+	line"너도 그렇게 생각하지 않니?"
 	done
 
 PsychicNormanSeenText:
@@ -254,29 +254,29 @@ PsychicNormanAfterBattleText:
 	done
 
 PokefanfJaimeHopeItGetsDarkText:
-	text"うふふっ"
-	line"はやく　よるにならないかしら"
+	text"우후훗"
+	line"빨리 밤이 오지 않으려나"
 	done
 
 PokefanfJaimeSeenText:
-	text"ちょうど　よかった"
-	line"ポケモン　しょうぶ　しましょう"
+	text"잘 됐네 "
+	line"포켓몬 승부 하자"
 	done
 
 PokefanfJaimeBeatenText:
-	text"あら　ざんねん　だわ…"
+	text"어머 유감 이네…"
 	done
 
 PokefanfJaimeAfterBattleText:
-	text"この　ニャースちゃんとは　よるに"
-	line"この　39ばん　どうろで　であったの"
+	text"이 나옹이랑은 밤에"
+	line"이 39번 도로에서 만난거야"
 
-	para"だからなのかは　わからない　けど…"
-	line"よるにこのばしょで　つよくなると"
-	cont"とっても　きげんが　よくって"
+	para"그래서려나 잘 모르겠지만…"
+	line"밤에 여기서 강해진다면"
+	cont"무척 기운넘쳐서"
 
-	para"ほかの　ばしょで　つよく　なるよりも"
-	line"たくさん　なついてくれる　みたいなの"
+	para"다른 곳에서 강해지는거보다"
+	line"더 잘 따르는 느낌이야"
 	done
 
 

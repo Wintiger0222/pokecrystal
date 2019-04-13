@@ -536,38 +536,38 @@ UnknownText_0x18e82a:
 	done
 
 UnknownText_0x18e863:
-	text"ガンテツ『まごが　てつだってくれて"
-	line"しごとが　はかどるようになったわい"
+	text"강집『손녀가 도와줘서"
+	line"일이 순조롭게 된거 같구나"
 	done
 
 UnknownText_0x18e8ab:
-	text"そ　そ　それは!!"
+	text"그 그 그것은!!"
 
-	para"なんじゃ?"
-	line"はじめて　みたぞ!"
+	para"뭣이?"
+	line"처음 봤다!"
 
-	para"モンスターボールによくにているが…"
-	line"べつの　どうぐの　ようじゃな"
+	para"몬스터볼처럼 생겼지만…"
+	line"다른 도구인거 같구나"
 
-	para"ちょっと　しらべさせてくれ"
+	para"조금 조사해보마"
 	done
 
 UnknownText_0x18e934:
-	text"いま　しらべている　ところじゃ"
+	text"지금 조사하고 있는 중이다"
 	done
 
 UnknownText_0x18e949:
-	text"ほうほう!　なるほど!　ふむふむ!"
+	text"호오!　그렇거군!　흠흠!"
 	done
 
 UnknownText_0x18e95c:
 	text "<PLAYER>!"
 
-	para"しらべていたら　きゅうに"
-	line"この　ボールが　ブルブル"
-	cont"ふるえだしてな"
+	para"조사하고 있었더니 갑자기"
+	line"이 볼이 바들바들"
+	cont"떨리기 시작했네"
 
-	para"なにか　あると　おもうんじゃが…!!"
+	para"뭔가 있을거라 생각하네만…!!"
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
@@ -597,19 +597,19 @@ KurtsGranddaughterDadText:
 	done
 
 KurtsGranddaughterHelpText:
-	text"おじいちゃんの　おてつだい　してるの"
-	line"がんばって　つくるから　まっててね"
+	text"할아버지 도와주고 있어"
+	line"열심히 만들고 있으니까 기달려"
 	done
 
 KurtsGranddaughterFunText:
-	text"ボール　つくりって　たのしいね!"
+	text"볼만드는거 즐거워!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text"おじいちゃんが　ボールを"
-	line"しらべて　いるから"
+	text"할아버지가 볼을"
+	line"조사하고 있으셔"
 
-	para"おわるまで　まってるの"
+	para"알아내실때까지 기다리는 중이야"
 	done
 
 KurtsHouseSlowpokeText:

@@ -161,18 +161,18 @@ BillsPopText:
 	line "내 아들도"
 	cont "포켓몬에 박식하단다"
 
-	para"マサキって　いうんだけど"
-	line"いま　エンジュの　ポケモンセンターに"
-	cont"よばれて　いったわ"
+	para"이수재라고 하는데"
+	line"지금 인주시티 포켓몬센터에"
+	cont"불려와있단다"
 
-	para"だんなは　よばれもしないのに"
-	line"ゲームコーナーに　いってるけど…"
+	para"남편은 누가 찾지도 않는데"
+	line"게임코너에 가있어…"
 	done
 
 BillsMomText:
-	text"うちの　だんなも　むかしは"
-	line"ポケモンマニア　って　よばれてたのよ"
-	cont"マサキは　ちちおやに　にたのかねぇ…"
+	text"우리 남편도 예전에는"
+	line"포켓몬 매니아였단다"
+	cont"우리 이수재도 아버지를 닮은걸까…"
 	done
 
 BillsSisterUsefulNumberText:

@@ -335,8 +335,8 @@ EcruteakGymGuyWinText:
 	done
 
 EcruteakGymClosedText:
-	text"いま　りーダーの　マツバは　おらん"
-	line"すまんが　ひきとって　もらおうかの"
+	text"지금 관장인 유빈은 안에 없네"
+	line"미안헌데 데려와줄 수 있겄는가"
 
 	para"호호호호"
 	done

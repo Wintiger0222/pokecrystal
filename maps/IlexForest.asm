@@ -806,8 +806,8 @@ Text_HeadbuttOutro:
 	done
 
 Text_IlexForestLass:
-	text"もりのかみさまに"
-	line"なにか　あったのかしら…"
+	text"숲의 신께"
+	line"무슨일이 있었던걸까…"
 	done
 
 IlexForestSignpostText:
@@ -829,53 +829,53 @@ Text_ShrineCelebiEvent:
 	text "너도밤나무 숲의 사당……"
 	line "숲의 신을 받들어 모시는 곳이다"
 
-	para"あれ?"
+	para"어라?"
 
-	para"ジーエスボールが　おけるような"
-	line"あなが　あいている!"
+	para"GS볼을 놓을 수 있는듯한"
+	line"구멍이 뚫려있어!"
 
-	para"おいて　みますか?"
+	para"놓아보겠습니까?"
 	done
-
+	
 Text_InsertGSBall:
-	text"<PLAYER>は　ジーエスボールを"
-	line"ほこらにおいた！"
+	text"<PLAYER>는(은) GS볼을"
+	line"사당에 놓았다！"
 	done
 
 Text_KurtCaughtCelebi:
-	text"いやー　すごかった！"
+	text"와ー　굉장했다！"
 
 	para"<PLAYER>!"
-	line"すばらしいものを　みさせて"
-	cont"もらったわい"
+	line"정말 엄청난걸 "
+	cont"본거같군"
 
-	para"あの　ほこらにまつわる　はなしは"
-	line"ほんとう　だったんじゃな"
+	para"저 신사에 관한 이야기는"
+	line"진짜였던것이었군"
 
-	para"さあ　いいもの　みたら"
-	line"ボールが　つくりたくなったわい"
+	para"그럼 좋은걸 봤으니"
+	line"볼이 만들고 싶어졌다"
 
-	para"かえるぞ!"
+	para"자 돌아가자!"
 	done
 
 BugCatcherWayneSeenText:
-	text"きゅうにはなしかけないでよ!"
-	line"ポケモンが　にげちゃったじゃないか!"
+	text"갑자기 말걸지 마!"
+	line"포켓몬이 도망가버렸잖아!"
 	done
 
 BugCatcherWayneBeatenText:
-	text"はじめて　みる"
-	line"ポケモン　だったのに…"
+	text"처음보는"
+	line"포켓몬 이었는데…"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text"このきにずつきを　したら"
-	line"はじめてみる　ポケモンが　おちてきた"
+	text"이 나무에 박치기를 하면"
+	line"처음 보는 포켓몬이 떨어진다"
 
-	para"もっと　いろんな　ばしょで"
-	line"きにずつき　してみようかな…"
+	para"더 많은 곳에서 "
+	line"나무에 박치기를 해볼까나…"
 	done
-
+	
 IlexForest_MapEvents:
 	db 0, 0 ; filler
 

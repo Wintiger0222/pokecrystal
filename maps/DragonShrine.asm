@@ -272,9 +272,9 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "なかま@"
-	db "てした@"
-	db "ともだち@"
+	db "동료@"
+	db "부하@"
+	db "친구@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -285,9 +285,9 @@ DragonShrineQuestion2_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "さくせん@"
-	db "そだてる@"
-	db "インチキ@"
+	db "작전@"
+	db "육성@"
+	db "속임수@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -298,9 +298,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "よわいひと@"
-	db "つよいひと@"
-	db "だれとでも@"
+	db "약한사람@"
+	db "강한사람@"
+	db "누구라도@"
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -324,9 +324,9 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "つよいの@"
-	db "どっちも@"
-	db "よわいの@"
+	db "강한 쪽@"
+	db "어느쪽도@"
+	db "약한 쪽@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step UP
@@ -392,196 +392,197 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text"ふむ…　よくきたのう"
+	text"흠…　어서와라"
 
-	para"なーにしんぱい　するでない"
-	line"なにも　いわなくても　わかっておる!"
-	cont"イブキの　やつにいわれて"
-	cont"この　ほこらまで　きたのじゃろう?"
+	para"걱정할 필요 없느니라"
+	line"아무 말 안해도 알고 있느니라!"
+	cont"이향 그 녀석이"
+	cont"여기까지 오라고 한거지?"
 
-	para"あの　むすめにも　こまったものじゃ…"
+	para"그 녀석도 곤란하게 하는구나…"
 
-	para"まぁ…　おぬしには　もうしわけないが"
-	line"すこし　ばかり　ためさせてもらうぞ"
-	cont"なーにわしの　しつもんに"
-	cont"すこし　こたえて　もらうだけじゃよ"
+	para"뭐…　그대에겐 미안하지만"
+	line"조금 시험해보도록 하마"
+	cont"별거 아닐세 내 질문에"
+	cont"답하는거 정도니"
 
-	para"では　いくぞ…　"
+	para"그럼 질문하겠네…　"
 	done
 
 DragonShrineQuestion1Text:
-	text"おぬしにとって　ポケモンとは"
-	line"どのような　そんざい　なのかな?"
+	text"그대에게 있어서 포켓몬이란"
+	line"어떤 존재인가?"
 	done
 
 DragonShrineQuestion2Text:
-	text"ポケモンしょうぶで　かつために"
-	line"ひつようなこと　とは　なにかな?"
+	text"포켓몬 승부에 이기기 위해"
+	line"필요한건 무엇인가?"
 	done
 
 DragonShrineQuestion3Text:
-	text"どんな　ポケモン<TRAINER>と　"
-	line"たたかって　みたいと　おもう?"
+	text"어떤 포켓몬<TRAINER>와　"
+	line"싸워보고 싶은가?"
 	done
 
 DragonShrineQuestion4Text:
-	text"ポケモンを　そだてる　のに"
-	line"いちばん　だいじなことは　なんじゃ?"
+	text"포켓몬을 기르는데 있어서"
+	line"가장 중요한건 무엇인가?"
 	done
 
 DragonShrineQuestion5Text:
-	text"つよいポケモンと　よわいポケモン"
-	line"どっちのほうが　だいじ　なのかのう?"
+	text"강한 포켓몬과 약한 포켓몬"
+	line"어느쪽이 소중한가?"
 	done
 
 DragonShrinePassedTestText:
-	text"ふむ　なるほど…"
+	text"그래 그렇군…"
 
-	para"おぬしは　ポケモンを　とても"
-	line"だいじにおもって　いるようじゃな…"
+	para"그대는 포켓몬을 무척"
+	line"소중하게 생각하고 있는듯 하네…"
 
-	para"かんしん　かんしん"
-	line"その　こころが　たいせつなのじゃ!"
+	para"관심 관심"
+	line"그 마음가짐이 중요한 것일세!"
 
-	para"<PLAYER>よ"
-	line"いまの　きもちを　わすれるで　ないぞ"
-	cont"その　きもちを　わすれなければ"
-	cont"ポケモンりーグにいっても"
-	cont"じゅうぶん　つうよう　するじゃろう!"
+	para"<PLAYER>(이)여"
+	line"지금의 마음을 잊어버리지 말게나"
+	cont"그 마음을 잊어버리지 않는다면"
+	cont"포켓몬 리그도"
+	cont"충분히 해낼 수 있을걸세!"
 	done
 	
 DragonShrineMustIInformLanceText:
-	text"こりゃ　イブキ!"
+	text"그럼 이향!"
 
-	para"この　もの"
-	line"わざも　こころも　みごとな　ものじゃ"
-	cont"かんねんして　さっさと"
-	cont"ライジングバッジを　わたさんか!"
+	para"이 자는"
+	line"실력도 마음도 완벽한 자일세"
+	cont"단념하고 냉큼"
+	cont"라이징 배지를 주지 못할까!"
 
-	para"さもないと…"
-	line"このことを　ワタルにいいつけるぞ!"
+	para"안그런다면…"
+	line"이번 일을 목호에게 얘기할터!"
 	done
 
 DragonShrineElderScoldsClairText:
-	text"イブキよ…"
+	text"이향이여…"
 
-	para"おまえになくて"
-	line"この　ものにあるもの…"
-	cont"よく　かんがえる　ことじゃ"
+	para"너에겐 없고"
+	line"이 자에겐 있는 것…"
+	cont"잘 생각해보는게 좋을걸세"
 	done
 	
 DragonShrineComeAgainText:
-	text"きがむいたら　また　くるがよい"
+	text"기분이 내킨다면 다시와주게"
 	done
 
 DragonShrineTakeThisDratiniText:
-	text"ふむ…　よくきたのう"
+	text"흠…　잘 와주었네"
 
-	para"ちょうど　よかった"
-	line"おぬしにわたすものが　あるのじゃ!"
+	para"딱 잘 되었다"
+	line"그대에게 줄것이 있네!"
 
-	para"わしにみとめられた　あかしとして"
-	line"この　ミニりュウ　つれてゆくがよい!"
+	para"그대를 인정했다는 뜻이니"
+	line"이 미뇽을 데려가도록 하게!"
 	done
 
 DragonShrinePlayerReceivedDratiniText:
-	text"<PLAYER>は　ちょうろうから"
-	line"ミニりュウを　もらった！"
+	text"<PLAYER>는(은) 장로에게"
+	line"미뇽을 받았다!"
 	done
 	
 DragonShrinePartyFullText:
-	text"なんじゃ?"
-	line"ポケモンが　いっぱいの　ようじゃぞ"
+	text"뭣이?"
+	line"포켓몬이 잔뜩일세"
 	done
 
 DragonShrineSymbolicDragonText:
-	text"ドラゴンポケモンは"
-	line"われら　いちぞくの　しょうちょう!"
+	text"드래곤 포켓몬은"
+	line"우리 일족의 상징!"
 
-	para"おぬしになら　まかせられる"
+	para"그대라면 맡길 수 있지"
 	done
 
 DragonShrineClairsGrandfatherText:
-	text"おぬしとの　であいで　イブキは"
-	line"なにかを　かんじとった　ようじゃ…"
+	text"그대와의 만남으로 이향은"
+	line"뭔가를 느낀거 같네…"
 
-	para"そふ　として　かんしゃ　するぞ"
+	para"그 아이의 할애비로써 감사 하네"
 	done
 	
 DragonShrineSilverIsInTrainingText:
-	text"いま　おぬしと　おなじ　としごろの"
-	line"しょうねんが　しゅぎょうにきておる"
+	text"지금 그대와 같은 또래의"
+	line"소년이 수행을 하고있네"
 
-	para"むかしの　イブキににていて"
-	line"ちょっと　しんぱい　じゃのう…"
+	para"이향의 어릴적과 닮아있어서"
+	line"조금 걱정일세…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text"はぁ?"
-	line"よく　きこえなかったのう……"
+	text"응?"
+	line"잘 안들렸네만……"
 	done
 
 DragonShrineWrongAnswerText2:
-	text"なんと　いったんじゃ?"
+	text"뭐라고 했지?"
 	done
 	
 DragonShrineRightAnswerText:
-	text"ふむ　なるほど…"
+	text"흠 그렇군…"
 	done
 
 DragonShrineElder2Text:
-	text"ちょうろうさまに"
-	line"みとめられた　ものを　みるのは"
-	cont"ワタルさま　いらい　ひさしぶりじゃ"
+	text"장로님이"
+	line"인정한 사람을 보는건"
+	cont"목호님 이후 오랜만이군"
 	done
 	
 DragonShrineElder3Text:
-	text"ワタルさまを　しっているのか?"
+	text"목호님을 알고있는건가?"
 
-	para"ワタルさまは　わかいころの"
-	line"ちょうろうさまにそっくりじゃ"
-	cont"ちは　あらそえない　ものじゃのう…"
+	para"목호님은 젊었을적"
+	line"장로님과 꼭 닮았지"
+	cont"피는 속일 수 없는건가…"
 	done
 
 DragonShrineClairYouPassedText:
-	text"けっかは　どうかしら?"
+	text"결과는 어땠지?"
 
-	para"きくまでも　ないと　おもうけど…"
-	line"あなたでは　むり　だったでしょう?"
+	para"뭐 굳이 들을 필요도 없겠지만…"
+	line"역시 너에겐 무리였지?"
 	cont"<……>　<……>　<……>　<……>　<……>　<……>"
-	cont"<……>　え!　ごうかく?"
+	cont"<……>　엣!　합격?"
 	done
+	
 DragonShrineClairThatCantBeText:
-	text"そんな!"
+	text"그럴수가!"
 	done
 	
 DragonShrineClairYoureLyingText:
-	text"うそでしょ!"
-	line"わっ　わたしだって"
-	cont"まだ　みとめてもらって　ないのに!"
+	text"거짓말이지!"
+	line"나…나도 아직까지"
+	cont"인정받지 못했는데!"
 	done
 	
 DragonShrineIUnderstandText:
-	text"わっ　わかりましたわ…"
+	text"아…알겠어…"
 	done
 	
 DragonShrineHereRisingBadgeText:
-	text"さあ　これが　ライジングバッジよ…"
-	line"さっさと　うけとりなさい!"
+	text"자 이게 라이징 배지야…"
+	line"빨리 받으라고!"
 	done
 	
 DragonShrinePlayerReceivedRisingBadgeText:
-	text"<PLAYER>は　イブキから"
-	line"ライジングバッジを　もらった！"
+	text"<PLAYER>는(은) 이향에게"
+	line"라이징 배지를 받았다！"
 	done
 	
 DragonShrineRisingBadgeExplanationText:
-	text"ライジングバッジを　もっていれば"
-	line"どんな　たきでも"
-	cont"のぼることが　できる…"
-	cont"そして　すべての　ポケモンが"
-	cont"あなたを　<TRAINER>として　みとめ"
-	cont"どんな　めいれいにも　したがうわ…"
+	text"라이징 배지를 가지고 있으면"
+	line"어떤 폭포라도"
+	cont"넘을 수 있어…"
+	cont"그리고 모든 포켓몬이"
+	cont"너를　<TRAINER>로써 인정하게 되어"
+	cont"어떤 명령이라도 따를거야…"
 	done
 
 DragonShrineSpeechlessText:

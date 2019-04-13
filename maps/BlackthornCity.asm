@@ -164,8 +164,8 @@ Text_ClairIsBeaten:
 	text "이향 관장님께 이겼습니까?"
 	line "그것 대단하군요……"
 
-	para "ワタルさま　いがいに"
-	line "まけるのを　みるのは　はじめてです!"
+	para "목호님 이외에 이향님을"
+	line "이기는 분을 보는건 처음입니다!"
 	done
 
 BlackthornGrampsRefusesEntryText:
@@ -175,13 +175,13 @@ BlackthornGrampsRefusesEntryText:
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text"まごの　イブキさまが"
-	line"おゆるしになった　ならば"
+	text"손녀인 이향님이"
+	line"허락했습니다 그러면"
 
-	para"ちょうろうさまも"
-	line"きっと　おゆるしになるじゃろう…"
+	para"장로님도 분명"
+	line"허락해 주시겠죠…"
 
-	para"どうぞ　おとおり　くださいまし"
+	para"자 지나가십시오"
 	done
 	
 BlackBeltText_WeirdRadio:

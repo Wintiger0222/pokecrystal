@@ -84,35 +84,35 @@ CooltrainermCodySeenText:;TRANSLATED
 	done
 
 CooltrainermCodyBeatenText:
-	text "ちくしょ-!　ドラゴンさえ　いれば!"
+	text "제기랄-! 드래곤만 있었어도!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "ボクら　ドラゴンつかいの　いちぞくは"
-	line "ちょうろうさまの　ゆるしが　でたとき"
-	cont "はじめて　ドラゴン<POKE>を"
-	cont "つかうことが　できるように　なるんだ"
+	text "우리 드래곤조련사 일족은"
+	line "장로님의 허락이 나야"
+	cont "처음으로 드래곤 포켓몬을 "
+	cont "사용할 수 있게 돼"
 	done
 
 CooltrainerfFranSeenText:
-	text "なも　ない　<TRAINER>を"
-	line "このさきに　いかせる　わけには"
-	cont "いかないわ!　だって…"
+	text "모르는 <TRAINER>를"
+	line "더이상 앞으로 보내줄 순 "
+	cont "없거든!　왜냐면…"
 
-	para "イブキさまに　おこられちゃうもん!"
+	para "이향님한테 혼날지도 모르니까!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "あ-ん　まけちゃった-"
+	text "아-앙　져버렸당-"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "どうしよう…"
-	line "イブキさまに　おこられちゃうわ…"
+	text "어떡해…"
+	line "이향님한테 혼날꺼야…"
 	done
 
 BlackthornGym2FBoulderFellText:
-	text "바위는 아래에 떨어졌다!"
+	text "바위는 아래로 떨어졌다!"
 	done
 
 BlackthornGym2F_MapEvents:

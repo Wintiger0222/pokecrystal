@@ -74,23 +74,23 @@ DayCareBookshelf:
 	jumpstd difficultbookshelf
 
 Text_GrampsLookingForYou:
-	text"じいさんが"
-	line"あんたを　さがしておったよ"
+	text"할애비가"
+	line"널 찾고 있드라"
 	done
 	
 Text_DayCareManTalksAboutEggTicket:
-	text"わしは　そだてや　じいさんじゃ"
-	line"さいきん　できた　コガネの"
-	cont"トレードコーナーとか　いうところで"
-	cont"なぞのタマゴを　もらえる　という"
+	text"난 키우미집 할배여"
+	line"최근 금빛시티에 생긴"
+	cont"트레이드 코너 였지라"
+	cont"수수께끼의 알을 받을 수 있다는"
 
-	para"「タマゴけん」というのを"
-	line"もらったんじゃが…"
+	para"「알 티켓」이란걸"
+	line"받아부렀는디…"
 
-	para"わしら　そだてやじゃから"
-	line"ひつようないんじゃ"
+	para"우리들 키우미집 하는디"
+	line"필요없는겨"
 
-	para"これは　きみにあげよう"
+	para"줄테니 받아가그라"
 	done
 
 DayCareManText_GiveOddEgg:
@@ -118,9 +118,9 @@ DayCareManText_GiveOddEgg:
 	done
 
 DayCareText_ComeAgain:
-	text"また　きなさいよ"
+	text"또 오세요"
 	done
-
+	
 DayCareText_GotOddEgg:
 	text "<PLAYER> received"
 	line "ODD EGG!"

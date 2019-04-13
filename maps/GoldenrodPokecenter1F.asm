@@ -151,460 +151,460 @@ MovementData_0x6106c:
 
 ; unused
 UnknownText_0x61072:
-	text"ポケモンコミュニケーションセンター"
-	line"トレードコーナーに　ようこそ!"
+	text"포켓몬커뮤니케이션센터"
+	line"트레이드코너에 어서오세요!"
 
-	para"こちらでは"
-	line"であったことのない　おともだちと"
-	cont"ポケモンの　こうかんが　たのしめます"
+	para"여기에선"
+	line"한 번도 만나지 못한 친구들과"
+	cont"포켓몬 교환이 가능합니다"
 	done
 
 UnknownText_0x610ce:
-	text"こうかんを　するためには　ポケモンを"
-	line"あずけて　もらうことになりますが…"
+	text"교환하기 위해서는 포켓몬을"
+	line"맡겨주셔야 합니다만…"
 
-	para"こうかんを　しますか?"
+	para"교환하시겠습니까?"
 	done
 
 UnknownText_0x61111:
-	text"つぎにどんな　ポケモンが"
-	line"ほしいのか　おしえて　ください"
+	text"다음은 어떤 포켓몬을"
+	line"가지고 싶은지 선택해주세요"
 	done
 
 UnknownText_0x6113b:
-	text"わかりました"
-	line"あなたの　@"
+	text"알겠습니다"
+	line"당신의　@"
 	text_ram wStringBuffer3
-	text"と"
+	text"과(와)"
 	cont"@"
 	text_ram wStringBuffer4
-	text "の"
-	cont"こうかんを　とりもって　さしあげます"
+	text "의"
+	cont"교환을 시작하도록 하겠습니다"
 
-	para"それでは　あなたの　ポケモンを"
-	line"おあずかりさせて　いただきます"
+	para"그러면 당신의 포켓몬을"
+	line"맡아두도록 하겠습니다"
 
-	para"おへやの　じゅんびを　しますので"
-	line"しばらく　おまちください　……"
+	para"방을 준비하고 있으므로"
+	line"잠시만 기다려주세요……"
 	done
 
 UnknownText_0x611c9:
-	text"わかりました　あなたの　@"
+	text"알겠습니다 당신의　@"
 	text_ram wStringBuffer3
-	text"と"
-	line"あなたが　みはっけんの　ポケモンとの"
-	cont"こうかんを　とりもって　さしあげます"
+	text"과(와)"
+	line"당신이 발견하지 못한 포켓몬과의"
+	cont"교환을 시작하도록 하겠습니다"
 
-	para"それでは　あなたの　ポケモンを"
-	line"おあずかりさせて　いただきます"
+	para"그러면 당신의 포켓몬을"
+	line"맡아두도록 하겠습니다"
 
-	para"おへやの　じゅんびを　しますので"
-	line"しばらく　おまちください　……"
+	para"방을 준비하고 있으므로"
+	line"잠시만 기다려주세요……"
 	done
 
 UnknownText_0x61271:
-	text"あなたの　ポケモンを　"
-	line"しっかりと　おあずかり　いたしました"
+	text"당신의 포켓몬"
+	line"확실히 맡아두었습니다"
 
-	para"こうかん　あいてを　さがすには　"
-	line"すこし　じかんが　かかりますので"
-	cont"しばらくしたら　また　おいでください"
+	para"교환상대를 찾기 위해서는"
+	line"많은 시간이 걸리기 때문에"
+	cont"잠시 시간을 두신 후 다시 와 주세요"
 	done
 
 UnknownText_0x612d8:
-	text"あら?　てもちの　ポケモンが"
-	line"1たいしか　いないようですね　……"
+	text"어라?가지고 계신 포켓몬이"
+	line"1마리 밖에 없는거 같네요……"
 
-	para"てもちの　ポケモンを　ふやして　から"
-	line"また　いらして　ください"
+	para"가지고 계신 포켓몬을 늘리신 후"
+	line"다시 방문해 주세요"
 	done
 
 UnknownText_0x61344:
-	text"またの"
-	line"ごりようを　おまち　してます!"
+	text"다음번의"
+	line"이용을 기다리고 있겠습니다!"
 	done
 
 UnknownText_0x6135f:
-	text"つうしんエラー"
+	text"통신에러"
 	done
 
 
 UnknownText_0x61375:
-	text"その　ポケモンを　あずけると"
-	line"たたかえる　てもちポケモンが"
+	text"그 포켓몬을 맡기게 되면"
+	line"싸울 수 있는 포켓몬이"
 
-	para"いなくなって　しまいます!"
+	para"없어져 버립니다!"
 	done
 
 UnknownText_0x613a9:
-	text"もうしわけ　ありませんが"
-	line"タマゴは　おあずかり　できません"
+	text"대단히 죄송합니다"
+	line"알은 맡길 수 없습니다"
 	done
 
 UnknownText_0x613c8:
-	text"ポケモンにいじょうがあるので"
-	line"おあずかり　できません!"
+	text"포켓몬에 이상이 있어서"
+	line"맡길 수 없습니다!"
 	done
 
 UnknownText_0x61409:
-	text"あら?　あなた…　ポケモンを"
-	line"おあずけになっていますよね?"
+	text"어라?　당신…　포켓몬을"
+	line"맡기고 있는 상태네요?"
 	done
 
 UnknownText_0x61438:
-	text"それでは　おへやを　しらべますので"
-	line"しばらく　おまちください……"
+	text"그렇다면 방을 찾겠습니다"
+	line"잠시만 기다려주세요……"
 	done
 
 
 UnknownText_0x6145c:
-	text"おまたせ　しました！　こうかんの"
-	line"あいてが　みつかっていた　ようです"
+	text"기다리셨습니다！　교환 상대가"
+	line"나타난거같습니다"
 	done
 
 UnknownText_0x6149a:
-	text"あなたの　あたらしい　なかまです"
-	line"かわいがって　あげて　くださいね"
+	text"당신의 새로운 동료입니다"
+	line"귀여워해 주세요"
 
-	para"それでは　またの"
-	line"ごりようを　おまち　しております!"
+	para"그렇다면 다음번의"
+	line"이용을 기다리고 있겠습니다!"
 	done
 	
 UnknownText_0x614ed:
-	text"でも　てもちの　ポケモンが"
-	line"いっぱいな　ようです　ので　……"
+	text"하지만 당신의 포켓몬이"
+	line"가득인거 같습니다……"
 
-	para"てもちの　ポケモンを　へらして　から"
-	line"また　いらして　ください"
+	para"수중의 포켓몬을 맡기신 후에"
+	line"다시 와주세요"
 	done
 
 UnknownText_0x61544:
-	text"ざんねん　ですが…"
-	line"こうかん　あいては　みつかってません"
+	text"유감입니다만…"
+	line"교환상대가 나타나지 않았습니다"
 
-	para"おあずかり　している"
-	line"ポケモンを　ひきとりますか?"
+	para"맡아둔 포켓몬을"
+	line"다시 데려가시겠습니까?"
 	done
 
 UnknownText_0x615a5:
-	text"ポケモンを　"
-	line"おかえし　いたしました"
+	text"포켓몬을 "
+	line"되돌려 드렸습니다"
 	done
 	
 UnknownText_0x615c2:
-	text"ざんねん　ですが…"
-	line"こうかん　あいては　みつかってません"
+	text"유감입니다만…"
+	line"교환상대가 나타나지 않았습니다"
 
-	para"ながく　おあずけになっているので"
-	line"あなたの　ポケモンが"
-	cont"たいへん　さみしがってる　ようです"
+	para"길게 맡겨졌기 때문에"
+	line"당신의 포켓몬이"
+	cont"무척 외로워하고 있는거 같습니다"
 
-	para"なので　1ど　おあずかり　している"
-	line"ポケモンを　おかえし　いたします…"
+	para"때문에 맡아두고 있는 포켓몬을"
+	line"한 번 되돌려드리겠습니다…"
 	done
 
 
 UnknownText_0x6166e:
-	text"またの"
-	line"ごりようを　おまち　しております!"
+	text"다음번의"
+	line"이용을 기다리고 있겠습니다!"
 	done
 	
 UnknownText_0x61689:
-	text"それでは　ひきつづき"
-	line"ポケモンを　おあずかり　いたします"
+	text"그럼 계속해서"
+	line"포켓몬을 맡아두도록 하겠습니다"
 	done
 
 UnknownText_0x616b4:
-	text"あら?　"
-	line"ポケモンを　おあずかりしてから"
-	cont"まだ　すこし　しか"
-	cont"じかんが　たっていないようですね"
+	text"어라?　"
+	line"포켓몬을 맡기신 뒤로 "
+	cont"아직 조금밖에 시간이"
+	cont"지나지 않은거 같네요"
 
-	para"もう　しばらく　たってから"
-	line"また　おこしください"
+	para"조금 더 시간이 지난 후에"
+	line"다시 방문해 주세요"
 	done
 
 UnknownText_0x616fb:
-	text"センターにおつなぎするまえに"
-	line"レポートを　かきます"
+	text"센터에 접속하기 전에"
+	line"레포트를 쓰겠습니다"
 	done
 
 UnknownText_0x61727:
-	text"それでは　こうかんにだしたい"
-	line"ポケモンを　えらんで　ください"
+	text"그러면 교환에 내놓고 싶은"
+	line"포켓몬을 골라주세요"
 	done
 	
 UnknownText_0x61749:
-	text"もうしわけ　ありませんが　こうかんを"
-	line"ちゅうし　させて　いただきます"
+	text"정말 죄송합니다 "
+	line"교환을 중지하도록 하겠습니다"
 	done
 UnknownText_0x6176f:
-	text"あ!"
+	text"아!"
 
-	para"「タマゴけん」を　おもちの"
-	line"かたですね!"
+	para"「알 티켓」을 가지고계신"
+	line"분이시군요!"
 
-	para"タマゴけんは　とくべつな　ポケモンを"
-	line"とくべつな　かただけにおわたしする"
-	cont"ひきかえけん　です"
+	para"알교환권은 특별한 포켓몬을"
+	line"특별한 분들에게만 나눠드리는"
+	cont"교환권입니다"
 	done
 
 UnknownText_0x617d2:
-	text"それでは　かんたんにせつめい"
-	line"させていただきます!"
+	text"그럼 간단히 설명하도록"
+	line"하겠습니다!"
 
-	para"トレードコーナーの　こうかんでは"
-	line"であったことのない　おともだちと"
-	cont"こうかんを　するので　じかんが"
-	cont"かかりますが"
+	para"트레이드 코너의 교환에선"
+	line"만난적 없는 친구들과"
+	cont"교환을 하기때문에"
+	cont"시간이 걸리지만"
 
-	para"なぞのタマゴは"
-	line"あなたのためにとくべつに"
-	cont"ようい　していたものですので"
-	cont"すぐ　おくられてきます!"
+	para"수수께끼의 알은"
+	line"당신을 위해 특별히"
+	cont"준비된 것이기 때문에"
+	cont"금방 받을 수 있습니다!"
 
-	para"いまから　センターにある"
-	line"いろいろな　へやから"
+	para"지금부터 센터에 있는"
+	line"여러 방들 중에"
 
-	para"1つの　へやを　えらび"
-	line"そこにある　なぞのタマゴを"
-	cont"おくってもらいます"
+	para"1개의 방을 골라"
+	line"거기에 있는 수수께끼의 알을"
+	cont"보내보겠습니다"
 	done
 
 UnknownText_0x6191f:
-	text"じゅんびを　しますので"
-	line"しばらく　おまちください……"
+	text"준비하고있으니"
+	line"잠시만 기다려주세요……"
 	done
 
 UnknownText_0x61936:
-	text"おまたせ　しました!"
-	line"なぞのタマゴを　うけとりました!"
+	text"기다리셨습니다!"
+	line"수수께끼의 알을 받았습니다!"
 
-	para"これは　なぞのタマゴです"
+	para"이건 수수께끼의 알입니다"
 
-	para"たいせつにそだてて　あげて"
-	line"くださいね"
+	para"알이 깨어날 때 까지"
+	line"소중하게 키워주세요"
 	done
 
 UnknownText_0x61996:
-	text"もうしわけ　ございません!"
+	text"정말 죄송합니다!"
 
-	para"ただいま　タマゴけんの"
-	line"サービスは　ちゅうし　しています"
+	para"지금 알티켓 서비스는"
+	line"중지중에 있습니다"
 	done
 
 UnknownText_0x619db:
-	text"ポケモンニュースマシンだ!"
+	text"포켓몬 뉴스머신이다!"
 	done
 
 UnknownText_0x619f5:
-	text"なにを　しますか?"
+	text"무엇을 하겠습니까?"
 	done
 
 UnknownText_0x61a11:
-	text"ポケモンニュースは"
-	line"みんなの　ポケモンレポートを"
-	cont"あつめて　つくる　ニュースです!"
+	text"포켓몬 뉴스는"
+	line"모두의 포켓몬 레포트를"
+	cont"모아서 만드는 뉴스입니다!"
 
-	para"あたらしい　ニュースを　よみこむとき"
-	line"あなたの　ポケモンレポートが"
-	cont"おくられる　ことが　あります"
+	para"새로운 뉴스를 불러올 경우"
+	line"당신의 포켓몬 레포트를"
+	cont"보낼 수 있습니다"
 
-	para"おくられる　レポートの　ないようは"
-	line"あなたの　ぼうけんの　きろくと"
-	cont"モバイルプロフィールです"
+	para"보내지는 레포트의 내용은"
+	line"당신의 모험기록과"
+	cont"모바일 프로필입니다"
 
-	para"でんわばんごうは　おくられません"
+	para"전화번호는 보낼 수 없습니다"
 
-	para"ニュースは　みんなから　おくられる"
-	line"レポートによって　いろいろ"
-	cont"ないようが　かわることが　あります"
+	para"뉴스는 모두로부터 보내집니다"
+	line"레포트를 통해 여러가지"
+	cont"내용을 알게될 수 있습니다"
 
-	para"もしかすると　あなたの　なまえも"
-	line"ニュースにのるかもしれません!"
+	para"어쩌면 당신의 이름도"
+	line"뉴스에 나올 수 있습니다!"
 	done
 
 UnknownText_0x61b7c:
-	text"あたらしい　ニュースを"
-	line"よみこみますか?"
+	text"새로운 뉴스를"
+	line"불러오겠습니까?"
 	done
 
 UnknownText_0x61b9d:
-	text"あたらしい　ニュースを　よみこみます"
-	line"そのまま　しばらく　おまちください"
+	text"새로운 뉴스를 불러옵니다"
+	line"잠시 그대로 기다려주세요"
 	done
 	
 UnknownText_0x61bc4:
-	text"まえの　ニュースが　ありません!"
+	text"전뉴스가 없습니다!"
 	done
 
 UnknownText_0x61bdb:
-	text"ニュースの　データが　こわれています"
-	line"よみこみ　なおして　ください"
+	text"뉴스 데이터가 손상되었습니다"
+	line"다시 불러와주세요"
 	done
 
 UnknownText_0x61c18:
-	text"じゅんびちゅう…"
-	line"また　あとで　おこしください"
+	text"준비중…"
+	line"잠시 후에 시도해주세요"
 	done
 
 UnknownText_0x61c4b:
-	text"ニュースマシンを　そうさする　まえに"
-	line"レポートを　かきます"
+	text"뉴스머신을 조작하기 전에"
+	line"레포트를 작성합니다"
 	done
 
 UnknownText_0x61c89:
-	text"でっかい　ポケモンセンターだねー"
-	line"すごいねー"
+	text"커다란 포켓몬 센터네ー"
+	line"굉장하지ー"
 
-	para"ここって　さいきん　できたばかりでね"
-	line"あたらしい　きかいが"
-	cont"いっぱい　あるんだよ!"
+	para"여긴 이제 막 생긴참이야"
+	line"새로운 기기들이"
+	cont"잔뜩있어!"
 	done
 
 UnknownText_0x61cef:
-	text"トレードコーナーの　あたらしい"
-	line"あそびかた　はっけんしちゃった！"
+	text"트레이드 코너로 새롭게"
+	line"즐기는 법을 발견했어"
 
-	para"ポッポにメールを　もたせて"
-	line"ほしい　ポケモンも　ポッポにして"
-	cont"こうかんにだすんだ!"
+	para"구구에게 메일을 지니게 하고"
+	line"원하는 포켓몬을 구구로 해서"
+	cont"교환에 내보내는거야!"
 
-	para"みんなが　おなじこと　すると"
-	line"いろんな　ひとと"
-	cont"ぶんつうが　できちゃうよ!"
+	para"다들 이렇게 하면"
+	line"다양한 사람들과"
+	cont"펜팔이 될 수 있어!"
 
-	para"なづけて　ポッポメール!"
+	para"이름하여 구구메일!"
 
-	para"…はやったら　ともだち　いっぱい"
-	line"できるかも!"
+	para"…유행하면 친구들 잔뜩"
+	line"생길지도!"
 	done
 
 UnknownText_0x61dfd:
-	text"ここはね　あったことのない　ひとと"
-	line"ポケモンを　こうかんできる"
-	cont"ところ　なんだって!"
+	text"여기는 만난적 없는 사람들과"
+	line"포켓몬을 교환할 수 있는"
+	cont"곳이래!"
 
-	para"でも　いまは　まだ"
-	line"ちょうせいちゅう　みたいよ"
+	para"근데 지금은 아직"
+	line"조정중인가봐"
 	done
 
 UnknownText_0x61e5c:
-	text"いま　しらない　おんなのこから"
-	line"ハネッコを　もらったの!"
+	text"방금 모르는 여자애한테"
+	line"통통코를 받았어!"
 
-	para"あなたも　ほしい　ポケモンと"
-	line"こうかん　できると　いいね!"
+	para"원하는 포켓몬하고"
+	line"교환할 수 있다는건 좋네!"
 	done
 
 UnknownText_0x61eb2:
-	text"メスの　ハネッコを　もらったのに"
-	line"なまえが　ヤスオくん　だったの!"
-	cont"しかも　パパと　おなじ　なまえ…"
+	text"민수의 통통코를 받았는데 "
+	line"이름이 철준이 였어!"
+	cont"심지어 우리아빠랑 똑같은 이름…"
 	done
 
 UnknownText_0x61efa:
-	text"ニュースマシンって　なんだろう?"
+	text"뉴스머신이라니 뭐야?"
 
-	para"ラジオより　ひろい　ちいきの"
-	line"じょうほうが　わかるのかな?"
+	para"라디오보다 넓은 지역의"
+	line"정보도 알 수 있는건가?"
 	done
 
 UnknownText_0x61f48:
-	text"ポケモンコミュニケーションセンターと"
-	line"ぜんぶの　ポケモンセンターが"
-	cont"でんぱで　つながるんだって!"
+	text"포켓몬 커뮤니케이션 센터랑"
+	line"모든 포켓몬 센터가"
+	cont"전파로 이어져있대!"
 
-	para"きっと　これから"
-	line"いろんな　ひとと　つうしんが"
-	cont"できるようになるのね!"
+	para"분명 지금부터"
+	line"여러 사람들과 통신이 "
+	cont"되는거네!"
 	done
 
 UnknownText_0x61fc9:
-	text"ここにある　しせつは"
-	line"まだ　つかえないみたいだけど"
+	text"여기있는 시설은"
+	line"아직 사용할 수 없는거 같지만"
 
-	para"ひとよりも　はやく"
-	line"うわさのスポットを　みにきたっていう"
-	cont"うれしさが　あるね!"
+	para"누구보다 빨리"
+	line"소문의 장소를 보러왔다는"
+	cont"기쁨이 있네!"
 	done
 
 UnknownText_0x6202c:
-	text"こないだ　ニュースにともだちの"
-	line"なまえが　でてたから　びっくりした！"
+	text"요저번 뉴스에"
+	line"내 이름이 나와서 깜짝 놀랐어！"
 	done
 
 UnknownText_0x6206d:
-	text"さいしんじょうほうを　いつも"
-	line"チェックしてないと　きがすまないわ!"
+	text"최신정보를 언제나"
+	line"체크하지 않으면 마음이 안놓여!"
 	done
 
 UnknownText_0x620a1:
-	text"ニュースになまえが　のって"
-	line"すっごく　ゆうめいになっちゃったら"
-	cont"きっと　もう　もてもて　だろうな…"
+	text"뉴스에 이름이 실려서"
+	line"엄청나게 유명해진다면"
+	cont"분명 사인해달라고 줄을 서겠지…"
 
-	para"うーん　どうやったら　のるんだろう?"
+	para"으ー음 어떻게 해야 실릴 수 있지?"
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text"2かいにある　コロシアムで"
-	line"つうしんたいせん　できるだろ"
+	text"2층에 있는 콜로세움에서"
+	line"통신대전이 되겠지"
 
-	para"かべをみると　じぶんの　せいせきが"
-	line"わかるから　まけてられないよ"
+	para"벽에 내 성적이"
+	line"붙어있으니 질 수 없어"
 	done
 
 UnknownText_0x62173:
-	text"コガネの　ポケモンセンターに"
-	line"みたこともない　きかいが　あると"
-	cont"きいて　やってきたが…"
+	text"금빛시티 포켓몬센터에서"
+	line"본적없는 세계가 있다고 해서"
+	cont"서둘러 와봤는데…"
 
-	para"まだ　いろいろと　じゅんびで"
-	line"あわただしそうじゃな…"
+	para"아직 이런저런 준비로"
+	line"어수선 하구먼…"
 	done
 
 UnknownText_0x62222:
-	text"ここにいると"
-	line"あたらしいものが　いっぱい　みられて"
-	cont"きぶんが　わかがえるのう"
+	text"여기 있으니"
+	line"새로운 것들을 잔뜩 볼 수 있어서"
+	cont"젊어지는 기분이 들어"
 	done
 
 GoldenrodPokecenter1FLassText:
-	text"どんなにレべルが　たかくたって"
-	line"タイプの　あいしょうが　あるの"
+	text"레벨을 아무리 올려도"
+	line"타입상성이란게 있어서"
 
-	para"ぜったいにつよい　ポケモンってのは"
-	line"そうそう　いないでしょうね"
+	para"절대적으로 강한 포켓몬이란건"
+	line"좀처럼 없는거같아"
 	done
 
 UnknownText_0x622f0:
-	text"<PLAYER>さん　ですよね?"
+	text"<PLAYER>씨죠?"
 
-	para"おめでとうございます!"
+	para"축하드려요!"
 
-	para"こんかいは　とくべつに…ということで"
-	line"ジーエスボールと　いうものが"
-	cont"おくられて　きました！"
+	para"이번만 특별히…라는 이유로"
+	line"GS볼 이라는걸"
+	cont"보내드릴게요！"
 
-	para"どうぞ　おうけとりください!"
+	para"자 여기 받아주세요!"
 	done
 
 UnknownText_0x62359:
-	text"また　ごりようください!"
+	text"또 이용해주세요!"
 	done
 UnknownText_0x62370:
-	text"ポケモンコミュニケーションセンター"
-	line"1かい　の　ごあんない"
-	cont"ひだり　　　…　かんりしつ"
-	cont"ちゅうおう　…　トレードコーナー"
-	cont"みぎ　　　　…　ポケモンニュース"
+	text"포켓몬 커뮤니케이션 센터"
+	line"1층 안내"
+	cont"왼쪽　…　관리실"
+	cont"중앙　…　트레이드 코너"
+	cont"오른쪽　…　포켓몬 뉴스"
 	done
 
 UnknownText_0x623c7:
-	text"ポケモンニュースマシンだ!"
+	text"포켓몬 뉴스 머신이다!"
 
-	para"まだ　ニュースは　よめない　みたい…"
+	para"아직 뉴스는 못보는거같다…"
 	done
 
 UnknownText_0x623fb:

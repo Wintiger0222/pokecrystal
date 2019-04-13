@@ -248,47 +248,47 @@ CianwoodCityUnusedText:
 EusineSuicuneText:
 	text"수호『여어　<PLAYER>"
 
-	para"いまの……"
-	line"スイクンじゃなかったか?"
+	para"방금 그건……"
+	line"스이쿤이었지?"
 
-	para"ちらっとしか　みえなかったが"
-	line"うみの　うえを　スイクンが"
-	cont"はしっていった　ように　みえたぜ…"
+	para"조금밖에 안 보였지만"
+	line"바다 위를 스이쿤이"
+	cont"달려가는 것처럼 보였어…"
 
-	para"スイクンは　うつくしくて　りりしい"
+	para"스이쿤은 아름다우면서도 당차"
 
-	para"しかも　ものすごい　はやさで"
-	line"まちや　みちを　かけめぐる"
+	para"그리고 엄청난 속도로"
+	line"마을이나 거리를 뛰어다녀"
 
-	para"すばらしい"
+	para"멋져"
 
-	para"わたしも　もっと　ちかくで"
-	line"スイクンを　みてみたいのだが……"
+	para"나도 더 가까이서"
+	line"스이쿤을 보고싶지만……"
 
-	para"よし!"
+	para"그래!"
 
-	para"<TRAINER>である　きみと　たたかって"
-	line"わたしも　スイクンに　みとめてもらう"
+	para"<TRAINER>인 너와 싸워서"
+	line"나도 스이쿤에게 인정받겠어"
 
-	para"さっそく　しょうぶだ!"
-	line"いくぞ　<PLAYER>!"
+	para"바로 승부다!"
+	line"간닷 <PLAYER>!"
 	done
 
 EusineBeatenText:
-	text"くやしいけど　わたしの　まけだ!"
+	text"분하지만 나의 패배다!"
 	done
 
 EusineAfterText:
-	text"すごいぜ　<PLAYER>!"
+	text"굉장하잖아 <PLAYER>!"
 
-	para"どうりで　<PLAYER>のまわりを…"
+	para"그래서 <PLAYER> 주변을…"
 
-	para"なるほど"
+	para"그렇군"
 
-	para"わたしは　スイクンをさがす"
+	para"나는 스이쿤을 찾겠어"
 
-	para"また　あうであろう"
-	line"じゃあな!"
+	para"또 만나겠지"
+	line"잘가라!"
 	done
 
 CianwoodCitySignText:
@@ -314,8 +314,8 @@ CianwoodPhotoStudioSignText:
 	done
 
 CianwoodPokeSeerSignText:
-	text"このさき"
-	line"なんでも　おみとおし"
+	text"이 앞"
+	line"뭐든지 꿰뚫어 본다"
 	done
 
 CianwoodCity_MapEvents:

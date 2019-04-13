@@ -207,8 +207,8 @@ ClairText_Wait:
 	done
 	
 ClairText_GiveDragonbreathDragonDen:
-	text"イブキ『こんかいは　わるかったわね…"
-	line"おわびに　これを　あげるわ"
+	text"이향『아깐 미안했어…"
+	line"사과의 표시로 이걸 받아줘"
 	done
 
 NotifyReceiveDragonbreath:
@@ -217,42 +217,42 @@ NotifyReceiveDragonbreath:
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text"なかに　はいっているのは"
-	line"りゅうのいぶき"
+	text"안에 들어 있는 것은"
+	line"용의 숨결"
 
-	para"……　べつに　シャレじゃ　ないわよ"
-	line"いらないなら　むりして"
-	cont"もっていかなくても　いいのよ"
+	para"…… 그다지 화려하진 않아"
+	line"필요 없으면 무리해서"
+	cont"가지고 가지 않아도 좋아"
 	done
 
 ClairText_NoRoom:
-	text"あら?"
-	line"それいじょうは　もてないようね…"
-	cont"ジムで　まっているから"
-	cont"ほしければ　せいり　してらっしゃい"
+	text"어라?"
+	line"그 이상은 지닐 수 없는거 같네…"
+	cont"체육관에서 기다릴게"
+	cont"갖고싶다면 정리 하고 오도록 해"
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text"イブキ『どうしたの?"
-	line"ポケモンりーグに　むかうんでしょう?"
+	text"이향『뭐하고있어?"
+	line"포켓몬리그에 갈거잖아?"
 
-	para"ばしょは　しってるの?"
+	para"어디있는진 알고 있는거야?"
 
-	para"ここからだと　そうね…"
-	line"まずは　ワカバタウンに　いくといいわ"
+	para"여기서 라면 흠…"
+	line"일단 연두마을에 가는게 좋겠네"
 
-	para"そこから　なみのりで"
-	line"ずっと　ひがしに　すすんで　いけば"
-	cont"ポケモンりーグに　とうちゃく　するわ"
-	cont"でも　きびしい　みちのりに　なるわよ"
+	para"거기서 파도타기로"
+	line"동쪽으로 가다보면"
+	cont"포켓몬리그에 도착할거야"
+	cont"분명 험난한 길이 될거야"
 
-	para"それと…　ポケモンりーグでも"
-	line"まけることは　ゆるさないからね!"
+	para"하지만…　포켓몬리그라도"
+	line"지면 절대 용서 안할거야!"
 
-	para"そうでないと　まけた　わたしが　"
-	line"みじめに　なるでしょ!"
+	para"네가 져버리면 뱃지를 건낸게"
+	line"의미가 없어지잖아!"
 
-	para"…がんばりなさい"
+	para"…응원할게"
 	done
 
 DragonShrineSignpostText:
@@ -286,65 +286,65 @@ SilverText_Training2:
 	done
 
 CooltrainermDarinSeenText:
-	text"キサマ!　なにものだ!"
-	line"かってに　はいって　くるな!"
+	text"네놈!　뭐하는 놈이냐!"
+	line"멋대로 들어오지 말라고!"
 	done
 	
 CooltrainermDarinBeatenText:
-	text"つっ　つよい!"
+	text"으윽 강해!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text"このさきにある　ほこらには"
-	line"ボクたち　ドラゴンつかい　いちぞくの"
-	cont"ちょうろうさまが　いらっしゃる…"
+	text"이 앞에 있는 사당엔"
+	line"우리 드래곤 조련사 일족의"
+	cont"장로님이 계신다…"
 
-	para"かってに　はいって　いって"
-	line"しつれいなことを　しないで　くれよ!"
+	para"멋대로 쳐들어가서"
+	line"실례되는 짓거리는 하지 말라고!"
 	done
 
 CooltrainerfCaraSeenText:
-	text"こんな　ところまで"
-	line"はいってきちゃ　ダメじゃない!"
+	text"이런데까지"
+	line"들어오면 안되는거 아니니!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text"いやーん　まけちゃったー"
+	text"싫어어　져버렸어어"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text"もうすぐ　ちょうろうさまから"
-	line"ドラゴンをつかう　おゆるしが　でるの"
+	text"조금만 있으면 장로님이"
+	line"드래곤을 써도 좋다고 허락해 주실거야"
 
-	para"おゆるしが　でたら　つぎは"
-	line"ちょうろうさまに　みとめられるような"
-	cont"りっぱな　ドラゴンつかいを　めざすわ"
+	para"허락을 받은 다음엔"
+	line"장로님도 인정할정도의"
+	cont"훌륭한 드래곤 조련사가 될테야"
 	done
 
 TwinsLeaandpia1SeenText:
-	text"しらない　ひとですー"
+	text"모르는 사람이에요ー"
 	done
 
 TwinsLeaandpia1BeatenText:
-	text"いたいですー"
+	text"아파요ー"
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text"なんだか　ワタルおにいちゃんと"
-	line"たたかってた　みたいですー"
+	text"왠지 목호오빠를"
+	line"상대한거 같은 기분이에요ー"
 	done
 
 TwinsLeaandpia2SeenText:
-	text"あなた　だれですかー"
+	text"당신 누구인가요ー"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text"ひどいですー"
+	text"너무해요ー"
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text"おじいちゃんに　いいつけて"
-	line"いっぱい　しかって　もらうですー"
+	text"할아버지한테 일러바쳐서"
+	line"엄청 혼내달라고 할거에요ー"
 	done
 
 Text_FoundDragonFang:
