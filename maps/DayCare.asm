@@ -74,75 +74,62 @@ DayCareBookshelf:
 	jumpstd difficultbookshelf
 
 Text_GrampsLookingForYou:
-	text"할애비가"
-	line"널 찾고 있드라"
+	text"할아버지가"
+	line"널 찾고 있더라"
 	done
 	
 Text_DayCareManTalksAboutEggTicket:
-	text"난 키우미집 할배여"
+	text"난 키우미집 할아버지란다"
 	line"최근 금빛시티에 생긴"
-	cont"트레이드 코너 였지라"
+	cont"트레이드 코너인가 하는 데서"
 	cont"수수께끼의 알을 받을 수 있다는"
 
 	para"「알 티켓」이란걸"
-	line"받아부렀는디…"
+	line"받아는데…"
 
-	para"우리들 키우미집 하는디"
-	line"필요없는겨"
+	para"우린 키우미집 하니까"
+	line"필요없구나"
 
-	para"줄테니 받아가그라"
+	para"줄테니 받아가렴"
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "나는 키우미집 할아버지란다"
+	line "알에 대한 거 알고 있니?"
 
-	para "Do you know about"
-	line "EGGS?"
+	para "아내랑 같이 포켓몬을 "
+	line "키우고 있었는데"
+	cont "어느 날 이런 알이 있던 게다!"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "신기한 일이야"
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "혹시 알을 가지고 싶니?"
 
-	para "How incredible is"
-	line "that?"
-
-	para "Well, wouldn't you"
-	line "like this EGG?"
-
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "그러면 너에게 줄테니"
+	line "신경 쓰지 말고 가져가렴"
 	done
 
 DayCareText_ComeAgain:
-	text"또 오세요"
+	text"나중에 또 오렴"
 	done
 	
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER>는(은)"
+	line "이상한 알을 받았다."
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "다른 트레이너의"
+	line "포켓몬을 키울 때"
+	cont "본 알이란다"
 
-	para "someone's #MON"
-	line "before."
-
-	para "But the trainer"
-	line "didn't want the"
-
-	para "EGG, so I'd kept"
-	line "it around."
+	para "…그런데 그 트레이너가"
+	line "알을 갖기 싫다고 해서"
+	cont "내가 이렇게 키우고 있었단다"
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "자리가 없어!"
 	done
 
 DayCare_MapEvents:

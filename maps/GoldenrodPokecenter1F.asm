@@ -608,51 +608,40 @@ UnknownText_0x623c7:
 	done
 
 UnknownText_0x623fb:
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "어머 짐이 무거워보이네!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "혹시 브이브이메일이라는 거"
+	line "가지고 있니?"
 
-	para "My daughter is"
-	line "after one."
-
-	para "You can part with"
-	line "one, can't you?"
+	para "우리 딸이 그걸 찾고 있는데"
+	line "하나만 부탁해도 될까?"
 	done
 
 UnknownText_0x6248c:
-	text "Give away an EON"
-	line "MAIL?"
+	text "브이브이메일을 줄까?"
 	done
 
 UnknownText_0x624a4:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
-
-	para "Here, this is for"
-	line "you in return!"
+	text "고마워!"
+	line "답례로 이걸 줄게!"
 	done
 
 UnknownText_0x624e9:
-	text "My daughter will"
-	line "be delighted!"
+	text "우리 딸이 좋아할 거야!"
 	done
 
 UnknownText_0x62509:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "없다면 어쩔 수 없네"
 	done
 
 UnknownText_0x6252a:
-	text "Oh… Well, another"
-	line "time, then."
+	text "그럼… "
+	line "나중에 줘도 돼"
 	done
 
 UnknownText_0x62549:
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER>는(은)"
+	line "브이브이메일을 주었다"
 	done
 
 GoldenrodPokecenter1F_MapEvents:
