@@ -404,7 +404,7 @@ endr
 	hlcoord 0, 13
 	ld b, 3
 	ld c, 18
-	jp TextBoxPalette
+	jp TextboxPalette
 
 .IsMenuAccountOn:
 	ld a, [wOptions2]

@@ -178,6 +178,7 @@ CeladonGameCornerFishingGuruText:
 	done
 
 CeladonGameCornerFisherText1:
+
 	text "캬하핫!"
 	line "동전이 점점 나오고 있다!"
 	cont "웃음이 멈추지 않는다-!"
@@ -208,6 +209,7 @@ CeladonGameCornerFisherFullCoinCaseText:
 	cont "꼬맹이에게도 운이 있는 것 같군!"
 	done
 
+
 CeladonGymGuyText:
 	text "오오!"
 	line "미래의 챔피언!"
@@ -223,6 +225,7 @@ CeladonGameCornerGrampsText:
 	line "피카츄의 라인이 좋지만……"
 	cont "에이 망설여지는구나……!"
 	done
+
 
 CeladonGameCornerPoster1Text:
 	text "아!"

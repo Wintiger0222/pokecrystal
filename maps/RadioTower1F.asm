@@ -3,8 +3,8 @@
 	const RADIOTOWER1F_LASS
 	const RADIOTOWER1F_YOUNGSTER
 	const RADIOTOWER1F_ROCKET
-	const RADIOTOWER1F_GENTLEMAN
-	const RADIOTOWER1F_COOLTRAINER_F
+	const RADIOTOWER1F_LUCKYNUMBERMAN
+	const RADIOTOWER1F_CARD_WOMAN
 
 RadioTower1F_MapScripts:
 	db 0 ; scene scripts
@@ -16,13 +16,13 @@ RadioTower1FReceptionistScript:
 	opentext
 	checkflag ENGINE_ROCKETS_IN_RADIO_TOWER
 	iftrue .Rockets
-	writetext UnknownText_0x5ce77
+	writetext RadioTower1FReceptionistWelcomeText
 	waitbutton
 	closetext
 	end
 
 .Rockets:
-	writetext UnknownText_0x5ce81
+	writetext RadioTower1FReceptionistNoToursText
 	waitbutton
 	closetext
 	end
@@ -30,7 +30,7 @@ RadioTower1FReceptionistScript:
 RadioTower1FLuckyNumberManScript:
 	faceplayer
 	opentext
-	writetext UnknownText_0x5ceba
+	writetext RadioTower1FLuckyNumberManAskToPlayText
 	buttonsound
 	special CheckLuckyNumberShowFlag
 	iffalse .skip
@@ -39,21 +39,21 @@ RadioTower1FLuckyNumberManScript:
 	special PrintTodaysLuckyNumber
 	checkflag ENGINE_LUCKY_NUMBER_SHOW
 	iftrue .GameOver
-	writetext UnknownText_0x5cf3a
+	writetext RadioTower1FLuckyNumberManThisWeeksIdIsText
 	buttonsound
 	closetext
-	applymovement RADIOTOWER1F_GENTLEMAN, MovementData_0x5ce71
+	applymovement RADIOTOWER1F_LUCKYNUMBERMAN, RadioTower1FLuckyNumberManGoToPCMovement
 	opentext
-	writetext UnknownText_0x5cf5a
+	writetext RadioTower1FLuckyNumberManCheckIfMatchText
 	buttonsound
 	waitsfx
-	writetext UnknownText_0x5cf79
+	writetext RadioTower1FLuckyNumberManDotDotDotText
 	playsound SFX_DEX_FANFARE_20_49
 	waitsfx
 	buttonsound
 	special CheckForLuckyNumberWinners
 	closetext
-	applymovement RADIOTOWER1F_GENTLEMAN, MovementData_0x5ce74
+	applymovement RADIOTOWER1F_LUCKYNUMBERMAN, RadioTower1FLuckyNumberManReturnToPlayerMovement
 	opentext
 	ifequal 1, .FirstPlace
 	ifequal 2, .SecondPlace
@@ -61,13 +61,13 @@ RadioTower1FLuckyNumberManScript:
 	sjump .NoPrize
 
 .GameOver:
-	writetext UnknownText_0x5cf7e
+	writetext RadioTower1FLuckyNumberManComeAgainText
 	waitbutton
 	closetext
 	end
 
 .FirstPlace:
-	writetext UnknownText_0x5cfb5
+	writetext RadioTower1FLuckyNumberManPerfectMatchText
 	playsound SFX_1ST_PLACE
 	waitsfx
 	buttonsound
@@ -78,7 +78,7 @@ RadioTower1FLuckyNumberManScript:
 	sjump .GameOver
 
 .SecondPlace:
-	writetext UnknownText_0x5d023
+	writetext RadioTower1FLuckyNumberManOkayMatchText
 	playsound SFX_2ND_PLACE
 	waitsfx
 	buttonsound
@@ -89,7 +89,7 @@ RadioTower1FLuckyNumberManScript:
 	sjump .GameOver
 
 .ThirdPlace:
-	writetext UnknownText_0x5d076
+	writetext RadioTower1FLuckyNumberManWeakMatchText
 	playsound SFX_3RD_PLACE
 	waitsfx
 	buttonsound
@@ -100,13 +100,13 @@ RadioTower1FLuckyNumberManScript:
 	sjump .GameOver
 
 .NoPrize:
-	writetext UnknownText_0x5d0c0
+	writetext RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText
 	waitbutton
 	closetext
 	end
 
 .BagFull:
-	writetext UnknownText_0x5d0e6
+	writetext RadioTower1FLuckyNumberManNoRoomForYourPrizeText
 	waitbutton
 	closetext
 	end
@@ -116,43 +116,43 @@ RadioTower1FRadioCardWomanScript:
 	opentext
 	checkflag ENGINE_RADIO_CARD
 	iftrue .GotCard
-	writetext UnknownText_0x5d12d
+	writetext RadioTower1FRadioCardWomanOfferQuizText
 	yesorno
 	iffalse .NoQuiz
-	writetext UnknownText_0x5d1f2
+	writetext RadioTower1FRadioCardWomanQuestion1Text
 	yesorno
 	iffalse .WrongAnswer
 	playsound SFX_ELEVATOR_END
 	waitsfx
-	writetext UnknownText_0x5d231
+	writetext RadioTower1FRadioCardWomanQuestion2Text
 	yesorno
 	iffalse .WrongAnswer
 	playsound SFX_ELEVATOR_END
 	waitsfx
-	writetext UnknownText_0x5d282
+	writetext RadioTower1FRadioCardWomanQuestion3Text
 	yesorno
 	iftrue .WrongAnswer
 	playsound SFX_ELEVATOR_END
 	waitsfx
-	writetext UnknownText_0x5d2bc
+	writetext RadioTower1FRadioCardWomanQuestion4Text
 	yesorno
 	iffalse .WrongAnswer
 	playsound SFX_ELEVATOR_END
 	waitsfx
-	writetext UnknownText_0x5d30e
+	writetext RadioTower1FRadioCardWomanQuestion5Text
 	yesorno
 	iftrue .WrongAnswer
 	playsound SFX_ELEVATOR_END
 	waitsfx
-	writetext UnknownText_0x5d37b
+	writetext RadioTower1FRadioCardWomanYouWinText
 	buttonsound
 	getstring STRING_BUFFER_4, .RadioCardText
 	scall .ReceiveItem
-	writetext UnknownText_0x5d3c0
+	writetext RadioTower1FPokegearIsARadioText
 	buttonsound
 	setflag ENGINE_RADIO_CARD
 .GotCard:
-	writetext UnknownText_0x5d3e5
+	writetext RadioTower1FRadioCardWomanTuneInText
 	waitbutton
 	closetext
 	end
@@ -166,13 +166,13 @@ RadioTower1FRadioCardWomanScript:
 
 .WrongAnswer:
 	playsound SFX_WRONG
-	writetext UnknownText_0x5d409
+	writetext RadioTower1FRadioCardWomanWrongAnswerText
 	waitbutton
 	closetext
 	end
 
 .NoQuiz:
-	writetext UnknownText_0x5d443
+	writetext RadioTower1FRadioCardWomanNotTakingQuizText
 	waitbutton
 	closetext
 	end
@@ -200,27 +200,27 @@ RadioTower1FDirectory:
 RadioTower1FLuckyChannelSign:
 	jumptext RadioTower1FLuckyChannelSignText
 
-MovementData_0x5ce71:
+RadioTower1FLuckyNumberManGoToPCMovement:
 	step RIGHT
 	turn_head UP
 	step_end
 
-MovementData_0x5ce74:
+RadioTower1FLuckyNumberManReturnToPlayerMovement:
 	step LEFT
 	turn_head UP
 	step_end
 
-UnknownText_0x5ce77:
+RadioTower1FReceptionistWelcomeText:
 	text "어서오세요!"
 	done
 
-UnknownText_0x5ce81:
+RadioTower1FReceptionistNoToursText:
 	text "…… 어서오세요"
 	line "대단히 죄송하지만"
 	cont "지금은 견학을 할 수 없습니다"
 	done
 
-UnknownText_0x5ceba:
+RadioTower1FLuckyNumberManAskToPlayText:
 	text "예 여기는 교환소입니다"
 	
 	para "당신의 포켓몬"
@@ -228,29 +228,29 @@ UnknownText_0x5ceba:
 	cont "운이 좋다면 상품획득 찬스!"
 	done
 
-UnknownText_0x5cf3a:
+RadioTower1FLuckyNumberManThisWeeksIdIsText:
 	text " 이번 주 당첨 번호는"
 	line "@"
 	text_ram wStringBuffer3
 	text "입니다"
 	done
 
-UnknownText_0x5cf5a:
+RadioTower1FLuckyNumberManCheckIfMatchText:
 	text "그럼 바로 체크"
 	line "하겠습니다"
 	done
 
-UnknownText_0x5cf79:
+RadioTower1FLuckyNumberManDotDotDotText:
 	text "…… …… …… …… ……"
 	line " …… …… …… …… ……"
 	done
 
-UnknownText_0x5cf7e:
+RadioTower1FLuckyNumberManComeAgainText:
 	text "다음의 발표를"
 	line "즐겁게 기다려주세요"
 	done
 
-UnknownText_0x5cfb5:
+RadioTower1FLuckyNumberManPerfectMatchText:
 	text "이 이럴수가 5자리 맞았습니다!"
 	line "1등! 1등입니다!"
 	
@@ -258,7 +258,7 @@ UnknownText_0x5cfb5:
 	line "마스터볼입니다!"
 	done
 
-UnknownText_0x5d023:
+RadioTower1FLuckyNumberManOkayMatchText:
 	text "오옷! 아래 3자리 맞았습니다!"
 	line "2등입니다!"
 	
@@ -266,7 +266,7 @@ UnknownText_0x5d023:
 	line "학습장치입니다!"
 	done
 
-UnknownText_0x5d076:
+RadioTower1FLuckyNumberManWeakMatchText:
 	text "아래 2자리 수가 맞았습니다!"
 	line "3등이 당첨되었습니다"
 	
@@ -274,18 +274,18 @@ UnknownText_0x5d076:
 	line "포인트 업 입니다!"
 	done
 	
-UnknownText_0x5d0c0:
+RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
 	text "애석하게도"
 	line "모두 꽝입니다"
 	done
 
-UnknownText_0x5d0e6:
+RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
 	text "짐이 잔뜩 있는 것 같군요"
 	line "짐을 줄이시고 되도록 빨리"
 	cont "오시길 바랍니다"
 	done
 
-UnknownText_0x5d12d:
+RadioTower1FRadioCardWomanOfferQuizText:
 	text "지금 막 캠페인 중!"
 	
 	para "퀴즈 5문제에 계속해서"
@@ -297,21 +297,21 @@ UnknownText_0x5d12d:
 	cont "퀴즈에 도전하겠습니까?"
 	done
 
-UnknownText_0x5d1f2:
+RadioTower1FRadioCardWomanQuestion1Text:
 	text "그럼 제1문제!"
 	
 	para "아침에만 출현하는 포켓몬이"
 	line "있을까요?"
 	done
 	
-UnknownText_0x5d231:
+RadioTower1FRadioCardWomanQuestion2Text:
 	text "정답입니다"
 	line "그럼 제2문제!"
 	
 	para "열매는 마트에서 살 수 없다?"
 	done
 
-UnknownText_0x5d282:
+RadioTower1FRadioCardWomanQuestion3Text:
 	text "정답입니다"
 	line "계속해서 제3문제!"
 	
@@ -319,7 +319,7 @@ UnknownText_0x5d282:
 	line "있는것은 플래시?"
 	done
 	
-UnknownText_0x5d2bc:
+RadioTower1FRadioCardWomanQuestion4Text:
 	text "계속해서 정답"
 	line "그럼 제4문제!"
 	
@@ -327,7 +327,7 @@ UnknownText_0x5d2bc:
 	line "타입 전문 체육관 관장?"
 	done
 
-UnknownText_0x5d30e:
+RadioTower1FRadioCardWomanQuestion5Text:
 	text "대단하군요!"
 	line "드디어 마지막 문제입니다"
 	
@@ -336,29 +336,29 @@ UnknownText_0x5d30e:
 	line "파이리가 있다?"
 	done
 
-UnknownText_0x5d37b:
+RadioTower1FRadioCardWomanYouWinText:
 	text "모든 문제 정답"
 	line "축하드립니다!"
 	cont "상품인 라디오 카드입니다!"
 	done
 	
-UnknownText_0x5d3c0:
+RadioTower1FPokegearIsARadioText:
 	text "<PLAYER>의 포켓몬 기어에서"
 	line "라디오를 들을 수 있게 되었다!"
 	done
 
-UnknownText_0x5d3e5:
+RadioTower1FRadioCardWomanTuneInText:
 	text "우리들의 방송"
 	line "항상 듣고 즐기시길!"
 	done
 
-UnknownText_0x5d409:
+RadioTower1FRadioCardWomanWrongAnswerText:
 	text "이런이런 틀리셨네요"
 	line "아깝게 되었군요"
 	cont "다음에 다시 도전해주세요!"
 	done
 
-UnknownText_0x5d443:
+RadioTower1FRadioCardWomanNotTakingQuizText:
 	text "그렇습니까?"
 	line "다시 할 마음이 생기면 찾아주세요"
 	done

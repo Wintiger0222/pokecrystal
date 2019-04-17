@@ -115,20 +115,20 @@ Buena:
 	readvar VAR_BLUECARDBALANCE
 	ifequal 30, .BlueCardCapped0
 	playmusic MUSIC_BUENAS_PASSWORD
-	writetext UnknownText_0x5de35
+	writetext RadioTower2FBuenaDoYouKnowPasswordText
 	special AskRememberPassword
 	iffalse .ForgotPassword
-	writetext UnknownText_0x5de84
+	writetext RadioTower2FBuenaJoinTheShowText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
 	readvar VAR_FACING
 	ifnotequal RIGHT, .DontNeedToMove
-	applymovement PLAYER, MovementData_0x5d921
+	applymovement PLAYER, RadioTower2FPlayerWalksToMicrophoneMovement
 .DontNeedToMove:
 	turnobject PLAYER, RIGHT
 	opentext
-	writetext UnknownText_0x5dedd
+	writetext RadioTower2FBuenaEveryoneSayPasswordText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, DOWN
@@ -137,7 +137,7 @@ Buena:
 	closetext
 	iffalse .WrongAnswer
 	opentext
-	writetext UnknownText_0x5dfc1
+	writetext RadioTower2FBuenaCorrectAnswerText
 	waitbutton
 	closetext
 	readvar VAR_BLUECARDBALANCE
@@ -149,7 +149,7 @@ Buena:
 	pause 20
 	turnobject RADIOTOWER2F_BUENA, RIGHT
 	opentext
-	writetext UnknownText_0x5e054
+	writetext RadioTower2FBuenaThanksForComingText
 	waitbutton
 	closetext
 	special FadeOutMusic
@@ -160,12 +160,12 @@ Buena:
 	end
 
 .Introduction:
-	writetext UnknownText_0x5dcf4
+	writetext RadioTower2FBuenaShowIntroductionText
 	buttonsound
 	setevent EVENT_MET_BUENA
 	verbosegiveitem BLUE_CARD
 .TuneIn:
-	writetext UnknownText_0x5de10
+	writetext RadioTower2FBuenaTuneInToMyShowText
 	waitbutton
 	closetext
 	checkcellnum PHONE_BUENA
@@ -177,7 +177,7 @@ Buena:
 	end
 
 .ForgotPassword:
-	writetext UnknownText_0x5df29
+	writetext RadioTower2FBuenaComeBackAfterListeningText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
@@ -187,7 +187,7 @@ Buena:
 	end
 
 .PlayedAlready:
-	writetext UnknownText_0x5df6c
+	writetext RadioTower2FBuenaAlreadyPlayedText
 	waitbutton
 	closetext
 	checkcellnum PHONE_BUENA
@@ -202,13 +202,13 @@ Buena:
 .WrongAnswer:
 	setflag ENGINE_BUENAS_PASSWORD_2
 	opentext
-	writetext UnknownText_0x5e01c
+	writetext RadioTower2FBuenaDidYouForgetText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
 	pause 20
 	opentext
-	writetext UnknownText_0x5e054
+	writetext RadioTower2FBuenaThanksForComingText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
@@ -218,13 +218,13 @@ Buena:
 	end
 
 .MidRocketTakeover:
-	writetext UnknownText_0x5e0c2
+	writetext RadioTower2FBuenaPasswordIsHelpText
 	waitbutton
 	closetext
 	end
 
 .NoBlueCard:
-	writetext UnknownText_0x5e192
+	writetext RadioTower2FBuenaNoBlueCardText
 	waitbutton
 	closetext
 	checkcellnum PHONE_BUENA
@@ -236,7 +236,7 @@ Buena:
 	end
 
 .BlueCardCapped0:
-	writetext UnknownText_0x5e0f1
+	writetext RadioTower2FBuenaCardIsFullText
 	waitbutton
 	closetext
 	checkcellnum PHONE_BUENA
@@ -248,7 +248,7 @@ Buena:
 	end
 
 .TooEarly:
-	writetext UnknownText_0x5e131
+	writetext RadioTower2FBuenaTuneInAfterSixText
 	waitbutton
 	closetext
 	checkcellnum PHONE_BUENA
@@ -272,21 +272,21 @@ Buena:
 	setevent EVENT_BUENA_OFFERED_HER_PHONE_NUMBER_NO_BLUE_CARD
 	setevent EVENT_BUENA_OFFERED_HER_PHONE_NUMBER
 	opentext
-	writetext UnknownText_0x5e1ee
+	writetext RadioTower2FBuenaOfferPhoneNumberText
 	sjump .AskForNumber
 
 .OfferedNumberBefore:
 	opentext
-	writetext UnknownText_0x5e2bf
+	writetext RadioTower2FBuenaOfferNumberAgainText
 .AskForNumber:
 	askforphonenumber PHONE_BUENA
 	ifequal PHONE_CONTACTS_FULL, .PhoneFull
 	ifequal PHONE_CONTACT_REFUSED, .NumberDeclined
-	writetext UnknownText_0x5e2f3
+	writetext RadioTower2FRegisteredBuenasNumberText
 	playsound SFX_REGISTER_PHONE_NUMBER
 	waitsfx
 	buttonsound
-	writetext UnknownText_0x5e310
+	writetext RadioTower2FBuenaCallMeText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
@@ -294,14 +294,14 @@ Buena:
 	end
 
 .NumberDeclined:
-	writetext UnknownText_0x5e33c
+	writetext RadioTower2FBuenaSadRejectedText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
 	end
 
 .PhoneFull:
-	writetext UnknownText_0x5e35e
+	writetext RadioTower2FBuenaYourPhoneIsFullText
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
@@ -313,14 +313,14 @@ RadioTowerBuenaPrizeReceptionist:
 	opentext
 	checkitem BLUE_CARD
 	iffalse .NoCard
-	writetext UnknownText_0x5e392
+	writetext RadioTower2FBuenaReceptionistPointsForPrizesText
 	buttonsound
 	special BuenaPrize
 	closetext
 	end
 
 .NoCard:
-	writetext UnknownText_0x5e3d8
+	writetext RadioTower2FBuenaReceptionistNoCardText
 	buttonsound
 	closetext
 	end
@@ -337,7 +337,7 @@ RadioTower2FPokemonRadioSign:
 RadioTower2FBookshelf:
 	jumpstd magazinebookshelf
 
-MovementData_0x5d921:
+RadioTower2FPlayerWalksToMicrophoneMovement:
 	slow_step DOWN
 	slow_step RIGHT
 	step_end
@@ -444,7 +444,7 @@ GruntF2AfterBattleText:
 	para "용서할 수 없어!"
 	done
 
-UnknownText_0x5dcf4:;TRANSLATED
+RadioTower2FBuenaShowIntroductionText:
 	text"규화『네-에 규화입니다!"
 
 	para"혹시 규화의 암호라는"
@@ -467,19 +467,19 @@ UnknownText_0x5dcf4:;TRANSLATED
 	para"너에게 줄게!!"
 	done
 
-UnknownText_0x5de10:;TRANSLATED
+RadioTower2FBuenaTuneInToMyShowText:
 	text"규화『내 암호 방송"
 	line"재밌게 들어줘!"
 	done
 
-UnknownText_0x5de35:;TRANSLATED
+RadioTower2FBuenaDoYouKnowPasswordText:
 	text"규화『내 라디오 방송"
 	line"들어 준걸까나?"
 
 	para"오늘의 암호 기억하고 있어?"
 	done
 
-UnknownText_0x5de84:;TRANSLATED
+RadioTower2FBuenaJoinTheShowText:
 	text"규화『와ー　정말 고마워!"
 	line"그러니까ー　이름이?"
 
@@ -489,7 +489,7 @@ UnknownText_0x5de84:;TRANSLATED
 	line"방송에 참가하자구!"
 	done
 
-UnknownText_0x5dedd:;TRANSLATED
+RadioTower2FBuenaEveryoneSayPasswordText:
 	text"규화『모두들 갑니다!"
 
 	para"<PLAY_G>이 대답해주는"
@@ -498,13 +498,13 @@ UnknownText_0x5dedd:;TRANSLATED
 	para"말해주세요ー!"
 	done
 
-UnknownText_0x5df29:;TRANSLATED
+RadioTower2FBuenaComeBackAfterListeningText:
 	text"규화『그러면"
 	line"방송을 듣게 되면"
 	cont"다시 들러줘!"
 	done
 
-UnknownText_0x5df6c:;TRANSLATED
+RadioTower2FBuenaAlreadyPlayedText:
 	text"규화『미안해ー"
 	line"문제를 맞힐 기회는"
 	cont"하루에 한 번 뿐이야"
@@ -512,7 +512,7 @@ UnknownText_0x5df6c:;TRANSLATED
 	para"내일 다시 와줘!"
 	done
 
-UnknownText_0x5dfc1:;TRANSLATED
+RadioTower2FBuenaCorrectAnswerText:
 	text"규화『꺄ー　정답이야!"
 
 	para"제대로 들어줬구나!"
@@ -522,14 +522,14 @@ UnknownText_0x5dfc1:;TRANSLATED
 	line"축하해!!"
 	done
 
-UnknownText_0x5e01c:;TRANSLATED
+RadioTower2FBuenaDidYouForgetText:
 	text"규화『아ー앙"
 	line"유감스럽게도 틀렸네ー요!"
 
 	para"암호를 까먹은 거려나?"
 	done
 
-UnknownText_0x5e054:;TRANSLATED
+RadioTower2FBuenaThanksForComingText:
 	text"규화『넵!"
 	line"지금 대답해준 사람은"
 	cont"<PLAY_G>였습니다ー!"
@@ -539,21 +539,21 @@ UnknownText_0x5e054:;TRANSLATED
 	line"기다리고 있을께ー!"
 	done
 
-UnknownText_0x5e0c2:;TRANSLATED
+RadioTower2FBuenaPasswordIsHelpText:
 	text"규화『엣!"
 	line"오늘의 암호?"
 
 	para"물론 도와줘ー　잖아!"
 	done
 
-UnknownText_0x5e0f1:;TRANSLATED
+RadioTower2FBuenaCardIsFullText:
 	text"규화『포인트가"
 	line"꽉 찼네요!"
 
 	para"경품하고 교환하고 와줘!"
 	done
 
-UnknownText_0x5e131:;TRANSLATED
+RadioTower2FBuenaTuneInAfterSixText:
 	text"규화『암호 방송은"
 	line"매일 저녁 6시부터"
 	cont"0시까지　입니ー다!"
@@ -561,7 +561,7 @@ UnknownText_0x5e131:;TRANSLATED
 	para"방송 들으시면 들러줘!"
 	done
 
-UnknownText_0x5e192:;TRANSLATED
+RadioTower2FBuenaNoBlueCardText:
 	text"규화『어라?"
 	line"블루카드 가져오는 걸"
 	cont"깜빡한 거려나?"
@@ -570,7 +570,7 @@ UnknownText_0x5e192:;TRANSLATED
 	line"포인트를 줄 수가 없는데…"
 	done
 
-UnknownText_0x5e1ee:;TRANSLATED
+RadioTower2FBuenaOfferPhoneNumberText:
 	text"규화『아! 블루카드에"
 	line"오늘로 30포인트야!"
 	cont"대단해　대단ー해!"
@@ -586,38 +586,38 @@ UnknownText_0x5e1ee:;TRANSLATED
 	line"알려줄까나?"
 	done
 
-UnknownText_0x5e2bf:;TRANSLATED
+RadioTower2FBuenaOfferNumberAgainText:
 	text"규화『<PLAY_G>"
 	line"내 전화번호"
 	cont"등록할거야?"
 	done
 
-UnknownText_0x5e2f3:;TRANSLATED
+RadioTower2FRegisteredBuenasNumberText:
 	text"<PLAYER>는(은)　규화의"
 	line"번호를 등록했다!"
 	done
 
-UnknownText_0x5e310:;TRANSLATED
+RadioTower2FBuenaCallMeText:
 	text"규화『전화 기다리고 있을게!"
 	done
 
-UnknownText_0x5e33c:;TRANSLATED
+RadioTower2FBuenaSadRejectedText:
 	text"규화『에ー　특별"
 	line"대서비스인데…"
 	done
 
-UnknownText_0x5e35e:;TRANSLATED
+RadioTower2FBuenaYourPhoneIsFullText:
 	text"규화『<PLAY_G>의 전화번호가"
 	line"꽉 차서 등록이 안 되네요ー"
 	done
 
-UnknownText_0x5e392:;TRANSLATED
+RadioTower2FBuenaReceptionistPointsForPrizesText:
 	text"모아놓은 포인트를 쓰면"
 	line"여기 있는 경품하고"
 	cont"교환할 수 있습니다!"
 	done
 
-UnknownText_0x5e3d8:;TRANSLATED
+RadioTower2FBuenaReceptionistNoCardText:
 	text"블루카드가 없으면"
 	line"교환할 수 없습니다"
 

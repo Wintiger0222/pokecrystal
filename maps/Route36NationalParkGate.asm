@@ -67,10 +67,10 @@ Route36NationalParkGate_MapScripts:
 	readvar VAR_CONTESTMINUTES
 	addval 1
 	getnum STRING_BUFFER_3
-	writetext UnknownText_0x6b284
+	writetext Route36NationalParkGateOfficer1WantToFinishText
 	yesorno
 	iffalse .GoBackToContest
-	writetext UnknownText_0x6b2c5
+	writetext Route36NationalParkGateOfficer1WaitHereForAnnouncementText
 	waitbutton
 	closetext
 	special FadeBlackQuickly
@@ -78,13 +78,13 @@ Route36NationalParkGate_MapScripts:
 	scall .CopyContestants
 	disappear ROUTE36NATIONALPARKGATE_OFFICER1
 	appear ROUTE36NATIONALPARKGATE_OFFICER2
-	applymovement PLAYER, MovementData_0x6add1
+	applymovement PLAYER, Route36NationalParkGatePlayerWaitWithContestantsMovement
 	pause 15
 	special FadeInQuickly
 	jumpstd bugcontestresults
 
 .GoBackToContest:
-	writetext UnknownText_0x6b300
+	writetext Route36NationalParkGateOfficer1OkGoFinishText
 	waitbutton
 	closetext
 	turnobject PLAYER, LEFT
@@ -149,7 +149,7 @@ Route36OfficerScriptContest:
 	checkflag ENGINE_DAILY_BUG_CONTEST
 	iftrue Route36Officer_ContestHasConcluded
 	scall Route36ParkGate_DayToText
-	writetext UnknownText_0x6add5
+	writetext Route36NationalParkGateOfficer1AskToParticipateText
 	yesorno
 	iffalse .DecidedNotToJoinContest
 	readvar VAR_PARTYCOUNT
@@ -159,13 +159,13 @@ Route36OfficerScriptContest:
 .ResumeStartingContest:
 	setflag ENGINE_BUG_CONTEST_TIMER
 	special PlayMapMusic
-	writetext UnknownText_0x6ae87
+	writetext Route36NationalParkGateOfficer1GiveParkBallsText
 	buttonsound
 	waitsfx
-	writetext UnknownText_0x6aeb1
+	writetext Route36NationalParkGatePlayerReceivedParkBallsText
 	playsound SFX_ITEM
 	waitsfx
-	writetext UnknownText_0x6aecc
+	writetext Route36NationalParkGateOfficer1ExplainsRulesText
 	waitbutton
 	closetext
 	setflag ENGINE_BUG_CONTEST_TIMER
@@ -186,46 +186,46 @@ Route36OfficerScriptContest:
 .ContinueLeavingMons:
 	special CheckFirstMonIsEgg
 	ifequal TRUE, .FirstMonIsEgg
-	writetext UnknownText_0x6afb0
+	writetext Route36NationalParkGateOfficer1AskToUseFirstMonText
 	yesorno
 	iffalse .RefusedToLeaveMons
 	special ContestDropOffMons
 	iftrue .FirstMonIsFainted
 	setevent EVENT_LEFT_MONS_WITH_CONTEST_OFFICER
-	writetext UnknownText_0x6b021
+	writetext Route36NationalParkGateOfficer1WellHoldYourMonText
 	buttonsound
-	writetext UnknownText_0x6b055
+	writetext Route36NationalParkGatePlayersMonLeftWithHelperText
 	playsound SFX_GOT_SAFARI_BALLS
 	waitsfx
 	buttonsound
 	sjump .ResumeStartingContest
 
 .DecidedNotToJoinContest:
-	writetext UnknownText_0x6b0c6
+	writetext Route36NationalParkGateOfficer1TakePartInFutureText
 	waitbutton
 	closetext
 	end
 
 .RefusedToLeaveMons:
-	writetext UnknownText_0x6b081
+	writetext Route36NationalParkGateOfficer1ChooseMonAndComeBackText
 	waitbutton
 	closetext
 	end
 
 .FirstMonIsFainted:
-	writetext UnknownText_0x6b0f2
+	writetext Route36NationalParkGateOfficer1FirstMonCantBattleText
 	waitbutton
 	closetext
 	end
 
 .BoxFull:
-	writetext UnknownText_0x6b166
+	writetext Route36NationalParkGateOfficer1MakeRoomText
 	waitbutton
 	closetext
 	end
 
 .FirstMonIsEgg:
-	writetext UnknownText_0x6b209
+	writetext Route36NationalParkGateOfficer1EggAsFirstMonText
 	waitbutton
 	closetext
 	end
@@ -239,13 +239,13 @@ Route36Officer_ContestHasConcluded:
 	iftrue .GoldBerry
 	checkevent EVENT_CONTEST_OFFICER_HAS_BERRY
 	iftrue .Berry
-	writetext UnknownText_0x6b32b
+	writetext Route36NationalParkGateOfficer1ContestIsOverText
 	waitbutton
 	closetext
 	end
 
 .Sunstone:
-	writetext UnknownText_0x6b97f
+	writetext Route36NationalParkGateOfficer1HeresThePrizeText
 	buttonsound
 	verbosegiveitem SUN_STONE
 	iffalse .BagFull
@@ -254,7 +254,7 @@ Route36Officer_ContestHasConcluded:
 	end
 
 .Everstone:
-	writetext UnknownText_0x6b97f
+	writetext Route36NationalParkGateOfficer1HeresThePrizeText
 	buttonsound
 	verbosegiveitem EVERSTONE
 	iffalse .BagFull
@@ -263,7 +263,7 @@ Route36Officer_ContestHasConcluded:
 	end
 
 .GoldBerry:
-	writetext UnknownText_0x6b97f
+	writetext Route36NationalParkGateOfficer1HeresThePrizeText
 	buttonsound
 	verbosegiveitem GOLD_BERRY
 	iffalse .BagFull
@@ -272,7 +272,7 @@ Route36Officer_ContestHasConcluded:
 	end
 
 .Berry:
-	writetext UnknownText_0x6b97f
+	writetext Route36NationalParkGateOfficer1HeresThePrizeText
 	buttonsound
 	verbosegiveitem BERRY
 	iffalse .BagFull
@@ -281,20 +281,20 @@ Route36Officer_ContestHasConcluded:
 	end
 
 .BagFull:
-	writetext UnknownText_0x6b910
+	writetext Route36NationalParkGateOfficer1WellHoldPrizeText
 	waitbutton
 	closetext
 	end
 
 _ContestNotOn:
-	jumptextfaceplayer UnknownText_0x6b370
+	jumptextfaceplayer Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText
 
 Route36NationalParkGateOfficerScript:
 	faceplayer
 	opentext
 	checkflag ENGINE_DAILY_BUG_CONTEST
 	iftrue Route36Officer_ContestHasConcluded
-	writetext UnknownText_0x6b370
+	writetext Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText
 	waitbutton
 	closetext
 	end
@@ -467,13 +467,13 @@ UnusedBugCatchingContestExplanationSign:
 ; duplicate of BugCatchingContestExplanationSign in Route35NationalParkGate.asm
 	jumptext UnusedBugCatchingContestExplanationText
 
-MovementData_0x6add1:
+Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	big_step DOWN
 	big_step RIGHT
 	turn_head UP
 	step_end
 
-UnknownText_0x6add5:
+Route36NationalParkGateOfficer1AskToParticipateText:
 	text "오늘은 @"
 	text_ram wStringBuffer3
 	text "요일"
@@ -488,17 +488,17 @@ UnknownText_0x6add5:
 	para "참가하겠습니까?"
 	done
 	
-UnknownText_0x6ae87:
+Route36NationalParkGateOfficer1GiveParkBallsText:
 	text "대회에서 사용할"
 	line "전용볼을 받으세요!"
 	done
 
-UnknownText_0x6aeb1:
+Route36NationalParkGatePlayerReceivedParkBallsText:
 	text "<PLAYER>는(은)"
 	line "파크볼을 20개 받았다!"
 	done
 
-UnknownText_0x6aecc:
+Route36NationalParkGateOfficer1ExplainsRulesText:
 	text "가장 강해보이는 포켓몬을"
 	line "잡은 사람이 우승입니다!"
 	
@@ -514,7 +514,7 @@ UnknownText_0x6aecc:
 	line "포켓몬을 잡아주세요!"
 	done
 
-UnknownText_0x6afb0:
+Route36NationalParkGateOfficer1AskToUseFirstMonText:
 	text "엥?"
 	line "포켓몬이 한마리가 아니로군요!"
 
@@ -526,28 +526,28 @@ UnknownText_0x6afb0:
 	cont "괜찮겠습니까?"
 	done
 
-UnknownText_0x6b021:
+Route36NationalParkGateOfficer1WellHoldYourMonText:
 	text "그럼 남은 포켓몬은"
 	line "여기서 맡아놓겠습니다!"
 	done
 
-UnknownText_0x6b055:
+Route36NationalParkGatePlayersMonLeftWithHelperText:
 	text "<PLAYER>는(은) 관계자에게"
 	line "포켓몬을 맡겼다!"
 	done
 
-UnknownText_0x6b081:
+Route36NationalParkGateOfficer1ChooseMonAndComeBackText:
 	text "대회에서 싸우게 할"
 	line "포켓몬을 정하고나서"
 	cont "다시 한번 와주세요"
 	done
 
-UnknownText_0x6b0c6:
+Route36NationalParkGateOfficer1TakePartInFutureText:
 	text "그렇습니까"
 	line "그럼 다음에 참가해주세요!"
 	done
 
-UnknownText_0x6b0f2:
+Route36NationalParkGateOfficer1FirstMonCantBattleText:
 	text "엥?"
 	line "참가할 포켓몬이"
 	cont "싸울 수 없어보이는군요"
@@ -556,7 +556,7 @@ UnknownText_0x6b0f2:
 	line "와주세요"
 	done
 	
-UnknownText_0x6b166:
+Route36NationalParkGateOfficer1MakeRoomText:
 	text "엥?"
 	line "소지품과 컴퓨터 박스도"
 	cont "가득인 것 같군요"
@@ -568,7 +568,7 @@ UnknownText_0x6b166:
 	line "정리하고 와주세요"
 	done
 
-UnknownText_0x6b209:
+Route36NationalParkGateOfficer1EggAsFirstMonText:
 	text "엥?"
 	line "맨 앞의 포켓몬이"
 	cont "알 같군요"
@@ -577,7 +577,7 @@ UnknownText_0x6b209:
 	line "와주세요"
 	done
 
-UnknownText_0x6b284:
+Route36NationalParkGateOfficer1WantToFinishText:
 	text "남은 시간은"
 	line "앞으로 @"
 	text_ram wStringBuffer3
@@ -585,25 +585,25 @@ UnknownText_0x6b284:
 	cont "벌써 끝내겠습니까?"
 	done
 
-UnknownText_0x6b2c5:
+Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
 	text "그렇습니까"
 	line "그럼 여기서 결과발표를"
 	cont "기다려 주십시오"
 	done
 
-UnknownText_0x6b300:
+Route36NationalParkGateOfficer1OkGoFinishText:
 	text "그렇습니까"
 	line "그럼 남은시간"
 	cont "더욱 분발하고 와주세요!"
 	done
 	
-UnknownText_0x6b32b:
+Route36NationalParkGateOfficer1ContestIsOverText:
 	text "오늘의 콘테스트는"
 	line "끝났어요"
 	cont "다음에 다시 참가하세요!"
 	done
 
-UnknownText_0x6b370:
+Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
 	text "공원에서만 발견할 수 있는"
 	line "포켓몬도 있단다!"
 	done
@@ -733,7 +733,7 @@ UnusedBugCatchingContestExplanationText:
 	cont "자기가 가질 수 있습니다"
 	done
 
-UnknownText_0x6b910:
+Route36NationalParkGateOfficer1WellHoldPrizeText:
 	text "오잉?"
 	line "짐이 가득찬 것 같군요."
 	
@@ -742,7 +742,7 @@ UnknownText_0x6b910:
 	cont "짐을 정리하고 와주세요"
 	done
 
-UnknownText_0x6b97f:
+Route36NationalParkGateOfficer1HeresThePrizeText:
 	text "<PLAYER>씨죠?"
 	
 	para "여기"

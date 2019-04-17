@@ -189,7 +189,7 @@ RestartClock:
 	hlcoord 0, 5
 	ld b, 5
 	ld c, 18
-	call TextBox
+	call Textbox
 	decoord 3, 8
 	ld a, [wBuffer4]
 	ld b, a

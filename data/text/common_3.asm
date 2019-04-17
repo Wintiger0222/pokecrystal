@@ -1330,28 +1330,28 @@ UnknownText_0x1c5962::
 	line "다시 와주십시오"
 	done
 
-UnknownText_0x1c5983::	
+_NeedAtLeastThreeMonText::
 	text "포켓몬을 3마리 이상"
 	line "가지고 와주십시오!"
 
 	para ""
 	done
 
-UnknownText_0x1c59a3::	
+_EggDoesNotQualifyText::
 	text "알은 3마리 중 하나에"
 	line "들어가지 않습니다!"
 
 	para ""
 	done
 
-Text_OnlyThreeMonMayBeEntered::	
+_OnlyThreeMonMayBeEnteredText::
 	text "참가시킬 포켓몬은"
 	line "3마리로 해주십시오!"
 
 	para ""
 	done
 
-Text_TheMonMustAllBeDifferentKinds::	
+_TheMonMustAllBeDifferentKindsText::
 	text_ram wStringBuffer2
 	text "마리의 포켓몬은"
 	line "모두 다른 종류로"
@@ -1360,7 +1360,7 @@ Text_TheMonMustAllBeDifferentKinds::
 	para ""
 	done
 
-Text_TheMonMustNotHoldTheSameItems::	
+_TheMonMustNotHoldTheSameItemsText::
 	text_ram wStringBuffer2
 	text "마리의 포켓몬가"
 	line "지니고 있는 도구는 모두"
@@ -1369,7 +1369,7 @@ Text_TheMonMustNotHoldTheSameItems::
 	para ""
 	done
 
-Text_YouCantTakeAnEgg::	
+_YouCantTakeAnEggText::
 	text "알은 데리고 갈 수 없습니다!"
 
 	para ""

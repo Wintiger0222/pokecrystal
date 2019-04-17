@@ -56,7 +56,7 @@ InitClock:
 	hlcoord 12, 7
 	ld b, 2
 	ld c, 6
-	call TextBox
+	call Textbox
 	hlcoord 16, 7
 	ld [hl], $1
 	hlcoord 16, 10
@@ -86,7 +86,7 @@ InitClock:
 	call PrintText
 	hlcoord 12, 7
 	lb bc, 2, 6
-	call TextBox
+	call Textbox
 	hlcoord 16, 7
 	ld [hl], $1
 	hlcoord 16, 10
@@ -290,12 +290,12 @@ PrintTwoDigitNumberRightAlign:
 
 Text_WokeUpOak:
 	; Zzz… Hm? Wha…? You woke me up! Will you check the clock for me?
-	text_far UnknownText_0x1bc29c
+	text_far _OakTimeText1
 	text_end
 
 Text_WhatTimeIsIt:
 	; What time is it?
-	text_far UnknownText_0x1bc2eb
+	text_far _OakTimeText2
 	text_end
 
 String_oclock:
@@ -303,7 +303,7 @@ String_oclock:
 
 Text_WhatHrs:
 	; What?@ @
-	text_far UnknownText_0x1bc2fd
+	text_far _OakTimeText3
 	text_asm
 	hlcoord 5, 14
 	call DisplayHourOClock
@@ -312,12 +312,12 @@ Text_WhatHrs:
 
 .QuestionMark:
 	; ?
-	text_far UnknownText_0x1bc305
+	text_far _OakTimeText4
 	text_end
 
 Text_HowManyMinutes:
 	; How many minutes?
-	text_far UnknownText_0x1bc308
+	text_far _OakTimeText5
 	text_end
 
 String_min:
@@ -325,7 +325,7 @@ String_min:
 
 Text_WhoaMins:
 	; Whoa!@ @
-	text_far UnknownText_0x1bc31b
+	text_far _OakTimeText6
 	text_asm
 	hlcoord 5, 14
 	call DisplayMinutesWithMinString
@@ -334,7 +334,7 @@ Text_WhoaMins:
 
 .QuestionMark:
 	; ?
-	text_far UnknownText_0x1bc323
+	text_far _OakTimeText7
 	text_end
 
 OakText_ResponseToSetTime:
@@ -374,17 +374,17 @@ OakText_ResponseToSetTime:
 
 .overslept
 	; ! I overslept!
-	text_far UnknownText_0x1bc326
+	text_far _OakTimeText8
 	text_end
 
 .yikes
 	; ! Yikes! I over- slept!
-	text_far UnknownText_0x1bc336
+	text_far _OakTimeText11
 	text_end
 
 .sodark
 	; ! No wonder it's so dark!
-	text_far UnknownText_0x1bc34f
+	text_far _OakTimeText12
 	text_end
 
 TimeSetBackgroundGFX:
@@ -412,14 +412,14 @@ SetDayOfWeek:
 .loop
 	hlcoord 0, 12
 	lb bc, 4, 18
-	call TextBox
+	call Textbox
 	call LoadStandardMenuHeader
 	ld hl, .WhatDayIsItText
 	call PrintText
 	hlcoord 13, 7
 	ld b, 2
 	ld c, 5
-	call TextBox
+	call Textbox
 	hlcoord 16, 7
 	ld [hl], TIMESET_UP_ARROW
 	hlcoord 16, 10
@@ -542,7 +542,7 @@ SetDayOfWeek:
 
 .WhatDayIsItText:
 	; What day is it?
-	text_far UnknownText_0x1bc369
+	text_far _OakTimeText13
 	text_end
 
 .ConfirmWeekdayText:
@@ -554,7 +554,7 @@ SetDayOfWeek:
 
 .IsIt:
 	; , is it?
-	text_far UnknownText_0x1bc37a
+	text_far _OakTimeText14
 	text_end
 
 InitialSetDSTFlag:

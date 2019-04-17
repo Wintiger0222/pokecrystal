@@ -1255,7 +1255,7 @@ MobileTradeAnim_DisplayEggData:
 	hlcoord 5, 0
 	ld b, 6
 	ld c, 9
-	call TextBox
+	call Textbox
 	hlcoord 6, 2
 	ld de, .EggTemplate
 	call PlaceString
@@ -1276,7 +1276,7 @@ Function108a33:
 	hlcoord 5, 0
 	ld b, 6
 	ld c, 9
-	call TextBox
+	call Textbox
 	hlcoord 7, 4
 	ld de, .OddEgg
 	call PlaceString
@@ -1294,7 +1294,7 @@ MobileTradeAnim_LoadMonTemplate:
 	hlcoord 4, 0
 	ld b,  6
 	ld c, 10
-	call TextBox
+	call Textbox
 	hlcoord 5, 0
 	ld de, .MonTemplate
 	call PlaceString
@@ -1550,15 +1550,15 @@ Function108bec:
 	ret
 
 .PlayerWillTradeMon:
-	text_far UnknownText_0x1bc787
+	text_far _TradingText10
 	text_end
 
 .ForPartnersMon:
-	text_far UnknownText_0x1bc79d
+	text_far _TradingText11
 	text_end
 
 .UnusedTextPlayersMonTrade:
-	text_far UnknownText_0x1bc7b0
+	text_far _TradingText12
 	text_end
 
 Function108c16:
@@ -1571,7 +1571,7 @@ Function108c16:
 	ret
 
 .TakeGoodCareOfMon:
-	text_far UnknownText_0x1bc7c3
+	text_far _TradingText13
 	text_end
 
 Function108c2b:
@@ -1584,7 +1584,7 @@ Function108c2b:
 	ret
 
 .PlayersMonTrade:
-	text_far UnknownText_0x1bc7dd
+	text_far _TradingText14
 	text_end
 
 Function108c40:
@@ -1607,11 +1607,11 @@ Function108c40:
 	ret
 
 .TakeGoodCareOf:
-	text_far UnknownText_0x1bc7f0
+	text_far _TradingText15
 	text_end
 
 .CameBack:
-	text_far UnknownText_0x1bc80a
+	text_far _TradingText16
 	text_end
 
 Function108c6d:

@@ -51,30 +51,30 @@ RadioTower3FCooltrainerFScript:
 	iftrue .NoRockets
 	checkevent EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
 	iftrue .UsedCardKey
-	writetext UnknownText_0x5e754
+	writetext RadioTower3FCooltrainerFPleaseSaveDirectorText
 	waitbutton
 	closetext
 	end
 
 .UsedCardKey:
-	writetext UnknownText_0x5e7cb
+	writetext RadioTower3FCooltrainerFIsDirectorSafeText
 	waitbutton
 	closetext
 	end
 
 .NoRockets:
-	writetext UnknownText_0x5e7e2
+	writetext RadioTower3FCooltrainerFYoureMyHeroText
 	buttonsound
 	verbosegiveitem TM_SUNNY_DAY
 	iffalse .NoRoom
-	writetext UnknownText_0x5e821
+	writetext RadioTower3FCooltrainerFItsSunnyDayText
 	waitbutton
 	closetext
 	setevent EVENT_GOT_SUNNY_DAY_FROM_RADIO_TOWER
 	end
 
 .GotSunnyDay:
-	writetext UnknownText_0x5e85c
+	writetext RadioTower3FCooltrainerFYouWereMarvelousText
 	waitbutton
 .NoRoom:
 	closetext
@@ -176,7 +176,7 @@ RadioTower3FGymGuyText:
 	cont "나도 24시간 분발해야지!"
 	done
 	
-UnknownText_0x5e754:
+RadioTower3FCooltrainerFPleaseSaveDirectorText:
 	text "이녀석들의 두목이"
 	line "문 저편에 서있어"
 	
@@ -187,22 +187,22 @@ UnknownText_0x5e754:
 	line "부탁해 제발 도와줘!"
 	done
 	
-UnknownText_0x5e7cb:
+RadioTower3FCooltrainerFIsDirectorSafeText:
 	text "국장님은 무사하니?"
 	done
 
-UnknownText_0x5e7e2:
+RadioTower3FCooltrainerFYoureMyHeroText:
 	text "고마워, 꼬마 영웅님!"
 	line "이것은 내 감사의 선물이야!"
 	done
 	
-UnknownText_0x5e821:
+RadioTower3FCooltrainerFItsSunnyDayText:
 	text "안에 들은 것은 쾌청"
 	line "한번 사용하면 잠시후"
 	cont "불꽃타입의 위력이 상승한단다"
 	done
 	
-UnknownText_0x5e85c:
+RadioTower3FCooltrainerFYouWereMarvelousText:
 	text "대 활약이었구나!"
 	done
 	

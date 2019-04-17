@@ -23,15 +23,15 @@ _NothingHereText::
 	text "아무것도 발견하지 못했다……"
 	done
 
-UnknownText_0x1bc06b::
+_WhichApricornText::
 	text "어느 규토리로 만들건가?"
 	done
 
-UnknownText_0x1bc089::
+_HowManyShouldIMakeText::
 	text "몇 개 만들건가?"
 	done
 
-UnknownText_0x1bc0a2::
+_RecoveredSomeHPText::
 	text "@"
 	text_ram wStringBuffer1
 	text "의 체력이"
@@ -40,56 +40,59 @@ UnknownText_0x1bc0a2::
 	text " 회복되었다"
 	done
 
-UnknownText_0x1bc0bb::
+_CuredOfPoisonText::
 	text "@"
 	text_ram wStringBuffer1
 	text "의 독은"
 	line "깨끗이 사라졌다!"
 	done
 
-UnknownText_0x1bc0d2::
+_RidOfParalysisText::
 	text "@"
 	text_ram wStringBuffer1
 	text "의 몸에"
 	line "마비가 사라졌다"
 	done
 
-UnknownText_0x1bc0ea::
+_BurnWasHealedText::
 	text "@"
 	text_ram wStringBuffer1
 	text "의"
 	line "화상이 회복되었다"
 	done
 
-UnknownText_0x1bc101::
+_WasDefrostedText::
 	text "@"
 	text_ram wStringBuffer1
 	text "의 몸에"
 	line "얼음이 녹았다"
 	done
 
-UnknownText_0x1bc115::
+_WokeUpText::
 	text "@"
 	text_ram wStringBuffer1
 	text "는(은)"
 	line "눈을 떴다"
 	done
 
-UnknownText_0x1bc123::
+
+_HealthReturnedText::
 	text "@"
 	text_ram wStringBuffer1
 	text "는(은)"
 	line "건강하게 되었다!"
 	done
 
-UnknownText_0x1bc13a::
+
+_RevitalizedText::
 	text "@"
 	text_ram wStringBuffer1
 	text "는(은)"
 	line "기운을 되찾았다!"
 	done
 
-UnknownText_0x1bc14f::
+
+_GrewToLevelText::
 	text "@"
 	text_ram wStringBuffer1
 	text "의 레벨이"
@@ -100,14 +103,14 @@ UnknownText_0x1bc14f::
 	text_waitbutton
 	db "@@"
 
-UnknownText_0x1bc16e::
+_CameToItsSensesText::
 	text "@"
 	text_ram wStringBuffer1
 	text "는(은)"
 	line "제 정신을 차렸다!"
 	done
 
-UnknownText_0x1bc187::
+_EnterNewPasscodeText::
 IF DEF(_CRYSTALMOBILE)
 	text "Please enter any"
 	line "four-digit number."
@@ -118,7 +121,7 @@ ELSE
 	done
 ENDC
 
-UnknownText_0x1bc1ac::
+_ConfirmPasscodeText::
 IF DEF(_CRYSTALMOBILE)
 	text "Enter the same"
 	line "number to confirm."
@@ -129,7 +132,7 @@ ELSE
 	done
 ENDC
 
-UnknownText_0x1bc1cf::
+_PasscodesNotSameText::
 IF DEF(_CRYSTALMOBILE)
 	text "That's not the"
 	line "same number."
@@ -140,7 +143,7 @@ ELSE
 	done
 ENDC
 
-UnknownText_0x1bc1eb::
+_PasscodeSetText::
 IF DEF(_CRYSTALMOBILE)
 	text "Your PASSCODE has"
 	line "been set."
@@ -162,7 +165,7 @@ ELSE
 	done
 ENDC
 
-UnknownText_0x1bc23e::
+_FourZerosInvalidText::
 IF DEF(_CRYSTALMOBILE)
 	text "0000 is invalid!"
 
@@ -175,7 +178,7 @@ ELSE
 	done
 ENDC
 
-UnknownText_0x1bc251::
+_EnterPasscodeText::
 IF DEF(_CRYSTALMOBILE)
 	text "Enter the CARD"
 	next "FOLDER PASSCODE."
@@ -186,7 +189,7 @@ ELSE
 	done
 ENDC
 
-UnknownText_0x1bc272::
+_IncorrectPasscodeText::
 IF DEF(_CRYSTALMOBILE)
 	text "Incorrect"
 	line "PASSCODE!"
@@ -201,7 +204,7 @@ ELSE
 	done
 ENDC
 
-UnknownText_0x1bc288::
+_CardFolderOpenText::
 IF DEF(_CRYSTALMOBILE)
 	text "CARD FOLDER open.@"
 	text_end
@@ -210,7 +213,7 @@ ELSE
 	text_end
 ENDC
 	
-UnknownText_0x1bc29c::
+_OakTimeText1::
 	text "………………………………"
 	line "………………………………"
 
@@ -219,48 +222,49 @@ UnknownText_0x1bc29c::
 	cont "미안하지만 시계를 봐 주겠니?…"
 	prompt
 
-UnknownText_0x1bc2eb::
+
+_OakTimeText2::
 	text "지금은 몇시인가?"
 	done
 
-UnknownText_0x1bc2fd::
+_OakTimeText3::
 	text "뭐야! @@"
 
-UnknownText_0x1bc305::
+_OakTimeText4::
 	text " 라고?"
 	done
 
-UnknownText_0x1bc308::
+_OakTimeText5::
 	text "그래서 몇 분이라고?"
 	done
 
-UnknownText_0x1bc31b::
+_OakTimeText6::
 	text "뭐라! @@"
 
-UnknownText_0x1bc323::
+_OakTimeText7::
 	text "?"
 	done
 
-UnknownText_0x1bc326::
+_OakTimeText8::
 	text "!"
 	line "이런! 마냥 잠만 잔 것 같군"
 	done
 
-UnknownText_0x1bc336::
+_OakTimeText11::
 	text "!"
 	line "큰일이군! 거의 잠으로 때웠다!"
 	done
 
-UnknownText_0x1bc34f::
+_OakTimeText12::
 	text "!"
 	line "과연 어두운 것 같군!"
 	done
 
-UnknownText_0x1bc369::
+_OakTimeText13::
 	text "오늘은 무슨 요일?"
 	done
 
-UnknownText_0x1bc37a::
+_OakTimeText14::
 	text "설마 틀리지는 않았겠지?"
 	done
 
@@ -362,37 +366,39 @@ UnknownText_0x1bc45e::
 	line "입력"
 	done
 
-UnknownText_0x1bc471::
+
+_NothingToChooseText::
 	text "고를 수 있는 것이 없습니다!"
 	prompt
 
-UnknownText_0x1bc48c::
+_WhichSidePutOnText::
 	text "어느 쪽으로 배치하겠습니까?"
 	done
 
-UnknownText_0x1bc4b2::
+_WhichSidePutAwayText::
 	text "어느 쪽을 정리하겠습니까?"
 	done
 
-UnknownText_0x1bc4d7::
+_PutAwayTheDecoText::
 	text "@"
 	text_ram wStringBuffer3
 	text "를(을)"
 	line "정리했다"
 	prompt
 
-UnknownText_0x1bc4ec::
+
+_NothingToPutAwayText::
 	text "정리할 것이 없습니다"
 	prompt
 
-UnknownText_0x1bc509::
+_SetUpTheDecoText::
 	text "@"
 	text_ram wStringBuffer3
 	text "를(을)"
 	line "놓아두었습니다"
 	prompt
 
-UnknownText_0x1bc51c::
+_PutAwayAndSetUpText::
 	text "@"
 	text_ram wStringBuffer3
 	text "를(을) 치우고"
@@ -402,70 +408,70 @@ UnknownText_0x1bc51c::
 	cont "놓아두었습니다"
 	prompt
 
-UnknownText_0x1bc546::
+_AlreadySetUpText::
 	text "이미 놓여져 있습니다"
 	prompt
 
-UnknownText_0x1bc55d::
+_LookTownMapText::
 	text "마을지도가 있다!"
 	done
 
-UnknownText_0x1bc570::
+_LookPikachuPosterText::
 	text "귀여운 피카츄의 포스터다"
 	done
 
-UnknownText_0x1bc591::
+_LookClefairyPosterText::
 	text "귀여운 삐삐의 포스터다"
 	done
 
-UnknownText_0x1bc5b3::
+_LookJigglypuffPosterText::
 	text "귀여운 푸린의 포스터다"
 	done
 
-UnknownText_0x1bc5d7::
+_LookAdorableDecoText::
 	text "@"
 	text_ram wStringBuffer3
 	text "(이)가 있다!"
 	done
 
-UnknownText_0x1bc5ef::
+_LookGiantDecoText::
 	text "커다란 인형이 있다!"
 	line "푹신하고 기분 좋을 것 같은……"
 	done
 
-UnknownText_0x1bc615::
+_MomShoppingText1::
 	text "여보세요"
 	line "<PLAYER> 안녕?"
 	prompt
 
-UnknownText_0x1bc62a::
+_MomShoppingText2::
 	text "어제 쇼핑을 갔다가"
 	line "좋아 보이는 도구를 팔고 있어서"
 	prompt
 
-UnknownText_0x1bc64e::
+_MomShoppingText3::
 	text "<PLAYER>의 돈으로"
 	line "사버렸어! 미안!"
 	prompt
 
-UnknownText_0x1bc673::
+_MomShoppingText4::
 	text "그렇지만 컴퓨터에 넣어두었으니까"
 	line "쓰거라! 반드시 도움이 될 꺼야!"
 	done
 
-UnknownText_0x1bc693::
+_MomShoppingText5::
 	text "어제 쇼핑을 갔다가"
 
 	para "아주 귀여운"
 	line "인형을 팔고있기에……"
 	prompt
 
-UnknownText_0x1bc6c7::
+_MomShoppingText6::
 	text "방에 놓아두었으니까 보거라!"
 	line "꼭 마음에 들꺼라고 생각해!"
 	done
 
-UnknownText_0x1bc6e9::
+_TradingText1::
 	text "@"
 	text_ram wPlayerTrademonSpeciesName
 	text "는(은) 무사히"
@@ -474,32 +480,32 @@ UnknownText_0x1bc6e9::
 	text "에게 맡겨졌습니다"
 	done
 
-UnknownText_0x1bc701::
+_TradingText2::
 	text_start
 	done
 
-UnknownText_0x1bc703::
+_TradingText3::
 	text "@"
 	text_ram wOTTrademonSenderName
 	text "(이)가"
 	line "석별의 정을 아쉬워하며"
 	done
 
-UnknownText_0x1bc719::
+_TradingText4::
 	text "@"
 	text_ram wOTTrademonSpeciesName
 	text "를(을)"
 	line "보냅니다"
 	done
 
-UnknownText_0x1bc71f::
+_TradingText5::
 	text "@"
 	text_ram wOTTrademonSpeciesName
 	text "를(을)"
 	line "귀여워해 주세요"
 	done
 
-UnknownText_0x1bc739::
+_TradingText6::
 	text "@"
 	text_ram wPlayerTrademonSenderName
 	text "(이)가"
@@ -508,7 +514,7 @@ UnknownText_0x1bc739::
 	text "를(을) 보내는 대신"
 	done
 
-UnknownText_0x1bc74c::
+_TradingText7::
 	text "@"
 	text_ram wOTTrademonSenderName
 	text "는(은)"
@@ -517,7 +523,7 @@ UnknownText_0x1bc74c::
 	text "를(을) 줍니다"
 	done
 
-UnknownText_0x1bc75e::
+_TradingText8::
 	text "이제부터"
 	line "@"
 	text_ram wOTTrademonSenderName
@@ -526,7 +532,7 @@ UnknownText_0x1bc75e::
 	text "과(와)"
 	db "@@"
 
-UnknownText_0x1bc774::
+_TradingText9::
 	text "@"
 	text_ram wPlayerTrademonSenderName
 	text "의 @"
@@ -535,7 +541,7 @@ UnknownText_0x1bc774::
 	line "교환합니다!"
 	done
 
-UnknownText_0x1bc787::
+_TradingText10::
 	text "이제부터"
 	line "@"
 	text_ram wPlayerTrademonSenderName
@@ -544,7 +550,7 @@ UnknownText_0x1bc787::
 	text "과(와)"
 	db "@@"
 
-UnknownText_0x1bc79d::
+_TradingText11::
 	text "@"
 	text_ram wOTTrademonSenderName
 	text "의 @"
@@ -553,7 +559,7 @@ UnknownText_0x1bc79d::
 	line "교환합니다!"
 	done
 
-UnknownText_0x1bc7b0::
+_TradingText12::
 	text "이제부터 @"
 	text_ram wPlayerTrademonSenderName
 	text "의@"
@@ -562,14 +568,14 @@ UnknownText_0x1bc7b0::
 	line "전송합니다!"
 	done
 
-UnknownText_0x1bc7c3::
+_TradingText13::
 	text "@"
 	text_ram wOTTrademonSpeciesName
 	text "를(을)"
 	line "귀여워해 주세요"
 	done
 
-UnknownText_0x1bc7dd::
+_TradingText14::
 	text "이제부터 @"
 	text_ram wPlayerTrademonSenderName
 	text "의@"
@@ -578,14 +584,14 @@ UnknownText_0x1bc7dd::
 	line "전송합니다!"
 	done
 
-UnknownText_0x1bc7f0::
+_TradingText15::
 	text "@"
 	text_ram wOTTrademonSpeciesName
 	text "를(을)"
 	line "귀여워해 주세요"
 	done
 
-UnknownText_0x1bc80a::
+_TradingText16::
 	text_ram wOTTrademonSpeciesName
 	text "(이)가"
 	line "되돌아왔습니다!"
@@ -1427,11 +1433,11 @@ UnknownText_0x1bd2e7::
 	line "끝났습니다!"
 	done
 
-UnknownText_0x1bd308::
+_RepelWoreOffText::
 	text "스프레이의 효과가 떨어졌다"
 	done
 
-UnknownText_0x1bd321::
+_PlayerFoundItemText::
 	text "<PLAYER>는(은)"
 	line "@"
 	text_ram wStringBuffer3
@@ -1439,12 +1445,12 @@ UnknownText_0x1bd321::
 	cont "발견했다!"
 	done
 
-UnknownText_0x1bd331::
+_ButNoSpaceText::
 	text "그러나 <PLAYER>는(은)"
 	line "도구를 더 이상 지닐 수 없다!"
 	done
 
-UnknownText_0x1bd34b::
+_JustSawSomeRareMonText::
 	text "지금 @"
 	text_ram wStringBuffer2
 	text "에서"
@@ -1457,12 +1463,12 @@ UnknownText_0x1bd34b::
 	line "발견하면 전화할께!"
 	prompt
 
-UnknownText_0x1bd39e::
+_SavingRecordText::
 	text "전당등록 데이터를 쓰고 있는 중"
 	line "전원을 끊지 말아주세요"
 	done
 
-UnknownText_0x1bd3be::
+_ReceiveItemText::
 	text "@"
 	text_ram wPlayerName
 	text "는(은)"
@@ -1474,11 +1480,11 @@ UnknownText_0x1bd3be::
 	text_waitbutton
 	db "@@"
 
-UnknownText_0x1bd3d7::
+_NoCoinsText::
 	text "동전을 가지고 있지 않습니다!"
 	prompt
 
-UnknownText_0x1bd3eb::
+_NoCoinCaseText::
 	text "동전 케이스가 없습니다!!"
 	prompt
 
@@ -1502,7 +1508,7 @@ UnknownText_0x1bd445::
 	interpret_data
 	db "@@"
 
-UnknownText_0x1bd449::
+_NPCTradeIntroText1::
 	text "나, 포켓몬 모으고 있어!"
 	line "너는 @"
 	text_ram wStringBuffer1
@@ -1515,12 +1521,12 @@ UnknownText_0x1bd449::
 	line "교환할래?"
 	done
 
-UnknownText_0x1bd48c::
+_NPCTradeCancelText1::
 	text "바꿔주지 않을꺼니?"
 	line "쳇, 실망이다……"
 	done
 
-UnknownText_0x1bd4aa::
+_NPCTradeWrongText1::
 	text "얼라리……?"
 	line "@"
 	text_ram wStringBuffer1
@@ -1528,7 +1534,7 @@ UnknownText_0x1bd4aa::
 	cont "쳇, 유감이로군……"
 	done
 
-UnknownText_0x1bd4d2::
+_NPCTradeCompleteText1::
 	text "신난다!"
 	line "@"
 	text_ram wStringBuffer1
@@ -1537,7 +1543,7 @@ UnknownText_0x1bd4d2::
 	cont "고마워!"
 	done
 
-UnknownText_0x1bd4f4::
+_NPCTradeAFterText1::
 	text "야아!"
 	line "나랑 바꿨던 @"
 	text_ram wStringBuffer2
@@ -1545,7 +1551,7 @@ UnknownText_0x1bd4f4::
 	cont "잘 지내니?"
 	done
 
-UnknownText_0x1bd512::
+_NPCTradeIntroText2::
 	text "이봐 너……"
 	line "찾는 포켓몬이 있는데"
 
@@ -1559,12 +1565,12 @@ UnknownText_0x1bd512::
 	cont "교환하지 않을래?"
 	done
 
-UnknownText_0x1bd565::
+_NPCTradeCancelText2::
 	text "너도 가지고 있지 않다고?……"
 	line "유감이군……"
 	done
 
-UnknownText_0x1bd5a1::
+_NPCTradeWrongText2::
 	text "@"
 	text_ram wStringBuffer1
 	text "을(를)"
@@ -1572,7 +1578,7 @@ UnknownText_0x1bd5a1::
 	cont "그럼 할 수 없군……"
 	done
 
-UnknownText_0x1bd5cc::
+_NPCTradeCompleteText2::
 	text "오오!"
 	line "고맙다!"
 
@@ -1582,7 +1588,7 @@ UnknownText_0x1bd5cc::
 	line "손에 들어왔어!"
 	done
 
-UnknownText_0x1bd5f4::
+_NPCTradeAfterText2::
 	text "오오!"
 
 	para "네게 받은 @"
@@ -1591,7 +1597,7 @@ UnknownText_0x1bd5f4::
 	line "는(은) 매우 건강하단다!"
 	done
 
-UnknownText_0x1bd621::
+_NPCTradeIntroText3::
 	text "@"
 	text_ram wMonOrItemNameBuffer
 	text " 귀엽지!"
@@ -1607,12 +1613,12 @@ UnknownText_0x1bd621::
 	line "교환하자!"
 	done
 
-UnknownText_0x1bd673::
+_NPCTradeCancelText3::
 	text "교환하지 않는다구?"
 	line "에이…… 실망……"
 	done
 
-UnknownText_0x1bd696::
+_NPCTradeWrongText3::
 	text "@"
 	text_ram wStringBuffer1
 	text "(이)가"
@@ -1620,14 +1626,14 @@ UnknownText_0x1bd696::
 	cont "그거 잡으면 바꿔줘!"
 	done
 
-UnknownText_0x1bd6cd::
+_NPCTradeCompleteText3::
 	text "와아! 고마워!"
 	line "@"
 	text_ram wMonOrItemNameBuffer
 	text " 갖고싶었어!"
 	done
 
-UnknownText_0x1bd6f5::
+_NPCTradeAfterText3::
 	text "교환했던 @"
 	text_ram wStringBuffer2
 	text ""
@@ -1638,18 +1644,18 @@ UnknownText_0x1bd6f5::
 	cont "엄청 귀여워!"
 	done
 
-UnknownText_0x1bd731::	
+_NPCTradeCompleteText4::
 	text "어라? 왜지?"
 	done
 	
-UnknownText_0x1bd745::	
+_NPCTradeAfterText4::
 	text "교환이란 건 신기하구나…"
 	
 	para "아저씨는 아직도"
 	line "모르는 게 많단다"
 	done
 
-UnknownText_0x1bd77f::
+_MomLeavingText1::
 	text "와아 귀여운 포켓몬이네"
 	line "어쩐 일이니?"
 
@@ -1669,14 +1675,14 @@ UnknownText_0x1bd77f::
 	para "어때, 저금할래?"
 	done
 
-UnknownText_0x1bd868::
+_MomLeavingText2::
 	text "저금한다고?"
 	line "맡겨줘!"
 
 	para "…………………………"
 	prompt
 
-UnknownText_0x1bd88e::
+_MomLeavingText3::
 	text "……몸조심하거라"
 
 	para "포켓몬은 소중한 친구"
@@ -1685,7 +1691,7 @@ UnknownText_0x1bd88e::
 	para "잘 다녀와라!"
 	done
 
-UnknownText_0x1bd8da::
+_MomVisitingText1::
 	text "어서오너라!"
 	line "열심히하고 있는 것 같네"
 
@@ -1693,68 +1699,67 @@ UnknownText_0x1bd8da::
 	line "그게 아니면 저금때문이니?"
 	done
 
-UnknownText_0x1bd942::
+_MomVisitingText2::
 	text "뭘 하겠니?"
 	done
 
-UnknownText_0x1bd95b::
+_MomVisitingText3::
 	text "얼마 맡길꺼니?"
 	done
 
-UnknownText_0x1bd97a::
+_MomVisitingText4::
 	text "얼마 찾아갈꺼야?"
 	done
 
-UnknownText_0x1bd999::
+_MomVisitingText5::
 	text "저금할래?"
 	done
 
-UnknownText_0x1bd9ba::
+_MomVisitingText6::
 	text "그렇게 많이 맡아두지 않았어"
 	prompt
 
-UnknownText_0x1bd9d7::
+_MomVisitingText7::
 	text "그렇게 많이 가지고 갈 수 없어"
 	prompt
 
-UnknownText_0x1bd9f1::
+_MomVisitingText8::
 	text "그렇게 많이 지니고 있지 않잖아"
 	prompt
 
-UnknownText_0x1bda0b::
+_MomVisitingText9::
 	text "그렇게 맡아둘 수 없어"
 	prompt
-
-UnknownText_0x1bda25::
+_MomVisitingText10::
 	text "저금한다고?"
 	line "맡겨둬!"
 
 	para "<PLAYER>! 힘내라!"
 	done
 
-UnknownText_0x1bda5b::
+_MomVisitingText11::
 	text "소중히 맡아둘께"
 	line "힘내!"
 	done
 
-UnknownText_0x1bda7e::
+_MomVisitingText12::
 	text "<PLAYER>! 힘내거라!"
 	done
 
-UnknownText_0x1bda90::
+_MomVisitingText13::
 	text "무리하지 말거라"
 	done
 
-UnknownText_0x1bdaa7::
+_DaycareDummyText::
 	text_start
 	done
 
-UnknownText_0x1bdaa9::
+_DayCareManIntroText::
 	text "나는 보모 할아버지다"
 	line "뭔가 양육시키고싶은가?"
 	done
 
-UnknownText_0x1bdad8::
+_DayCareManOddEggText::
 	text "나는 보모 할아버지다"
 	line "알에 대한 이야기 해줄까?"
 
@@ -1768,12 +1773,12 @@ UnknownText_0x1bdad8::
 	line "네 포켓몬의 양육을 맡겨보겠니?"
 	done
 
-UnknownText_0x1bdb85::
+_DayCareLadyIntroText::
 	text "나는 보모 할머니다"
 	line "뭔가 양육시키고싶은가?"
 	done
 
-UnknownText_0x1bdbbb::
+_DayCareLadyOddEggText::
 	text "나는 보모 할머니다"
 	line "알에 대한 이야기 해줄까?"
 
@@ -1787,32 +1792,32 @@ UnknownText_0x1bdbbb::
 	line "네 포켓몬의 양육을 맡겨보겠니?"
 	done
 
-UnknownText_0x1bdc79::
+_WhatShouldIRaiseText::
 	text "그럼"
 	line "어느 것을 양육해보겠니?"
 	prompt
 
-UnknownText_0x1bdc97::
+_OnlyOneMonText::
 	text "으응? 포켓몬이"
 	line "1마리밖에 없는 것 같구만"
 	prompt
 
-UnknownText_0x1bdcb8::
+_CantRaiseEggText::
 	text "미안하지만"
 	line "알은 맡아줄 수 없단다"
 	prompt
 
-UnknownText_0x1bdcda::
+_RemoveMailText::
 	text "그전에"
 	line "메일을 빼놓고 오거라"
 	prompt
 
-UnknownText_0x1bdcff::
+_LastHealthyMonText::
 	text "그것을 맡긴다면"
 	line "싸울 수 없게 되어버릴껄"
 	prompt
 
-UnknownText_0x1bdd30::
+_IllRaiseYourMonText::
 	text "알겠다"
 	line "잠시 @"
 	text_ram wStringBuffer1
@@ -1820,19 +1825,19 @@ UnknownText_0x1bdd30::
 	cont "맡아두마"
 	prompt
 
-UnknownText_0x1bdd4b::
+_ComeBackLaterText::
 	text "적당히 시간이 지나면"
 	line "또 오너라"
 	done
 
-UnknownText_0x1bdd64::
+_AreWeGeniusesText::
 	text "역시 우리들은 천재인가봐!"
 	line "너의 @"
 	text_ram wStringBuffer1
 	text " 봐 볼까"
 	done
 
-UnknownText_0x1bdd96::
+_YourMonHasGrownText::
 	text "자네의 @"
 	text_ram wStringBuffer1
 	text ""
@@ -1849,12 +1854,12 @@ UnknownText_0x1bdd96::
 	text "원일세!"
 	done
 
-UnknownText_0x1bde04::
+_PerfectHeresYourMonText::
 	text "자 여기!"
 	line "그럼 포켓몬 데리고가거라"
 	prompt
 
-UnknownText_0x1bde1f::
+_GotBackMonText::
 	text "<PLAYER>는(은) 보모로부터"
 	line "@"
 	text_ram wStringBuffer1
@@ -1862,7 +1867,7 @@ UnknownText_0x1bde1f::
 	cont "찾았다!"
 	prompt
 
-UnknownText_0x1bde32::
+_BackAlreadyText::
 	text "뭐야, 벌써 왔는가?"
 	line "너의 @"
 	text_ram wStringBuffer1
@@ -1875,27 +1880,27 @@ UnknownText_0x1bde32::
 	line "요금은 100원이다"
 	done
 
-UnknownText_0x1bdea2::
+_HaveNoRoomText::
 	text "그 이상은 지닐 수 없단다"
 	prompt
 
-UnknownText_0x1bdebc::
+_DCNotEnoughMoneyText::
 	text "돈이 부족한 것 같구만"
 	prompt
 
-UnknownText_0x1bded9::
+_OhFineThenText::
 	text "그래, 그렇다면"
 	prompt
 
-UnknownText_0x1bdee9::
+_ComeAgainText::
 	text "또 오너라"
 	done
 
-UnknownText_0x1bdef6::
+_NotYetText::
 	text "아직이란다"
 	done
 
-UnknownText_0x1bdf00::
+_FoundAnEggText::
 	text "오오! 자넨가"
 
 	para "맡고있던 포켓몬을"
@@ -1909,36 +1914,36 @@ UnknownText_0x1bdf00::
 	cont "역시 가지고싶겠지?"
 	done
 
-UnknownText_0x1bdfa5::
+_ReceivedEggText::
 	text "<PLAYER>는(은) 보모로부터"
 	line "알을 건네어 받았다!"
 	done
 
-UnknownText_0x1bdfba::
+_TakeGoodCareOfEggText::
 	text "소중히 키우거라"
 	done
 
-UnknownText_0x1bdfd1::
+_RefuseEggText::
 	text "그렇다면 내가 받지"
 	line "고맙구나"
 	done
 
-UnknownText_0x1bdff2::
+_NoRoomForEggText::
 	text "그 이상은 지니고 갈 수 없단다"
 	line "다음 번에 가지고가거라"
 	done
 
-UnknownText_0x1be024::
+_WhichMonPhotoText::
 	text "어느 포켓몬을"
 	line "촬영할껀가?"
 	prompt
 
-UnknownText_0x1be047::
+_HoldOnText::
 	text "좋아!"
 	line "잠시 가만 있거라"
 	prompt
 
-UnknownText_0x1be06a::
+_PrestoAllDoneText::
 	text "자! 다 끝났다!"
 	line "또 오너라"
 	done

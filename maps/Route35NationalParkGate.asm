@@ -52,22 +52,22 @@ Route35NationalParkGate_MapScripts:
 	return
 
 .LeavingContestEarly:
-	applymovement PLAYER, MovementData_0x6a2e2
+	applymovement PLAYER, Route35NationalParkGatePlayerApproachOfficer1Movement
 	turnobject ROUTE35NATIONALPARKGATE_OFFICER1, RIGHT
 	opentext
 	readvar VAR_CONTESTMINUTES
 	addval 1
 	getnum STRING_BUFFER_3
-	writetext UnknownText_0x6a79a
+	writetext Route35NationalParkGateOfficer1WantToFinishText
 	yesorno
 	iffalse .GoBackToContest
-	writetext UnknownText_0x6a7db
+	writetext Route35NationalParkGateOfficer1WaitAtNorthGateText
 	waitbutton
 	closetext
 	jumpstd bugcontestresultswarp
 
 .GoBackToContest:
-	writetext UnknownText_0x6a823
+	writetext Route35NationalParkGateOfficer1OkGoFinishText
 	waitbutton
 	closetext
 	scall Route35NationalParkGate_EnterContest
@@ -88,7 +88,7 @@ Route35OfficerScriptContest:
 	checkflag ENGINE_DAILY_BUG_CONTEST
 	iftrue Route35NationalParkGate_ContestIsOver
 	scall Route35NationalParkGate_GetDayOfWeek
-	writetext UnknownText_0x6a2eb
+	writetext Route35NationalParkGateOfficer1AskToParticipateText
 	yesorno
 	iffalse Route35NationalParkGate_DeclinedToParticipate
 	readvar VAR_PARTYCOUNT
@@ -98,12 +98,12 @@ Route35OfficerScriptContest:
 Route35NationalParkGate_OkayToProceed:
 	setflag ENGINE_BUG_CONTEST_TIMER
 	special PlayMapMusic
-	writetext UnknownText_0x6a39d
+	writetext Route35NationalParkGateOfficer1GiveParkBallsText
 	buttonsound
-	writetext UnknownText_0x6a3c7
+	writetext Route35NationalParkGatePlayerReceivedParkBallsText
 	playsound SFX_ITEM
 	waitsfx
-	writetext UnknownText_0x6a3e2
+	writetext Route35NationalParkGateOfficer1ExplainsRulesText
 	waitbutton
 	closetext
 	special GiveParkBalls
@@ -118,11 +118,11 @@ Route35NationalParkGate_OkayToProceed:
 Route35NationalParkGate_EnterContest:
 	readvar VAR_FACING
 	ifequal LEFT, Route35NationalParkGate_FacingLeft
-	applymovement PLAYER, MovementData_0x6a2e5
+	applymovement PLAYER, Route35NationalParkGatePlayerGoAroundOfficerAndEnterParkMovement
 	end
 
 Route35NationalParkGate_FacingLeft:
-	applymovement PLAYER, MovementData_0x6a2e9
+	applymovement PLAYER, Route35NationalParkGatePlayerEnterParkMovement
 	end
 
 Route35NationalParkGate_LeaveTheRestBehind:
@@ -134,65 +134,65 @@ Route35NationalParkGate_LeaveTheRestBehind:
 Route35NationalParkGate_LessThanFullParty:
 	special CheckFirstMonIsEgg
 	ifequal TRUE, Route35NationalParkGate_FirstMonIsEgg
-	writetext UnknownText_0x6a4c6
+	writetext Route35NationalParkGateOfficer1AskToUseFirstMonText
 	yesorno
 	iffalse Route35NationalParkGate_DeclinedToLeaveMonsBehind
 	special ContestDropOffMons
 	iftrue Route35NationalParkGate_FirstMonIsFainted
 	setevent EVENT_LEFT_MONS_WITH_CONTEST_OFFICER
-	writetext UnknownText_0x6a537
+	writetext Route35NationalParkGateOfficer1WellHoldYourMonText
 	buttonsound
-	writetext UnknownText_0x6a56b
+	writetext Route35NationalParkGatePlayersMonLeftWithHelperText
 	playsound SFX_GOT_SAFARI_BALLS
 	waitsfx
 	buttonsound
 	sjump Route35NationalParkGate_OkayToProceed
 
 Route35NationalParkGate_DeclinedToParticipate:
-	writetext UnknownText_0x6a5dc
+	writetext Route35NationalParkGateOfficer1TakePartInFutureText
 	waitbutton
 	closetext
 	end
 
 Route35NationalParkGate_DeclinedToLeaveMonsBehind:
-	writetext UnknownText_0x6a597
+	writetext Route35NationalParkGateOfficer1ChooseMonAndComeBackText
 	waitbutton
 	closetext
 	end
 
 Route35NationalParkGate_FirstMonIsFainted:
-	writetext UnknownText_0x6a608
+	writetext Route35NationalParkGateOfficer1FirstMonCantBattleText
 	waitbutton
 	closetext
 	end
 
 Route35NationalParkGate_NoRoomInBox:
-	writetext UnknownText_0x6a67c
+	writetext Route35NationalParkGateOfficer1MakeRoomText
 	waitbutton
 	closetext
 	end
 
 Route35NationalParkGate_FirstMonIsEgg:
-	writetext UnknownText_0x6a71f
+	writetext Route35NationalParkGateOfficer1EggAsFirstMonText
 	waitbutton
 	closetext
 	end
 
 Route35NationalParkGate_ContestIsOver:
-	writetext UnknownText_0x6a84f
+	writetext Route35NationalParkGateOfficer1ContestIsOverText
 	waitbutton
 	closetext
 	end
 
 Route35NationalParkGate_NoContestToday:
-	jumptextfaceplayer UnknownText_0x6a894
+	jumptextfaceplayer Route35NationalParkGateOfficer1WeHoldContestsText
 
 Route35NationalParkGateOfficerScript:
 	faceplayer
 	opentext
 	checkflag ENGINE_DAILY_BUG_CONTEST
 	iftrue Route35NationalParkGate_ContestIsOver
-	writetext UnknownText_0x6a894
+	writetext Route35NationalParkGateOfficer1WeHoldContestsText
 	waitbutton
 	closetext
 	end
@@ -207,22 +207,22 @@ Route35NationalParkGate_GetDayOfWeek:
 	jumpstd daytotext
 	end
 
-MovementData_0x6a2e2:
+Route35NationalParkGatePlayerApproachOfficer1Movement:
 	step DOWN
 	turn_head LEFT
 	step_end
 
-MovementData_0x6a2e5:
+Route35NationalParkGatePlayerGoAroundOfficerAndEnterParkMovement:
 	step RIGHT
 	step UP
 	step UP
 	step_end
 
-MovementData_0x6a2e9:
+Route35NationalParkGatePlayerEnterParkMovement:
 	step UP
 	step_end
 
-UnknownText_0x6a2eb:
+Route35NationalParkGateOfficer1AskToParticipateText:
 	text "오늘은 @"
 	text_ram wStringBuffer3
 	text "요일"
@@ -237,17 +237,17 @@ UnknownText_0x6a2eb:
 	para "참가 하겠습니까?"
 	done
 
-UnknownText_0x6a39d:
+Route35NationalParkGateOfficer1GiveParkBallsText:
 	text "대회에서 사용하는"
 	line "전용볼을 받으세요!"
 	done
 
-UnknownText_0x6a3c7:
+Route35NationalParkGatePlayerReceivedParkBallsText:
 	text "<PLAYER>는(은)"
 	line "파크볼을 20개 얻었다"
 	done
 
-UnknownText_0x6a3e2:
+Route35NationalParkGateOfficer1ExplainsRulesText:
 	text "제일 강해보이는 포켓몬을"
 	line "잡은 사람이 우승입니다!"
 	
@@ -263,7 +263,7 @@ UnknownText_0x6a3e2:
 	line "포켓몬을 잡아주세요!"
 	done
 
-UnknownText_0x6a4c6:
+Route35NationalParkGateOfficer1AskToUseFirstMonText:
 	text "엥?"
 	line "포켓몬이 한마리가 아니로군요!"
 
@@ -274,28 +274,29 @@ UnknownText_0x6a4c6:
 	cont "참가하기로 되었습니다"
 	cont "괜찮겠습니까?"
 	done
-UnknownText_0x6a537:
+
+Route35NationalParkGateOfficer1WellHoldYourMonText:
 	text "그럼 남은 포켓몬은"
 	line "여기에 맡아놓겠습니다!"
 	done
 
-UnknownText_0x6a56b:
+Route35NationalParkGatePlayersMonLeftWithHelperText:
 	text "<PLAYER>는(은) 관계자에게"
 	line "포켓몬을 맡겼다!"
 	done
 	
-UnknownText_0x6a597:
+Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
 	text "대회에서 싸우게 할"
 	line "포켓몬을 정하고 나서"
 	cont "다시 한번 부탁을 드리겠습니다"
 	done
 
-UnknownText_0x6a5dc:
+Route35NationalParkGateOfficer1TakePartInFutureText:
 	text "그렇습니까"
 	line "다음 번에는 꼭 참가해주세요!"
 	done
 
-UnknownText_0x6a608:
+Route35NationalParkGateOfficer1FirstMonCantBattleText:
 	text "엥?"
 	line "참가할 포켓몬이"
 	cont "싸울 수 없어 보이는군요"
@@ -304,7 +305,7 @@ UnknownText_0x6a608:
 	line "와주세요"
 	done
 	
-UnknownText_0x6a67c:
+Route35NationalParkGateOfficer1MakeRoomText:
 	text "엥?"
 	line "소지품과 컴퓨터 박스도"
 	cont "가득인 것 같군요"
@@ -316,7 +317,7 @@ UnknownText_0x6a67c:
 	line "정리하고 와주세요"
 	done
 
-UnknownText_0x6a71f:
+Route35NationalParkGateOfficer1EggAsFirstMonText:
 	text "엥?"
 	line "맨 앞의 포켓몬이"
 	cont "알 같군요"
@@ -325,7 +326,7 @@ UnknownText_0x6a71f:
 	line "와주세요"
 	done
 
-UnknownText_0x6a79a:
+Route35NationalParkGateOfficer1WantToFinishText:
 	text "남은 시간은"
 	line "앞으로 @"
 	text_ram wStringBuffer3
@@ -333,26 +334,26 @@ UnknownText_0x6a79a:
 	cont "벌써 끝을 내겠습니까?"
 	done
 
-UnknownText_0x6a7db:
+Route35NationalParkGateOfficer1WaitAtNorthGateText:
 	text "그렇습니까"
 	line "그럼 위의 게이트에서"
 	cont "결과발표를"
 	cont "기다려주십시오"
 	done
 
-UnknownText_0x6a823:
+Route35NationalParkGateOfficer1OkGoFinishText:
 	text "그렇습니까"
 	line "그럼 남은 시간"
 	cont "더욱 분발하고 와주십시요"
 	done
 
-UnknownText_0x6a84f:
+Route35NationalParkGateOfficer1ContestIsOverText:
 	text "오늘의 콘테스트는"
 	line "끝났어요"
 	cont "다음에 다시 참가해주세요!"
 	done
 
-UnknownText_0x6a894:
+Route35NationalParkGateOfficer1WeHoldContestsText:
 	text "공원에서는 가끔"
 	line "대회가 열린단다"
 	cont "괜찮다면 너도 참가하지 않을래?"
