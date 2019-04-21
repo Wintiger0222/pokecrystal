@@ -1,4 +1,4 @@
-db  "원하는 포켓몬"
-next"맡길 포켓몬"
-next"CGB<->BYTK ver 0.63"
-next"[Jan 08 2019]@"
+db  "열심히 케이네 코스하고 있어요"
+next"대학생활 힘드네요"
+next"CGB<->BYTK ver 0.64<->"
+next"[Apr 20 2019]@"
