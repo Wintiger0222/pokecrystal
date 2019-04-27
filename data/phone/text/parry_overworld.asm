@@ -1,73 +1,73 @@
 ParryAskNumber1Text:
-	text "Sheesh, the way"
-	line "you attacked! That"
+	text "Sheesh, the way"					;±× Àü¹ı!
+	line "you attacked! That"				;»ì¾Æ¼­ º» ÃÖ°íÀÇ °ø°İÀÌ¶ó
 
-	para "was something! We"
-	line "should meet again!"
+	para "was something! We"				;´Ü¾ğÇØµµ ¼Õ»ö ¾øÀ»
+	line "should meet again!"				;ÈÇ¸¢ÇÑ ±â¼úÀÌ¾ú´Ù!
 
-	para "How about giving"
-	line "me your number?"
+	para "How about giving"					;´Ù½Ã ¸¸³¯ ¼ö ÀÖ°Ô
+	line "me your number?"					;¹øÈ£¶óµµ ±³È¯ÇÏÀÚ°í
 	done
 
 ParryAskNumber2Text:
-	text "So you want to"
+	text "So you want to"					;¼ÖÁ÷È÷ ¸»ÇØºÁ
 	line "register my phone"
 
-	para "number for a re-"
-	line "match, huh?"
+	para "number for a re-"					;³Êµµ ´Ù½Ã ½ÂºÎÇÏ±â À§ÇØ
+	line "match, huh?"						;ÀüÈ­¹øÈ£¸¦ ¾Ë°í ½ÍÀİ¾Æ
 	done
 
 ParryNumberAcceptedText:
-	text "I'll call you"
-	line "whenever I feel"
-	cont "like battling!"
+	text "I'll call you"					;¹èÆ²ÇÏ°í ½Í¾îÁö¸é
+	line "whenever I feel"					;¾ğÁ¦µçÁö ºÎ¸¦ Å×´Ï±î
+	cont "like battling!"					;±× ¶§´Â ¹Ù·Î¹Ù·Î ¿À¶ó°í!
 	done
 
 ParryNumberDeclinedText:
-	text "No? That's fine."
+	text "No? That's fine."					;½ÈÀ¸¸é ¸»°í
 
-	para "A definite no is"
-	line "easy to take!"
+	para "A definite no is"					;Á¤Á÷ÇÏ°Ô ½È´Ù°í ÇÏ´Â °Íµµ
+	line "easy to take!"					;¿ë±â ÀÖ´Â ¹æ¹ıÀÌÁö
 
-	para "I'll be right here"
-	line "when you're ready"
-	cont "for a rematch."
+	para "I'll be right here"				;³­ ¿©±â¼­ ±â´Ù¸± Å×´Ï
+	line "when you're ready"				;´Ù½Ã ¹èÆ²ÇÏ°í ½Í¾îÁö¸é
+	cont "for a rematch."					;¾ğÁ¦µçÁö ¿À¶ó°í
 	done
 
 ParryPhoneFullText:
-	text "Oh? There's no"
-	line "room to register"
-	cont "my phone number."
+	text "Oh? There's no"					;¾î¶ó?
+	line "room to register"					;¹øÈ£ ÀúÀåÇÒ ÀÚ¸®°¡
+	cont "my phone number."					;ÇÏ³ªµµ ¾ø³ª º¸³×
 	done
 
 ParryRematchText:
-	text "Hey, here comes"
+	text "Hey, here comes"					;¿À´ÃÀÇ ÁÖÀÎ°øÀÌ ¿Ô±¸¸¸
 	line "the kid! Let's go!"
 
-	para "Ready for my usual"
-	line "no-brainer, all-"
-	cont "out offense?"
+	para "Ready for my usual"				;ÀÌ¹ø¿¡µµ ´ëÃ¥ ¾ø´Â
+	line "no-brainer, all-"					;¹«ÀÛÁ¤ °ø°İ Àü¹ıÀ»
+	cont "out offense?"						;¹öÅßº¸½ÃÁö!
 	done
 
 ParryPackFullText:
-	text "Your PACK looks"
-	line "stuffed full!"
+	text "Your PACK looks"					;°¡¹æÀÌ ²Ë Â÷¼­
+	line "stuffed full!"					;µé¾î°¡Áú ¾Ê³×
 
-	para "You can't have"
-	line "this now."
+	para "You can't have"					;Áö±İ ¸»°í ³ªÁß¿¡
+	line "this now."						;¹ŞÀ¸·¯ ¿À·Å
 	done
 
 ParryRematchGiftText:
-	text "Well, you're"
+	text "Well, you're"						;³Í ¹º°¡ Æ¯º°ÇÑ ¾Ö±¸³ª
 	line "special all right."
 
-	para "If only I'd begun"
-	line "#MON when I was"
-	cont "a tad youngerâ€¦"
+	para "If only I'd begun"				;ÈÎ¾À Àş¾úÀ» Àû¿¡
+	line "#MON when I was"					;Æ÷ÄÏ¸ó Æ®·¹ÀÌ³Ê°¡
+	cont "a tad younger¡¦"					;µÆ¾ú´õ¶ó¸é¡¦¡¦
 
-	para "I want you to work"
+	para "I want you to work"				;°í¸¿´Ù´Â Ç¥½Ã·Î ÀÌ°É ÁÖÁö
 	line "and succeed for"
 
-	para "the both of us."
-	line "So take this, OK?"
+	para "the both of us."					;±×·³ ³» ¸ò±îÁö ¿­½ÉÈ÷
+	line "So take this, OK?"				;Æ÷±âÇÏÁö ¸»¶ó°í!
 	done
