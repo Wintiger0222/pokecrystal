@@ -1,4 +1,4 @@
-DerekCheekPincherText:
+﻿DerekCheekPincherText:
 	text "Listen to this."
 	line "My @"
 	text_ram wStringBuffer4

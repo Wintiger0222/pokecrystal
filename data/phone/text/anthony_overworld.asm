@@ -1,52 +1,52 @@
 AnthonyAskNumber1Text:
-	text "By the way, I'm a"
+	text "By the way, I'm a"				;³ª´Â µî»ê°¡´Ï±î
 	line "HIKER, so I often"
 
-	para "go to mountains"
+	para "go to mountains"					;»êÀÌ³ª µ¿±¼¿¡ ¸¹ÀÌ °¡´Âµ¥
 	line "and caves."
 
-	para "I occasionally see"
-	line "rare #MON."
+	para "I occasionally see"				;°¡²û¾¿Àº Èñ±ÍÇÑ
+	line "rare #MON."						;Æ÷ÄÏ¸óÀ» º¼ ¶§µµ ÀÖÁö
 
-	para "I could call you"
-	line "the next time I"
-	cont "see one."
+	para "I could call you"					;´ÙÀ½¿¡ Èñ±ÍÇÑ Æ÷ÄÏ¸óÀ»
+	line "the next time I"					;¹ß°ßÇÏ°Ô µÈ´Ù¸é
+	cont "see one."							;¾Ë·ÁÁÖ°í ½ÍÀºµ¥ ¸»ÀÌ¾ß
 
-	para "Feel like swapping"
+	para "Feel like swapping"				;ÀüÈ­¹øÈ£ ±³È¯ÇÒ·¡?
 	line "phone numbers?"
 	done
 
 AnthonyAskNumber2Text:
-	text "I could call you"
-	line "when I see some"
-	cont "rare #MON."
+	text "I could call you"					;´ÙÀ½¿¡ Èñ±ÍÇÑ Æ÷ÄÏ¸óÀ»
+	line "the next time I"					;¹ß°ßÇÏ°Ô µÈ´Ù¸é
+	cont "see one."							;¾Ë·ÁÁÖ°í ½ÍÀºµ¥ ¸»ÀÌ¾ß
 
-	para "Feel like swapping"
+	para "Feel like swapping"				;ÀüÈ­¹øÈ£ ±³È¯ÇÒ·¡?
 	line "phone numbers?"
 	done
 
 AnthonyNumberAcceptedText:
-	text "Be patient. I'll"
-	line "find some rare"
-	cont "#MON for you!"
+	text "Be patient. I'll"					;¸çÄ¥ ±â´Ù¸®¸é
+	line "find some rare"					;³¡³»ÁÖ´Â Æ÷ÄÏ¸óÀ»
+	cont "#MON for you!"					;º¸°Ô µÉ °Å´Ù!
 	done
 
 AnthonyNumberDeclinedText:
-	text "You're cold. I may"
+	text "You're cold. I may"				;½Ò½ÒÇÑ »ç¶÷ÀÌ³×¡¦
 	line "as well head to"
-	cont "the mountainsâ€¦"
+	cont "the mountains¡¦"					;´Ù½Ã »êÀ¸·Î³ª °¥±î¡¦
 	done
 
 AnthonyPhoneFullText:
-	text "Your phone's full."
+	text "Your phone's full."				;¹øÈ£°¡ ²Ë Â÷¼­
 
-	para "It can't register"
+	para "It can't register"				;¹øÈ£¸¦ µî·ÏÇÒ ¼ö°¡ ¾ø³×
 	line "my phone number."
 	done
 
 AnthonyRematchText:
-	text "All righty, then!"
+	text "All righty, then!"				;ÁÁ¾Ò¾î
 
-	para "My #MON and I"
-	line "are raring to go!"
+	para "My #MON and I"					;³» Æ÷ÄÏ¸óÀÇ
+	line "are raring to go!"				;ÁÖ¸ÔÀÌ ¿î´Ù!
 	done
