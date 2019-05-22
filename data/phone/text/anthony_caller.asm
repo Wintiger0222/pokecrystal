@@ -1,3 +1,4 @@
+;(이번에 내는 번역문들은 모두 일본어 판을 기준으로 합니다. 롬을 뜯는 게 이렇게 편할 줄이야.. -6B6390AA)
 AnthonyAteBerriesText:
 	text "The other day, I"
 	line "was watching my"
