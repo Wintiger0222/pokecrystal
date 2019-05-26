@@ -1,3 +1,4 @@
+
 AlanGettingStrongerText:
 	text "내 @"								
 	text_ram wStringBuffer4
@@ -75,11 +76,8 @@ UnknownText_0x64f1a:
 	text "숙제해야 되니까"					
 	line "빨리 와 줄래?"					
 
-	para "you come get your"
-	line "gift right away?"
 
 	para "난 @"									
 	text_ram wStringBuffer5
-	text "에!"			
-	line "에 있으니까"
+	text "에 있으니까"			
 	done
