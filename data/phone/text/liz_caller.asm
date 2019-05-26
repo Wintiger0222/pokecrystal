@@ -3,15 +3,21 @@ UnknownText_0x175fda:
 	line "hear this."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	para "My @"								;내 @
 	text_ram wStringBuffer4
 	text " is"								;항상 볼을 맞대고
 	line "so adorable!"						;비벼주려고 해
 =======
+=======
+>>>>>>> parent of bc7b3f85c... data/phone/text is complete
 	para "My @"
 	text_ram wStringBuffer4
 	text " is"
 	line "so adorable!"
+<<<<<<< HEAD
+>>>>>>> parent of bc7b3f85c... data/phone/text is complete
+=======
 >>>>>>> parent of bc7b3f85c... data/phone/text is complete
 
 	para "It always wants to"
