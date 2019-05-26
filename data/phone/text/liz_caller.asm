@@ -3,7 +3,7 @@ UnknownText_0x175fda:
 	line "hear this."
 
 	para "My @"								;내 @
-	text_ram wStringBuffer4…
+	text_ram wStringBuffer4
 	text " is"								;항상 볼을 맞대고
 	line "so adorable!"						;비벼주려고 해
 
