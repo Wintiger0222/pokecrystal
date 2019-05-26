@@ -54,7 +54,7 @@ UnknownText_0x177361:
 	done
 
 UnknownText_0x177378:
-	text "<PLAY_G> 소문 들었어?"
+	text "<PLAY_G> 소문 들었니?"
 
 	para "금빛시티 라디오타워가"
 	line "로켓단에게 빼았겼대!"
