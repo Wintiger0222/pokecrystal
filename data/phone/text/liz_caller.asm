@@ -1,25 +1,32 @@
 UnknownText_0x175fda:
-	text "Oh, you have to"					;저기 들어봐 들어봐!
+	text "Oh, you have to"
 	line "hear this."
 
+<<<<<<< HEAD
 	para "My @"								;내 @
 	text_ram wStringBuffer4
 	text " is"								;항상 볼을 맞대고
 	line "so adorable!"						;비벼주려고 해
+=======
+	para "My @"
+	text_ram wStringBuffer4
+	text " is"
+	line "so adorable!"
+>>>>>>> parent of bc7b3f85c... data/phone/text is complete
 
-	para "It always wants to"				;너무 귀여워!
+	para "It always wants to"
 	line "nuzzle me!"
 	done
 
 UnknownText_0x17602d:
-	text "And, and! Um…"					;그리고 그리고…
+	text "And, and! Um…"
 
-	para "We beat a wild"					;어저께 @
+	para "We beat a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text " with"							;한방에 쓰러뜨렸는데…
+	text " with"
 
-	para "just one hit a"					;좀 불쌍했었어
+	para "just one hit a"
 	line "little while ago."
 
 	para "We felt sorry for"
@@ -27,282 +34,282 @@ UnknownText_0x17602d:
 	done
 
 UnknownText_0x176095:
-	text "And, and! Uh…"					;그리고 그리고!
+	text "And, and! Uh…"
 
-	para "We just saw a"					;요전에 엄청
-	line "really gorgeous"					;아름다운 @
+	para "We just saw a"
+	line "really gorgeous"
 	cont "@"
 	text_ram wStringBuffer4
-	text "."								;하고 맞닥뜨렸는데
+	text "."
 
-	para "But I was on the"					;전화하고 있어서
-	line "phone, so it got"					;도망가 버렸어…
+	para "But I was on the"
+	line "phone, so it got"
 
-	para "away. It made us"					;으아아 분해!
+	para "away. It made us"
 	line "really angry!"
 	done
 
 UnknownText_0x17610a:
-	text "Hi! Do you have"					;있지 <PLAY_G>
-	line "some free time?"					;남는 시간 있어?
+	text "Hi! Do you have"
+	line "some free time?"
 
-	para "I've got all sorts"				;나 시간이 너무
-	line "of time. If you're"				;많이 남아돌아서
+	para "I've got all sorts"
+	line "of time. If you're"
 
-	para "free, would you"					;혹시 시간 있으면
-	line "like to battle?"					;배틀하지 않을래?
+	para "free, would you"
+	line "like to battle?"
 
 	para "I'll be waiting on"
-	line "@"								;@
+	line "@"
 	text_ram wStringBuffer5
-	text "."								;에서 기다릴 테니까
+	text "."
 
-	para "Let me know when"					;도착하면 말 걸어줘
+	para "Let me know when"
 	line "you get here!"
 	done
 
 LizHiTaniaText:
-	text "Hi, TANIA. How are"				;설지야 잘 지내?
-	line "you? This is LIZ."				
+	text "Hi, TANIA. How are"
+	line "you? This is LIZ."
 
-	para "I'm fine, but I'm"				;은향이는 심심하지만
-	line "bored silly!"						;잘 지내고 있어!
+	para "I'm fine, but I'm"
+	line "bored silly!"
 
-	para "Huh… Wrong number?"				;엣 번호가 다르다고?
-	line "Oops! Sorry!"						;…앗 잘못 걸었다… 미안!
+	para "Huh… Wrong number?"
+	line "Oops! Sorry!"
 	done
-;(요 TANIA란 놈이 눈을 씻고 찾아봐도 없어서 그냥 tanya의 한국식 이름인 '설지'로 바꿨습니다. 같은 trainer class기도 하고… -6B6390AA)
+
 UnknownText_0x17620a:
-	text "OK, I'll call you"				;그럼 다시 전화할게!
+	text "OK, I'll call you"
 	line "later!"
 	done
 
 UnknownText_0x176223:
-	text "Listen, listen!"					;저기 들어봐!
+	text "Listen, listen!"
 
-	para "I was listening to"				;전에 알프의 유적에서
-	line "the radio in the"					;라디오를 듣고 있었는데…
+	para "I was listening to"
+	line "the radio in the"
 
-	para "RUINS OF ALPH when"				;이상한 방송이
-	line "an odd broadcast"					;갑자기 나온 거 있지!
+	para "RUINS OF ALPH when"
+	line "an odd broadcast"
 
 	para "suddenly cut it on"
 	line "the regular show."
 
-	para "I wonder what it"					;그건 뭐였을까?
-	line "was. So strange!"					;이상해라…
+	para "I wonder what it"
+	line "was. So strange!"
 	done
 
 UnknownText_0x1762c3:
-	text "Listen, listen!"					;들어봐 들어봐!
+	text "Listen, listen!"
 
-	para "Don't you think"					;도라지시티에 있는
-	line "FALKNER of VIOLET"				;비상 관장님
+	para "Don't you think"
+	line "FALKNER of VIOLET"
 
-	para "GYM is cool and"					;멋지다고 생각하지 않아?
+	para "GYM is cool and"
 	line "handsome?"
 
-	para "But they say his"					;근데 수행하러
-	line "dad, who's out"					;집을 나온 아버지는
+	para "But they say his"
+	line "dad, who's out"
 
-	para "training on the"					;비상 관장님보다 더
-	line "road, is even more"				;멋지고 잘생겼다던데
+	para "training on the"
+	line "road, is even more"
 
 	para "cool and handsome"
 	line "than FALKNER."
 
-	para "I wish I could"					;한 번 만나보고 싶다-!
+	para "I wish I could"
 	line "meet him!"
 	done
 
 UnknownText_0x17638a:
-	text "Listen, listen!"					;있지 있지…
+	text "Listen, listen!"
 
-	para "Do you know EARL,"				;도라지시티 트레이너스쿨의
-	line "the teacher who"					;다배워 선생님 알지?
+	para "Do you know EARL,"
+	line "the teacher who"
 
 	para "runs the #MON"
 	line "ACADEMY in VIOLET?"
 
-	para "I saw him doing"					;그 분이 빙글빙글 돌면서
-	line "pirouettes while"					;마을을 뛰어다녔는데
+	para "I saw him doing"
+	line "pirouettes while"
 
-	para "he was running. It"				;정말 굉장했다구
+	para "he was running. It"
 	line "was wildly funny!"
 	done
 
 UnknownText_0x176424:
-	text "Listen, listen!"					;이거 좀 들어봐!
+	text "Listen, listen!"
 
-	para "I collect #MON"					;나 포켓몬 인형을
-	line "plush dolls."						;모으고 있는데…
+	para "I collect #MON"
+	line "plush dolls."
 
-	para "But I can't seem"					;아무리 노력해도
-	line "to get a hold of a"				;파도타기 피카츄 인형이
+	para "But I can't seem"
+	line "to get a hold of a"
 
-	para "SURF PIKACHU DOLL."				;나오지를 않아
+	para "SURF PIKACHU DOLL."
 	line "None of my friends"
 
-	para "have it. It must"					;주변에도 가지고 있는
-	line "be totally rare!"					;사람이 한 명도 없어
+	para "have it. It must"
+	line "be totally rare!"
 
-	para "You could really"					;분명 엄청 귀한 거겠지!
-	line "brag about it if"					;아… 손에 넣기만 하면
-	cont "you had one."						;자랑하고 다닐 텐데…
+	para "You could really"
+	line "brag about it if"
+	cont "you had one."
 	done
 
 UnknownText_0x1764eb:
-	text "Listen, listen!"					;들어봐 들어봐!
+	text "Listen, listen!"
 
-	para "Do you know about"				;튼튼목장에서 파는
-	line "MOOMOO MILK?"						;튼튼밀크라고 알아?
+	para "Do you know about"
+	line "MOOMOO MILK?"
 
 	para "You can buy it at"
 	line "MOOMOO FARM."
 
-	para "It's supposed to"					;그 튼튼밀크가
-	line "be good for health"				;몸에 좋고 맛도 좋지만
+	para "It's supposed to"
+	line "be good for health"
 
-	para "and beauty."						;피부에도 좋다던데
+	para "and beauty."
 	line "I really want to"
 
-	para "try some. I bet"					;나도 한번 먹어봤으면-
-	line "it's delicious!"					;분명 엄청 맛있을거야!
+	para "try some. I bet"
+	line "it's delicious!"
 	done
 
 UnknownText_0x176599:
-	text "Listen, listen!"					;이거 좀 들어봐
+	text "Listen, listen!"
 
-	para "There's a #MON"					;금빛시티에 미용사
-	line "SALON in GOLDENROD"				;형제가 있는데…
+	para "There's a #MON"
+	line "SALON in GOLDENROD"
 
 	para "that's run by two"
 	line "brothers."
 
-	para "The older brother"				;오빠는 일을 잘 하지만
+	para "The older brother"
 	line "is good, but the"
 
-	para "younger one really"				;남동생은 조금
-	line "isn't."							;솜씨가 서툴러
+	para "younger one really"
+	line "isn't."
 
-	para "But sometimes the"				;근데 또 동생 쪽이
-	line "younger one does a"				;오빠보다 일을 더
+	para "But sometimes the"
+	line "younger one does a"
 
-	para "better job than"					;잘 할 때도 있어서
+	para "better job than"
 	line "his brother."
 
-	para "Every time I go, I"				;누구한테 손질을 받을지
-	line "have a hard time"					;갈 때마다 계속
+	para "Every time I go, I"
+	line "have a hard time"
 
-	para "trying to decide"					;고민하게 된다구
+	para "trying to decide"
 	line "whom I should use…"
 	done
 
 UnknownText_0x1766ac:
-	text "Listen, listen!"					;그거 알고 있어?
+	text "Listen, listen!"
 
-	para "GOLDENROD GYM's"					;금빛시티의 꼭두
-	line "WHITNEY began"					;포켓몬 승부 시작한지
+	para "GOLDENROD GYM's"
+	line "WHITNEY began"
 
-	para "battling only a"					;얼마 안 됐다나 봐!
+	para "battling only a"
 	line "little while ago!"
 
-	para "But the #MON"						;그런데 포켓몬 리그에서
-	line "LEAGUE chose her"					;관장으로 선택됐다니
+	para "But the #MON"
+	line "LEAGUE chose her"
 	cont "as a GYM LEADER!"
 
-	para "I bet she must be"				;엄청난 재능이
-	line "totally talented."				;있는 사람 아닐까?
+	para "I bet she must be"
+	line "totally talented."
 	done
 
 UnknownText_0x17674f:
-	text "Listen, listen!"					;들어봐 들어봐!
+	text "Listen, listen!"
 
-	para "Have you ever"					;자연공원에서 열리는
-	line "taken part in a"					;곤충채집대회
+	para "Have you ever"
+	line "taken part in a"
 
-	para "Bug-Catching"						;참가해본 적 있어?
+	para "Bug-Catching"
 	line "Contest at the"
 	cont "NATIONAL PARK?"
 
-	para "I did once, but"					;나도 한 번 참가했는데
-	line "all I could catch"				;그 때 캐터피 하나 밖에
-	cont "was a CATERPIE."					;잡지를 못했어
+	para "I did once, but"
+	line "all I could catch"
+	cont "was a CATERPIE."
 
 	para "But guess what!"
 
-	para "I won with that"					;그래도 그 캐터피로
-	line "CATERPIE. Isn't"					;우승해버렸다구!
-	cont "that great?"						;대단한 경험이었어
+	para "I won with that"
+	line "CATERPIE. Isn't"
+	cont "that great?"
 	done
 
 UnknownText_0x176816:
-	text "Listen, listen!"					;있지 들어봐 들어봐!
+	text "Listen, listen!"
 
-	para "I saw a beautiful"				;이 전에 엄청난 @
+	para "I saw a beautiful"
 	line "@"
 	text_ram wStringBuffer4
-	text "!"								;두 눈으로 봤다구!
+	text "!"
 
-	para "I wish I could"					;나도 나중에
-	line "become a beautiful"				;저런 @
+	para "I wish I could"
+	line "become a beautiful"
 	cont "@"
 	text_ram wStringBuffer4
-	text " too."							;처럼 되고 싶네
+	text " too."
 	done
 
 UnknownText_0x17686d:
-	text "Listen, listen!"					;이거 좀 들어……?
+	text "Listen, listen!"
 
-	para "Uh… Um… Whoops!"					;에… 그러니까……
+	para "Uh… Um… Whoops!"
 
-	para "I forgot what I"					;아하하하…
-	line "was going to say!"				;말하려던 걸 까먹었다…
+	para "I forgot what I"
+	line "was going to say!"
 	done
 
 UnknownText_0x1768b0:
-	text "Listen, listen!"					;저기 있잖아
+	text "Listen, listen!"
 
-	para "My @"								;내 @
+	para "My @"
 	text_ram wStringBuffer4
-	text "…"								;말이지…
-	line "it… so pretty…"					;너무 귀여워서…
+	text "…"
+	line "it… so pretty…"
 
-	para "and… giggle… so"					;게다가 후후…
-	line "awesome… yes… but…"				;멋지기도 하고…
+	para "and… giggle… so"
+	line "awesome… yes… but…"
 
-	para "very much… eeek!"					;그래도 엄청… 꺄!
-	line "And… lovely…"						;……
+	para "very much… eeek!"
+	line "And… lovely…"
 
-	para "Just ravishing…"					;껴안고…
-	line "Oh, too much!"					;잘 때도……
+	para "Just ravishing…"
+	line "Oh, too much!"
 
-	para "…Hug it… sleeping…"				;…하고……
+	para "…Hug it… sleeping…"
 	line "That's right…"
 
-	para "pretty… sigh… So"					;예쁘고……
-	line "nice… Cute…"						;……
+	para "pretty… sigh… So"
+	line "nice… Cute…"
 
-	para "…Oops! Look at the"				;……어라?
-	line "time! I chatted"					;벌써 시간이 이렇게!
-	cont "too long!"						;수다를 너무 많이 떨었네
+	para "…Oops! Look at the"
+	line "time! I chatted"
+	cont "too long!"
 
-	para "I'm sorry I took"					;이야기 길어져서 미안해!
+	para "I'm sorry I took"
 	line "so much of your"
 
-	para "time!"							;다음에도 전화해줘!
+	para "time!"
 	line "I love chatting!"
 	done
 
 UnknownText_0x1769da:
-	text "I've got too much"				;저기이… 시간이 너무
-	line "time on my hands!"				;남아돌아서 심심한데
+	text "I've got too much"
+	line "time on my hands!"
 
-	para "Let's battle right"				;포켓몬 승부
-	line "away!"							;해보자고!
+	para "Let's battle right"
+	line "away!"
 
 	para "I'll be waiting on"
-	line "@"								;@
+	line "@"
 	text_ram wStringBuffer5
-	text "!"								;에서 기다릴 테니까!
+	text "!"
 	done
