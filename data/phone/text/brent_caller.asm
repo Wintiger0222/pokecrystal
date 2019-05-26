@@ -13,17 +13,16 @@ BrentRareTradeText:
 	done
 
 UnknownText_0x6613c:
-	text "Oh yeah, I took"					;요전에 야생의
+	text "Oh yeah, I took"					;요전에 야생의 @
 	line "down this wild"
 
-	para "@"								;@
+	para "@"
 	text_ram wStringBuffer4
 	text "."								;하고 맞닥뜨렸어
-	
-	
-	para "It wasn't rare"					;굳이 잡을 정도로 귀한
-	line "enough to bother"					;포켓몬은 아니었지만
-	line "catching."						;아 맞다 그리고…
+	line "It wasn't rare"
+
+	para "enough to bother"					;굳이 잡을 정도로
+	line "catching."						;귀한 포켓몬은 아니지만
 	done
 
 UnknownText_0x6618c:
@@ -54,11 +53,10 @@ UnknownText_0x66214:
 	para "#MON. It'll be"				;가치 있는 승부가
 	line "worth your time!"					;될 테니까
 
-	para "I'm always at"
+	para "You know where--"
 	line "@"								;@
 	text_ram wStringBuffer5
-	text "."								;에 있으니까
-	text "So feel free to visit!"			;내키면 들러줘!
+	text "."								;에 오면 말 걸어줘!
 	done
 
 UnknownText_0x662a9:
