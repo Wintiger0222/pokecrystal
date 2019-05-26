@@ -44,8 +44,8 @@ UnknownText_0x1b6bef:
 	text_ram wStringBuffer3
 	text "입니다…"	
 
-	para "What a perfect day"		
-	line "for fishing!"					
+	para "낚시하기에는"		
+	line "딱 좋은 날인데!"					
 	done
 
 UnknownText_0x1b6c23:
