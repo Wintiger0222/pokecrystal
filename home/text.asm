@@ -39,7 +39,7 @@ ClearScreen::
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	call ByteFill
 	jr ClearTileMap
-
+TextBox::
 Textbox::
 ; Draw a text box at hl with room for b lines of c characters each.
 ; Places a border around the textbox, then switches the palette to the

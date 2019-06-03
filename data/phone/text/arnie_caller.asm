@@ -1,4 +1,4 @@
-﻿ArnieLovesTheCuteText:
+ArnieLovesTheCuteText:
 	text "I'm always with my"				;난 언제까지나 @
 	line "@"
 	text_ram wStringBuffer4

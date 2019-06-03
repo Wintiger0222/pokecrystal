@@ -1,4 +1,4 @@
-﻿DerekCheekPincherText:
+DerekCheekPincherText:
 	text "Listen to this."					;들어봐 들어봐
 	line "My @"								;내 @
 	text_ram wStringBuffer4

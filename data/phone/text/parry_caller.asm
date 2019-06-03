@@ -1,4 +1,4 @@
-﻿ParryNoMatchText:
+ParryNoMatchText:
 	text "Nothing can match"				;내 @
 	line "my @"
 	text_ram wStringBuffer4

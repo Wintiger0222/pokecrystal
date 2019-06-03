@@ -1,4 +1,4 @@
-﻿UnknownText_0x6717a:
+UnknownText_0x6717a:
 	text_ram wStringBuffer3
 	text "'s @"								;의 @
 	text_ram wStringBuffer4

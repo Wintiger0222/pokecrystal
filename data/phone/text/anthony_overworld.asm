@@ -1,52 +1,44 @@
 AnthonyAskNumber1Text:
-	text "By the way, I'm a"				;³ª´Â µî»ê°¡´Ï±î
-	line "HIKER, so I often"
+	text "ë‚˜ëŠ” ë“±ì‚°ê°€ë‹ˆê¹Œ"				
+	line "ì‚°ì´ë‚˜ ë™êµ´ì— ë§ì´ ê°€ëŠ”ë°"
 
-	para "go to mountains"					;»êÀÌ³ª µ¿±¼¿¡ ¸¹ÀÌ °¡´Âµ¥
-	line "and caves."
+	para "ê°€ë”ì”©ì€ í¬ê·€í•œ"			
+	line "í¬ì¼“ëª¬ì„ ë³¼ ë•Œë„ ìˆì§€"				
 
-	para "I occasionally see"				;°¡²û¾¿Àº Èñ±ÍÇÑ
-	line "rare #MON."						;Æ÷ÄÏ¸óÀ» º¼ ¶§µµ ÀÖÁö
-
-	para "I could call you"					;´ÙÀ½¿¡ Èñ±ÍÇÑ Æ÷ÄÏ¸óÀ»
-	line "the next time I"					;¹ß°ßÇÏ°Ô µÈ´Ù¸é
-	cont "see one."							;¾Ë·ÁÁÖ°í ½ÍÀºµ¥ ¸»ÀÌ¾ß
-
-	para "Feel like swapping"				;ÀüÈ­¹øÈ£ ±³È¯ÇÒ·¡?
-	line "phone numbers?"
+	para "ë‹¤ìŒì— í¬ê·€í•œ í¬ì¼“ëª¬ì„"				
+	line "ë°œê²¬í•˜ê²Œ ëœë‹¤ë©´"				
+	cont "ì•Œë ¤ì£¼ê³  ì‹¶ì€ë° ë§ì´ì•¼"	
+	
+	para "ì „í™”ë²ˆí˜¸ êµí™˜í• ë˜?"
 	done
 
 AnthonyAskNumber2Text:
-	text "I could call you"					;´ÙÀ½¿¡ Èñ±ÍÇÑ Æ÷ÄÏ¸óÀ»
-	line "the next time I"					;¹ß°ßÇÏ°Ô µÈ´Ù¸é
-	cont "see one."							;¾Ë·ÁÁÖ°í ½ÍÀºµ¥ ¸»ÀÌ¾ß
+	text "ë‹¤ìŒì— í¬ê·€í•œ í¬ì¼“ëª¬ì„"					
+	line "ë°œê²¬í•˜ê²Œ ëœë‹¤ë©´"				
+	cont "ì•Œë ¤ì£¼ê³  ì‹¶ì€ë° ë§ì´ì•¼"				
 
-	para "Feel like swapping"				;ÀüÈ­¹øÈ£ ±³È¯ÇÒ·¡?
-	line "phone numbers?"
+	para "ì „í™”ë²ˆí˜¸ êµí™˜í• ë˜?"
 	done
 
 AnthonyNumberAcceptedText:
-	text "Be patient. I'll"					;¸çÄ¥ ±â´Ù¸®¸é
-	line "find some rare"					;³¡³»ÁÖ´Â Æ÷ÄÏ¸óÀ»
-	cont "#MON for you!"					;º¸°Ô µÉ °Å´Ù!
+	text "ë©°ì¹  ê¸°ë‹¤ë¦¬ë©´"				
+	line "ëë‚´ì£¼ëŠ” í¬ì¼“ëª¬ì„"				
+	cont "ë³´ê²Œ ë  ê±°ë‹¤!"					
 	done
 
 AnthonyNumberDeclinedText:
-	text "You're cold. I may"				;½Ò½ÒÇÑ »ç¶÷ÀÌ³×¡¦
-	line "as well head to"
-	cont "the mountains¡¦"					;´Ù½Ã »êÀ¸·Î³ª °¥±î¡¦
+	text "ìŒ€ìŒ€í•œ ì‚¬ëŒì´ë„¤â€¦"				
+	line "ë‹¤ì‹œ ì‚°ìœ¼ë¡œë‚˜ ê°ˆê¹Œâ€¦"				
 	done
 
 AnthonyPhoneFullText:
-	text "Your phone's full."				;¹øÈ£°¡ ²Ë Â÷¼­
-
-	para "It can't register"				;¹øÈ£¸¦ µî·ÏÇÒ ¼ö°¡ ¾ø³×
-	line "my phone number."
+	text "ë²ˆí˜¸ê°€ ê½‰ ì°¨ì„œ"				
+	line "ë²ˆí˜¸ë¥¼ ë“±ë¡í•  ìˆ˜ê°€ ì—†ë„¤"
 	done
 
 AnthonyRematchText:
-	text "All righty, then!"				;ÁÁ¾Ò¾î
+	text "ì¢‹ì•˜ì–´!"		
 
-	para "My #MON and I"					;³» Æ÷ÄÏ¸óÀÇ
-	line "are raring to go!"				;ÁÖ¸ÔÀÌ ¿î´Ù!
+	para "ë‚´ í¬ì¼“ëª¬ì˜"					
+	line "ì£¼ë¨¹ì´ ìš´ë‹¤!"			
 	done

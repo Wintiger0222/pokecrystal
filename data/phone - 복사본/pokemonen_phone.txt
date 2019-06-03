@@ -1,0 +1,929 @@
+
+No.00026 [D:0x00104A8B] [L:14]
+Good morning.<DONE>
+>
+
+No.00027 [D:0x00104A9A] [L:32]
+Hello?<PARA>
+
+Oh, hi, <PLAYER>!<LINE>
+Working hard?<DONE>
+>
+
+
+No.00028 [D:0x00104ABB] [L:17]
+Oh, so you'e in<LINE>
+<DONE>
+>
+
+No.00029 [D:0x00104AD0] [L:19]
+?<PARA>
+
+Isn' that where<LINE>
+<DONE>
+>
+
+No.00030 [D:0x00104AE7] [L:29]
+<PARA>
+
+is? Did you go<LINE>
+take a look?<DONE>
+>
+
+No.00031 [D:0x00104B05] [L:18]
+Really, you'e in<LINE>
+<DONE>
+>
+
+No.00032 [D:0x00104B1B] [L:47]
+?<PARA>
+
+I'e never gone<LINE>
+there. That' kind<CONT>
+of neat, <PLAYER>.<DONE>
+>
+
+No.00033 [D:0x00104B4B] [L:16]
+What? You'e in<LINE>
+<DONE>
+>
+
+No.00034 [D:0x00104B5F] [L:30]
+?<PARA>
+
+Come see your MOM<LINE>
+sometime!<DONE>
+>
+
+No.00035 [D:0x00104B7E] [L:16]
+You'e visiting<LINE>
+<DONE>
+>
+
+No.00036 [D:0x00104B92] [L:35]
+?<PARA>
+
+How about coming<LINE>
+home for a bit?<DONE>
+>
+
+No.00037 [D:0x00104BB6] [L:15]
+Wow, you'e in<LINE>
+<DONE>
+>
+
+No.00038 [D:0x00104BC9] [L:32]
+?<PARA>
+
+Good luck on your<LINE>
+<POKE>MON quest!<DONE>
+>
+
+No.00039 [D:0x00104BEA] [L:86]
+That sounds really<LINE>
+tough.<PARA>
+
+But, <PLAYER>, I<LINE>
+know you'e really<PARA>
+
+determined. You'l<LINE>
+be OK, right?<DONE>
+>
+
+No.00040 [D:0x00104C41] [L:29]
+By the way, you'e<LINE>
+saved up ¥<DONE>
+>
+
+No.00041 [D:0x00104C62] [L:33]
+.<PARA>
+
+Do you want to<LINE>
+keep on saving?<DONE>
+>
+
+No.00042 [D:0x00104C84] [L:34]
+It' important to<LINE>
+save your money.<DONE>
+>
+
+No.00043 [D:0x00104CA7] [L:59]
+Oh, <PLAYER>,<LINE>
+you'e not saving<PARA>
+
+any money. Would<LINE>
+you like to save?<DONE>
+>
+
+No.00044 [D:0x00104CE3] [L:29]
+By the way, you'e<LINE>
+saved up ¥<DONE>
+>
+
+No.00045 [D:0x00104D04] [L:30]
+.<PARA>
+
+Want to start<LINE>
+saving again?<DONE>
+>
+
+No.00046 [D:0x00104D23] [L:25]
+OK. I'l save your<LINE>
+money.<DONE>
+>
+
+No.00047 [D:0x00104D3D] [L:32]
+OK. I'l stop<LINE>
+saving your money.<DONE>
+>
+
+No.00048 [D:0x00104D5E] [L:41]
+<PLAYER>, keep it<LINE>
+up! I' rooting<CONT>
+for you, baby!<DONE>
+>
+
+No.00049 [D:0x00104D88] [L:50]
+Hello?<PARA>
+
+Oh, hi, <PLAYER>!<LINE>
+Wasn' PROF.ELM<CONT>
+waiting for you?<DONE>
+>
+
+No.00050 [D:0x00104DBB] [L:65]
+Hello?<PARA>
+
+Oh, hi, <PLAYER>!<LINE>
+You'e on a big<PARA>
+
+mission for PROF.<LINE>
+ELM? Be good!<DONE>
+>
+
+No.00051 [D:0x00104DFD] [L:65]
+Hello?<PARA>
+
+Hi, <PLAYER>! If<LINE>
+you'e done with<PARA>
+
+your errand come<LINE>
+on home, dear.<DONE>
+>
+
+No.00052 [D:0x00104E3F] [L:133]
+Hello?<PARA>
+
+?? <PLAYER>?<LINE>
+I heard from PROF.<PARA>
+
+ELM that you went<LINE>
+on a long trip.<PARA>
+
+I wish you would<LINE>
+have told me?<PARA>
+
+What about money?<LINE>
+Should I save it?<DONE>
+>
+
+No.00053 [D:0x00104EC5] [L:72]
+Good morning!<PARA>
+
+This is the <POKE>-<LINE>
+MON STORAGE SYSTEM<PARA>
+
+ADMINISTRATION<LINE>
+SERVICE.<DONE>
+>
+
+No.00054 [D:0x00104F0E] [L:68]
+Good day!<PARA>
+
+This is the <POKE>-<LINE>
+MON STORAGE SYSTEM<PARA>
+
+ADMINISTRATION<LINE>
+SERVICE.<DONE>
+>
+
+No.00055 [D:0x00104F53] [L:72]
+Good evening!<PARA>
+
+This is the <POKE>-<LINE>
+MON STORAGE SYSTEM<PARA>
+
+ADMINISTRATION<LINE>
+SERVICE.<DONE>
+>
+
+No.00056 [D:0x00104F9C] [L:43]
+Who' calling?<PARA>
+
+<PLAYER>, is it?<LINE>
+Hang on a sec?<PARA>
+
+<......><LINE>
+<......><DONE>
+>
+
+No.00057 [D:0x00104FC8] [L:46]
+Thanks for<LINE>
+waiting!<PARA>
+
+<PLAYER>, your BOX<LINE>
+has room for <DONE>
+>
+
+No.00058 [D:0x00104FFA] [L:42]
+<CONT>
+more <POKE>MON.<PARA>
+
+Get out there and<LINE>
+fill it up!<DONE>
+>
+
+No.00059 [D:0x00105025] [L:51]
+Thanks for<LINE>
+waiting!<PARA>
+
+<PLAYER>, your BOX<LINE>
+has room for only<CONT>
+<DONE>
+>
+
+No.00060 [D:0x0010505C] [L:46]
+ more <POKE>MON.<PARA>
+
+Maybe you should<LINE>
+switch your BOX.<DONE>
+>
+
+No.00061 [D:0x0010508B] [L:100]
+Thanks for<LINE>
+waiting!<PARA>
+
+<PLAYER>, your BOX<LINE>
+is full!<PARA>
+
+You'l have to<LINE>
+switch BOXES if<PARA>
+
+you want to catch<LINE>
+more <POKE>MON.<DONE>
+>
+
+No.00062 [D:0x001050F0] [L:169]
+Hi, <PLAYER>?<LINE>
+It' me, BILL!<PARA>
+
+Thanks for using<LINE>
+my STORAGE SYSTEM.<PARA>
+
+That last <POKE>MON<LINE>
+you sent filled<CONT>
+your BOX up.<PARA>
+
+You'l have to<LINE>
+switch BOXES if<PARA>
+
+you want to catch<LINE>
+more <POKE>MON.<PARA>
+
+Bye now!<DONE>
+>
+
+No.00063 [D:0x0010519A] [L:76]
+Hello, <PLAYER>?<PARA>
+
+Try not to overdo<LINE>
+it.<PARA>
+
+Be sure to heal<LINE>
+your <POKE>MON if<CONT>
+they are hurt.<DONE>
+>
+
+No.00064 [D:0x001051E7] [L:58]
+Hello, <PLAYER>?<PARA>
+
+Did you meet MR.<LINE>
+<POKE>MON? Great!<CONT>
+Come back safely!<DONE>
+>
+
+No.00065 [D:0x00105222] [L:80]
+<PLAYER>? I' very<LINE>
+upset now.<PARA>
+
+We had a <POKE>MON<LINE>
+stolen from here.<PARA>
+
+How could anyone<LINE>
+do that?<DONE>
+>
+
+No.00066 [D:0x00105273] [L:70]
+Hello, <PLAYER>?<PARA>
+
+We'e checking the<LINE>
+EGG now. It does<PARA>
+
+appear to be a<LINE>
+<POKE>MON EGG.<DONE>
+>
+
+No.00067 [D:0x001052BA] [L:75]
+Hello, <PLAYER>?<PARA>
+
+Did you see my<LINE>
+assistant? He' at<PARA>
+
+the <POKE>MON CENTER<LINE>
+in VIOLET CITY.<DONE>
+>
+
+No.00068 [D:0x00105306] [L:82]
+Hello, <PLAYER>?<PARA>
+
+How' the EGG? Has<LINE>
+anything changed?<PARA>
+
+If anything hap-<LINE>
+pens, please call.<DONE>
+>
+
+No.00069 [D:0x00105359] [L:99]
+Hello, <PLAYER>?<LINE>
+How is the EGG?<PARA>
+
+What? It hatched?<LINE>
+Wow! What kind of<CONT>
+<POKE>MON is it?<PARA>
+
+Please come show<LINE>
+me now!<DONE>
+>
+
+No.00070 [D:0x001053BD] [L:98]
+Hello, <PLAYER>?<PARA>
+
+I just made a new<LINE>
+discovery.<PARA>
+
+The time it takes<LINE>
+for an EGG to<PARA>
+
+hatch depends on<LINE>
+the <POKE>MON.<DONE>
+>
+
+No.00071 [D:0x00105420] [L:100]
+Hello, <PLAYER>?<PARA>
+
+It' still a<LINE>
+mystery what kinds<PARA>
+
+of moves hatched<LINE>
+<POKE>MON have.<PARA>
+
+We'e investigat-<LINE>
+ing that now.<DONE>
+>
+
+No.00072 [D:0x00105485] [L:303]
+Hello, <PLAYER>?<PARA>
+
+I discovered an<LINE>
+odd thing.<PARA>
+
+Apparently there'<LINE>
+something called<PARA>
+
+<POKE>RUS that in-<LINE>
+fects <POKE>MON.<PARA>
+
+Yes, it' like a<LINE>
+virus, so it'<CONT>
+called <POKE>RUS.<PARA>
+
+It multiplies fast<LINE>
+and infects other<PARA>
+
+<POKE>MON too. But<LINE>
+that' all.<PARA>
+
+It doesn' seem to<LINE>
+do anything, and<PARA>
+
+it goes away over<LINE>
+time.<PARA>
+
+I guess it'<LINE>
+nothing to worry<CONT>
+about. Bye!<DONE>
+>
+
+No.00073 [D:0x001055B5] [L:111]
+H-hello? <PLAYER>?<LINE>
+It' a disaster!<PARA>
+
+Uh, um, it' just<LINE>
+terrible!<PARA>
+
+What should I do?<LINE>
+It? Oh, no?<PARA>
+
+Please get back<LINE>
+here now!<DONE>
+>
+
+No.00074 [D:0x00105625] [L:126]
+Hello, <PLAYER>? We<LINE>
+discovered some-<PARA>
+
+thing about the<LINE>
+EGG!<PARA>
+
+My assistant is at<LINE>
+the <POKE>MON CENTER<PARA>
+
+in VIOLET CITY. <LINE>
+Could you talk to<CONT>
+him?<DONE>
+>
+
+No.00075 [D:0x001056A4] [L:258]
+<PLAYER>, how are<LINE>
+things going?<PARA>
+
+I called because<LINE>
+something weird is<PARA>
+
+happening with the<LINE>
+radio broadcasts.<PARA>
+
+They were talking<LINE>
+about TEAM ROCKET.<PARA>
+
+<PLAYER>, do you<LINE>
+know anything<CONT>
+about it?<PARA>
+
+Maybe TEAM ROCKET<LINE>
+has returned. No,<PARA>
+
+that just can'<LINE>
+be true.<PARA>
+
+Sorry to bug you.<LINE>
+Take care!<DONE>
+>
+
+No.00076 [D:0x001057A7] [L:83]
+Hello, <PLAYER>?<PARA>
+
+I have something<LINE>
+here for you.<PARA>
+
+Could you swing by<LINE>
+my LAB?<PARA>
+
+See you later!<DONE>
+>
+
+No.00077 [D:0x001057FB] [L:103]
+Hello, <PLAYER>?<LINE>
+How' it going?<PARA>
+
+I got ahold of<LINE>
+something neat.<PARA>
+
+Swing by my LAB<LINE>
+and pick it up!<PARA>
+
+See you later!<DONE>
+>
+
+No.00078 [D:0x00105863] [L:16]
+Hello. This is<LINE>
+<DONE>
+>
+
+No.00079 [D:0x00105877] [L:19]
+?<PARA>
+
+Good morning,<LINE>
+<PLAYER>!<DONE>
+>
+
+No.00080 [D:0x0010588B] [L:16]
+Hello. This is<LINE>
+<DONE>
+>
+
+No.00081 [D:0x0010589F] [L:20]
+?<PARA>
+
+How' it going,<LINE>
+<PLAYER>?<DONE>
+>
+
+No.00082 [D:0x001058B4] [L:16]
+Hello. This is<LINE>
+<DONE>
+>
+
+No.00083 [D:0x001058C8] [L:19]
+?<PARA>
+
+Good evening,<LINE>
+<PLAYER>!<DONE>
+>
+
+No.00084 [D:0x001058DC] [L:13]
+Hi. This is<LINE>
+<DONE>
+>
+
+No.00085 [D:0x001058ED] [L:23]
+.<PARA>
+
+Hi, <PLAYER>!<LINE>
+Good morning.<DONE>
+>
+
+No.00086 [D:0x00105905] [L:13]
+Hi. This is<LINE>
+<DONE>
+>
+
+No.00087 [D:0x00105916] [L:22]
+.<PARA>
+
+Hi, <PLAYER>!<LINE>
+How are you?<DONE>
+>
+
+No.00088 [D:0x0010592D] [L:13]
+Hi. This is<LINE>
+<DONE>
+>
+
+No.00089 [D:0x0010593E] [L:23]
+.<PARA>
+
+Hi, <PLAYER>!<LINE>
+Good evening.<DONE>
+>
+
+No.00090 [D:0x00105956] [L:26]
+<PLAYER>, good<LINE>
+morning!<PARA>
+
+It' me, <DONE>
+>
+
+No.00091 [D:0x00105974] [L:21]
+.<LINE>
+How are you doing?<DONE>
+>
+
+No.00092 [D:0x0010598A] [L:19]
+<PLAYER>, howdy!<PARA>
+
+It' me, <DONE>
+>
+
+No.00093 [D:0x001059A1] [L:20]
+.<LINE>
+Isn' it nice out?<DONE>
+>
+
+No.00094 [D:0x001059B6] [L:26]
+<PLAYER>, good<LINE>
+evening!<PARA>
+
+It' me, <DONE>
+>
+
+No.00095 [D:0x001059D4] [L:16]
+.<LINE>
+Got a minute?<DONE>
+>
+
+No.00096 [D:0x001059E5] [L:26]
+Good morning,<LINE>
+<PLAYER>.<PARA>
+
+This is <DONE>
+>
+
+No.00097 [D:0x00105A03] [L:18]
+.<LINE>
+Did I wake you?<DONE>
+>
+
+No.00098 [D:0x00105A16] [L:19]
+Hello, <PLAYER>.<PARA>
+
+This is <DONE>
+>
+
+No.00099 [D:0x00105A2D] [L:18]
+.<LINE>
+How are things?<DONE>
+>
+
+No.00100 [D:0x00105A40] [L:26]
+Good evening,<LINE>
+<PLAYER>.<PARA>
+
+This is <DONE>
+>
+
+No.00101 [D:0x00105A5E] [L:18]
+.<LINE>
+Were you awake?<DONE>
+>
+
+No.00102 [D:0x00105A71] [L:29]
+How are your<LINE>
+<POKE>MON doing?<PARA>
+
+My <DONE>
+>
+
+No.00103 [D:0x00105A92] [L:35]
+'<LINE>
+really energetic.<CONT>
+It' a handful!<DONE>
+>
+
+No.00104 [D:0x00105AB6] [L:43]
+How are your<LINE>
+<POKE>MON doing?<PARA>
+
+I always keep my<LINE>
+<DONE>
+>
+
+No.00105 [D:0x00105AE5] [L:40]
+ in top<PARA>
+
+shape by going to<LINE>
+<POKE>MON CENTERS.<DONE>
+>
+
+No.00106 [D:0x00105B0E] [L:4]
+My <DONE>
+>
+
+No.00107 [D:0x00105B16] [L:44]
+'<LINE>
+looking awesome.<PARA>
+
+I wish I could<LINE>
+show you.<DONE>
+>
+
+No.00108 [D:0x00105B43] [L:17]
+I dressed up my<LINE>
+<DONE>
+>
+
+No.00109 [D:0x00105B58] [L:35]
+.<PARA>
+
+It looks even<LINE>
+cuter than before.<DONE>
+>
+
+No.00110 [D:0x00105B7C] [L:39]
+Oh, yeah, I man-<LINE>
+aged to beat a<CONT>
+tough <DONE>
+>
+
+No.00111 [D:0x00105BA7] [L:36]
+.<PARA>
+
+I need to make my<LINE>
+party stronger.<DONE>
+>
+
+No.00112 [D:0x00105BCC] [L:34]
+You have to hear<LINE>
+this! I battled<PARA>
+
+<DONE>
+>
+
+No.00113 [D:0x00105BF2] [L:53]
+ the<LINE>
+other day.<PARA>
+
+It was easy! I had<LINE>
+a type advantage.<DONE>
+>
+
+No.00114 [D:0x00105C28] [L:30]
+Hey, listen!<LINE>
+I almost caught<PARA>
+
+<DONE>
+>
+
+No.00115 [D:0x00105C4A] [L:44]
+ the<LINE>
+other day.<PARA>
+
+Oh, it was soooo<LINE>
+close too!<DONE>
+>
+
+No.00116 [D:0x00105C77] [L:56]
+Guess what happen-<LINE>
+ed the other day.<PARA>
+
+I missed catching<LINE>
+<DONE>
+>
+
+No.00117 [D:0x00105CB3] [L:40]
+ again.<PARA>
+
+Maybe I' not very<LINE>
+good at this?<DONE>
+>
+
+No.00118 [D:0x00105CDC] [L:85]
+Want to battle?<LINE>
+It' not going to<PARA>
+
+be a repeat of the<LINE>
+last time we met.<PARA>
+
+I'l be around<LINE>
+<DONE>
+>
+
+No.00119 [D:0x00105D38] [L:81]
+Do you want to<LINE>
+battle? I' going<CONT>
+to win this time!<PARA>
+
+I'l be waiting<LINE>
+for you around<PARA>
+
+<DONE>
+>
+
+No.00120 [D:0x00105D8D] [L:19]
+.<LINE>
+Look for me, OK?<DONE>
+>
+
+No.00121 [D:0x00105DA1] [L:16]
+Hello? This is<LINE>
+<DONE>
+>
+
+No.00122 [D:0x00105DB5] [L:45]
+?<PARA>
+
+Uh-oh? You'e not<LINE>
+KAZ! Sorry, wrong<CONT>
+number.<DONE>
+>
+
+No.00123 [D:0x00105DE3] [L:16]
+Hello, this is<LINE>
+<DONE>
+>
+
+No.00124 [D:0x00105DF7] [L:55]
+. How are<CONT>
+you doing, AUDREY?<PARA>
+
+Huh? <PLAYER>?<LINE>
+Oops! My mistake!<DONE>
+>
+
+No.00125 [D:0x00105E2F] [L:15]
+See you later!<DONE>
+>
+
+No.00126 [D:0x00105E3F] [L:9]
+Bye-bye!<DONE>
+>
+
+No.00127 [D:0x00105E49] [L:50]
+You have to see<LINE>
+this! It' wild!<PARA>
+
+A whole bunch of<LINE>
+<DONE>
+>
+
+No.00128 [D:0x00105E7F] [L:23]
+ have<PARA>
+
+shown up around<LINE>
+<DONE>
+>
+
+No.00129 [D:0x00105E9D] [L:17]
+It' amazing!<PARA>
+
+On <DONE>
+>
+
+No.00130 [D:0x00105EB9] [L:65]
+ are<PARA>
+
+biting like there<LINE>
+is no tomorrow.<PARA>
+
+<PLAYER>, bring<LINE>
+your ROD, buddy!<DONE>
+>
+
+No.00131 [D:0x00105EFB] [L:45]
+A friend just told<LINE>
+me this.<PARA>
+
+He saw a lot of<LINE>
+<DONE>
+>
+
+No.00132 [D:0x00105F2C] [L:5]
+ in<CONT>
+<DONE>
+>
+
+No.00133 [D:0x00105F35] [L:27]
+.<PARA>
+
+<PLAYER>, you ought<LINE>
+to go look.<DONE>
+>
+
+No.00134 [D:0x00105F51] [L:83]
+They'e holding<LINE>
+the Bug-Catching<PARA>
+
+Contest today at<LINE>
+the PARK.<PARA>
+
+<PLAYER>, are you<LINE>
+going to go?<DONE>
+>
+
+No.00135 [D:0x00105FA5] [L:111]
+<PLAYER>, did you<LINE>
+know?<PARA>
+
+I hear GOLDENROD'<LINE>
+RADIO TOWER was<PARA>
+
+taken over by TEAM<LINE>
+ROCKET.<PARA>
+
+But what exactly<LINE>
+is TEAM ROCKET?<DONE>
+>
+
+No.00136 [D:0x00106015] [L:120]
+<PLAYER>, did you<LINE>
+hear the news?<PARA>
+
+TEAM ROCKET has<LINE>
+taken over the<PARA>
+
+RADIO TOWER in<LINE>
+GOLDENROD CITY.<PARA>
+
+I wonder if the<LINE>
+workers are OK?<DONE>
+>
+
+No.00137 [D:0x0010608E] [L:191]
+Hi, <PLAYER>!<LINE>
+Our BICYCLE sales<PARA>
+
+have gone through<LINE>
+the roof!<PARA>
+
+We owe it all to<LINE>
+your advertising<PARA>
+
+by riding around<LINE>
+on our BICYCLE.<PARA>
+
+As our way of say-<LINE>
+ing thanks, please<PARA>
+
+keep that BICYCLE.<LINE>
+Thanks again!<DONE>
+>

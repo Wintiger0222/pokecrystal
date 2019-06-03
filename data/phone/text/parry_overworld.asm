@@ -1,73 +1,73 @@
 ParryAskNumber1Text:
-	text "Sheesh, the way"					;±× Àü¹ı!
-	line "you attacked! That"				;»ì¾Æ¼­ º» ÃÖ°íÀÇ °ø°İÀÌ¶ó
+	text "Sheesh, the way"					;ê·¸ ì „ë²•!
+	line "you attacked! That"				;ì‚´ì•„ì„œ ë³¸ ìµœê³ ì˜ ê³µê²©ì´ë¼
 
-	para "was something! We"				;´Ü¾ğÇØµµ ¼Õ»ö ¾øÀ»
-	line "should meet again!"				;ÈÇ¸¢ÇÑ ±â¼úÀÌ¾ú´Ù!
+	para "was something! We"				;ë‹¨ì–¸í•´ë„ ì†ìƒ‰ ì—†ì„
+	line "should meet again!"				;í›Œë¥­í•œ ê¸°ìˆ ì´ì—ˆë‹¤!
 
-	para "How about giving"					;´Ù½Ã ¸¸³¯ ¼ö ÀÖ°Ô
-	line "me your number?"					;¹øÈ£¶óµµ ±³È¯ÇÏÀÚ°í
+	para "How about giving"					;ë‹¤ì‹œ ë§Œë‚  ìˆ˜ ìˆê²Œ
+	line "me your number?"					;ë²ˆí˜¸ë¼ë„ êµí™˜í•˜ìê³ 
 	done
 
 ParryAskNumber2Text:
-	text "So you want to"					;¼ÖÁ÷È÷ ¸»ÇØºÁ
+	text "So you want to"					;ì†”ì§íˆ ë§í•´ë´
 	line "register my phone"
 
-	para "number for a re-"					;³Êµµ ´Ù½Ã ½ÂºÎÇÏ±â À§ÇØ
-	line "match, huh?"						;ÀüÈ­¹øÈ£¸¦ ¾Ë°í ½ÍÀİ¾Æ
+	para "number for a re-"					;ë„ˆë„ ë‹¤ì‹œ ìŠ¹ë¶€í•˜ê¸° ìœ„í•´
+	line "match, huh?"						;ì „í™”ë²ˆí˜¸ë¥¼ ì•Œê³  ì‹¶ì–ì•„
 	done
 
 ParryNumberAcceptedText:
-	text "I'll call you"					;¹èÆ²ÇÏ°í ½Í¾îÁö¸é
-	line "whenever I feel"					;¾ğÁ¦µçÁö ºÎ¸¦ Å×´Ï±î
-	cont "like battling!"					;±× ¶§´Â ¹Ù·Î¹Ù·Î ¿À¶ó°í!
+	text "I'll call you"					;ë°°í‹€í•˜ê³  ì‹¶ì–´ì§€ë©´
+	line "whenever I feel"					;ì–¸ì œë“ ì§€ ë¶€ë¥¼ í…Œë‹ˆê¹Œ
+	cont "like battling!"					;ê·¸ ë•ŒëŠ” ë°”ë¡œë°”ë¡œ ì˜¤ë¼ê³ !
 	done
 
 ParryNumberDeclinedText:
-	text "No? That's fine."					;½ÈÀ¸¸é ¸»°í
+	text "No? That's fine."					;ì‹«ìœ¼ë©´ ë§ê³ 
 
-	para "A definite no is"					;Á¤Á÷ÇÏ°Ô ½È´Ù°í ÇÏ´Â °Íµµ
-	line "easy to take!"					;¿ë±â ÀÖ´Â ¹æ¹ıÀÌÁö
+	para "A definite no is"					;ì •ì§í•˜ê²Œ ì‹«ë‹¤ê³  í•˜ëŠ” ê²ƒë„
+	line "easy to take!"					;ìš©ê¸° ìˆëŠ” ë°©ë²•ì´ì§€
 
-	para "I'll be right here"				;³­ ¿©±â¼­ ±â´Ù¸± Å×´Ï
-	line "when you're ready"				;´Ù½Ã ¹èÆ²ÇÏ°í ½Í¾îÁö¸é
-	cont "for a rematch."					;¾ğÁ¦µçÁö ¿À¶ó°í
+	para "I'll be right here"				;ë‚œ ì—¬ê¸°ì„œ ê¸°ë‹¤ë¦´ í…Œë‹ˆ
+	line "when you're ready"				;ë‹¤ì‹œ ë°°í‹€í•˜ê³  ì‹¶ì–´ì§€ë©´
+	cont "for a rematch."					;ì–¸ì œë“ ì§€ ì˜¤ë¼ê³ 
 	done
 
 ParryPhoneFullText:
-	text "Oh? There's no"					;¾î¶ó?
-	line "room to register"					;¹øÈ£ ÀúÀåÇÒ ÀÚ¸®°¡
-	cont "my phone number."					;ÇÏ³ªµµ ¾ø³ª º¸³×
+	text "Oh? There's no"					;ì–´ë¼?
+	line "room to register"					;ë²ˆí˜¸ ì €ì¥í•  ìë¦¬ê°€
+	cont "my phone number."					;í•˜ë‚˜ë„ ì—†ë‚˜ ë³´ë„¤
 	done
 
 ParryRematchText:
-	text "Hey, here comes"					;¿À´ÃÀÇ ÁÖÀÎ°øÀÌ ¿Ô±¸¸¸
+	text "Hey, here comes"					;ì˜¤ëŠ˜ì˜ ì£¼ì¸ê³µì´ ì™”êµ¬ë§Œ
 	line "the kid! Let's go!"
 
-	para "Ready for my usual"				;ÀÌ¹ø¿¡µµ ´ëÃ¥ ¾ø´Â
-	line "no-brainer, all-"					;¹«ÀÛÁ¤ °ø°İ Àü¹ıÀ»
-	cont "out offense?"						;¹öÅßº¸½ÃÁö!
+	para "Ready for my usual"				;ì´ë²ˆì—ë„ ëŒ€ì±… ì—†ëŠ”
+	line "no-brainer, all-"					;ë¬´ì‘ì • ê³µê²© ì „ë²•ì„
+	cont "out offense?"						;ë²„í…¨ë³´ì‹œì§€!
 	done
 
 ParryPackFullText:
-	text "Your PACK looks"					;°¡¹æÀÌ ²Ë Â÷¼­
-	line "stuffed full!"					;µé¾î°¡Áú ¾Ê³×
+	text "Your PACK looks"					;ê°€ë°©ì´ ê½‰ ì°¨ì„œ
+	line "stuffed full!"					;ë“¤ì–´ê°€ì§ˆ ì•Šë„¤
 
-	para "You can't have"					;Áö±İ ¸»°í ³ªÁß¿¡
-	line "this now."						;¹ŞÀ¸·¯ ¿À·Å
+	para "You can't have"					;ì§€ê¸ˆ ë§ê³  ë‚˜ì¤‘ì—
+	line "this now."						;ë°›ìœ¼ëŸ¬ ì˜¤ë ´
 	done
 
 ParryRematchGiftText:
-	text "Well, you're"						;³Í ¹º°¡ Æ¯º°ÇÑ ¾Ö±¸³ª
+	text "Well, you're"						;ë„Œ ë­”ê°€ íŠ¹ë³„í•œ ì• êµ¬ë‚˜
 	line "special all right."
 
-	para "If only I'd begun"				;ÈÎ¾À Àş¾úÀ» Àû¿¡
-	line "#MON when I was"					;Æ÷ÄÏ¸ó Æ®·¹ÀÌ³Ê°¡
-	cont "a tad younger¡¦"					;µÆ¾ú´õ¶ó¸é¡¦¡¦
+	para "If only I'd begun"				;í›¨ì”¬ ì Šì—ˆì„ ì ì—
+	line "#MON when I was"					;í¬ì¼“ëª¬ íŠ¸ë ˆì´ë„ˆê°€
+	cont "a tad youngerâ€¦"					;ëì—ˆë”ë¼ë©´â€¦â€¦
 
-	para "I want you to work"				;°í¸¿´Ù´Â Ç¥½Ã·Î ÀÌ°É ÁÖÁö
+	para "I want you to work"				;ê³ ë§™ë‹¤ëŠ” í‘œì‹œë¡œ ì´ê±¸ ì£¼ì§€
 	line "and succeed for"
 
-	para "the both of us."					;±×·³ ³» ¸ò±îÁö ¿­½ÉÈ÷
-	line "So take this, OK?"				;Æ÷±âÇÏÁö ¸»¶ó°í!
+	para "the both of us."					;ê·¸ëŸ¼ ë‚´ ëª«ê¹Œì§€ ì—´ì‹¬íˆ
+	line "So take this, OK?"				;í¬ê¸°í•˜ì§€ ë§ë¼ê³ !
 	done

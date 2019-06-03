@@ -284,7 +284,6 @@ INCLUDE "data/phone/text/kenji_caller.asm"
 INCLUDE "data/phone/text/parry_caller.asm"
 INCLUDE "data/phone/text/erin_caller.asm"
 
-
 SECTION "bank20", ROMX
 
 INCLUDE "engine/overworld/player_movement.asm"
