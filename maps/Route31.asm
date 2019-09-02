@@ -241,8 +241,8 @@ Route31MailRecipientScript:
 	end
 
 ReceivedSpearowMailText:
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "어둠의 동굴에서 부터"
+	next "다른길이 연결되어있어@"
 
 Route31YoungsterScript:
 	jumptextfaceplayer Route31YoungsterText
