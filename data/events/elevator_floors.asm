@@ -20,7 +20,7 @@ ElevatorFloorNames:
 .B4F:  db "지하4층@"
 .B3F:  db "지하3층@"
 .B2F:  db "지하2층@"
-.B1F:  db "지하1층"
+.B1F:  db "지하1층@"
 ._1F:  db "1층@"
 ._2F:  db "2층@"
 ._3F:  db "3층@"
